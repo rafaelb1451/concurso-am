@@ -1,0 +1,53 @@
+package com.concurso.web;
+
+import java.util.List;
+
+public final class Dtos {
+
+    private Dtos() {
+    }
+
+    /** Questao como o aluno ve antes de responder: sem gabarito e sem explicacao. */
+    public record QuestionView(
+            Long id,
+            String materia,
+            String assunto,
+            String origem,
+            String banca,
+            Integer ano,
+            String orgao,
+            String cargo,
+            Integer dificuldade,
+            String enunciado,
+            List<String> alternativas,
+            List<String> concursos
+    ) {
+    }
+
+    public record AnswerRequest(Integer alternativa) {
+    }
+
+    public record AnswerView(
+            boolean acertou,
+            int correta,
+            String gabarito,
+            String explicacao,
+            String fundamento,
+            String assunto
+    ) {
+    }
+
+    public record TopicoView(String materia, String assunto, long total) {
+    }
+
+    /** Quantidade de questoes por concurso (alimenta o seletor da tela). */
+    public record ConcursoView(String id, long total) {
+    }
+
+    public record MateriaStats(String materia, long respondidas, long acertos) {
+    }
+
+    public record DesempenhoView(long respondidas, long acertos, double percentual,
+                                 List<MateriaStats> porMateria) {
+    }
+}

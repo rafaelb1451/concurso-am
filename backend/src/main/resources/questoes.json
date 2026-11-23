@@ -1,0 +1,396 @@
+[
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Coesão e referenciação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Coesão referencial anafórica",
+    "dificuldade": 2,
+    "enunciado": "A fiscalização de trânsito, quando feita por agentes treinados, reduz acidentes. Isso não significa, porém, que a punição baste: a educação no trânsito é a metade invisível do problema.\n\nO termo \"Isso\" retoma a ideia de que:",
+    "alternativas": [
+      "a punição, por si só, resolve o problema do trânsito",
+      "a fiscalização, quando bem executada, diminui o número de acidentes",
+      "a educação no trânsito é dispensável",
+      "os agentes de trânsito não recebem treinamento adequado",
+      "a metade invisível do problema é a punição"
+    ],
+    "correta": 1,
+    "explicacao": "O pronome \"isso\" é anafórico e retoma todo o conteúdo do período anterior: o fato de a fiscalização bem feita reduzir acidentes. As alternativas A e C trazem ideias que o texto nega; D e E não foram afirmadas."
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Orações adverbiais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Orações subordinadas adverbiais reduzidas",
+    "dificuldade": 2,
+    "enunciado": "A fiscalização de trânsito, quando feita por agentes treinados, reduz acidentes.\n\nNo trecho \"quando feita por agentes treinados\", a oração destacada expressa, em relação à principal, ideia de:",
+    "alternativas": ["causa", "finalidade", "condição", "consequência", "concessão"],
+    "correta": 2,
+    "explicacao": "A oração reduzida de particípio equivale a \"se for feita por agentes treinados\", ou seja, estabelece a condição para que a redução de acidentes ocorra. Não há nexo de causa, fim, consequência ou concessão."
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conectivos e coerência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções adversativas",
+    "dificuldade": 1,
+    "enunciado": "Isso não significa, porém, que a punição baste.\n\nA substituição de \"porém\" por conectivo que MANTÉM o sentido original ocorre em:",
+    "alternativas": ["portanto", "todavia", "por conseguinte", "uma vez que", "à medida que"],
+    "correta": 1,
+    "explicacao": "\"Porém\" e \"todavia\" são adversativas: marcam oposição ao que foi dito antes. \"Portanto\" e \"por conseguinte\" expressam conclusão; \"uma vez que\" expressa causa; \"à medida que\" expressa proporção."
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Figuras e efeitos de sentido",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Linguagem figurada",
+    "dificuldade": 2,
+    "enunciado": "A educação no trânsito é a metade invisível do problema.\n\nA expressão destacada produz o efeito de:",
+    "alternativas": [
+      "comprovar estatisticamente a tese defendida",
+      "ironizar a atuação dos agentes de trânsito",
+      "sugerir, por linguagem figurada, que a educação é parte essencial e pouco percebida",
+      "indicar que a educação é menos importante que a fiscalização",
+      "retificar uma informação dada anteriormente"
+    ],
+    "correta": 2,
+    "explicacao": "A metáfora da \"metade invisível\" destaca que a educação, embora fundamental, não é contabilizada nem percebida nas estatísticas de fiscalização. Não há ironia nem hierarquia de importância — o texto afirma justamente o contrário."
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Reescrita e equivalência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equivalência semântica na reescrita",
+    "dificuldade": 3,
+    "enunciado": "Assinale a reescrita que PRESERVA o sentido e a correção gramatical do período: \"A fiscalização de trânsito, quando feita por agentes treinados, reduz acidentes.\"",
+    "alternativas": [
+      "A fiscalização de trânsito reduz acidentes, desde que seja feita por agentes treinados.",
+      "A fiscalização de trânsito reduz acidentes, ainda que seja feita por agentes treinados.",
+      "A fiscalização de trânsito reduz acidentes, porquanto seja feita por agentes treinados.",
+      "A fiscalização de trânsito reduz acidentes, à medida que seja feita por agentes treinados.",
+      "A fiscalização de trânsito reduz acidentes, caso não seja feita por agentes treinados."
+    ],
+    "correta": 0,
+    "explicacao": "\"Desde que\" mantém o valor condicional de \"quando feita\". \"Ainda que\" é concessivo e inverte o sentido; \"porquanto\" e \"à medida que\" não expressam condição; \"caso não\" nega a própria condição."
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Variação percentual composta",
+    "dificuldade": 2,
+    "enunciado": "O preço de um equipamento sofreu aumento de 20% e, em seguida, sobre o novo valor, um desconto de 20%. Em relação ao preço inicial, o preço final é:",
+    "alternativas": ["igual", "4% maior", "4% menor", "20% menor", "2% menor"],
+    "correta": 2,
+    "explicacao": "Partindo de 100: +20% → 120; −20% de 120 = 24, resultando em 96. O preço final é 96% do inicial, portanto 4% menor. Taxas iguais não se anulam porque incidem sobre bases diferentes."
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Proporção e regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Grandezas diretamente proporcionais",
+    "dificuldade": 1,
+    "enunciado": "Oito agentes realizam 40 atendimentos em 5 dias, mantendo o mesmo ritmo de trabalho. Quantos atendimentos 12 agentes realizam em 5 dias?",
+    "alternativas": ["50", "55", "60", "64", "72"],
+    "correta": 2,
+    "explicacao": "Com os dias constantes, a produção é diretamente proporcional ao número de agentes: 8/40 = 12/x → 8x = 480 → x = 60."
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de proposições categóricas",
+    "dificuldade": 2,
+    "enunciado": "A negação lógica da proposição \"Todo policial é honesto\" é:",
+    "alternativas": [
+      "Nenhum policial é honesto",
+      "Todo policial é desonesto",
+      "Algum policial não é honesto",
+      "Algum policial é honesto",
+      "Nenhum honesto é policial"
+    ],
+    "correta": 2,
+    "explicacao": "A negação de \"todo A é B\" é \"existe algum A que não é B\". \"Nenhum\" e \"todo policial é desonesto\" são mais fortes que a negação; \"algum é honesto\" é compatível com a proposição original."
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Probabilidade clássica",
+    "dificuldade": 1,
+    "enunciado": "Uma urna contém 3 bolas vermelhas e 2 bolas azuis, todas idênticas. Retirando-se uma bola ao acaso, a probabilidade de ela ser vermelha é:",
+    "alternativas": ["2/5", "1/2", "3/5", "2/3", "3/2"],
+    "correta": 2,
+    "explicacao": "São 5 bolas no total e 3 vermelhas: P = 3/5 = 60%. A alternativa 3/2 é maior que 1 e não pode representar probabilidade."
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Referências relativas e absolutas",
+    "dificuldade": 1,
+    "enunciado": "No Microsoft Excel, a referência $A$1, ao ser copiada para outra célula, tem a seguinte característica:",
+    "alternativas": [
+      "coluna e linha se ajustam à nova posição",
+      "apenas a coluna se ajusta à nova posição",
+      "apenas a linha se ajusta à nova posição",
+      "coluna e linha permanecem fixas",
+      "a referência é convertida automaticamente em texto"
+    ],
+    "correta": 3,
+    "explicacao": "O símbolo $ fixa a coluna e/ou a linha. Em $A$1 ambos estão travados, então a referência não muda ao copiar. $A1 trava só a coluna e A$1 trava só a linha."
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Golpes de engenharia social",
+    "dificuldade": 1,
+    "enunciado": "Um servidor recebe um e-mail com o logotipo da instituição, pedindo urgência na atualização da senha por meio de um link. A prática descrita é típica de:",
+    "alternativas": ["ransomware", "phishing", "spyware", "ataque de força bruta", "backup incremental"],
+    "correta": 1,
+    "explicacao": "Phishing imita instituições legítimas para induzir a vítima a fornecer dados ou clicar em links maliciosos. Ransomware criptografa dados; spyware monitora a atividade; força bruta testa senhas; backup incremental é rotina de cópia."
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Sistema operacional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atalhos do Windows",
+    "dificuldade": 1,
+    "enunciado": "No Windows 10/11, o atalho Alt+Tab tem a função de:",
+    "alternativas": [
+      "alternar entre as janelas abertas",
+      "fechar a janela ativa",
+      "minimizar todas as janelas",
+      "abrir o Gerenciador de Tarefas",
+      "renomear o arquivo selecionado"
+    ],
+    "correta": 0,
+    "explicacao": "Alt+Tab alterna entre janelas abertas. Fechar a ativa é Alt+F4; minimizar tudo é Win+D; Gerenciador de Tarefas é Ctrl+Shift+Esc; renomear é F2."
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Arquivos e extensões",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Associação de arquivos no Windows",
+    "dificuldade": 1,
+    "enunciado": "No Windows, a extensão de um arquivo tem a função de:",
+    "alternativas": [
+      "indicar o tamanho do arquivo em disco",
+      "identificar o formato e o programa associado para abri-lo",
+      "definir o usuário proprietário do arquivo",
+      "determinar a data de criação do arquivo",
+      "criptografar automaticamente o conteúdo"
+    ],
+    "correta": 1,
+    "explicacao": "A extensão (como .docx ou .pdf) indica o formato e permite ao sistema associar o programa adequado. Tamanho, proprietário e data são metadados, não a extensão."
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "Cabanagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Revoltas regenciais; Cabanagem (1835-1840)",
+    "dificuldade": 2,
+    "enunciado": "A Cabanagem (1835–1840) foi uma revolta social ocorrida na província do Grão-Pará, então responsável pela administração da região amazônica. Entre suas causas, destaca-se:",
+    "alternativas": [
+      "a insatisfação das elites locais com a abertura dos portos",
+      "a miséria e a exclusão da população ribeirinha, somadas às disputas entre grupos políticos locais",
+      "a defesa do retorno do domínio holandês sobre a Amazônia",
+      "a reação à Lei Áurea no período imperial",
+      "o apoio da Inglaterra à independência do Pará"
+    ],
+    "correta": 1,
+    "explicacao": "A Cabanagem combinou desigualdade social extrema — indígenas, mestiços e ribeirinhos em condições precárias — com a disputa entre facções políticas da província. A Lei Áurea é de 1888, muito posterior."
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "Ciclo da borracha",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Economia da borracha na Amazônia",
+    "dificuldade": 2,
+    "enunciado": "O ciclo da borracha provocou grande expansão econômica na Amazônia entre o final do século XIX e o início do XX. A decadência do ciclo, a partir de 1912, deveu-se principalmente:",
+    "alternativas": [
+      "ao esgotamento dos seringais nativos pelas queimadas",
+      "à proibição internacional do comércio de látex brasileiro",
+      "à concorrência da borracha produzida em plantações do sudeste asiático",
+      "ao fim da navegação a vapor no Rio Amazonas",
+      "à migração dos seringueiros para o sudeste do Brasil"
+    ],
+    "correta": 2,
+    "explicacao": "Sementes de seringueira levadas para a Ásia permitiram formar plantações organizadas, com custo menor que o extrativismo amazônico. A produção asiática derrubou os preços e levou à crise do látex na região."
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "Zona Franca de Manaus",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Decreto-Lei nº 288/1967",
+    "dificuldade": 2,
+    "enunciado": "A Zona Franca de Manaus (ZFM) foi instituída em 1967 com o objetivo de:",
+    "alternativas": [
+      "restringir a entrada de produtos importados no Amazonas",
+      "criar um polo industrial, comercial e agropecuário com incentivos fiscais na Amazônia Ocidental",
+      "transferir a capital federal para Manaus",
+      "impedir a instalação de indústrias estrangeiras na região",
+      "transformar o Amazonas em área exclusiva de conservação ambiental"
+    ],
+    "correta": 1,
+    "explicacao": "A ZFM foi criada pelo Decreto-Lei nº 288/1967, no contexto da Operação Amazônia, como área de livre comércio com incentivos fiscais, para desenvolver a Amazônia Ocidental após a crise da borracha."
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "Território e população",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Geografia política do Amazonas",
+    "dificuldade": 1,
+    "enunciado": "Em relação às unidades da federação brasileiras, o Amazonas:",
+    "alternativas": [
+      "é o estado de maior extensão territorial",
+      "é o estado mais populoso da Região Norte",
+      "possui o menor número de municípios do país",
+      "não faz fronteira com nenhum outro país",
+      "está integralmente localizado no hemisfério Norte"
+    ],
+    "correta": 0,
+    "explicacao": "O Amazonas tem cerca de 1,56 milhão de km² e é o maior estado em área. O mais populoso da Região Norte é o Pará; o estado faz fronteira com Venezuela, Colômbia e Peru e é cortado pela linha do Equador."
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "Hidrografia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Bacia Amazônica; encontro das águas",
+    "dificuldade": 1,
+    "enunciado": "O fenômeno do encontro das águas, observado em Manaus, ocorre no encontro dos rios:",
+    "alternativas": ["Amazonas e Madeira", "Negro e Solimões", "Tapajós e Xingu", "Juruá e Purus", "Branco e Negro"],
+    "correta": 1,
+    "explicacao": "O encontro se dá entre o Rio Negro, de águas escuras e ácidas, e o Rio Solimões, de águas barrentas. Diferenças de temperatura, densidade e velocidade impedem a mistura imediata."
+  },
+  {
+    "materia": "Noções de Direito",
+    "assunto": "Segurança pública na Constituição",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 144",
+    "dificuldade": 2,
+    "enunciado": "Segundo o artigo 144 da Constituição Federal, a segurança pública é:",
+    "alternativas": [
+      "dever do Estado, direito e responsabilidade de todos",
+      "atribuição exclusiva das polícias militar e civil",
+      "dever exclusivo da União",
+      "responsabilidade exclusiva dos municípios",
+      "direito do cidadão, sem participação da sociedade"
+    ],
+    "correta": 0,
+    "explicacao": "O caput do art. 144 estabelece que a segurança pública é dever do Estado, direito e responsabilidade de todos, exercida para preservar a ordem pública e a incolumidade das pessoas e do patrimônio."
+  },
+  {
+    "materia": "Noções de Direito",
+    "assunto": "Princípios da Administração Pública",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, caput",
+    "dificuldade": 1,
+    "enunciado": "São princípios expressos da Administração Pública no artigo 37 da Constituição Federal:",
+    "alternativas": [
+      "legalidade, impessoalidade, moralidade, publicidade e eficiência",
+      "legalidade, liberdade, moralidade, participação e eficiência",
+      "hierarquia, impessoalidade, moralidade, publicidade e economicidade",
+      "legalidade, impessoalidade, razoabilidade, transparência e eficácia",
+      "autonomia, eficiência, moralidade, publicidade e proporcionalidade"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 37, caput, enuncia expressamente os princípios LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência. Razoabilidade, proporcionalidade e economicidade são princípios implícitos ou previstos em outras normas."
+  },
+  {
+    "materia": "Processo Penal",
+    "assunto": "Inquérito policial",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 10",
+    "dificuldade": 2,
+    "concursos": ["PC-AM"],
+    "enunciado": "Nos termos do Código de Processo Penal, o inquérito policial deverá ser concluído no prazo de:",
+    "alternativas": [
+      "5 dias, se o indiciado estiver preso, e 15 dias, se solto",
+      "10 dias, se o indiciado estiver preso, e 30 dias, se solto",
+      "15 dias, em qualquer hipótese",
+      "30 dias, se preso, e 60 dias, se solto",
+      "10 dias, em qualquer hipótese"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 10 do CPP fixa 10 dias quando o indiciado está preso e 30 dias quando solto, contados da data da prisão ou da instauração do inquérito. Prazos diferentes podem ser previstos em leis especiais."
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Crimes contra a Administração Pública",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 312",
+    "dificuldade": 2,
+    "concursos": ["PC-AM"],
+    "enunciado": "O funcionário público que se apropria de dinheiro de que tem a posse em razão do cargo pratica o crime de:",
+    "alternativas": [
+      "concussão",
+      "peculato",
+      "corrupção passiva",
+      "prevaricação",
+      "emprego irregular de verbas públicas"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 312 do Código Penal define peculato como apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo. Concussão é exigir vantagem indevida; corrupção passiva é solicitar ou receber; prevaricação é deixar de praticar ato de ofício para satisfazer interesse pessoal."
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 78",
+    "dificuldade": 2,
+    "concursos": ["PM-AM"],
+    "enunciado": "Segundo o Código Tributário Nacional (art. 78), considera-se poder de polícia a atividade da administração pública que:",
+    "alternativas": [
+      "aplica sanções penais aos infratores da lei",
+      "disciplina o exercício de direitos e liberdades, limitando-os em benefício do interesse público",
+      "julga recursos administrativos interpostos pelos cidadãos",
+      "elabora as leis de ordem pública",
+      "presta serviços de segurança privada contratada"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 78 do CTN define poder de polícia como a atividade administrativa que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão de interesse público. Aplicar sanções penais é função do Judiciário; legislar é função do Legislativo."
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Militares dos Estados",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 42",
+    "dificuldade": 1,
+    "concursos": ["PM-AM"],
+    "enunciado": "Nos termos da Constituição Federal, os membros das Polícias Militares e dos Corpos de Bombeiros Militares são considerados:",
+    "alternativas": [
+      "servidores públicos civis",
+      "militares dos Estados, do Distrito Federal e dos Territórios",
+      "agentes políticos federais",
+      "empregados públicos celetistas",
+      "servidores municipais"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 42 da Constituição dispõe que os membros das Polícias Militares e dos Corpos de Bombeiros Militares, instituições organizadas com base na hierarquia e disciplina, são militares dos Estados, do Distrito Federal e dos Territórios."
+  }
+]

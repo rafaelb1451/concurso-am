@@ -1,0 +1,20 @@
+# build
+target/
+dist/
+node_modules/
+
+# dados locais (H2) e logs
+data/
+*.log
+
+# artefatos de PDF/extração temporários
+provas/raw/
+tmp/
+
+# ide
+.idea/
+.vscode/
+*.iml
+
+# os
+.DS_Store
