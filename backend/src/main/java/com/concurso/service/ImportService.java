@@ -169,13 +169,6 @@ public class ImportService {
                 return prefixo + "explicacao obrigatoria (questao autoral)";
             }
         }
-        if (p.verificadoEm() != null && !p.verificadoEm().isBlank()) {
-            try {
-                java.time.LocalDate.parse(p.verificadoEm());
-            } catch (java.time.format.DateTimeParseException e) {
-                return prefixo + "verificadoEm invalido (use AAAA-MM-DD)";
-            }
-        }
         if (p.concursos() != null) {
             for (String concurso : p.concursos()) {
                 if (!Concursos.valido(concurso)) {

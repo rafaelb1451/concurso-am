@@ -30,3 +30,12 @@ tmp/
 
 # os
 .DS_Store
+
+# testes de frontend
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/.playwright/
+
+# browsers baixados para o E2E local
+frontend/.playwright-browsers/

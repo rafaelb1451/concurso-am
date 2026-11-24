@@ -36,6 +36,28 @@ Abra <http://localhost:5173>.
 O banco é populado automaticamente na primeira execução a partir de
 `backend/src/main/resources/questoes.json` — o mesmo formato usado para importar lotes novos.
 
+## Testes
+
+```bash
+# backend: unitários, JPA (H2) e integração HTTP dos controllers
+cd backend && mvn test
+
+# frontend: Vitest + Testing Library (API, fluxo de estudo, simulado e tutor)
+cd frontend && npm ci && npm test
+```
+
+O E2E usa Playwright/Chromium contra o app rodando. Suba o app (jar empacotado ou
+`npm run dev` + backend) e rode:
+
+```bash
+cd frontend
+npx playwright install chromium
+E2E_BASE_URL=http://127.0.0.1:5173 npm run test:e2e
+```
+
+Cobertura atual: 41 testes de backend, 11 de frontend e 3 fluxos E2E (sessão de questões,
+simulado com cronômetro e troca de concurso).
+
 ## Modelo de dados
 
 ```

@@ -80,6 +80,21 @@ class SimuladoServiceTest {
         verify(attempts, times(2)).save(any());
     }
 
+    @Test
+    void corrigirTrataQuestaoEmBrancoComoErroRegistrado() {
+        Question q = question(1L, "Direito Penal");
+        when(questions.findAllById(any())).thenReturn(List.of(q));
+
+        Dtos.CorrecaoView correcao = service.corrigir(new Dtos.CorrecaoRequest("PM-AM",
+                List.of(new Dtos.RespostaSimulado(1L, null))));
+
+        assertEquals(0, correcao.acertos());
+        assertEquals(1, correcao.total());
+        assertEquals(0, correcao.porMateria().get(0).acertos());
+        verify(attempts).save(org.mockito.ArgumentMatchers.argThat(
+                tentativa -> tentativa.getEscolhida() == -1 && !tentativa.isAcertou()));
+    }
+
     private static Question question(Long id, String materia) {
         Question question = new Question();
         question.setId(id);

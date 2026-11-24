@@ -145,6 +145,40 @@ class ApiIntegrationTest {
         assertEquals(3, relatorio.get("erros").size());
     }
 
+    @Test
+    void errosHttpSaoPadronizadosESemDetalheInterno() throws Exception {
+        HttpResponse<String> inexistente = chamar("GET", "/api/rota-inexistente", null);
+        assertEquals(404, inexistente.statusCode());
+        assertTrue(inexistente.body().contains("Recurso não encontrado"));
+
+        HttpResponse<String> metodoErrado = chamar("POST", "/api/concursos", "{}");
+        assertEquals(405, metodoErrado.statusCode());
+        assertTrue(metodoErrado.body().contains("Método não suportado"));
+
+        HttpResponse<String> malformado = chamar("POST", "/api/importar", "{");
+        assertEquals(400, malformado.statusCode());
+        assertTrue(malformado.body().contains("Corpo da requisição inválido"));
+    }
+
+    @Test
+    void quantidadeDeQuestoesEhLimitadaNoServidor() throws Exception {
+        HttpResponse<String> zero = chamar("GET", "/api/questoes?quantidade=0", null);
+        assertEquals(200, zero.statusCode());
+        assertEquals(1, mapper.readTree(zero.body()).size());
+
+        HttpResponse<String> enorme = chamar("GET", "/api/questoes?quantidade=999", null);
+        assertEquals(200, enorme.statusCode());
+        JsonNode concursos = mapper.readTree(chamar("GET", "/api/concursos", null).body());
+        long total = 0;
+        for (JsonNode concurso : concursos) {
+            if ("TODOS".equals(concurso.get("id").asString())) {
+                total = concurso.get("total").asLong();
+            }
+        }
+        assertEquals(Math.min(50, total), mapper.readTree(enorme.body()).size(),
+                "o teto por requisicao e' 50");
+    }
+
     private HttpResponse<String> chamar(String metodo, String caminho, String corpo) throws Exception {
         HttpRequest.BodyPublisher publisher = corpo == null
                 ? HttpRequest.BodyPublishers.noBody()
