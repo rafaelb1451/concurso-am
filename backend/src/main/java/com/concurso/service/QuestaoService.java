@@ -178,6 +178,8 @@ public class QuestaoService {
                 q.getDificuldade(),
                 q.getEnunciado(),
                 List.copyOf(q.getAlternativas()),
-                new ArrayList<>(new LinkedHashSet<>(q.getConcursos())));
+                new ArrayList<>(new LinkedHashSet<>(q.getConcursos())),
+                q.getHash(),
+                q.getExplicacao() != null && !q.getExplicacao().isBlank());
     }
 }

@@ -20,7 +20,9 @@ public final class Dtos {
             Integer dificuldade,
             String enunciado,
             List<String> alternativas,
-            List<String> concursos
+            List<String> concursos,
+            String hash,
+            boolean temExplicacao
     ) {
     }
 
@@ -54,5 +56,12 @@ public final class Dtos {
 
     /** Resultado de um lote de importacao. */
     public record ImportReport(int recebidas, int importadas, int ignoradas, List<String> erros) {
+    }
+
+    /** Comentario a anexar a uma questao ja existente, identificada pelo hash do enunciado. */
+    public record ExplicacaoPayload(String hash, String explicacao, String fundamento) {
+    }
+
+    public record ExplicacaoReport(int recebidas, int atualizadas, List<String> naoEncontradas) {
     }
 }

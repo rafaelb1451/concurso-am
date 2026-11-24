@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -63,6 +64,45 @@ public class ImportService {
         questions.saveAll(validas);
         int ignoradas = lote.size() - validas.size();
         return new Dtos.ImportReport(lote.size(), validas.size(), ignoradas, erros);
+    }
+
+    /**
+     * Anexa comentarios a questoes ja importadas. A identificacao e' pelo hash do enunciado
+     * normalizado — o mesmo usado na deduplicacao — para nao depender do id gerado.
+     */
+    @Transactional
+    public Dtos.ExplicacaoReport atualizarExplicacoes(List<Dtos.ExplicacaoPayload> itens) {
+        if (itens == null || itens.isEmpty()) {
+            return new Dtos.ExplicacaoReport(0, 0, List.of());
+        }
+        Map<String, Question> porHash = new java.util.HashMap<>();
+        for (Question q : questions.findAll()) {
+            if (q.getHash() != null) {
+                porHash.put(q.getHash(), q);
+            }
+        }
+        int atualizadas = 0;
+        List<String> naoEncontradas = new ArrayList<>();
+        for (Dtos.ExplicacaoPayload item : itens) {
+            if (item.hash() == null || item.hash().isBlank()) {
+                naoEncontradas.add("(hash vazio)");
+                continue;
+            }
+            Question q = porHash.get(item.hash());
+            if (q == null) {
+                naoEncontradas.add(item.hash());
+                continue;
+            }
+            q.setExplicacao(item.explicacao());
+            if (item.fundamento() != null && !item.fundamento().isBlank()) {
+                q.setFundamento(item.fundamento());
+            }
+            atualizadas++;
+        }
+        questions.saveAll(porHash.values().stream()
+                .filter(q -> q.getExplicacao() != null)
+                .toList());
+        return new Dtos.ExplicacaoReport(itens.size(), atualizadas, naoEncontradas);
     }
 
     private String validar(QuestionPayload p, int linha) {

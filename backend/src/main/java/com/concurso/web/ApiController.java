@@ -62,6 +62,12 @@ public class ApiController {
         return importService.importar(lote);
     }
 
+    /** Anexa comentarios a questoes existentes (identificadas pelo hash do enunciado). */
+    @PostMapping("/explicacoes")
+    public Dtos.ExplicacaoReport explicacoes(@RequestBody java.util.List<Dtos.ExplicacaoPayload> itens) {
+        return importService.atualizarExplicacoes(itens);
+    }
+
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<Map<String, String>> erro(IllegalArgumentException ex) {
         return ResponseEntity.badRequest().body(Map.of("message", ex.getMessage()));
