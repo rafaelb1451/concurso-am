@@ -74,7 +74,9 @@ public class QuestaoService {
                 questao.getExplicacao(),
                 questao.getFundamento(),
                 questao.getAssunto(),
-                questao.getOrigem().name());
+                questao.getOrigem().name(),
+                questao.getPrecedente(),
+                questao.getVerificadoEm());
     }
 
     @Transactional(readOnly = true)
@@ -180,6 +182,8 @@ public class QuestaoService {
                 List.copyOf(q.getAlternativas()),
                 new ArrayList<>(new LinkedHashSet<>(q.getConcursos())),
                 q.getHash(),
-                q.getExplicacao() != null && !q.getExplicacao().isBlank());
+                q.getExplicacao() != null && !q.getExplicacao().isBlank(),
+                q.getPrecedente(),
+                q.getVerificadoEm());
     }
 }

@@ -54,8 +54,19 @@ public class Question {
     private String cargo;
 
     /** Base da resposta: artigo de lei, sumula ou item do edital. */
-    @Column(length = 300)
+    @Column(columnDefinition = "TEXT")
     private String fundamento;
+
+    /**
+     * Precedente de maior hierarquia que resolve o ponto: sumula vinculante, tese de
+     * repercussao geral ou de repetitivo, sumula do STF/STJ/TJ. Prevalece sobre o texto legal.
+     */
+    @Column(columnDefinition = "TEXT")
+    private String precedente;
+
+    /** Data em que o comentario foi conferido contra a legislacao vigente. */
+    @Column(name = "verificado_em")
+    private java.time.LocalDate verificadoEm;
 
     /** 1 = facil, 2 = medio, 3 = dificil. */
     private Integer dificuldade = 2;
@@ -139,4 +150,10 @@ public class Question {
 
     public String getHash() { return hash; }
     public void setHash(String hash) { this.hash = hash; }
+
+    public String getPrecedente() { return precedente; }
+    public void setPrecedente(String precedente) { this.precedente = precedente; }
+
+    public java.time.LocalDate getVerificadoEm() { return verificadoEm; }
+    public void setVerificadoEm(java.time.LocalDate verificadoEm) { this.verificadoEm = verificadoEm; }
 }

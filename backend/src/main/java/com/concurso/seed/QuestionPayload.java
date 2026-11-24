@@ -30,7 +30,9 @@ public record QuestionPayload(
         List<String> alternativas,
         Integer correta,
         String explicacao,
-        List<String> concursos
+        List<String> concursos,
+        String precedente,
+        String verificadoEm
 ) {
 
     public Question toEntity() {
@@ -52,6 +54,10 @@ public record QuestionPayload(
         q.setConcursos(new LinkedHashSet<>(
                 concursos == null || concursos.isEmpty() ? Concursos.TODOS : concursos));
         q.setHash(hashDe(enunciado));
+        q.setPrecedente(precedente);
+        if (verificadoEm != null && !verificadoEm.isBlank()) {
+            q.setVerificadoEm(java.time.LocalDate.parse(verificadoEm));
+        }
         return q;
     }
 

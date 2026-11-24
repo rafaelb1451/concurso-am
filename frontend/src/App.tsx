@@ -410,6 +410,16 @@ function Estudo(props: {
               <strong>Fundamento:</strong> {resposta.fundamento}
             </p>
           ) : null}
+          {resposta.precedente ? (
+            <p className="mt-1 text-xs text-ink-500">
+              <strong>Precedente:</strong> {resposta.precedente}
+            </p>
+          ) : null}
+          {resposta.verificadoEm ? (
+            <p className="mt-1 text-[11px] text-ink-400">
+              Legislação conferida em {resposta.verificadoEm.split('-').reverse().join('/')}
+            </p>
+          ) : null}
           <button
             onClick={props.onProxima}
             className="mt-4 w-full rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-700"

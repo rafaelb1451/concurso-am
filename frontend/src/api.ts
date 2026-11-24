@@ -41,6 +41,8 @@ export interface Question {
   enunciado: string
   alternativas: string[]
   concursos: string[]
+  precedente: string | null
+  verificadoEm: string | null
 }
 
 export interface Answer {
@@ -51,6 +53,8 @@ export interface Answer {
   fundamento: string | null
   assunto: string
   origem: 'PROVA' | 'AUTORAL'
+  precedente: string | null
+  verificadoEm: string | null
 }
 
 export interface Topico {

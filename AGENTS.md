@@ -57,6 +57,25 @@ frontend/src/App.tsx, api.ts, index.css
 - Próximo passo combinado: extrair as provas reais da FGV (PM-AM 2022, PC-AM 2021) para calibrar
   as autorais lado a lado.
 
+## Critérios jurídicos (obrigatório — ver `docs/criterios-juridicos.md`)
+
+**O alvo são cargos não privativos do Direito** (Soldado PM-AM, Investigador PC-AM): a FGV cobra
+**a letra da lei e do edital**. O eixo do comentário é sempre o `fundamento` literal (artigo,
+inciso, parágrafo, item do edital).
+
+- `precedente` é **complemento opcional**, usado só quando: a questão invoca jurisprudência; o
+  texto legal é omisso/ambíguo; ou houve alteração/divergência que muda a resposta hoje.
+- Não transformar questão de lei seca em questão de jurisprudência — desalinha da banca.
+- Hierarquia (CF → STF → STJ → TJ → lei → decreto → doutrina) serve para **conferir** se o
+  dispositivo foi alterado ou superado, não para substituir a lei como fonte do comentário.
+- `verificadoEm` = data da conferência contra a legislação vigente.
+- **Proibido**: citar artigo/súmula/tema sem certeza; citar súmula cancelada ou superada; usar
+  doutrina como lei.
+- Questão cujo gabarito ficou obsoleto por mudança de lei não entra sem aviso explícito no
+  comentário. Exemplo real já tratado: progressão de regime (art. 112 da LEP) — alterado pela
+  Lei 14.843/2024 e reescrito pela **Lei 15.402/2026** (1/6 como regra, exceções de 20/25/30%,
+  incisos IV a X vetados).
+
 ## Armadilhas do ambiente
 
 - **Matar o java à força deixa o H2 read-only** na próxima subida → apagar `backend/data/*` e reiniciar.

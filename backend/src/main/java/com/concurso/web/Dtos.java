@@ -22,7 +22,9 @@ public final class Dtos {
             List<String> alternativas,
             List<String> concursos,
             String hash,
-            boolean temExplicacao
+            boolean temExplicacao,
+            String precedente,
+            java.time.LocalDate verificadoEm
     ) {
     }
 
@@ -36,7 +38,9 @@ public final class Dtos {
             String explicacao,
             String fundamento,
             String assunto,
-            String origem
+            String origem,
+            String precedente,
+            java.time.LocalDate verificadoEm
     ) {
     }
 
@@ -59,7 +63,7 @@ public final class Dtos {
     }
 
     /** Comentario a anexar a uma questao ja existente, identificada pelo hash do enunciado. */
-    public record ExplicacaoPayload(String hash, String explicacao, String fundamento) {
+    public record ExplicacaoPayload(String hash, String explicacao, String fundamento, String precedente) {
     }
 
     public record ExplicacaoReport(int recebidas, int atualizadas, List<String> naoEncontradas) {

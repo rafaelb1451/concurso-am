@@ -97,6 +97,10 @@ public class ImportService {
             if (item.fundamento() != null && !item.fundamento().isBlank()) {
                 q.setFundamento(item.fundamento());
             }
+            if (item.precedente() != null && !item.precedente().isBlank()) {
+                q.setPrecedente(item.precedente());
+            }
+            q.setVerificadoEm(java.time.LocalDate.now());
             atualizadas++;
         }
         questions.saveAll(porHash.values().stream()
