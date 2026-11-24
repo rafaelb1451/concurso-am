@@ -8,7 +8,10 @@ data/
 *.log
 
 # artefatos de PDF/extração temporários
+# (os cadernos são de terceiros e o texto e' derivado: ficam fora do repositorio)
 provas/raw/
+backend/provas/raw/
+backend/provas/*.pdf
 tmp/
 
 # ide

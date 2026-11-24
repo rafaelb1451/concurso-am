@@ -89,7 +89,11 @@ public class ImportService {
             return prefixo + "gabarito (correta) fora do intervalo das alternativas";
         }
         if (p.explicacao() == null || p.explicacao().isBlank()) {
-            return prefixo + "explicacao obrigatoria";
+            // Questao de prova oficial entra sem comentario; o comentario nasce depois.
+            boolean ehProva = p.origem() != null && "PROVA".equalsIgnoreCase(p.origem());
+            if (!ehProva) {
+                return prefixo + "explicacao obrigatoria (questao autoral)";
+            }
         }
         if (p.concursos() != null) {
             for (String concurso : p.concursos()) {

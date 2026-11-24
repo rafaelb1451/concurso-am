@@ -73,7 +73,8 @@ public class QuestaoService {
                 letra(questao.getCorreta()),
                 questao.getExplicacao(),
                 questao.getFundamento(),
-                questao.getAssunto());
+                questao.getAssunto(),
+                questao.getOrigem().name());
     }
 
     @Transactional(readOnly = true)

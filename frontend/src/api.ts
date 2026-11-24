@@ -47,9 +47,10 @@ export interface Answer {
   acertou: boolean
   correta: number
   gabarito: string
-  explicacao: string
+  explicacao: string | null
   fundamento: string | null
   assunto: string
+  origem: 'PROVA' | 'AUTORAL'
 }
 
 export interface Topico {

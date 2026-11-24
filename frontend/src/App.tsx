@@ -400,7 +400,10 @@ function Estudo(props: {
             {resposta.acertou ? 'Você acertou' : `Você errou — gabarito ${resposta.gabarito}`}
           </p>
           <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-ink-800">
-            {resposta.explicacao}
+            {resposta.explicacao ||
+              (resposta.origem === 'PROVA'
+                ? 'Questão de prova oficial — o comentário será adicionado em breve.'
+                : 'Sem comentário cadastrado para esta questão.')}
           </p>
           {resposta.fundamento ? (
             <p className="mt-3 text-xs text-ink-500">
