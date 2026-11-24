@@ -35,7 +35,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "Juros simples: J = C.i.t",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "Uma unidade recebeu um repasse de R$ 12.000,00 aplicado a juros simples de 2,5% ao mês. Após 8 meses, o total de juros produzidos será de:",
     "alternativas": [
       "R$ 2.400,00",
@@ -197,7 +197,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "Regra de três simples com velocidade constante (proporcionalidade direta)",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "Um veículo percorreu 450 km em 6 horas, mantendo velocidade constante. Nas mesmas condições, quantos minutos ele levará para percorrer 675 km?",
     "alternativas": [
       "540 minutos",
@@ -521,7 +521,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "Tautologia: proposição verdadeira em todas as linhas da tabela-verdade",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "Qual das proposições abaixo é uma tautologia?",
     "alternativas": [
       "P e não P (P ∧ ¬P)",
@@ -710,7 +710,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "Probabilidade com reposição: eventos independentes, P = p1.p2",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "Uma urna contém 4 fichas vermelhas e 6 fichas brancas, todas idênticas. Retiram-se, ao acaso, duas fichas, com reposição da primeira antes da segunda retirada. A probabilidade de que as duas sejam vermelhas é de:",
     "alternativas": [
       "4%",
@@ -872,7 +872,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "MMC de três números: menor múltiplo comum",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "Um material de consumo chega ao almoxarifado em caixas fechadas de 12, 15 ou 20 unidades, conforme o fornecedor. Para distribuir as unidades sem abrir nenhuma caixa e sem sobrar unidades, a menor quantidade de unidades que pode ser adquirida é:",
     "alternativas": [
       "60",
@@ -1061,7 +1061,7 @@
     "orgao": null,
     "cargo": null,
     "fundamento": "Leitura de gráfico: participação percentual (parte/total)",
-    "dificuldade": 2,
+    "dificuldade": 1,
     "enunciado": "O gráfico de colunas mostra os gastos mensais de uma unidade policial: Combustível R$ 24.000,00; Manutenção R$ 18.000,00; Pessoal R$ 90.000,00; Outros R$ 18.000,00. A participação percentual do gasto com combustível no total é de:",
     "alternativas": [
       "12%",
