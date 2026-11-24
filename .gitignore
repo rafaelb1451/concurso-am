@@ -23,6 +23,10 @@ backend/provas/raw/
 backend/provas/*.pdf
 tmp/
 
+# python (scripts de extração)
+__pycache__/
+*.pyc
+
 # ide
 .idea/
 .vscode/
