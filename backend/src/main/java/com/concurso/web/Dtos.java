@@ -68,4 +68,36 @@ public final class Dtos {
 
     public record ExplicacaoReport(int recebidas, int atualizadas, List<String> naoEncontradas) {
     }
+
+    // ---------- tutor (chat) ----------
+
+    /** Contexto da questao que o tutor recebe para responder com precisao. */
+    public record ContextoQuestao(
+            String materia,
+            String assunto,
+            String enunciado,
+            List<String> alternativas,
+            String gabarito,
+            String alternativaAluno,
+            Boolean acertou,
+            String fundamento,
+            String explicacao
+    ) {
+    }
+
+    public record ChatMensagem(String role, String content) {
+    }
+
+    public record ChatRequest(List<ChatMensagem> mensagens, ContextoQuestao contexto) {
+    }
+
+    public record ChatResposta(String resposta) {
+    }
+
+    /** Estado da configuracao da chave (nunca devolve a chave). */
+    public record ConfigStatus(boolean configurado, String modelo) {
+    }
+
+    public record ChaveRequest(String apiKey) {
+    }
 }

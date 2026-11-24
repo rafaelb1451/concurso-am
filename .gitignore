@@ -7,6 +7,10 @@ node_modules/
 data/
 *.log
 
+# segredos (chave da DeepSeek gravada pela tela de configuracao)
+segredos/
+backend/segredos/
+
 # artefatos de PDF/extração temporários
 # (os cadernos são de terceiros e o texto e' derivado: ficam fora do repositorio)
 provas/raw/

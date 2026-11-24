@@ -89,4 +89,32 @@ export const api = {
   responder: (id: number, alternativa: number) =>
     post<Answer>(`/questoes/${id}/responder`, { alternativa }),
   desempenho: (concurso?: string) => get<Desempenho>(`/desempenho${qs({ concurso })}`),
+
+  // tutor (chat)
+  configDeepseek: () => get<ConfigStatus>('/config/deepseek'),
+  salvarChave: (apiKey: string) => post<ConfigStatus>('/config/deepseek', { apiKey }),
+  chat: (mensagens: ChatMensagem[], contexto: ContextoQuestao | null) =>
+    post<{ resposta: string }>('/chat', { mensagens, contexto }),
+}
+
+export interface ChatMensagem {
+  role: 'user' | 'assistant'
+  content: string
+}
+
+export interface ContextoQuestao {
+  materia: string
+  assunto: string
+  enunciado: string
+  alternativas: string[]
+  gabarito: string | null
+  alternativaAluno: string | null
+  acertou: boolean | null
+  fundamento: string | null
+  explicacao: string | null
+}
+
+export interface ConfigStatus {
+  configurado: boolean
+  modelo: string
 }

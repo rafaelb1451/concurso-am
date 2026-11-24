@@ -46,6 +46,16 @@ frontend/src/App.tsx, api.ts, index.css
 
 `GET /api/concursos` · `GET /api/topicos?concurso=` · `GET /api/questoes?concurso=&materia=&assunto=&quantidade=`
 · `POST /api/questoes/{id}/responder` · `GET /api/desempenho?concurso=`
+· `POST /api/importar` · `POST /api/explicacoes`
+· `GET|POST /api/config/deepseek` · `POST /api/chat` (tutor)
+
+## Tutor (aba Fixação)
+
+`POST /api/chat` recebe `{mensagens, contexto}` e chama `https://api.deepseek.com/chat/completions`
+(modelo `deepseek-chat`) com o contexto da questão atual — o tutor responde sobre ELA, não em
+genérico. A chave é lida de `DEEPSEEK_API_KEY` ou do arquivo `backend/segredos/deepseek.key`
+(ignorado pelo git; o aluno cola na tela de configuração da aba Fixação). O prompt de sistema
+proíbe inventar artigo/súmula e mantém o foco em lei seca.
 
 ## Decisões de produto (não mudar sem combinar)
 

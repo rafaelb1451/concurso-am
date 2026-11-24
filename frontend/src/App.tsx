@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { api, type Answer, type Concurso, type Desempenho, type Question, type Topico } from './api'
+import Fixacao from './Fixacao'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
@@ -10,6 +11,7 @@ export default function App() {
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
   const [concursos, setConcursos] = useState<Concurso[]>([])
   const [concurso, setConcurso] = useState('TODOS')
+  const [aba, setAba] = useState<'treino' | 'fixacao'>('treino')
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
 
@@ -134,6 +136,21 @@ export default function App() {
               PM-AM · PC-AM
             </p>
             <h1 className="text-xl font-bold text-ink-900">Banco de questões</h1>
+            <div className="mt-2 flex gap-1">
+              {(['treino', 'fixacao'] as const).map((a) => (
+                <button
+                  key={a}
+                  onClick={() => setAba(a)}
+                  className={
+                    aba === a
+                      ? 'rounded-lg bg-brand-600 px-3 py-1 text-xs font-semibold text-white'
+                      : 'rounded-lg px-3 py-1 text-xs font-semibold text-ink-500 transition hover:bg-ink-50 hover:text-ink-800'
+                  }
+                >
+                  {a === 'treino' ? 'Treino' : 'Fixação + tutor'}
+                </button>
+              ))}
+            </div>
           </div>
           {desempenho ? (
             <div className="flex gap-4 text-center">
@@ -145,7 +162,9 @@ export default function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-4xl px-4 py-6">
+      <main
+        className={`mx-auto px-4 py-6 ${aba === 'fixacao' ? 'max-w-6xl' : 'max-w-4xl'}`}
+      >
         {erro ? (
           <p className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
             {erro}
@@ -175,7 +194,9 @@ export default function App() {
           })}
         </div>
 
-        {fase === 'inicio' ? (
+        {aba === 'fixacao' ? <Fixacao concurso={concurso} /> : null}
+
+        {aba === 'treino' && fase === 'inicio' ? (
           <Inicio
             materias={materias}
             assuntos={assuntos}
@@ -194,7 +215,7 @@ export default function App() {
           />
         ) : null}
 
-        {fase === 'estudando' && atual ? (
+        {aba === 'treino' && fase === 'estudando' && atual ? (
           <Estudo
             questao={atual}
             indice={indice}
@@ -206,7 +227,7 @@ export default function App() {
           />
         ) : null}
 
-        {fase === 'fim' ? (
+        {aba === 'treino' && fase === 'fim' ? (
           <Fim
             acertos={acertos}
             total={sessao.length}
