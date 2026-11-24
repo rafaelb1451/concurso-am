@@ -167,7 +167,7 @@ public class QuestaoService {
         return String.valueOf((char) ('A' + indice));
     }
 
-    private static Dtos.QuestionView toView(Question q) {
+    static Dtos.QuestionView toView(Question q) {
         return new Dtos.QuestionView(
                 q.getId(),
                 q.getMateria(),

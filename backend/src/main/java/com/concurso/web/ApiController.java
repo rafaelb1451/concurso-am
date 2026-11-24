@@ -20,11 +20,14 @@ public class ApiController {
 
     private final QuestaoService questoes;
     private final com.concurso.service.ImportService importService;
+    private final com.concurso.service.SimuladoService simuladoService;
 
     public ApiController(QuestaoService questoes,
-                         com.concurso.service.ImportService importService) {
+                         com.concurso.service.ImportService importService,
+                         com.concurso.service.SimuladoService simuladoService) {
         this.questoes = questoes;
         this.importService = importService;
+        this.simuladoService = simuladoService;
     }
 
     @GetMapping("/concursos")
@@ -66,6 +69,18 @@ public class ApiController {
     @PostMapping("/explicacoes")
     public Dtos.ExplicacaoReport explicacoes(@RequestBody java.util.List<Dtos.ExplicacaoPayload> itens) {
         return importService.atualizarExplicacoes(itens);
+    }
+
+    /** Monta um simulado com a distribuição de matérias do caderno da banca. */
+    @GetMapping("/simulado")
+    public Dtos.SimuladoView simulado(@RequestParam(defaultValue = "PM-AM") String concurso) {
+        return simuladoService.montar(concurso);
+    }
+
+    /** Corrige o simulado no fim: registra as tentativas e devolve gabaritos e desempenho. */
+    @PostMapping("/simulado/corrigir")
+    public Dtos.CorrecaoView corrigirSimulado(@RequestBody Dtos.CorrecaoRequest request) {
+        return simuladoService.corrigir(request);
     }
 
     @ExceptionHandler(IllegalArgumentException.class)

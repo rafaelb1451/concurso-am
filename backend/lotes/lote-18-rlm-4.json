@@ -1,0 +1,1082 @@
+[
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Juros compostos: M = C.(1 + i)^n, com capitalização mensal",
+    "dificuldade": 3,
+    "enunciado": "Um policial aplicou R$ 8.000,00 a juros compostos de 10% ao mês durante 2 meses. Ao final desse período, o montante resgatado foi de:",
+    "alternativas": [
+      "R$ 9.600,00",
+      "R$ 9.720,00",
+      "R$ 9.680,00",
+      "R$ 9.800,00",
+      "R$ 10.000,00"
+    ],
+    "correta": 2,
+    "explicacao": "M = C.(1 + i)^n = 8.000 x (1,10)^2 = 8.000 x 1,21 = R$ 9.680,00, com juros de R$ 1.680,00. A alternativa A (R$ 9.600,00) é o resultado de juros simples (8.000 x 0,10 x 2 = R$ 1.600,00 de juros). A alternativa D (R$ 9.800,00) soma 10% do capital inicial em cada mês, sem cobrar juros sobre os juros do 1º mês.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Juros simples: J = C.i.t",
+    "dificuldade": 2,
+    "enunciado": "Uma unidade recebeu um repasse de R$ 12.000,00 aplicado a juros simples de 2,5% ao mês. Após 8 meses, o total de juros produzidos será de:",
+    "alternativas": [
+      "R$ 2.400,00",
+      "R$ 2.160,00",
+      "R$ 2.880,00",
+      "R$ 3.000,00",
+      "R$ 2.200,00"
+    ],
+    "correta": 0,
+    "explicacao": "J = C.i.t = 12.000 x 0,025 x 8 = R$ 2.400,00. A alternativa B (R$ 2.160,00) usa a taxa de 2,25% ao mês, e a C (R$ 2.880,00) usa 3% ao mês; nenhuma delas corresponde à taxa de 2,5% informada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Acréscimos e descontos sucessivos: fatores multiplicativos (1 + i) e (1 - i)",
+    "dificuldade": 3,
+    "enunciado": "Um rádio transmissor foi comprado por R$ 480,00. O fornecedor aplicou um aumento de 25% sobre esse valor e, em seguida, concedeu um desconto de 20% sobre o preço já aumentado. O preço final pago foi de:",
+    "alternativas": [
+      "R$ 504,00",
+      "R$ 600,00",
+      "R$ 384,00",
+      "R$ 480,00",
+      "R$ 576,00"
+    ],
+    "correta": 3,
+    "explicacao": "480 x 1,25 = R$ 600,00 (com o aumento) e 600 x 0,80 = R$ 480,00 (com o desconto): o preço voltou ao valor inicial. A alternativa A (R$ 504,00) soma as taxas (+25% - 20% = +5%), pois os percentuais incidem sobre bases diferentes; a B (R$ 600,00) para no aumento, e a C (R$ 384,00) aplica o desconto sobre o preço inicial, não sobre o preço aumentado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Variação percentual acumulada: produto dos fatores (1 + i1).(1 + i2)",
+    "dificuldade": 2,
+    "enunciado": "O efetivo de uma companhia cresceu 20% em um ano e, no ano seguinte, cresceu mais 25%. Nesse período de dois anos, o crescimento acumulado do efetivo foi de:",
+    "alternativas": [
+      "45%",
+      "50%",
+      "48%",
+      "40%",
+      "55%"
+    ],
+    "correta": 1,
+    "explicacao": "Fatores multiplicativos: 1,20 x 1,25 = 1,50, ou seja, acréscimo de 50% sobre o efetivo inicial. A alternativa A (45%) soma as taxas (20% + 25%), erro que ignora a incidência do segundo aumento sobre o efetivo já aumentado; a C (48%) aplicaria 20% e depois 25% sobre o total, mas descontando parte da base de cálculo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Desconto percentual: V = P.(1 - i); obtenção do preço original (operação inversa)",
+    "dificuldade": 3,
+    "enunciado": "Um colete balístico foi vendido por R$ 1.020,00, valor já obtido após um desconto de 15% sobre o preço de tabela. O preço de tabela do colete era de:",
+    "alternativas": [
+      "R$ 1.173,00",
+      "R$ 1.224,00",
+      "R$ 1.150,00",
+      "R$ 1.275,00",
+      "R$ 1.200,00"
+    ],
+    "correta": 4,
+    "explicacao": "Preço de tabela P: P x 0,85 = 1.020, logo P = 1.020 / 0,85 = R$ 1.200,00. A alternativa A (R$ 1.173,00) aplica 15% sobre o valor pago (1.020 x 1,15), confundindo desconto com aumento; a B (R$ 1.224,00) aplica 20% ao valor pago.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regra de três composta com grandezas diretamente proporcionais (produtividade constante)",
+    "dificuldade": 3,
+    "enunciado": "Quinze policiais, trabalhando 8 horas por dia, vistoriaram 600 imóveis em 5 dias. Mantendo o mesmo ritmo de trabalho, quantos dias serão necessários para que 20 policiais, trabalhando 6 horas por dia, vistoriem 900 imóveis?",
+    "alternativas": [
+      "6 dias",
+      "7,5 dias",
+      "8 dias",
+      "10 dias",
+      "12 dias"
+    ],
+    "correta": 1,
+    "explicacao": "1ª situação: 15 x 8 x 5 = 600 horas-homem para 600 imóveis, isto é, 1 imóvel por hora-homem. 2ª situação: 20 policiais x 6 h/dia = 120 horas-homem por dia; 900 / 120 = 7,5 dias. A alternativa C (8 dias) arredonda o resultado; a D (10 dias) multiplica por 8/6 em vez de dividir (7,5 x 8/6 = 10).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regra de três composta com grandezas inversamente proporcionais (horas-homem constantes)",
+    "dificuldade": 3,
+    "enunciado": "Em uma delegacia, 12 investigadores, trabalhando 6 horas por dia, concluem um levantamento em 10 dias. Quantas horas por dia devem trabalhar 8 investigadores, no mesmo ritmo, para concluir o mesmo levantamento em 12 dias?",
+    "alternativas": [
+      "6 horas",
+      "6 horas e 40 minutos",
+      "7 horas",
+      "7 horas e 30 minutos",
+      "8 horas"
+    ],
+    "correta": 3,
+    "explicacao": "Trabalho total = 12 x 6 x 10 = 720 horas-homem. Com 8 investigadores em 12 dias: 8 x 12 x x = 720, logo 96x = 720 e x = 7,5 h = 7 horas e 30 minutos. A alternativa A (6 horas) mantém a jornada original, desprezando a redução do efetivo e o aumento do prazo; a E (8 horas) arredonda 7,5 para o inteiro seguinte.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regra de três simples com velocidade constante (proporcionalidade direta)",
+    "dificuldade": 2,
+    "enunciado": "Um veículo percorreu 450 km em 6 horas, mantendo velocidade constante. Nas mesmas condições, quantos minutos ele levará para percorrer 675 km?",
+    "alternativas": [
+      "540 minutos",
+      "510 minutos",
+      "480 minutos",
+      "600 minutos",
+      "630 minutos"
+    ],
+    "correta": 0,
+    "explicacao": "450 km / 6 h = 75 km/h. Tempo = 675 / 75 = 9 h = 9 x 60 = 540 minutos. A alternativa C (480 minutos) corresponde a 8 horas e a D (600 minutos) a 10 horas; ambas afastam-se do quociente 675/75, que é exatamente 9 horas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regra de três composta: produtividade por máquina-hora",
+    "dificuldade": 2,
+    "enunciado": "Com 12 máquinas idênticas, uma fábrica produz 3.600 peças em 4 horas. Se 4 máquinas forem desligadas e as demais mantiverem o ritmo, quantas horas serão necessárias para produzir as mesmas 3.600 peças?",
+    "alternativas": [
+      "2 horas e 40 minutos",
+      "3 horas",
+      "6 horas",
+      "7 horas e 12 minutos",
+      "8 horas"
+    ],
+    "correta": 2,
+    "explicacao": "Produtividade: 3.600 / (12 x 4) = 75 peças por máquina-hora. Com 8 máquinas: 8 x 75 = 600 peças por hora; 3.600 / 600 = 6 horas. A alternativa A (2 h 40 min) aplica proporção direta entre máquinas e tempo (4 x 8/12 = 2,67 h), invertendo o sentido da grandeza; a E (8 horas) trata 8 máquinas como metade das 12 (4 x 2).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Divisão em partes diretamente proporcionais",
+    "dificuldade": 3,
+    "enunciado": "Certa quantia foi dividida entre três equipes em partes diretamente proporcionais a 2, 3 e 5. A equipe que recebeu a maior parte ficou com R$ 8.000,00. O valor total dividido foi de:",
+    "alternativas": [
+      "R$ 8.000,00",
+      "R$ 12.800,00",
+      "R$ 13.600,00",
+      "R$ 20.000,00",
+      "R$ 16.000,00"
+    ],
+    "correta": 4,
+    "explicacao": "São 2 + 3 + 5 = 10 partes iguais; a maior parte (5 partes) vale R$ 8.000,00, então cada parte vale 8.000 / 5 = R$ 1.600,00 e o total é 10 x 1.600 = R$ 16.000,00. A alternativa A (R$ 8.000,00) é apenas a maior parte, e a D (R$ 20.000,00) trata a maior parte como 2/5 do total (5/2 x 8.000).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Divisão em partes inversamente proporcionais",
+    "dificuldade": 3,
+    "enunciado": "Uma gratificação de R$ 18.000,00 será distribuída entre três servidores em partes inversamente proporcionais ao número de faltas de cada um: 2, 3 e 6. O servidor que faltou 2 vezes receberá:",
+    "alternativas": [
+      "R$ 3.000,00",
+      "R$ 9.000,00",
+      "R$ 6.000,00",
+      "R$ 5.400,00",
+      "R$ 12.000,00"
+    ],
+    "correta": 1,
+    "explicacao": "Partes inversamente proporcionais a 2, 3 e 6: 1/2 : 1/3 : 1/6 = 3 : 2 : 1 (multiplicando por 6). São 6 partes iguais e cada uma vale 18.000 / 6 = R$ 3.000,00; o servidor com 2 faltas, que tem o menor número de faltas, recebe 3 partes: 3 x 3.000 = R$ 9.000,00. A alternativa A (R$ 3.000,00) considera uma única parte, e a C (R$ 6.000,00) divide o total igualmente entre os três, ignorando a proporcionalidade inversa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Divisão proporcional composta: capital x tempo",
+    "dificuldade": 3,
+    "enunciado": "Três sócios investiram, respectivamente, R$ 20.000,00, R$ 30.000,00 e R$ 50.000,00. O primeiro permaneceu 12 meses, o segundo 12 meses e o terceiro 6 meses. Ao final, o lucro de R$ 60.000,00 foi dividido proporcionalmente ao capital e ao tempo de cada sócio. O sócio que recebeu a maior parte recebeu:",
+    "alternativas": [
+      "R$ 20.000,00",
+      "R$ 16.000,00",
+      "R$ 30.000,00",
+      "R$ 24.000,00",
+      "R$ 36.000,00"
+    ],
+    "correta": 3,
+    "explicacao": "Pesos (capital x tempo): 20.000 x 12 = 240.000; 30.000 x 12 = 360.000; 50.000 x 6 = 300.000. Total = 900.000. O maior peso é 360.000 (2º sócio): 60.000 x 360.000/900.000 = R$ 24.000,00. A alternativa C (R$ 30.000,00) divide apenas proporcionalmente ao capital (50.000/100.000 x 60.000), desprezando o tempo; a A (R$ 20.000,00) é o quinhão do terceiro sócio.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Conjuntos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Inclusão-exclusão para três conjuntos: |A∪B∪C| = |A|+|B|+|C| - |A∩B| - |A∩C| - |B∩C| + |A∩B∩C|",
+    "dificuldade": 3,
+    "enunciado": "Em uma turma de 60 alunos, 30 gostam de matemática, 25 de português e 20 de inglês. Sabe-se ainda que 10 gostam de matemática e português, 7 de matemática e inglês, 6 de português e inglês, e 3 gostam das três disciplinas. Quantos alunos não gostam de nenhuma dessas três disciplinas?",
+    "alternativas": [
+      "5",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correta": 0,
+    "explicacao": "|M ∪ P ∪ I| = 30 + 25 + 20 - 10 - 7 - 6 + 3 = 75 - 23 + 3 = 55 alunos gostam de ao menos uma disciplina. Como a turma tem 60, não gostam de nenhuma: 60 - 55 = 5. A alternativa B (8) resulta de esquecer de somar a interseção tripla (75 - 23 = 52, e 60 - 52 = 8); a C (10) é a interseção matemática e português, que não responde à pergunta.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Conjuntos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Diagrama de Venn com três conjuntos: regiões de exatamente duas interseções",
+    "dificuldade": 3,
+    "enunciado": "Em uma fiscalização de 100 veículos, 52 apresentaram irregularidade na documentação do tipo A, 48 na do tipo B e 40 na do tipo C. Verificou-se que 25 veículos tinham irregularidades em A e B, 22 em A e C, 20 em B e C, e 12 tinham irregularidades nos três tipos. Quantos veículos apresentaram irregularidade em exatamente dois dos três tipos?",
+    "alternativas": [
+      "25",
+      "29",
+      "31",
+      "37",
+      "55"
+    ],
+    "correta": 2,
+    "explicacao": "Cada interseção de dois conjuntos inclui os 12 veículos com as três irregularidades; as regiões de exatamente duas são: (25 - 12) + (22 - 12) + (20 - 12) = 13 + 10 + 8 = 31. A alternativa A (25) é |A ∩ B| sem descontar os 12 dos três tipos, e a E (55) soma as três interseções descontando a região tripla uma única vez (25 + 22 + 20 - 12 = 55).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Conjuntos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Diagrama de Venn: região exclusiva de um conjunto",
+    "dificuldade": 3,
+    "enunciado": "Inspetores verificaram 200 pessoas em uma operação: 120 portavam o documento X, 90 portavam o documento Y e 50 portavam o documento Z. Além disso, 40 portavam X e Y, 30 portavam X e Z, 20 portavam Y e Z, e 10 portavam os três documentos. Quantas pessoas portavam apenas o documento X?",
+    "alternativas": [
+      "10",
+      "30",
+      "40",
+      "50",
+      "60"
+    ],
+    "correta": 4,
+    "explicacao": "A região exclusiva de X é obtida retirando de X as interseções: 120 - (40 - 10) - (30 - 10) - 10 = 120 - 30 - 20 - 10 = 60. A alternativa A (10) são as pessoas com os três documentos; a C (40) é |X ∩ Y| inteiro, que inclui os 10 que também portam Z.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei de De Morgan: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q",
+    "dificuldade": 2,
+    "enunciado": "A negação lógica da proposição “O suspeito estava armado e confessou o crime” é:",
+    "alternativas": [
+      "O suspeito não estava armado e não confessou o crime.",
+      "O suspeito não estava armado ou não confessou o crime.",
+      "O suspeito estava armado ou confessou o crime.",
+      "Se o suspeito estava armado, então não confessou o crime.",
+      "O suspeito não estava armado e confessou o crime."
+    ],
+    "correta": 1,
+    "explicacao": "Pela lei de De Morgan, a negação de uma conjunção é a disjunção das negações: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q. Logo: “O suspeito não estava armado ou não confessou o crime”. A alternativa A mantém o conectivo “e” ao negar as parcelas, o erro clássico; a E nega apenas a primeira parte e conserva a segunda como verdadeira, o que não equivale à negação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Tabela-verdade da condicional: (P ∧ Q) → R só é falsa com antecedente verdadeiro e consequente falso",
+    "dificuldade": 3,
+    "enunciado": "Na tabela-verdade da proposição composta (P ∧ Q) → R, considerando as três proposições simples P, Q e R, em quantas linhas o valor lógico resultante é falso?",
+    "alternativas": [
+      "8",
+      "4",
+      "2",
+      "1",
+      "0"
+    ],
+    "correta": 3,
+    "explicacao": "A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso. P ∧ Q é verdadeira apenas com P = V e Q = V (1 das 4 combinações de P e Q); com R = F, sobra exatamente 1 linha das 8 da tabela. A alternativa C (2) confunde a contagem com as linhas em que R é falso, e a E (0) só valeria se a proposição fosse tautologia.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Silogismo categórico válido: nenhum E é C; todo A é C; logo nenhum A é E",
+    "dificuldade": 2,
+    "enunciado": "Considere as premissas: “Todo investigador da equipe Alfa é servidor concursado” e “Nenhum estagiário é servidor concursado”. A conclusão que decorre necessariamente dessas premissas é:",
+    "alternativas": [
+      "Nenhum investigador da equipe Alfa é estagiário.",
+      "Todo servidor concursado é investigador da equipe Alfa.",
+      "Algum estagiário é investigador da equipe Alfa.",
+      "Todo investigador da equipe Alfa é estagiário.",
+      "Nenhum servidor concursado é investigador da equipe Alfa."
+    ],
+    "correta": 0,
+    "explicacao": "O argumento tem forma válida: se todo investigador da Alfa é concursado e nenhum estagiário é concursado, então nenhum investigador da Alfa pode ser estagiário. A alternativa C afirma que algum estagiário é investigador da Alfa, o que contradiz as premissas; a D também as contradiz, pois todo investigador é concursado e nenhum estagiário é.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Equivalência da condicional: P → Q ≡ ¬P ∨ Q",
+    "dificuldade": 3,
+    "enunciado": "A proposição “Se o delegado autoriza a diligência, então a equipe se desloca” é logicamente equivalente a:",
+    "alternativas": [
+      "Se a equipe se desloca, então o delegado autoriza a diligência.",
+      "O delegado autoriza a diligência e a equipe não se desloca.",
+      "Se o delegado não autoriza a diligência, então a equipe não se desloca.",
+      "O delegado autoriza a diligência ou a equipe se desloca.",
+      "O delegado não autoriza a diligência ou a equipe se desloca."
+    ],
+    "correta": 4,
+    "explicacao": "P → Q ≡ ¬P ∨ Q. Portanto a equivalente é “O delegado não autoriza a diligência ou a equipe se desloca”. A alternativa B é a negação da condicional (P e não Q), não sua equivalência; a A é a recíproca e a C é a inversa, que não são equivalentes à condicional original.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Tautologia: proposição verdadeira em todas as linhas da tabela-verdade",
+    "dificuldade": 2,
+    "enunciado": "Qual das proposições abaixo é uma tautologia?",
+    "alternativas": [
+      "P e não P (P ∧ ¬P)",
+      "Se P, então não P (P → ¬P)",
+      "P ou não P (P ∨ ¬P)",
+      "P se e somente se não P (P ↔ ¬P)",
+      "Não (P ou não P)"
+    ],
+    "correta": 2,
+    "explicacao": "P ∨ ¬P é verdadeira em todas as linhas: se P é verdadeira, a primeira parcela a torna verdadeira; se P é falsa, ¬P é verdadeira. A alternativa A é uma contradição (P ∧ ¬P é sempre falsa) e a B é falsa justamente na linha em que P é verdadeira, quando a condicional P → ¬P tem antecedente verdadeiro e consequente falso.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Sequência numérica com diferenças crescentes (progressão aritmética de 2ª ordem)",
+    "dificuldade": 2,
+    "enunciado": "Observe a sequência numérica: 3, 4, 7, 12, 19, 28, ... O próximo termo dessa sequência é:",
+    "alternativas": [
+      "37",
+      "39",
+      "40",
+      "41",
+      "43"
+    ],
+    "correta": 1,
+    "explicacao": "As diferenças entre termos consecutivos são 1, 3, 5, 7 e 9 (números ímpares crescentes). A próxima diferença é 11, logo o próximo termo é 28 + 11 = 39. A alternativa A (37) repete a diferença 9, e a C (40) soma 12, como se a sequência de diferenças salte de 9 para 12.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Sequência com operações alternadas (x2, +3)",
+    "dificuldade": 3,
+    "enunciado": "Considere a sequência: 3, 6, 9, 18, 21, 42, ... Mantendo o mesmo padrão, o sétimo termo é:",
+    "alternativas": [
+      "44",
+      "46",
+      "63",
+      "45",
+      "84"
+    ],
+    "correta": 3,
+    "explicacao": "O padrão alterna duas operações: x2 e +3 — 3 x2 = 6; 6 +3 = 9; 9 x2 = 18; 18 +3 = 21; 21 x2 = 42. Como 42 foi obtido por multiplicação, o próximo passo é somar 3: 42 + 3 = 45. A alternativa E (84) repete a multiplicação por 2, e a C (63) soma 21 ao último termo, sem seguir o padrão.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Sequência de figuras modelada por progressão aritmética: a(n) = 4 + 3(n - 1)",
+    "dificuldade": 3,
+    "enunciado": "Uma sequência de figuras é construída com palitos: a figura 1 é um quadrado (4 palitos); a figura 2 é formada por 2 quadrados lado a lado (7 palitos); a figura 3, por 3 quadrados lado a lado (10 palitos), e assim por diante. Quantos palitos serão necessários para construir a figura 10?",
+    "alternativas": [
+      "31",
+      "30",
+      "33",
+      "34",
+      "40"
+    ],
+    "correta": 0,
+    "explicacao": "Cada novo quadrado lado a lado acrescenta 3 palitos, formando a progressão aritmética 4, 7, 10, ... com razão 3: a(n) = 4 + 3(n - 1). Para n = 10: a(10) = 4 + 3 x 9 = 31. A alternativa D (34) usa 4 + 3 x 10, somando a razão dez vezes, e a B (30) considera 3 palitos por quadrado, esquecendo o palito extra do primeiro quadrado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Sequência de letras com diferenças crescentes (alfabeto de 26 letras)",
+    "dificuldade": 2,
+    "enunciado": "Em uma unidade, os códigos das viaturas seguem a sequência de letras Z, X, U, Q, L, ... A próxima letra dessa sequência é:",
+    "alternativas": [
+      "D",
+      "E",
+      "G",
+      "H",
+      "F"
+    ],
+    "correta": 4,
+    "explicacao": "Convertendo para as posições no alfabeto: Z = 26, X = 24, U = 21, Q = 17, L = 12. As diferenças são -2, -3, -4 e -5; a próxima é -6, logo 12 - 6 = 6, que corresponde à letra F. A alternativa D (H = 8) repete a diferença -4 (12 - 4 = 8), e a A (D = 4) subtrai 8, usando duas vezes a diferença maior.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Probabilidade condicional: P(A|B) = n(A∩B)/n(B)",
+    "dificuldade": 3,
+    "enunciado": "Lançam-se dois dados honestos de seis faces. Sabendo-se que a soma dos pontos obtidos foi 8, a probabilidade de que um dos dados tenha mostrado a face 3 é de:",
+    "alternativas": [
+      "1/6",
+      "5/36",
+      "2/5",
+      "1/3",
+      "2/9"
+    ],
+    "correta": 2,
+    "explicacao": "Casos com soma 8: (2,6), (3,5), (4,4), (5,3) e (6,2) — 5 casos equiprováveis. Em 2 deles aparece a face 3: (3,5) e (5,3). Logo P = 2/5. A alternativa B (5/36) é a probabilidade de a soma ser 8 no espaço amostral completo, sem condicionar ao evento já observado; a A (1/6) despreza a restrição da soma.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Probabilidade condicional e teorema de Bayes: P(H|I) = P(I|H).P(H) / P(I)",
+    "dificuldade": 3,
+    "enunciado": "Em uma delegacia, 60% dos investigadores são homens. Entre os homens, 30% falam inglês fluentemente; entre as mulheres, 20% falam inglês fluentemente. Sorteando-se um investigador que fala inglês fluentemente, a probabilidade de que seja homem é de:",
+    "alternativas": [
+      "3/5",
+      "9/13",
+      "9/20",
+      "2/5",
+      "13/20"
+    ],
+    "correta": 1,
+    "explicacao": "P(fala inglês) = 0,60 x 0,30 + 0,40 x 0,20 = 0,18 + 0,08 = 0,26. P(homem | fala inglês) = 0,18/0,26 = 18/26 = 9/13. A alternativa A (3/5) é apenas a proporção de homens no total, sem condicionar; a C (9/20) corresponde a dividir 0,18 por 0,40, usando base de cálculo equivocada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Probabilidade com reposição: eventos independentes, P = p1.p2",
+    "dificuldade": 2,
+    "enunciado": "Uma urna contém 4 fichas vermelhas e 6 fichas brancas, todas idênticas. Retiram-se, ao acaso, duas fichas, com reposição da primeira antes da segunda retirada. A probabilidade de que as duas sejam vermelhas é de:",
+    "alternativas": [
+      "4%",
+      "8%",
+      "13,3%",
+      "16%",
+      "20%"
+    ],
+    "correta": 3,
+    "explicacao": "Com reposição os eventos são independentes: P = (4/10) x (4/10) = 0,16 = 16%. A alternativa C (13,3%) é a probabilidade sem reposição (4/10 x 3/9 = 12/90); a A (4%) multiplica apenas o número de fichas vermelhas pela quantidade total de fichas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Distribuição binomial: P(X = k) = C(n,k).p^k.(1 - p)^(n - k)",
+    "dificuldade": 3,
+    "enunciado": "Um atirador acerta o alvo com probabilidade 1/3 em cada disparo, e os disparos são independentes. Realizando 3 disparos, a probabilidade de acertar o alvo exatamente uma vez é de:",
+    "alternativas": [
+      "4/9",
+      "1/3",
+      "2/9",
+      "1/27",
+      "2/3"
+    ],
+    "correta": 0,
+    "explicacao": "P(X = 1) = C(3,1) x (1/3)^1 x (2/3)^2 = 3 x (1/3) x (4/9) = 4/9. A alternativa B (1/3) é a probabilidade de acertar em um único disparo, sem considerar as três ordens possíveis; a D (1/27) é a probabilidade de acertar os três disparos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Permutação com elementos que devem ficar juntos (técnica do bloco)",
+    "dificuldade": 2,
+    "enunciado": "Cinco policiais, entre eles o cabo Almeida e o soldado Brito, serão dispostos em fila para uma formatura. De quantas maneiras distintas essa fila pode ser formada se Almeida e Brito devem permanecer juntos?",
+    "alternativas": [
+      "24",
+      "60",
+      "96",
+      "120",
+      "48"
+    ],
+    "correta": 4,
+    "explicacao": "Tratando Almeida e Brito como um único bloco, há 4 elementos para permutar: 4! = 24. Como os dois podem se ordenar internamente de 2 maneiras, o total é 24 x 2 = 48. A alternativa A (24) esquece a permutação interna do bloco, e a D (120) é a permutação dos 5 policiais sem a restrição (5! = 120).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Combinação com restrição: método complementar (total - casos sem o elemento exigido)",
+    "dificuldade": 3,
+    "enunciado": "Em um setor há 6 investigadores e 4 agentes. Deseja-se formar uma comissão de 3 servidores escolhidos entre esses 10, de modo que a comissão tenha pelo menos um agente. De quantas maneiras essa comissão pode ser formada?",
+    "alternativas": [
+      "20",
+      "80",
+      "100",
+      "120",
+      "144"
+    ],
+    "correta": 2,
+    "explicacao": "Total de comissões: C(10,3) = 120. Comissões sem nenhum agente (só investigadores): C(6,3) = 20. Com pelo menos um agente: 120 - 20 = 100. A alternativa D (120) conta todas as comissões, inclusive as formadas só por investigadores; a A (20) conta justamente as que não satisfazem a condição.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Permutação com repetição: P = n!/a!",
+    "dificuldade": 2,
+    "enunciado": "A palavra MANAUS será usada para gerar senhas de 6 letras, embaralhando-se todas as suas letras. Quantas sequências distintas de 6 letras podem ser formadas?",
+    "alternativas": [
+      "120",
+      "360",
+      "720",
+      "1.080",
+      "1.440"
+    ],
+    "correta": 1,
+    "explicacao": "São 6 letras, com a letra A repetida 2 vezes: 6!/2! = 720/2 = 360. A alternativa C (720) é 6!, que trata as duas letras A como se fossem distintas; a A (120) é 5!, como se uma das letras repetidas fosse eliminada da palavra.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Arranjo simples: A(n,p) = n!/(n - p)!",
+    "dificuldade": 2,
+    "enunciado": "Para uma operação, 3 funções distintas — comandante, motorista e operador de rádio — serão distribuídas entre 12 policiais, cada policial ocupando no máximo uma função. De quantas maneiras distintas essas funções podem ser preenchidas?",
+    "alternativas": [
+      "220",
+      "660",
+      "990",
+      "1.320",
+      "1.728"
+    ],
+    "correta": 3,
+    "explicacao": "Como as funções são distintas, a ordem importa: A(12,3) = 12 x 11 x 10 = 1.320. A alternativa A (220) é a combinação C(12,3), que não distingue comandante, motorista e operador; a E (1.728) é 12^3, que permitiria ao mesmo policial ocupar mais de uma função.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "MMC e MDC",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "MMC de três números: menor múltiplo comum",
+    "dificuldade": 2,
+    "enunciado": "Um material de consumo chega ao almoxarifado em caixas fechadas de 12, 15 ou 20 unidades, conforme o fornecedor. Para distribuir as unidades sem abrir nenhuma caixa e sem sobrar unidades, a menor quantidade de unidades que pode ser adquirida é:",
+    "alternativas": [
+      "60",
+      "120",
+      "180",
+      "240",
+      "300"
+    ],
+    "correta": 0,
+    "explicacao": "A quantidade deve ser múltipla comum de 12, 15 e 20; a menor é MMC(12, 15, 20). Com 12 = 2^2 x 3, 15 = 3 x 5 e 20 = 2^2 x 5, o MMC é 2^2 x 3 x 5 = 60. As alternativas B (120) e C (180) também são múltiplos comuns, porém maiores que 60, e a pergunta pede a menor quantidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "MMC e MDC",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "MDC de três números: maior divisor comum",
+    "dificuldade": 3,
+    "enunciado": "Três rolos de cabo, com 90 m, 150 m e 240 m, devem ser cortados em pedaços de mesmo comprimento, o maior possível, sem sobras. O comprimento de cada pedaço será de:",
+    "alternativas": [
+      "6 m",
+      "10 m",
+      "15 m",
+      "24 m",
+      "30 m"
+    ],
+    "correta": 4,
+    "explicacao": "O maior comprimento possível é o MDC(90, 150, 240). Com 90 = 2 x 3^2 x 5, 150 = 2 x 3 x 5^2 e 240 = 2^4 x 3 x 5, o MDC é 2 x 3 x 5 = 30. A alternativa C (15) divide todos os rolos, mas não é o maior pedaço possível; a B (10) também é divisor comum, porém menor que 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Problemas aritméticos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Problemas de torneiras: soma das vazões, com o ralo subtraindo",
+    "dificuldade": 3,
+    "enunciado": "Um reservatório é abastecido por duas torneiras: a primeira, sozinha, enche o reservatório em 4 horas, e a segunda, sozinha, em 6 horas. Há também um ralo que, aberto, esvazia o reservatório cheio em 12 horas. Estando o reservatório vazio, com as duas torneiras e o ralo abertos simultaneamente, ele ficará cheio em:",
+    "alternativas": [
+      "2 horas",
+      "2 horas e 24 minutos",
+      "3 horas",
+      "3 horas e 36 minutos",
+      "6 horas"
+    ],
+    "correta": 2,
+    "explicacao": "Vazões por hora, em fração do reservatório: 1/4 + 1/6 - 1/12 = 3/12 + 2/12 - 1/12 = 4/12 = 1/3. O tempo é 1 / (1/3) = 3 horas. A alternativa B (2 h 24 min) soma apenas as torneiras e esquece o ralo (1/4 + 1/6 = 5/12, que dá 2,4 h); a A (2 horas) soma a vazão do ralo em vez de subtraí-la (1/4 + 1/6 + 1/12 = 1/2).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Problemas aritméticos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Encontro de móveis: velocidade relativa de aproximação",
+    "dificuldade": 2,
+    "enunciado": "Duas viaturas partem simultaneamente de duas cidades, A e B, distantes 360 km uma da outra, uma ao encontro da outra, com velocidades constantes de 70 km/h e 50 km/h. O encontro ocorrerá:",
+    "alternativas": [
+      "2 horas após a partida, a 140 km de A",
+      "3 horas após a partida, a 210 km de A",
+      "3 horas após a partida, a 150 km de A",
+      "4 horas após a partida, a 280 km de A",
+      "3 horas e 30 minutos após a partida, a 245 km de A"
+    ],
+    "correta": 1,
+    "explicacao": "A velocidade relativa de aproximação é 70 + 50 = 120 km/h, então o encontro ocorre em 360/120 = 3 horas. A distância até A é o percurso da viatura que parte de A: 70 x 3 = 210 km. A alternativa C (150 km) usa a velocidade da outra viatura (50 x 3), e a E (245 km) considera 3,5 h (70 x 3,5).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Área do círculo (A = πr²) e área da coroa circular",
+    "dificuldade": 3,
+    "enunciado": "Uma praça circular, com raio de 10 m, tem em seu centro um canteiro circular de raio 4 m destinado a um monumento, sendo o restante da praça pavimentado. Considerando π = 3,14, a área pavimentada é de:",
+    "alternativas": [
+      "188,40 m²",
+      "175,84 m²",
+      "314,00 m²",
+      "263,76 m²",
+      "276,32 m²"
+    ],
+    "correta": 3,
+    "explicacao": "Área da coroa circular = π(R² - r²) = 3,14 x (10² - 4²) = 3,14 x (100 - 16) = 3,14 x 84 = 263,76 m². A alternativa C (314,00 m²) é a área do círculo maior completo, esquecendo o canteiro; a E (276,32 m²) usa 3,14 x 88, resultado de erro na subtração dos quadrados.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Volume do paralelepípedo reto-retângulo e conversão m³ → litros",
+    "dificuldade": 2,
+    "enunciado": "Uma caixa d'água tem a forma de paralelepípedo reto-retângulo, com 1,5 m de comprimento, 1,2 m de largura e 0,8 m de altura. A capacidade total dessa caixa, em litros, é de:",
+    "alternativas": [
+      "1.440",
+      "1.200",
+      "1.500",
+      "1.560",
+      "14.400"
+    ],
+    "correta": 0,
+    "explicacao": "V = 1,5 x 1,2 x 0,8 = 1,44 m³. Como 1 m³ = 1.000 L, a capacidade é 1.440 litros. A alternativa E (14.400) erra a conversão por um fator de 10; a B (1.200) usa apenas 1,5 x 0,8 e despreza a largura.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Leitura de gráficos e tabelas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Leitura de tabela: variação percentual relativa (Vf - Vi)/Vi",
+    "dificuldade": 3,
+    "enunciado": "Uma companhia registrou o número de abordagens realizadas em janeiro e fevereiro, por tipo de ocorrência, conforme a tabela:\n\nTipo A: janeiro = 120, fevereiro = 150\nTipo B: janeiro = 80, fevereiro = 64\nTipo C: janeiro = 200, fevereiro = 210\n\nO tipo de ocorrência que apresentou a maior variação percentual, em módulo, de janeiro para fevereiro, e a respectiva variação, são:",
+    "alternativas": [
+      "Tipo C, com aumento de 5%",
+      "Tipo B, com redução de 20%",
+      "Tipo C, com aumento de 10%",
+      "Tipo B, com redução de 16%",
+      "Tipo A, com aumento de 25%"
+    ],
+    "correta": 4,
+    "explicacao": "Variações relativas: tipo A = 150/120 - 1 = +25%; tipo B = 64/80 - 1 = -20%; tipo C = 210/200 - 1 = +5%. Em módulo, a maior é a do tipo A (+25%). A alternativa B (tipo B, -20%) confunde a maior variação relativa com a queda em valor absoluto, e a C (tipo C, +10%) usa 210 - 200 = 10 pontos em vez de calcular a variação percentual (5%).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Leitura de gráficos e tabelas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Leitura de gráfico: participação percentual (parte/total)",
+    "dificuldade": 2,
+    "enunciado": "O gráfico de colunas mostra os gastos mensais de uma unidade policial: Combustível R$ 24.000,00; Manutenção R$ 18.000,00; Pessoal R$ 90.000,00; Outros R$ 18.000,00. A participação percentual do gasto com combustível no total é de:",
+    "alternativas": [
+      "12%",
+      "14%",
+      "16%",
+      "18%",
+      "24%"
+    ],
+    "correta": 2,
+    "explicacao": "Total = 24.000 + 18.000 + 90.000 + 18.000 = R$ 150.000,00. Participação do combustível = 24.000/150.000 = 0,16 = 16%. A alternativa A (12%) é a participação de manutenção (e também de outros), pois 18.000/150.000 = 12%; a E (24%) repete o número 24 do valor em reais como se fosse percentual.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]

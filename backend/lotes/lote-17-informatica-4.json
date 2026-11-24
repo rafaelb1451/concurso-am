@@ -1,0 +1,1082 @@
+[
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Função PROCV: correspondência exata (FALSO) x aproximada (VERDADEIRO)",
+    "dificuldade": 2,
+    "enunciado": "Em uma planilha do Microsoft Excel 2019, a célula E2 contém a fórmula =PROCV(D2;A2:B100;2), sem o quarto argumento, e a coluna A (matrículas) NÃO está em ordem crescente. O usuário pretende localizar a matrícula digitada em D2 e obter o nome correspondente. O resultado pode estar incorreto porque",
+    "alternativas": [
+      "o segundo argumento deveria ser apenas a coluna A, e não o intervalo A2:B100",
+      "a função PROCV localiza apenas texto, e as matrículas são números",
+      "o quarto argumento foi omitido, e o Excel assume correspondência aproximada (VERDADEIRO); para busca exata é necessário informar FALSO",
+      "o índice 2 retorna a segunda linha da matriz, e não a segunda coluna",
+      "o PROCV exige que a coluna de retorno venha antes da coluna de pesquisa"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: sem o quarto argumento, o PROCV usa VERDADEIRO (correspondência aproximada), que pressupõe a primeira coluna em ordem crescente e devolve o maior valor menor ou igual ao procurado — daí a possibilidade de retornar o nome errado; com FALSO a busca é exata. A letra A erra porque a matriz deve abranger a coluna de retorno (A2:B100), não apenas a coluna pesquisada. A letra D erra porque o terceiro argumento é o número da coluna dentro da matriz (2 = coluna B), e não a linha. A letra E inverte a regra: o PROCV busca sempre na primeira coluna da matriz e retorna de uma coluna à direita.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Word",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Sumário automático: campo gerado a partir dos estilos de título (guia Referências > Atualizar Sumário)",
+    "dificuldade": 2,
+    "enunciado": "Uma escrivã elaborou um relatório de 40 páginas usando os estilos Título 1 e Título 2 e inseriu, ao final, um sumário automático pela guia Referências. Depois incluiu três novos capítulos, mas percebeu que o sumário continuava desatualizado. Para corrigir o sumário sem digitar manualmente os títulos, ela deve",
+    "alternativas": [
+      "atualizar o campo do sumário (Referências > Atualizar Sumário), pois ele é gerado a partir dos estilos de título aplicados",
+      "aplicar o Pincel de Formatação ao sumário, pois ele recalcula os títulos existentes",
+      "salvar o documento em PDF, pois a conversão recalcula automaticamente o sumário",
+      "ativar o Controle de Alterações e digitar os novos títulos diretamente no sumário",
+      "aplicar a opção Comparar Documentos da guia Revisão para atualizar o sumário"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: o sumário automático do Word é um campo alimentado pelos parágrafos formatados com estilos de título; ao inserir capítulos novos, basta atualizar o campo (Referências > Atualizar Sumário, ou botão direito sobre o sumário > Atualizar Campo) para que os títulos sejam relidos. A letra C erra porque converter o arquivo para PDF não altera o sumário do documento original. A letra D erra porque digitar títulos no sumário transforma um conteúdo automático em texto manual, que voltará a ficar desatualizado. A letra E erra porque Comparar Documentos serve para apontar diferenças entre versões, não para atualizar campos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Conceito de worm: autorreplicação pela rede sem arquivo hospedeiro e sem ação do usuário",
+    "dificuldade": 2,
+    "enunciado": "Um laboratório de informática da corporação sofreu um incidente: um programa malicioso passou a se replicar sozinho de um computador para outro pela rede local, explorando uma vulnerabilidade do sistema, sem precisar de arquivo hospedeiro e sem qualquer ação do usuário. Esse tipo de malware é denominado",
+    "alternativas": [
+      "cavalo de Troia (trojan), pois se disfarça de programa legítimo instalado pelo usuário",
+      "ransomware, pois cifra os arquivos e exige pagamento de resgate",
+      "spyware, pois monitora as atividades do usuário e envia os dados coletados",
+      "rootkit, pois oculta a própria presença no sistema operacional",
+      "worm (verme), pois se autorreplica e se propaga pela rede de forma autônoma"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: o worm é o malware que se autorreplica e se propaga pela rede sem precisar de um programa hospedeiro nem de interação do usuário, aproveitando falhas de segurança. A letra A erra porque o trojan depende de execução pelo usuário e não tem como marca a autorreplicação. A letra B erra porque o ransomware age criptografando dados e cobrando resgate, não se caracterizando pela propagação autônoma. A letra C erra porque spyware coleta informações, sem necessariamente se replicar.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Navegadores",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Cache do navegador: cópia local de arquivos da página; limpeza em Configurações > Limpar dados de navegação (Ctrl+Shift+Del)",
+    "dificuldade": 2,
+    "enunciado": "O portal de um órgão foi reformulado no fim de semana. Na segunda-feira, um investigador acessa o endereço no Google Chrome e continua vendo o layout antigo, embora a página já esteja atualizada quando aberta no celular. A causa provável e a medida adequada são, respectivamente,",
+    "alternativas": [
+      "cookie de sessão inválido; apagar os favoritos do navegador",
+      "arquivos guardados no cache do navegador; limpar os dados de navegação, incluindo cache de imagens e arquivos (Ctrl+Shift+Del)",
+      "extensão maliciosa instalada; desinstalar o antivírus do computador",
+      "bloqueio de pop-ups ativado; reduzir o nível de segurança do site",
+      "certificado digital vencido; renová-lo pelo Windows Update"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: o cache guarda cópias locais de imagens, scripts e folhas de estilo justamente para acelerar o carregamento; quando o site muda, o navegador pode reutilizar a versão antiga, e a limpeza dos dados de navegação (Ctrl+Shift+Del) resolve. A letra A erra porque favoritos são apenas atalhos salvos e não interferem na renderização da página. A letra C erra porque desinstalar o antivírus piora a segurança e nada tem a ver com conteúdo em cache. A letra D erra porque pop-ups bloqueados não alteram o layout carregado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Internet e protocolos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Endereços IPv4 privados (RFC 1918) — faixa 192.168.0.0/16; não são roteáveis na Internet",
+    "dificuldade": 1,
+    "enunciado": "Ao examinar o computador de uma repartição, o perito anotou o endereço IP 192.168.10.25, atribuído pelo roteador da rede interna. Sobre esse endereço, é correto afirmar que",
+    "alternativas": [
+      "identifica fisicamente a placa de rede e é gravado pelo fabricante do equipamento",
+      "é um endereço público, roteável diretamente por qualquer computador da Internet",
+      "indica o servidor DNS responsável pela resolução de nomes do domínio do órgão",
+      "pertence a uma faixa de endereços privados, típica de redes locais e não roteável diretamente na Internet",
+      "representa a porta lógica utilizada pelo computador na rede, e não um endereço IP"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: a faixa 192.168.0.0/16 é reservada para redes privadas (RFC 1918), como as redes domésticas e corporativas; esses endereços circulam internamente e só alcançam a Internet por meio de NAT no roteador. A letra A erra porque descreve o endereço MAC, gravado na placa de rede. A letra B erra porque um IP privado não é roteável na Internet pública. A letra E erra porque porta lógica é um número associado ao serviço (por exemplo, 443 para HTTPS), e não o endereço do host.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Windows",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Atalho Win + L: bloquear a estação de trabalho no Windows 10 sem encerrar a sessão",
+    "dificuldade": 1,
+    "enunciado": "Durante o expediente, um soldado precisa se ausentar da sala por alguns minutos. Para bloquear imediatamente a estação de trabalho, mantendo a sessão e os programas abertos, ele deve pressionar",
+    "alternativas": [
+      "Win + L",
+      "Ctrl + L",
+      "Alt + F4",
+      "Win + D",
+      "Ctrl + Alt + Delete"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: Win + L bloqueia a estação de trabalho na hora, mantendo a sessão e os aplicativos abertos; para retornar, basta digitar a senha. A letra C erra porque Alt + F4 fecha a janela ativa e, na área de trabalho, abre a caixa de desligamento. A letra D erra porque Win + D apenas mostra a área de trabalho, sem proteger o acesso. A letra E é o distrator mais próximo: Ctrl + Alt + Delete abre a tela de segurança, na qual ainda é preciso escolher a opção de bloqueio — um passo a mais do que o atalho direto. A letra B erra porque, no navegador, Ctrl + L leva à barra de endereço.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "LGPD",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "LGPD: dado anonimizado não é dado pessoal, salvo se o processo de anonimização puder ser revertido (art. 12)",
+    "dificuldade": 2,
+    "enunciado": "Uma base de dados de um órgão público passou por um processo de anonimização irreversível, deixando de permitir a identificação dos titulares. De acordo com a Lei 13.709/2018 (LGPD), esses dados",
+    "alternativas": [
+      "continuam sendo dados pessoais, pois tiveram origem em pessoas naturais",
+      "só podem ser tratados mediante consentimento específico do titular, ainda que anonimizados",
+      "não são considerados dados pessoais, salvo quando o processo de anonimização puder ser revertido",
+      "passam a ser automaticamente classificados como dados pessoais sensíveis",
+      "perdem qualquer proteção legal e podem ser usados livremente, inclusive para fins discriminatórios"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: a LGPD dispõe que os dados anonimizados não são considerados dados pessoais, ressalvando a hipótese de o processo de anonimização ser revertido, caso em que voltam a ser tratados como pessoais. A letra A erra porque a origem em pessoa natural não basta quando não há mais possibilidade de identificação. A letra D erra porque dado sensível é categoria específica (origem racial ou étnica, convicção religiosa, opinião política, filiação sindical, dados de saúde, biometria, vida sexual etc.), não decorrente da anonimização. A letra E erra por absolutismo: mesmo dados anonimizados não podem ser tratados para fins discriminatórios ilícitos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Função SE combinada com a função E: o resultado só é verdadeiro quando todas as condições são verdadeiras",
+    "dificuldade": 2,
+    "enunciado": "Em uma planilha, a linha 2 contém B2 = 6 (nota da prova escrita) e C2 = 4 (nota da prova de títulos). Na célula D2 foi digitada a fórmula =SE(E(B2>=5;C2>=5);\"APTO\";\"INAPTO\"). O resultado exibido em D2 será",
+    "alternativas": [
+      "APTO",
+      "VERDADEIRO",
+      "#VALOR!",
+      "INAPTO",
+      "FALSO"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: a função E só devolve VERDADEIRO se todas as condições forem verdadeiras; como C2 = 4 não atende a C2>=5, o teste lógico resulta FALSO e a função SE retorna o segundo argumento, \"INAPTO\". A letra A erra porque seria o retorno apenas se as duas notas fossem maiores ou iguais a 5 (com a função OU, o resultado também seria \"APTO\"). A letra E erra porque a função SE, havendo textos como retorno, exibe o texto escolhido, e não o valor lógico FALSO. A letra C erra porque não há erro de sintaxe nem operando inválido na fórmula.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Correio eletrônico",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Limite de tamanho de anexos no e-mail; uso de link para armazenamento em nuvem ou servidor FTP institucional",
+    "dificuldade": 2,
+    "enunciado": "Um setor precisa enviar a um órgão externo um vídeo de 60 MB como prova documental. O servidor de e-mail da corporação aceita anexos de até 25 MB. A alternativa tecnicamente adequada para fazer o envio por e-mail é",
+    "alternativas": [
+      "compactar o vídeo em .zip, pois a compactação sempre reduz o arquivo para menos de 25 MB",
+      "enviar o arquivo no campo Cco, que não possui limite de tamanho",
+      "converter o vídeo para .txt e anexar, pois arquivos de texto não contam no limite do servidor",
+      "colar o vídeo no corpo da mensagem, pois o limite vale apenas para anexos",
+      "disponibilizar o arquivo em armazenamento em nuvem institucional (ou FTP) e enviar por e-mail o link de acesso, com as devidas restrições"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: quando o anexo supera o limite do servidor, a prática usual é depositar o arquivo em armazenamento em nuvem ou FTP institucional e enviar por e-mail apenas o link de acesso, preferencialmente com prazo e restrição de destinatários. A letra A erra porque vídeos já são comprimidos e o .zip costuma reduzir muito pouco o tamanho. A letra B erra porque o campo Cco só oculta destinatários e não altera o limite do servidor. A letra D erra porque o corpo da mensagem também trafega pelo servidor de e-mail e sofre limitação de tamanho.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Backup e nuvem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Distinção entre sincronização em nuvem e backup: backup exige cópias independentes e versionadas",
+    "dificuldade": 3,
+    "enunciado": "Um escrivão mantém a única cópia dos autos digitalizados em uma pasta sincronizada com o OneDrive. Certo dia, um ransomware criptografou os arquivos dessa pasta no computador, e a sincronização propagou a versão criptografada para a nuvem. A lição técnica que se extrai do caso é que",
+    "alternativas": [
+      "a nuvem não pode ser usada para armazenar documentos institucionais",
+      "sincronização não equivale a backup: o backup exige cópias independentes e versionadas, capazes de restaurar o estado anterior ao incidente",
+      "o problema teria sido evitado se a pasta estivesse em outra partição do mesmo disco",
+      "o ransomware só afeta arquivos locais, portanto a falha foi exclusivamente do provedor de nuvem",
+      "bastaria renomear a pasta sincronizada para que a nuvem deixasse de propagar alterações"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: a sincronização replica o estado atual dos arquivos, inclusive exclusões e criptografia; backup é cópia independente, versionada e restaurável, que permite voltar a uma versão anterior ao incidente. A letra A erra por absolutismo: a nuvem é um destino legítimo de backup, desde que configurada com versionamento e independência. A letra C erra porque outra partição no mesmo disco não protege contra criptografia nem contra falha do disco. A letra D erra porque, se o ransomware atingiu a pasta local e a sincronização propagou, o problema está no modelo de proteção, não em culpa do provedor.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Word",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Seções no Word: a orientação da página é aplicada por seção, exigindo quebra de seção",
+    "dificuldade": 3,
+    "enunciado": "Um relatório de 30 páginas foi digitado em orientação retrato, mas o autor precisa que apenas a página que contém uma tabela larga fique em orientação paisagem, mantendo as demais em retrato. No Microsoft Word, o procedimento correto é",
+    "alternativas": [
+      "selecionar a tabela e aplicar a orientação paisagem na guia Layout, pois a mudança fica restrita à seleção",
+      "inserir uma quebra de página antes e outra depois da tabela e alterar a orientação, pois a quebra de página cria uma nova seção",
+      "usar quebra de coluna antes da tabela e aplicar a orientação paisagem somente à tabela",
+      "inserir quebras de seção (Layout > Quebras > Próxima Página) antes e depois da tabela e aplicar a orientação paisagem apenas à seção correspondente",
+      "alterar a orientação na caixa Configurar Página e marcar a opção válida somente para a primeira página"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: orientação, margens e tamanho de papel são propriedades da seção; para isolar a página da tabela é preciso criar uma seção própria (quebras de seção antes e depois) e nela aplicar a orientação paisagem. A letra A erra porque selecionar uma tabela não cria seção e a orientação afetaria as páginas da mesma seção. A letra B erra porque quebra de página apenas inicia nova página dentro da mesma seção, mantendo a orientação. A letra C erra porque quebra de coluna subdivide o texto em colunas, sem criar nova seção para a página. A letra E erra porque não existe opção de orientação diferente apenas para a primeira página.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Ransomware: sequestro de dados por criptografia; principal defesa é backup íntegro e fora do alcance da rede",
+    "dificuldade": 2,
+    "enunciado": "Um hospital teve todos os prontuários eletrônicos criptografados por um ataque, e os criminosos passaram a exigir pagamento em criptomoeda para fornecer a chave de decifração, sob ameaça de publicar os dados. Esse ataque caracteriza",
+    "alternativas": [
+      "ransomware, cuja principal defesa é a existência de backups íntegros fora do alcance da rede afetada, além de medidas de prevenção",
+      "phishing, pois toda fraude eletrônica é classificada como phishing",
+      "worm, pois qualquer programa que cifra arquivos se autorreplica pela Internet",
+      "keylogger, que registra as teclas digitadas e, por isso, cifra os arquivos",
+      "spam, que consiste no envio massivo de mensagens com anexos criptografados"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: o ransomware é o malware que sequestra os dados, criptografando-os e exigindo resgate pela chave; a defesa central é ter backup íntegro, versionado e fora do alcance da rede (offline ou imutável), pois pagar o resgate não garante a recuperação. A letra B erra porque phishing é a técnica de engenharia social usada como porta de entrada, e não o ataque que criptografa e cobra resgate. A letra D erra porque keylogger captura digitação e não cifra arquivos. A letra E erra porque spam é envio massivo de mensagens, sem nexo com a criptografia dos prontuários.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Referências relativas (B2) e absolutas ($F$1): comportamento ao copiar e colar a fórmula",
+    "dificuldade": 2,
+    "enunciado": "No Microsoft Excel, a célula C2 contém a fórmula =B2*$F$1. Essa célula foi copiada (Ctrl+C) e colada na célula D3. A fórmula exibida em D3 será",
+    "alternativas": [
+      "=B2*$F$1",
+      "=C3*$F$1",
+      "=C3*$G$2",
+      "=B3*$F$1",
+      "=C3*F1"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: a referência relativa B2 desloca-se conforme o deslocamento da cópia; de C2 para D3 houve deslocamento de uma coluna à direita e uma linha para baixo, então B2 vira C3. A referência absoluta $F$1 permanece intacta. A letra A erra porque ignora o deslocamento da referência relativa. A letra C erra ao deslocar também a referência absoluta (o $ impede a mudança de coluna e de linha). A letra D erra ao manter a coluna B. A letra E erra ao transformar $F$1 em F1, o que só ocorreria se o $ fosse retirado manualmente.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "PowerPoint",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Slide Mestre no PowerPoint: formatação definida no mestre é herdada pelos slides e layouts",
+    "dificuldade": 2,
+    "enunciado": "Um instrutor recebeu uma apresentação de 60 slides e precisa trocar a fonte dos títulos e inserir o brasão do órgão em todos os slides, de uma só vez, mantendo o padrão visual. No Microsoft PowerPoint, ele deve editar",
+    "alternativas": [
+      "o modo Classificação de Slides, arrastando o brasão para cada um dos slides",
+      "a guia Animações, aplicando o efeito de entrada à apresentação inteira",
+      "a guia Transições, marcando a opção Aplicar a Todos",
+      "a caixa de texto do primeiro slide e aplicar o Pincel de Formatação, que se estende sozinho aos demais slides",
+      "o Slide Mestre (Exibir > Slide Mestre), pois os formatos ali definidos são herdados pelos slides que utilizam os layouts"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: o Slide Mestre concentra a formatação comum (fontes dos títulos, posições, logotipo, planos de fundo) e os slides herdam essas definições; alterar o mestre atualiza todos de uma vez. A letra A erra porque descreve trabalho manual, slide a slide. A letra B erra porque animações controlam a entrada de elementos, não a formatação do texto. A letra C erra porque transições são efeitos entre slides. A letra D erra porque o Pincel de Formatação só alcança o que for selecionado — não se propaga automaticamente a todos os slides.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Internet e protocolos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Portas padrão: HTTPS (443) e SMTP (25)",
+    "dificuldade": 2,
+    "enunciado": "Para permitir que um computador acesse um site seguro e envie mensagens de e-mail, o administrador de uma rede com firewall restritivo precisa liberar, respectivamente, as portas padrão do HTTPS e do SMTP. Essas portas são",
+    "alternativas": [
+      "80 e 110",
+      "8080 e 143",
+      "443 e 25",
+      "443 e 110",
+      "21 e 25"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: o HTTPS usa por padrão a porta 443 (TLS) e o SMTP, o envio de e-mail, usa a porta 25. A letra A erra porque 80 é a porta padrão do HTTP (sem TLS) e 110 é do POP3. A letra B erra porque 8080 é uma porta alternativa de proxy/servidor web e 143 é do IMAP. A letra D erra porque 110 é do POP3, protocolo de recebimento, não de envio. A letra E erra porque 21 é a porta de controle do FTP.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Função SOMASE (intervalo, critério, intervalo_soma): soma apenas as linhas que atendem ao critério",
+    "dificuldade": 2,
+    "enunciado": "Numa planilha, o intervalo A2:A6 contém, nesta ordem, os setores Norte, Sul, Norte, Norte e Sul. O intervalo C2:C6 contém, nas mesmas linhas, os valores 100, 200, 150, 50 e 300. Na célula E2 foi digitada a fórmula =SOMASE(A2:A6;\"Norte\";C2:C6). O resultado exibido é",
+    "alternativas": [
+      "300",
+      "800",
+      "500",
+      "100",
+      "0"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: a SOMASE soma apenas os valores do intervalo de soma que correspondem ao critério; as linhas com \"Norte\" são as de 100, 150 e 50, totalizando 300. A letra B erra porque 800 é a soma de todos os valores (100+200+150+50+300), efeito de ignorar o critério. A letra C erra porque 500 é a soma do setor \"Sul\" (200+300), ou seja, o critério trocado. A letra D erra porque considera apenas a primeira ocorrência do critério.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Windows",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Permissões NTFS: Modificar (ler, gravar, executar e excluir) x Controle total (acrescenta alterar permissões e assumir propriedade)",
+    "dificuldade": 3,
+    "enunciado": "Em uma pasta compartilhada do Windows 10 com sistema de arquivos NTFS, um investigador deve poder ler, gravar, executar e excluir arquivos, mas não deve conseguir alterar as permissões de outros usuários nem assumir a propriedade dos arquivos. A permissão NTFS que atende exatamente a esses requisitos é",
+    "alternativas": [
+      "Controle total",
+      "Leitura",
+      "Leitura e execução",
+      "Gravação",
+      "Modificar"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: a permissão Modificar abrange leitura, gravação, execução e exclusão de arquivos e pastas, sem conceder as ações administrativas. A letra A erra por excesso: Controle total acrescenta alterar permissões, assumir propriedade e excluir subpastas e arquivos de outros usuários. A letra B erra por falta: permite apenas visualizar e abrir. A letra C também erra por falta: lê e executa, sem gravar nem excluir. A letra D erra porque gravar não confere leitura nem exclusão de forma ampla.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Correio eletrônico",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Assinatura automática no cliente de e-mail: texto padrão configurável, sem valor de autenticação",
+    "dificuldade": 1,
+    "enunciado": "Uma policial configurou, no cliente de e-mail, uma assinatura automática com nome, cargo, matrícula e telefone institucional. Sobre esse recurso, assinale a afirmativa correta.",
+    "alternativas": [
+      "A assinatura é um mecanismo de autenticação que garante a identidade do remetente",
+      "A assinatura criptografa o conteúdo da mensagem, impedindo a leitura por terceiros",
+      "A assinatura só pode ser criada pelo administrador do servidor e é obrigatória em todos os e-mails",
+      "A assinatura é um texto padrão inserido automaticamente nas mensagens, configurável pelo usuário, e não impede a falsificação do endereço do remetente",
+      "A assinatura substitui o campo Cco no envio de mensagens a múltiplos destinatários"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: a assinatura é apenas um bloco de texto (ou imagem) inserido automaticamente no fim da mensagem, configurável pelo próprio usuário, e não tem função de segurança. A letra A erra porque quem garante autenticidade e integridade é a assinatura digital, com certificado, e não a assinatura de texto. A letra B erra porque a assinatura não cifra nada. A letra C erra porque o recurso é de configuração local do cliente de e-mail, não uma imposição do servidor.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Navegadores",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Limitações do modo anônimo/InPrivate: não oculta acessos do provedor, do empregador ou da rede; downloads e favoritos permanecem",
+    "dificuldade": 2,
+    "enunciado": "Sobre o modo de navegação anônima do Google Chrome e o modo InPrivate do Microsoft Edge, assinale a afirmativa correta.",
+    "alternativas": [
+      "Garantem anonimato completo, pois o provedor de Internet e o administrador da rede deixam de registrar os sites acessados",
+      "Impedem a instalação de cookies e bloqueiam qualquer download de arquivos",
+      "Não salvam o histórico local da sessão, mas não ocultam os acessos do provedor, do empregador ou da rede, e os arquivos baixados e favoritos criados permanecem no computador",
+      "Criptografam todo o tráfego entre o computador e o site, funcionando como uma VPN",
+      "São indicados para o e-mail corporativo, pois a sessão se encerra automaticamente e o usuário é desconectado"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: o modo anônimo evita o registro local do histórico, mas o tráfego continua visível para o provedor de Internet e para o administrador da rede, e downloads e favoritos criados permanecem no computador. A letra A erra por absolutismo, ao prometer anonimato completo. A letra B erra porque o modo anônimo aceita cookies de sessão (em memória) e permite downloads. A letra D erra porque o modo anônimo não criptografa o tráfego nem substitui VPN. A letra E erra porque a sessão não é encerrada automaticamente nem há desconexão ao fechar a janela anônima.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "LGPD",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "LGPD: dado pessoal sensível (convicção religiosa) e princípios da finalidade e da necessidade",
+    "dificuldade": 3,
+    "enunciado": "Um órgão passou a exigir, no cadastro de visitantes, que a pessoa informe sua religião, com a justificativa de \"produzir estatísticas\". À luz da Lei 13.709/2018 (LGPD), essa exigência é inadequada porque",
+    "alternativas": [
+      "dados de religião só podem ser tratados por empresas privadas, e não por órgãos públicos",
+      "religião é dado pessoal sensível e a coleta não é necessária para a finalidade declarada, contrariando os princípios da finalidade e da necessidade",
+      "a LGPD proíbe o cadastro de visitantes em órgãos públicos",
+      "a coleta seria válida apenas se o visitante assinasse termo de confidencialidade",
+      "estatísticas são sempre anonimizadas e, por isso, exigem autorização judicial prévia"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: convicção religiosa é expressamente dado pessoal sensível, e o tratamento precisa de base legal específica; além disso, a coleta desproporcional contraria os princípios da finalidade (propósitos legítimos, específicos e informados) e da necessidade (limitação ao mínimo necessário). A letra A erra porque a LGPD se aplica a pessoas naturais e a pessoas jurídicas de direito público e privado. A letra C erra porque não há vedação ao cadastro de visitantes. A letra D erra porque termo de confidencialidade não cria base legal para tratar dado sensível.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Função CONT.SE com critério de comparação entre aspas (\">=7\")",
+    "dificuldade": 2,
+    "enunciado": "Numa planilha, o intervalo B2:B6 contém, nesta ordem, os valores 7, 5, 9, 8 e 6. Na célula D2 foi digitada a fórmula =CONT.SE(B2:B6;\">=7\"). O resultado exibido é",
+    "alternativas": [
+      "3",
+      "2",
+      "5",
+      "7",
+      "0"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: o CONT.SE conta as células que atendem ao critério; com \">=7\" são contadas 7, 9 e 8, totalizando 3. A letra B erra porque 2 seria o resultado de \">7\" (apenas 9 e 8). A letra C erra porque 5 é a quantidade total de células do intervalo, sem filtro. A letra D erra porque 7 é o maior valor, e não a contagem. A letra E erra porque exige que nenhuma célula atenda ao critério, o que não é o caso.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Word",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Estilos no Word: modificar a definição do estilo atualiza automaticamente todos os parágrafos que o utilizam",
+    "dificuldade": 2,
+    "enunciado": "Um escrivão aplicou o estilo \"Título 1\" a todos os capítulos de um manual. Depois de aprovado, o chefe determinou que todos os capítulos passassem a usar fonte Arial, tamanho 14, mantendo o restante da formatação. O modo correto de fazer isso de uma só vez é",
+    "alternativas": [
+      "selecionar cada título e alterar a fonte manualmente, um a um",
+      "usar o Pincel de Formatação sobre o primeiro título e depois clicar nos demais",
+      "usar Localizar e Substituir com a opção de diferenciar maiúsculas e minúsculas",
+      "modificar a definição do estilo \"Título 1\" (botão direito sobre o estilo > Modificar), pois todos os parágrafos com esse estilo são atualizados automaticamente",
+      "salvar o documento como .dotx, pois o modelo redefine os estilos já aplicados"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: o estilo é uma definição central; ao modificá-lo, todos os parágrafos formatados com \"Título 1\" passam a exibir a nova fonte, preservando o restante da formatação e mantendo o padrão do documento. A letra A erra porque é trabalho manual, sujeito a inconsistências. A letra B erra porque o Pincel de Formatação copia a formatação existente de um título — que ainda é a antiga — para os demais. A letra C erra porque Localizar e Substituir atua sobre texto, não sobre estilos. A letra E erra porque salvar como modelo não reaplica estilos a um documento já formatado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Autenticação de dois fatores: combinação de fatores de categorias distintas (conhecimento, posse, biometria)",
+    "dificuldade": 2,
+    "enunciado": "Um órgão passou a exigir, além da senha, um código gerado por um aplicativo autenticador instalado no celular do servidor. Sobre essa medida, assinale a afirmativa correta.",
+    "alternativas": [
+      "Trata-se de autenticação de dois fatores apenas se o código for enviado por e-mail, pois é o único segundo fator reconhecido",
+      "A medida equivale a uma senha mais longa, pois o código também é uma informação que o usuário sabe",
+      "É um caso de autenticação de dois fatores, pois combina algo que o usuário sabe (a senha) com algo que ele possui (o aplicativo no dispositivo), dificultando o acesso mesmo que a senha seja vazada",
+      "Elimina a necessidade de senha e de políticas de bloqueio após tentativas de acesso malsucedidas",
+      "Só é eficaz contra vírus, pois não interfere em ataques que usam senhas vazadas"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: a autenticação de dois fatores exige fatores de categorias diferentes — conhecimento (senha), posse (aplicativo, token, SMS) ou biometria; com a senha vazada, o invasor ainda precisa do segundo fator. A letra A erra porque o aplicativo autenticador é um segundo fator legítimo, e o e-mail não é o único. A letra B erra porque o código é gerado por um dispositivo que o usuário possui, e não uma informação memorizada — não é apenas uma senha mais longa. A letra D erra porque o segundo fator se soma à senha, não a dispensa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Backup e nuvem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Modelos de serviço em nuvem: IaaS (infraestrutura), PaaS (plataforma) e SaaS (software)",
+    "dificuldade": 2,
+    "enunciado": "Um órgão contratou um provedor de nuvem que fornece máquinas virtuais, armazenamento e rede, cabendo ao órgão instalar e administrar o sistema operacional, o banco de dados e as aplicações. Esse modelo de serviço em nuvem é",
+    "alternativas": [
+      "SaaS (Software como Serviço)",
+      "IaaS (Infraestrutura como Serviço)",
+      "PaaS (Plataforma como Serviço)",
+      "DaaS (Desktop como Serviço), pois a máquina virtual é um desktop remoto",
+      "on-premises, pois a infraestrutura continua sob administração do órgão"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: no IaaS o provedor entrega infraestrutura (máquinas virtuais, armazenamento e rede) e o cliente gerencia o sistema operacional, o middleware, o banco e as aplicações. A letra A erra porque no SaaS o provedor entrega o software pronto, como o Microsoft 365, sem gestão de sistema operacional pelo cliente. A letra C erra porque no PaaS o provedor administra a plataforma (sistema operacional e ambiente de execução), restando ao cliente apenas a aplicação. A letra E erra porque o serviço é prestado por provedor externo, o que descaracteriza o modelo local (on-premises).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Navegadores",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Cookies: pequenos arquivos de preferências/estado de sessão; a limpeza não apaga favoritos nem downloads",
+    "dificuldade": 2,
+    "enunciado": "Um usuário acessa o portal de notícias do órgão e percebe que o site \"lembra\" o idioma escolhido e mantém parte da sessão. Ele então executa a limpeza de \"Cookies e outros dados do site\" no navegador. O efeito esperado é",
+    "alternativas": [
+      "a remoção dos favoritos salvos e das extensões instaladas no navegador",
+      "o cancelamento da conta de e-mail configurada no cliente de e-mail",
+      "a exclusão dos arquivos baixados na pasta Downloads do computador",
+      "a alteração automática da senha do roteador da rede",
+      "a perda das preferências e do estado de sessão dos sites, exigindo novo login ou nova escolha de idioma, sem apagar favoritos nem downloads"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: cookies são pequenos arquivos que guardam preferências e estado de sessão; ao apagá-los, o site deixa de \"lembrar\" o usuário, que pode precisar fazer login e reescolher o idioma, mas favoritos e arquivos baixados permanecem. A letra A erra porque favoritos e extensões são armazenados em outros locais e não são removidos por essa limpeza. A letra C erra porque os downloads ficam no disco do usuário. A letra D erra porque a senha do roteador não tem relação com cookies do navegador.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Formatação condicional dinâmica: regras são reavaliadas quando os valores da planilha mudam",
+    "dificuldade": 2,
+    "enunciado": "Um chefe pediu que, em uma planilha de controle de prazos, as células com atraso superior a 30 dias ficassem automaticamente com fundo vermelho, mesmo que os valores fossem alterados depois. O recurso adequado é",
+    "alternativas": [
+      "aplicar preenchimento vermelho manualmente nas células que hoje estão atrasadas",
+      "usar a função SE para escrever a palavra \"vermelho\" em uma coluna auxiliar ao lado",
+      "a Formatação Condicional (Página Inicial > Formatação Condicional > Realçar Regras das Células), pois as regras são recalculadas quando os valores mudam",
+      "proteger a planilha com senha, pois isso impede alterações nos prazos",
+      "congelar os painéis e classificar a coluna de prazos em ordem decrescente"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: a formatação condicional aplica a aparência com base em regras (por exemplo, valor maior que 30) e é reavaliada sempre que os valores mudam, sem intervenção manual. A letra A erra porque o preenchimento manual fica estático e não acompanha alterações futuras. A letra B erra porque a função SE apenas devolve um texto em outra célula, sem alterar a cor da célula avaliada. A letra D erra porque proteção de planilha restringe edição, mas não cria destaque automático. A letra E erra porque congelar painéis e classificar apenas organizam a visualização.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Internet e protocolos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "TCP (orientado à conexão, confiável) x UDP (sem conexão, sem garantia de entrega, menor latência)",
+    "dificuldade": 2,
+    "enunciado": "Sobre os protocolos de transporte TCP e UDP, assinale a afirmativa correta.",
+    "alternativas": [
+      "O TCP é orientado à conexão e confirma a entrega dos dados, enquanto o UDP não estabelece conexão nem garante a entrega, sendo usado em aplicações sensíveis a atraso, como transmissão de voz e vídeo",
+      "Ambos garantem a entrega dos pacotes, e a diferença entre eles está apenas no número da porta utilizada",
+      "O UDP é orientado à conexão, e o TCP é usado apenas em redes locais",
+      "O TCP é inseguro porque não criptografa, por isso foi substituído pelo UDP em todos os sites",
+      "Ambos operam na camada de aplicação da pilha TCP/IP"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: o TCP estabelece conexão, numera e confirma segmentos, garantindo entrega ordenada e confiável; o UDP não estabelece conexão nem confirma entrega, o que reduz a latência e o torna adequado a voz e vídeo. A letra B erra porque o UDP não garante entrega. A letra C erra porque inverte as definições e restringe indevidamente o TCP. A letra D erra porque criptografia é papel do TLS/HTTPS, não do TCP. A letra E erra porque TCP e UDP são protocolos da camada de transporte.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Windows",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Atalho Ctrl + Shift + Esc: abrir diretamente o Gerenciador de Tarefas",
+    "dificuldade": 1,
+    "enunciado": "Um programa travou no computador com Windows 10 e o usuário precisa encerrá-lo. O atalho que abre diretamente o Gerenciador de Tarefas, no qual ele pode selecionar o processo e escolher \"Finalizar tarefa\", é",
+    "alternativas": [
+      "Ctrl + Alt + Delete",
+      "Ctrl + Shift + Esc",
+      "Alt + Tab",
+      "Win + Pause",
+      "Ctrl + Esc"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: Ctrl + Shift + Esc abre o Gerenciador de Tarefas diretamente. A letra A é o distrator mais próximo: Ctrl + Alt + Delete abre a tela de segurança, na qual ainda é preciso escolher a opção do Gerenciador de Tarefas. A letra C erra porque Alt + Tab alterna entre janelas abertas. A letra D erra porque Win + Pause abre as propriedades do sistema. A letra E erra porque Ctrl + Esc abre o menu Iniciar.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "PowerPoint",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Recurso Ocultar Slide: o slide permanece no arquivo, mas é ignorado no modo de apresentação",
+    "dificuldade": 1,
+    "enunciado": "Um instrutor preparou um slide com dados reservados que não deve ser exibido durante a apresentação, mas precisa continuar no arquivo para uso posterior. No Microsoft PowerPoint, ele deve",
+    "alternativas": [
+      "excluir o slide e recriá-lo depois da apresentação",
+      "mover o slide para o final da apresentação e pulá-lo manualmente durante a exibição",
+      "salvar a apresentação como .ppsx, pois isso remove o slide da sequência",
+      "aplicar a opção Ocultar Slide, pois o slide permanece no arquivo, mas é ignorado no modo de apresentação",
+      "adicionar uma transição de duração zero, o que oculta automaticamente o slide"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: Ocultar Slide mantém o conteúdo no arquivo (podendo ser reexibido depois), mas o slide é saltado na apresentação em tela cheia. A letra A erra porque excluir apaga o conteúdo. A letra B erra porque mover não impede a exibição, e pular manualmente é sujeito a falha. A letra C erra porque o formato .ppsx apenas abre a apresentação diretamente no modo de exibição, sem ocultar slides. A letra E erra porque transição de duração zero não impede a exibição do slide.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Correio eletrônico",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Campo Cco (BCC): os endereços ali inseridos não aparecem para os demais destinatários",
+    "dificuldade": 1,
+    "enunciado": "Um órgão precisa enviar o resultado de um processo seletivo a 300 candidatos de uma só vez, cada um recebendo a mesma mensagem, sem que os endereços de um candidato fiquem visíveis para os demais. O campo apropriado do cliente de e-mail é",
+    "alternativas": [
+      "Para (De), com todos os endereços separados por ponto e vírgula",
+      "Cc (Com cópia), pois os endereços em cópia ficam ocultos",
+      "Assunto, usando o recurso de lista oculta do servidor",
+      "Anexo, com a lista de e-mails em arquivo separado, pois o servidor oculta os endereços do anexo",
+      "Cco (Com cópia oculta), pois os endereços ali informados não são exibidos aos demais destinatários"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: no campo Cco os destinatários recebem a mensagem sem que seus endereços apareçam para os outros, o que é o procedimento adequado para envios em massa que preservam a privacidade. A letra A erra porque todos os endereços ficariam visíveis no campo Para. A letra B erra porque o campo Cc expõe os endereços a todos os destinatários. A letra C erra porque o campo Assunto não abriga destinatários. A letra D erra porque um anexo com a lista apenas transfere o problema, sem ocultar nada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Tabela dinâmica: após alterar o intervalo de origem é necessário atualizar (Atualizar / Atualizar Tudo)",
+    "dificuldade": 2,
+    "enunciado": "Uma servidora criou uma tabela dinâmica a partir de um intervalo da planilha e, depois, inseriu novas linhas no intervalo de origem. Ao abrir a tabela dinâmica, os novos dados não apareceram. Para incorporá-los, ela deve",
+    "alternativas": [
+      "recriar a planilha inteira, pois a tabela dinâmica não aceita novos dados",
+      "atualizar a tabela dinâmica (Atualizar / Atualizar Tudo), pois ela não se atualiza sozinha quando a origem muda",
+      "salvar o arquivo no formato .xls, pois o formato antigo força a atualização da tabela",
+      "copiar a tabela dinâmica para outro local e colar como valores",
+      "aplicar formatação condicional ao intervalo de origem para que os dados sejam relidos"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: a tabela dinâmica trabalha sobre um instantâneo dos dados; quando a origem é alterada, é preciso executar Atualizar (ou Atualizar Tudo, quando há várias tabelas dinâmicas) para reler o intervalo. A letra A erra porque a tabela dinâmica aceita novos dados após a atualização. A letra C erra porque o formato do arquivo não força atualização. A letra D erra porque colar como valores apenas congela o resultado, descartando a conexão com a origem. A letra E erra porque formatação condicional não afeta a leitura dos dados.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Word",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Controle de Alterações: aceitar ou rejeitar marcas de revisão (guia Revisão)",
+    "dificuldade": 2,
+    "enunciado": "Um revisor devolveu um ofício com marcas de revisão. O setor decidiu manter todas as modificações sugeridas e entregar o documento final sem as marcas. No Microsoft Word, o caminho é",
+    "alternativas": [
+      "guia Revisão > Rejeitar > Rejeitar todas as alterações",
+      "guia Exibir > desmarcar \"Marcas de revisão\", pois isso aceita as alterações",
+      "guia Arquivo > Salvar como PDF, pois o PDF aceita automaticamente as marcas",
+      "desativar o botão Controle de Alterações e fechar o arquivo",
+      "guia Revisão > Aceitar > Aceitar todas as alterações e, ao final, salvar o documento"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: Aceitar todas as alterações transforma as modificações sugeridas em texto definitivo do documento, e as marcas desaparecem. A letra A erra porque rejeitar desfaz exatamente o que o setor quer manter. A letra B erra porque a opção de exibição apenas oculta as marcas na tela; elas continuam no documento e podem voltar a aparecer. A letra C erra porque exportar para PDF não aceita alterações pendentes no arquivo original. A letra D erra porque desligar o controle interrompe o registro de novas alterações, mas não resolve as marcas já existentes.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Phishing e smishing: engenharia social que simula comunicação legítima para obter dados ou induzir a cliques",
+    "dificuldade": 2,
+    "enunciado": "Um servidor recebeu uma mensagem de texto no celular dizendo que sua encomenda estava retida e que ele deveria clicar em um link e informar os dados do cartão para liberá-la. Não havia encomenda em seu nome. Essa tentativa de fraude é um exemplo de",
+    "alternativas": [
+      "phishing na modalidade smishing, técnica de engenharia social que simula comunicação legítima para induzir a vítima a fornecer dados ou clicar em links maliciosos",
+      "ransomware, pois o link criptografa o celular no momento em que é exibido",
+      "spam, que é qualquer mensagem indesejada e não envolve tentativa de fraude",
+      "pharming, que consiste em instalar programa espião por meio de conexão USB",
+      "ataque de força bruta, que testa senhas até acertar a credencial"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: o phishing é a fraude que se passa por comunicação legítima para obter dados; quando ocorre por SMS, recebe o nome de smishing. A letra B erra porque não há criptografia de dados no golpe descrito. A letra C erra porque spam é envio massivo de mensagens sem finalidade necessariamente fraudulenta, e aqui há tentativa clara de obter dados do cartão. A letra D erra porque pharming é o redirecionamento de domínio para site falso, e o golpe descrito não envolve USB. A letra E erra porque força bruta é tentativa repetida de senhas, não induzimento da vítima.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Arquivos e extensões",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Extensão de arquivo indica o formato; renomear a extensão não converte o conteúdo do arquivo",
+    "dificuldade": 2,
+    "enunciado": "Um usuário baixou um arquivo chamado \"oficio.docx\", renomeou-o para \"oficio.pdf\" no Explorador de Arquivos do Windows 10 e o enviou a um colega, afirmando tratar-se de um PDF. Sobre essa situação, é correto afirmar que",
+    "alternativas": [
+      "o Word converteu o arquivo automaticamente quando a extensão foi alterada",
+      "o arquivo passou a ser um PDF, pois o Windows reescreve o conteúdo conforme a extensão",
+      "o arquivo continua sendo um documento do Word; a extensão não converte o formato, e o destinatário precisará do Word (ou de programa compatível) para abri-lo corretamente",
+      "o arquivo ficou corrompido e não pode ser aberto por nenhum programa",
+      "o Windows bloqueia a renomeação de extensões de arquivos do Office por segurança"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: a extensão é apenas um rótulo que indica o formato e ajuda o sistema a escolher o programa de abertura; renomear não altera o conteúdo binário, que continua no formato .docx. A letra A erra porque nenhuma conversão é executada ao renomear. A letra B erra porque o Windows não reescreve o conteúdo para o formato indicado pela nova extensão. A letra D erra porque o arquivo permanece íntegro e abre normalmente no Word ou em programa compatível. A letra E erra porque renomear extensões é permitido no Windows, dependendo apenas da configuração de exibição.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Backup e nuvem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regra 3-2-1 de backup: três cópias, em duas mídias/locais distintos, com uma cópia offsite",
+    "dificuldade": 2,
+    "enunciado": "A equipe de TI de um batalhão adotou a regra 3-2-1 para o backup dos dados. Um integrante a descreveu como \"manter três cópias dos dados, sendo duas em mídias ou locais diferentes, e uma cópia fora do ambiente principal (offsite)\". Sobre essa descrição, assinale a afirmativa correta.",
+    "alternativas": [
+      "A descrição está errada: a regra exige que todas as cópias fiquem no mesmo servidor, para facilitar a restauração",
+      "A descrição está errada: a terceira cópia deve ser obrigatoriamente em nuvem pública, sendo vedada mídia física",
+      "A descrição está errada: a regra dispensa a cópia offsite quando o servidor usa RAID",
+      "A descrição está correta: três cópias, em duas mídias ou locais distintos, com uma cópia offsite, o que reduz o risco de perda simultânea",
+      "A descrição está errada: a regra trata de três backups semanais, dois mensais e um anual, sem relação com locais diferentes"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: a regra 3-2-1 prevê três cópias, em dois tipos de mídia ou locais diferentes, sendo uma externa (offsite), para que um único incidente não atinja todas as cópias. A letra A erra porque concentrar tudo no mesmo servidor contraria o objetivo de redundância. A letra B erra porque a regra não exige nuvem pública; mídia física externa é alternativa válida. A letra C erra porque RAID é redundância de disco em operação e não substitui backup, que protege contra exclusão, criptografia e corrupção lógica. A letra E erra porque descreve uma política de periodicidade, e não a regra 3-2-1.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Excel",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Validação de dados com lista no Excel: restringe os valores aceitos e exibe alerta de erro",
+    "dificuldade": 2,
+    "enunciado": "Um setor precisa que, em uma coluna de planilha, só sejam aceitos os valores \"RASCUNHO\", \"EM ANÁLISE\" e \"CONCLUÍDO\", com mensagem de erro quando o usuário digitar outro valor. No Microsoft Excel, o recurso apropriado é",
+    "alternativas": [
+      "a Formatação Condicional, que impede a digitação de valores fora da lista",
+      "a Proteção de Planilha, que limita os valores aceitos a uma lista predefinida",
+      "o Preenchimento Relâmpago, que completa os valores da lista automaticamente",
+      "a Tabela Dinâmica, configurada como lista de valores válidos",
+      "a Validação de Dados (Dados > Validação de Dados), com o critério \"Lista\" e o alerta de erro configurado"
+    ],
+    "correta": 4,
+    "explicacao": "A correta é a letra E: a validação de dados com o critério Lista restringe o que pode ser digitado na célula e, com o alerta de erro, exibe mensagem e recusa valores fora da lista. A letra A erra porque a formatação condicional apenas muda a aparência, sem impedir a digitação. A letra B erra porque a proteção de planilha bloqueia edição de células, mas não define lista de valores aceitos. A letra C erra porque o Preenchimento Relâmpago sugere padrões de digitação, sem validar. A letra D erra porque a tabela dinâmica é ferramenta de resumo, não de restrição de entrada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Internet e protocolos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Intranet: rede privada interna que usa tecnologias da Internet, com acesso restrito",
+    "dificuldade": 1,
+    "enunciado": "Um órgão disponibiliza, apenas na rede interna, um portal com normas e formulários, acessível somente aos computadores da corporação e não pela Internet. Esse ambiente é denominado",
+    "alternativas": [
+      "extranet, pois qualquer cidadão pode acessar mediante senha",
+      "intranet, rede privada interna que usa as mesmas tecnologias da Internet, mas com acesso restrito",
+      "Internet, pois todo portal utiliza o protocolo HTTP",
+      "DNS, pois o nome do portal é resolvido internamente",
+      "VPN, pois toda rede interna é uma conexão criptografada"
+    ],
+    "correta": 1,
+    "explicacao": "A correta é a letra B: a intranet é a rede corporativa interna, baseada nas tecnologias da Internet (HTTP, navegador, servidores web), mas acessível apenas aos usuários autorizados da organização. A letra A erra porque extranet é a extensão controlada da rede a parceiros externos, e o texto diz que o acesso é só interno. A letra C erra porque o uso de HTTP não transforma a rede interna em Internet. A letra D erra porque DNS é o serviço de resolução de nomes, e não o ambiente. A letra E erra porque VPN é um túnel criptografado para acesso remoto, não sinônimo de rede interna.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Criptografia assimétrica: par de chaves (pública e privada), certificados digitais e assinatura digital",
+    "dificuldade": 2,
+    "enunciado": "Sobre a criptografia assimétrica, assinale a afirmativa correta.",
+    "alternativas": [
+      "Cada usuário possui um par de chaves: a pública pode ser distribuída livremente e a privada deve ser mantida em segredo, sendo usadas, por exemplo, em certificados e assinaturas digitais",
+      "Utiliza uma única chave secreta, compartilhada entre emissor e receptor, o que caracteriza a criptografia simétrica",
+      "Dispensa certificados digitais, pois a chave pública, por si só, garante a identidade do titular",
+      "Só funciona em redes locais, pois exige que os computadores estejam no mesmo domínio",
+      "Tem por objetivo compactar os dados antes do envio, reduzindo o tamanho das mensagens"
+    ],
+    "correta": 0,
+    "explicacao": "A correta é a letra A: na criptografia assimétrica cada participante tem um par de chaves — a pública, distribuível, e a privada, sigilosa —, base de certificados digitais e assinaturas digitais. A letra B erra porque descreve a criptografia simétrica, com chave única compartilhada. A letra C erra porque o certificado digital é justamente o que vincula a chave pública ao titular, garantindo a identidade. A letra D erra porque o modelo funciona em qualquer rede, inclusive na Internet. A letra E erra porque compactação é outra técnica, sem relação com criptografia.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Arquivos e extensões",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Formato CSV: arquivo de texto puro com valores separados por delimitador (vírgula ou ponto e vírgula)",
+    "dificuldade": 2,
+    "enunciado": "Um sistema exportou uma lista de ocorrências em um arquivo \"ocorrencias.csv\". Sobre esse arquivo, é correto afirmar que",
+    "alternativas": [
+      "é uma imagem digitalizada das ocorrências, sem dados editáveis",
+      "é um formato binário proprietário que só o Excel consegue abrir, obrigatoriamente com macros",
+      "é um arquivo de texto com valores separados por um delimitador, como vírgula ou ponto e vírgula, que pode ser aberto no Excel e também em editores de texto",
+      "é um arquivo compactado que precisa ser descompactado antes da leitura",
+      "contém apenas as fórmulas do Excel, sem os valores calculados"
+    ],
+    "correta": 2,
+    "explicacao": "A correta é a letra C: CSV significa valores separados por delimitador; o conteúdo é texto puro, com cada linha representando um registro e cada campo separado por vírgula ou ponto e vírgula, o que permite abrir no Excel, no LibreOffice ou em qualquer editor de texto. A letra A erra porque CSV não é imagem. A letra B erra porque o formato é aberto e legível como texto, sem depender de macros. A letra D erra porque compactação corresponde a .zip, .rar e similares. A letra E erra porque o CSV guarda valores, não fórmulas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Word",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Mala direta: a fonte de dados deve ter linha de cabeçalho, cujos nomes viram campos de mesclagem",
+    "dificuldade": 2,
+    "enunciado": "Um setor vai emitir, por mala direta no Microsoft Word, 200 ofícios de convocação com nome, RG e data individualizados. A lista de destinatários está em uma planilha do Excel. Para que a mala direta funcione, a planilha deve",
+    "alternativas": [
+      "ter os nomes em uma única célula, separados por ponto e vírgula, pois o Word divide os campos automaticamente",
+      "estar salva no formato .pdf, para que o Word importe os dados sem erros",
+      "conter apenas os dados, sem cabeçalho, pois o Word atribui nomes genéricos às colunas",
+      "ter uma linha de cabeçalho com o nome de cada campo (por exemplo, Nome, RG, Data), pois a mala direta usa esses nomes como campos de mesclagem",
+      "ser protegida por senha, pois isso garante a integridade dos dados durante a mesclagem"
+    ],
+    "correta": 3,
+    "explicacao": "A correta é a letra D: na mala direta, o Word lê a fonte de dados e usa a primeira linha como cabeçalho para nomear os campos de mesclagem; por isso, cada coluna deve ter um título claro (Nome, RG, Data). A letra A erra porque campos empilhados em uma única célula inviabilizam a mesclagem individualizada. A letra B erra porque PDF não é fonte de dados de mala direta. A letra C erra porque, sem cabeçalho, o Word não identifica corretamente os campos. A letra E erra porque senha não tem relação com a integridade da mesclagem.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]

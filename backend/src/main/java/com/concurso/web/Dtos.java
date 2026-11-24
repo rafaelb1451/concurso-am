@@ -100,4 +100,47 @@ public final class Dtos {
 
     public record ChaveRequest(String apiKey) {
     }
+
+    /** Simulado no formato do caderno da banca. */
+    public record SimuladoView(
+            String concurso,
+            String nome,
+            int totalPrevisto,
+            int totalGerado,
+            List<QuestionView> questoes,
+            List<String> avisos
+    ) {
+    }
+
+    public record RespostaSimulado(Long questaoId, Integer alternativa) {
+    }
+
+    public record CorrecaoRequest(String concurso, List<RespostaSimulado> respostas) {
+    }
+
+    public record CorrecaoItem(
+            Long questaoId,
+            String materia,
+            String assunto,
+            String origem,
+            int correta,
+            String gabarito,
+            Integer alternativaAluno,
+            boolean acertou,
+            String explicacao,
+            String fundamento
+    ) {
+    }
+
+    public record MateriaResultado(String materia, int acertos, int total) {
+    }
+
+    public record CorrecaoView(
+            int acertos,
+            int total,
+            double percentual,
+            List<MateriaResultado> porMateria,
+            List<CorrecaoItem> itens
+    ) {
+    }
 }

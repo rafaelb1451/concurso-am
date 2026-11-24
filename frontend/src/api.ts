@@ -95,6 +95,52 @@ export const api = {
   salvarChave: (apiKey: string) => post<ConfigStatus>('/config/deepseek', { apiKey }),
   chat: (mensagens: ChatMensagem[], contexto: ContextoQuestao | null) =>
     post<{ resposta: string }>('/chat', { mensagens, contexto }),
+
+  // simulado
+  simulado: (concurso: string) => get<Simulado>(`/simulado${qs({ concurso })}`),
+  corrigirSimulado: (concurso: string, respostas: RespostaSimulado[]) =>
+    post<Correcao>('/simulado/corrigir', { concurso, respostas }),
+}
+
+export interface Simulado {
+  concurso: string
+  nome: string
+  totalPrevisto: number
+  totalGerado: number
+  questoes: Question[]
+  avisos: string[]
+}
+
+export interface RespostaSimulado {
+  questaoId: number
+  alternativa: number
+}
+
+export interface CorrecaoItem {
+  questaoId: number
+  materia: string
+  assunto: string
+  origem: string
+  correta: number
+  gabarito: string
+  alternativaAluno: number | null
+  acertou: boolean
+  explicacao: string | null
+  fundamento: string | null
+}
+
+export interface MateriaResultado {
+  materia: string
+  acertos: number
+  total: number
+}
+
+export interface Correcao {
+  acertos: number
+  total: number
+  percentual: number
+  porMateria: MateriaResultado[]
+  itens: CorrecaoItem[]
 }
 
 export interface ChatMensagem {

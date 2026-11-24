@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { api, type Answer, type Concurso, type Desempenho, type Question, type Topico } from './api'
 import Fixacao from './Fixacao'
+import Simulado from './Simulado'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
@@ -11,7 +12,7 @@ export default function App() {
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
   const [concursos, setConcursos] = useState<Concurso[]>([])
   const [concurso, setConcurso] = useState('TODOS')
-  const [aba, setAba] = useState<'treino' | 'fixacao'>('treino')
+  const [aba, setAba] = useState<'treino' | 'fixacao' | 'simulado'>('treino')
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
 
@@ -137,7 +138,7 @@ export default function App() {
             </p>
             <h1 className="text-xl font-bold text-ink-900">Banco de questões</h1>
             <div className="mt-2 flex gap-1">
-              {(['treino', 'fixacao'] as const).map((a) => (
+              {(['treino', 'fixacao', 'simulado'] as const).map((a) => (
                 <button
                   key={a}
                   onClick={() => setAba(a)}
@@ -147,7 +148,7 @@ export default function App() {
                       : 'rounded-lg px-3 py-1 text-xs font-semibold text-ink-500 transition hover:bg-ink-50 hover:text-ink-800'
                   }
                 >
-                  {a === 'treino' ? 'Treino' : 'Fixação + tutor'}
+                  {a === 'treino' ? 'Treino' : a === 'fixacao' ? 'Fixação + tutor' : 'Simulado'}
                 </button>
               ))}
             </div>
@@ -195,6 +196,7 @@ export default function App() {
         </div>
 
         {aba === 'fixacao' ? <Fixacao concurso={concurso} /> : null}
+        {aba === 'simulado' ? <Simulado concursoInicial={concurso} /> : null}
 
         {aba === 'treino' && fase === 'inicio' ? (
           <Inicio
