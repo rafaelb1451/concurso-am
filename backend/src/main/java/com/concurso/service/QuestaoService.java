@@ -81,64 +81,34 @@ public class QuestaoService {
 
     @Transactional(readOnly = true)
     public List<Dtos.TopicoView> topicos(String concurso) {
-        Map<String, Long> contagem = new LinkedHashMap<>();
-        for (Question q : questions.findAll()) {
-            if (!atendeConcurso(q, concurso)) {
-                continue;
-            }
-            contagem.merge(q.getMateria() + "|" + q.getAssunto(), 1L, Long::sum);
-        }
-        List<Dtos.TopicoView> saida = new ArrayList<>();
-        contagem.forEach((chave, total) -> {
-            String[] partes = chave.split("\\|", 2);
-            saida.add(new Dtos.TopicoView(partes[0], partes[1], total));
-        });
-        saida.sort((a, b) -> a.materia().equals(b.materia())
-                ? a.assunto().compareTo(b.assunto())
-                : a.materia().compareTo(b.materia()));
-        return saida;
+        String filtro = concurso == null || concurso.isBlank() ? null : concurso;
+        return questions.findTopicCounts(filtro).stream()
+                .map(topico -> new Dtos.TopicoView(topico.getMateria(), topico.getAssunto(), topico.getTotal()))
+                .toList();
     }
 
     /** Quantas questoes cada concurso tem (para o seletor da tela). */
     @Transactional(readOnly = true)
     public List<Dtos.ConcursoView> concursos() {
-        List<Question> todas = questions.findAll();
         List<Dtos.ConcursoView> saida = new ArrayList<>();
         for (String concurso : Concursos.TODOS) {
-            long total = todas.stream().filter(q -> q.getConcursos().contains(concurso)).count();
-            saida.add(new Dtos.ConcursoView(concurso, total));
+            saida.add(new Dtos.ConcursoView(concurso, questions.countByConcurso(concurso)));
         }
-        saida.add(new Dtos.ConcursoView("TODOS", todas.size()));
+        saida.add(new Dtos.ConcursoView("TODOS", questions.count()));
         return saida;
     }
 
     @Transactional(readOnly = true)
     public Dtos.DesempenhoView desempenho(String concurso) {
-        Map<Long, Question> porId = new LinkedHashMap<>();
-        questions.findAll().forEach(q -> porId.put(q.getId(), q));
-
-        Map<String, long[]> porMateria = new LinkedHashMap<>();
         long respondidas = 0;
         long acertos = 0;
-
-        for (Attempt tentativa : attempts.findAll()) {
-            Question q = porId.get(tentativa.getQuestionId());
-            if (q == null || !atendeConcurso(q, concurso)) {
-                continue;
-            }
-            long[] linha = porMateria.computeIfAbsent(q.getMateria(), k -> new long[2]);
-            linha[0]++;
-            respondidas++;
-            if (tentativa.isAcertou()) {
-                linha[1]++;
-                acertos++;
-            }
-        }
-
         List<Dtos.MateriaStats> stats = new ArrayList<>();
-        porMateria.forEach((materia, linha) ->
-                stats.add(new Dtos.MateriaStats(materia, linha[0], linha[1])));
-        stats.sort((a, b) -> Long.compare(b.respondidas(), a.respondidas()));
+        String filtro = concurso == null || concurso.isBlank() ? null : concurso;
+        for (AttemptRepository.MateriaStats linha : attempts.findMateriaStats(filtro)) {
+            stats.add(new Dtos.MateriaStats(linha.getMateria(), linha.getRespondidas(), linha.getAcertos()));
+            respondidas += linha.getRespondidas();
+            acertos += linha.getAcertos();
+        }
 
         double percentual = respondidas == 0 ? 0 : Math.round(acertos * 1000.0 / respondidas) / 10.0;
         return new Dtos.DesempenhoView(respondidas, acertos, percentual, stats);
@@ -152,6 +122,9 @@ public class QuestaoService {
         }
         if (materia != null && !materia.isBlank()) {
             return questions.findByMateriaOrderByIdAsc(materia);
+        }
+        if (assunto != null && !assunto.isBlank()) {
+            return questions.findByAssuntoOrderByIdAsc(assunto);
         }
         return questions.findAll();
     }

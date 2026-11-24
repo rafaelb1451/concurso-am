@@ -114,7 +114,8 @@ export default function Fixacao({ concurso }: { concurso: string }) {
     setPergunta('')
     setPensando(true)
     try {
-      const r = await api.chat(novas, montarContexto())
+      // O backend aceita no maximo 20 mensagens por requisicao: envia a janela mais recente.
+      const r = await api.chat(novas.slice(-20), montarContexto())
       setMensagens([...novas, { role: 'assistant', content: r.resposta }])
     } catch (e) {
       const msg = e instanceof Error ? e.message : 'Falha ao falar com o tutor.'
@@ -133,8 +134,8 @@ export default function Fixacao({ concurso }: { concurso: string }) {
       const c = await api.salvarChave(chaveTmp.trim())
       setConfigurado(c.configurado)
       setChaveTmp('')
-    } catch {
-      setErro('Não foi possível salvar a chave.')
+    } catch (e) {
+      setErro(e instanceof Error ? e.message : 'Não foi possível salvar a chave.')
     }
   }
 

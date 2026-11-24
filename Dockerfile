@@ -23,7 +23,7 @@ RUN apk add --no-cache curl tzdata \
 WORKDIR /app
 COPY --from=api /api/target/concurso-backend-*.jar app.jar
 # o banco vive no volume; o usuário do container precisa escrever nele
-RUN mkdir -p /dados && chown -R app:app /dados /app
+RUN mkdir -p /dados/segredos && chown -R app:app /dados /app
 USER app
 ENV TZ=America/Sao_Paulo \
     SPRING_PROFILES_ACTIVE=prod \

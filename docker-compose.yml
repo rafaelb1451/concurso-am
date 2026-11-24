@@ -9,6 +9,8 @@ services:
       SPRING_PROFILES_ACTIVE: prod
     volumes:
       - dados:/dados
+    # encerramento graceful do Spring (20s) dentro da janela do Docker
+    stop_grace_period: 30s
     # SEM "ports": o app só é alcançável pela rede interna do compose.
     expose:
       - "8080"
@@ -29,7 +31,9 @@ services:
     image: caddy:2-alpine
     restart: unless-stopped
     depends_on:
-      - app
+      app:
+        # só começa a aceitar tráfego depois que o Spring responde ao healthcheck
+        condition: service_healthy
     environment:
       DOMINIO: ${DOMINIO}
       QB_USUARIO: ${QB_USUARIO}

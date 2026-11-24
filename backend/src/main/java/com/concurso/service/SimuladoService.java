@@ -64,8 +64,16 @@ public class SimuladoService {
     @Transactional
     public Dtos.CorrecaoView corrigir(Dtos.CorrecaoRequest request) {
         List<Dtos.RespostaSimulado> respostas = request.respostas() == null ? List.of() : request.respostas();
+        // Busca so' as questoes respondidas: a correcao nao precisa carregar o banco inteiro.
+        List<Long> ids = respostas.stream()
+                .map(Dtos.RespostaSimulado::questaoId)
+                .filter(java.util.Objects::nonNull)
+                .distinct()
+                .toList();
         Map<Long, Question> porId = new java.util.HashMap<>();
-        questions.findAll().forEach(q -> porId.put(q.getId(), q));
+        if (!ids.isEmpty()) {
+            questions.findAllById(ids).forEach(q -> porId.put(q.getId(), q));
+        }
 
         List<Dtos.CorrecaoItem> itens = new ArrayList<>();
         Map<String, int[]> placar = new LinkedHashMap<>();

@@ -16,7 +16,7 @@ dois certames.
 | Camada | Tecnologia |
 |---|---|
 | Backend | Java 21 + Spring Boot 4 (REST, JPA) |
-| Banco | H2 em arquivo (dev) · PostgreSQL (produção) |
+| Banco | H2 em arquivo (dev e produção; driver PostgreSQL já no `pom.xml`) |
 | Frontend | React 19 + TypeScript + Vite + Tailwind CSS v4 |
 
 ## Como rodar
@@ -62,11 +62,12 @@ Conteúdo comum aos dois concursos leva as duas marcas; matéria específica lev
 
 - [x] Estrutura de dados, API e tela de treino
 - [x] Separação por concurso (PM-AM / PC-AM)
-- [x] Banco inicial com 24 questões autorais
+- [x] Banco com 1.000+ questões (seed consolidado)
+- [x] Tutor de IA na aba Fixação (DeepSeek)
+- [x] Simulado no formato do caderno da banca
+- [x] Deploy em container único com Caddy (HTTPS + senha) — ver `DEPLOY.md`
 - [ ] Extração das provas reais da FGV (PM-AM 2022, PC-AM 2021)
-- [ ] Expansão do banco para ~1.000 questões
-- [ ] Chat de IA para explicação sob demanda
-- [ ] Autenticação / uso multiusuário
+- [ ] Migração para PostgreSQL se o uso deixar de ser pessoal
 
 ## Notas
 

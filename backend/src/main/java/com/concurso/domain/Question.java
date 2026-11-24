@@ -9,10 +9,12 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Index;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OrderColumn;
 import jakarta.persistence.Table;
+import org.hibernate.annotations.BatchSize;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +27,9 @@ import java.util.List;
  * o que separa treinar a redacao real da banca de treinar uma questao calibrada.</p>
  */
 @Entity
-@Table(name = "questions")
+@Table(name = "questions", indexes = {
+        @Index(name = "idx_questions_materia_assunto", columnList = "materia, assunto")
+})
 public class Question {
 
     @Id
@@ -75,16 +79,23 @@ public class Question {
      * Concursos a que a questao se aplica: "PM-AM", "PC-AM" ou ambos.
      * Conteudo comum aos dois leva as duas marcas; materia especifica leva so' a sua.
      */
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "question_concursos", joinColumns = @JoinColumn(name = "question_id"))
+    @ElementCollection(fetch = FetchType.LAZY)
+    @BatchSize(size = 50)
+    @CollectionTable(name = "question_concursos", joinColumns = @JoinColumn(name = "question_id"),
+            indexes = {
+                    @Index(name = "idx_question_concursos_question", columnList = "question_id"),
+                    @Index(name = "idx_question_concursos_contest", columnList = "concurso")
+            })
     @Column(name = "concurso", length = 20)
     private java.util.Set<String> concursos = new java.util.LinkedHashSet<>();
 
     @Column(nullable = false, columnDefinition = "TEXT")
     private String enunciado;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "question_alternativas", joinColumns = @JoinColumn(name = "question_id"))
+    @ElementCollection(fetch = FetchType.LAZY)
+    @BatchSize(size = 50)
+    @CollectionTable(name = "question_alternativas", joinColumns = @JoinColumn(name = "question_id"),
+            indexes = @Index(name = "idx_question_alternativas_question", columnList = "question_id"))
     @OrderColumn(name = "posicao")
     @Column(name = "texto", length = 1000)
     private List<String> alternativas = new ArrayList<>();

@@ -39,7 +39,8 @@ public record QuestionPayload(
         Question q = new Question();
         q.setMateria(materia);
         q.setAssunto(assunto);
-        q.setOrigem(origem == null ? Origem.AUTORAL : Origem.valueOf(origem.toUpperCase(Locale.ROOT)));
+        q.setOrigem(origem == null ? Origem.AUTORAL
+                : Origem.valueOf(origem.trim().toUpperCase(Locale.ROOT)));
         q.setBanca(banca);
         q.setAno(ano);
         q.setOrgao(orgao);
@@ -56,7 +57,7 @@ public record QuestionPayload(
         q.setHash(hashDe(enunciado));
         q.setPrecedente(precedente);
         if (verificadoEm != null && !verificadoEm.isBlank()) {
-            q.setVerificadoEm(java.time.LocalDate.parse(verificadoEm));
+            q.setVerificadoEm(java.time.LocalDate.parse(verificadoEm.trim()));
         }
         return q;
     }

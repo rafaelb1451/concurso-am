@@ -32,15 +32,18 @@ public class DeepSeekService {
     private static final Logger log = LoggerFactory.getLogger(DeepSeekService.class);
     private static final String ENDPOINT = "https://api.deepseek.com/chat/completions";
     private static final String MODELO = "deepseek-chat";
-    private static final Path ARQUIVO_CHAVE = Path.of("segredos", "deepseek.key");
 
     private final ObjectMapper mapper;
+    private final Path arquivoChave;
     private final HttpClient http = HttpClient.newBuilder()
             .connectTimeout(Duration.ofSeconds(20))
             .build();
 
-    public DeepSeekService(ObjectMapper mapper) {
+    public DeepSeekService(ObjectMapper mapper,
+                           @org.springframework.beans.factory.annotation.Value(
+                                   "${concurso.tutor.chave-arquivo:segredos/deepseek.key}") String caminhoChave) {
         this.mapper = mapper;
+        this.arquivoChave = Path.of(caminhoChave);
     }
 
     public boolean configurado() {
@@ -52,9 +55,11 @@ public class DeepSeekService {
             throw new IllegalArgumentException("Chave vazia");
         }
         try {
-            Files.createDirectories(ARQUIVO_CHAVE.getParent());
-            Files.writeString(ARQUIVO_CHAVE, apiKey.trim(), StandardCharsets.UTF_8);
-            log.info("Chave da DeepSeek gravada em {}", ARQUIVO_CHAVE.toAbsolutePath());
+            if (arquivoChave.getParent() != null) {
+                Files.createDirectories(arquivoChave.getParent());
+            }
+            Files.writeString(arquivoChave, apiKey.trim(), StandardCharsets.UTF_8);
+            log.info("Chave da DeepSeek gravada em {}", arquivoChave.toAbsolutePath());
         } catch (Exception e) {
             throw new IllegalStateException("Nao foi possivel gravar a chave: " + e.getMessage(), e);
         }
@@ -66,8 +71,8 @@ public class DeepSeekService {
             return env.trim();
         }
         try {
-            if (Files.exists(ARQUIVO_CHAVE)) {
-                String lida = Files.readString(ARQUIVO_CHAVE, StandardCharsets.UTF_8).trim();
+            if (Files.exists(arquivoChave)) {
+                String lida = Files.readString(arquivoChave, StandardCharsets.UTF_8).trim();
                 return lida.isEmpty() ? null : lida;
             }
         } catch (Exception e) {

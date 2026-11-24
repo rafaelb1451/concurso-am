@@ -42,14 +42,20 @@ No `.env`:
   docker run --rm caddy:2-alpine caddy hash-password --plaintext 'sua-senha-forte'
   ```
   Cole o resultado inteiro (começa com `$2b$`).
-- **`DEEPSEEK_API_KEY`** — a chave atual (rotacione se desconfiar de exposição).
+- **`DEEPSEEK_API_KEY`** — a chave atual (rotacione se desconfiar de exposição). É o caminho
+  recomendado no servidor. A chave também pode ser colada na aba Fixação; nesse caso ela é gravada
+  em `/dados/segredos/deepseek.key` (o root do container é read-only). A variável de ambiente tem
+  precedência sobre o arquivo.
 
 ## 3. Subir
 
 ```bash
+docker compose config          # confira a configuração resolvida
 docker compose up -d --build
 docker compose logs -f app     # acompanhe o primeiro boot
 ```
+
+O Caddy só começa a aceitar tráfego depois que o `HEALTHCHECK` da aplicação passa.
 
 No primeiro boot o app carrega **1.000+ questões** do seed consolidado. Espere a linha:
 
@@ -76,8 +82,12 @@ Abra `https://SEU-DOMINIO` no navegador: o Caddy pede usuário e senha, e aí en
 | Logs de acesso/erro do proxy | `docker compose logs -f caddy` |
 | Reiniciar | `docker compose restart app` |
 | Atualizar código | `git pull && docker compose up -d --build` |
-| Backup do banco | `docker run --rm -v concurso-am_dados:/dados -v $PWD:/bkp alpine tar czf /bkp/dados.tgz -C /dados .` |
+| Backup do banco (app parado) | `docker compose stop app && docker run --rm -v concurso-am_dados:/dados -v $PWD:/bkp alpine tar czf /bkp/dados.tgz -C /dados . && docker compose start app` |
 | Restaurar | inverso do backup, com o app parado |
+
+O nome do volume (`concurso-am_dados`) vem do diretório do clone. Confira com
+`docker volume ls` antes do backup. Pare o app durante a cópia para o H2 não estar no meio de uma
+escrita.
 
 **Recuperar o banco do zero**: o conteúdo é reproduzível a partir dos lotes do repositório —
 apague o volume (`docker compose down -v`) e suba de novo; o seed recarrega tudo.

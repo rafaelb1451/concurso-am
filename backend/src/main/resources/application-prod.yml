@@ -20,6 +20,9 @@ server:
 spring:
   application:
     name: concurso-backend
+  lifecycle:
+    # o encerramento graceful tem que caber no stop_grace_period do compose
+    timeout-per-shutdown-phase: 20s
   datasource:
     url: jdbc:h2:file:/dados/concurso;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=FALSE
     driver-class-name: org.h2.Driver
@@ -41,6 +44,9 @@ spring:
 concurso:
   seed:
     arquivo: seed-completo.json
+  tutor:
+    # o root filesystem do container e' read-only; a chave colada na tela vai para o volume
+    chave-arquivo: /dados/segredos/deepseek.key
 
 logging:
   level:

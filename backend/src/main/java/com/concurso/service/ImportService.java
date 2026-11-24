@@ -53,7 +53,15 @@ public class ImportService {
                 erros.add(erro);
                 continue;
             }
-            Question q = payload.toEntity();
+            Question q;
+            try {
+                // Mesmo um item que passou na validacao pode ter dado impossivel de converter
+                // (data, numero). Nesse caso a linha e' rejeitada, sem derrubar o lote inteiro.
+                q = payload.toEntity();
+            } catch (RuntimeException ex) {
+                erros.add("linha " + (i + 1) + ": dados invalidos (" + resumo(ex) + ")");
+                continue;
+            }
             if (!hashes.add(q.getHash())) {
                 erros.add("linha " + (i + 1) + ": ja existe (enunciado duplicado)");
                 continue;
@@ -82,6 +90,7 @@ public class ImportService {
             }
         }
         int atualizadas = 0;
+        List<Question> paraSalvar = new ArrayList<>();
         List<String> naoEncontradas = new ArrayList<>();
         for (Dtos.ExplicacaoPayload item : itens) {
             if (item.hash() == null || item.hash().isBlank()) {
@@ -101,16 +110,18 @@ public class ImportService {
                 q.setPrecedente(item.precedente());
             }
             q.setVerificadoEm(java.time.LocalDate.now());
+            paraSalvar.add(q);
             atualizadas++;
         }
-        questions.saveAll(porHash.values().stream()
-                .filter(q -> q.getExplicacao() != null)
-                .toList());
+        questions.saveAll(paraSalvar);
         return new Dtos.ExplicacaoReport(itens.size(), atualizadas, naoEncontradas);
     }
 
     private String validar(QuestionPayload p, int linha) {
         String prefixo = "linha " + linha + ": ";
+        if (p == null) {
+            return prefixo + "questao ausente";
+        }
         if (p.materia() == null || p.materia().isBlank()) {
             return prefixo + "materia obrigatoria";
         }
@@ -132,11 +143,37 @@ public class ImportService {
         if (p.correta() == null || p.correta() < 0 || p.correta() >= p.alternativas().size()) {
             return prefixo + "gabarito (correta) fora do intervalo das alternativas";
         }
+        if (p.dificuldade() != null && (p.dificuldade() < 1 || p.dificuldade() > 3)) {
+            return prefixo + "dificuldade fora do intervalo (use 1, 2 ou 3)";
+        }
+        if (p.verificadoEm() != null && !p.verificadoEm().isBlank()) {
+            try {
+                java.time.LocalDate.parse(p.verificadoEm().trim());
+            } catch (java.time.format.DateTimeParseException ex) {
+                return prefixo + "verificadoEm invalido (use AAAA-MM-DD)";
+            }
+        }
+        String origem = p.origem() == null ? null : p.origem().trim();
+        if (origem != null
+                && !"PROVA".equalsIgnoreCase(origem)
+                && !"AUTORAL".equalsIgnoreCase(origem)) {
+            return prefixo + "origem invalida (use PROVA ou AUTORAL)";
+        }
+        boolean ehProva = "PROVA".equalsIgnoreCase(origem);
+        if (!ehProva && (p.fundamento() == null || p.fundamento().isBlank())) {
+            return prefixo + "fundamento obrigatorio (questao autoral)";
+        }
         if (p.explicacao() == null || p.explicacao().isBlank()) {
             // Questao de prova oficial entra sem comentario; o comentario nasce depois.
-            boolean ehProva = p.origem() != null && "PROVA".equalsIgnoreCase(p.origem());
             if (!ehProva) {
                 return prefixo + "explicacao obrigatoria (questao autoral)";
+            }
+        }
+        if (p.verificadoEm() != null && !p.verificadoEm().isBlank()) {
+            try {
+                java.time.LocalDate.parse(p.verificadoEm());
+            } catch (java.time.format.DateTimeParseException e) {
+                return prefixo + "verificadoEm invalido (use AAAA-MM-DD)";
             }
         }
         if (p.concursos() != null) {
@@ -147,5 +184,14 @@ public class ImportService {
             }
         }
         return null;
+    }
+
+    /** Mensagem curta da causa, sem stack trace nem caminho de classe. */
+    private static String resumo(RuntimeException ex) {
+        String msg = ex.getMessage();
+        if (msg == null || msg.isBlank()) {
+            return ex.getClass().getSimpleName();
+        }
+        return msg.length() > 120 ? msg.substring(0, 120) + "..." : msg;
     }
 }

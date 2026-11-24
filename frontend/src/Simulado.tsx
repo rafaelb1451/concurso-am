@@ -49,7 +49,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
       setCarregando(false)
       finalizando.current = false
     }
-  }, [simulado, respostas])
+  }, [simulado, respostas, restante])
 
   useEffect(() => {
     if (etapa !== 'prova') return
