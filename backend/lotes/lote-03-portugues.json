@@ -1,0 +1,1082 @@
+[
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Interpretação de texto",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Escopo da negação em período causal (não... porque, mas porque)",
+    "dificuldade": 2,
+    "enunciado": "Leia o trecho: “O delegado não instaurou o inquérito porque o escrivão estava de férias, mas porque o fato narrado não configurava crime.” A respeito do que o trecho afirma, é correto concluir que:",
+    "alternativas": [
+      "o inquérito foi instaurado, ainda que o escrivão estivesse de férias.",
+      "o inquérito não foi instaurado, tendo as férias do escrivão como causa apontada.",
+      "o inquérito foi instaurado justamente porque o escrivão estava de férias.",
+      "o inquérito não foi instaurado, e a inexistência de crime é indiferente para essa decisão.",
+      "o inquérito não foi instaurado, e a causa foi não haver crime a apurar."
+    ],
+    "correta": 4,
+    "explicacao": "Na estrutura “não... porque X, mas porque Y”, a negação recai sobre a causa e o “mas” corrige o motivo: o inquérito não foi instaurado e a razão verdadeira é Y (não haver crime). A alternativa B só valeria se a negação recaísse sobre o resultado, leitura cancelada pelo “mas porque”. A alternativa D erra ao tratar o motivo real como indiferente, e as alternativas A e C afirmam instauração, contrariando a negação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Interpretação de texto",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Pressuposto veiculado pelo advérbio “já”",
+    "dificuldade": 2,
+    "enunciado": "No período “Ao assumir o comando do pelotão, o sargento já conhecia cada rua do bairro”, o advérbio “já” veicula a seguinte informação pressuposta:",
+    "alternativas": [
+      "o sargento passou a conhecer as ruas somente depois de assumir o comando.",
+      "o sargento conhecia as ruas apenas por informações de terceiros.",
+      "o sargento desconhecia as ruas antes de assumir o comando.",
+      "o conhecimento das ruas foi condição para que assumisse o comando.",
+      "o conhecimento das ruas era anterior ao momento de assumir o comando."
+    ],
+    "correta": 4,
+    "explicacao": "“Já” marca anterioridade em relação ao momento tomado como referência (a assunção do comando): o conhecimento vinha de antes. A alternativa A contradiz isso ao situar o conhecimento depois; C nega o conhecimento; D e B acrescentam informações (condição, fonte) que o texto não veicula.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Interpretação de texto",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Inferência a partir de relação lógica explicitada no texto",
+    "dificuldade": 2,
+    "enunciado": "Leia: “Muita gente confunde suspeito com indiciado. Suspeito é qualquer pessoa sobre quem recaiam indícios de autoria; indiciado é aquele formalmente apontado pela autoridade policial no relatório do inquérito. Por isso, um suspeito pode nunca vir a ser indiciado, mas ninguém se torna indiciado sem antes ter sido, em algum momento, objeto de suspeita.” De acordo com o texto, é correto afirmar que:",
+    "alternativas": [
+      "o suspeito é o personagem formalmente apontado no relatório do inquérito.",
+      "todo suspeito acaba se tornando indiciado.",
+      "o indiciamento depende de decisão judicial.",
+      "todo indiciado foi, em algum momento, objeto de suspeita.",
+      "suspeito e indiciado são termos equivalentes na prática policial."
+    ],
+    "correta": 3,
+    "explicacao": "O último período afirma que ninguém se torna indiciado sem antes ter sido objeto de suspeita, o que autoriza concluir que todo indiciado foi antes suspeito — aqui o “todo” é sustentado pelo texto. B inverte a relação e é cancelada pelo próprio texto; C fala de decisão judicial, não mencionada; A troca os papéis (o relatório aponta o indiciado); E contraria a distinção construída no texto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Interpretação de texto",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Ideia central de texto argumentativo curto",
+    "dificuldade": 2,
+    "enunciado": "Leia: “Nenhum manual ensina a reconhecer uma informação falsa; o que se aprende é desconfiar do atalho. Notícia que chega com resposta pronta costuma ser convite à preguiça de verificar.” A ideia central do texto é:",
+    "alternativas": [
+      "notícias falsas circulam apenas em redes sociais.",
+      "manuais de redação são inúteis para qualquer aprendizado.",
+      "é preciso desconfiar de informações que dispensam a verificação.",
+      "toda notícia apresentada com prontidão é necessariamente falsa.",
+      "a preguiça é a única causa da desinformação."
+    ],
+    "correta": 2,
+    "explicacao": "O texto valoriza a desconfiança diante do “atalho”, isto é, da informação que já vem pronta e dispensa checagem — exatamente o que afirma C. A e D ampliam indevidamente o alcance (só redes sociais; toda notícia); B generaliza com “inúteis” o que o texto diz de forma limitada; E reduz a desinformação a uma causa única.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Interpretação de texto",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Leitura de texto informativo (aviso oficial)",
+    "dificuldade": 1,
+    "enunciado": "Leia o aviso: “Em razão da operação programada para a manhã de sábado, o atendimento ao público na 3ª Delegacia será suspenso das 8h às 12h, retomando-se o expediente normal na segunda-feira.” De acordo com o aviso, é correto afirmar que:",
+    "alternativas": [
+      "o atendimento ficará suspenso durante todo o sábado.",
+      "a delegacia estará fechada ao público na segunda-feira.",
+      "o atendimento será suspenso na manhã de sábado e retomado na segunda-feira.",
+      "a operação será realizada nas dependências da 3ª Delegacia durante todo o sábado.",
+      "a suspensão do atendimento decorre da falta de servidores."
+    ],
+    "correta": 2,
+    "explicacao": "O aviso limita a suspensão à faixa das 8h às 12h de sábado e informa o retorno do expediente normal na segunda-feira, o que corresponde a C. A amplia para o dia inteiro; B contradiz o retorno previsto; D inventa local e duração da operação; E atribui a causa à falta de servidores, quando o motivo declarado é a operação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Coesão e referenciação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Emprego anafórico de este/aquele em enumeração",
+    "dificuldade": 2,
+    "enunciado": "Leia: “O delegado ouviu o escrivão e o investigador, mas só a este comunicou a decisão.” O termo “a este” retoma:",
+    "alternativas": [
+      "o delegado.",
+      "o escrivão.",
+      "o investigador.",
+      "a decisão.",
+      "um terceiro não mencionado no período."
+    ],
+    "correta": 2,
+    "explicacao": "Na enumeração, “este” retoma o termo mais próximo — o investigador —, enquanto “aquele” retomaria o mais distante (o escrivão). A é o agente da ação, não o destinatário do ato de comunicar; B é a leitura que troca os pronomes; D é o objeto direto de “comunicou”; E não aparece no texto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Coesão e coerência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Reescrita preservando a relação causal entre orações",
+    "dificuldade": 3,
+    "enunciado": "Leia: “A prova foi anulada porque o caderno apresentou erro na numeração das questões.” Assinale a reescrita que preserva o sentido e a correção do período.",
+    "alternativas": [
+      "A prova foi anulada, embora o caderno apresentasse erro na numeração das questões.",
+      "A prova foi anulada, mas o caderno apresentou erro na numeração das questões.",
+      "Como o caderno apresentou erro na numeração das questões, a prova foi anulada.",
+      "A prova foi anulada, a fim de que o caderno apresentasse erro na numeração das questões.",
+      "Se o caderno apresentasse erro na numeração das questões, a prova seria anulada."
+    ],
+    "correta": 2,
+    "explicacao": "A relação do original é causal, e “como” no início do período introduz causa, mantendo o sentido. A traz concessão (“embora”); B traz oposição (“mas”); D traz finalidade; E transforma o fato em hipótese, mudando o sentido.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Coesão e referenciação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Elipse e zeugma como recursos de coesão",
+    "dificuldade": 2,
+    "enunciado": "Leia: “Os policiais chegaram ao local e os policiais iniciaram o isolamento da área.” Assinale a reescrita que evita a repetição, mantendo a correção e o sentido.",
+    "alternativas": [
+      "Os policiais chegaram ao local e iniciaram o isolamento da área.",
+      "Os policiais chegaram ao local, e eles os iniciaram o isolamento da área.",
+      "Os policiais chegaram ao local e iniciaram-se o isolamento da área.",
+      "Os policiais chegaram ao local, onde iniciou o isolamento da área.",
+      "Os policiais chegaram ao local, mas iniciaram o isolamento da área."
+    ],
+    "correta": 0,
+    "explicacao": "A supressão do sujeito já expresso (elipse/zeugma) é o recurso natural: o segundo verbo herda o sujeito “os policiais”. B usa pronomes mal articulados (“eles os”); C erra a concordância de “iniciar-se”; D deixa “iniciou” sem sujeito; E troca a adição pela adversidade com “mas”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Coesão e coerência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Valor semântico do conectivo adversativo",
+    "dificuldade": 1,
+    "enunciado": "No período “A operação foi planejada com rigor; no entanto, fatores climáticos prejudicaram o cumprimento das metas”, o conectivo “no entanto” introduz:",
+    "alternativas": [
+      "uma causa do que foi afirmado antes.",
+      "uma conclusão do que foi afirmado antes.",
+      "uma ressalva contrária ao que foi afirmado antes.",
+      "uma explicação que reforça o que foi afirmado antes.",
+      "uma finalidade do que foi afirmado antes."
+    ],
+    "correta": 2,
+    "explicacao": "“No entanto” é conectivo adversativo: aponta um fato que contraria a expectativa criada pela primeira oração, daí a ressalva. D é o distrator mais tentador, pois uma explicação reforçaria o que foi dito; A, B e E confundem o valor adversativo com causa, conclusão e finalidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Verbos impessoais: haver (existir) e fazer (tempo decorrido)",
+    "dificuldade": 2,
+    "enunciado": "Um estagiário entregou ao chefe o relatório do dia, e a revisão destacou frases com problemas de concordância. Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Houveram muitos problemas na operação.",
+      "Existe muitos problemas na operação.",
+      "Havia muitos problemas na operação.",
+      "Fazem dez anos que o batalhão foi criado.",
+      "Houveram dez anos que o batalhão foi criado."
+    ],
+    "correta": 2,
+    "explicacao": "“Haver” no sentido de existir é impessoal e fica no singular (havia muitos problemas); “existir” é pessoal e concorda com o sujeito (existem muitos problemas); “fazer” indicando tempo decorrido é impessoal (faz dez anos). A, D e E desrespeitam a impessoalidade; B erra a concordância de “existir”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Concordância com “se” apassivador e com “se” índice de indeterminação do sujeito",
+    "dificuldade": 2,
+    "enunciado": "Em manchetes policiais, é comum o verbo aparecer ao lado da partícula “se”. Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Vendem-se armas no mercado clandestino.",
+      "Vende-se armas no mercado clandestino.",
+      "Tratam-se de casos complexos.",
+      "Precisam-se de policiais experientes.",
+      "Aluga-se casas na orla da cidade."
+    ],
+    "correta": 0,
+    "explicacao": "Com “se” apassivador, o verbo concorda com o sujeito paciente: vendem-se armas, alugam-se casas. Com “se” índice de indeterminação do sujeito (verbos transitivos indiretos como precisar de e tratar de), o verbo fica na terceira pessoa do singular: precisa-se de policiais, trata-se de casos. Por isso B, D e E erram a concordância e C flexiona indevidamente “tratar”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Concordância com “mais de um”, “cerca de” e com o relativo “que”",
+    "dificuldade": 3,
+    "enunciado": "Uma questão de revisão pediu ao candidato que avaliasse estruturas como “mais de um policial”, “cerca de trinta pessoas” e “fui eu que”. Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Mais de um policial foram convocados para a operação.",
+      "Fui eu que chegou primeiro ao local do fato.",
+      "Cerca de trinta pessoas compareceu ao curso de formação.",
+      "Mais de um policial foi convocado para a operação.",
+      "Houveram duas reuniões na semana passada."
+    ],
+    "correta": 3,
+    "explicacao": "Com “mais de um”, o verbo fica no singular: mais de um policial foi convocado; A flexiona indevidamente. C erra porque “cerca de trinta pessoas” é sujeito plural (compareceram); B erra porque o relativo “que” retoma “eu”, exigindo “cheguei”; E erra porque “haver” existencial é impessoal (houve duas reuniões).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância nominal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Flexão de bastante, meio, anexo, incluso e mesmo",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância nominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Seguem anexo as fotografias do local.",
+      "Os policiais estavam meios cansados após a diligência.",
+      "Havia bastantes policiais no pátio do batalhão.",
+      "As fotografias estão inclusos no relatório.",
+      "Elas mesmos fizeram a diligência."
+    ],
+    "correta": 2,
+    "explicacao": "Em “havia bastantes policiais”, “bastante” é adjetivo (= muitos) e varia. A erra porque “anexo” deve concordar com “fotografias” (anexas); B erra porque “meio” como advérbio (= um pouco) é invariável (meio cansados); D erra em “inclusos”, que deve concordar com “fotografias” (inclusas); E erra em “mesmos”, que deve ser “mesmas”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regência de assistir, obedecer, aspirar, preferir e desobedecer",
+    "dificuldade": 2,
+    "enunciado": "Ao revisar um ofício, o chefe de seção apontou dúvidas quanto à regência de alguns verbos. Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Os policiais assistiram o filme sobre a operação.",
+      "O delegado preferiu o inquérito do que o relatório.",
+      "O escrivão aspirou o cargo de delegado.",
+      "O efetivo obedeceu ao comando do oficial.",
+      "Os soldados desobedeceram o comando do sargento."
+    ],
+    "correta": 3,
+    "explicacao": "Quem obedece obedece A alguém: obedeceu ao comando. A erra porque “assistir” no sentido de ver exige “a” (assistiram ao filme); C erra porque “aspirar” no sentido de desejar exige “a” (aspirou ao cargo); B erra porque “preferir” pede “a” (preferiu o inquérito ao relatório); E erra porque “desobedecer” também exige “a”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regência de implicar, chegar, assistir e visar",
+    "dificuldade": 2,
+    "enunciado": "Um candidato revisou frases sobre o cotidiano policial em busca de erros de regência. Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "A decisão implica em mudanças no efetivo.",
+      "A decisão implica mudanças no efetivo.",
+      "Os policiais chegaram no local às sete horas.",
+      "O investigador assistiu o depoimento do réu.",
+      "A operação visa combater o tráfico na fronteira."
+    ],
+    "correta": 1,
+    "explicacao": "“Implicar”, no sentido de acarretar, é transitivo direto: implica mudanças, sem “em”. C traz regência coloquial não aceita na norma escrita (chegar AO local); D erra porque “assistir” no sentido de ver pede “a” (assistiu ao depoimento); E erra porque “visar” no sentido de ter por objetivo pede “a” (visa a combater); A acrescenta preposição indevida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Regência de simpatizar, preferir, lembrar e obedecer",
+    "dificuldade": 3,
+    "enunciado": "Um soldado recém-chegado estranhou a regência de certos verbos usados nos relatórios. Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "O soldado simpatizou pela nova escala de serviço.",
+      "O soldado simpatizou com a nova escala de serviço.",
+      "Os candidatos preferiram o turno da manhã do que o da noite.",
+      "O escrivão lembrou dos prazos do inquérito.",
+      "O escrivão obedeceu o prazo fixado pelo delegado."
+    ],
+    "correta": 1,
+    "explicacao": "“Simpatizar” é transitivo indireto e exige “com”: simpatizou com a nova escala. A usa “por”, preposição não admitida nessa regência; C erra porque “preferir” pede “a” e não “do que” (preferiram o turno da manhã ao da noite); D mistura a construção de “lembrar” sem pronome com “de” (o padrão é lembrar os prazos ou lembrar-se dos prazos); E erra porque “obedecer” exige “a”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Vírgula em oração coordenada adversativa e proibição de separar sujeito e verbo",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a pontuação está de acordo com a norma-padrão.",
+    "alternativas": [
+      "A operação foi, planejada, mas o mau tempo prejudicou o cumprimento das metas.",
+      "A operação foi planejada mas o mau tempo, prejudicou o cumprimento das metas.",
+      "A operação, foi planejada, mas o mau tempo prejudicou o cumprimento das metas.",
+      "A operação foi planejada, mas o mau tempo, prejudicou o cumprimento das metas.",
+      "A operação foi planejada, mas o mau tempo prejudicou o cumprimento das metas."
+    ],
+    "correta": 4,
+    "explicacao": "A vírgula é obrigatória antes de “mas”, que inicia oração coordenada adversativa, e não se separam sujeito e verbo nem verbo e complemento. B e D isolam o sujeito do verbo com vírgula indevida; C separa o sujeito “a operação” do verbo; A isola o particípio “planejada”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Oração adjetiva restritiva e explicativa: mudança de sentido pela vírgula",
+    "dificuldade": 2,
+    "enunciado": "Compare: “Os policiais que participaram da operação foram elogiados.” Com a inserção de vírgulas — “Os policiais, que participaram da operação, foram elogiados.” —, o sentido passa a ser:",
+    "alternativas": [
+      "apenas os policiais que participaram da operação foram elogiados.",
+      "os policiais foram elogiados apenas se participaram da operação.",
+      "nenhum policial foi elogiado, pois a operação não ocorreu.",
+      "a operação foi elogiada pelos policiais.",
+      "todos os policiais foram elogiados, e a participação na operação é informação adicional."
+    ],
+    "correta": 4,
+    "explicacao": "Sem vírgulas, a oração adjetiva é restritiva e limita o universo: só os participantes foram elogiados. Com vírgulas, torna-se explicativa: todos os policiais foram elogiados, e a participação é informação extra. As alternativas A e B mantêm o valor restritivo; C e D alteram os papéis dos termos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Emprego dos dois-pontos em enumeração",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que os dois-pontos foram empregados de acordo com a norma-padrão.",
+    "alternativas": [
+      "O inquérito revelou três falhas: ausência de perícia, falta de testemunhas e demora na oitiva.",
+      "O inquérito: revelou três falhas na apuração.",
+      "O inquérito revelou: três falhas graves na apuração.",
+      "O inquérito revelou três falhas, ausência de perícia: falta de testemunhas e demora na oitiva.",
+      "O inquérito revelou três falhas: e ausência de perícia."
+    ],
+    "correta": 0,
+    "explicacao": "Os dois-pontos introduzem a enumeração dos itens anunciados por “três falhas”. As alternativas B e C separam indevidamente sujeito e verbo (B) e verbo e complemento (C); D e E quebram a estrutura da enumeração, com vírgula ou conjunção logo depois dos dois-pontos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Crase antes de indicação de horas",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado de acordo com a norma-padrão.",
+    "alternativas": [
+      "A operação começou as seis horas da manhã.",
+      "A operação começou às seis hora da manhã.",
+      "A operação começou há seis hora da manhã.",
+      "A operação começou à seis hora da manhã.",
+      "A operação começou às seis horas da manhã."
+    ],
+    "correta": 4,
+    "explicacao": "Antes de indicação de horas, ocorre a fusão da preposição “a” com o artigo “as”: às seis horas. A suprime o acento; C usa “há” (tempo passado) e erra o plural de “hora”; D erra a concordância de “hora”, que deve ir ao plural com “seis”, e B mantém “seis hora” no singular.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Crase antes de topônimo feminino e proibição antes de palavra masculina",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a crase está empregada de acordo com a norma-padrão.",
+    "alternativas": [
+      "O efetivo foi enviado a Bahia para reforçar o policiamento.",
+      "O efetivo foi enviado à Bahia para reforçar o policiamento.",
+      "O soldado entregou o documento à um oficial de plantão.",
+      "A equipe voltou a delegacia após a operação.",
+      "O escrivão dedicou-se a à investigação do caso."
+    ],
+    "correta": 1,
+    "explicacao": "O verbo de movimento “enviar” pede a preposição “a”, e o topônimo feminino “Bahia” admite artigo, o que gera a crase: enviado à Bahia. A omite o acento; C traz crase antes de palavra masculina, o que é vedado; D omite a crase exigida por “voltar” + substantivo feminino; E duplica a preposição.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Crase com demonstrativos e proibição antes de pronome de tratamento e de artigo indefinido",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o emprego da crase está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Não me refiro àquela ocorrência, mas à Vossa Excelência.",
+      "Não me refiro àquela ocorrência, mas à esta.",
+      "Não me refiro a aquela ocorrência, mas a esta.",
+      "Não me refiro àquela ocorrência, mas a esta.",
+      "Não me refiro àquela ocorrência, mas à uma ocorrência antiga."
+    ],
+    "correta": 3,
+    "explicacao": "“Referir-se a” exige preposição; antes de “aquela”, há fusão com o “a” inicial do demonstrativo (àquela), mas antes de “esta” não existe esse “a”, logo não há crase. B e C erram essa distinção; A usa crase antes de pronome de tratamento, o que não se admite; E usa crase antes de artigo indefinido.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Classes de palavras",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "“Que” pronome relativo e “que” conjunção integrante",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o “que” é pronome relativo.",
+    "alternativas": [
+      "É certo que a operação será suspensa.",
+      "O inquérito que foi concluído será remetido ao juiz.",
+      "Informo que os autos estão à disposição.",
+      "Convém que todos compareçam à audiência.",
+      "O comandante teme que haja conflito na área."
+    ],
+    "correta": 1,
+    "explicacao": "O “que” é pronome relativo quando retoma um antecedente e pode ser substituído por “o qual”: o inquérito o qual foi concluído. Nas demais, o “que” é conjunção integrante, pois introduz oração que completa o sentido do verbo ou de uma expressão (é certo que, informo que, convém que, teme que).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Classes de palavras",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Valores do vocábulo “certo” (substantivo, adjetivo, pronome indefinido e advérbio)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que “certo” é empregado como advérbio.",
+    "alternativas": [
+      "O certo é que a operação será suspensa.",
+      "Um certo policial foi citado no relatório.",
+      "O relatório está certo.",
+      "O policial respondeu certo a todas as perguntas do delegado.",
+      "Certos candidatos não compareceram à prova."
+    ],
+    "correta": 3,
+    "explicacao": "“Certo” é advérbio quando equivale a “corretamente” e modifica o verbo: respondeu certo. Em A é substantivo; em B, pronome indefinido (equivale a “algum”); em C, adjetivo (predicativo de “relatório”); em E, pronome indefinido no plural (equivale a “alguns”).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Emprego de pronomes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Pronomes oblíquos e regência de assistir, obedecer e aspirar",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o pronome oblíquo está empregado de acordo com a norma-padrão.",
+    "alternativas": [
+      "Os colegas assistiram-lhe no hospital depois do confronto.",
+      "O escrivão aspirou-o ao cargo de delegado.",
+      "Os colegas assistiram-lhe o filme na sala do batalhão.",
+      "O soldado obedeceu-o sem discutir a ordem.",
+      "Os colegas assistiram-no no hospital depois do confronto."
+    ],
+    "correta": 4,
+    "explicacao": "“Assistir” no sentido de ajudar é transitivo direto, o que exige “o/a”, não “lhe”: assistiram-no no hospital. A usa “lhe” indevidamente; C usa “lhe” para o sentido de ver, que exigiria “a” (assistiram ao filme); D erra porque “obedecer” é transitivo indireto (obedeceu-lhe); B acumula indevidamente o pronome direto e a preposição exigida por “aspirar”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Figuras de linguagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Metáfora: comparação implícita",
+    "dificuldade": 1,
+    "enunciado": "Em “A corporação é uma muralha contra o crime”, a figura de linguagem predominante é a:",
+    "alternativas": [
+      "pleonasmo.",
+      "metonímia.",
+      "hipérbole.",
+      "eufemismo.",
+      "metáfora."
+    ],
+    "correta": 4,
+    "explicacao": "Há metáfora: a corporação é identificada com “muralha” por uma comparação implícita, sem conectivo comparativo. Metonímia seria o emprego de um termo por outro próximo (o lugar pelo agente, a parte pelo todo); hipérbole seria exagero; eufemismo seria suavização; pleonasmo, repetição redundante.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Figuras de linguagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Metonímia: o lugar pelo agente",
+    "dificuldade": 2,
+    "enunciado": "Em “A Delegacia prendeu o suspeito no fim da tarde”, o emprego de “Delegacia” no lugar de “os policiais da Delegacia” configura:",
+    "alternativas": [
+      "metáfora.",
+      "metonímia.",
+      "hipérbole.",
+      "antítese.",
+      "eufemismo."
+    ],
+    "correta": 1,
+    "explicacao": "Trata-se de metonímia: substituição de um termo por outro que mantém relação de contiguidade (o lugar pelo agente que nele atua). Metáfora seria comparação implícita; hipérbole, exagero; antítese, aproximação de ideias opostas; eufemismo, suavização de sentido desagradável.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Figuras de linguagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Eufemismo",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que se verifica eufemismo.",
+    "alternativas": [
+      "O candidato faltou com a verdade durante a entrevista.",
+      "O deserto era um oceano de areia.",
+      "Chorou rios de lágrimas ao deixar o batalhão.",
+      "O sinistro consumiu o veículo em minutos.",
+      "Ele é rápido como um raio na entrega dos relatórios."
+    ],
+    "correta": 0,
+    "explicacao": "“Faltou com a verdade” suaviza o sentido de “mentiu”, o que caracteriza eufemismo. B é metáfora (oceano de areia); C é hipérbole (rios de lágrimas); D personifica o acidente (“consumiu”) e não suaviza; E é comparação explícita (como um raio).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Reescrita de frases",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Transposição para a voz passiva analítica",
+    "dificuldade": 2,
+    "enunciado": "Leia: “A perícia identificou a substância no material apreendido.” Assinale a reescrita que preserva o sentido e a correção gramatical.",
+    "alternativas": [
+      "A substância no material apreendido foi identificada pela perícia.",
+      "A substância no material apreendido foi identificado pela perícia.",
+      "A substância no material apreendido foi identificada da perícia.",
+      "A substância no material apreendido identificou-se pela perícia.",
+      "A perícia identificou-se a substância no material apreendido."
+    ],
+    "correta": 0,
+    "explicacao": "Na passiva analítica, o objeto direto vira sujeito paciente e o agente vem com “por”: a substância foi identificada pela perícia. B erra a concordância (identificado); C troca “por” por “de”; D atribui ao sujeito a ação de se identificar; E embaralha a estrutura, deixando os termos sem função.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Reescrita de frases",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Concessão: equivalência entre “embora” e “apesar de”",
+    "dificuldade": 2,
+    "enunciado": "Leia: “Embora estivesse ferido, o policial permaneceu no posto.” Assinale a reescrita que preserva o sentido do período.",
+    "alternativas": [
+      "O policial permaneceu no posto, porque estava ferido.",
+      "O policial permaneceu no posto, apesar de estar ferido.",
+      "O policial permaneceu no posto, por isso estava ferido.",
+      "O policial permaneceu no posto, logo estava ferido.",
+      "O policial permaneceu no posto, quando estava ferido."
+    ],
+    "correta": 1,
+    "explicacao": "“Embora” e “apesar de” expressam concessão: o fato de estar ferido não impediu a permanência no posto. A troca por “porque” (causa), “por isso” e “logo” (conclusão) ou “quando” (tempo) altera a relação estabelecida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Reescrita de frases",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Reescrita que altera o sentido: hipótese não realizada versus fato",
+    "dificuldade": 3,
+    "enunciado": "Leia: “Se a prova fosse anulada, os candidatos seriam convocados novamente.” A reescrita que ALTERA o sentido do período é:",
+    "alternativas": [
+      "Caso a prova fosse anulada, os candidatos seriam convocados novamente.",
+      "Os candidatos seriam convocados novamente desde que a prova fosse anulada.",
+      "A prova foi anulada, e os candidatos serão convocados novamente.",
+      "Na hipótese de anulação da prova, os candidatos seriam convocados novamente.",
+      "Os candidatos seriam convocados novamente se a prova fosse anulada."
+    ],
+    "correta": 2,
+    "explicacao": "O original apresenta hipótese não realizada (fosse/seria). A, B, D e E mantêm a condição e o caráter hipotético. Já C passa a afirmar que a anulação ocorreu e que a convocação será feita — fato e futuro —, alterando o sentido; por isso é a reescrita que NÃO preserva o período.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Colocação pronominal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Próclise obrigatória com palavra de sentido negativo",
+    "dificuldade": 2,
+    "enunciado": "Na revisão do texto do relatório, o chefe observou a posição dos pronomes oblíquos. Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Não entregou-me o relatório o escrivão.",
+      "O escrivão tinha entregado-me o relatório.",
+      "Me entregou o relatório o escrivão.",
+      "Não me entregou o relatório o escrivão.",
+      "O escrivão nunca atrasou-se na entrega."
+    ],
+    "correta": 3,
+    "explicacao": "Palavras de sentido negativo (“não”, “nunca”) atraem o pronome — próclise: não me entregou, nunca se atrasou. A e E usam ênclise depois de atrativo; C inicia período com pronome oblíquo, o que a norma escrita não admite; B coloca o pronome depois do particípio, construção também não admitida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Colocação pronominal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Próclise com conjunção subordinativa",
+    "dificuldade": 2,
+    "enunciado": "O delegado ditou um despacho em que o pronome oblíquo acompanha uma forma verbal subordinada. Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "O delegado pediu que se cumprissem as diligências.",
+      "O delegado pediu que cumprissem-se as diligências.",
+      "O delegado pediu que as diligências cumprissem-se.",
+      "O delegado pediu que cumpra-se as diligências.",
+      "Se cumpram as diligências, pediu o delegado."
+    ],
+    "correta": 0,
+    "explicacao": "A conjunção subordinativa “que” atrai o pronome para antes do verbo: que se cumprissem as diligências. B e C fazem ênclise depois do atrativo; D erra também a concordância (o correto seria que se cumprissem as diligências); E inicia o período com o pronome, o que não se admite na norma escrita.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Colocação pronominal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Mesóclise em verbo no futuro do presente sem palavra atrativa",
+    "dificuldade": 3,
+    "enunciado": "No relatório final, o pronome oblíquo aparece junto a um verbo no futuro do presente. Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Se dirá, no relatório, que houve falha na apuração.",
+      "Dir-se-á, no relatório, que houve falha na apuração.",
+      "Dirá-se, no relatório, que houve falha na apuração.",
+      "Não dir-se-á que houve falha na apuração.",
+      "Dir-se-á, no relatório, não houve falha na apuração."
+    ],
+    "correta": 1,
+    "explicacao": "Com verbo no futuro do presente e sem palavra atrativa, o pronome fica no meio do verbo (mesóclise): dir-se-á. A inicia com pronome e C usa ênclise, ambos inadequados nesse tempo; D ignora que a palavra negativa “não” atrai o pronome (não se dirá); E quebra a estrutura da oração subordinada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Tempos e modos verbais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Pretérito mais-que-perfeito do subjuntivo e futuro do pretérito composto em hipótese",
+    "dificuldade": 3,
+    "enunciado": "Leia: “Se o comando tivesse autorizado, a operação teria começado mais cedo.” As formas “tivesse autorizado” e “teria começado” expressam, respectivamente:",
+    "alternativas": [
+      "hipótese não realizada no passado e consequência também não realizada.",
+      "certeza no presente e ação concluída no presente.",
+      "ação habitual no passado e ordem do comando.",
+      "possibilidade futura e obrigação.",
+      "fato concluído e sua causa anterior."
+    ],
+    "correta": 0,
+    "explicacao": "“Tivesse autorizado” é pretérito mais-que-perfeito do subjuntivo: hipótese que não se realizou no passado. “Teria começado” é futuro do pretérito composto: consequência que também não ocorreu. As demais alternativas trocam os valores de hipótese e consequência por certeza, hábito, ordem, possibilidade futura ou causa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Tempos e modos verbais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Valor do pretérito imperfeito: ações simultâneas e em curso",
+    "dificuldade": 2,
+    "enunciado": "Leia: “Enquanto o efetivo se deslocava para a área, o comando confirmava a operação.” Os verbos empregados no pretérito imperfeito indicam:",
+    "alternativas": [
+      "ações concluídas antes de outra ação passada.",
+      "ordens dadas pelo comando no presente.",
+      "ações futuras em relação ao presente.",
+      "ações em curso e simultâneas no passado.",
+      "hipóteses irreais projetadas para o futuro."
+    ],
+    "correta": 3,
+    "explicacao": "O pretérito imperfeito descreve ações durativas e simultâneas no passado — o deslocamento e a confirmação ocorriam ao mesmo tempo. A corresponde ao pretérito mais-que-perfeito; B e C deslocam para futuro/presente; E confunde com o futuro do pretérito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Tempos e modos verbais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Futuro do subjuntivo em oração condicional",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o emprego do modo subjuntivo está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Se eu ver o suspeito, aviso o delegado.",
+      "Se eu vir o suspeito, aviso o delegado.",
+      "Se eu virem o suspeito, aviso o delegado.",
+      "Caso eu ver o suspeito, aviso o delegado.",
+      "Quando eu ver o suspeito, aviso o delegado."
+    ],
+    "correta": 1,
+    "explicacao": "A forma do futuro do subjuntivo do verbo “ver” na primeira pessoa do singular é “vir”: se eu vir. A, D e E usam o infinitivo no lugar da forma do subjuntivo; C usa a forma de terceira pessoa do plural, inadequada ao sujeito “eu”.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Ortografia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Distinção entre mau/mal e grafia de “exceção”",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a grafia das palavras está correta.",
+    "alternativas": [
+      "O suspeito teve um mal comportamento, exceção feita ao tom de voz.",
+      "O suspeito se comportou mal, excessão feita ao tom de voz.",
+      "O suspeito teve um mau comportamento, excessão feita ao tom de voz.",
+      "O suspeito se comportou mau, exceção feita ao tom de voz.",
+      "O suspeito teve um mau comportamento, exceção feita ao tom de voz."
+    ],
+    "correta": 4,
+    "explicacao": "“Mau” é adjetivo (oposto de bom) e acompanha substantivo: mau comportamento. “Mal” é advérbio (oposto de bem) e modifica verbo: comportou-se mal. A grafia correta do substantivo é “exceção”. A e D trocam adjetivo e advérbio; B e C grafam “excessão”, forma inexistente.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Ortografia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Emprego de porquê, porque, por que e por quê",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o emprego de “porque/por que/porquê/por quê” está correto.",
+    "alternativas": [
+      "Perguntaram por quê a operação foi suspensa.",
+      "Não se sabe o porque da suspensão da operação.",
+      "Não se sabe o por que da suspensão da operação.",
+      "Não se sabe o porquê da suspensão da operação.",
+      "O comandante não compareceu porquê estava em diligência."
+    ],
+    "correta": 3,
+    "explicacao": "“Porquê” é substantivo, vem precedido de artigo e é acentuado: o porquê da suspensão. B e C erram a grafia dessa forma substantivada; A erra porque, no meio da frase em pergunta indireta, usa-se “por que” sem acento; E erra porque a conjunção causal é “porque”, junto e sem acento.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Ortografia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Distinção entre há/a e mas/mais",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a grafia está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Há dois anos o efetivo não recebia treinamento adequado, mas nunca reclamou.",
+      "A dois anos o efetivo não recebia treinamento adequado, mas nunca reclamou.",
+      "Há dois anos o efetivo não recebia treinamento adequado, mais nunca reclamou.",
+      "Há dois anos o efetivo não recebia treinamento adequado, más nunca reclamou.",
+      "A dois anos o efetivo não recebia treinamento adequado, mais nunca reclamou."
+    ],
+    "correta": 0,
+    "explicacao": "“Há”, no sentido de “faz”, indica tempo passado, e “mas” é conjunção adversativa. B usa “a” para tempo passado, em que se emprega “há”; C e E trocam a conjunção por “mais”, que indica adição; D emprega “más”, forma do adjetivo “má”, que não exerce função de conjunção.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]
