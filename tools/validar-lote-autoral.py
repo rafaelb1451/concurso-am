@@ -23,17 +23,19 @@ def carregar(caminho):
     with open(caminho, encoding='utf-8') as fh:
         return json.load(fh)
 
-# hashes ja existentes (seed + lotes de questao)
+# hashes ja existentes: seed + TODOS os lotes do banco (menos os que estao sendo validados)
+validando = {os.path.basename(a) for a in (sys.argv[1:] or [])}
 existentes = {}
-for nome in ['questoes.json']:
-    p = os.path.join(BASE, 'backend', 'src', 'main', 'resources', nome)
-    for q in carregar(p):
+p = os.path.join(BASE, 'backend', 'src', 'main', 'resources', 'questoes.json')
+for q in carregar(p):
+    existentes[hash_de(q['enunciado'])] = 'questoes.json'
+for nome in sorted(os.listdir(LOTES)):
+    if not nome.startswith('lote-') or not nome.endswith('.json'):
+        continue
+    if nome in validando:
+        continue
+    for q in carregar(os.path.join(LOTES, nome)):
         existentes[hash_de(q['enunciado'])] = nome
-for nome in ['lote-01.json', 'lote-02-provas.json']:
-    p = os.path.join(LOTES, nome)
-    if os.path.exists(p):
-        for q in carregar(p):
-            existentes[hash_de(q['enunciado'])] = nome
 
 arquivos = sys.argv[1:]
 if not arquivos:

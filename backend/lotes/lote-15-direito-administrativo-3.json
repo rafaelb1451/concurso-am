@@ -1,0 +1,1042 @@
+[
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Regime jurídico administrativo — prerrogativas e sujeições",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, caput, da CF; regime jurídico-administrativo: supremacia e indisponibilidade do interesse público",
+    "dificuldade": 2,
+    "enunciado": "Em aula de formação, o instrutor explica que a Administração Pública não se submete ao mesmo regime jurídico dos particulares: em certas situações age com poderes que o particular não possui e, em outras, sofre restrições que ao particular não são impostas. Sobre o regime jurídico-administrativo, é correto afirmar que ele se caracteriza pela:",
+    "alternativas": [
+      "ausência de controle judicial dos atos praticados pela Administração, dada a sua posição de supremacia sobre o administrado",
+      "submissão integral da Administração às regras do direito privado, salvo quando a lei expressamente dispuser de modo diverso",
+      "combinação de prerrogativas e de sujeições, ambas decorrentes da supremacia e da indisponibilidade do interesse público",
+      "possibilidade de o administrador dispor do interesse público quando entender conveniente à boa gestão dos recursos",
+      "equiparação absoluta entre Administração e particular, decorrência direta do princípio da isonomia"
+    ],
+    "correta": 2,
+    "explicacao": "O regime jurídico-administrativo é o conjunto de prerrogativas (poderes que a Administração tem para tutelar o interesse público, como a autoexecutoriedade e a autotutela) e de sujeições (restrições que não alcançam o particular, como a legalidade estrita, a licitação obrigatória e a motivação), ambas justificadas pela supremacia e pela indisponibilidade do interesse público. Por isso a correta está na terceira alternativa. A primeira erra ao negar o controle judicial, que é garantia constitucional; a segunda inverte o regime, pois a Administração rege-se pelo direito público; a quarta afronta a indisponibilidade do interesse público, que não pode ser disposto pelo gestor; e a quinta ignora as prerrogativas públicas, incompatíveis com a igualdade absoluta entre as partes.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — mérito administrativo e seus limites",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Mérito administrativo: juízo de conveniência e oportunidade nos atos discricionários; controle judicial limitado à legalidade",
+    "dificuldade": 2,
+    "enunciado": "O secretário de segurança pública, entre duas propostas formalmente válidas e regularmente apresentadas em procedimento licitatório, escolhe aquela que considera mais adequada ao interesse público. Sobre o mérito desse ato administrativo, é correto afirmar que:",
+    "alternativas": [
+      "o mérito, entendido como juízo de conveniência e oportunidade, não é sindicável quanto ao seu acerto, mas a legalidade, os motivos e a forma do ato podem ser controlados",
+      "o mérito administrativo é integralmente sindicável pelo Judiciário, que pode substituir a escolha do administrador pela sua própria avaliação",
+      "por envolver discricionariedade, o ato não admite sequer controle de legalidade quanto à competência do agente que o praticou",
+      "o mérito confunde-se com a finalidade pública, de modo que qualquer escolha do administrador é imune a qualquer forma de controle",
+      "a escolha do secretário somente seria legítima se houvesse lei autorizando expressamente cada um dos critérios de conveniência aplicados"
+    ],
+    "correta": 0,
+    "explicacao": "O mérito administrativo é o juízo de conveniência e oportunidade que a lei atribui ao administrador nos atos discricionários; o Poder Judiciário não pode substituir esse juízo, mas pode examinar a legalidade, a competência, a forma, a finalidade e a veracidade dos motivos invocados. Daí a correção da primeira alternativa. A segunda erra ao permitir que o juiz substitua a escolha administrativa; a terceira afasta até o controle de competência, que é sempre possível; a quarta confunde mérito com finalidade, sendo a finalidade pública sempre controlável; e a quinta converte a discricionariedade em vinculação total, exigindo lei para cada critério de conveniência, o que descaracteriza o instituto.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — discricionariedade e vinculação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Ato vinculado e ato discricionário: margem de escolha delimitada pela lei",
+    "dificuldade": 2,
+    "enunciado": "Um agente de trânsito autua veículo estacionado em local proibido por lei, sem qualquer margem de escolha quanto à aplicação da multa. Outro agente analisa pedido de licença para realização de evento e pode deferi-lo ou indeferi-lo, conforme critérios previstos na norma. Esses dois atos são, respectivamente:",
+    "alternativas": [
+      "discricionário e vinculado",
+      "discricionário em ambos os casos",
+      "vinculado em ambos os casos",
+      "ato político e ato normativo",
+      "vinculado e discricionário"
+    ],
+    "correta": 4,
+    "explicacao": "O ato vinculado é aquele em que a lei não deixa margem de escolha ao agente: verificada a hipótese legal, a consequência é obrigatória, como na autuação de estacionamento proibido. O ato discricionário é o que confere ao administrador juízo de conveniência e oportunidade dentro dos limites legais, como no deferimento ou indeferimento de licença conforme critérios normativos. Por isso a correta é a quinta alternativa. As duas primeiras invertem ou generalizam a discricionariedade; a terceira suprime a margem de escolha do segundo agente; e a quarta utiliza categorias de ato político e de ato normativo, que não descrevem atos de mera execução de serviço público.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — teoria dos motivos determinantes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Teoria dos motivos determinantes: os motivos expostos integram a validade do ato administrativo",
+    "dificuldade": 3,
+    "enunciado": "A Administração demite servidor indicando como único motivo a prática de abandono de cargo por mais de trinta dias consecutivos. Posteriormente, comprova-se que o servidor estava regularmente em serviço no período, não havendo nenhuma outra falta imputada a ele. À luz da teoria dos motivos determinantes, esse ato de demissão:",
+    "alternativas": [
+      "subsiste, pois a motivação do ato é irrelevante para a sua validade, bastando a manifestação da autoridade",
+      "subsiste, porque a Administração não está obrigada a provar os motivos que invocou ao decidir",
+      "pode ser mantido se a autoridade reafirmar que a falta existiu, dispensada a prova dos fatos",
+      "é inválido, pois os motivos declarados como fundamento integram a validade do ato e, sendo falsos, contaminam a decisão",
+      "somente poderia ser anulado se o servidor comprovasse desvio de finalidade do agente que o demitiu"
+    ],
+    "correta": 3,
+    "explicacao": "Pela teoria dos motivos determinantes, quando a Administração motiva o ato, os motivos expostos vinculam e condicionam sua validade; se os fatos alegados não existem ou são falsos, o ato fica inválido, ainda que praticado em matéria discricionária. Por isso a demissão é inválida, como afirma a quarta alternativa. A primeira e a segunda negam valor à motivação, contrariando o dever de motivar e a vinculação aos motivos; a terceira admite mera reafirmação sem prova, o que esvaziaria a exigência; e a quinta reduz a invalidade ao desvio de finalidade, desconsiderando que a inexistência do motivo já é vício autônomo, sendo o abandono de cargo a ausência intencional por mais de trinta dias consecutivos.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — convalidação de vícios sanáveis",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Convalidação: vícios sanáveis de competência e de forma, quando não houver prejuízo ao interesse público nem a terceiros",
+    "dificuldade": 2,
+    "enunciado": "Determinado ato de licença foi praticado por servidor sem competência para a decisão. A autoridade competente, ao reapreciar o caso, constata que o ato interessa ao administrado, não decorreu de má-fé e não causou prejuízo ao interesse público nem a terceiros. Nessa situação, a Administração:",
+    "alternativas": [
+      "deve anular o ato, pois o vício de incompetência é insanável em qualquer hipótese",
+      "pode convalidar o ato, por se tratar de vício sanável, mediante ratificação pela autoridade competente, desde que não haja prejuízo ao interesse público nem a terceiros",
+      "deve revogar o ato, exclusivamente por razões de conveniência e oportunidade administrativas",
+      "deve manter o ato intacto, pois o vício de competência nunca alcança a validade do ato",
+      "não pode adotar providência alguma, pois a autotutela depende de provocação do Poder Judiciário"
+    ],
+    "correta": 1,
+    "explicacao": "A convalidação é o saneamento de ato com vício sanável, típico das falhas de competência e de forma, quando possível a ratificação pela autoridade competente e inexistente prejuízo ao interesse público ou a terceiros; é o que se verifica na hipótese, em que a segunda alternativa está correta. A primeira erra ao tratar a incompetência como insanável em qualquer caso; a terceira confunde convalidação com revogação, que depende de juízo de mérito e é vedada para atos que já geraram direito ao destinatário; a quarta ignora que a incompetência é vício de legalidade; e a quinta nega a autotutela, que é exercício de prerrogativa própria da Administração, independente de provocação judicial.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — decadência da autotutela anulatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 9.784/99, art. 54: prazo de cinco anos para anular atos de que decorram efeitos favoráveis ao destinatário, salvo comprovada má-fé",
+    "dificuldade": 3,
+    "enunciado": "A Administração concedeu aposentadoria a servidor em 2019, ato de que decorrem efeitos favoráveis ao destinatário. Em 2026, detecta vício de legalidade no ato e, sem qualquer indício de má-fé do servidor, pretende anulá-lo. Considerando o prazo decadencial da autotutela anulatória, é correto afirmar que:",
+    "alternativas": [
+      "a pretensão anulatória decaiu, pois o prazo de cinco anos, contado da prática do ato, já se esgotou, não havendo comprovada má-fé",
+      "a Administração pode anular o ato a qualquer tempo, pois inexiste prazo para o exercício da autotutela anulatória",
+      "o prazo decadencial é de dez anos, de modo que a anulação ainda é possível na data indicada",
+      "o prazo decadencial somente começa a correr a partir da ciência do vício pela autoridade competente",
+      "a má-fé do servidor é presumida nos atos que geram despesa continuada, o que afasta a decadência"
+    ],
+    "correta": 0,
+    "explicacao": "A lei que rege o processo administrativo federal fixa em cinco anos, contados da prática do ato, o prazo para a Administração anular atos de que decorram efeitos favoráveis ao destinatário, ressalvada a comprovada má-fé; como o ato é de 2019 e a pretensão surgiu em 2026, sem má-fé, a decadência já se operou, como afirma a primeira alternativa. A segunda ignora o prazo legal; a terceira cria prazo de dez anos sem previsão normativa; a quarta desloca o termo inicial, que é a data do ato, e não a ciência do vício; e a quinta presume má-fé sem base legal, quando a má-fé precisa ser comprovada.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — delegação de competência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 9.784/99, arts. 12 e 13: limites objetivos da delegação de competência",
+    "dificuldade": 2,
+    "enunciado": "Determinado órgão pretende delegar a um subordinado a competência para decidir recursos administrativos e para editar atos de caráter normativo. Sobre a delegação de competência no processo administrativo federal, é correto afirmar que ela:",
+    "alternativas": [
+      "é sempre possível, desde que o delegado seja servidor ocupante de cargo efetivo",
+      "pode abranger matéria de competência exclusiva do órgão, se houver conveniência do delegante",
+      "exige lei específica e autorização do Congresso Nacional em todos os casos",
+      "não pode ter por objeto a edição de atos de caráter normativo nem a decisão de recursos administrativos",
+      "transfere a titularidade da competência, que deixa de pertencer ao delegante"
+    ],
+    "correta": 3,
+    "explicacao": "A delegação transfere apenas o exercício da competência, e não a sua titularidade, e encontra limites objetivos: não podem ser delegados a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva do órgão ou autoridade. Por isso a quarta alternativa é a correta. A primeira ignora esses limites; a segunda admite delegar matéria exclusiva, o que é expressamente vedado; a terceira inventa exigência de lei e de autorização do Congresso; e a quinta confunde exercício com titularidade da competência.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — avocação de competência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 9.784/99, art. 15: avocação excepcional, por motivos relevantes e devidamente justificados, desde que exista subordinação",
+    "dificuldade": 2,
+    "enunciado": "O secretário de uma pasta avoca para si, temporariamente, a decisão de processo que tramitava em repartição a ele subordinada, alegando motivo relevante e justificando-o por escrito nos autos. Sobre a avocação de competência:",
+    "alternativas": [
+      "é vedada em qualquer hipótese, pois a competência administrativa é sempre indisponível",
+      "é admissível em caráter excepcional e por motivos relevantes devidamente justificados, desde que exista subordinação hierárquica entre as autoridades",
+      "pode ocorrer ainda que não exista relação de subordinação entre as autoridades envolvidas",
+      "depende sempre de autorização judicial prévia, por implicar restrição de competência",
+      "implica renúncia definitiva do subordinado à competência avocada, que não pode ser devolvida"
+    ],
+    "correta": 1,
+    "explicacao": "A avocação é o chamamento, pela autoridade superior, de competência atribuída a órgão ou autoridade subordinada; é medida excepcional, admitida apenas por motivos relevantes e devidamente justificados, e pressupõe hierarquia. Logo, correta a segunda alternativa. A primeira nega o instituto por completo; a terceira dispensa a subordinação, que é pressuposto da avocação; a quarta cria exigência de autorização judicial inexistente; e a quinta trata a avocação como renúncia definitiva, quando ela é temporária e não retira a titularidade do subordinado.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Abuso de poder — excesso e desvio de poder",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Abuso de poder: excesso de poder (atuação fora da competência) e desvio de poder (finalidade diversa da pública)",
+    "dificuldade": 2,
+    "enunciado": "Um agente público, competente para fiscalizar estabelecimentos comerciais, interdita um comércio não por irregularidade sanitária, mas para prejudicar desafeto político que é dono do local. Esse comportamento configura:",
+    "alternativas": [
+      "excesso de poder, pois o agente atuou fora de sua competência legal",
+      "ato discricionário, insuscetível de qualquer forma de controle",
+      "mero erro administrativo, sem consequências jurídicas relevantes",
+      "abuso do poder regulamentar, por invadir competência legislativa",
+      "desvio de poder, pois o agente usou a competência para fim diverso do interesse público"
+    ],
+    "correta": 4,
+    "explicacao": "O abuso de poder se divide em excesso de poder, quando o agente atua além ou fora de sua competência, e desvio de poder (desvio de finalidade), quando o agente é competente, mas pratica o ato com finalidade diversa da prevista na lei. No caso, a competência para interditar existia, mas foi usada para atingir desafeto político, o que caracteriza desvio de poder, como afirma a quinta alternativa. A primeira erra porque não houve atuação fora da competência; as demais negam ou atenuam o vício, que é de legalidade e autoriza a anulação, não se confundindo com erro administrativo nem com abuso do poder regulamentar.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — descentralização por outorga e por delegação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Descentralização por outorga (lei cria entidade da administração indireta) e por delegação (contrato ou ato transfere apenas a execução)",
+    "dificuldade": 2,
+    "enunciado": "A União cria, por lei, uma autarquia para executar atividade administrativa e, também por lei, autoriza a celebração de contrato de concessão com sociedade privada para prestar serviço público. Essas duas formas de descentralização são, respectivamente:",
+    "alternativas": [
+      "delegação e outorga",
+      "desconcentração e delegação",
+      "outorga e delegação",
+      "concentração e outorga",
+      "outorga e desconcentração"
+    ],
+    "correta": 2,
+    "explicacao": "Na descentralização por outorga, o Estado cria, por lei, entidade da administração indireta (autarquia, fundação pública, empresa pública ou sociedade de economia mista) e transfere a titularidade da atividade; na descentralização por delegação, transfere-se apenas a execução, por contrato ou ato unilateral, como na concessão e na permissão de serviço público. Por isso a correta é a terceira alternativa. A primeira inverte a sequência; a segunda e a quinta empregam a desconcentração, que é mera redistribuição interna de competências dentro do mesmo ente, sem nova pessoa jurídica; a quarta traz a concentração, que é o movimento inverso.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — tutela e hierarquia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Controle finalístico (tutela) exercido pela administração direta sobre entidade da indireta; ausência de hierarquia",
+    "dificuldade": 3,
+    "enunciado": "O ministro de uma pasta determina que o presidente de uma autarquia federal deixe de contratar determinado fornecedor, por considerar a escolha inconveniente. Sobre a relação entre o ministério e a autarquia, é correto afirmar que:",
+    "alternativas": [
+      "há hierarquia plena, podendo o ministro praticar todos os atos de competência da autarquia",
+      "não há qualquer forma de controle entre a administração direta e a administração indireta",
+      "a tutela autoriza o ministro a revogar atos da autarquia por conveniência e oportunidade, em qualquer caso",
+      "a tutela existe apenas em relação às autarquias, jamais alcançando empresas estatais",
+      "não há hierarquia, mas controle finalístico (tutela), que deve observar os limites legais, sem substituir a vontade da entidade"
+    ],
+    "correta": 4,
+    "explicacao": "Entre a administração direta e as entidades da administração indireta não existe hierarquia, mas controle finalístico ou tutela, exercido nos estritos limites da lei e destinado a verificar a legalidade e o atingimento dos fins institucionais, sem substituir a vontade da entidade nem revogar seus atos por conveniência. Daí a correção da quinta alternativa. A primeira confunde tutela com hierarquia; a segunda nega o controle; a terceira estende a tutela ao mérito, o que ela não permite; e a quarta restringe indevidamente a tutela, que alcança também as empresas estatais, ainda que em menor intensidade.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — consórcios públicos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 11.107/2005, art. 6º: personalidade de direito público (associação pública) ou de direito privado",
+    "dificuldade": 2,
+    "enunciado": "Dois municípios celebram protocolo de intenções e constituem consórcio público para a execução de serviços de saúde. Sobre a personalidade jurídica e a natureza dos consórcios públicos, é correto afirmar que:",
+    "alternativas": [
+      "o consórcio público terá sempre personalidade jurídica de direito privado, qualquer que seja a sua constituição",
+      "o consórcio pode adquirir personalidade de direito público, quando constituir associação pública, ou de direito privado, mediante o atendimento dos requisitos da legislação civil",
+      "o consórcio público é órgão da administração direta de cada um dos entes consorciados",
+      "a constituição do consórcio depende de autorização prévia do Congresso Nacional",
+      "o consórcio com personalidade de direito público não integra a administração indireta dos entes consorciados"
+    ],
+    "correta": 1,
+    "explicacao": "A lei dos consórcios públicos prevê que o consórcio adquirirá personalidade jurídica de direito público quando constituir associação pública, mediante a vigência das leis de ratificação do protocolo de intenções, ou de direito privado, atendidos os requisitos da legislação civil. Por isso a segunda alternativa é a correta. A primeira elimina a associação pública; a terceira confunde consórcio, que é pessoa jurídica nova, com órgão da administração direta; a quarta inventa autorização do Congresso; e a quinta erra ao negar que o consórcio de direito público integra a administração indireta de todos os entes consorciados.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — convênios e contratos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Convênio: interesses convergentes e cooperação; contrato: interesses contrapostos e contraprestação",
+    "dificuldade": 2,
+    "enunciado": "Três órgãos públicos celebram ajuste para a soma de esforços na fiscalização de trânsito em rodovia estadual, sem qualquer remuneração entre os partícipes. Esse instrumento, comparado ao contrato administrativo, caracteriza-se por:",
+    "alternativas": [
+      "previsão de remuneração obrigatória a uma das partes, como contraprestação pelo serviço executado",
+      "interesses contrapostos e prestações recíprocas de natureza comercial entre as partes",
+      "natureza de ato unilateral, dispensando a manifestação de vontade dos partícipes",
+      "cooperação entre interesses convergentes, sem contraprestação remuneratória, voltada à consecução de objetivo comum",
+      "subordinação hierárquica entre os partícipes, típica do regime de tutela"
+    ],
+    "correta": 3,
+    "explicacao": "No convênio, as partes perseguem interesses convergentes e cooperam para um objetivo comum, sem contraprestação remuneratória, ao contrário do contrato administrativo, marcado por interesses contrapostos e por prestação e contraprestação. É o que se lê na quarta alternativa. A primeira e a segunda descrevem o contrato; a terceira ignora que o convênio é ajuste bilateral ou plurilateral, dependendo do consenso; e a quinta confunde convênio com relação hierárquica, quando entre os partícipes não há subordinação, mas cooperação.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — deveres e ordens manifestamente ilegais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, art. 116, IV e XII: cumprir ordens superiores, exceto as manifestamente ilegais, e representar contra ilegalidade",
+    "dificuldade": 2,
+    "enunciado": "Servidor recebe ordem escrita do superior hierárquico para deixar de autuar determinada infração que ele presenciou. O servidor entende que a ordem é ilegal e quer agir corretamente. Nos termos do regime disciplinar dos servidores públicos federais, o servidor deve:",
+    "alternativas": [
+      "não cumprir a ordem manifestamente ilegal, cabendo-lhe representar contra a ilegalidade, a omissão ou o abuso de poder",
+      "cumprir a ordem, pois o dever de obediência hierárquica é absoluto e não admite exceção",
+      "cumprir a ordem e, em seguida, comunicar o fato ao Conselho Nacional de Justiça",
+      "recusar-se a cumprir a ordem apenas se o superior estiver fisicamente presente no local",
+      "pedir demissão do cargo, pois não há mecanismo legal de defesa diante de ordem ilegal"
+    ],
+    "correta": 0,
+    "explicacao": "Entre os deveres do servidor está o de cumprir as ordens superiores, exceto quando manifestamente ilegais, e o de representar contra ilegalidade, omissão ou abuso de poder. Logo, o servidor não deve cumprir a ordem manifestamente ilegal e deve representar, como afirma a primeira alternativa. A segunda transforma a obediência em dever absoluto; a terceira indica órgão alheio à hierarquia administrativa; a quarta cria condição inexistente (presença física do superior); e a quinta ignora o dever de representar e a possibilidade de recusa da ordem ilegal.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — proibições ao servidor e nepotismo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, art. 117, IX: vedação de manter sob chefia imediata cônjuge, companheiro ou parente até o segundo grau civil",
+    "dificuldade": 2,
+    "enunciado": "Um chefe de repartição pretende nomear seu irmão para cargo em comissão subordinado diretamente a ele, na mesma unidade administrativa. De acordo com as proibições do regime disciplinar dos servidores públicos federais, essa conduta:",
+    "alternativas": [
+      "é permitida, pois o cargo em comissão é de livre nomeação e exoneração pela autoridade",
+      "é permitida desde que o nomeado comprove a escolaridade exigida para o cargo",
+      "é vedada apenas quando se tratar de parente até o primeiro grau",
+      "é vedada somente durante o período eleitoral, por força das regras de conduta dos agentes",
+      "é vedada, pois o servidor não pode manter sob sua chefia imediata parente até o segundo grau civil"
+    ],
+    "correta": 4,
+    "explicacao": "Constitui proibição ao servidor manter sob sua chefia imediata, em cargo ou função de confiança, cônjuge, companheiro ou parente até o segundo grau civil; o irmão é parente de segundo grau na linha colateral, de modo que a nomeação pretendida é vedada. A quinta alternativa reproduz a proibição, sendo a correta. A primeira e a segunda desconsideram a vedação legal ao nepotismo, que alcança inclusive cargos em comissão; a terceira reduz indevidamente o alcance do dispositivo ao primeiro grau; e a quarta limita a proibição ao período eleitoral, sem base no regime disciplinar.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — penalidades disciplinares",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, art. 127: penalidades de advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão",
+    "dificuldade": 1,
+    "enunciado": "Após regular processo administrativo disciplinar, a autoridade competente conclui pelo cabimento de penalidade ao servidor. Entre as penalidades previstas no regime disciplinar dos servidores públicos federais, NÃO se inclui:",
+    "alternativas": [
+      "advertência",
+      "suspensão",
+      "multa pecuniária",
+      "demissão",
+      "cassação de aposentadoria ou disponibilidade"
+    ],
+    "correta": 2,
+    "explicacao": "O rol legal das penalidades disciplinares compreende advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão, além da destituição de função comissionada. A multa não é penalidade autônoma desse rol; ela aparece apenas como forma de conversão da suspensão, quando houver conveniência para o serviço, na base de 50% por dia de vencimento. Por isso a resposta é a terceira alternativa. As demais integram expressamente o rol legal de penalidades.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — penalidade de suspensão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, art. 130: a penalidade de suspensão não pode exceder noventa dias",
+    "dificuldade": 2,
+    "enunciado": "Servidor reincide em falta punida anteriormente com advertência. A comissão processante sugere a aplicação de suspensão por cento e vinte dias. Sobre a penalidade de suspensão no regime disciplinar dos servidores públicos federais, é correto afirmar que ela:",
+    "alternativas": [
+      "pode ser aplicada por prazo superior a noventa dias, desde que o fato seja grave e haja reincidência comprovada",
+      "tem prazo máximo de trinta dias, tal como ocorre na advertência",
+      "pode ser aplicada por tempo indeterminado, até a efetiva correção da conduta do servidor",
+      "não pode exceder noventa dias, limite legal para essa espécie de penalidade",
+      "somente pode ser aplicada após decisão judicial condenatória transitada em julgado"
+    ],
+    "correta": 3,
+    "explicacao": "A suspensão é aplicada em caso de reincidência em faltas punidas com advertência e na violação de proibições que não tipifiquem infração sujeita a demissão, não podendo exceder noventa dias, limite que a comissão não pode ultrapassar. Assim, a quarta alternativa é a correta. A primeira desrespeita o teto legal; a segunda confunde o prazo da suspensão com o da advertência, que é aplicada por escrito e sem prazo; a terceira cria pena de duração indeterminada; e a quinta subordina a penalidade administrativa a condenação judicial, o que a lei não exige.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — abandono de cargo e inassiduidade habitual",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, arts. 138 e 139: abandono de cargo (mais de trinta dias consecutivos) e inassiduidade habitual (sessenta dias interpolados em doze meses)",
+    "dificuldade": 2,
+    "enunciado": "Dois servidores são investigados: o primeiro faltou intencionalmente ao serviço por trinta e cinco dias consecutivos; o segundo faltou, sem causa justificada, sessenta dias interpolados ao longo de doze meses. Nos termos do regime disciplinar dos servidores públicos federais, esses fatos configuram, respectivamente:",
+    "alternativas": [
+      "inassiduidade habitual e abandono de cargo",
+      "inassiduidade habitual em ambos os casos",
+      "abandono de cargo e inassiduidade habitual",
+      "abandono de cargo em ambos os casos",
+      "falta leve e falta média, puníveis apenas com advertência"
+    ],
+    "correta": 2,
+    "explicacao": "Configura abandono de cargo a ausência intencional do servidor ao serviço por mais de trinta dias consecutivos; configura inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses. Por isso a terceira alternativa é a correta. A primeira inverte os conceitos; a segunda e a quarta generalizam indevidamente uma das figuras; e a quinta ignora que ambas as condutas são puníveis com demissão, não com advertência.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — prescrição da ação disciplinar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.112/90, art. 142: prazos prescricionais da ação disciplinar conforme a penalidade",
+    "dificuldade": 3,
+    "enunciado": "Sobre a prescrição da ação disciplinar no regime dos servidores públicos federais, é correto afirmar que os prazos são de:",
+    "alternativas": [
+      "dez anos para as faltas puníveis com demissão, cinco anos para as puníveis com suspensão e dois anos para as puníveis com advertência",
+      "cinco anos para qualquer penalidade, sem distinção quanto à gravidade da falta",
+      "dois anos para as faltas puníveis com demissão, um ano para as puníveis com suspensão e seis meses para as puníveis com advertência",
+      "cinco anos para as faltas puníveis com demissão, dois anos para as puníveis com suspensão e cento e oitenta dias para as puníveis com advertência",
+      "não há prazo prescricional para a ação disciplinar, que pode ser exercida a qualquer tempo"
+    ],
+    "correta": 3,
+    "explicacao": "A ação disciplinar prescreve em cinco anos quanto aos fatos puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão; em dois anos quanto aos puníveis com suspensão; e em cento e oitenta dias quanto aos puníveis com advertência, contados da data do conhecimento do fato pela autoridade competente. Daí a correção da quarta alternativa. A primeira infla os prazos; a segunda ignora a gradação legal; a terceira reduz todos os prazos; e a quinta nega a prescrição, que é expressamente prevista na lei.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — fases da Lei 14.133/2021",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, art. 17: fases preparatória, de divulgação do edital, de apresentação de propostas e lances, de julgamento, de habilitação, recursal e de homologação",
+    "dificuldade": 2,
+    "enunciado": "No procedimento licitatório regido pela Lei 14.133/2021, a sequência das fases é, em regra:",
+    "alternativas": [
+      "preparatória, divulgação do edital, apresentação de propostas e lances, julgamento, habilitação, recursal e homologação",
+      "habilitação, julgamento, apresentação de propostas, divulgação do edital e homologação",
+      "julgamento, habilitação, divulgação do edital, apresentação de propostas e homologação",
+      "divulgação do edital, habilitação, apresentação de propostas, julgamento e homologação",
+      "preparatória, habilitação, julgamento, apresentação de propostas e homologação"
+    ],
+    "correta": 0,
+    "explicacao": "A lei de licitações vigente organiza o procedimento nas fases preparatória, de divulgação do edital de licitação, de apresentação de propostas e de lances, de julgamento, de habilitação, recursal e de homologação, invertendo em relação à lei anterior a ordem entre julgamento e habilitação. É o que consta da primeira alternativa. As demais embaralham a ordem legal, colocando a habilitação antes do julgamento, a divulgação depois da apresentação de propostas ou suprimindo a fase recursal, além de inverter etapas que a lei fixa de forma objetiva.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — modalidades da Lei 14.133/2021",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, arts. 28 e 29: modalidades pregão, concorrência, concurso, leilão e diálogo competitivo",
+    "dificuldade": 2,
+    "enunciado": "Uma prefeitura pretende adquirir bens comuns, cujos padrões de desempenho e qualidade possam ser objetivamente definidos pelo edital. A modalidade licitatória adequada, conforme a Lei 14.133/2021, é:",
+    "alternativas": [
+      "concurso, destinado à escolha de trabalho técnico, científico ou artístico",
+      "leilão, destinado à alienação de bens imóveis ou de bens móveis inservíveis",
+      "tomada de preços, conforme a faixa de valor da contratação pretendida",
+      "pregão, destinado à aquisição de bens e à contratação de serviços comuns",
+      "convite, mediante carta-convite dirigida a interessados previamente cadastrados"
+    ],
+    "correta": 3,
+    "explicacao": "O pregão é a modalidade destinada à aquisição de bens e à contratação de serviços comuns, assim entendidos aqueles cujos padrões de desempenho e qualidade possam ser objetivamente definidos pelo edital, com base em especificações usuais de mercado; é a quarta alternativa. A primeira e a segunda descrevem concurso e leilão, que têm objetos próprios e não a compra de bens comuns. A terceira e a quinta invocam tomada de preços e convite, modalidades da lei anterior que não subsistem no regime atual, o que as torna distratores típicos de prova.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — inexigibilidade de licitação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, art. 74, I: inexigibilidade na contratação de fornecedor exclusivo",
+    "dificuldade": 2,
+    "enunciado": "A Administração necessita contratar a única empresa que representa, com exclusividade, determinado fabricante de equipamento essencial à atividade policial, inexistindo outra apta a fornecer o bem. Esse caso é de:",
+    "alternativas": [
+      "licitação dispensada, hipótese que exige prévia autorização do Poder Legislativo",
+      "licitação dispensável, por ser de pequeno o valor da contratação pretendida",
+      "licitação inexigível, pois a competição é inviável diante da exclusividade do fornecedor",
+      "dispensa de licitação por emergência, ainda que não haja situação de urgência",
+      "inexigibilidade de licitação, mas somente se houver autorização judicial específica"
+    ],
+    "correta": 2,
+    "explicacao": "A licitação é inexigível quando houver inviabilidade de competição, como na contratação de fornecedor exclusivo, situação em que a disputa entre interessados é impossível por força da própria exclusividade; é o que afirma a terceira alternativa. A distinção central é que na dispensa a competição é possível, mas a lei dispensa a licitação, enquanto na inexigibilidade ela é inviável. A primeira e a segunda invocam dispensa sem previsão legal para o caso; a quarta exige emergência inexistente; e a quinta cria condição de autorização judicial que a lei não prevê.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — dispensa por emergência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, art. 75, VIII: dispensa nos casos de emergência ou calamidade, limitada aos fins estritamente necessários",
+    "dificuldade": 2,
+    "enunciado": "Após desabamento que interditou o prédio de uma delegacia, a Administração contrata, sem licitação, empresa para escoramento emergencial da estrutura, limitando o objeto ao estritamente necessário para evitar o agravamento da situação. A contratação é:",
+    "alternativas": [
+      "dispensável, por emergência, desde que o objeto se limite ao estritamente necessário para atender à situação",
+      "ilegal, pois a licitação é sempre obrigatória, inclusive em situação de calamidade pública",
+      "de inexigibilidade, porque a competição é impossível em qualquer situação de urgência",
+      "dispensável, independentemente de o objeto exceder o necessário, sendo livre a prorrogação do contrato",
+      "modalidade de pregão com prazo reduzido, sem hipótese de dispensa"
+    ],
+    "correta": 0,
+    "explicacao": "A lei autoriza a dispensa de licitação nos casos de emergência ou calamidade pública, quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a continuidade de serviços ou a segurança de pessoas e bens, mas somente para os fins estritamente necessários ao atendimento da situação. É o que ocorre no caso, correta a primeira alternativa. A segunda contraria a previsão legal de dispensa; a terceira confunde dispensa com inexigibilidade, pois a competição é possível; a quarta desconsidera o limite do estritamente necessário; e a quinta inventa modalidade com prazo reduzido.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Contratos administrativos — cláusulas exorbitantes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, art. 104: prerrogativas da Administração, como alteração e rescisão unilateral, fiscalização e aplicação de sanções",
+    "dificuldade": 2,
+    "enunciado": "Durante a execução de contrato administrativo, a Administração verifica que a empresa descumpriu obrigação essencial e, além disso, necessita alterar o projeto por razões de interesse público. Sobre as prerrogativas contratuais da Administração:",
+    "alternativas": [
+      "a Administração não pode alterar unilateralmente o projeto, dependendo sempre do acordo da empresa contratada",
+      "a rescisão unilateral é vedada, exigindo-se sempre decisão judicial para romper o contrato",
+      "a fiscalização da execução é faculdade exclusiva da empresa contratada, que decide sobre o cumprimento",
+      "as cláusulas exorbitantes existem apenas nos contratos de concessão de serviço público",
+      "a Administração pode alterar o projeto unilateralmente, observados os limites legais, e rescindir o contrato em caso de descumprimento, além de aplicar as sanções cabíveis"
+    ],
+    "correta": 4,
+    "explicacao": "As cláusulas exorbitantes decorrem da supremacia do interesse público e conferem à Administração, entre outras prerrogativas, a alteração unilateral do contrato nos limites legais, a rescisão unilateral em caso de descumprimento, a fiscalização da execução e a aplicação de sanções, sempre com contraditório e ampla defesa. Daí a correção da quinta alternativa. A primeira e a segunda negam prerrogativas expressamente previstas; a terceira inverte a titularidade da fiscalização, que é dever da Administração; e a quarta restringe as cláusulas exorbitantes à concessão, quando elas alcançam os contratos administrativos em geral.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Contratos administrativos — sanções ao contratado",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021, art. 156: advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade",
+    "dificuldade": 2,
+    "enunciado": "Empresa contratada atrasa injustificadamente a entrega de equipamentos essenciais. Apurada a infração em processo com contraditório e ampla defesa, a Administração pode aplicar:",
+    "alternativas": [
+      "apenas multa, vedada a cumulação com qualquer outra sanção prevista em lei",
+      "advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade, conforme a gravidade do caso",
+      "a rescisão do contrato, sem aplicação de qualquer sanção ao contratado",
+      "a declaração de inidoneidade de imediato, por ato unilateral e sem processo administrativo",
+      "pena de prisão administrativa ao responsável da empresa contratada"
+    ],
+    "correta": 1,
+    "explicacao": "A lei prevê como sanções administrativas ao contratado a advertência, a multa, o impedimento de licitar e contratar e a declaração de inidoneidade, observada a gravidade da infração, o contraditório e a ampla defesa; a segunda alternativa reproduz esse quadro. A primeira limita indevidamente a sanção à multa; a terceira afasta a responsabilização do contratado; a quarta suprime o processo administrativo, indispensável; e a quinta cria pena de prisão administrativa, que não existe no regime das contratações públicas.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Serviços públicos — permissão de serviço público",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.987/95, art. 2º, IV: permissão de serviço público como delegação a título precário, mediante licitação",
+    "dificuldade": 2,
+    "enunciado": "Sobre a delegação de serviços públicos, é correto afirmar que a permissão de serviço público:",
+    "alternativas": [
+      "é delegação a título precário, feita mediante licitação, a pessoa física ou jurídica que demonstre capacidade para seu desempenho",
+      "exige lei autorizativa específica e é concedida por prazo determinado de longo prazo, como a concessão",
+      "equivale à concessão, distinguindo-se dela apenas pelo valor da tarifa cobrada do usuário",
+      "independe de licitação, em razão de sua própria natureza precária",
+      "transfere a titularidade do serviço público ao permissionário, que passa a prestá-lo em nome próprio"
+    ],
+    "correta": 0,
+    "explicacao": "A permissão de serviço público é a delegação, a título precário, mediante licitação, da prestação de serviços públicos, feita pelo poder concedente à pessoa física ou jurídica que demonstre capacidade para seu desempenho, por sua conta e risco; é a primeira alternativa. A segunda confunde permissão com concessão, que exige prazo determinado e pode ser precedida de obra pública; a terceira reduz a distinção ao valor da tarifa; a quarta afasta a licitação, que é obrigatória também na permissão; e a quinta erra ao dizer que se transfere a titularidade, que permanece com o poder público.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Serviços públicos — concessão: conta e risco do concessionário",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.987/95, art. 2º, II: concessão por prazo determinado e por conta e risco do concessionário",
+    "dificuldade": 3,
+    "enunciado": "Na concessão de serviço público, a prestação do serviço se dá por prazo determinado e por conta e risco do concessionário. Essa característica significa que:",
+    "alternativas": [
+      "o concessionário responde apenas por culpa grave, transferindo ao poder concedente o risco ordinário do negócio",
+      "o concessionário é remunerado exclusivamente por contraprestação paga pelo poder concedente",
+      "o concessionário assume os riscos ordinários do empreendimento, cabendo o reequilíbrio econômico-financeiro apenas nas hipóteses que configurem álea extraordinária",
+      "o poder concedente garante ao concessionário o lucro mínimo previsto no contrato, cobrindo eventuais prejuízos",
+      "a concessão é celebrada por prazo indeterminado, tal como ocorre na permissão de serviço público"
+    ],
+    "correta": 2,
+    "explicacao": "A concessão é feita por prazo determinado e por conta e risco do concessionário, que assume a álea ordinária do empreendimento; a recomposição do equilíbrio econômico-financeiro cabe quando ocorre álea extraordinária, como fato do príncipe ou fato da Administração, não bastando variação normal de mercado. É o que consta da terceira alternativa. A primeira transfere o risco ordinário ao poder concedente; a segunda ignora a remuneração tarifária típica da concessão; a quarta cria garantia de lucro sem base legal; e a quinta confunde o prazo determinado da concessão com a precariedade da permissão.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Serviços públicos — encampação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.987/95, art. 37: encampação como retomada do serviço por interesse público, mediante lei autorizativa e prévio pagamento de indenização",
+    "dificuldade": 2,
+    "enunciado": "O poder concedente decide retomar a prestação de serviço concedido, por razões de interesse público, antes do termo final, mediante lei autorizativa específica e prévio pagamento de indenização. Essa forma de extinção da concessão é:",
+    "alternativas": [
+      "caducidade, decorrente do descumprimento do contrato pela concessionária",
+      "encampação, consistente na retomada do serviço por motivo de interesse público",
+      "rescisão amigável, celebrada por acordo entre as partes interessadas",
+      "anulação, motivada por vício no procedimento licitatório que precedeu a concessão",
+      "falência da concessionária, que extingue automaticamente o contrato de concessão"
+    ],
+    "correta": 1,
+    "explicacao": "A encampação é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização; é a segunda alternativa. A primeira descreve a caducidade, que decorre de inadimplemento e é declarada em processo administrativo; a terceira e a quarta tratam de rescisão consensual e de anulação por vício, hipóteses distintas; e a quinta confunde a extinção por falência, que é automática, com a retomada por interesse público.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Serviços públicos — serviço adequado",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.987/95, art. 6º, § 1º: regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia e modicidade das tarifas",
+    "dificuldade": 2,
+    "enunciado": "Usuários reclamam que a concessionária de água interrompe o fornecimento sem qualquer aviso e cobra tarifa acima da prevista no contrato. Os atributos do serviço adequado diretamente relacionados a essas duas reclamações são, respectivamente:",
+    "alternativas": [
+      "eficiência e segurança",
+      "continuidade e modicidade das tarifas",
+      "atualidade e generalidade",
+      "cortesia e atualidade",
+      "regularidade e cortesia"
+    ],
+    "correta": 1,
+    "explicacao": "O serviço adequado é o que satisfaz as condições de regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia na prestação e modicidade das tarifas. A interrupção sem aviso afronta a continuidade, e a cobrança acima do previsto afronta a modicidade das tarifas, de modo que a segunda alternativa é a correta. As demais combinam atributos que não correspondem às duas falhas narradas, como eficiência, segurança, atualidade, generalidade e cortesia.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Bens públicos — classificação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Código Civil, art. 99: bens públicos de uso comum do povo, de uso especial e dominicais",
+    "dificuldade": 2,
+    "enunciado": "Considere: (1) uma praia; (2) o prédio onde funciona uma delegacia; (3) um terreno sem destinação pública, adquirido pela União para futura alienação. Segundo o Código Civil, esses bens são, respectivamente:",
+    "alternativas": [
+      "de uso especial, dominical e de uso comum do povo",
+      "dominicais, de uso especial e de uso comum do povo",
+      "de uso comum do povo, dominicais e de uso especial",
+      "de uso comum do povo, de uso especial e dominical",
+      "de uso especial, de uso especial e dominical"
+    ],
+    "correta": 3,
+    "explicacao": "O Código Civil classifica os bens públicos em de uso comum do povo, como rios, mares, estradas e praias; de uso especial, como edifícios destinados a serviço ou estabelecimento da administração; e dominicais, que constituem o patrimônio das pessoas jurídicas de direito público sem destinação pública específica. A correspondência correta é uso comum, uso especial e dominical, quarta alternativa. As demais trocam a ordem das categorias ou classificam a praia e o prédio da delegacia de forma incompatível com a destinação efetiva.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Bens públicos — alienabilidade e imprescritibilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Código Civil, arts. 100 a 102: inalienabilidade dos bens afetados e vedação de usucapião de bens públicos",
+    "dificuldade": 2,
+    "enunciado": "Sobre os bens públicos, é correto afirmar que:",
+    "alternativas": [
+      "os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem essa qualificação, e os bens públicos não estão sujeitos a usucapião",
+      "todos os bens públicos podem ser alienados livremente, independentemente da destinação que possuam",
+      "os bens públicos podem ser adquiridos por usucapião após cinco anos de ocupação mansa e pacífica",
+      "os bens dominicais são inalienáveis por natureza, ao contrário dos bens de uso especial, que são alienáveis",
+      "a desafetação é vedada pelo ordenamento, pois a destinação pública do bem é imutável"
+    ],
+    "correta": 0,
+    "explicacao": "Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem essa qualificação, e os bens públicos não estão sujeitos a usucapião, conforme o Código Civil; é a primeira alternativa. A segunda ignora a afetação; a terceira contraria a imprescritibilidade dos bens públicos; a quarta inverte a regra, pois os dominicais é que podem ser alienados, observadas as exigências legais; e a quinta nega a desafetação, que é admitida e consiste na retirada da destinação pública do bem.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Intervenção do Estado na propriedade — desapropriação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 5º, XXIV, da CF: desapropriação por necessidade ou utilidade pública ou interesse social, mediante justa e prévia indenização em dinheiro",
+    "dificuldade": 2,
+    "enunciado": "A União pretende desapropriar imóvel urbano para a construção de uma unidade policial. Nos termos da Constituição, a desapropriação:",
+    "alternativas": [
+      "dispensa indenização quando o destino do imóvel for a prestação de serviço de segurança pública",
+      "admite indenização posterior e em títulos da dívida pública em qualquer hipótese de utilidade pública",
+      "só pode ocorrer por decisão judicial, sendo vedado o decreto expropriatório declaratório",
+      "pode ser feita sem indenização, desde que haja prévia autorização do Congresso Nacional",
+      "exige justa e prévia indenização em dinheiro, salvo as exceções constitucionais expressas, como a desapropriação para reforma agrária e a desapropriação urbanística"
+    ],
+    "correta": 4,
+    "explicacao": "A Constituição exige, como regra, justa e prévia indenização em dinheiro para a desapropriação por necessidade ou utilidade pública ou interesse social, admitindo exceções expressas, como a desapropriação para reforma agrária, indenizada com títulos da dívida agrária, e a desapropriação urbanística, com títulos da dívida pública. É o que consta da quinta alternativa. A primeira e a quarta eliminam a indenização sem base constitucional; a segunda inverte a regra geral, que é a indenização prévia em dinheiro; e a terceira nega o decreto expropriatório, que é o ato declaratório que deflagra o procedimento.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Intervenção do Estado na propriedade — desapropriação indireta",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Desapropriação indireta: apropriação do bem pelo Estado sem observância do procedimento expropriatório legal",
+    "dificuldade": 3,
+    "enunciado": "O Estado, sem qualquer decreto expropriatório ou processo judicial, ocupa área particular e nela constrói uma unidade de saúde, tornando o imóvel inutilizável para o proprietário. Essa situação caracteriza:",
+    "alternativas": [
+      "servidão administrativa, que dispensa qualquer indenização ao proprietário",
+      "ocupação temporária, que gera apenas indenização pelo aluguel do período de uso",
+      "desapropriação indireta, que dá direito à indenização, pois houve esvaziamento do conteúdo econômico do bem sem o devido procedimento",
+      "tombamento, que não interfere no uso da propriedade pelo particular",
+      "limitação administrativa genérica, que não gera direito a indenização"
+    ],
+    "correta": 2,
+    "explicacao": "Ocorre desapropriação indireta quando o Estado se apropria do bem ou lhe esvazia o conteúdo econômico sem observar o procedimento expropriatório regular; o proprietário tem direito à indenização. É o que afirma a terceira alternativa. A primeira e a quinta invocam institutos que não retiram a propriedade nem, em regra, geram indenização; a segunda reduz a indenização a aluguel, insuficiente diante do esvaziamento do bem; e a quarta trata de tombamento, que impõe restrições de preservação, mas não transfere a posse nem impede a construção no imóvel alheio.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Intervenção do Estado na propriedade — tombamento",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 216, § 1º, da CF: tombamento de bens de valor histórico, artístico ou cultural; limitação administrativa com eventual indenização por prejuízo comprovado",
+    "dificuldade": 2,
+    "enunciado": "Município tomba prédio de valor histórico e passa a exigir autorização para qualquer reforma. O proprietário alega que o tombamento equivale a desapropriação e pede indenização integral. Sobre o tombamento:",
+    "alternativas": [
+      "é uma desapropriação parcial, que gera indenização integral obrigatória ao proprietário",
+      "transfere a propriedade do bem ao poder público, com pagamento de indenização",
+      "é vedado ao município, competindo apenas à União tombar bens de valor histórico",
+      "é limitação administrativa que restringe o uso em favor da preservação, em regra sem indenização, ressalvado o prejuízo comprovado",
+      "não gera qualquer restrição ao proprietário, que pode reformar o bem livremente"
+    ],
+    "correta": 3,
+    "explicacao": "O tombamento é limitação administrativa ao direito de propriedade, que impõe restrições de uso para preservar bens de valor histórico, artístico, cultural ou paisagístico, em regra sem indenização, ressalvada a hipótese de prejuízo comprovado. Logo, correta a quarta alternativa. A primeira confunde tombamento com desapropriação; a segunda afirma transferência da propriedade, que não ocorre; a terceira nega competência municipal para tombar bens de seu interesse; e a quinta ignora as restrições que o tombamento impõe ao uso e à reforma do bem.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Controle da Administração — controle judicial",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Controle judicial: exame de legalidade dos atos, inclusive discricionários, sem substituição do mérito; Súmula 473 do STF",
+    "dificuldade": 2,
+    "enunciado": "O Poder Judiciário é provocado a se manifestar sobre ato administrativo discricionário de prefeito, que negou licença para evento por razões de conveniência. Sobre o controle judicial desse ato:",
+    "alternativas": [
+      "o Judiciário pode revogar o ato por inconveniência, substituindo o juízo do administrador público",
+      "cabe ao Judiciário controlar a legalidade do ato, inclusive verificando competência, forma, motivos e finalidade, mas não substituir o mérito",
+      "o controle judicial depende de autorização prévia da chefia do Poder Executivo",
+      "o Judiciário só pode controlar atos vinculados, nunca os discricionários",
+      "o Judiciário não pode apreciar ato discricionário em nenhuma hipótese"
+    ],
+    "correta": 1,
+    "explicacao": "A apreciação judicial alcança a legalidade dos atos administrativos, inclusive os discricionários, examinando competência, forma, finalidade, motivação e veracidade dos motivos, mas não autoriza o juiz a substituir o juízo de conveniência e oportunidade do administrador. Daí a correção da segunda alternativa, coerente com a ideia de que a Administração pode anular seus atos ilegais e revogá-los por conveniência, ressalvada em todos os casos a apreciação judicial. A primeira invade o mérito; a terceira cria condição inexistente; a quarta e a quinta excluem o controle judicial, que é garantia constitucional.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Controle da Administração — controle interno",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 74 da CF: sistema de controle interno dos Poderes, com finalidade de avaliar metas do plano plurianual e a execução orçamentária",
+    "dificuldade": 2,
+    "enunciado": "Os Poderes Legislativo, Executivo e Judiciário devem manter sistema de controle interno, de forma integrada. Entre as finalidades desse controle está:",
+    "alternativas": [
+      "julgar as contas dos administradores públicos e aplicar as sanções previstas em lei",
+      "realizar a tomada de contas especial e processar os responsáveis por desvio de verba pública",
+      "substituir o controle externo, dispensando a atuação dos Tribunais de Contas",
+      "aplicar sanções penais aos agentes públicos que cometam crimes contra a Administração",
+      "avaliar o cumprimento das metas previstas no plano plurianual e a execução dos programas de governo e dos orçamentos"
+    ],
+    "correta": 4,
+    "explicacao": "O controle interno tem por finalidade, entre outras, avaliar o cumprimento das metas previstas no plano plurianual, a execução dos programas de governo e dos orçamentos; comprovar a legalidade e avaliar os resultados da gestão orçamentária, financeira e patrimonial; controlar operações de crédito, avais e garantias; e apoiar o controle externo. É a quinta alternativa. A primeira, a segunda e a terceira descrevem funções do controle externo, exercido pelo Tribunal de Contas, que julga contas e realiza tomadas de contas especiais; e a quarta atribui ao controle interno função penal, que ele não exerce.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado — omissão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 6º, da CF: responsabilidade objetiva por ação de agentes; na omissão genérica, exige-se falha do serviço (culpa anônima)",
+    "dificuldade": 3,
+    "enunciado": "Durante fiscalização de trânsito, viatura policial presente no local deixa de impedir crime praticado por assaltantes contra um pedestre, embora a ocorrência estivesse em andamento e houvesse condições de agir. Sobre a responsabilidade civil do Estado por omissão genérica:",
+    "alternativas": [
+      "depende da comprovação de falha do serviço público, ou seja, de que o Estado deveria e podia agir para evitar o dano",
+      "é sempre objetiva, bastando a existência do dano e do nexo causal, sem qualquer análise do serviço prestado",
+      "é inexistente em qualquer hipótese, pois atos de terceiros sempre afastam o nexo causal",
+      "é subjetiva quanto ao Estado, exigindo prova de culpa pessoal do agente para que o Estado seja condenado",
+      "é objetiva em relação ao agente público, que responde diretamente perante a vítima, sem benefício de ordem"
+    ],
+    "correta": 0,
+    "explicacao": "Na omissão genérica, a responsabilidade do Estado não é presumida: exige-se a demonstração de falha do serviço, a chamada culpa anônima, isto é, que o Estado tinha o dever e a possibilidade concreta de agir e não o fez. Por isso a primeira alternativa é a correta. A segunda dispensa a análise da falha, tratando a omissão como se fosse conduta comissiva; a terceira exclui sempre o nexo causal; a quarta transfere ao Estado a exigência de culpa do agente, própria da ação de regresso; e a quinta inverte a regra constitucional, que assegura ao agente o direito de só responder em regresso por dolo ou culpa.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado — ação de regresso",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 6º, da CF: direito de regresso contra o agente responsável, em caso de dolo ou culpa",
+    "dificuldade": 2,
+    "enunciado": "Vítima de acidente causado por viatura oficial, conduzida com imprudência por policial, é indenizada pelo Estado após condenação judicial. Sobre a ação de regresso:",
+    "alternativas": [
+      "cabe apenas se o agente tiver agido com dolo, sendo a culpa irrelevante para o ressarcimento",
+      "é vedada, pois a responsabilização do Estado exclui a do agente que praticou a conduta",
+      "cabe ao Estado reaver o que pagou, desde que comprovado dolo ou culpa do agente",
+      "depende de o agente permanecer no exercício do cargo público ao tempo da propositura",
+      "compete à vítima ajuizá-la em nome do Estado contra o agente público"
+    ],
+    "correta": 2,
+    "explicacao": "A Constituição assegura o direito de regresso contra o responsável nos casos de dolo ou culpa: a vítima aciona o Estado, que responde objetivamente, e este pode reaver o valor pago do agente que agiu com dolo ou culpa. Daí a correção da terceira alternativa. A primeira exclui a culpa, que é expressamente prevista; a segunda nega o regresso; a quarta cria condição inexistente, pois o vínculo funcional não precisa subsistir; e a quinta inverte a titularidade da ação, que é do Estado, e não da vítima.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa — exigência de dolo após a Lei 14.230/2021",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.429/92, art. 1º, §§ 1º a 3º, com a redação da Lei 14.230/2021: improbidade exige dolo, não bastando a voluntariedade",
+    "dificuldade": 3,
+    "enunciado": "Servidor público, por negligência ao conferir documentos, autoriza pagamento indevido que gera prejuízo ao erário. Ele não tinha intenção de obter vantagem nem previu o resultado ilícito, mas falhou no dever de cautela. Após a Lei 14.230/2021, essa conduta:",
+    "alternativas": [
+      "configura ato de improbidade que causa prejuízo ao erário, pois o dano é suficiente para a tipificação",
+      "não configura improbidade administrativa, pois a lei exige dolo, não bastando a culpa ou a mera voluntariedade",
+      "configura improbidade culposa, punível com multa civil e ressarcimento do dano",
+      "configura improbidade somente se o servidor tiver obtido enriquecimento ilícito com o pagamento",
+      "configura improbidade por presunção de enriquecimento ilícito decorrente do prejuízo aos cofres públicos"
+    ],
+    "correta": 1,
+    "explicacao": "Após a reforma promovida pela Lei 14.230/2021, a improbidade administrativa exige dolo, entendido como a vontade livre e consciente de alcançar o resultado ilícito tipificado, não bastando a voluntariedade do agente nem a culpa. Como o servidor agiu com negligência, sem intenção nem previsão do resultado ilícito, não há improbidade, sendo correta a segunda alternativa. A primeira e a terceira admitem improbidade culposa, suprimida pela reforma; a quarta restringe a tipificação ao enriquecimento; e a quinta presume enriquecimento sem base legal, quando a presunção é incompatível com a exigência de dolo.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa — sujeito ativo e terceiros",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 8.429/92, art. 3º: aplicação da lei a terceiros que induzam ou concorram dolosamente para o ato de improbidade",
+    "dificuldade": 2,
+    "enunciado": "Empresário, sem vínculo com a Administração, oferece vantagem indevida a policial para obter certidão falsa e, com isso, participa dolosamente do ato ímprobo. Sobre a responsabilidade do empresário na lei de improbidade administrativa:",
+    "alternativas": [
+      "é excluída, pois a lei de improbidade alcança apenas os agentes públicos",
+      "só existe se ele for considerado funcionário público de fato para todos os efeitos penais",
+      "depende de condenação penal prévia transitada em julgado",
+      "é objetiva, dispensando a comprovação do dolo do particular",
+      "alcança o terceiro que induza ou concorra dolosamente para a prática do ato de improbidade"
+    ],
+    "correta": 4,
+    "explicacao": "A lei de improbidade aplica-se, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade; não se exige condenação penal prévia nem vínculo funcional. Daí a correção da quinta alternativa. A primeira nega o alcance da lei aos particulares; a segunda cria requisito inexistente; a terceira subordina a responsabilidade civil à esfera penal, o que a lei não faz; e a quarta dispensa o dolo, que é imprescindível também para o terceiro, conforme a exigência de dolo introduzida pela Lei 14.230/2021.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]
