@@ -1,7 +1,15 @@
-# concurso — banco de questões PM-AM / PC-AM
+# QB Concurso — Quebrando a Banca
 
-App pessoal de resolução de questões para **Soldado PM-AM** e **Investigador PC-AM**, no estilo
-da banca **FGV** (organizadora das últimas provas dos dois certames).
+Banco de questões para os concursos de **Soldado PM-AM** e **Investigador PC-AM**, no estilo da
+banca **FGV**. O nome é **QB de "Quebrando a Banca"** — não de "question bank".
+
+## Identidade visual
+
+- **Logo:** monograma QB em selo azul-marinho com filete dourado (`frontend/src/Logo.tsx`, SVG).
+- **Paleta:** base neutra quente (`ink-*`, pedra), primária azul-marinho (`brand-*`) e detalhe
+  areia/dourado (`accent-*`). **Verde/vermelho são reservados ao feedback** (`ok-*`/`err-*`).
+- **Tipografia:** Inter (fallback para a fonte do sistema).
+- Classes de componente em `index.css`: `qb-card`, `qb-btn`, `qb-btn-ghost`, `qb-chip`, `qb-label`.
 
 ## Stack
 

@@ -95,7 +95,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
   // ---------------- início ----------------
   if (etapa === 'inicio') {
     return (
-      <div className="rounded-2xl border border-ink-100 bg-white p-6 shadow-sm">
+      <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
         <h2 className="text-base font-bold text-ink-900">Simulado</h2>
         <p className="mt-1 text-sm text-ink-500">
           Prova no formato do caderno da banca: mesma distribuição de matérias e tempo de prova. O
@@ -109,7 +109,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
               onClick={() => setConcurso(c)}
               className={
                 concurso === c
-                  ? 'rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white'
+                  ? 'rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white'
                   : 'rounded-xl border border-ink-200 px-4 py-2 text-sm font-semibold text-ink-700'
               }
             >
@@ -129,7 +129,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
         <button
           onClick={() => void iniciar()}
           disabled={carregando}
-          className="mt-5 w-full rounded-xl bg-brand-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
+          className="mt-5 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
         >
           {carregando ? 'Montando…' : 'Iniciar simulado'}
         </button>
@@ -141,7 +141,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
   if (etapa === 'resultado' && correcao) {
     return (
       <div className="space-y-4">
-        <div className="rounded-2xl border border-ink-100 bg-white p-6 shadow-sm">
+        <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
           <p className="text-xs font-semibold uppercase tracking-wide text-ink-400">
             {simulado?.nome}
           </p>
@@ -175,7 +175,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
                 setCorrecao(null)
                 setSimulado(null)
               }}
-              className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white"
+              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white"
             >
               Novo simulado
             </button>
@@ -186,8 +186,8 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
           {correcao.itens.map((item, i) => (
             <article
               key={item.questaoId}
-              className={`rounded-2xl border p-4 ${
-                item.acertou ? 'border-brand-200 bg-brand-50' : 'border-accent-200 bg-accent-50'
+              className={`rounded-[14px] border p-4 ${
+                item.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
               }`}
             >
               <p className="text-xs font-semibold text-ink-500">
@@ -220,7 +220,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
 
   return (
     <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-ink-100 bg-white px-4 py-3 shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-[14px] border border-ink-200 bg-surface px-4 py-3 shadow-card">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-ink-400">
             {simulado.nome}
@@ -251,7 +251,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
         <div className="h-full bg-brand-500 transition-all" style={{ width: `${progresso}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-ink-100 bg-white p-5 shadow-sm">
+      <div className="rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
         <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
           <span className="rounded-full bg-ink-100 px-2.5 py-1 font-semibold text-ink-700">
             {atual.materia}
@@ -309,14 +309,14 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
           <button
             onClick={() => setIndice((i) => Math.min(simulado.questoes.length - 1, i + 1))}
             disabled={indice === simulado.questoes.length - 1}
-            className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
+            className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
           >
             Próxima
           </button>
         </div>
       </div>
 
-      <div className="rounded-2xl border border-ink-100 bg-white p-4 shadow-sm">
+      <div className="rounded-[14px] border border-ink-200 bg-surface p-4 shadow-card">
         <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-400">Navegação</p>
         <div className="flex flex-wrap gap-1.5">
           {simulado.questoes.map((q, i) => {
@@ -328,7 +328,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
                 onClick={() => setIndice(i)}
                 className={
                   ativa
-                    ? 'h-8 w-8 rounded-lg bg-brand-600 text-xs font-bold text-white'
+                    ? 'h-8 w-8 rounded-lg bg-brand-700 text-xs font-bold text-white'
                     : respondida
                       ? 'h-8 w-8 rounded-lg bg-brand-100 text-xs font-bold text-brand-800'
                       : 'h-8 w-8 rounded-lg bg-ink-50 text-xs font-semibold text-ink-500'

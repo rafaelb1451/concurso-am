@@ -1,48 +1,77 @@
 @import "tailwindcss";
 
+/* =========================================================================
+   QB Concurso — sistema visual
+   Base neutra quente (pedra), primária azul-marinho institucional e detalhe
+   em areia/dourado. Verde e vermelho ficam reservados ao feedback de resposta.
+   ========================================================================= */
+
 @theme {
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    "Noto Sans", sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+  --font-serif: "Lora", Georgia, "Times New Roman", serif;
 
-  /* Azul — ações primárias, links, sidebar e destaques de corrida. */
-  --color-brand-50: #eff6ff;
-  --color-brand-100: #dbeafe;
-  --color-brand-200: #bfdbfe;
-  --color-brand-300: #93c5fd;
-  --color-brand-400: #60a5fa;
-  --color-brand-500: #3b82f6;
-  --color-brand-600: #2563eb;
-  --color-brand-700: #1d4ed8;
-  --color-brand-800: #1e40af;
-  --color-brand-900: #1e3a8a;
+  /* Primária — azul-marinho institucional. */
+  --color-brand-50: #f2f5fa;
+  --color-brand-100: #e2e9f5;
+  --color-brand-200: #c6d3e8;
+  --color-brand-300: #9db1d3;
+  --color-brand-400: #6e8bb8;
+  --color-brand-500: #4a6a9c;
+  --color-brand-600: #35507f;
+  --color-brand-700: #2a4067;
+  --color-brand-800: #223453;
+  --color-brand-900: #16243c;
 
-  /* Amarelo — realces, aba ativa, dificuldade e bike. */
-  --color-accent-50: #fffbeb;
-  --color-accent-100: #fef3c7;
-  --color-accent-200: #fde68a;
-  --color-accent-300: #fcd34d;
-  --color-accent-400: #fbbf24;
-  --color-accent-500: #f5b301;
-  --color-accent-600: #d99e00;
-  --color-accent-700: #b47f00;
+  /* Detalhe — areia/dourado discreto. */
+  --color-accent-50: #fbf7ef;
+  --color-accent-100: #f5ecd8;
+  --color-accent-200: #e9d8b4;
+  --color-accent-300: #d9bd88;
+  --color-accent-400: #c8a05f;
+  --color-accent-500: #b98a3f;
+  --color-accent-600: #9c7133;
+  --color-accent-700: #7d5a2a;
 
-  /* Azul-escuro — sidebar, títulos e texto forte. */
-  --color-ink-50: #f8fafc;
-  --color-ink-100: #f1f5f9;
-  --color-ink-200: #e2e8f0;
-  --color-ink-300: #cbd5e1;
-  --color-ink-400: #94a3b8;
-  --color-ink-500: #64748b;
-  --color-ink-600: #475569;
-  --color-ink-700: #334155;
-  --color-ink-800: #1e293b;
-  --color-ink-900: #0f172a;
+  /* Neutro quente — texto, bordas e superfícies. */
+  --color-ink-50: #fafaf9;
+  --color-ink-100: #f5f5f4;
+  --color-ink-200: #e7e5e4;
+  --color-ink-300: #d6d3d1;
+  --color-ink-400: #a8a29e;
+  --color-ink-500: #78716c;
+  --color-ink-600: #57534e;
+  --color-ink-700: #44403c;
+  --color-ink-800: #292524;
+  --color-ink-900: #1c1917;
 
-  /* Fundo das páginas. */
-  --color-canvas: #f5f8fc;
+  /* Acerto. */
+  --color-ok-50: #f1f8f3;
+  --color-ok-100: #dcefe2;
+  --color-ok-200: #b9dfc6;
+  --color-ok-300: #8ac9a1;
+  --color-ok-400: #55ab77;
+  --color-ok-500: #348e58;
+  --color-ok-600: #277246;
+  --color-ok-700: #1f5a38;
 
-  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.04), 0 10px 30px -18px rgb(15 23 42 / 0.22);
-  --shadow-pop: 0 24px 60px -20px rgb(15 23 42 / 0.35);
+  /* Erro. */
+  --color-err-50: #fcf4f3;
+  --color-err-100: #f8e3e1;
+  --color-err-200: #f0c6c2;
+  --color-err-300: #e29f99;
+  --color-err-400: #cd706a;
+  --color-err-500: #b44a44;
+  --color-err-600: #973a35;
+  --color-err-700: #7a2f2b;
+
+  --color-canvas: #f7f6f3;
+  --color-surface: #ffffff;
+
+  --shadow-card: 0 1px 2px 0 rgb(28 25 23 / 0.04), 0 12px 32px -20px rgb(28 25 23 / 0.18);
+  --shadow-pop: 0 24px 60px -20px rgb(28 25 23 / 0.28);
+
+  --radius-card: 14px;
 }
 
 @layer base {
@@ -52,6 +81,7 @@
 
   body {
     @apply min-h-screen bg-canvas font-sans text-ink-900 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "ss01";
   }
 
   h1,
@@ -72,10 +102,42 @@
   }
 }
 
+@layer components {
+  /* Superfície padrão dos painéis. */
+  .qb-card {
+    @apply rounded-[14px] border border-ink-200 bg-surface shadow-card;
+  }
+
+  /* Botão primário. */
+  .qb-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-700 px-4 py-2.5
+      text-sm font-semibold text-white transition-colors hover:bg-brand-800
+      disabled:cursor-not-allowed disabled:opacity-55;
+  }
+
+  /* Botão secundário. */
+  .qb-btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-ink-200
+      bg-surface px-4 py-2.5 text-sm font-semibold text-ink-700 transition-colors
+      hover:border-ink-300 hover:bg-ink-50 disabled:opacity-50;
+  }
+
+  /* Etiqueta/insígnia. */
+  .qb-chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-[11px] font-semibold
+      uppercase tracking-wide;
+  }
+
+  /* Rótulo de seção. */
+  .qb-label {
+    @apply text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-400;
+  }
+}
+
 @layer utilities {
-  .sidebar-scroll {
+  .qb-scroll {
     scrollbar-width: thin;
-    scrollbar-color: rgb(203 213 225 / 0.35) transparent;
+    scrollbar-color: rgb(214 211 209 / 0.5) transparent;
   }
 
   .animate-in {

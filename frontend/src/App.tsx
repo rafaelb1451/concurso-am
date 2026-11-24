@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { api, type Answer, type Concurso, type Desempenho, type Question, type Topico } from './api'
 import Fixacao from './Fixacao'
 import Simulado from './Simulado'
+import Logo from './Logo'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
@@ -130,41 +131,47 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-canvas">
-      <header className="border-b border-ink-100 bg-white">
-        <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-3 px-4 py-4">
-          <div>
-            <p className="text-[11px] font-bold uppercase tracking-wider text-brand-600">
-              PM-AM · PC-AM
-            </p>
-            <h1 className="text-xl font-bold text-ink-900">Banco de questões</h1>
-            <div className="mt-2 flex gap-1">
-              {(['treino', 'fixacao', 'simulado'] as const).map((a) => (
-                <button
-                  key={a}
-                  onClick={() => setAba(a)}
-                  className={
-                    aba === a
-                      ? 'rounded-lg bg-brand-600 px-3 py-1 text-xs font-semibold text-white'
-                      : 'rounded-lg px-3 py-1 text-xs font-semibold text-ink-500 transition hover:bg-ink-50 hover:text-ink-800'
-                  }
-                >
-                  {a === 'treino' ? 'Treino' : a === 'fixacao' ? 'Fixação + tutor' : 'Simulado'}
-                </button>
-              ))}
+      <header className="sticky top-0 z-20 border-b border-ink-200 bg-surface/95 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-3.5">
+          <div className="flex items-center gap-3">
+            <Logo className="h-10 w-10 shrink-0" />
+            <div>
+              <h1 className="text-[17px] font-bold leading-tight tracking-tight text-ink-900">
+                QB Concurso
+              </h1>
+              <p className="mt-0.5 text-[11.5px] font-medium text-ink-500">
+                Quebrando a Banca · PM-AM e PC-AM
+              </p>
             </div>
           </div>
           {desempenho ? (
-            <div className="flex gap-4 text-center">
+            <div className="flex items-center gap-6">
               <Metrica valor={String(desempenho.respondidas)} rotulo="respondidas" />
               <Metrica valor={String(desempenho.acertos)} rotulo="acertos" />
               <Metrica valor={`${desempenho.percentual}%`} rotulo="aproveitamento" destaque />
             </div>
           ) : null}
         </div>
+
+        <nav className="mx-auto flex max-w-6xl gap-1 px-5">
+          {(['treino', 'fixacao', 'simulado'] as const).map((a) => (
+            <button
+              key={a}
+              onClick={() => setAba(a)}
+              className={
+                aba === a
+                  ? '-mb-px border-b-2 border-brand-700 px-3 py-2.5 text-[13px] font-semibold text-brand-800'
+                  : '-mb-px border-b-2 border-transparent px-3 py-2.5 text-[13px] font-semibold text-ink-500 transition hover:text-ink-800'
+              }
+            >
+              {a === 'treino' ? 'Treino' : a === 'fixacao' ? 'Fixação + tutor' : 'Simulado'}
+            </button>
+          ))}
+        </nav>
       </header>
 
       <main
-        className={`mx-auto px-4 py-6 ${aba === 'fixacao' ? 'max-w-6xl' : 'max-w-4xl'}`}
+        className={`mx-auto px-5 py-7 ${aba === 'treino' ? 'max-w-4xl' : 'max-w-6xl'}`}
       >
         {erro ? (
           <p className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
@@ -184,7 +191,7 @@ export default function App() {
                 onClick={() => trocarConcurso(c.id)}
                 className={
                   ativo
-                    ? 'rounded-full bg-brand-600 px-3.5 py-1.5 text-xs font-semibold text-white'
+                    ? 'rounded-full bg-brand-700 px-3.5 py-1.5 text-xs font-semibold text-white'
                     : 'rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-xs font-semibold text-ink-700 transition hover:border-brand-300 hover:text-brand-700'
                 }
               >
@@ -250,12 +257,21 @@ function rotuloConcurso(id: string): string {
   return 'Todos'
 }
 
-function Metrica({ valor, rotulo, destaque }: { valor: string; rotulo: string; destaque?: boolean }) {  return (
-    <div>
-      <p className={destaque ? 'text-lg font-bold text-accent-600' : 'text-lg font-bold text-ink-900'}>
+function Metrica({ valor, rotulo, destaque }: { valor: string; rotulo: string; destaque?: boolean }) {
+  return (
+    <div className="text-right">
+      <p
+        className={
+          destaque
+            ? 'text-[17px] font-bold leading-none text-accent-600'
+            : 'text-[17px] font-bold leading-none text-ink-900'
+        }
+      >
         {valor}
       </p>
-      <p className="text-[10px] uppercase tracking-wide text-ink-500">{rotulo}</p>
+      <p className="mt-1 text-[10px] font-medium uppercase tracking-[0.08em] text-ink-400">
+        {rotulo}
+      </p>
     </div>
   )
 }
@@ -274,7 +290,7 @@ function Inicio(props: {
   onComecar: () => void
 }) {
   return (
-    <div className="rounded-2xl border border-ink-100 bg-white p-6 shadow-card">
+    <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
       <h2 className="text-lg font-bold text-ink-900">Montar sessão</h2>
       <p className="mt-1 text-sm text-ink-500">
         {props.totalQuestoes} questões no banco. Filtre por matéria e assunto, ou treine tudo.
@@ -332,7 +348,7 @@ function Inicio(props: {
       <button
         onClick={props.onComecar}
         disabled={props.carregando}
-        className="mt-6 w-full rounded-xl bg-brand-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
+        className="mt-6 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
       >
         {props.carregando ? 'Carregando…' : 'Começar sessão'}
       </button>
@@ -372,7 +388,7 @@ function Estudo(props: {
         </span>
       </div>
 
-      <div className="rounded-2xl border border-ink-100 bg-white p-6 shadow-card">
+      <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
         {questao.banca ? (
           <p className="mb-3 text-xs text-ink-500">
             {questao.banca}
@@ -391,10 +407,10 @@ function Estudo(props: {
             const correta = resposta && i === resposta.correta
             const errada = resposta && i === escolhida && !resposta.acertou
             const classe = correta
-              ? 'border-brand-500 bg-brand-50 text-ink-900'
+              ? 'border-ok-500 bg-ok-50 text-ink-900'
               : errada
-                ? 'border-red-400 bg-red-50 text-ink-900'
-                : 'border-ink-200 bg-white hover:border-brand-300 hover:bg-ink-50'
+                ? 'border-err-400 bg-err-50 text-ink-900'
+                : 'border-ink-200 bg-surface hover:border-brand-300 hover:bg-ink-50'
             return (
               <li key={i}>
                 <button
@@ -415,8 +431,8 @@ function Estudo(props: {
 
       {resposta ? (
         <div
-          className={`rounded-2xl border p-5 ${
-            resposta.acertou ? 'border-brand-200 bg-brand-50' : 'border-accent-200 bg-accent-50'
+          className={`rounded-[14px] border p-5 ${
+            resposta.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
           }`}
         >
           <p className="text-sm font-bold text-ink-900">
@@ -445,7 +461,7 @@ function Estudo(props: {
           ) : null}
           <button
             onClick={props.onProxima}
-            className="mt-4 w-full rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-700"
+            className="mt-4 w-full rounded-xl bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-800"
           >
             {props.indice + 1 >= props.total ? 'Ver resultado' : 'Próxima questão'}
           </button>
@@ -458,7 +474,7 @@ function Estudo(props: {
 function Fim({ acertos, total, onNova }: { acertos: number; total: number; onNova: () => void }) {
   const pct = total === 0 ? 0 : Math.round((acertos * 1000) / total) / 10
   return (
-    <div className="rounded-2xl border border-ink-100 bg-white p-8 text-center shadow-card">
+    <div className="rounded-[14px] border border-ink-200 bg-surface p-8 text-center shadow-card">
       <p className="text-sm text-ink-500">Sessão concluída</p>
       <p className="mt-2 text-4xl font-bold text-ink-900">
         {acertos}/{total}
@@ -466,7 +482,7 @@ function Fim({ acertos, total, onNova }: { acertos: number; total: number; onNov
       <p className="mt-1 text-sm text-ink-600">{pct}% de acerto</p>
       <button
         onClick={onNova}
-        className="mt-6 w-full rounded-xl bg-brand-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-700"
+        className="mt-6 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800"
       >
         Nova sessão
       </button>

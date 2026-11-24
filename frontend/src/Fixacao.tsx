@@ -142,7 +142,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
     <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
       {/* ---------------- coluna da questão ---------------- */}
       <section>
-        <div className="mb-4 rounded-2xl border border-ink-100 bg-white p-5 shadow-sm">
+        <div className="mb-4 rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
           <h2 className="text-base font-bold text-ink-900">Exercícios de fixação</h2>
           <p className="mt-1 text-sm text-ink-500">
             Treine a matéria e peça ajuda ao tutor ao lado, a qualquer momento.
@@ -163,7 +163,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
             <button
               onClick={comecar}
               disabled={carregando}
-              className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
+              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
             >
               {carregando ? 'Carregando…' : fila.length ? 'Nova sequência' : 'Começar fixação'}
             </button>
@@ -175,7 +175,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
         ) : null}
 
         {atual ? (
-          <div className="rounded-2xl border border-ink-100 bg-white p-5 shadow-sm">
+          <div className="rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
             <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
               <span className="rounded-full bg-ink-100 px-2.5 py-1 font-semibold text-ink-700">
                 {atual.materia}
@@ -208,9 +208,9 @@ export default function Fixacao({ concurso }: { concurso: string }) {
                 let classe =
                   'w-full rounded-xl border px-4 py-3 text-left text-sm transition border-ink-200 bg-white hover:border-brand-300'
                 if (resposta) {
-                  if (correta) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-brand-400 bg-brand-50 text-brand-900'
-                  else if (marcada) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-accent-300 bg-accent-50 text-accent-900'
-                  else classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-ink-100 bg-white text-ink-500'
+                  if (correta) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-ok-500 bg-ok-50 text-ink-900'
+                  else if (marcada) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-err-400 bg-err-50 text-ink-900'
+                  else classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-ink-100 bg-surface text-ink-400'
                 }
                 return (
                   <li key={i}>
@@ -225,8 +225,8 @@ export default function Fixacao({ concurso }: { concurso: string }) {
 
             {resposta ? (
               <div
-                className={`mt-4 rounded-2xl border p-4 ${
-                  resposta.acertou ? 'border-brand-200 bg-brand-50' : 'border-accent-200 bg-accent-50'
+                className={`mt-4 rounded-[14px] border p-4 ${
+                  resposta.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
                 }`}
               >
                 <p className="text-sm font-bold text-ink-900">
@@ -245,7 +245,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
                 ) : null}
                 <button
                   onClick={proxima}
-                  className="mt-3 w-full rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-700"
+                  className="mt-3 w-full rounded-xl bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-800"
                 >
                   Próxima questão
                 </button>
@@ -260,7 +260,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
       </section>
 
       {/* ---------------- coluna do tutor ---------------- */}
-      <aside className="flex h-[560px] flex-col rounded-2xl border border-ink-100 bg-white shadow-sm lg:h-[640px]">
+      <aside className="flex h-[560px] flex-col rounded-[14px] border border-ink-200 bg-surface shadow-card lg:h-[640px]">
         <div className="border-b border-ink-100 px-4 py-3">
           <h3 className="text-sm font-bold text-ink-900">Tutor</h3>
           <p className="text-[11px] text-ink-400">Ele vê a questão que você está resolvendo.</p>
@@ -281,7 +281,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
             />
             <button
               onClick={() => void salvar()}
-              className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700"
+              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800"
             >
               Salvar chave
             </button>
@@ -315,7 +315,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
                   key={i}
                   className={
                     m.role === 'user'
-                      ? 'ml-6 rounded-2xl rounded-br-sm bg-brand-600 px-3 py-2 text-sm text-white'
+                      ? 'ml-6 rounded-2xl rounded-br-sm bg-brand-700 px-3 py-2 text-sm text-white'
                       : 'mr-2 rounded-2xl rounded-bl-sm bg-ink-50 px-3 py-2 text-sm whitespace-pre-line text-ink-800'
                   }
                 >
@@ -340,7 +340,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
                 <button
                   onClick={() => void perguntar()}
                   disabled={pensando || !pergunta.trim()}
-                  className="rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-50"
+                  className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-50"
                 >
                   Enviar
                 </button>
