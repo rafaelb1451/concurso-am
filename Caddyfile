@@ -1,0 +1,42 @@
+# QB Concurso — porta de entrada única.
+#
+# HTTPS automático (Let's Encrypt) + senha + cabeçalhos de segurança.
+# O app roda sem porta publicada: só é alcançável por aqui.
+
+{$DOMINIO} {
+	encode zstd gzip
+
+	# porta de entrada: sem estas credenciais nada passa
+	basic_auth {
+		{$QB_USUARIO} {$QB_SENHA_HASH}
+	}
+
+	header {
+		# impede sniffing de tipo de conteúdo
+		X-Content-Type-Options "nosniff"
+		# não vaza a URL de origem para terceiros
+		Referrer-Policy "no-referrer"
+		# não permite ser embutido em iframe de outro site
+		X-Frame-Options "DENY"
+		# desliga APIs de dispositivo que o app não usa
+		Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=()"
+		# HSTS por um ano (só faz sentido com HTTPS válido, que é o caso)
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		# política de conteúdo: scripts da própria origem; fontes do Google
+		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+		-Server
+	}
+
+	# nenhum caminho especial: tudo vai para o Spring (que serve o SPA e a API)
+	reverse_proxy app:8080 {
+		header_up X-Forwarded-Proto {scheme}
+	}
+
+	log {
+		output file /data/access.log {
+			roll_size 10mb
+			roll_keep 3
+		}
+		format json
+	}
+}

@@ -85,10 +85,20 @@ public final class Dtos {
     ) {
     }
 
-    public record ChatMensagem(String role, String content) {
+    public record ChatMensagem(
+            String role,
+            @jakarta.validation.constraints.NotBlank(message = "mensagem vazia")
+            @jakarta.validation.constraints.Size(max = 4000, message = "mensagem acima de 4000 caracteres")
+            String content
+    ) {
     }
 
-    public record ChatRequest(List<ChatMensagem> mensagens, ContextoQuestao contexto) {
+    public record ChatRequest(
+            @jakarta.validation.constraints.NotEmpty(message = "envie ao menos uma mensagem")
+            @jakarta.validation.constraints.Size(max = 20, message = "no maximo 20 mensagens no historico")
+            java.util.List<@jakarta.validation.Valid ChatMensagem> mensagens,
+            @jakarta.validation.Valid ContextoQuestao contexto
+    ) {
     }
 
     public record ChatResposta(String resposta) {
@@ -98,7 +108,11 @@ public final class Dtos {
     public record ConfigStatus(boolean configurado, String modelo) {
     }
 
-    public record ChaveRequest(String apiKey) {
+    public record ChaveRequest(
+            @jakarta.validation.constraints.NotBlank(message = "chave vazia")
+            @jakarta.validation.constraints.Size(max = 200, message = "chave longa demais")
+            String apiKey
+    ) {
     }
 
     /** Simulado no formato do caderno da banca. */

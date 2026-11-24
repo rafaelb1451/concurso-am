@@ -1,0 +1,16 @@
+# o que não precisa entrar no contexto de build
+.git
+.gitignore
+**/node_modules
+**/target
+**/dist
+backend/data
+backend/segredos
+backend/lotes
+*.log
+tmp
+provas
+docs
+revisao-*.html
+*.md
+!README.md

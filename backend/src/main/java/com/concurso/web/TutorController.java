@@ -1,8 +1,11 @@
 package com.concurso.web;
 
 import com.concurso.service.DeepSeekService;
+import com.concurso.service.RateLimiter;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,11 +21,15 @@ import java.util.Map;
 public class TutorController {
 
     private static final String MODELO = "deepseek-chat";
+    /** Teto de chamadas ao tutor por minuto — protege o saldo da conta. */
+    private static final int CHAT_POR_MINUTO = 20;
 
     private final DeepSeekService tutor;
+    private final RateLimiter limiter;
 
-    public TutorController(DeepSeekService tutor) {
+    public TutorController(DeepSeekService tutor, RateLimiter limiter) {
         this.tutor = tutor;
+        this.limiter = limiter;
     }
 
     @GetMapping("/config/deepseek")
@@ -30,19 +37,26 @@ public class TutorController {
         return new Dtos.ConfigStatus(tutor.configurado(), MODELO);
     }
 
-    /** Grava a chave no servidor (arquivo fora do controle de versao). */
+    /** Grava a chave no servidor (arquivo fora do controle de versao) ou aceita a de ambiente. */
     @PostMapping("/config/deepseek")
-    public Dtos.ConfigStatus salvarChave(@RequestBody Dtos.ChaveRequest request) {
+    public Dtos.ConfigStatus salvarChave(@Valid @RequestBody Dtos.ChaveRequest request) {
         tutor.salvarChave(request.apiKey());
         return new Dtos.ConfigStatus(true, MODELO);
     }
 
     @PostMapping("/chat")
-    public Dtos.ChatResposta conversar(@RequestBody Dtos.ChatRequest request) {
-        if (request.mensagens() == null || request.mensagens().isEmpty()) {
-            throw new IllegalArgumentException("Envie ao menos uma mensagem");
-        }
+    public Dtos.ChatResposta conversar(@Valid @RequestBody Dtos.ChatRequest request) {
+        limiter.exigir("chat", CHAT_POR_MINUTO);
         return new Dtos.ChatResposta(tutor.conversar(request.mensagens(), request.contexto()));
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<Map<String, String>> erroDeValidacao(MethodArgumentNotValidException ex) {
+        String msg = ex.getBindingResult().getFieldErrors().stream()
+                .map(e -> e.getField() + ": " + e.getDefaultMessage())
+                .findFirst()
+                .orElse("requisicao invalida");
+        return ResponseEntity.badRequest().body(Map.of("message", msg));
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
@@ -52,11 +66,16 @@ public class TutorController {
 
     @ExceptionHandler(IllegalStateException.class)
     public ResponseEntity<Map<String, String>> erroDeEstado(IllegalStateException ex) {
-        String msg = ex.getMessage() == null ? "Erro no tutor" : ex.getMessage();
+        String msg = ex.getMessage() == null ? "" : ex.getMessage();
         if (msg.contains("nao configurada")) {
             return ResponseEntity.badRequest().body(Map.of("message",
                     "Configure a chave da DeepSeek na aba Fixação antes de usar o tutor."));
         }
-        return ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(Map.of("message", msg));
+        if (msg.contains("Limite de uso")) {
+            return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).body(Map.of("message", msg));
+        }
+        // Detalhe do erro externo fica no log do servidor, nunca na resposta ao cliente.
+        return ResponseEntity.status(HttpStatus.BAD_GATEWAY)
+                .body(Map.of("message", "O tutor está indisponível agora. Tente novamente em instantes."));
     }
 }

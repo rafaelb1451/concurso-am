@@ -1,0 +1,49 @@
+# Perfil de producao (container).
+#
+# Diferencas em relacao ao dev:
+# - banco em volume absoluto (/dados), nao no diretorio de trabalho
+# - cabeçalhos de proxy respeitados (Caddy manda X-Forwarded-*)
+# - log so em stdout, para o `docker logs`
+# - seed consolidado com o banco inteiro
+
+server:
+  port: 8080
+  forward-headers-strategy: framework
+  shutdown: graceful
+  compression:
+    enabled: true
+    mime-types: application/json,text/html,text/css,application/javascript,text/plain
+  tomcat:
+    max-http-form-post-size: 200KB
+    max-swallow-size: 200KB
+
+spring:
+  application:
+    name: concurso-backend
+  datasource:
+    url: jdbc:h2:file:/dados/concurso;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 2MB
+  mvc:
+    problemdetails:
+      enabled: false
+
+concurso:
+  seed:
+    arquivo: seed-completo.json
+
+logging:
+  level:
+    root: INFO
+    com.concurso: INFO
+    org.hibernate: WARN

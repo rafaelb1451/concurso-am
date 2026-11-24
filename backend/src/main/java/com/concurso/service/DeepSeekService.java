@@ -108,7 +108,9 @@ public class DeepSeekService {
 
             HttpResponse<String> resp = http.send(req, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
             if (resp.statusCode() != 200) {
-                throw new IllegalStateException("DeepSeek respondeu " + resp.statusCode() + ": " + resumir(resp.body()));
+                // detalhe da API externa vai para o log; o cliente recebe mensagem generica
+                log.warn("DeepSeek respondeu {} na chamada do tutor: {}", resp.statusCode(), resumir(resp.body()));
+                throw new IllegalStateException("Falha do provedor do tutor");
             }
             Map<?, ?> parseado = mapper.readValue(resp.body(), Map.class);
             List<?> escolhas = (List<?>) parseado.get("choices");
@@ -122,8 +124,8 @@ public class DeepSeekService {
         } catch (IllegalStateException e) {
             throw e;
         } catch (Exception e) {
-            log.warn("Falha ao chamar a DeepSeek: {}", e.toString());
-            throw new IllegalStateException("Falha ao falar com a DeepSeek: " + e.getMessage(), e);
+            log.warn("Falha ao chamar a DeepSeek", e);
+            throw new IllegalStateException("Falha de comunicacao com o provedor do tutor", e);
         }
     }
 

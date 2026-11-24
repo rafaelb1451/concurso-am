@@ -11,6 +11,11 @@ data/
 segredos/
 backend/segredos/
 
+# variaveis de ambiente do deploy
+.env
+.env.*
+!.env.example
+
 # artefatos de PDF/extração temporários
 # (os cadernos são de terceiros e o texto e' derivado: ficam fora do repositorio)
 provas/raw/

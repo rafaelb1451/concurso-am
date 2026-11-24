@@ -18,6 +18,9 @@ import java.util.Map;
 @RequestMapping("/api")
 public class ApiController {
 
+    /** Teto de itens por requisicao de importacao (evita payload gigante). */
+    private static final int LIMITE_LOTE = 500;
+
     private final QuestaoService questoes;
     private final com.concurso.service.ImportService importService;
     private final com.concurso.service.SimuladoService simuladoService;
@@ -62,12 +65,18 @@ public class ApiController {
     /** Importa um lote no mesmo formato do questoes.json. */
     @PostMapping("/importar")
     public Dtos.ImportReport importar(@RequestBody java.util.List<com.concurso.seed.QuestionPayload> lote) {
+        if (lote != null && lote.size() > LIMITE_LOTE) {
+            throw new IllegalArgumentException("Lote acima de " + LIMITE_LOTE + " questões; divida em partes.");
+        }
         return importService.importar(lote);
     }
 
     /** Anexa comentarios a questoes existentes (identificadas pelo hash do enunciado). */
     @PostMapping("/explicacoes")
     public Dtos.ExplicacaoReport explicacoes(@RequestBody java.util.List<Dtos.ExplicacaoPayload> itens) {
+        if (itens != null && itens.size() > LIMITE_LOTE) {
+            throw new IllegalArgumentException("Lote acima de " + LIMITE_LOTE + " comentários; divida em partes.");
+        }
         return importService.atualizarExplicacoes(itens);
     }
 

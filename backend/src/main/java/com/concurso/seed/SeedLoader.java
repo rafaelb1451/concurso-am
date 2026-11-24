@@ -15,10 +15,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Carrega o banco inicial de questoes a partir de {@code questoes.json}.
+ * Carrega o banco inicial de questoes a partir de um JSON no classpath.
  *
- * <p>Roda apenas com a tabela vazia: reiniciar nao duplica nada. O arquivo e' o formato de
- * importacao — lotes novos entram por {@code POST /api/importar}.</p>
+ * <p>Por padrao usa {@code seed-completo.json} — o banco inteiro consolidado por
+ * {@code tools/consolidar-seed.py} — e cai para {@code questoes.json} (as questoes de base) quando
+ * o consolidado nao existe. O arquivo e' configuravel por {@code concurso.seed.arquivo}.</p>
+ *
+ * <p>Roda apenas com a tabela vazia: reiniciar nao duplica nada.</p>
  */
 @Component
 public class SeedLoader implements ApplicationRunner {
@@ -27,6 +30,9 @@ public class SeedLoader implements ApplicationRunner {
 
     private final QuestionRepository questions;
     private final ObjectMapper mapper;
+
+    @org.springframework.beans.factory.annotation.Value("${concurso.seed.arquivo:seed-completo.json}")
+    private String arquivoSeed;
 
     public SeedLoader(QuestionRepository questions, ObjectMapper mapper) {
         this.questions = questions;
@@ -41,14 +47,20 @@ public class SeedLoader implements ApplicationRunner {
             return;
         }
 
-        try (InputStream in = new ClassPathResource("questoes.json").getInputStream()) {
+        ClassPathResource recurso = new ClassPathResource(arquivoSeed);
+        if (!recurso.exists()) {
+            recurso = new ClassPathResource("questoes.json");
+            log.info("Seed consolidado ausente; usando questoes.json (questoes de base).");
+        }
+
+        try (InputStream in = recurso.getInputStream()) {
             QuestionPayload[] seeds = mapper.readValue(in, QuestionPayload[].class);
             List<Question> paraSalvar = new ArrayList<>();
             for (QuestionPayload seed : seeds) {
                 paraSalvar.add(seed.toEntity());
             }
             questions.saveAll(paraSalvar);
-            log.info("Seed: {} questoes carregadas.", paraSalvar.size());
+            log.info("Seed: {} questoes carregadas de {}.", paraSalvar.size(), recurso.getFilename());
         }
     }
 }
