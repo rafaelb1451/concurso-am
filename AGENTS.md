@@ -68,10 +68,13 @@ conferidas** — antes de afirmar qualquer artigo, leia o dispositivo no arquivo
 | `lei-3514-2010.txt` | Lei 3.514/2010 — organização básica da PMAM (55 artigos) |
 | `constituicao-estado-amazonas.txt` | Constituição do Estado do Amazonas (456 artigos) |
 | `lei-4-044-2014.txt` | Lei 4.044/2014 — carreira e promoção de praças (32 artigos) |
+| `lei-1-154-1975.txt` | Lei 1.154/75 — Estatuto dos Policiais Militares do AM (200 artigos) |
 
-**Falta**: Lei 1.154/75 (Estatuto dos Policiais Militares do AM) — não está digitalizada na base
-(o portal salta da lei 1.147 para a 1.158 em 1975). Questões sobre situação funcional, licença
-especial, círculos hierárquicos e deveres éticos dependem dela e são marcadas como **sem fonte**.
+O Estatuto veio do **SAPL da ALE-AM** (`sapl.al.am.leg.br/norma/5603`, PDF), porque não está no
+Legisla.Am. Pontos úteis já verificados: art. 13 (círculos hierárquicos), art. 27 (ética e deveres,
+IX discrição / X sigilo), art. 58 § 2º (promoção é ato administrativo), art. 59 (antiguidade e
+merecimento — **oficiais**; praças seguem a Lei 4.044/2014, art. 5º), art. 65 (licença especial,
+red. Lei 2.199/1993: 3 meses por quinquênio).
 
 ## Critérios jurídicos (obrigatório — ver `docs/criterios-juridicos.md`)
 

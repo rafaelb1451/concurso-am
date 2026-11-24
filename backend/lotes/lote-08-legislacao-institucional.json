@@ -59,7 +59,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – círculos hierárquicos",
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM), art. 13 — círculos hierárquicos",
     "dificuldade": 1,
     "enunciado": "Durante o curso de formação, o instrutor explica que os policiais-militares convivem em círculos hierárquicos. Segundo o Estatuto dos Policiais Militares do Estado do Amazonas, os círculos hierárquicos são:",
     "alternativas": [
@@ -70,7 +70,7 @@
       "as escalas de serviço que definem o rodízio dos turnos de policiamento."
     ],
     "correta": 1,
-    "explicacao": "O Estatuto define os círculos hierárquicos como âmbitos de convivência entre os policiais-militares da mesma categoria, com a finalidade de desenvolver o espírito de corporação e o respeito à hierarquia (letra B). Trata-se de instituto de socialização militar, e não de remuneração (letra A), de divisão territorial de policiamento (letra C), de comissões de promoção (letra D) ou de escala de serviço (letra E).",
+    "explicacao": "O Estatuto define os círculos hierárquicos como âmbitos de convivência entre os policiais-militares da mesma categoria, com a finalidade de desenvolver o espírito de corporação e o respeito à hierarquia (letra B). Trata-se de instituto de socialização militar, e não de remuneração (letra A), de divisão territorial de policiamento (letra C), de comissões de promoção (letra D) ou de escala de serviço (letra E). Base literal: art. 13 do Estatuto — \"Círculos hierárquicos são âmbitos de convivência entre os policiais-militares da mesma categoria e tem a finalidade de desenvolver o espírito de camaradagem em ambiente de estima e confiança, sem prejuízo do respeito mútuo\".",
     "concursos": [
       "PM-AM"
     ],
@@ -319,7 +319,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Promoção de oficiais: critérios de antiguidade e merecimento (Lei Estadual 1.154/75). Atenção: para praças, a Lei 4.044/2014, art. 5º, prevê apenas antiguidade, bravura, promoção especial e post mortem — não há promoção por merecimento.",
+    "fundamento": "Lei Estadual 1.154/75, art. 59 — promoção de oficiais por antiguidade e merecimento. Para praças, a Lei 4.044/2014, art. 5º, prevê apenas antiguidade, bravura, especial e post mortem.",
     "dificuldade": 2,
     "enunciado": "Na carreira de oficiais da Polícia Militar, a promoção por merecimento distingue-se da promoção por antiguidade porque:",
     "alternativas": [
@@ -330,7 +330,7 @@
       "não depende de existência de vaga na graduação superior."
     ],
     "correta": 1,
-    "explicacao": "Na carreira de oficiais, a promoção ocorre por antiguidade ou por merecimento. O merecimento não se limita à ordem de antiguidade: avalia o conjunto de condições do militar (desempenho, cursos, conceito), o que permite alcançar quem não é o mais antigo do quadro. Cuidado com a pegadinha: nas praças, a Lei 4.044/2014 (art. 5º) admite apenas promoção por antiguidade, por bravura, especial e post mortem — não existe promoção por merecimento para praças.",
+    "explicacao": "Na carreira de oficiais, a promoção ocorre por antiguidade ou por merecimento. O merecimento não se limita à ordem de antiguidade: avalia o conjunto de condições do militar (desempenho, cursos, conceito), o que permite alcançar quem não é o mais antigo do quadro. Cuidado com a pegadinha: nas praças, a Lei 4.044/2014 (art. 5º) admite apenas promoção por antiguidade, por bravura, especial e post mortem — não existe promoção por merecimento para praças. Base literal: art. 59 do Estatuto (\"as promoções serão efetuadas pelos critérios de antiguidade e merecimento ou, ainda, por bravura e post mortem\").",
     "concursos": [
       "PM-AM"
     ],
@@ -345,7 +345,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – promoção como ato administrativo",
+    "fundamento": "Lei Estadual 1.154/75, art. 58, § 2º — a promoção é ato administrativo",
     "dificuldade": 3,
     "enunciado": "O Estatuto dos Policiais Militares do Estado do Amazonas define a promoção como ato administrativo que tem por finalidade básica a seleção dos militares para o preenchimento dos postos e graduações. Dessa definição decorre que a promoção:",
     "alternativas": [
@@ -356,7 +356,7 @@
       "é ato insuscetível de controle pela própria Administração."
     ],
     "correta": 3,
-    "explicacao": "Se a promoção é ato administrativo, ela é praticada por autoridade competente, observa requisitos e condições previstos em lei (antiguidade, merecimento ou bravura, além dos demais requisitos) e produz efeitos na situação funcional do militar, como a mudança de posto ou graduação (letra D). A letra A a trata como ato privado; a letra B a desloca para o Judiciário; a letra C a reduz a elogio; e a letra E nega a possibilidade de controle administrativo, que decorre da própria natureza do ato.",
+    "explicacao": "Se a promoção é ato administrativo, ela é praticada por autoridade competente, observa requisitos e condições previstos em lei (antiguidade, merecimento ou bravura, além dos demais requisitos) e produz efeitos na situação funcional do militar, como a mudança de posto ou graduação (letra D). A letra A a trata como ato privado; a letra B a desloca para o Judiciário; a letra C a reduz a elogio; e a letra E nega a possibilidade de controle administrativo, que decorre da própria natureza do ato. Base literal: art. 58, § 2º, do Estatuto — \"A promoção é um ato administrativo e tem como finalidade básica a seleção dos policiais-militares para o exercício de funções pertinentes ao grau hierárquico superior\".",
     "concursos": [
       "PM-AM"
     ],
@@ -449,7 +449,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – licença especial",
+    "fundamento": "Lei Estadual 1.154/75, art. 65 (redação da Lei 2.199/1993) — licença especial: 3 meses a cada quinquênio de efetivo serviço",
     "dificuldade": 2,
     "enunciado": "Um policial-militar requer o afastamento a que faz jus em razão do tempo de efetivo serviço, comumente chamado de licença especial. Sobre esse instituto, é correto afirmar que:",
     "alternativas": [
@@ -460,7 +460,7 @@
       "é o afastamento sem remuneração para tratar de interesses particulares."
     ],
     "correta": 1,
-    "explicacao": "A licença especial é benefício decorrente do tempo de efetivo serviço: assegura ao militar um período de afastamento temporário do serviço ativo. Não se confunde com as férias, que têm periodicidade anual e finalidade de descanso, nem com a inatividade (letra B). As letras A, C, D e E descrevem, respectivamente, férias, licença para tratamento de saúde, reforma e licença para trato de interesses particulares.",
+    "explicacao": "A licença especial é benefício decorrente do tempo de efetivo serviço: assegura ao militar um período de afastamento temporário do serviço ativo. Não se confunde com as férias, que têm periodicidade anual e finalidade de descanso, nem com a inatividade (letra B). As letras A, C, D e E descrevem, respectivamente, férias, licença para tratamento de saúde, reforma e licença para trato de interesses particulares. Base: art. 65 do Estatuto, com a redação dada pela Lei 2.199/1993 — após cada quinquênio de efetivo serviço, 3 meses de licença especial, com todos os direitos e vantagens do cargo, podendo acumular 2 quinquênios.",
     "concursos": [
       "PM-AM"
     ],
@@ -475,7 +475,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – serviço ativo, reserva remunerada e reforma",
+    "fundamento": "Lei Estadual 1.154/75, arts. 6º e 7º — convocação da reserva remunerada e situações de atividade/inatividade",
     "dificuldade": 2,
     "enunciado": "Serviço ativo, reserva remunerada e reforma são situações em que pode encontrar-se o policial-militar. Sobre elas, é correto afirmar que:",
     "alternativas": [
@@ -486,7 +486,7 @@
       "o militar da reserva remunerada pode ser convocado para o serviço ativo, enquanto o reformado se encontra definitivamente afastado."
     ],
     "correta": 4,
-    "explicacao": "A reserva remunerada é situação de inatividade que não rompe o vínculo com a corporação: o reservista permanece sujeito a convocação para o serviço ativo. A reforma, por sua vez, é o afastamento definitivo do serviço (letra E). A letra A inverte a distinção; a letra B equipara reserva e atividade; a letra C iguala institutos distintos; e a letra D trata a reforma como situação transitória, quando ela é definitiva.",
+    "explicacao": "A reserva remunerada é situação de inatividade que não rompe o vínculo com a corporação: o reservista permanece sujeito a convocação para o serviço ativo. A reforma, por sua vez, é o afastamento definitivo do serviço (letra E). A letra A inverte a distinção; a letra B equipara reserva e atividade; a letra C iguala institutos distintos; e a letra D trata a reforma como situação transitória, quando ela é definitiva. Base: art. 6º do Estatuto — os policiais-militares da reserva remunerada poderão ser convocados para o serviço ativo; art. 7º equipara as expressões \"na ativa\", \"da ativa\", \"em serviço ativo\".",
     "concursos": [
       "PM-AM"
     ],
@@ -969,7 +969,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – deveres do policial-militar",
+    "fundamento": "Lei Estadual 1.154/75, art. 27, IX e X — discrição e vedação de tratar matéria sigilosa fora do âmbito próprio",
     "dificuldade": 2,
     "enunciado": "Um soldado PM fotografa documento de inteligência da corporação e o divulga em grupo de mensagens de amigos, sem autorização. A conduta contraria diretamente o dever de:",
     "alternativas": [
@@ -980,7 +980,7 @@
       "apresentação pessoal, por trajar-se de forma inadequada."
     ],
     "correta": 1,
-    "explicacao": "O Estatuto dos Policiais Militares impõe o dever de guardar sigilo sobre os assuntos da corporação e de manter discrição quanto às informações de serviço, cuja divulgação indevida expõe operações e a segurança dos agentes. A divulgação não autorizada de documento de inteligência viola esse dever (letra B). As demais alternativas descrevem deveres diversos — urbanidade, pontualidade, economia de material e apresentação pessoal — que não guardam relação com o fato narrado.",
+    "explicacao": "O Estatuto dos Policiais Militares impõe o dever de guardar sigilo sobre os assuntos da corporação e de manter discrição quanto às informações de serviço, cuja divulgação indevida expõe operações e a segurança dos agentes. A divulgação não autorizada de documento de inteligência viola esse dever (letra B). As demais alternativas descrevem deveres diversos — urbanidade, pontualidade, economia de material e apresentação pessoal — que não guardam relação com o fato narrado. Base literal: art. 27, IX (\"ser discreto em suas atitudes, maneiras e em sua linguagem escrita e falada\") e X (\"abster-se de tratar, fora de âmbito apropriado, de matéria sigilosa relativa à Segurança Nacional\").",
     "concursos": [
       "PM-AM"
     ],
@@ -1021,7 +1021,7 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – deveres éticos",
+    "fundamento": "Lei Estadual 1.154/75, art. 27 — preceitos da ética policial-militar",
     "dificuldade": 1,
     "enunciado": "Entre os deveres do policial-militar previstos no regime estatutário militar, encontram-se:",
     "alternativas": [
@@ -1032,7 +1032,7 @@
       "tratar com descortesia os colegas e o público, para afirmar autoridade."
     ],
     "correta": 2,
-    "explicacao": "O regime estatutário militar impõe deveres éticos de conduta, entre os quais a lealdade institucional e aos superiores, a probidade, o sigilo, o zelo pelos bens e valores públicos, a cortesia e a dedicação ao serviço (letra C). As demais alternativas descrevem condutas que violam deveres, e não deveres: recusar atendimento ao público (A), divulgar dados de operações (B), descumprir ordens sem comunicação (D) e tratar com descortesia (E).",
+    "explicacao": "O regime estatutário militar impõe deveres éticos de conduta, entre os quais a lealdade institucional e aos superiores, a probidade, o sigilo, o zelo pelos bens e valores públicos, a cortesia e a dedicação ao serviço (letra C). As demais alternativas descrevem condutas que violam deveres, e não deveres: recusar atendimento ao público (A), divulgar dados de operações (B), descumprir ordens sem comunicação (D) e tratar com descortesia (E). Base literal: art. 27 do Estatuto, que impõe conduta moral e profissional irrepreensível com observância dos preceitos da ética policial-militar (verdade, probidade, dignidade da pessoa humana, zelo, discrição, sigilo).",
     "concursos": [
       "PM-AM"
     ],

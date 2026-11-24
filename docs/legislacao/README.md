@@ -13,13 +13,15 @@ contra eles que as questões de Legislação Institucional devem ser conferidas.
 | `lei-3514-2010.txt` | Lei Estadual **3.514/2010** — organização básica da PMAM | 55 | hierarquia, órgãos, Estado Maior, Comandante-Geral |
 | `constituicao-estado-amazonas.txt` | **Constituição do Estado do Amazonas** | 456 | art. 79 (justiça militar), competências, segurança pública |
 | `lei-4-044-2014.txt` | Lei Estadual **4.044/2014** — carreira de praças (promoção) | 32 | antiguidade, bravura, especial, post mortem; QEA/QNA; vagas |
+| `lei-1-154-1975.txt` | Lei Estadual **1.154/75** — Estatuto dos Policiais Militares do AM | 200 | hierarquia, círculos hierárquicos, ética e deveres, licença especial (art. 65, red. Lei 2.199/1993), promoção (arts. 58-59) |
 
-## Não disponível (base do portal incompleta)
+## Não disponível
 
-- **Lei Estadual 1.154/75** — Estatuto dos Policiais Militares do AM. A base de 1975 salta da lei
-  1.147 (03/11/1975) para a 1.158 (24/12/1975): as leis 1.148 a 1.157 não estão digitalizadas.
-  Questões sobre situação funcional (ativo/reserva/reforma), licença especial, círculos
-  hierárquicos e deveres éticos dependem desse texto e ficam **sem fonte verificável**.
+Nenhuma norma essencial em falta. Se aparecer tema sem base, registre no README antes de afirmar.
+
+> A Lei 1.154/75 não está no portal Legisla.Am (a base de 1975 salta da lei 1.147 para a 1.158).
+> O texto veio do **SAPL da Assembleia Legislativa do AM** (`https://sapl.al.am.leg.br/norma/5603`)
+> em PDF e foi extraído com PyMuPDF. O PDF está em `lei-1-154-1975-pdf.txt` (texto bruto por página).
 
 ## Como o portal organiza os endereços
 
