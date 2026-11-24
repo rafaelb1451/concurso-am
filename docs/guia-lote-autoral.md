@@ -39,6 +39,24 @@ Um arquivo JSON com um **array** de objetos exatamente neste formato:
 - `explicacao` é **obrigatória** e precisa dizer por que a correta está certa e por que 1 ou 2
   distratores erram.
 
+## Vocabulário controlado de `assunto`
+
+Use **um destes rótulos** (o filtro da tela agrupa por eles). Não crie rótulo novo sem necessidade.
+
+| Matéria | Assuntos |
+|---|---|
+| Língua Portuguesa | Interpretação de texto · Coesão e referenciação · Concordância verbal · Concordância nominal · Regência · Crase · Pontuação · Classes de palavras · Figuras de linguagem · Reescrita de frases · Colocação pronominal · Tempos e modos verbais · Ortografia e acentuação · Semântica |
+| Raciocínio Lógico-Matemático | Porcentagem · Regra de três · Razão e proporção · Conjuntos · Lógica proposicional · Sequências · Probabilidade · Análise combinatória · MMC e MDC · Problemas aritméticos · Geometria · Leitura de gráficos e tabelas |
+| Noções de Informática | Windows · Word · Excel · PowerPoint · Navegadores · Internet e protocolos · Correio eletrônico · Segurança da informação · Backup e nuvem · Arquivos e extensões · LGPD |
+| Legislação Institucional | Hierarquia e disciplina · Escala hierárquica · Promoção · Licença e situações funcionais · Estrutura organizacional · Comandante-Geral · Estado Maior · Conselho Consultivo · Deveres e ética |
+| História do Amazonas | Povos indígenas · Colonização e drogas do sertão · Diretório dos Índios · Tratados de limites · Cabanagem · Ciclo da borracha · Zona Franca de Manaus · Primeira República · Clube da Madrugada · Formação territorial |
+| Geografia do Amazonas | Relevo e geologia · Hidrografia · Clima · Vegetação · Recursos minerais · População e urbanização · Economia · Fronteiras · Impactos ambientais · Unidades de conservação |
+| Direito Constitucional | Direitos e garantias · Remédios constitucionais · Direitos sociais · Nacionalidade · Direitos políticos · Organização do Estado · Administração pública · Segurança pública · Militares · Poder Judiciário e MP · Controle de constitucionalidade · Processo legislativo · Orçamento e finanças |
+| Direito Penal e Processual Penal | Aplicação da lei penal · Teoria do crime · Imputabilidade · Concurso de pessoas · Penas e dosimetria · Extinção da punibilidade · Prescrição penal · Crimes contra a pessoa · Crimes contra o patrimônio · Crimes contra a dignidade sexual · Crimes contra a Administração Pública · Crimes contra a saúde pública · Lei de Drogas · Estatuto do Desarmamento · Inquérito policial · Ação penal · Prisões e medidas cautelares · Provas · Competência · Fiança |
+| Noções de Administração | Evolução da administração · Funções administrativas · Estrutura organizacional · Motivação e liderança · Comunicação · Tomada de decisão · Gestão de processos · Gestão da qualidade · Planejamento estratégico · Gestão de pessoas · Governança |
+| Noções de Contabilidade | Patrimônio · Equação fundamental · Regime de competência · Escrituração · Balanço patrimonial · DRE · Lançamentos contábeis · Contas redutoras · Depreciação · Provisões · Fluxo de caixa · Estrutura conceitual |
+| Direito Administrativo | Princípios · Atos administrativos · Poderes administrativos · Organização administrativa · Agentes públicos · Licitações e contratos · Improbidade administrativa · Controle da administração · Responsabilidade civil do Estado · Processo administrativo · Serviços públicos · Bens públicos |
+
 ## Estilo FGV (o que a banca cobra nesses cargos)
 
 - **Lei seca e edital**: o alvo são carreiras policiais, não carreiras jurídicas. Cobre o que está
