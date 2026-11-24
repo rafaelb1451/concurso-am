@@ -1,0 +1,1042 @@
+[
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Hierarquia e disciplina – bases institucionais da corporação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "CF, art. 42, caput; Lei Estadual 3.514/2010 (organização básica da PMAM)",
+    "dificuldade": 2,
+    "enunciado": "Um candidato ao curso de formação de soldados da Polícia Militar do Amazonas estuda a natureza jurídica da corporação que pretende integrar. Nos termos da Constituição Federal, os membros das Polícias Militares e dos Corpos de Bombeiros Militares são militares dos Estados e integram instituições organizadas com base:",
+    "alternativas": [
+      "na hierarquia e na disciplina.",
+      "no princípio da eficiência administrativa e no da publicidade.",
+      "na autonomia funcional absoluta de cada policial-militar, que não se submete a ordens de superior.",
+      "exclusivamente na disciplina, sendo a hierarquia própria apenas das Forças Armadas.",
+      "no regime jurídico único dos servidores públicos civis do Estado do Amazonas."
+    ],
+    "correta": 0,
+    "explicacao": "A letra A reproduz a fórmula constitucional: o art. 42, caput, da Constituição define expressamente que as Polícias Militares e os Corpos de Bombeiros Militares são instituições organizadas com base na hierarquia e na disciplina; a Lei Estadual 3.514/2010 reproduz a fórmula ao definir a PMAM como instituição permanente, auxiliar e reserva do Exército, organizada com base na hierarquia e na disciplina militar. A letra B troca as bases institucionais por princípios da administração pública; a letra C nega a hierarquia, que é justamente a ordenação da autoridade; a letra D separa indevidamente os dois pilares, que são indissociáveis na instituição militar; e a letra E desconsidera o regime militar, incompatível com a aplicação do regime civil.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Hierarquia e disciplina – distinção conceitual",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – hierarquia e disciplina",
+    "dificuldade": 2,
+    "enunciado": "Em instrução sobre os fundamentos da PMAM, discute-se a distinção entre hierarquia e disciplina. A hierarquia militar corresponde:",
+    "alternativas": [
+      "à ordem de remuneração dos postos e graduações.",
+      "ao conjunto de círculos de convivência entre militares da mesma categoria.",
+      "à ordenação da autoridade em níveis diferentes dentro da estrutura da corporação, base sobre a qual se exerce a subordinação.",
+      "ao poder de cada militar escolher a quem obedecer, conforme a afinidade com o superior.",
+      "ao tempo de serviço, que define a precedência entre os militares de mesma graduação."
+    ],
+    "correta": 2,
+    "explicacao": "Hierarquia é a ordenação da autoridade em níveis, do mais alto ao mais baixo, e dela decorre a subordinação escalonada, definição que corresponde à letra C; disciplina, por sua vez, é a rigorosa observância das normas que regem a instituição. A letra A confunde hierarquia com remuneração; a letra B descreve os círculos hierárquicos, instituto diverso; a letra D inverte o sentido da hierarquia, transformando obediência em escolha pessoal; e a letra E trata da antiguidade, critério de precedência entre militares do mesmo posto ou graduação, e não da definição de hierarquia.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Círculos hierárquicos – conceito e finalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – círculos hierárquicos",
+    "dificuldade": 1,
+    "enunciado": "Durante o curso de formação, o instrutor explica que os policiais-militares convivem em círculos hierárquicos. Segundo o Estatuto dos Policiais Militares do Estado do Amazonas, os círculos hierárquicos são:",
+    "alternativas": [
+      "as faixas de soldo correspondentes a cada posto ou graduação.",
+      "os âmbitos de convivência entre os policiais-militares da mesma categoria, destinados a desenvolver o espírito de corporação.",
+      "as unidades operacionais responsáveis pelo policiamento de cada área.",
+      "as comissões permanentes de promoção e de mérito.",
+      "as escalas de serviço que definem o rodízio dos turnos de policiamento."
+    ],
+    "correta": 1,
+    "explicacao": "O Estatuto define os círculos hierárquicos como âmbitos de convivência entre os policiais-militares da mesma categoria, com a finalidade de desenvolver o espírito de corporação e o respeito à hierarquia (letra B). Trata-se de instituto de socialização militar, e não de remuneração (letra A), de divisão territorial de policiamento (letra C), de comissões de promoção (letra D) ou de escala de serviço (letra E).",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Hierarquia – precedência entre postos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – escala hierárquica e precedência",
+    "dificuldade": 2,
+    "enunciado": "Em uma solenidade da corporação, apresentam-se um capitão PM e um tenente-coronel PM, ambos do quadro de oficiais. Sobre a precedência hierárquica entre os dois militares, é correto afirmar que:",
+    "alternativas": [
+      "o capitão tem precedência por ser mais antigo no serviço.",
+      "não há precedência entre oficiais, pois todos pertencem ao mesmo círculo hierárquico.",
+      "a precedência depende da unidade a que cada um estiver vinculado.",
+      "o tenente-coronel tem precedência, pois ocupa posto superior ao do capitão.",
+      "a precedência é definida pela função exercida no momento, ainda que inferior o posto do ocupante."
+    ],
+    "correta": 3,
+    "explicacao": "A precedência militar decorre do posto ou da graduação e, entre militares do mesmo posto, da antiguidade: posto superior prevalece sobre posto inferior. Como tenente-coronel é posto superior a capitão, a precedência é do tenente-coronel (letra D). A letra A aplica a antiguidade antes da hierarquia de posto; a letra B ignora que os oficiais se distribuem em círculos distintos, havendo subordinação entre eles; a letra C desloca o critério para a lotação; e a letra E subordina a precedência à função, quando o critério legal é o posto ou a graduação.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Organização institucional – força auxiliar e reserva do Exército",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "CF, art. 144, § 6º",
+    "dificuldade": 2,
+    "enunciado": "Uma reportagem afirma que a Polícia Militar do Amazonas seria uma força armada autônoma, sem vínculo com a União. A afirmação é incorreta porque a Constituição Federal dispõe que as polícias militares e os corpos de bombeiros militares:",
+    "alternativas": [
+      "são forças auxiliares e reserva do Exército e se subordinam, juntamente com as polícias civis, aos Governadores dos Estados e do Distrito Federal.",
+      "são órgãos federais de segurança pública, subordinados ao Ministério da Justiça.",
+      "são forças auxiliares do Exército e, em tempo de paz, se subordinam ao Comandante do Exército.",
+      "têm autonomia plena e não mantêm qualquer relação de cooperação com as Forças Armadas.",
+      "são instituições civis, às quais não se aplica o regime disciplinar militar."
+    ],
+    "correta": 0,
+    "explicacao": "O art. 144, § 6º, da Constituição define as polícias militares e os corpos de bombeiros militares como forças auxiliares e reserva do Exército e determina sua subordinação, junto com as polícias civis, aos Governadores dos Estados, do Distrito Federal e dos Territórios, o que corresponde à letra A. A letra B federaliza indevidamente a corporação; a letra C antecipa para o tempo de paz uma subordinação que não é a do dia a dia, quando a subordinação é ao Governador; a letra D nega o vínculo constitucional de auxílio e reserva; e a letra E ignora a natureza militar da instituição.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Posto e graduação – distinção entre oficiais e praças",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – postos e graduações",
+    "dificuldade": 1,
+    "enunciado": "Na PMAM, oficiais e praças ocupam níveis distintos da escala hierárquica. Sobre as designações posto e graduação, é correto afirmar que:",
+    "alternativas": [
+      "posto e graduação são sinônimos, variando apenas a nomenclatura conforme o quadro.",
+      "tanto oficiais quanto praças ocupam postos, distinguindo-se pela antiguidade.",
+      "o cabo ocupa posto e o capitão ocupa graduação, pois a ordem é inversa à antiguidade.",
+      "a graduação é privativa dos oficiais e o posto é privativo das praças.",
+      "o oficial ocupa posto e a praça ocupa graduação, sendo o posto o nível hierárquico superior."
+    ],
+    "correta": 4,
+    "explicacao": "Na estrutura militar, os oficiais são titulares de postos (coronel, tenente-coronel, major, capitão, primeiro e segundo-tenentes) e as praças, de graduações (subtenente, sargentos, cabo e soldado). Posto e graduação não se confundem: o posto corresponde ao círculo dos oficiais e a graduação, ao das praças (letra E). As letras A e B igualam os institutos; a letra C inverte as posições; e a letra D troca os titulares de cada designação.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Escala hierárquica – praças especiais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – praças especiais de polícia",
+    "dificuldade": 2,
+    "enunciado": "Nos termos da organização básica da Polícia Militar do Amazonas, o Aspirante-a-Oficial e os Alunos Oficiais, militares de nível superior em formação, integram a escala hierárquica como:",
+    "alternativas": [
+      "oficiais subalternos, com precedência sobre o segundo-tenente.",
+      "praças especiais de polícia.",
+      "praças de polícia de nível médio, juntamente com sargentos e cabos.",
+      "militares temporários, sem posto ou graduação definidos.",
+      "oficiais da reserva remunerada em processo de promoção."
+    ],
+    "correta": 1,
+    "explicacao": "A organização básica da PMAM distingue três grandes grupos: oficiais de polícia (nível superior), praças especiais de polícia (Aspirante-a-Oficial e Alunos Oficiais) e praças de polícia (nível médio, do subtenente ao soldado). O Aspirante-a-Oficial e os Alunos Oficiais são, portanto, praças especiais (letra B), ainda que em formação para a carreira de oficial. A letra A os equipara a oficiais; a letra C os mistura às praças de nível médio; a letra D os trata como temporários; e a letra E os coloca na inatividade.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Escala hierárquica – postos de oficial",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – postos de oficial",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que relaciona apenas postos de oficial da Polícia Militar do Amazonas.",
+    "alternativas": [
+      "Coronel, tenente-coronel, major, capitão e subtenente.",
+      "Major, capitão, primeiro-tenente, segundo-tenente e cabo.",
+      "Coronel, tenente-coronel, major, capitão, primeiro-tenente e segundo-tenente.",
+      "Coronel, major, sargento e primeiro-tenente.",
+      "General, coronel, tenente-coronel e major."
+    ],
+    "correta": 2,
+    "explicacao": "A carreira de oficial da PMAM compreende os postos de coronel, tenente-coronel, major, capitão, primeiro-tenente e segundo-tenente (letra C). As demais alternativas incluem graduações de praça — subtenente (A), cabo (B), sargento (D) — ou posto inexistente na corporação, como general (E): na Polícia Militar estadual, o coronel é o último posto do quadro de oficiais.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Escala hierárquica – graduações de praça",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – graduações de praça",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que relaciona apenas graduações de praça da Polícia Militar do Amazonas.",
+    "alternativas": [
+      "Subtenente, primeiro-sargento, major e soldado.",
+      "Cabo, soldado, tenente e subtenente.",
+      "Coronel, subtenente, cabo e soldado.",
+      "Primeiro-tenente, segundo-tenente, cabo e soldado.",
+      "Subtenente, primeiro-sargento, segundo-sargento, terceiro-sargento, cabo e soldado."
+    ],
+    "correta": 4,
+    "explicacao": "A escala das praças de polícia da PMAM compreende subtenente, primeiro-sargento, segundo-sargento, terceiro-sargento, cabo e soldado, todos de nível médio (letra E). As letras A, B, C e D inserem postos de oficial (major, tenente, coronel, primeiro e segundo-tenente) em uma lista que deveria conter apenas graduações.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Ingresso nas carreiras – oficiais e praças",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – classificação por nível de escolaridade",
+    "dificuldade": 2,
+    "enunciado": "Um candidato com ensino médio completo pretende ingressar na PMAM como praça, enquanto outro, com ensino superior, pretende a carreira de oficial. Essa distinção decorre de a organização básica da corporação classificar:",
+    "alternativas": [
+      "os oficiais e as praças indistintamente como militares de nível superior.",
+      "os oficiais de polícia como militares estaduais de nível superior e as praças de polícia como militares estaduais de nível médio.",
+      "os oficiais como militares de nível médio e as praças como militares de nível superior.",
+      "as praças especiais como militares de nível médio e as praças de polícia como militares de nível superior.",
+      "todos os militares estaduais como servidores civis de nível superior."
+    ],
+    "correta": 1,
+    "explicacao": "A organização básica da PMAM escalona os militares conforme o nível de escolaridade: oficiais de polícia são militares estaduais de nível superior; praças especiais são militares de nível superior em formação; e praças de polícia são militares estaduais de nível médio. A letra B reproduz essa classificação. As letras A e C igualam ou invertem os níveis; a letra D inverte os grupos; e a letra E desnatura o regime militar.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – por bravura",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – promoção por bravura",
+    "dificuldade": 2,
+    "enunciado": "Em operação de resgate, um soldado PM expõe a própria vida para salvar reféns e recebe promoção que o coloca à frente de militares mais antigos do quadro. Essa promoção tem por fundamento a modalidade:",
+    "alternativas": [
+      "por antiguidade, pois a classificação do quadro sempre prevalece.",
+      "por escolha política do Governador do Estado, sem critério legal.",
+      "por bravura, que valoriza o ato de excepcional valor e pode antecipar a promoção em relação aos mais antigos.",
+      "por merecimento, única modalidade que permite antecipação na ordem de promoção.",
+      "por transferência para a reserva remunerada, que também é forma de promoção."
+    ],
+    "correta": 2,
+    "explicacao": "A Lei Estadual 4.044/2014 prevê a promoção de praças por antiguidade, por merecimento e por bravura. A bravura distingue-se por decorrer de ato de excepcional valor, admitindo a antecipação da promoção em relação a militares que precedem o agraciado na ordem de antiguidade (letra C). As letras A e D trocam as modalidades; a letra B cria promoção por conveniência política, inexistente na lei; e a letra E confunde promoção com passagem à inatividade.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – por antiguidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – promoção por antiguidade",
+    "dificuldade": 2,
+    "enunciado": "A promoção por antiguidade, no âmbito das praças da PMAM:",
+    "alternativas": [
+      "depende de escolha do Comandante-Geral entre os concorrentes habilitados.",
+      "exige a prática de ato de bravura devidamente comprovado.",
+      "é decidida por sorteio entre os militares com igual tempo de serviço.",
+      "permite a inversão da ordem de classificação por conveniência administrativa.",
+      "observa a ordem de classificação do quadro, promovendo-se primeiro o militar que antecede os demais na antiguidade."
+    ],
+    "correta": 4,
+    "explicacao": "A promoção por antiguidade é objetiva: segue a ordem de classificação do quadro, sem juízo de valor sobre o mérito. Por isso, promove-se primeiro o militar que antecede os demais na antiguidade (letra E). A letra A descreve a lógica da promoção por merecimento; a letra B exige bravura, modalidade excepcional; a letra C cria sorteio inexistente; e a letra D admite inversão de ordem, incompatível com o próprio nome da modalidade.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – por merecimento",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – promoção por merecimento",
+    "dificuldade": 2,
+    "enunciado": "A promoção por merecimento distingue-se da promoção por antiguidade porque:",
+    "alternativas": [
+      "exige que o militar seja o mais antigo do quadro.",
+      "considera o conjunto de condições de mérito do militar, como desempenho, cursos e conceito, e pode alcançar militar situado depois na ordem de antiguidade.",
+      "é decidida por sorteio entre os concorrentes.",
+      "só é admitida quando não houver militar habilitado por bravura.",
+      "não depende de existência de vaga na graduação superior."
+    ],
+    "correta": 1,
+    "explicacao": "Na promoção por merecimento, a Administração avalia condições de mérito do militar, como desempenho, cursos e conceito, escolhendo entre os habilitados; por isso o promovido pode estar colocado depois de outro na ordem de antiguidade (letra B). A letra A descreve a promoção por antiguidade; a letra C cria sorteio; a letra D estabelece preferência inexistente; e a letra E afasta requisito inerente à promoção, que preenche vaga no quadro.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – natureza de ato administrativo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – promoção como ato administrativo",
+    "dificuldade": 3,
+    "enunciado": "O Estatuto dos Policiais Militares do Estado do Amazonas define a promoção como ato administrativo que tem por finalidade básica a seleção dos militares para o preenchimento dos postos e graduações. Dessa definição decorre que a promoção:",
+    "alternativas": [
+      "é ato privado do militar, que a requer e obtém segundo sua conveniência.",
+      "é ato judicial, praticado pelo juiz competente para homologar a carreira.",
+      "é simples elogio, sem repercussão na situação funcional do militar.",
+      "é ato administrativo praticado por autoridade competente, condicionado a requisitos e condições legais, com efeitos na situação funcional do militar.",
+      "é ato insuscetível de controle pela própria Administração."
+    ],
+    "correta": 3,
+    "explicacao": "Se a promoção é ato administrativo, ela é praticada por autoridade competente, observa requisitos e condições previstos em lei (antiguidade, merecimento ou bravura, além dos demais requisitos) e produz efeitos na situação funcional do militar, como a mudança de posto ou graduação (letra D). A letra A a trata como ato privado; a letra B a desloca para o Judiciário; a letra C a reduz a elogio; e a letra E nega a possibilidade de controle administrativo, que decorre da própria natureza do ato.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – preenchimento de vaga",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – promoção e vaga no quadro",
+    "dificuldade": 2,
+    "enunciado": "O comando de um batalhão pretende promover soldados a cabo, mas não há vagas disponíveis na graduação superior. Sobre a situação, é correto afirmar que:",
+    "alternativas": [
+      "a promoção, como regra, destina-se ao preenchimento de vaga no quadro, de modo que a inexistência de vacância impede a promoção.",
+      "a promoção independe de vaga, bastando que o militar tenha cumprido o tempo mínimo de permanência.",
+      "a bravura dispensa a existência de vaga em qualquer hipótese.",
+      "a promoção pode criar vaga, ampliando o quadro de praças por ato do comandante.",
+      "a promoção depende de autorização judicial, que supre a ausência de vaga."
+    ],
+    "correta": 0,
+    "explicacao": "Como a promoção tem por finalidade o preenchimento de postos e graduações, ela pressupõe, como regra, a existência de vaga no quadro correspondente; sem vacância, não há promoção a ser praticada (letra A). A letra B ignora o requisito da vaga; a letra C cria dispensa que a lei não prevê; a letra D atribui ao comandante poder de ampliar o quadro, que depende de lei; e a letra E insere intervenção judicial inexistente.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Promoção – interstício e condições",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – interstício e condições de promoção",
+    "dificuldade": 3,
+    "enunciado": "Dois soldados PM cumpriram o tempo mínimo de permanência exigido para concorrer à promoção a cabo, mas não há vaga na graduação. Sobre a situação, é correto afirmar que:",
+    "alternativas": [
+      "o cumprimento do tempo mínimo gera direito subjetivo à promoção imediata.",
+      "o tempo mínimo de permanência só é exigido dos oficiais, não das praças.",
+      "o cumprimento do interstício é condição para concorrer à promoção, mas não assegura, por si só, a promoção, que depende de vaga e das demais condições legais.",
+      "sem vaga, os militares são promovidos provisoriamente e perdem a promoção no ano seguinte.",
+      "o interstício é contado da data do requerimento do militar, e não do efetivo exercício."
+    ],
+    "correta": 2,
+    "explicacao": "O interstício é o tempo mínimo de permanência no posto ou graduação exigido para que o militar concorra à promoção. Seu cumprimento é requisito, não título suficiente: a promoção depende também da existência de vaga e do atendimento das demais condições legais (letra C). A letra A transforma requisito em direito subjetivo; a letra B exclui indevidamente as praças, que também se sujeitam a interstício; a letra D cria promoção provisória sem base legal; e a letra E desloca o marco de contagem para o requerimento.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Comissões permanentes da corporação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – comissões permanentes",
+    "dificuldade": 2,
+    "enunciado": "A organização básica da PMAM prevê comissões de caráter permanente e temporário. São permanentes, entre outras:",
+    "alternativas": [
+      "a Comissão de Licitação, criada para cada certame.",
+      "a Comissão de Sindicância, instaurada para apurar cada fato.",
+      "a Comissão de Formatura, nomeada para cada solenidade.",
+      "a Comissão de Promoção de Oficiais, a Comissão de Promoção de Praças e a Comissão do Mérito.",
+      "a Comissão de Inquérito Técnico, constituída caso a caso."
+    ],
+    "correta": 3,
+    "explicacao": "A organização básica da corporação relaciona como comissões permanentes a Comissão de Promoção de Oficiais, a Comissão de Promoção de Praças e a Comissão do Mérito, com composição e funcionamento fixados em regulamento próprio (letra D). As demais alternativas descrevem comissões de caráter temporário ou constituídas para finalidade específica, como licitação, sindicância, solenidade e inquérito técnico.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Licença especial – conceito",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – licença especial",
+    "dificuldade": 2,
+    "enunciado": "Um policial-militar requer o afastamento a que faz jus em razão do tempo de efetivo serviço, comumente chamado de licença especial. Sobre esse instituto, é correto afirmar que:",
+    "alternativas": [
+      "é o período anual de descanso remunerado do militar, equivalente às férias dos servidores civis.",
+      "é afastamento temporário do serviço ativo, em razão do tempo de efetivo serviço, sem se confundir com as férias anuais nem com a inatividade.",
+      "é a licença para tratamento de saúde, deferida após inspeção de saúde.",
+      "é a passagem definitiva do militar à inatividade, equivalente à reforma.",
+      "é o afastamento sem remuneração para tratar de interesses particulares."
+    ],
+    "correta": 1,
+    "explicacao": "A licença especial é benefício decorrente do tempo de efetivo serviço: assegura ao militar um período de afastamento temporário do serviço ativo. Não se confunde com as férias, que têm periodicidade anual e finalidade de descanso, nem com a inatividade (letra B). As letras A, C, D e E descrevem, respectivamente, férias, licença para tratamento de saúde, reforma e licença para trato de interesses particulares.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Situações funcionais – ativo, reserva remunerada e reforma",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – serviço ativo, reserva remunerada e reforma",
+    "dificuldade": 2,
+    "enunciado": "Serviço ativo, reserva remunerada e reforma são situações em que pode encontrar-se o policial-militar. Sobre elas, é correto afirmar que:",
+    "alternativas": [
+      "o militar reformado pode ser convocado para o serviço ativo sempre que houver necessidade.",
+      "o militar da reserva remunerada está sujeito à mesma rotina de serviço do militar da ativa.",
+      "reserva remunerada e reforma são sinônimos, distinguindo-se apenas pelo valor da remuneração.",
+      "a reforma é sempre temporária e cessa quando o militar atinge determinada idade.",
+      "o militar da reserva remunerada pode ser convocado para o serviço ativo, enquanto o reformado se encontra definitivamente afastado."
+    ],
+    "correta": 4,
+    "explicacao": "A reserva remunerada é situação de inatividade que não rompe o vínculo com a corporação: o reservista permanece sujeito a convocação para o serviço ativo. A reforma, por sua vez, é o afastamento definitivo do serviço (letra E). A letra A inverte a distinção; a letra B equipara reserva e atividade; a letra C iguala institutos distintos; e a letra D trata a reforma como situação transitória, quando ela é definitiva.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Estrutura organizacional – espécies de órgãos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – estrutura geral",
+    "dificuldade": 2,
+    "enunciado": "A organização básica da Polícia Militar do Amazonas estrutura a corporação em três espécies de órgãos. São elas:",
+    "alternativas": [
+      "órgãos de direção, órgãos de apoio e órgãos de execução.",
+      "órgãos de direção, órgãos julgadores e órgãos fiscalizadores.",
+      "órgãos administrativos, órgãos judiciários e órgãos legislativos.",
+      "órgãos de comando, órgãos de corregedoria e órgãos de ouvidoria.",
+      "órgãos permanentes, órgãos temporários e órgãos consultivos."
+    ],
+    "correta": 0,
+    "explicacao": "A estrutura geral da PMAM distribui-se em órgãos de direção (planejamento institucional, comando geral e administração superior), órgãos de apoio (atividades-meio) e órgãos de execução (atividades-fim), conforme a letra A. As demais alternativas misturam funções internas específicas (corregedoria, ouvidoria, consultiva) com categorias que não correspondem à classificação legal ou reproduzem divisão própria dos Poderes da República, estranha ao organograma militar.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Órgãos de direção geral – composição",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – órgãos de direção geral",
+    "dificuldade": 2,
+    "enunciado": "Segundo a organização básica da PMAM, integram os órgãos de direção geral, entre outros:",
+    "alternativas": [
+      "o Comando Geral, o Subcomando Geral e o Gabinete do Comando Geral.",
+      "o Comando Geral, o Estado Maior Geral e a Diretoria de Saúde.",
+      "o Comando Geral, o Subcomando Geral e o Batalhão de Polícia Militar.",
+      "o Comando Geral, o Conselho Consultivo Superior e a Assessoria Jurídico-Administrativa.",
+      "o Comando Geral, o Subcomando Geral, o Estado Maior Geral e o Conselho Consultivo Superior."
+    ],
+    "correta": 4,
+    "explicacao": "Os órgãos de direção geral são o Comando Geral, o Subcomando Geral, o Estado Maior Geral e o Conselho Consultivo Superior (letra E). A letra A inclui o Gabinete do Comando Geral, que é órgão de assessoramento; a letra B inclui a Diretoria de Saúde, que é órgão de direção setorial; a letra C inclui unidade de execução; e a letra D inclui a Assessoria Jurídico-Administrativa, também de assessoramento.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Órgãos de apoio – atividades-meio",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – órgãos de apoio",
+    "dificuldade": 2,
+    "enunciado": "Os órgãos de apoio da PMAM destinam-se a:",
+    "alternativas": [
+      "executar o policiamento ostensivo nas áreas de responsabilidade das unidades.",
+      "planejar estrategicamente a instituição e exercer o comando geral.",
+      "atender às necessidades de recursos humanos, ensino e logística, realizando as atividades-meio da corporação.",
+      "exercer a corregedoria e a apuração de transgressões disciplinares.",
+      "julgar os recursos administrativos interpostos pelos militares."
+    ],
+    "correta": 2,
+    "explicacao": "Os órgãos de apoio realizam as atividades-meio da corporação, dando suporte em recursos humanos, ensino e logística, entre outras áreas (letra C). A letra A descreve atividade-fim, própria dos órgãos de execução; a letra B define a direção geral; a letra D atribui ao apoio função correcional, ligada à direção setorial de justiça e disciplina; e a letra E trata de competência decisória, não de apoio.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Órgãos de execução – atividades-fim",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – órgãos de execução",
+    "dificuldade": 2,
+    "enunciado": "As unidades, subunidades e frações da PMAM são órgãos de execução porque:",
+    "alternativas": [
+      "realizam apenas atividades administrativas de apoio.",
+      "exercem funções exclusivamente de planejamento estratégico.",
+      "integram os órgãos de direção setorial, por meio das diretorias.",
+      "desempenham as atividades-fim da instituição, como o policiamento ostensivo.",
+      "têm natureza consultiva, opinando sobre as diretrizes do comando."
+    ],
+    "correta": 3,
+    "explicacao": "Os órgãos de execução realizam as atividades-fim da instituição, isto é, o serviço de policiamento e as demais missões operacionais, e organizam-se em grandes comandos, comandos intermediários, unidades, subunidades e frações (letra D). As letras A, B e E descrevem, respectivamente, apoio, direção e consulta; a letra C confunde execução com direção setorial, pois as diretorias são órgãos de direção, e não de execução.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Órgãos de execução – unidades, subunidades e frações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – unidades, subunidades e frações",
+    "dificuldade": 3,
+    "enunciado": "No organograma da corporação, as organizações policiais militares com responsabilidade territorial definida, constituídas pela reunião de subunidades e frações, podem receber a denominação de:",
+    "alternativas": [
+      "companhia ou esquadrão.",
+      "pelotão, grupo, destacamento ou posto.",
+      "grande comando ou comando intermediário.",
+      "batalhão ou regimento.",
+      "diretoria ou assessoria."
+    ],
+    "correta": 3,
+    "explicacao": "As unidades são as organizações de execução com responsabilidade territorial definida, compostas pela reunião de subunidades e frações, e podem ser denominadas batalhão ou regimento (letra D). Companhia e esquadrão denominam subunidades (letra A); pelotão, grupo, destacamento e posto denominam frações (letra B); grande comando e comando intermediário são escalões superiores de comando, não a unidade (letra C); e diretoria é órgão de direção setorial (letra E).",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Escalões de comando – grandes comandos e comandos intermediários",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – grandes comandos e comandos intermediários",
+    "dificuldade": 3,
+    "enunciado": "Sobre os grandes comandos e os comandos intermediários da PMAM, é correto afirmar que:",
+    "alternativas": [
+      "os grandes comandos são as menores frações da corporação, com atuação local.",
+      "os grandes comandos atuam como escalões superiores de comando, coordenando comandos intermediários e unidades, enquanto os comandos intermediários coordenam áreas ou regiões com unidades e subunidades subordinadas.",
+      "os comandos intermediários são órgãos de direção setorial, com funções de administração de pessoal.",
+      "grandes comandos e comandos intermediários são órgãos de apoio, sem atribuição operacional.",
+      "ambos exercem apenas funções consultivas, sem comando sobre tropas."
+    ],
+    "correta": 1,
+    "explicacao": "A organização básica prevê escalões de comando: os grandes comandos atuam como escalões superiores, responsáveis pela coordenação e controle dos comandos intermediários e de conjuntos de unidades; os comandos intermediários coordenam e controlam determinadas áreas ou regiões, com unidades e subunidades subordinadas (letra B). As letras A e E desnaturam a função de comando; a letra C desloca sua natureza para a direção setorial; e a letra D confunde órgãos de execução com órgãos de apoio.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Direção setorial – diretorias",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – diretorias setoriais",
+    "dificuldade": 2,
+    "enunciado": "As diretorias da PMAM, como a Diretoria de Pessoal da Ativa e a Diretoria de Saúde, classificam-se como:",
+    "alternativas": [
+      "órgãos de direção setorial, encarregados da administração de áreas específicas, como pessoal, saúde, logística e finanças.",
+      "órgãos de execução, por comandarem diretamente o policiamento ostensivo.",
+      "órgãos de apoio, por realizarem exclusivamente atividades de logística.",
+      "comissões permanentes de promoção e de mérito.",
+      "órgãos de assessoramento, subordinados diretamente ao Estado Maior Geral."
+    ],
+    "correta": 0,
+    "explicacao": "As diretorias constituem os órgãos de direção setorial, responsáveis pela administração setorial de áreas como pessoal, finanças e auditoria, apoio logístico, capacitação, tecnologia da informação, saúde, promoção social e justiça e disciplina (letra A). A letra B confunde direção com execução; a letra C restringe indevidamente sua atuação à logística; a letra D as toma por comissões; e a letra E as classifica como assessoramento.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Subordinação da corporação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "CF, art. 144, § 6º; Lei Estadual 3.514/2010 (organização básica da PMAM)",
+    "dificuldade": 3,
+    "enunciado": "Sobre a subordinação da Polícia Militar do Amazonas, é correto afirmar que ela:",
+    "alternativas": [
+      "subordina-se ao Comandante do Exército em tempo de paz, integrando a estrutura do Ministério da Defesa.",
+      "subordina-se ao Secretário de Segurança Pública como autoridade máxima, sem vínculo com o Governador.",
+      "subordina-se diretamente ao Governador do Estado, integrando, para fins operacionais, a Secretaria de Estado de Segurança Pública.",
+      "é autônoma e não se subordina a nenhuma autoridade estadual, por ser força auxiliar.",
+      "subordina-se ao Poder Legislativo estadual, ao qual cabe nomear seu comandante-geral."
+    ],
+    "correta": 2,
+    "explicacao": "A Constituição determina que as polícias militares se subordinam, junto com as polícias civis, aos Governadores; a organização básica da PMAM explicita a subordinação direta ao Governador do Estado, com integração à Secretaria de Estado de Segurança Pública para fins operacionais (letra C). A letra A desloca para o Comandante do Exército uma subordinação que, em tempo de paz, é do Governador; a letra B elimina a autoridade do Governador; a letra D nega a subordinação; e a letra E desloca a nomeação do comandante-geral para o Legislativo.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Competências constitucionais das polícias militares",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "CF, art. 144, § 5º",
+    "dificuldade": 2,
+    "enunciado": "Nos termos da Constituição Federal, às polícias militares cabe:",
+    "alternativas": [
+      "a polícia judiciária e a apuração de infrações penais comuns, com exclusividade.",
+      "a polícia ostensiva e a preservação da ordem pública.",
+      "a defesa civil, com exclusividade, em caso de calamidade pública.",
+      "a execução das atividades de trânsito e a apuração de crimes militares, apenas.",
+      "a segurança dos estabelecimentos penais, como atribuição exclusiva."
+    ],
+    "correta": 1,
+    "explicacao": "O art. 144, § 5º, da Constituição atribui às polícias militares a polícia ostensiva e a preservação da ordem pública (letra B); aos corpos de bombeiros militares incumbe, além do previsto em lei, a execução de atividades de defesa civil. A letra A descreve função das polícias civis, que exercem a polícia judiciária e apuram infrações penais, ressalvada a competência da União; a letra C atribui a defesa civil com exclusividade à polícia militar; a letra D restringe indevidamente a competência; e a letra E desloca para a PM a segurança dos estabelecimentos penais.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Competências legais da PMAM",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – competências da corporação",
+    "dificuldade": 2,
+    "enunciado": "A organização básica da PMAM atribui à corporação, entre outras competências, a de executar, com exclusividade, ressalvadas as missões peculiares das Forças Armadas:",
+    "alternativas": [
+      "o policiamento ostensivo, fardado, planejado pela autoridade competente.",
+      "o policiamento ostensivo velado, a cargo de agentes à paisana.",
+      "a apuração de crimes de competência da Justiça Federal.",
+      "a execução de sentenças penais e a administração de presídios.",
+      "a investigação de crimes comuns, com exclusividade sobre a polícia civil."
+    ],
+    "correta": 0,
+    "explicacao": "A lei de organização básica da PMAM elenca, entre as competências da corporação, executar com exclusividade, ressalvadas as missões peculiares das Forças Armadas, o policiamento ostensivo, fardado, planejado pela autoridade competente, além de outras atribuições, como a polícia judiciária militar nos termos da lei federal (letra A). As letras B e C desnaturam a atribuição ostensiva e deslocam competências federais; a letra D trata de funções do sistema penitenciário; e a letra E atribui à PM competência investigativa própria da polícia civil.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Comandante-Geral – requisitos do cargo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – Comandante-Geral",
+    "dificuldade": 2,
+    "enunciado": "Sobre o cargo de Comandante-Geral da PMAM, é correto afirmar que é privativo de:",
+    "alternativas": [
+      "oficial do posto de coronel PM, da ativa ou da reserva remunerada, nomeado pelo Secretário de Segurança Pública.",
+      "oficial do posto de major PM, escolhido pelo Conselho Consultivo Superior.",
+      "praça do quadro de subtenentes, com mais de vinte anos de serviço.",
+      "oficial do posto de tenente-coronel PM, eleito pelos oficiais da ativa.",
+      "oficial do posto de coronel PM, da ativa, do quadro de oficiais policiais militares, nomeado pelo Governador do Estado."
+    ],
+    "correta": 4,
+    "explicacao": "A organização básica da PMAM confere o comando da corporação a oficial do posto de coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, preferencialmente com Curso Superior de Polícia ou curso militar correspondente, nomeado por ato do Governador do Estado (letra E). A letra A admite oficial da reserva e desloca a nomeação para o Secretário; a letra B rebaixa o posto e a autoridade nomeante; a letra C exclui os oficiais, que são os destinatários legais do cargo; e a letra D rebaixa o posto e cria eleição inexistente.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Comandante-Geral – competências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – competências do Comandante-Geral",
+    "dificuldade": 2,
+    "enunciado": "Compete ao Comandante-Geral da PMAM, nos termos da organização básica da corporação:",
+    "alternativas": [
+      "nomear o Governador do Estado para o cargo de Secretário de Segurança Pública.",
+      "julgar os recursos contra atos do próprio Comandante-Geral.",
+      "indicar o Subcomandante-Geral e o Chefe do Estado Maior Geral.",
+      "aprovar as leis de organização da corporação perante a Assembleia Legislativa.",
+      "decretar estado de defesa no território do Estado do Amazonas."
+    ],
+    "correta": 2,
+    "explicacao": "A lei de organização básica atribui ao Comandante-Geral, entre outras competências, a indicação do Subcomandante-Geral e do Chefe do Estado Maior Geral (letra C), além da designação de comandantes, chefes e diretores de organizações policiais militares. A letra A inverte a relação hierárquica; a letra B desconhece que o Comandante-Geral é a autoridade recursal da corporação, e não julgador de seus próprios atos; a letra D invade competência do Poder Legislativo; e a letra E trata de instituto constitucional privativo do Presidente da República.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Comandante-Geral – julgamento de recursos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – competência recursal do Comandante-Geral",
+    "dificuldade": 3,
+    "enunciado": "Um oficial discorda de decisão do Diretor da Diretoria de Justiça e Disciplina e pretende recorrer. Nos termos da organização básica da PMAM, o recurso será julgado:",
+    "alternativas": [
+      "pelo Conselho Consultivo Superior, órgão máximo de julgamento da corporação.",
+      "pela Corregedoria-Geral da União, por se tratar de matéria disciplinar militar.",
+      "pelo Chefe do Estado Maior Geral, a quem cabe a revisão de atos disciplinares.",
+      "pelo Comandante-Geral, a quem compete julgar os recursos contra atos do Subcomandante-Geral, do Chefe do Estado Maior Geral e do Diretor da Diretoria de Justiça e Disciplina.",
+      "pelo Secretário de Segurança Pública, em única instância."
+    ],
+    "correta": 3,
+    "explicacao": "A organização básica da PMAM insere entre as competências do Comandante-Geral julgar os recursos interpostos contra atos do Subcomandante-Geral, do Chefe do Estado Maior Geral e do Diretor da Diretoria de Justiça e Disciplina (letra D). A letra A confere ao Conselho Consultivo Superior função decisória que ele não tem, pois é órgão consultivo; a letra B invoca órgão federal estranho à corporação estadual; a letra C desloca a competência para o Chefe do Estado Maior; e a letra E subtrai a apreciação do Comandante-Geral.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Subcomandante-Geral – funções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – Subcomandante-Geral",
+    "dificuldade": 2,
+    "enunciado": "Sobre o Subcomandante-Geral da PMAM, é correto afirmar que:",
+    "alternativas": [
+      "é o substituto imediato do Comandante-Geral, auxiliando-o na supervisão das atividades operacionais e zelando pela disciplina e conduta dos integrantes da corporação.",
+      "é o substituto eventual do Comandante-Geral, cabendo ao Chefe do Estado Maior a substituição imediata.",
+      "exerce a chefia do Estado Maior Geral, acumulando as duas funções.",
+      "é cargo privativo de oficial do posto de major PM, de livre indicação do Governador.",
+      "é órgão de execução, comandando diretamente as unidades operacionais."
+    ],
+    "correta": 0,
+    "explicacao": "O Subcomandante-Geral é o substituto imediato do Comandante-Geral, secundando-o nas atividades de comando e respondendo pela supervisão operacional e pela disciplina (letra A). A letra B inverte a regra: o Chefe do Estado Maior é substituto eventual do Subcomandante-Geral, e não o substituto imediato do Comandante-Geral; a letra C acumula cargos distintos; a letra D rebaixa o posto exigido, que é o de coronel PM; e a letra E lhe dá natureza de órgão de execução, quando integra a direção geral.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Estado Maior Geral – natureza e atribuições",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – Estado Maior Geral",
+    "dificuldade": 2,
+    "enunciado": "Sobre o Estado Maior Geral da PMAM, é correto afirmar que:",
+    "alternativas": [
+      "é órgão de execução, responsável pelo policiamento de áreas específicas.",
+      "é órgão consultivo eventual, reunido apenas por convocação do Governador.",
+      "é chefiado por oficial do posto de tenente-coronel PM, da ativa.",
+      "é órgão de direção geral responsável pelo estudo, planejamento, coordenação, fiscalização, controle e avaliação das atividades administrativas da corporação.",
+      "substitui o Comandante-Geral em seus impedimentos eventuais."
+    ],
+    "correta": 3,
+    "explicacao": "O Estado Maior Geral integra a direção geral da corporação e cabe-lhe o estudo, o planejamento, a coordenação, a fiscalização, o controle e a avaliação das atividades administrativas, elaborando planos, diretrizes e ordens de comando (letra D). A letra A o rebaixa a órgão de execução; a letra B o confunde com o Conselho Consultivo Superior; a letra C rebaixa o posto do chefe, que é coronel PM; e a letra E atribui ao Estado Maior a substituição do Comandante-Geral, que é do Subcomandante.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Estado Maior Geral – seções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – seções do Estado Maior Geral",
+    "dificuldade": 1,
+    "enunciado": "No Estado Maior Geral da PMAM, a seção encarregada dos assuntos relativos à instrução, ao ensino e às operações é a:",
+    "alternativas": [
+      "1ª Seção.",
+      "3ª Seção.",
+      "4ª Seção.",
+      "5ª Seção.",
+      "7ª Seção."
+    ],
+    "correta": 1,
+    "explicacao": "O Estado Maior Geral organiza-se em seções numeradas: a 1ª Seção trata de recursos humanos e legislação; a 2ª, de inteligência policial militar; a 3ª, de instrução, ensino e operações; a 4ª, de logística e patrimônio; a 5ª, de comunicação social; a 6ª, de planejamento estratégico, qualidade, estatística e programação orçamentária; e a 7ª, de tecnologia da informação e comunicação. Por isso, a instrução, o ensino e as operações cabem à 3ª Seção (letra B), e não à 1ª, à 4ª, à 5ª ou à 7ª Seção.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Conselho Consultivo Superior – natureza e composição",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – Conselho Consultivo Superior",
+    "dificuldade": 2,
+    "enunciado": "Sobre o Conselho Consultivo Superior da PMAM, é correto afirmar que:",
+    "alternativas": [
+      "é órgão de execução responsável pelas operações de grande porte.",
+      "é órgão julgador de recursos disciplinares, em última instância.",
+      "é órgão consultivo do Alto Comando, integrado pelo Comandante-Geral, pelo Subcomandante-Geral, pelo Chefe do Estado Maior e pelos demais coronéis da ativa da corporação.",
+      "é composto exclusivamente por praças do quadro de subtenentes.",
+      "funciona como órgão permanente de fiscalização financeira da corporação."
+    ],
+    "correta": 2,
+    "explicacao": "O Conselho Consultivo Superior é órgão consultivo do Alto Comando: reúne o Comandante-Geral, o Subcomandante-Geral, o Chefe do Estado Maior e os demais coronéis da ativa da corporação, funcionando como fórum de discussão de problemas complexos de interesse da instituição (letra C). A letra A o transforma em órgão de execução; a letra B lhe atribui função julgadora; a letra D exclui os oficiais, que são seus integrantes; e a letra E cria função de fiscalização financeira inexistente.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Diretoria de Justiça e Disciplina",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 3.514/2010 (organização básica da PMAM) – direção setorial de justiça e disciplina",
+    "dificuldade": 2,
+    "enunciado": "A apuração de transgressões disciplinares e o controle da conduta dos membros da PMAM, no plano da administração setorial, competem à:",
+    "alternativas": [
+      "Diretoria de Pessoal da Ativa.",
+      "Diretoria de Apoio Logístico.",
+      "Assessoria Jurídico-Administrativa Institucional.",
+      "Ajudância Geral.",
+      "Diretoria de Justiça e Disciplina."
+    ],
+    "correta": 4,
+    "explicacao": "Entre as diretorias setoriais da corporação está a Diretoria de Justiça e Disciplina, encarregada da administração setorial das atividades de justiça e disciplina (letra E). A Diretoria de Pessoal da Ativa cuida do pessoal do serviço ativo (letra A); a Diretoria de Apoio Logístico responde pela logística (letra B); a Assessoria Jurídico-Administrativa presta assessoramento jurídico-administrativo (letra C); e a Ajudância Geral exerce funções administrativas do Comando Geral (letra D).",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Deveres do policial-militar – sigilo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – deveres do policial-militar",
+    "dificuldade": 2,
+    "enunciado": "Um soldado PM fotografa documento de inteligência da corporação e o divulga em grupo de mensagens de amigos, sem autorização. A conduta contraria diretamente o dever de:",
+    "alternativas": [
+      "urbanidade, por não ter cumprimentado os superiores.",
+      "sigilo quanto aos assuntos da corporação e discrição no trato de informações de serviço.",
+      "pontualidade, por não ter comparecido ao serviço no horário.",
+      "economia do material, por ter usado equipamento próprio.",
+      "apresentação pessoal, por trajar-se de forma inadequada."
+    ],
+    "correta": 1,
+    "explicacao": "O Estatuto dos Policiais Militares impõe o dever de guardar sigilo sobre os assuntos da corporação e de manter discrição quanto às informações de serviço, cuja divulgação indevida expõe operações e a segurança dos agentes. A divulgação não autorizada de documento de inteligência viola esse dever (letra B). As demais alternativas descrevem deveres diversos — urbanidade, pontualidade, economia de material e apresentação pessoal — que não guardam relação com o fato narrado.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Vedações constitucionais ao militar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "CF, art. 142, § 3º, IV e V; CF, art. 42, § 1º",
+    "dificuldade": 2,
+    "enunciado": "Um cabo PM é convidado a se filiar a um sindicato e a participar de reunião de partido político. Sobre a situação, nos termos da Constituição Federal, é correto afirmar que ao militar em serviço ativo:",
+    "alternativas": [
+      "é permitida a sindicalização, desde que fora do horário de serviço.",
+      "é permitida a filiação partidária, vedada apenas a candidatura a cargo eletivo.",
+      "são permitidas a sindicalização e a greve, desde que autorizadas pelo comando.",
+      "são proibidas a sindicalização e a greve, e é vedada a filiação a partido político enquanto estiver em serviço ativo.",
+      "é obrigatória a filiação partidária, por força do dever de participação política do militar."
+    ],
+    "correta": 3,
+    "explicacao": "O art. 142, § 3º, da Constituição — aplicável aos militares dos Estados por força do art. 42, § 1º — veda ao militar a sindicalização e a greve (inciso IV) e a filiação a partido político enquanto em serviço ativo (inciso V), o que corresponde à letra D. A letra A admite sindicalização fora do horário, o que é vedado; a letra B reduz a proibição à candidatura; a letra C subordina vedações constitucionais à autorização do comando, o que é impossível; e a letra E inverte a vedação, transformando-a em obrigação.",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Deveres éticos do policial-militar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei Estadual 1.154/75 (Estatuto dos Policiais Militares do AM) – deveres éticos",
+    "dificuldade": 1,
+    "enunciado": "Entre os deveres do policial-militar previstos no regime estatutário militar, encontram-se:",
+    "alternativas": [
+      "recusar atendimento ao público quando estiver de serviço.",
+      "divulgar publicamente dados de operações em andamento.",
+      "lealdade às instituições e aos superiores, probidade, sigilo, zelo pelo material e dedicação ao serviço.",
+      "deixar de cumprir ordens quando discordar, sem comunicar o superior.",
+      "tratar com descortesia os colegas e o público, para afirmar autoridade."
+    ],
+    "correta": 2,
+    "explicacao": "O regime estatutário militar impõe deveres éticos de conduta, entre os quais a lealdade institucional e aos superiores, a probidade, o sigilo, o zelo pelos bens e valores públicos, a cortesia e a dedicação ao serviço (letra C). As demais alternativas descrevem condutas que violam deveres, e não deveres: recusar atendimento ao público (A), divulgar dados de operações (B), descumprir ordens sem comunicação (D) e tratar com descortesia (E).",
+    "concursos": [
+      "PM-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]

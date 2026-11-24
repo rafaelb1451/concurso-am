@@ -1,0 +1,1042 @@
+[
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios expressos — legalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, caput, da CF — princípio da legalidade; art. 5º, II, da CF",
+    "dificuldade": 2,
+    "enunciado": "Um fiscal de vigilância sanitária apreende mercadorias de um comerciante. Indignado, o comerciante alega que, como particular, pode fazer tudo o que a lei não proíbe e que a Administração estaria sujeita à mesma lógica. Sobre o princípio da legalidade aplicado à Administração Pública, é correto afirmar que a Administração:",
+    "alternativas": [
+      "somente pode atuar quando houver lei que autorize ou discipline a conduta, não bastando a ausência de proibição",
+      "pode praticar qualquer ato de gestão, desde que não haja lei expressamente proibindo a conduta",
+      "está submetida apenas às normas constitucionais, dispensando a lei ordinária",
+      "pode suprir a ausência de lei por ato normativo próprio, de caráter primário",
+      "pode agir por analogia sempre que houver interesse público, ainda que a lei seja omissa"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 37, caput, da CF submete a Administração à legalidade, mas em sentido diverso do que vale para o particular: a autonomia privada permite fazer o que a lei não proíbe (art. 5º, II, da CF), enquanto a Administração só pode agir quando a lei autoriza ou disciplina a conduta, ou seja, legalidade estrita. Por isso a correta é a primeira alternativa. As demais invertem essa lógica: aplicar ao Estado a liberdade do particular, admitir ato normativo primário do Executivo para suprir a lei (o que violaria a reserva legal) ou autorizar analogia contra a lei.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios expressos — impessoalidade e publicidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 1º, da CF — publicidade e vedação à promoção pessoal",
+    "dificuldade": 2,
+    "enunciado": "O prefeito de um município determina que todo material publicitário de obra de pavimentação, custeada com recursos públicos, traga seu nome e sua fotografia, seguidos de frase que o apresenta como responsável pela realização. Sobre a situação, à luz da Constituição da República:",
+    "alternativas": [
+      "é válida, pois se trata de prestação de contas à população sobre a aplicação dos recursos",
+      "é válida, desde que conste também o nome do órgão responsável pela obra",
+      "é vedada, pois a publicidade dos atos, obras e serviços públicos deve ter caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal",
+      "é vedada apenas se houver gasto adicional com a inclusão da fotografia",
+      "é válida, pois a impessoalidade alcança somente os atos administrativos, não a publicidade institucional"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 37, § 1º, da CF determina que a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos tenha caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. A conduta fere a impessoalidade e a publicidade. As demais alternativas admitem a promoção pessoal (prestação de contas ou mera menção ao órgão) ou restringem a vedação a um requisito que a norma não exige (gasto adicional).",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios expressos — moralidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, caput, da CF — moralidade; art. 2º, parágrafo único, IV, da Lei 9.784/99",
+    "dificuldade": 2,
+    "enunciado": "Um dirigente de órgão público contrata, com dispensa de licitação regularmente formalizada e por preço de mercado, a empresa de um amigo íntimo, escolhida em razão da amizade e não do interesse público. O ato é formalmente conforme à lei, mas viola de forma mais direta o princípio da:",
+    "alternativas": [
+      "legalidade, pois o ato contrariou norma expressa",
+      "publicidade, pois o contrato não foi divulgado",
+      "hierarquia, pois o agente deveria submeter a escolha à autoridade superior",
+      "continuidade do serviço público, pois o contrato assegura a prestação do serviço",
+      "moralidade administrativa, pois a Administração deve atuar segundo padrões éticos de probidade, decoro e boa-fé, ainda que o ato seja formalmente conforme a lei"
+    ],
+    "correta": 4,
+    "explicacao": "A moralidade administrativa está no caput do art. 37 da CF e é detalhada no art. 2º, parágrafo único, IV, da Lei 9.784/99 (atuação segundo padrões éticos de probidade, decoro e boa-fé). A escolha movida por favoritismo é imoral ainda que a forma legal tenha sido cumprida, o que mostra que a moralidade é exigência autônoma em relação à legalidade estrita. As demais alternativas apontam vícios que o enunciado afasta (o ato é formalmente legal) ou princípios que não são o núcleo da conduta.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios implícitos — supremacia e indisponibilidade do interesse público",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Princípios implícitos da supremacia e da indisponibilidade do interesse público (art. 1º da CF)",
+    "dificuldade": 2,
+    "enunciado": "O administrador público, ao detectar que um terreno do município está sendo ocupado irregularmente, decide não adotar medida alguma em razão de acordo político que considerou mais conveniente ao momento eleitoral. Sobre o caso, à luz dos princípios implícitos que regem a Administração:",
+    "alternativas": [
+      "pode deixar de agir, pois a conveniência política é a única baliza da atuação administrativa",
+      "não pode dispor do interesse público, pois o poder de agir é também um dever e o interesse público é indisponível",
+      "pode deixar de agir, desde que comunique o fato ao tribunal de contas",
+      "só estaria obrigado a agir se houvesse ordem judicial específica",
+      "pode condicionar a atuação à concordância dos ocupantes, em razão do princípio da consensualidade"
+    ],
+    "correta": 1,
+    "explicacao": "Os princípios da supremacia do interesse público e da indisponibilidade do interesse público decorrem do modelo de Estado Democrático de Direito (art. 1º da CF) e são implícitos. Deles resulta que os poderes administrativos são poderes-deveres: o administrador não pode renunciar à atuação quando presentes os pressupostos legais, pois não é titular do interesse público, e sim seu gestor. As demais alternativas tratam o poder como faculdade disponível, subordinam a atuação a conveniência política ou a concordância do particular, ou transferem a terceiro a decisão sobre agir.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios implícitos — razoabilidade e proporcionalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 2º, parágrafo único, VI, da Lei 9.784/99 — adequação entre meios e fins",
+    "dificuldade": 2,
+    "enunciado": "Um servidor público se atrasou vinte minutos e, por esse fato, a autoridade competente aplicou-lhe pena de demissão, embora o estatuto previsse advertência para a falta leve e a conduta não tivesse gerado qualquer prejuízo. A penalidade aplicada viola de forma mais direta os princípios da:",
+    "alternativas": [
+      "hierarquia e disciplina",
+      "legalidade e publicidade",
+      "eficiência e economicidade",
+      "razoabilidade e proporcionalidade",
+      "autotutela e especialidade"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 2º, parágrafo único, VI, da Lei 9.784/99 impõe a adequação entre meios e fins, vedando a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público. A demissão por atraso de vinte minutos, quando o estatuto prevê advertência para a falta leve, é sanção desproporcional ao fato. As demais alternativas indicam princípios que não tratam da medida da sanção: a legalidade autorizaria a punição, mas não a dosimetria desproporcional.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios implícitos — continuidade do serviço público",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, VII, da CF; art. 11 da Lei 7.783/89 — continuidade do serviço público",
+    "dificuldade": 2,
+    "enunciado": "Servidores do setor de abastecimento de água de um município decidem paralisar as atividades por tempo indeterminado, sem comunicar previamente a população nem assegurar a prestação mínima do serviço, que é essencial. Sobre o direito de greve no serviço público e o princípio da continuidade do serviço público:",
+    "alternativas": [
+      "a greve é sempre válida, pois o direito de greve é absoluto no serviço público",
+      "a greve no serviço público é vedada em qualquer hipótese, por falta de lei regulamentadora",
+      "o direito de greve não é absoluto e, nos serviços essenciais, deve ser assegurada a prestação dos serviços indispensáveis ao atendimento das necessidades inadiáveis da comunidade",
+      "a continuidade do serviço público não tem relação com o direito de greve, por ser princípio próprio do direito privado",
+      "a paralisação é legítima porque a greve suspende automaticamente a prestação do serviço"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 37, VII, da CF assegura o direito de greve, a ser exercido nos termos e limites de lei específica; enquanto essa lei não existe, aplica-se por analogia a disciplina da Lei 7.783/89, cujo art. 11 obriga, nos serviços essenciais, a garantir a prestação dos serviços indispensáveis ao atendimento das necessidades inadiáveis da comunidade. A greve, portanto, não é absoluta e não afasta a continuidade. As demais alternativas afirmam que a greve é sempre válida, que é sempre vedada, que a continuidade é irrelevante ou que a paralisação suspende automaticamente o serviço.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — elementos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Elementos do ato administrativo — competência, finalidade, forma, motivo e objeto (conceito técnico)",
+    "dificuldade": 1,
+    "enunciado": "No estudo dos atos administrativos, costuma-se apontar que, entre seus elementos, alguns são sempre vinculados e outros podem comportar juízo de conveniência e oportunidade. São sempre vinculados os elementos:",
+    "alternativas": [
+      "competência, finalidade e forma",
+      "motivo e objeto",
+      "objeto e forma",
+      "motivo, objeto e finalidade",
+      "competência, motivo e objeto"
+    ],
+    "correta": 0,
+    "explicacao": "A doutrina identifica cinco elementos do ato administrativo: competência, finalidade, forma, motivo e objeto. Competência, finalidade e forma são sempre vinculados — a autoridade não escolhe quem pratica, para que fim nem com que forma. Motivo e objeto é que podem ser discricionários, quando a lei deixa margem de escolha ao administrador. As demais alternativas incluem motivo ou objeto entre os sempre vinculados, ou excluem a competência, a finalidade ou a forma.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — atributos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Atributos do ato administrativo — presunção de legitimidade",
+    "dificuldade": 2,
+    "enunciado": "Um ato administrativo é praticado por autoridade competente, com observância da forma legal e motivado em fatos apurados, produzindo efeitos imediatos. O particular afetado pretende descumpri-lo desde logo, alegando que o ato é ilegal. Entre os atributos do ato administrativo, aquele que está presente em todos os atos e que transfere ao particular o ônus de demonstrar a ilegalidade é a:",
+    "alternativas": [
+      "autoexecutoriedade",
+      "imperatividade",
+      "tipicidade",
+      "exigibilidade",
+      "presunção de legitimidade"
+    ],
+    "correta": 4,
+    "explicacao": "A presunção de legitimidade (e de veracidade) decorre do princípio da legalidade e acompanha todos os atos administrativos: enquanto não declarada a ilegalidade, o ato é tido por válido e produz efeitos, cabendo ao particular que o impugna demonstrar o vício. Autoexecutoriedade, imperatividade, exigibilidade e tipicidade são atributos que não estão presentes em todos os atos (atos enunciativos e negociais, por exemplo, não são imperativos nem autoexecutáveis). As demais alternativas indicam, portanto, atributos que não são universais.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — vícios e desvio de finalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 2º, parágrafo único, da Lei 4.717/65 — desvio de finalidade",
+    "dificuldade": 3,
+    "enunciado": "Um agente público, competente para aplicar sanções a servidores, utiliza essa competência para punir um subordinado que se recusou a apoiar sua candidatura em eleição interna da entidade. O vício do ato praticado é de:",
+    "alternativas": [
+      "competência, sanável pela ratificação da autoridade superior",
+      "finalidade, insanável, configurando desvio de finalidade",
+      "forma, sanável pela repetição do ato",
+      "objeto, sanável desde que a sanção seja reduzida",
+      "motivo, sanável pela motivação posterior"
+    ],
+    "correta": 1,
+    "explicacao": "O agente era competente e observou a forma, mas praticou o ato visando fim diverso daquele previsto na regra de competência: em vez do interesse público, a retaliação política. É o desvio de finalidade, definido no art. 2º, parágrafo único, da Lei 4.717/65 como o ato praticado visando a fim diverso do previsto, explícita ou implicitamente, na regra de competência. O vício de finalidade é insanável e não admite convalidação. As demais alternativas apontam vícios que o enunciado não apresenta ou os tratam como sanáveis.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — convalidação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 55 da Lei 9.784/99 — convalidação",
+    "dificuldade": 3,
+    "enunciado": "A Administração pratica ato de concessão de licença a particular, com observância da competência e da finalidade, mas deixa de cumprir formalidade prevista em norma, posteriormente considerada não essencial, sem que haja lesão ao interesse público ou prejuízo a terceiros. Nesse caso, a Administração pode:",
+    "alternativas": [
+      "anular o ato, com efeitos retroativos, por vício de forma",
+      "revogar o ato por conveniência e oportunidade",
+      "manter o ato sem qualquer providência, pois o vício de forma nunca produz efeitos",
+      "convalidar o ato, sanando o defeito, com efeitos retroativos à data da prática",
+      "declarar o ato inexistente, pois a forma é sempre elemento essencial"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 55 da Lei 9.784/99 autoriza a convalidação, pela própria Administração, dos atos que apresentem defeitos sanáveis, quando a decisão evidenciar que não haverá lesão ao interesse público nem prejuízo a terceiros. O vício de forma não essencial é sanável, e a convalidação retroage à data da prática do ato (efeitos ex tunc). As demais alternativas confundem convalidação com anulação, com revogação (que pressupõe ato válido e juízo de mérito) ou negam o próprio instituto.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — anulação e revogação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 53 da Lei 9.784/99; Súmula 473 do STF — autotutela",
+    "dificuldade": 2,
+    "enunciado": "A autoridade administrativa verificou que um ato praticado pela própria Administração é ilegal; ao mesmo tempo, outro ato, praticado regularmente, tornou-se inconveniente ao interesse público. Sobre as providências cabíveis, é correto afirmar que a Administração:",
+    "alternativas": [
+      "pode revogar o ato ilegal e anular o ato inconveniente, pois ambos os institutos produzem os mesmos efeitos",
+      "só pode anular o ato ilegal por decisão judicial, vedada a autotutela",
+      "pode anular o ato ilegal, com efeitos retroativos, e revogar o ato inconveniente, com efeitos a partir da revogação",
+      "pode revogar ambos, pois a revogação alcança atos ilegais e atos inconvenientes",
+      "pode anular ambos, pois a anulação alcança atos legais e ilegais"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 53 da Lei 9.784/99 e a Súmula 473 do STF consagram a autotutela: a Administração deve anular seus atos ilegais (efeitos retroativos, respeitados os direitos adquiridos) e pode revogar os atos válidos por motivo de conveniência e oportunidade (efeitos a partir da revogação). A revogação não alcança ato ilegal, e a anulação não alcança ato válido. As demais alternativas invertem os institutos, atribuem ambos os efeitos a um só deles ou negam a autotutela, que é justamente a possibilidade de a própria Administração corrigir seus atos.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos — decadência da autotutela",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 54 da Lei 9.784/99 — decadência de cinco anos",
+    "dificuldade": 3,
+    "enunciado": "A Administração concedeu aposentadoria a servidor e, oito anos depois, identificou vício de legalidade no ato de concessão, sem qualquer indício de má-fé do beneficiário. Sobre a possibilidade de anulação:",
+    "alternativas": [
+      "é possível a qualquer tempo, pois a autotutela não se sujeita a prazo",
+      "é possível, pois o prazo decadencial só começa a correr da aposentadoria do servidor",
+      "é possível apenas se o servidor concordar com a anulação",
+      "é possível, pois o prazo de decadência é de dez anos",
+      "não é mais possível, pois o direito de anular ato de que decorram efeitos favoráveis ao destinatário decai em cinco anos, salvo comprovada má-fé"
+    ],
+    "correta": 4,
+    "explicacao": "O art. 54 da Lei 9.784/99 fixa que o direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé. Como se passaram oito anos e não há má-fé, a anulação não é mais possível. As demais alternativas negam a decadência, deslocam indevidamente o termo inicial, trocam o prazo para dez anos ou condicionam a anulação à concordância do beneficiário, o que a lei não exige.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — hierárquico e delegação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 13 da Lei 9.784/99 — vedações à delegação",
+    "dificuldade": 2,
+    "enunciado": "Um dirigente de órgão público pretende delegar a um subordinado a competência para decidir um recurso administrativo apresentado por particular. Sobre a delegação de competência na Lei 9.784/99, é correto afirmar que ela:",
+    "alternativas": [
+      "é sempre possível, pois a competência administrativa é renunciável e disponível",
+      "não pode ter por objeto a edição de atos de caráter normativo, a decisão de recursos administrativos nem as matérias de competência exclusiva do órgão ou autoridade",
+      "é vedada em qualquer hipótese, pois a competência é sempre improrrogável",
+      "só é admitida por lei em sentido formal e para atos vinculados",
+      "pode ser feita de forma verbal e sem prazo, pois transfere a titularidade da competência"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 13 da Lei 9.784/99 veda expressamente a delegação da edição de atos de caráter normativo, da decisão de recursos administrativos e das matérias de competência exclusiva do órgão ou autoridade. A delegação transfere apenas o exercício da competência, não a sua titularidade, e deve ser formalizada e publicada. As demais alternativas erram ao tratar a competência como renunciável, à vedação como absoluta (a lei admite delegação e avocação), à exigência de lei formal para toda delegação ou ao admitir delegação verbal com transferência de titularidade.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — disciplinar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Poder disciplinar — vínculo específico com a Administração (conceito técnico)",
+    "dificuldade": 1,
+    "enunciado": "Determinado particular, sem qualquer vínculo com a Administração, comete irregularidade em um estabelecimento comercial. O fiscal do órgão competente autua o estabelecimento e aplica multa. Em relação a esse particular, o poder disciplinar da Administração:",
+    "alternativas": [
+      "não se aplica, pois o poder disciplinar alcança os servidores e os que estão sujeitos a vínculo específico com a Administração",
+      "aplica-se, pois o poder disciplinar é idêntico ao poder de polícia e alcança qualquer particular",
+      "aplica-se em razão da supremacia do interesse público sobre o particular",
+      "não se aplica, porque a Administração não pode autuar particulares sem ordem judicial",
+      "aplica-se apenas às empresas que tenham contrato de concessão, qualquer que seja a irregularidade"
+    ],
+    "correta": 0,
+    "explicacao": "O poder disciplinar é a faculdade de punir infrações funcionais daqueles ligados à Administração por vínculo específico — servidores, contratados e demais sujeitos de relação jurídica especial. O particular sem vínculo não é alcançado por ele; a atuação sobre ele decorre do poder de polícia, que limita e disciplina atividades em razão do interesse público. As demais alternativas confundem poder disciplinar com poder de polícia, condicionam a atuação administrativa a ordem judicial ou restringem indevidamente o alcance do poder de polícia.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — regulamentar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 84, IV e VI, da CF — poder regulamentar e decreto autônomo",
+    "dificuldade": 3,
+    "enunciado": "O Presidente da República edita decreto que reorganiza setores da administração federal sem aumento de despesa e, no mesmo ato, cria nova obrigação para os particulares e extingue um órgão público. Sobre o decreto:",
+    "alternativas": [
+      "é integralmente válido, pois o decreto autônomo permite dispor sobre organização e funcionamento da administração",
+      "é válido quanto à extinção do órgão, mas inválido quanto à reorganização dos setores",
+      "é integralmente inválido, pois o Presidente da República só pode editar decretos de execução de lei",
+      "é válido quanto à reorganização sem aumento de despesa, mas inválido quanto à criação de obrigação a particular e à extinção de órgão público",
+      "depende apenas de aprovação prévia do Congresso Nacional"
+    ],
+    "correta": 3,
+    "explicacao": "Pelo art. 84, IV, da CF o decreto regulamentar serve à fiel execução da lei e não pode criar obrigações novas aos particulares, o que exige lei. Pelo art. 84, VI, a, da CF o decreto autônomo pode dispor sobre organização e funcionamento da administração federal quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos. Assim, a reorganização sem despesa é válida, mas a obrigação nova e a extinção de órgão são inválidas. As demais alternativas validam o que a Constituição veda, negam o decreto autônomo ou inventam aprovação congressual prévia.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos — de polícia",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 78 do CTN — poder de polícia; distinção entre polícia administrativa e judiciária",
+    "dificuldade": 2,
+    "enunciado": "Em operação conjunta, um órgão de fiscalização municipal interdita estabelecimento comercial que funcionava sem alvará, enquanto a Polícia Civil investiga crime cometido pelo proprietário. A atuação de fiscalização e interdição configura exercício de:",
+    "alternativas": [
+      "poder de polícia judiciária, pois também atua na repressão de infrações",
+      "poder disciplinar, pois o proprietário está sujeito à hierarquia administrativa",
+      "poder de polícia administrativa, que se orienta à prevenção e à ordem pública, distinguindo-se da polícia judiciária, voltada à apuração de crimes",
+      "poder hierárquico, pois a interdição decorre da subordinação do particular ao órgão fiscalizador",
+      "poder regulamentar, pois a interdição é ato normativo genérico"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 78 do CTN define poder de polícia como a atividade administrativa que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão do interesse público. A fiscalização e a interdição são manifestações da polícia administrativa, de caráter preventivo e difuso sobre atividades e bens; a polícia judiciária é repressiva e concentrada sobre pessoas, voltada à apuração de crimes. As demais alternativas confundem as espécies de polícia ou atribuem a interdição a poderes dissonantes dela.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — descentralização e desconcentração",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Descentralização e desconcentração administrativa (conceito técnico)",
+    "dificuldade": 1,
+    "enunciado": "A União cria uma autarquia federal para executar atividade de fiscalização e, internamente, distribui as atribuições dessa entidade entre superintendências regionais. As duas providências correspondem, respectivamente, a fenômenos de:",
+    "alternativas": [
+      "desconcentração e descentralização",
+      "descentralização e desconcentração",
+      "delegação e avocação",
+      "descentralização e delegação de competência",
+      "concentração e centralização"
+    ],
+    "correta": 1,
+    "explicacao": "A descentralização distribui competências para entidades com personalidade jurídica própria, integrantes da administração indireta, como a autarquia criada. A desconcentração é a distribuição interna de atribuições dentro da mesma pessoa jurídica, entre órgãos e unidades, como as superintendências regionais, sem criação de nova personalidade e mantida a hierarquia. A alternativa que inverte a ordem erra; delegação e avocação são institutos de exercício de competência, e concentração e centralização são o movimento contrário.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — criação de entidades",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, XIX e XX, da CF — criação de entidades da administração indireta",
+    "dificuldade": 2,
+    "enunciado": "Uma lei estadual pretende criar uma autarquia, autorizar a instituição de uma sociedade de economia mista e criar uma subsidiária de empresa pública já existente. Sobre a exigência constitucional de cada providência:",
+    "alternativas": [
+      "a autarquia pode ser criada por decreto, e as demais exigem lei",
+      "todas dependem apenas de decreto do Poder Executivo, por serem entidades da administração indireta",
+      "a autarquia é criada por lei complementar, e as demais por lei ordinária",
+      "a autarquia e a sociedade de economia mista dependem de autorização legislativa, e a subsidiária é criada por ato do dirigente da estatal",
+      "a autarquia é criada por lei específica; a sociedade de economia mista tem instituição autorizada por lei específica; a criação de subsidiária depende de autorização legislativa"
+    ],
+    "correta": 4,
+    "explicacao": "O art. 37, XIX, da CF determina que somente por lei específica se cria autarquia e se autoriza a instituição de empresa pública, de sociedade de economia mista e de fundação. O art. 37, XX, da CF exige autorização legislativa, em cada caso, para a criação de subsidiárias das entidades mencionadas e para a participação de qualquer delas em empresa privada. As demais alternativas trocam lei por decreto, deslocam a criação da autarquia para lei complementar, invertem criação e autorização ou dispensam a autorização legislativa para a subsidiária.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — empresas públicas e sociedades de economia mista",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Arts. 3º e 4º da Lei 13.303/2016 — empresa pública e sociedade de economia mista",
+    "dificuldade": 2,
+    "enunciado": "Sobre as empresas públicas e as sociedades de economia mista, entidades da administração indireta:",
+    "alternativas": [
+      "a sociedade de economia mista tem personalidade jurídica de direito privado e se organiza sob a forma de sociedade anônima, com ações com direito a voto pertencentes em sua maioria ao ente público",
+      "ambas são pessoas jurídicas de direito público, criadas por lei",
+      "a empresa pública pode ter capital social majoritariamente privado, desde que o controle permaneça com o Estado",
+      "a empresa pública não se submete a regime de licitações, por ser entidade privada",
+      "ambas gozam de imunidade tributária recíproca em relação aos impostos sobre seu patrimônio"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 4º da Lei 13.303/2016 define a sociedade de economia mista como entidade de personalidade jurídica de direito privado, com criação autorizada por lei, sob a forma de sociedade anônima, cujas ações com direito a voto pertençam em sua maioria ao ente público ou a entidade da administração indireta. O art. 3º da mesma lei define a empresa pública como entidade de direito privado com capital social integralmente detido pelo ente público, admitida apenas a participação de outras pessoas jurídicas de direito público interno e entidades da administração indireta, desde que a maioria do capital votante permaneça pública. As demais alternativas erram a natureza jurídica, o capital da empresa pública, a existência de regime próprio de licitações e a imunidade recíproca, que não alcança as estatais que exploram atividade econômica.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Organização administrativa — tutela e controle finalístico",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Tutela administrativa (controle finalístico) — ausência de hierarquia entre administração direta e indireta",
+    "dificuldade": 3,
+    "enunciado": "O titular de um ministério determina que a autarquia federal a ele vinculada exonere, de imediato, o dirigente da entidade, sob o argumento de que o ministério exerce hierarquia sobre ela. Sobre a relação entre a administração direta e a indireta:",
+    "alternativas": [
+      "há hierarquia, pois a autarquia é entidade da administração indireta e está subordinada ao ministério",
+      "não há qualquer controle, pois a autarquia é entidade privada e independente",
+      "há hierarquia apenas quanto à nomeação dos dirigentes, o que autoriza a exoneração a qualquer tempo",
+      "não há hierarquia, mas há vinculação, com controle finalístico nos limites da lei, não podendo o ministério praticar atos de comando típicos de hierarquia",
+      "a hierarquia é exercida pelo tribunal de contas, que pode exonerar dirigentes"
+    ],
+    "correta": 3,
+    "explicacao": "A hierarquia pressupõe vínculo de subordinação entre órgãos da mesma pessoa jurídica. As entidades da administração indireta têm personalidade jurídica própria e não são hierarquicamente subordinadas ao ministério que as supervisiona: existe vinculação, com controle finalístico (tutela administrativa), exercido nos limites da lei e voltado à legalidade e ao cumprimento das finalidades da entidade. Por isso o ministro não pode expedir ordens típicas de hierarquia, como a exoneração imediata do dirigente. As demais alternativas afirmam hierarquia, negam qualquer controle ou atribuem a hierarquia ao tribunal de contas.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — cargo, emprego e função",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, II e V, da CF — cargo, emprego e função pública",
+    "dificuldade": 2,
+    "enunciado": "Uma pessoa é contratada sob regime celetista por empresa pública federal; outra é nomeada para cargo em comissão de assessoramento em órgão público; uma terceira atua como jurado em tribunal do júri, sem cargo ou emprego. Essas três situações correspondem, respectivamente, a:",
+    "alternativas": [
+      "cargo público, emprego público e função pública",
+      "cargo público, função pública e emprego público",
+      "emprego público, cargo público e função pública",
+      "emprego público, função pública e cargo público",
+      "função pública, cargo público e emprego público"
+    ],
+    "correta": 2,
+    "explicacao": "Cargo público é o conjunto de atribuições e responsabilidades previsto na estrutura organizacional, criado por lei e acessível por concurso, com vínculo estatutário (o cargo em comissão é de livre nomeação e exoneração, nos termos do art. 37, V, da CF). Emprego público é o vínculo contratual de natureza celetista, próprio das empresas públicas e sociedades de economia mista. Função pública é o exercício de atribuições sem investidura em cargo ou emprego, como no serviço de jurado. As demais alternativas embaralham as três categorias.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — provimento",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 8º da Lei 8.112/90 — formas de provimento",
+    "dificuldade": 2,
+    "enunciado": "Sobre as formas de provimento de cargo público, é correto afirmar que:",
+    "alternativas": [
+      "a promoção é forma originária de provimento, pois decorre de concurso interno",
+      "a nomeação é a única forma originária de provimento, sendo as demais formas derivadas, como a promoção, a readaptação e a reintegração",
+      "a transferência é forma de provimento ainda admitida no ordenamento",
+      "a readaptação é forma originária de provimento, pois independe de vínculo anterior",
+      "a nomeação para cargo em comissão exige aprovação prévia em concurso público de provas e títulos"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 8º da Lei 8.112/90 arrola as formas de provimento (nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução). Apenas a nomeação é forma originária — as demais pressupõem vínculo anterior do servidor com a Administração, sendo derivadas. As demais alternativas erram ao tratar promoção ou readaptação como originárias, ao invocar a transferência (não prevista no rol vigente) ou ao exigir concurso para cargo em comissão, cuja nomeação é livre nos termos do art. 37, II e V, da CF.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Agentes públicos — vacância",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 33 da Lei 8.112/90 — formas de vacância",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta apenas hipóteses de vacância de cargo público:",
+    "alternativas": [
+      "exoneração, nomeação e promoção",
+      "demissão, reversão e recondução",
+      "aposentadoria, aproveitamento e reintegração",
+      "transferência, remoção e redistribuição",
+      "exoneração, demissão e readaptação"
+    ],
+    "correta": 4,
+    "explicacao": "O art. 33 da Lei 8.112/90 elenca como causas de vacância do cargo público a exoneração, a demissão, a promoção, a readaptação, a aposentadoria, a posse em outro cargo inacumulável e o falecimento. Apenas a última alternativa traz somente hipóteses do rol: exoneração e demissão são vacância, e a readaptação, embora seja forma de provimento em relação ao novo cargo, é causa de vacância do cargo anterior. As demais alternativas misturam vacância com provimento (nomeação, promoção, reversão, recondução, aproveitamento, reintegração) ou com institutos que não são nem um nem outro (remoção e redistribuição; a transferência não está no rol).",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — modalidades",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 28 da Lei 14.133/2021 — modalidades de licitação",
+    "dificuldade": 1,
+    "enunciado": "Um órgão público precisa contratar obra de engenharia, adquirir bens comuns e alienar veículos inservíveis. Sobre as modalidades de licitação previstas na Lei 14.133/2021, é correto afirmar que são modalidades:",
+    "alternativas": [
+      "pregão, concorrência, concurso, leilão e diálogo competitivo",
+      "pregão, concorrência, convite, tomada de preços e leilão",
+      "concorrência, tomada de preços, convite, concurso e leilão",
+      "pregão, concorrência, concurso, leilão, diálogo competitivo e dispensa",
+      "pregão eletrônico, pregão presencial, concorrência, leilão e concurso"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 28 da Lei 14.133/2021 arrola cinco modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. Convite e tomada de preços não existem na nova lei, que extinguiu essas modalidades; dispensa e inexigibilidade são hipóteses de contratação direta e não modalidades; e pregão eletrônico e presencial são formas de realização do pregão, não modalidades autônomas. Por isso as demais alternativas estão incorretas.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — dispensa e inexigibilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 74, caput, da Lei 14.133/2021 — inexigibilidade",
+    "dificuldade": 2,
+    "enunciado": "A Administração necessita contratar objeto em que é inviável a competição. Nesse caso, a contratação direta:",
+    "alternativas": [
+      "é caso de dispensa de licitação, pois a lei autoriza a contratação sem certame quando houver interesse público",
+      "exige prévia autorização judicial em qualquer hipótese",
+      "só é possível após a realização de pregão fracassado",
+      "é caso de inexigibilidade de licitação, pois a licitação é inexigível quando houver inviabilidade de competição",
+      "é vedada, pois a Constituição exige licitação em todas as contratações"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 74, caput, da Lei 14.133/2021 dispõe que a licitação é inexigível quando houver inviabilidade de competição. A dispensa (art. 75) é hipótese diversa: a competição é possível, mas a lei autoriza a contratação direta em razão de valor, emergência ou outras situações. O art. 37, XXI, da CF ressalva expressamente os casos especificados na legislação, de modo que a contratação direta não é vedada em absoluto. As demais alternativas confundem dispensa com inexigibilidade, criam exigência judicial ou de pregão fracassado que a lei não prevê, ou ignoram a ressalva constitucional.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações — hipóteses de inexigibilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 74, I, II e III, da Lei 14.133/2021 — hipóteses de inexigibilidade",
+    "dificuldade": 2,
+    "enunciado": "Sobre as hipóteses de inexigibilidade de licitação, é correto afirmar que se admite a contratação direta de:",
+    "alternativas": [
+      "qualquer empresa que ofereça o menor preço, desde que comprovada a economicidade",
+      "serviços de publicidade e divulgação, quando o profissional for de notória especialização",
+      "fornecedor exclusivo de bem ou serviço, comprovada a exclusividade, e serviços técnicos especializados de natureza predominantemente intelectual com profissional ou empresa de notória especialização",
+      "bens comuns de uso rotineiro, desde que o valor seja inferior ao limite legal",
+      "obras de engenharia de grande vulto, quando houver urgência"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 74 da Lei 14.133/2021 prevê a inexigibilidade, entre outras hipóteses, para fornecedor exclusivo de bem ou serviço, comprovada a exclusividade e vedada a preferência de marca (inciso I), e para serviços técnicos especializados de natureza predominantemente intelectual com profissional ou empresa de notória especialização, vedada a inexigibilidade para publicidade e divulgação (inciso II). As demais alternativas erram por contrariar a exigência de inviabilidade de competição: menor preço e economicidade não geram inexigibilidade, a publicidade e divulgação são expressamente vedadas, e a contratação por valor ou por urgência é hipótese de dispensa, não de inexigibilidade.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Contratos administrativos — prerrogativas da Administração",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Lei 14.133/2021 — alteração unilateral do contrato (cláusula exorbitante: modificação para melhor adequação ao interesse público)",
+    "dificuldade": 2,
+    "enunciado": "Após a celebração de contrato administrativo, a Administração, diante da necessidade de melhor adequação do objeto ao interesse público:",
+    "alternativas": [
+      "não pode alterar o contrato, pois a autonomia da vontade e a imutabilidade contratual são absolutas",
+      "pode modificá-lo unilateralmente, para melhor adequação às finalidades de interesse público, respeitados os direitos do contratado, e fiscalizar a execução, aplicando sanções motivadas pela inexecução",
+      "só pode alterá-lo com a concordância do contratado, inclusive quanto às cláusulas de objeto",
+      "pode extingui-lo unilateralmente apenas por decisão judicial",
+      "pode ocupar definitivamente bens do contratado, independentemente de indenização"
+    ],
+    "correta": 1,
+    "explicacao": "O regime jurídico dos contratos administrativos na Lei 14.133/2021 mantém as chamadas cláusulas exorbitantes: a Administração pode modificá-los unilateralmente para melhor adequação às finalidades de interesse público, respeitados os direitos do contratado; extingui-los unilateralmente nos casos legais; fiscalizar a execução; aplicar sanções motivadas pela inexecução; e, nos casos previstos, ocupar provisoriamente bens e serviços vinculados ao objeto. As cláusulas econômico-financeiras e monetárias, porém, dependem de consensualidade para reequilíbrio. As demais alternativas negam a prerrogativa, exigem concordância do contratado para alterar o objeto, condicionam a extinção a decisão judicial ou transformam a ocupação provisória em definitiva e sem indenização.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa — exigência de dolo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 1º, §§ 1º e 2º, da Lei 8.429/92, com a redação da Lei 14.230/2021 — dolo",
+    "dificuldade": 3,
+    "enunciado": "Após a Lei 14.230/2021, um servidor público que, por imprudência, deixou de observar procedimento formal e causou prejuízo ao erário, sem qualquer intenção de obter vantagem, é alvo de ação de improbidade. A ação:",
+    "alternativas": [
+      "prospera, pois o prejuízo ao erário gera responsabilidade objetiva por improbidade",
+      "prospera, pois a culpa grave é suficiente para a condenação por improbidade",
+      "prospera apenas se houver dano efetivo ao erário, sendo dispensável o dolo",
+      "não prospera apenas se o agente devolver o valor, pois o dolo é presumido",
+      "não prospera, pois a improbidade administrativa exige dolo, isto é, a vontade livre e consciente de alcançar o resultado ilícito tipificado, não bastando a voluntariedade do agente"
+    ],
+    "correta": 4,
+    "explicacao": "Com a Lei 14.230/2021, o art. 1º, §§ 1º e 2º, da Lei 8.429/92 passou a exigir dolo para a configuração de qualquer ato de improbidade, definindo-o como a vontade livre e consciente de alcançar o resultado ilícito tipificado, não bastando a voluntariedade do agente. A modalidade culposa foi eliminada, de modo que imprudência, negligência ou imperícia, ainda que causem prejuízo, não configuram improbidade. As demais alternativas mantêm regimes revogados: responsabilidade objetiva, culpa grave suficiente, dispensa do dolo ou presunção de dolo.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa — atos contra princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 11 da Lei 8.429/92, com a redação da Lei 14.230/2021 — dolo e tipicidade",
+    "dificuldade": 3,
+    "enunciado": "Sobre a tipificação do ato de improbidade que atenta contra os princípios da administração pública, após a Lei 14.230/2021, é correto afirmar que a conduta:",
+    "alternativas": [
+      "exige dolo, não bastando a voluntariedade do agente, e a conduta deve corresponder a uma das condutas típicas previstas na lei",
+      "independe de dolo, bastando a violação objetiva do dever funcional",
+      "exige apenas culpa leve, pois a lei não exige intenção",
+      "exige dano efetivo ao erário como condição para sua configuração",
+      "exige prévia condenação criminal transitada em julgado"
+    ],
+    "correta": 0,
+    "explicacao": "Na redação da Lei 14.230/2021, o art. 11 da Lei 8.429/92 exige ação ou omissão dolosa que viole os deveres de honestidade, imparcialidade e legalidade e que se enquadre em uma das condutas típicas descritas na lei, afastando a antiga abertura para violação genérica de princípios. As demais alternativas contrariam essa redação: admitem improbidade sem dolo, contentam-se com culpa leve, criam exigência de dano ao erário que não é elemento do tipo, ou exigem condenação criminal prévia, que não é pressuposto da ação de improbidade, independente das instâncias.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa — particulares",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 3º da Lei 8.429/92 — particulares que concorrem dolosamente",
+    "dificuldade": 2,
+    "enunciado": "Um empresário, sem cargo público, concerta-se com um servidor para fraudar licitação, agindo com dolo. Sobre a responsabilização do empresário por improbidade administrativa:",
+    "alternativas": [
+      "é impossível, pois a Lei 8.429/92 alcança apenas agentes públicos",
+      "é possível apenas se o empresário for antes condenado na esfera criminal",
+      "é possível, pois as disposições da lei aplicam-se, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade",
+      "é possível ainda que o empresário tenha agido com culpa, pois a lei não distingue",
+      "depende de o empresário ter vínculo de emprego com a Administração"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 3º da Lei 8.429/92 prevê que as disposições da lei são aplicáveis, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade. Com a Lei 14.230/2021, exige-se do particular o dolo na indução ou na concorrência. As demais alternativas contrariam a extensão legal: restringem a lei a agentes públicos, condicionam a responsabilização à condenação criminal (as instâncias são independentes), dispensam o dolo ou exigem vínculo de emprego, que o dispositivo não requer.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Controle da administração — controle externo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Arts. 70 e 71 da CF — controle externo e competências do TCU",
+    "dificuldade": 3,
+    "enunciado": "Sobre a atuação do Tribunal de Contas da União no exercício do controle externo, é correto afirmar que ele:",
+    "alternativas": [
+      "aprecia e julga definitivamente as contas prestadas anualmente pelo Presidente da República, substituindo o Congresso Nacional",
+      "julga as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos, aplicando as sanções previstas em lei",
+      "exerce o controle interno dos três Poderes, substituindo os sistemas de controle interno",
+      "só pode atuar por provocação do Ministério Público",
+      "pode revogar atos administrativos dos órgãos fiscalizados por conveniência e oportunidade"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 71, II, da CF atribui ao TCU a competência para julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos, aplicando as sanções previstas em lei. Quanto às contas do Presidente da República, o TCU as aprecia mediante parecer prévio (art. 71, I), cabendo ao Congresso Nacional o julgamento (art. 49, IX): por isso a alternativa que atribui ao TCU esse julgamento, substituindo o Congresso, está errada. O controle interno é de cada Poder (art. 70), o TCU não depende de provocação do Ministério Público e não revoga atos por conveniência e oportunidade.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Controle da administração — controle judicial",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 5º, XXXV, da CF; Súmula 473 do STF — controle judicial",
+    "dificuldade": 2,
+    "enunciado": "Um particular considera que determinado ato discricionário da Administração, regular em seus elementos, é inconveniente. Pretende obter do Poder Judiciário a revogação do ato e a determinação de outra solução que entende mais adequada. Nesse caso, o Judiciário:",
+    "alternativas": [
+      "pode revogar o ato discricionário e substituir o mérito administrativo, pois exerce controle amplo",
+      "não pode apreciar o ato, porque o ato discricionário é imune a qualquer controle",
+      "só pode anular o ato se houver pedido do Ministério Público",
+      "pode anular o ato por ilegalidade, mas não pode revogá-lo por conveniência e oportunidade, pois o mérito administrativo não é sindicável pelo Judiciário",
+      "pode declarar o ato inexistente, pois discricionariedade equivale a arbitrariedade"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 5º, XXXV, da CF assegura o acesso ao Judiciário para apreciar lesão ou ameaça a direito, e a Súmula 473 do STF ressalva, em todos os casos, a apreciação judicial. O controle judicial dos atos administrativos é de legalidade: o Judiciário pode anular ato ilegal, mas não revoga ato por conveniência e oportunidade nem substitui o mérito administrativo, salvo os limites próprios do controle de legalidade. As demais alternativas ampliam indevidamente o controle (revogação do mérito), negam qualquer controle, condicionam a iniciativa ao Ministério Público ou equiparam discricionariedade a arbitrariedade.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado — objetiva",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 6º, da CF — responsabilidade objetiva",
+    "dificuldade": 2,
+    "enunciado": "Um agente público, dirigindo veículo oficial em serviço, atropela e causa dano a transeunte, sem culpa da vítima. Sobre a responsabilidade civil do Estado:",
+    "alternativas": [
+      "é objetiva, fundada na teoria do risco administrativo, bastando o dano causado por agente público no exercício da função e o nexo causal",
+      "é subjetiva, exigindo comprovação de culpa do agente público",
+      "é objetiva apenas quanto a atos de autoridade, não alcançando danos causados por veículo oficial",
+      "é subjetiva nos casos de conduta comissiva e objetiva apenas nos de omissão",
+      "depende de condenação criminal do agente para que o Estado responda"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 37, § 6º, da CF estabelece que as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. Adota-se a teoria do risco administrativo: a responsabilidade é objetiva, bastando a conduta de agente público no exercício da função, o dano e o nexo causal, cabendo ao Estado demonstrar as excludentes. As demais alternativas exigem culpa, restringem a responsabilidade a atos de autoridade, invertem o regime entre ação e omissão ou condicionam a responsabilização à esfera criminal.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado — omissão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 6º, da CF — responsabilidade por omissão (culpa do serviço)",
+    "dificuldade": 3,
+    "enunciado": "Um município deixa de fazer a manutenção de uma via pública, que apresenta buraco há meses, e um motorista sofre dano ao passar pelo local. Não havia dever específico de proteção sobre a vítima nem custódia. Sobre a responsabilidade civil do município:",
+    "alternativas": [
+      "é objetiva, bastando o nexo causal, pois a Constituição não distingue conduta comissiva de omissiva",
+      "não existe, pois o Estado não responde por omissão",
+      "é sempre objetiva, mas só alcança atos de agentes públicos com dolo",
+      "depende de o motorista provar a intenção do agente público de causar o dano",
+      "é subjetiva, exigindo demonstração de falha no serviço, salvo hipóteses de dever específico de proteção, em que se reconhece a responsabilidade objetiva"
+    ],
+    "correta": 4,
+    "explicacao": "O art. 37, § 6º, da CF serve de base à responsabilidade por omissão, mas a jurisprudência distingue: na omissão genérica, a responsabilidade do Estado é subjetiva e depende da demonstração de falha no serviço (culpa do serviço), como a ausência de manutenção de via pública; quando há dever específico de proteção ou custódia (por exemplo, pessoa sob guarda do Estado), reconhece-se responsabilidade objetiva. As demais alternativas tratam a omissão sempre como objetiva, negam a responsabilidade por omissão, exigem dolo do agente ou exigem prova da intenção do agente, o que não se coaduna com o regime da culpa do serviço.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado — ação de regresso",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 37, § 6º, da CF — ação de regresso",
+    "dificuldade": 2,
+    "enunciado": "O Estado, condenado a indenizar particular por dano causado por agente público, ajuíza ação de regresso contra esse agente. A ação de regresso:",
+    "alternativas": [
+      "é cabível apenas se o agente tiver sido condenado criminalmente",
+      "depende apenas de o Estado ter pago a indenização, sendo dispensável a culpa do agente",
+      "é cabível quando o agente agiu com dolo ou culpa, assegurado a ele o direito de defesa em ação própria",
+      "é vedada, pois a responsabilidade é exclusivamente do Estado",
+      "só é cabível em caso de dolo, nunca de culpa"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 37, § 6º, da CF assegura ao Estado o direito de regresso contra o responsável nos casos de dolo ou culpa. O agente não responde automaticamente: a pretensão regressiva exige a demonstração do dolo ou da culpa em ação própria, com contraditório e ampla defesa. As demais alternativas erram ao condicionar o regresso à condenação criminal, ao dispensar a culpa, ao negar o direito de regresso ou ao restringi-lo ao dolo.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Processo administrativo — princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 2º, caput, da Lei 9.784/99; art. 5º, LIV e LV, da CF",
+    "dificuldade": 2,
+    "enunciado": "Em processo administrativo instaurado para apurar irregularidade atribuída a um servidor, a autoridade decide sem ouvir o acusado e sem permitir a produção de provas. Nesse caso, o processo viola de forma mais direta os princípios:",
+    "alternativas": [
+      "da legalidade e da impessoalidade",
+      "do contraditório e da ampla defesa, previstos, entre outros, na Lei 9.784/99",
+      "da eficiência e da economicidade",
+      "da hierarquia e da disciplina",
+      "da publicidade e da transparência"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º, caput, da Lei 9.784/99 inclui, entre os princípios do processo administrativo, a ampla defesa e o contraditório, também assegurados pelo art. 5º, LIV e LV, da CF. Decidir sem ouvir o acusado e sem permitir a produção de provas viola diretamente esses princípios. As demais alternativas indicam princípios reais, mas que não traduzem o núcleo da violação: a legalidade e a impessoalidade não descrevem a garantia de defesa, e eficiência, hierarquia, disciplina, publicidade e transparência não tratam da participação do acusado no processo.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Processo administrativo — motivação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 50, I, da Lei 9.784/99 — dever de motivação",
+    "dificuldade": 2,
+    "enunciado": "A autoridade indefere requerimento de licença formulado por particular sem indicar os fatos e os fundamentos jurídicos que justificaram a decisão, limitando-se a consignar o indeferimento. À luz da Lei 9.784/99, a decisão:",
+    "alternativas": [
+      "é válida, pois a motivação é facultativa nos atos de indeferimento",
+      "é válida, desde que a autoridade registre internamente seus motivos, sem necessidade de exteriorizá-los",
+      "é válida, pois a lei exige motivação apenas em atos de sanção",
+      "padece de vício, pois os atos que neguem, limitem ou afetem direitos ou interesses devem ser motivados, com indicação dos fatos e dos fundamentos jurídicos",
+      "padece de vício apenas se o particular comprovar que seu pedido era legítimo"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 50, I, da Lei 9.784/99 exige motivação, com indicação dos fatos e dos fundamentos jurídicos, para os atos que neguem, limitem ou afetem direitos ou interesses — é exatamente o caso do indeferimento de licença. Motivo e motivação são coisas distintas: o motivo é o fato que fundamenta o ato, e a motivação é a sua exteriorização, de modo que o registro interno não supre a exigência. As demais alternativas tratam a motivação como facultativa, bastam-se com o registro interno ou restringem o dever de motivar aos atos de sanção.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Processo administrativo — recurso administrativo",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Arts. 56 e 59 da Lei 9.784/99 — recurso administrativo",
+    "dificuldade": 2,
+    "enunciado": "Particular é notificado, em 1º de março, de decisão administrativa que lhe impõe restrição, e pretende recorrer. Considerando a Lei 9.784/99, o recurso administrativo:",
+    "alternativas": [
+      "deve ser interposto no prazo de dez dias, contado da ciência ou da divulgação oficial da decisão, salvo disposição legal específica em contrário",
+      "deve ser interposto no prazo de cinco dias, contado da notificação",
+      "deve ser interposto no prazo de quinze dias, contado da lavratura da decisão",
+      "independe de prazo, podendo ser apresentado a qualquer tempo",
+      "deve ser interposto no prazo de dez dias, contado da publicação do ato de designação do relator"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 56 da Lei 9.784/99 prevê recurso das decisões administrativas em face de razões de legalidade e de mérito, e o art. 59 fixa o prazo de dez dias para a interposição, contado da ciência ou da divulgação oficial da decisão recorrida, salvo disposição legal específica. As demais alternativas trocam o prazo (cinco ou quinze dias), afastam a existência de prazo ou deslocam indevidamente o termo inicial para a lavratura da decisão ou para a designação de relator.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes e deveres do administrador — abuso de poder",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Art. 2º, parágrafo único, da Lei 4.717/65; abuso de poder (conceito técnico)",
+    "dificuldade": 3,
+    "enunciado": "Um agente público com competência para aplicar advertência aplica, ao mesmo servidor, pena de suspensão de trinta dias, sem previsão legal que o autorize. Esse comportamento configura:",
+    "alternativas": [
+      "desvio de finalidade, pois o agente buscou fim diverso do previsto na norma",
+      "omissão administrativa, pois o agente deveria ter deixado de aplicar qualquer pena",
+      "ato discricionário válido, pois a dosimetria da pena é sempre livre",
+      "abuso de autoridade, mas não abuso de poder, pois a competência era do órgão",
+      "excesso de poder, pois o agente atuou fora dos limites de sua competência, ainda que não tenha desviado da finalidade pública"
+    ],
+    "correta": 4,
+    "explicacao": "O abuso de poder se manifesta pelo excesso de poder, quando o agente atua fora ou além dos limites de sua competência, e pelo desvio de finalidade, quando busca fim diverso do previsto na norma (art. 2º, parágrafo único, da Lei 4.717/65). Aplicar suspensão de trinta dias sem previsão legal, tendo competência apenas para advertência, é excesso de poder, independentemente de a finalidade pública ter sido preservada. As demais alternativas confundem as duas modalidades de abuso, negam o vício por suposta discricionariedade livre ou descrevem conduta diversa da praticada.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes e deveres do administrador — poderes-deveres",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "ano": null,
+    "orgao": null,
+    "cargo": null,
+    "fundamento": "Poderes-deveres do administrador público (conceito técnico)",
+    "dificuldade": 1,
+    "enunciado": "Sobre os poderes administrativos, é correto afirmar que eles são:",
+    "alternativas": [
+      "facultativos, podendo o administrador deles abrir mão quando entender conveniente",
+      "decorrentes exclusivamente da autonomia da vontade do agente público",
+      "limitados apenas pelo texto expresso da lei, sem submissão a princípios",
+      "poderes-deveres, isto é, irrenunciáveis, devendo o administrador exercê-los quando presentes os pressupostos legais",
+      "renunciáveis quando a omissão não causar prejuízo ao erário"
+    ],
+    "correta": 3,
+    "explicacao": "Os poderes administrativos são instrumentais à satisfação do interesse público e, por isso, qualificam-se como poderes-deveres: são irrenunciáveis e indisponíveis, e o administrador tem o dever de exercê-los quando presentes os pressupostos legais, sob pena de omissão ilegítima. As demais alternativas tratam o poder como faculdade disponível, como decorrência exclusiva da vontade do agente, como renunciável ou como se a lei expressa fosse seu único limite, ignorando os princípios que vinculam a Administração.",
+    "concursos": [
+      "PC-AM"
+    ],
+    "precedente": null,
+    "verificadoEm": "2026-11-24"
+  }
+]
