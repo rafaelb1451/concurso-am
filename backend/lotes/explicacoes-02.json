@@ -1,0 +1,492 @@
+[
+  {
+    "hash": "8d0443bb08f7bc6f5a516425c32d2fca",
+    "explicacao": "Ao clicar com o botão direito sobre o drive C: no Explorador de Arquivos do Windows 10 e escolher Propriedades, abre-se a caixa de diálogo cuja guia Geral informa a capacidade total, o espaço usado e o espaço livre do disco. As opções Expandir e Recolher dizem respeito à exibição da árvore de pastas no painel de navegação, não aos dados de armazenamento do drive. Já Configurações e Info não são os comandos do menu de contexto que exibem o resumo de capacidade do disco.",
+    "fundamento": "Windows 10, Explorador de Arquivos: botão direito no drive > Propriedades > guia Geral (capacidade, espaço usado e espaço livre)."
+  },
+  {
+    "hash": "3da12020a19e93fd06635ac1af74a036",
+    "explicacao": "O Windows 10 é um sistema operacional: gerencia hardware, memória, arquivos e processos e serve de base para que os demais programas sejam executados. Google Chrome é navegador de Internet, LibreOffice é suíte de escritório, Outlook é cliente de correio eletrônico e Remote Desktop é ferramenta de acesso remoto, todos exemplos de software aplicativo. Por isso, apenas o Windows 10 executa as funções típicas de um sistema operacional.",
+    "fundamento": "Conceito de sistema operacional: software de sistema que gerencia recursos de hardware e fornece serviços aos aplicativos; os demais itens são softwares aplicativos."
+  },
+  {
+    "hash": "d81654554569faacbc61b709ee96b333",
+    "explicacao": "Com a opção de caracteres curinga ativada, o Word lê os colchetes como um conjunto de caracteres: la[s,z]er localiza exatamente as duas grafias pretendidas, “laser” e “lazer”, e a opção de localizar apenas palavras inteiras evita que a busca atinja pedaços de outras palavras. Já la?er utiliza o coringa ? para qualquer caractere isolado e acabaria alcançando grafias não pretendidas, e la*er, com o asterisco, casaria qualquer sequência entre “la” e “er”, ampliando demais o resultado. A forma la$er está errada porque o cifrão não é coringa na busca do Word.",
+    "fundamento": "MS Word: Localizar e Substituir com “Usar caracteres curinga” — ? equivale a um caractere, * a qualquer sequência e [ ] a um conjunto de caracteres (ex.: [s,z] = “s” ou “z”)."
+  },
+  {
+    "hash": "3f533ccdcab5044e1c18c509781036a6",
+    "explicacao": "Em “porta -porta”, o termo porta é obrigatório e, ao mesmo tempo, o sinal de menos colado ao segundo porta determina sua exclusão dos resultados; como a pesquisa exige e proíbe o mesmo termo, o conjunto é vazio e o Google responde que nenhum documento foi encontrado. As formas entre aspas, como \"porta-porta\" ou \"porta -porta\", buscam a expressão como texto literal e podem retornar páginas, e “porta - porta”, com espaço depois do sinal, não aplica a exclusão do termo.",
+    "fundamento": "Operadores de pesquisa do Google: aspas delimitam expressão exata e o sinal de menos imediatamente antes do termo exclui a palavra dos resultados."
+  },
+  {
+    "hash": "da74cfdc364172b34d50d670ed8da0bc",
+    "explicacao": "A Área de Transferência é a memória temporária do sistema que guarda o que foi copiado ou recortado, com Ctrl + C ou Ctrl + X, para ser colado em outro local com Ctrl + V, podendo conter texto, imagens e outros dados. A Lixeira guarda arquivos excluídos, o cache do navegador guarda arquivos temporários da Internet e a compactação usa arquivos temporários, mas nenhuma dessas funções corresponde ao clipboard.",
+    "fundamento": "Conceito de Área de Transferência (clipboard) no Windows 10; o histórico de itens copiados pode ser acessado com Windows + V."
+  },
+  {
+    "hash": "3c3abc301fc3c80ef6ecd1b42df4e20b",
+    "explicacao": "A variação percentual é dada por (média de dezembro − média de novembro) ÷ média de novembro × 100, e a alternativa B é a única que reproduz essa estrutura, fechando a subtração entre parênteses antes da divisão. Em A faltam os parênteses, de modo que a planilha dividiria primeiro, e em D a divisão final por 100 não transforma o resultado em percentual. Por sua vez, C e E apresentam parênteses desbalanceados ou mal posicionados, o que gera erro de sintaxe ou cálculo incorreto.",
+    "fundamento": "Cálculo de variação percentual: ((valor final − valor inicial) ÷ valor inicial) × 100; em planilhas, os parênteses definem a ordem das operações (divisão antes de soma e subtração)."
+  },
+  {
+    "hash": "e52a6e64ede8239ea6e75f1331d20f6e",
+    "explicacao": "I está correta: o FTP (File Transfer Protocol) é o protocolo empregado para transferência de arquivos entre computadores na Internet. II está errada porque o HTTP não é criptografado — a versão segura é o HTTPS, que utiliza TLS —, enquanto III está correta, pois 170.66.11.10 é um endereço IPv4 válido, formado por quatro octetos entre 0 e 255. Logo, apenas I e III estão certas.",
+    "fundamento": "Conceitos de protocolos e endereçamento da Internet: FTP (transferência de arquivos), HTTP/HTTPS (acesso à Web sem e com criptografia) e endereço IPv4 (quatro octetos de 0 a 255)."
+  },
+  {
+    "hash": "5733f23994c041fe766ca990e41ab591",
+    "explicacao": "I está correta porque, ao proteger a planilha, o Excel permite liberar intervalos específicos para edição, de modo que apenas aquelas células possam ser alteradas. II está errada porque células bloqueadas continuam, em regra, selecionáveis, salvo se a opção de seleção for desmarcada — a proteção veda a alteração, não a seleção. III também está errada, pois entre as opções de proteção o usuário pode permitir a inserção de linhas e de colunas.",
+    "fundamento": "MS Excel 2010: Proteger Planilha — opções de permitir seleção de células bloqueadas/desbloqueadas, inserção de linhas e colunas, além do recurso “Permitir que os usuários editem intervalos”."
+  },
+  {
+    "hash": "a8881e68f13ff3ce129c4aab3ba90a19",
+    "explicacao": "O efeito Tachado insere um traço horizontal sobre o meio do texto, deixando a palavra riscada; é o que ocorre com “Exemplo” na alternativa B, a única que traz esse efeito. Nas demais alternativas a palavra aparece sem o risco — em C, por exemplo, o destaque é a caixa alta, que é outro tipo de formatação, e em A e E não há tachado. Cabe lembrar que tachado é efeito de fonte, aplicado em Fonte > Efeitos do Word.",
+    "fundamento": "MS Word: formatação de fonte — efeito “Tachado” (strikethrough), disponível na caixa de diálogo Fonte."
+  },
+  {
+    "hash": "b7d374c51b28d32b96f9f5854fa0dedc",
+    "explicacao": "A interseção considera apenas o que é comum aos dois intervalos: nas colunas, A3:C10 abrange A, B e C, enquanto B5:H8 abrange B até H, restando B e C (2 colunas); nas linhas, o primeiro vai de 3 a 10 e o segundo de 5 a 8, restando 5, 6, 7 e 8 (4 linhas). Multiplicando 2 × 4, chega-se a 8 células pertencentes aos dois intervalos, que formam o retângulo B5:C8. Por isso a resposta é 8.",
+    "fundamento": "Cálculo de interseção de intervalos em planilha: número de colunas comuns × número de linhas comuns; a interseção de A3:C10 com B5:H8 é B5:C8, com 8 células."
+  },
+  {
+    "hash": "a15a55ff1e71ed8050600341b24caa55",
+    "explicacao": "A Lei de Organização Básica da PMAM define o Estado Maior como órgão de direção geral responsável pelo estudo, planejamento, coordenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, chefiado privativamente por Coronel PM da ativa, preferencialmente com Curso Superior de Polícia — exatamente a alternativa E. As alternativas C e D trocam “preferencialmente” por “necessariamente” e atribuem ao Estado Maior competências que a lei não lhe reserva, como o julgamento de recursos e a fiscalização dos órgãos de execução operacional. A e B, por sua vez, fazem a chefia recair sobre o próprio Comandante-Geral e descrevem competências de outros órgãos de direção.",
+    "fundamento": "Lei nº 3.514/2010 (Organização Básica da PMAM) — dispositivo que define o Estado Maior como órgão de direção geral, suas atribuições e a chefia por Coronel PM da ativa."
+  },
+  {
+    "hash": "a118e1aa6ebee1c9304937a41a7e8b49",
+    "explicacao": "A Lei de Organização Básica da PMAM prevê que a corporação atue de maneira preventiva, como força de dissuasão, em locais ou áreas específicas onde se presuma possível a perturbação da ordem, o que corresponde à alternativa C. A está errada porque a função de polícia judiciária é atribuição da Polícia Civil, e E erra ao excluir o trânsito urbano e rodoviário e a matéria ambiental, nas quais a PM também atua. B e D também não constam das competências legais: a PM não supervisiona guardas municipais nem atua como força residual apenas após o emprego das Forças Armadas.",
+    "fundamento": "Lei nº 3.514/2010 (PMAM) e art. 144, § 5º, da Constituição Federal — polícia ostensiva e preservação da ordem pública, com atuação preventiva e repressiva."
+  },
+  {
+    "hash": "4ab77d5ea90aae55aae4f1cb83d6fd9e",
+    "explicacao": "Pelo Estatuto dos Policiais Militares do Estado do Amazonas, o militar que completa cinco anos de efetivo exercício faz jus à licença especial de três meses, com todos os direitos e vantagens do cargo, não interrompendo esse período a contagem do tempo de efetivo serviço — exatamente a alternativa B. A reduz o prazo para um mês e C o amplia para cinco meses, ambas em desacordo com a norma. D e E tratam da licença para tratar de interesse particular, instituto diverso da licença especial.",
+    "fundamento": "Lei Estadual nº 1.154/75 (Estatuto dos Policiais Militares do AM) — licença especial: três meses após cinco anos de efetivo exercício, com todos os direitos e vantagens, sem interrupção da contagem do tempo de serviço."
+  },
+  {
+    "hash": "0ee3286614a406c288dc403b1c9203f3",
+    "explicacao": "Segundo a Lei de Organização Básica da PMAM, as Frações são as menores organizações policiais militares, com responsabilidade territorial decorrente da subdivisão da área das Subunidades, podendo receber as denominações de Pelotão, Grupo, Destacamento ou Posto, como na alternativa A. As demais alternativas descrevem outros níveis da estrutura: D corresponde à Unidade (Batalhão ou Regimento), E à Subunidade (Companhia ou Esquadrão) e B e C aos escalões de Comando Intermediário. Por isso, apenas A traz a definição de Fração.",
+    "fundamento": "Lei nº 3.514/2010 (PMAM) — classificação das organizações policiais militares em Fração, Subunidade, Unidade e Comando Intermediário, conforme responsabilidade territorial e composição."
+  },
+  {
+    "hash": "028ede28345996e4b2b6713d774cae2c",
+    "explicacao": "A administração setorial de atividades como recursos humanos, ensino, saúde, assistência social, logística e gestão financeira e orçamentária é atribuição dos Órgãos de Direção Setorial, que atuam de forma integrada e sistêmica — alternativa C. Os Órgãos de Execução dedicam-se às atividades-fim, os de Apoio Funcional prestam serviços de apoio e a Direção Geral é exercida pelo Comando-Geral da corporação. “Apoio Administrativo” não é a categoria prevista na lei para essa atribuição.",
+    "fundamento": "Lei nº 3.514/2010 (PMAM) — estrutura organizacional: órgãos de direção geral, órgãos de direção setorial, órgãos de apoio e órgãos de execução."
+  },
+  {
+    "hash": "d0165b89c4dc03b92e93cd2c9b0399ef",
+    "explicacao": "A Lei de Promoção de Praças estabelece que a promoção por bravura é ato discricionário da Administração Militar Estadual, cabendo o reconhecimento dos atos de bravura ao Comandante-Geral da Corporação, mediante proposta do Comandante, Chefe ou Diretor da OPM/OBM a que pertence o militar — exatamente a alternativa D. A, B e C classificam equivocadamente o ato como vinculado, e B e C ainda atribuem o reconhecimento ao Governador do Estado e ao Secretário de Segurança Pública, autoridades não indicadas pela lei para esse ato. E acrescenta condições, como a existência de vaga e o acesso automático às graduações seguintes, que não estão previstas para a promoção por bravura.",
+    "fundamento": "Lei Estadual nº 4.044/2014 (Promoção de Praças da PMAM) — promoção por bravura: natureza discricionária e reconhecimento pelo Comandante-Geral, por proposta do Comandante, Chefe ou Diretor da OPM/OBM."
+  },
+  {
+    "hash": "35c260c62a8f66cb0ab49dd7627af64c",
+    "explicacao": "A carreira das praças militares estaduais é composta pelas graduações crescentes Aluno-soldado, Soldado, Cabo, 3º Sargento, 2º Sargento, 1º Sargento e Subtenente, conforme a alternativa A. As demais alternativas misturam postos de oficiais e figuras da formação: Tenente, Capitão, Major, Coronel e Aluno-oficial não são graduações de praça. B, C, D e E ainda omitem a subdivisão dos sargentos em 3º, 2º e 1º, o que também contraria a carreira prevista na lei.",
+    "fundamento": "Lei Estadual nº 4.044/2014 (PMAM) — hierarquia das praças: graduações em ordem crescente, distintas dos postos dos oficiais."
+  },
+  {
+    "hash": "527550b7aa806b23f353f459a7371a1d",
+    "explicacao": "O Estatuto dos Policiais Militares do Estado do Amazonas dispõe que a base institucional da Polícia Militar é a hierarquia e a disciplina, e que a autoridade e a responsabilidade crescem com o grau hierárquico — quanto mais elevado o posto ou a graduação, maiores a autoridade e a responsabilidade, como na alternativa B. A inverte essa relação ao afirmar que autoridade e responsabilidade decrescem. C e D substituem a base institucional por antiguidade e merecimento, que são critérios de promoção, e E traz expressões que não constam do Estatuto como base institucional.",
+    "fundamento": "Lei Estadual nº 1.154/75 (Estatuto dos Policiais Militares do AM) — hierarquia e disciplina como base institucional, com autoridade e responsabilidade crescentes conforme o grau hierárquico."
+  },
+  {
+    "hash": "d3b20b6adc00bed29a4a4d92d4363a6d",
+    "explicacao": "No círculo de praças, o grau hierárquico é a graduação, conferida pelo Comandante-Geral da Polícia Militar, como afirma a alternativa D. A, B e C empregam “posto”, que é o grau hierárquico dos oficiais, e não das praças. E acerta ao falar em graduação, mas erra a autoridade conferente, atribuindo-a ao Secretário de Estado de Segurança Pública.",
+    "fundamento": "Lei Estadual nº 1.154/75 (Estatuto dos Policiais Militares do AM) — distinção entre posto (grau dos oficiais) e graduação (grau das praças) e autoridade competente para conferir a graduação."
+  },
+  {
+    "hash": "bcd18b8e37095b9b7f1937c32cee741e",
+    "explicacao": "Entre os preceitos da ética policial-militar está o de conduzir-se, mesmo fora do serviço ou na inatividade, de modo que não sejam prejudicados os princípios da disciplina, do respeito e do decoro policial-militar, exatamente como na alternativa E. B erra ao mencionar “improbidade” no exercício do cargo, quando o dever é de probidade, e A nega a obrigação de acatar autoridades civis, contrariando o dever de respeito às autoridades constituídas. C e D invertem os deveres éticos, pois o militar não deve valer-se do posto ou da graduação para obter facilidades pessoais ou tratar de negócios particulares.",
+    "fundamento": "Lei Estadual nº 1.154/75 (Estatuto dos Policiais Militares do AM) — preceitos da ética policial-militar e deveres de conduta do militar estadual."
+  },
+  {
+    "hash": "0948f765a5a8dccce53405ad49732d04",
+    "explicacao": "Em A, B, C e E a metáfora ou comparação vem acompanhada da explicitação do ponto de semelhança: o dólar “tem valor” mesmo em baixa, as plumas “sobem para cair”, o segredo “pode destruir vidas” e o livro é janela “por onde escapamos da mesmice”. Em D, “a linguagem em férias” é metáfora pura: não há termo comparativo nem explicação do que seria esse “estar em férias” da linguagem, e a semelhança (o caráter lúdico das palavras cruzadas) fica apenas sugerida ao leitor. Por isso D é a opção em que a comparação não está explicada. Não confunda com B, em que o “como as plumas” introduz comparação e o próprio texto já esclarece o ponto comum (subir para cair).",
+    "fundamento": "Figura de linguagem: metáfora/comparação (símile). O símile traz conectivo comparativo (“como”); a metáfora pode vir explicada, com o ponto de semelhança explicitado, ou implícita, quando só o termo figurado aparece."
+  },
+  {
+    "hash": "d25d99efeef9e3b9c9baa77b9a67b782",
+    "explicacao": "As três teorias são hipóteses alternativas para o mesmo efeito — o desaparecimento dos dinossauros —, cada uma apontando uma causa diferente (catástrofe cósmica, choque de meteorito, mudança climática), o que configura uma relação de causa e efeito entre acontecimentos diversos. B e E erram porque não existe encadeamento entre as teorias nem progressão cronológica de fatos: cada teoria é uma explicação autônoma do mesmo evento, e não causa da seguinte ou etapa sucessiva. C e D trocam a natureza do raciocínio, falando de analogia e de argumento de autoridade, que não aparecem no texto.",
+    "fundamento": "Relação lógica de causalidade (causa → efeito) na explicação de um mesmo fato por hipóteses concorrentes."
+  },
+  {
+    "hash": "f964760ec466ff10f717de2008be37f3",
+    "explicacao": "Em E o sujeito “todos os funcionários” é o próprio agente nomeado da ação de vir, identificando objetivamente quem praticou o ato. Nas demais o agente fica indeterminado: em A e B há voz passiva com o agente omitido (“procurou-se”, “foram identificadas”), em D o verbo na 3ª pessoa do plural sem sujeito expresso indica sujeito indeterminado. C é o distrator mais tentador, mas o pronome indefinido “alguém” não identifica ninguém, apenas indetermina o agente.",
+    "fundamento": "Sintaxe: sujeito determinado x sujeito indeterminado (3ª pessoa do plural, partícula “se” indeterminadora/apassivadora) e voz passiva sem agente explícito; pronome indefinido “alguém” não identifica o referente."
+  },
+  {
+    "hash": "c8cf8e09d83521c75d4166a186a284d6",
+    "explicacao": "O raciocínio indutivo parte de casos particulares observados para chegar a uma conclusão generalizante, e é o que ocorre em B: do caso concreto de um filme de terror que pode prejudicar pessoas sensíveis extrai-se a regra geral de que convém evitá-los. Em A e C o movimento é o inverso — de uma premissa geral (“turistas amam curiosidades”; “livros são ótimos companheiros”) chega-se a uma conclusão particular —, o que caracteriza dedução. Em E também se parte de uma afirmação geral para uma previsão sobre as próximas eleições, sem a generalização a partir de um particular que define a indução.",
+    "fundamento": "Lógica: indução (particular → geral) x dedução (geral → particular)."
+  },
+  {
+    "hash": "72dfb219156785904f939b6df041baa5",
+    "explicacao": "E altera o sentido porque o advérbio “raramente” passa a incidir apenas sobre “roupas insinuantes”, de modo que a frase deixa de afirmar que as duas coisas são raramente associadas à virtude: “palavras rebuscadas” fica apresentado como normalmente associado à virtude, e só as roupas insinuantes seriam raras nessa associação. Nas opções A, B, C e D o advérbio muda de posição, mas continua a modificar o conjunto sujeito + locução verbal, preservando o conteúdo original. Logo, apenas E modifica o sentido.",
+    "fundamento": "Colocação do advérbio e seu escopo: “raramente” modifica o predicado inteiro; deslocado para dentro da coordenação, muda o escopo, ainda que a mobilidade do advérbio em português normalmente não altere o sentido."
+  },
+  {
+    "hash": "b7d5a738f84accfef3029f93232019d0",
+    "explicacao": "A é a única em que a ordem é premissa → conclusão: primeiro se apresenta o fato observado (o barulho de um gambá na cozinha) e depois a conclusão que ele autoriza (a cozinheira deixou no chão o pote de ração dos gatos), ligados por simples justaposição. Em B, C e E a conclusão vem primeiro e a premissa depois, com conector explícito (“porque”, “já que”) ou sem ele, invertendo a ordem pedida. Em D, além disso, a premissa (“partiremos depois de amanhã”) não sustenta a conclusão, de modo que não há inferência válida.",
+    "fundamento": "Estrutura do raciocínio: premissa (evidência) → conclusão (inferência); conectores “porque”, “já que” e “pois” introduzem premissa, não conclusão."
+  },
+  {
+    "hash": "ef5fe68de8d4e9f0053748a10571a5ff",
+    "explicacao": "O trecho registra, em sequência imediata, sensações e estados do momento da escrita — a hora, a dor de cabeça, o corpo frio, a testa quente, a sensação de líquido que balança —, sem construir enredo nem apontar causas, o que corresponde a transcrever impressões momentâneas. E erra ao falar de “causas e consequências”, ausentes do diário; A erra porque não há história linear, e D porque não há reflexão, e sim registro direto do que se sente. O gênero diário íntimo, em 1ª pessoa e no presente, presta-se justamente a essa transcrição do instante.",
+    "fundamento": "Tipologia textual: sequência de impressões imediatas (diário íntimo, 1ª pessoa, presente) x narração linear x texto reflexivo/argumentativo."
+  },
+  {
+    "hash": "0f98235c2a69dbc1c27a03a401bed7a0",
+    "explicacao": "Em E o gerúndio “sorrindo” expressa ação que ocorre ao mesmo tempo da ação principal: João guardava as fotos e sorria no mesmo intervalo, caracterizando simultaneidade. Em A, B e D os verbos se sucedem (trancou → dirigiu-se; entra → profere; olhou → entristeceu-se), marcando sequência, e em C o “enquanto” opõe um fato durativo a outro já concluído (“tudo já ocorrera”), o que indica anterioridade, não simultaneidade.",
+    "fundamento": "Valor aspectual das formas verbais: gerúndio como adjunto adverbial de tempo simultâneo; pretérito perfeito em sequência indica ações sucessivas; mais-que-perfeito (“ocorrera”) indica anterioridade."
+  },
+  {
+    "hash": "95f184bec0e955fce15941b58ef339be",
+    "explicacao": "C repete o mesmo molde sintático duas vezes — “Sabedoria é saber o que fazer; virtude é saber fazê-lo” —, com substantivo + verbo de ligação + construção com “saber”, e com termos em correspondência (sabedoria/virtude, fazer/fazê-lo), o que caracteriza o paralelismo. As outras opções exploram figuras distintas: A joga com a oposição “não é ... mas”, B com a comparação de superioridade, D com a polissemia de “crer” e E com o paradoxo entre aprender, saber e adivinhar. Em nenhuma delas há repetição simétrica da mesma estrutura.",
+    "fundamento": "Figura de construção: paralelismo (simetria sintática e semântica entre membros coordenados)."
+  },
+  {
+    "hash": "1a140c2aa0db0121777d69f81a183c6d",
+    "explicacao": "C traz erro de concordância de gênero na expressão de tempo: o correto é “meio-dia e meia”, pois “meia” concorda com “hora” subentendida e significa “meia hora”, enquanto “meio”, no masculino, é o numeral que acompanha “dia” em “meio-dia”. As demais respeitam a norma: em B o verbo pode concordar com o núcleo do sujeito (“a maioria ... viajou”) ou com o especificador no plural (“viajaram”), hipótese aceita; A e D são construções corretas e E apresenta a crase obrigatória antes de “a praia”.",
+    "fundamento": "Concordância nominal (“meio-dia e meia”) e concordância verbal com sujeito coletivo/partitivo, que admite dupla concordância; crase antes de substantivo feminino."
+  },
+  {
+    "hash": "8eaefb1c09f5437e9acc752e11179b83",
+    "explicacao": "A negação de uma condicional “p → q” é a conjunção “p e não q”, pois basta que o antecedente seja verdadeiro e o consequente falso para derrubar a afirmação; assim, a negação de “se Jonas é soldado então é forte” é “Jonas é soldado e não é forte”. E não serve porque “se Jonas não é forte então não é soldado” é a contrapositiva, logicamente equivalente à afirmação original, e não sua negação. C também não é negação da condicional: apenas troca o consequente por sua negação.",
+    "fundamento": "Lógica proposicional: ¬(p → q) ≡ p ∧ ¬q; a contrapositiva (¬q → ¬p) é equivalente a p → q."
+  },
+  {
+    "hash": "3185d5fdb0595e4375c6ac62d83de0e8",
+    "explicacao": "Tomando o índice de 2009 como 100, o de 2010 cai 30% e fica em 70; em 2011 sobe 40% sobre 2010, ou seja, 70 × 1,40 = 98. Assim, o índice de 2011 equivale a 98% do de 2009, isto é, é 2% menor — e não 10% maior como sugere A, que somaria algebricamente −30% e +40%. Cada variação percentual incide sobre o valor do ano imediatamente anterior, nunca sobre a base inicial.",
+    "fundamento": "Cálculo de variações percentuais sucessivas: fatores multiplicativos (0,70 para o decréscimo e 1,40 para o acréscimo) aplicados em cadeia."
+  },
+  {
+    "hash": "055a726fbc4ccdfbcc027d2cd32c75ef",
+    "explicacao": "2022 não é ano bissexto, então se passam 365 dias; a 2 minutos por dia, o atraso total é de 730 minutos, ou 12 horas e 10 minutos. À meia-noite real, o relógio que perdeu esse intervalo marcará 12h00 − 12h10 = 11h50. As opções 12h10 e 13h10 invertem o sinal do erro, somando o atraso à hora certa, quando um relógio atrasado marca menos do que a hora real.",
+    "fundamento": "Conversão de unidades de tempo (365 × 2 min = 730 min = 12 h 10 min) e subtração do atraso no mostrador."
+  },
+  {
+    "hash": "978c5357dc4007e9627086978f988a3d",
+    "explicacao": "Sendo c o preço do quilo da carne e f o do frango, tem-se 2c + f = 92 e c + 3f = 76. Da segunda equação, c = 76 − 3f; substituindo na primeira, 2(76 − 3f) + f = 92, o que dá 152 − 5f = 92, logo f = 12 e c = 40. Assim, 1 kg de carne mais 1 kg de frango custaria 40 + 12 = R$ 52,00; as opções R$ 50,00 e R$ 54,00 correspondem a erros de conta na substituição.",
+    "fundamento": "Sistema de equações do 1º grau com duas incógnitas, resolvido por substituição."
+  },
+  {
+    "hash": "81ab298d29d8ee3dd90712dec575f448",
+    "explicacao": "O texto trata do aproveitamento do conhecimento indígena sobre a floresta na montagem da economia extrativista colonial, durante o processo de conquista do território — o contexto da coleta das drogas do sertão, nos séculos XVII e XVIII. C é o distrator mais forte: a borracha também foi economia extrativista, mas ocorreu no século XIX, com outra base produtiva (o látex e o seringueiro), já depois da fase de conquista descrita. A, D e E erram a época e o modelo, pois não havia economia “autônoma” no século XVI e as economias de enclave são típicas do século XX, não do XXI.",
+    "fundamento": "Formação socioespacial da Amazônia: economia extrativista colonial das drogas do sertão (séculos XVII e XVIII), apoiada no conhecimento indígena dos ciclos naturais; borracha no século XIX."
+  },
+  {
+    "hash": "505b3cc06c5c82dc7bf37738cf6bad95",
+    "explicacao": "I, II e III estão corretas, o que leva à opção E. A afirmativa I decorre da própria definição transcrita, que prevê a criação de um “centro industrial, comercial e agropecuário”, e a ZFM efetivamente instalou um parque industrial diversificado na região. II e III completam esse balanço positivo dos incentivos fiscais, que atraíram investimentos e empregos e elevaram a renda e a remuneração do trabalho na região industrial. Por isso erram as opções que excluem qualquer dos três itens, já que nenhuma afirmativa é falsa.",
+    "fundamento": "Política de incentivos fiscais da Zona Franca de Manaus (área de livre comércio com incentivos para o desenvolvimento regional) e seus efeitos sobre o parque industrial, a renda e o emprego."
+  },
+  {
+    "hash": "56dfb6d15b3324e17fb4757e3284d379",
+    "explicacao": "A “retomada da colonização” do período pombalino apoiou-se no reforço do mercantilismo: a Companhia Geral de Comércio do Grão-Pará e Maranhão, criada em 1755, recebeu o monopólio do comércio e a incumbência de introduzir escravizados africanos na região, o que corresponde a B. C erra ao atribuir ao Tratado de Madri princípios étnicos e linguísticos, pois o critério adotado foi o uti possidetis, isto é, a posse efetiva da terra. D inverte os fatos, porque as leis de 1755 ampliaram a liberdade dos indígenas e o conflito se deu justamente com os jesuítas, que perderam o controle sobre eles.",
+    "fundamento": "Reformas pombalinas na Amazônia colonial: Companhia Geral de Comércio do Grão-Pará e Maranhão (1755), monopólio mercantilista e tráfico de africanos; Diretório dos Índios; limites por uti possidetis no Tratado de Madri (1750)."
+  },
+  {
+    "hash": "c21cf82db5c5e5bdf02682ef8104c685",
+    "explicacao": "O enunciado descreve um movimento que começa com adesão de parte da elite e se radicaliza com pautas abolicionistas e de distribuição de terras, provocando o afastamento dessa elite: é o roteiro da Cabanagem (1835-1840), no Grão-Pará, que chegou a tomar o poder na província. As referências a “província” e a “Governo Imperial” excluem os levantes coloniais das opções B e D e o movimento de 1924 da opção A, e E (1821) foi um movimento autonomista de elite, sem a radicalização social descrita. A alternativa que mais engana é a Cabanagem ser frequentemente chamada de “Guerra dos Cabanos”, nome que a prova usa aqui.",
+    "fundamento": "História do Grão-Pará/Amazonas: Cabanagem (1835-1840), revolta regencial com participação popular e pauta abolicionista e agrária, dirigida contra o governo imperial."
+  },
+  {
+    "hash": "1bbb7e9385453e169114af59ae2a1f78",
+    "explicacao": "D está correta porque o Clube da Madrugada levou adiante um projeto modernizador e se valeu dos meios da modernidade — imprensa, programas radiofônicos e exibição de filmes sobre suas exposições — para divulgar a produção do grupo e ampliar o público. As demais invertem a relação do clube com as instituições e com a política: ele não era setor educativo da Academia Amazonense de Letras, que criticava justamente pelo atraso cultural, não exigia filiação ao PCB e não se restringia ao circuito erudito de museus e escolas. E também erra ao opor os “madrugadores” ao modernismo, pois foram eles que atualizaram a arte e a literatura do Amazonas em diálogo com as vanguardas.",
+    "fundamento": "Movimento modernista no Amazonas: Clube da Madrugada (1954-1955) e seu Manifesto, com uso dos veículos modernos de difusão cultural (imprensa, rádio, cinema)."
+  },
+  {
+    "hash": "0b437d5c31acf98e7160f66ba04d0c9e",
+    "explicacao": "O clique com o botão direito no ícone fixado abre o menu de contexto (lista de atalhos) da Barra de Tarefas do Windows 10, que oferece o comando para desafixar o aplicativo e uma lista de documentos abertos recentemente pelo Word, de modo que as afirmativas III e IV estão corretas. As afirmativas I e II estão erradas porque o clique direito não abre um documento novo em branco nem minimiza a janela: abrir/focar o aplicativo é ação do clique esquerdo, e minimizar se faz pelo botão da janela ou pelo clique esquerdo no ícone. Por isso a única alternativa que reúne as duas afirmativas verdadeiras é a letra E.",
+    "fundamento": "Windows 10 – Barra de Tarefas: botão direito sobre o ícone de um aplicativo abre a lista de atalhos (jump list), com 'Desafixar da barra de tarefas' e a relação de documentos recentes; o botão esquerdo é que abre ou foca a janela."
+  },
+  {
+    "hash": "b9b7cf180dc7e78d6336feeb55db75e8",
+    "explicacao": "O Chrome permite bloquear cookies, excluí-los automaticamente ao fechar o navegador, apagá-los por período (pela opção de intervalo de tempo em 'Limpar dados de navegação') e removê-los de um site específico (nas configurações do site ou em 'Ver todos os cookies e dados do site'), o que torna corretas as ações 1, 2, 4 e 5. A ação 3 não existe: o navegador oferece exclusão ao fechar, não ao iniciar, e é justamente essa inclusão indevida que torna as alternativas B e E erradas. A alternativa A omite as ações 1 e 5 e a C omite as ações 2 e 5.",
+    "fundamento": "Google Chrome: em Configurações > Privacidade e segurança > Cookies e outros dados do site ficam o bloqueio de cookies, a exclusão ao fechar o navegador e o gerenciamento por site; 'Limpar dados de navegação' permite filtrar o período (última hora, 24 horas, 7 dias, 4 semanas, todo o período)."
+  },
+  {
+    "hash": "97121504e29a677a521120803bd12586",
+    "explicacao": "A troca de '(c)' por '©' é feita por uma regra de AutoCorreção/AutoFormatação ao digitar, cujo ajuste está em Arquivo > Opções > Revisão de Texto > Opções de AutoCorreção, onde Joana pode excluir a entrada da lista de substituições ou desativar a regra. As demais opções não tratam de substituição automática de texto: 'Adicionar Texto' e 'Partes Rápidas' inserem conteúdo pronto, o Dicionário de Sinônimos sugere palavras equivalentes e 'Adicionar ao Dicionário' apenas registra uma palavra para o corretor ortográfico. Por isso a alternativa C é a única que leva ao recurso que produz o efeito indesejado.",
+    "fundamento": "Word 2010 – AutoCorreção: Arquivo > Opções > Revisão de Texto > Opções de AutoCorreção, nas abas 'AutoCorreção' (lista de substituições, como (c) por ©) e 'AutoFormatação ao digitar'."
+  },
+  {
+    "hash": "f9a35c9db26576f1d3e1b863768315ad",
+    "explicacao": "Como C1 contém =A1+B1 (resultado 3) e C2 contém =A2+B2 (resultado 7), ao colar o bloco C1:C2 sobre o intervalo maior D1:F4 o Excel replica o padrão nas três colunas e nas quatro linhas, deslocando as referências relativas: D1 vira =B1+C1 (5), E1 vira =C1+D1 (8) e F1 vira =D1+E1 (13); na linha 2, D2 vira =B2+C2 (11), E2 =C2+D2 (18) e F2 =D2+E2 (29). Nas linhas 3 e 4 o padrão recomeça deslocado a partir de C1/C2, apontando para células vazias, e célula vazia soma zero, por isso F3 exibe 0. Logo F1 = 13, F2 = 29 e F3 = 0 (alternativa D); a alternativa B mostra D1:F1 e a alternativa A mostra D2:F2, ignorando as células pedidas.",
+    "fundamento": "Excel 2010 – referências relativas e colagem em intervalo maior: quando a seleção de destino é múltipla do intervalo copiado, o Excel repete o conteúdo e desloca as referências relativas conforme a posição; célula vazia usada em operação aritmética vale zero."
+  },
+  {
+    "hash": "710854fb55a4311db6dfd5adc23f2748",
+    "explicacao": "Eficiência é a relação entre os recursos aplicados e os resultados obtidos, ou seja, fazer as coisas da melhor forma possível com o mínimo de recursos e sem desperdício, exatamente o que o relatório destaca. Eficácia seria o alcance das metas e objetivos, independentemente do custo, e por isso não corresponde ao texto. Os demais termos não são critérios de desempenho: acessibilidade e legitimidade não medem economia de recursos, e burocratização indica excesso de normas e procedimentos.",
+    "fundamento": "Administração – eficiência x eficácia: eficiência é o uso racional dos recursos (meios), com redução de desperdício; eficácia é o alcance dos objetivos (fins)."
+  },
+  {
+    "hash": "2ed3533d804b17531df7575131705fbf",
+    "explicacao": "Na classificação de habilidades gerenciais de Katz, as habilidades conceituais são as que permitem ver a organização como um todo, pensar de forma abstrata e usar intuição, imaginação e criatividade na análise e na tomada de decisão, precisamente o descrito no enunciado. As habilidades técnicas referem-se ao domínio de métodos, processos e equipamentos, e as interpessoais (humanas) à capacidade de lidar com pessoas e equipes, o que não é o foco do texto. 'Negociadas' e 'formais' não fazem parte dessa classificação.",
+    "fundamento": "Habilidades gerenciais (Katz): técnicas (execução de tarefas especializadas), interpessoais/humanas (relações com pessoas) e conceituais (visão sistêmica, abstração, intuição e criatividade)."
+  },
+  {
+    "hash": "d1df30f7cc42e5d3ef18b7d564cea172",
+    "explicacao": "A organização é a função administrativa que estrutura o trabalho: define processos, divide tarefas, aloca pessoas e recursos e estabelece turnos, que é exatamente o que o gerente fez ao alterar processos de fabricação, atividades e alocação das equipes. O planejamento define objetivos e meios antes da execução, a direção cuida da liderança e da motivação das pessoas no dia a dia e o controle verifica se o executado corresponde ao planejado. Monitoramento não é uma das funções administrativas clássicas, sendo parte do controle.",
+    "fundamento": "Funções administrativas (Fayol): planejar, organizar, dirigir e controlar; organizar significa estruturar recursos e atividades para executar o que foi planejado."
+  },
+  {
+    "hash": "8ecc6f76d2276270da0ff9288e30aa0c",
+    "explicacao": "Divisão do trabalho, designação de tarefas específicas a cada indivíduo, especialização das funções e separação dos poderes são elementos dos princípios da administração formulados pela escola clássica, voltados à obtenção de uma administração eficaz. Não se trata de capacidades de liderança, competências estratégicas, motivação dos empregados ou valores gerenciais, pois esses conceitos descrevem características individuais ou culturais, e não a estruturação racional do trabalho e da autoridade. Por isso a alternativa D é a única que nomeia corretamente esse conjunto.",
+    "fundamento": "Escola clássica da administração (Fayol) – princípios para uma administração eficaz: divisão do trabalho, especialização, autoridade e responsabilidade, unidade de comando e hierarquia."
+  },
+  {
+    "hash": "f93d3d2fb7fe9a5e2ac4c9ba6b3a5910",
+    "explicacao": "Delegação é a transferência de responsabilidades e de autoridade do dono para o gerente geral, que passa a responder pela organização e supervisão da equipe, pelo controle de estoques e pelo fechamento do caixa da nova unidade. Benchmarking é a comparação com práticas de referência de outras organizações, brainstorming é a geração livre de ideias em grupo e kaizen é a melhoria contínua de processos, nenhum deles significando repassar atribuições a um subordinado. 'Dominação' não designa esse ato administrativo.",
+    "fundamento": "Administração – delegação: transferir autoridade e responsabilidade a um subordinado para a execução de tarefas, permanecendo o superior responsável pelo resultado final."
+  },
+  {
+    "hash": "ced573fff19914779c2b0a04c7c61652",
+    "explicacao": "A estrutura matricial combina a dimensão funcional (departamentos) com a dimensão de projeto, de modo que integrantes de áreas diferentes formam uma equipe multidisciplinar temporária e continuam ligados às suas unidades e a outros projetos simultaneamente, gerando a dupla subordinação típica desse modelo. A estrutura funcional agrupa as pessoas apenas por especialidade, a multidivisional se organiza por produtos ou divisões e joint venture é uma parceria entre empresas distintas, enquanto conglomerado é a reunião de empresas independentes. Assim, apenas a alternativa D descreve a estrutura do enunciado.",
+    "fundamento": "Estrutura organizacional matricial: superposição de uma dimensão funcional e uma dimensão de projeto/produto, com autoridade dual e compartilhamento de pessoal entre projetos."
+  },
+  {
+    "hash": "09f2d20ecd289be3af6359756ff65e51",
+    "explicacao": "Indicadores de desempenho global, como satisfação dos acionistas e dos clientes, imagem da organização, retorno sobre o investimento e valor das ações, são monitorados no nível estratégico, que observa a organização como um todo e o longo prazo. O nível tático cuida do controle de áreas e departamentos no médio prazo, e o operacional verifica a execução de tarefas e rotinas do dia a dia com indicadores específicos. 'Funcional' e 'técnico' não nomeiam níveis do controle organizacional cobrados no enunciado.",
+    "fundamento": "Níveis de controle organizacional: estratégico (institucional, desempenho global e longo prazo), tático/departamental (médio prazo, áreas) e operacional (curto prazo, execução de tarefas)."
+  },
+  {
+    "hash": "aae7e1e3337da50c18a0360783246e84",
+    "explicacao": "A busca de atividade ou recompensa alternativa diante da frustração por necessidades não atendidas caracteriza a fuga (também chamada de compensação), em que a pessoa se afasta da fonte de frustração e procura outra forma de satisfação. Agressão é a reação de hostilidade ou ataque contra pessoas ou objetos, e resignação é a aceitação passiva, sem busca de alternativas, o que difere do comportamento descrito. Retroalimentação é informação sobre o desempenho e sinergia é a cooperação cujo resultado supera a soma das partes, conceitos sem relação com a consequência da frustração.",
+    "fundamento": "Comportamento organizacional – consequências da frustração: agressão, fuga/compensação (busca de substituto), resignação, fixação e regressão."
+  },
+  {
+    "hash": "c5630fa6612c8b3aa62f2a834b3f405c",
+    "explicacao": "Recompensas simbólicas são as de natureza social e psicológica, sem caráter financeiro direto, e o exemplo típico é a concessão de títulos e cargos que conferem prestígio social e projeção profissional. As demais alternativas descrevem recompensas materiais ou melhorias nas condições de trabalho — reajuste salarial, saúde do trabalhador, gestão de riscos e ergonomia —, que atendem necessidades básicas e de segurança e não atuam sobre reconhecimento e status. Por isso a alternativa A é a única compatível com o conceito apresentado.",
+    "fundamento": "Recompensas organizacionais: simbólicas (status, prestígio, reconhecimento, títulos) contrapostas a materiais/financeiras (salário, benefícios) e a melhorias das condições físicas do trabalho."
+  },
+  {
+    "hash": "213fbcaa2bf91b8f9c4f4fc5b2359ec2",
+    "explicacao": "A comunicação top-down (descendente) é a que desce dos níveis hierárquicos superiores para os inferiores, como a divulgação de uma nova estratégia pelo executivo principal a todos os funcionários seguindo a cadeia de comando. A comunicação bottom-up (ascendente) faz o caminho inverso, das bases para a direção, e a expressão 'circular ascendente' mistura indevidamente os sentidos do fluxo. 'Direita-esquerda' e 'esquerda-direita' não correspondem às direções de comunicação classificadas na administração, o que exclui as demais alternativas.",
+    "fundamento": "Comunicação organizacional – fluxos: descendente (top-down, da direção para os subordinados), ascendente (bottom-up, dos subordinados para a direção), horizontal e diagonal."
+  },
+  {
+    "hash": "f0c8e8a69a01896df4cf970e08412cbc",
+    "explicacao": "Os ativos evidenciam a aplicação dos recursos da entidade - bens e direitos -, enquanto os passivos revelam as origens desses recursos, ou seja, as obrigações assumidas com terceiros; essa igualdade entre aplicações e origens é a base do balanço patrimonial. A alternativa A erra porque os direitos integram o ativo, não o passivo, que expressa apenas obrigações. A alternativa B também se equivoca ao ligar ativos à posição financeira e passivos ao desempenho financeiro, pois a posição financeira é retratada pelo conjunto do balanço e o desempenho é medido na demonstração do resultado.",
+    "fundamento": "Estrutura conceitual do balanço patrimonial: ativo como aplicação de recursos e passivo mais patrimônio líquido como origens (CPC 26)."
+  },
+  {
+    "hash": "f177f4eacbe140a7bec328f97702f468",
+    "explicacao": "A aquisição de ações da própria companhia à vista reduz o caixa (ativo) e, como as ações em tesouraria são registradas em conta redutora do patrimônio líquido, também diminui o PL, sem afetar o passivo. A alternativa C erra ao falar em aumento do patrimônio líquido, e a B erra ao falar em aumento do ativo, pois não há ingresso de recursos na entidade. A equação fundamental se mantém equilibrada: redução do ativo e redução do PL no mesmo montante.",
+    "fundamento": "Balanço patrimonial e Lei nº 6.404/76: ações em tesouraria como conta redutora do patrimônio líquido; equação Ativo = Passivo + Patrimônio Líquido."
+  },
+  {
+    "hash": "e359acc16d4bb1ee0c1a571aaa1d7a60",
+    "explicacao": "O terreno não está em uso nas atividades nem se destina à venda no curso normal das operações; como é mantido para valorização, classifica-se como propriedade para investimento, no ativo não circulante. A alternativa B erra porque o ativo imobilizado pressupõe uso nas operações ou na administração, e a A porque o ativo circulante exige realização ou consumo em até doze meses. A intangibilidade também não se aplica (C), já que o terreno é um bem corpóreo.",
+    "fundamento": "CPC 28 - Propriedade para Investimento: imóvel mantido para valorização ou para obtenção de renda, não usado na operação nem destinado à venda."
+  },
+  {
+    "hash": "26421288b78682eb6195948bfae815b9",
+    "explicacao": "Na conversão das demonstrações de entidade com moeda funcional que não é de economia hiperinflacionária, as variações cambiais apuradas são reconhecidas em outros resultados abrangentes, o que torna correto apenas o item I. O item II está errado porque ativos e passivos de cada balanço apresentado devem ser convertidos pela taxa de fechamento da respectiva data, e não pelas taxas das datas das transações. O item III também está errado, pois receitas e despesas devem ser convertidas pelas taxas vigentes nas datas das transações, e não pela taxa de fechamento.",
+    "fundamento": "CPC 02 (R2) - Efeitos das mudanças nas taxas de câmbio e conversão de demonstrações contábeis: conversão para moeda de apresentação."
+  },
+  {
+    "hash": "13346c7562c539d33b685243ea9d3e61",
+    "explicacao": "De 01/01/X0 a 31/03/X1 o custo de R$ 40.000 foi depreciado por 15 meses de 60 (R$ 10.000), restando R$ 30.000 de valor contábil. Com a revisão, o valor residual de R$ 900 por computador (R$ 9.000 no total) e a nova vida de 21 meses (de 31/03/X1 a 31/12/X2) resultam em R$ 1.000 por mês, o que dá R$ 9.000 nos 9 meses de X1 e depreciação acumulada de R$ 19.000. As licenças antivírus não entram nesse cálculo porque são ativo intangível, e as demais opções desconsideram a nova vida útil e o valor residual, que devem ser aplicados de forma prospectiva.",
+    "fundamento": "CPC 27 - Ativo Imobilizado (depreciação) e CPC 23 - mudança de estimativa contábil aplicada prospectivamente."
+  },
+  {
+    "hash": "a5b11fc5441c373fa3c2639178c9f38c",
+    "explicacao": "O custo do imobilizado inclui o preço de aquisição (R$ 50.000) e os custos diretamente atribuíveis para colocar o ativo em funcionamento: frete (R$ 1.000), seguro de transporte (R$ 2.000) e instalação (R$ 3.000), totalizando R$ 56.000. Em X1 e X2 a máquina trabalhou 55.000 das 80.000 horas estimadas, gerando depreciação de R$ 38.500 e valor contábil de R$ 17.500; vendida por R$ 30.000, a operação produz ganho de R$ 12.500 na demonstração do resultado. A alternativa E, com lucro de R$ 14.375, considera apenas os R$ 50.000 da nota fiscal e exclui os custos necessários à colocação do ativo em uso.",
+    "fundamento": "CPC 27 - Ativo Imobilizado: custo de aquisição inclui custos diretamente atribuíveis; depreciação pelo método de unidades produzidas (horas trabalhadas)."
+  },
+  {
+    "hash": "9e10b7cbfb8941e03ba16f744474df53",
+    "explicacao": "Os juros pagos em empréstimos bancários constituem despesa financeira e, na demonstração do resultado, integram o resultado financeiro da entidade, sendo apresentados como despesas financeiras. A alternativa E erra porque deduções da receita são apenas tributos sobre vendas, devoluções e descontos incondicionais. As alternativas A e B são genéricas e não identificam a linha própria do grupo financeiro, já que outras despesas operacionais abrigam itens atípicos e não o custo do financiamento.",
+    "fundamento": "CPC 26 (R1) - Apresentação das Demonstrações Contábeis: despesas financeiras no resultado financeiro da DRE."
+  },
+  {
+    "hash": "9dac184b7ed8eb0ed0e6ae7fed8cd981",
+    "explicacao": "O CPC 03 permite que os juros recebidos de aplicações financeiras sejam classificados como fluxo de caixa das atividades operacionais ou das atividades de investimento, desde que a escolha seja aplicada de forma consistente. Não cabe a classificação como atividade de financiamento, o que afasta a alternativa D, e tampouco é obrigatório tratá-los exclusivamente como investimento, o que afasta a B. A alternativa A erra ao restringir o reconhecimento à atividade operacional.",
+    "fundamento": "CPC 03 (R2) - Demonstração dos Fluxos de Caixa: juros e dividendos recebidos podem ser classificados como atividades operacionais ou de investimento."
+  },
+  {
+    "hash": "9d5ceef482a605cab0963f1a0251ae08",
+    "explicacao": "Compõem o ativo circulante o caixa de R$ 50.000, os estoques líquidos de R$ 4.000 de perdas (R$ 36.000), os clientes líquidos de R$ 3.000 de perdas estimadas com crédito de liquidação duvidosa (R$ 57.000) e a parcela do aluguel pago antecipadamente apropriável em 12 meses (R$ 24.000), totalizando R$ 167.000. O empréstimo a diretor não entra no circulante, pois os direitos contra diretores e acionistas são classificados no realizável a longo prazo, o que explica os R$ 192.000 da alternativa D. A receita de vendas recebida antecipadamente é passivo e o terreno mantido para valorização é propriedade para investimento do ativo não circulante.",
+    "fundamento": "Balanço patrimonial: Lei nº 6.404/76, art. 179 e CPC 26 (R1) - ativo circulante com realização em até doze meses; créditos com diretores no realizável a longo prazo."
+  },
+  {
+    "hash": "bb220576dabe75934aeaefde42299efa",
+    "explicacao": "A característica qualitativa que exige que a informação esteja disponível aos usuários antes de perder sua capacidade de ser útil para prestação de contas e tomada de decisão é a tempestividade. A relevância (A) se refere à capacidade de a informação ter valor confirmatório ou preditivo e influenciar decisões, enquanto a representação fidedigna (E) diz respeito à fidelidade da representação dos fenômenos retratados. Verificabilidade e compreensibilidade também são características de melhoria, mas não tratam do prazo de disponibilização da informação.",
+    "fundamento": "NBC TSP - Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público: tempestividade como característica qualitativa de melhoria."
+  },
+  {
+    "hash": "288565bde84b04dbaf56c86d1945212e",
+    "explicacao": "A Constituição veda a prisão civil por dívida, ressalvando apenas a hipótese de inadimplemento voluntário e inescusável de obrigação alimentícia, conforme o art. 5º, LXVII, da CF/88. Embora o texto constitucional ainda mencione o depositário infiel, o Supremo Tribunal Federal firmou que é ilícita a prisão civil do depositário infiel em qualquer modalidade de depósito, o que invalida a alternativa C. A alternativa A erra ao negar a ressalva da dívida alimentar, e a D ao pretender autorizar prisão por qualquer dívida com ordem judicial.",
+    "fundamento": "CF/88, art. 5º, LXVII; Súmula Vinculante 25 do STF."
+  },
+  {
+    "hash": "8c8781576582a4fc6d5e229462d3b3f9",
+    "explicacao": "A igualdade formal, perante a lei, convive com a igualdade material, que autoriza tratamento diferenciado para corrigir desigualdades de fato; as ações afirmativas usam justamente essa diferenciação legal para produzir isonomia substancial, de modo que Joana está certa e Maria errada. Maria se equivoca ao afirmar que a lei nunca pode tratar as pessoas de modo diferenciado, independentemente das razões. A alternativa D erra ao dizer que as duas estudiosas estão totalmente certas, pois as premissas de Maria e de Joana são incompatíveis entre si.",
+    "fundamento": "CF/88, art. 5º, caput (isonomia) e art. 3º, III (redução das desigualdades sociais); igualdade material e ações afirmativas."
+  },
+  {
+    "hash": "e5d6c4281610af53d2ab07b5b958354e",
+    "explicacao": "Os direitos sociais, em regra, são normas de eficácia limitada, que dependem de integração pela legislação infraconstitucional para produzir todos os seus efeitos e tornar exigível a prestação estatal. A alternativa A erra ao falar em eficácia plena e a D ao equipará-los aos direitos de defesa, que são liberdades de abstenção, de aplicação imediata. A alternativa E também está errada, pois a exigibilidade sofre a influência de condicionantes orçamentárias, ligadas à reserva do possível.",
+    "fundamento": "CF/88, art. 6º e classificação dos direitos sociais como normas de eficácia limitada (programáticas)."
+  },
+  {
+    "hash": "620f9d1c852356f989750fa9ecdf0c3b",
+    "explicacao": "O mandado de injunção é a ação constitucional cabível para viabilizar o exercício de direito, liberdade ou prerrogativa inerente à nacionalidade, à soberania e à cidadania quando falta norma regulamentadora, exatamente a situação de Maria. A ação direta de inconstitucionalidade por omissão (B) é instrumento abstrato de controle concentrado, sem aptidão para satisfazer a prerrogativa individual. A arguição de descumprimento de preceito fundamental e a reclamação constitucional também não servem ao caso concreto descrito.",
+    "fundamento": "CF/88, art. 5º, LXXI - mandado de injunção."
+  },
+  {
+    "hash": "415341a9a2fc2fb879f94fe2ca3bf6a2",
+    "explicacao": "A condenação criminal transitada em julgado suspende os direitos políticos enquanto durarem os efeitos da pena, e o livramento condicional não extingue a pena, apenas antecipa a liberdade, de modo que a suspensão permanece: José não pode votar nem ser votado. A alternativa A erra ao afirmar que ele está no gozo dos direitos políticos, e a E ao tratar o caso como simples falta de condição de elegibilidade. Também não há que falar em suspensão que preserve o direito de votar, como sugere a alternativa D.",
+    "fundamento": "CF/88, art. 15, III - suspensão dos direitos políticos por condenação criminal transitada em julgado, enquanto durarem seus efeitos."
+  },
+  {
+    "hash": "740cdc337e8059d5fdeddc657e9048d5",
+    "explicacao": "O decreto cria discriminação entre moradores e não moradores para o acesso a locais privados, restringindo a isonomia e o direito de locomoção sem qualquer base constitucional que a autorize. A alternativa A erra ao reduzir o vício a uma questão de competência, pois o conteúdo da medida é materialmente incompatível com a Constituição, e não apenas formal. A alternativa C também erra ao condicionar a validade somente à veracidade dos motivos invocados, que não legitima o tratamento diferenciado.",
+    "fundamento": "CF/88, art. 5º, caput (igualdade) e direito de locomoção; competência municipal limitada ao interesse local (art. 30)."
+  },
+  {
+    "hash": "c069920c1fc6a4b3384c6ce27cac9b63",
+    "explicacao": "Os Municípios são entes autônomos nos termos da própria Constituição da República, que fixa os limites dessa autonomia política, de modo que a Constituição Estadual não pode reduzi-la para além dos balizamentos constitucionais. A alternativa B erra ao supor que a Constituição Estadual pode dispor sobre todas as matérias afetas aos Municípios, e a A erra ao negar qualquer força normativa da Constituição Estadual sobre eles, quando ela pode atuar apenas nos limites da CF. A alternativa C também é incorreta, pois a Constituição Estadual não é cópia exata da Constituição Federal.",
+    "fundamento": "CF/88, art. 18 e arts. 29 e 30 - autonomia político-administrativa dos Municípios."
+  },
+  {
+    "hash": "658aa79bb63b90090c472b2bc85d4bd8",
+    "explicacao": "O servidor público investido no mandato de Prefeito fica afastado do cargo de provimento efetivo durante o mandato, sendo-lhe facultado optar pela sua remuneração, conforme o art. 38, II, da CF/88. A alternativa E erra porque a compatibilidade de horários permite a permanência no cargo apenas no caso de mandato de Vereador, e não de Prefeito. Demissão, aposentadoria e passagem à reserva remunerada são institutos distintos, e a reserva remunerada é própria dos militares, não do policial civil.",
+    "fundamento": "CF/88, art. 38, II - afastamento do servidor investido no mandato de Prefeito."
+  },
+  {
+    "hash": "806e8c6402185ea456587d213da18761",
+    "explicacao": "A preservação da incolumidade das pessoas e do seu patrimônio nas vias públicas corresponde à segurança viária, que a Constituição atribui, no âmbito dos Estados, do Distrito Federal e dos Municípios, aos respectivos órgãos ou entidades executivos e seus agentes de trânsito, estruturados em carreira. Por isso a alternativa D erra ao dizer que a atividade é exclusiva de policiais militares, e a C ao atribuí-la privativamente aos Municípios, cujas guardas municipais têm destinação diversa. A alternativa A também erra ao condicionar o exercício a convênio entre Estado e Municípios.",
+    "fundamento": "CF/88, art. 144, §10 - segurança viária e agentes de trânsito estruturados em carreira."
+  },
+  {
+    "hash": "e7df1b0f6f7608c942b4e4289b11d905",
+    "explicacao": "A irredutibilidade do valor dos benefícios é diretriz constitucional da seguridade social, ao lado da universalidade e da uniformidade, de modo que lei federal não pode autorizar a redução dos valores de benefícios assistenciais. A alternativa C erra ao tratar a proporcionalidade como autorização genérica para reduzir benefícios, e a D erra ao afirmar que o valor está fixado na própria Constituição, quando o que a CF estabelece é a vedação à redução. Já a alternativa B confunde a fixação do valor com o simples juízo de maiorias ocasionais, que não afasta a diretriz constitucional.",
+    "fundamento": "CF/88, art. 194, parágrafo único, IV - irredutibilidade do valor dos benefícios da seguridade social."
+  },
+  {
+    "hash": "3ab1f24a12f0e2a29d65a411f81981cd",
+    "explicacao": "Quem oferece vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício pratica corrupção ativa, e não corrupção passiva, que é o crime do funcionário que solicita ou recebe a vantagem. A corrupção ativa é crime formal: consuma-se com a simples oferta, ainda que o funcionário a recuse, como ocorreu quando Sandro ofereceu R$ 5.000,00 ao policial Robson. Por isso está correta a letra E, e erram as alternativas A e B, que atribuem corrupção passiva a Sandro, e a C, que fala em tentativa e em crime material.",
+    "fundamento": "CP, art. 333 (corrupção ativa); CP, art. 317 (corrupção passiva)"
+  },
+  {
+    "hash": "599dce40811a23610c8a4a4976a2c783",
+    "explicacao": "Com a Lei 13.964/2019, o estelionato passou a exigir representação do ofendido, salvo quando a vítima for a Administração Pública direta ou indireta, criança ou adolescente, pessoa com deficiência mental, maior de 70 anos ou incapaz. A lista é taxativa e o critério etário é 70 anos, não 60, de modo que o estelionato contra pessoa maior de 60 anos não está entre as hipóteses de ação penal pública incondicionada. Logo, a alternativa D é a correta, enquanto A, B, C e E reproduzem casos expressamente previstos no dispositivo.",
+    "fundamento": "CP, art. 171, § 5º (ação penal pública condicionada à representação — Lei 13.964/2019)"
+  },
+  {
+    "hash": "91f08c6005ad6368c461bebd88f15b82",
+    "explicacao": "A imputabilidade é excluída pela doença mental e pelo desenvolvimento mental incompleto ou retardado, pela menoridade e pela embriaguez completa decorrente de caso fortuito ou força maior, exatamente o conjunto da alternativa C. A alternativa B erra ao trazer embriaguez acidental incompleta, que apenas reduz a pena, e obediência hierárquica, que exclui a culpabilidade mas não a imputabilidade; a A inclui coação física irresistível, que afasta a própria conduta. A D e a E misturam institutos de exclusão da culpabilidade (coação moral irresistível, erro de proibição) e da ilicitude (exercício regular de direito).",
+    "fundamento": "CP, arts. 26, 27 e 28, § 1º"
+  },
+  {
+    "hash": "7101d5354caf561f92c492468af1afee",
+    "explicacao": "Na redação dada pela Lei 13.964/2019, o art. 112 da LEP exige 50% da pena para o condenado por exercer comando, individual ou coletivo, de organização criminosa estruturada para crime hediondo ou equiparado, e não 60%, como afirma a alternativa C. Os 60% são reservados ao reincidente em crime hediondo ou equiparado e os 70% ao reincidente em hediondo com resultado morte. As demais alternativas estão corretas: 16% para o primário em crime sem violência ou grave ameaça, 20% para o reincidente nessa mesma categoria, 40% para o primário em crime hediondo e 70% para o reincidente em hediondo com morte.",
+    "fundamento": "LEP (Lei 7.210/1984), art. 112, I, II, V, VI, b, VII e VIII"
+  },
+  {
+    "hash": "a2df0697ea51d39f726c77a63bd55e64",
+    "explicacao": "Houve uma só ação (o disparo) produzindo dois resultados, homicídio doloso qualificado e lesão corporal culposa em terceiro, o que configura concurso formal, e não concurso material nem crime continuado. Como não havia desígnios autônomos quanto à lesão culposa, a regra seria a pena do crime mais grave com aumento de 1/6, mas esse acréscimo levaria a pena acima do somatório das penas dos dois crimes. Incide então o parágrafo único do art. 70 do CP, que impede que a pena do concurso formal supere a do concurso material, razão pela qual a resposta é a letra E; a letra C só valeria em caso de desígnios autônomos, o que não ocorre com resultado culposo.",
+    "fundamento": "CP, art. 70, caput e parágrafo único"
+  },
+  {
+    "hash": "90b6c6cf505745a2483644c17d84cae3",
+    "explicacao": "José dirigia regularmente e a vítima atravessou a estrada alcoolizada, de modo que não há conduta culposa na direção a caracterizar o homicídio culposo do art. 302 do CTB. O dever de socorrer a vítima do acidente, porém, é autônomo e independe de culpa pela colisão: ao prosseguir viagem mesmo tendo um posto da Polícia Rodoviária a 20 minutos do local, José deixou de prestar socorro e de solicitar auxílio da autoridade pública, incidindo no art. 304 do CTB. Por isso a letra B é a correta; a A e a D invocam o art. 135 do CP, que é norma geral afastada pela norma especial do CTB, e a C pressupõe homicídio culposo inexistente.",
+    "fundamento": "CTB, art. 304; CTB, art. 302; CP, art. 135"
+  },
+  {
+    "hash": "d20a734bf913bbb0cf6215045229b8b9",
+    "explicacao": "A privação da liberdade de Maria por três dias, retirada à força para um sítio em local ermo, configura sequestro e cárcere privado, pois houve efetiva restrição da liberdade de locomoção. A exigência de que ela aceitasse a relação sexual para ser liberada ficou nos atos preparatórios do estupro, sem início de execução, e não se amolda à importunação sexual, que exige ato libidinoso, não mera imposição de condição. Por isso a letra C é correta e erram A, B e D, que negam o crime ou falam em tentativa.",
+    "fundamento": "CP, art. 148; CP, arts. 213 e 215-A"
+  },
+  {
+    "hash": "54189ba6e79cb8f4a46f1e25bbb157f0",
+    "explicacao": "A retratação prevista no art. 143 do CP isenta de pena apenas nos crimes de calúnia e difamação, desde que seja cabal e anterior à sentença, o que pode ocorrer depois da citação. Assim, o pedido de desculpas de Daniel pode extinguir a punibilidade somente quanto à difamação, não quanto à injúria, o que confirma a letra A. A letra B erra ao exigir a retratação antes da citação, a C erra ao estender o efeito à injúria, e a D e a E erram porque o perdão do ofendido é ato bilateral, que não produz efeito se recusado pelo querelado.",
+    "fundamento": "CP, art. 143; CP, art. 106, III"
+  },
+  {
+    "hash": "e5ffcb5151ac1d3f6e417f7fddf11acd",
+    "explicacao": "O art. 67 do CP define como circunstâncias preponderantes no concurso de agravantes e atenuantes as que resultam dos motivos determinantes do crime, da personalidade do agente e da reincidência. A alternativa E troca a reincidência pelas consequências do crime, que são circunstância judicial do art. 59, e por isso é a afirmativa incorreta. As demais estão corretas: a reincidência é valorada na segunda fase, as agravantes não elevam a pena acima do máximo e o art. 68, parágrafo único, permite aplicar uma só causa de aumento ou diminuição da parte especial, prevalecendo a que mais aumente ou diminua.",
+    "fundamento": "CP, arts. 67, 68, parágrafo único, e 59"
+  },
+  {
+    "hash": "4a412f145635d8dd83b08f3ec09d50e6",
+    "explicacao": "A conduta descrita amolda-se ao crime de omissão de notificação de doença, que pune o médico que deixa de denunciar à autoridade pública doença de notificação compulsória, exatamente o que fez Leonardo ao não informar o número e o quadro dos pacientes infectados por Covid-19. A epidemia exige conduta apta a causar perigo de epidemia e não se confunde com a omissão de notificação, e a prevaricação exige interesse pessoal ou sentimento íntimo não descrito no caso. A desobediência e o perigo de contágio de moléstia grave também não se ajustam aos fatos, sendo correta a letra D.",
+    "fundamento": "CP, art. 269"
+  },
+  {
+    "hash": "c9dc80e223a4bb30856cee775299f509",
+    "explicacao": "A autoridade policial não pode arquivar o inquérito, pois o arquivamento é promovido pelo Ministério Público perante a autoridade competente. Uma vez arquivado, o procedimento pode ser desarquivado e as investigações retomadas se surgirem novas provas, conforme a Súmula 524 do STF, que é justamente o que afirma a letra D. As letras A e B erram ao atribuir ao delegado o poder de arquivar, e a E erra ao negar o desarquivamento diante de novas provas.",
+    "fundamento": "CPP, art. 17; Súmula 524 do STF"
+  },
+  {
+    "hash": "603198f7dd10f5174eb81a3fc347b145",
+    "explicacao": "Estando o indiciado preso preventivamente, o inquérito deve terminar em 10 dias, contados da execução da ordem de prisão. O prazo de 30 dias, prorrogável por igual período, aplica-se ao inquérito quando o investigado está solto, o que não é o caso. As alternativas A, B e E (15 dias, com prorrogação) e C (90 dias) não têm previsão legal para a hipótese, sendo correta a letra D.",
+    "fundamento": "CPP, art. 10"
+  },
+  {
+    "hash": "15090b61b4f2a22ac896834ec73c1cf7",
+    "explicacao": "Quando os policiais já acompanham a ação criminosa em curso e retardam a prisão em flagrante, comunicando previamente o juízo competente, tem-se o flagrante diferido, também chamado de prorrogado, modalidade ligada à ação controlada prevista na Lei 12.850/2013. Não se trata de flagrante preparado, em que o agente é induzido a praticar o crime, nem de flagrante presumido ou forjado. Por isso a resposta é a letra E.",
+    "fundamento": "Lei 12.850/2013, art. 8º (ação controlada)"
+  },
+  {
+    "hash": "eb7865891fa6f76a034aeb2c252fe618",
+    "explicacao": "Com a Lei 13.964/2019, o art. 311 do CPP passou a exigir, para a prisão preventiva, requerimento do Ministério Público, do querelante ou do assistente, ou representação da autoridade policial, sendo vedada a decretação de ofício pelo juiz. Logo, a prisão preventiva decretada de ofício pelo magistrado que recebeu a denúncia é ilegal, o que torna correta a letra A. A letra B erra porque o problema não é a pena mínima, e as letras C, D e E admitem indevidamente a iniciativa do juiz em alguma fase, em contrariedade ao sistema acusatório.",
+    "fundamento": "CPP, art. 311 (redação da Lei 13.964/2019)"
+  },
+  {
+    "hash": "9dd0be06a0a92e93eb4e359fd6ca4d29",
+    "explicacao": "A autorização judicial para interceptação valia por 15 dias e sua continuidade dependia de nova decisão, que não houve; assim, a escuta do 16º dia é prova ilícita. Como a busca e apreensão foi requerida a partir da informação obtida nessa escuta vencida, os documentos apreendidos são prova ilícita por derivação, inadmissíveis pela teoria dos frutos da árvore envenenada. Não há fonte independente nem descoberta inevitável, pois o conhecimento nasceu da diligência ilegal, sendo correta a letra C e erradas as letras A, B e E.",
+    "fundamento": "CF, art. 5º, LVI; CPP, art. 157"
+  },
+  {
+    "hash": "0c873b557b1be636fbc1f4bbc3a5d0ad",
+    "explicacao": "O ato foi praticado por agente sem competência, mas o vício de competência é sanável quando não há prejuízo a terceiros e o interesse público recomenda a manutenção, hipótese em que a própria Administração pode convalidar o ato mediante confirmação, com efeitos retroativos (ex tunc). É exatamente o que diz a letra D. As letras A e B tratam o vício como insanável e propõem revogação ou anulação, enquanto a C e a E erram ao falar em vício de forma, em ratificação ou homologação e em efeitos ex nunc.",
+    "fundamento": "Lei 9.784/1999, art. 55"
+  },
+  {
+    "hash": "58d437e9f1f181a432a8d6f3bb3bf5b5",
+    "explicacao": "O art. 41, § 1º, da Constituição prevê que o servidor estável só perde o cargo por sentença judicial transitada em julgado, por processo administrativo com ampla defesa ou por avaliação periódica de desempenho na forma de lei complementar, assegurada ampla defesa. A letra A corresponde à segunda hipótese. A letra E erra porque não basta a confirmação em segunda instância; a C erra ao falar em sindicância sumária, e a D erra ao dispensar a ampla defesa e a lei complementar.",
+    "fundamento": "CF, art. 41, § 1º"
+  },
+  {
+    "hash": "28add1fffe360a832c162357205c46a2",
+    "explicacao": "As correições, ordens de serviço e medidas voltadas a reduzir gastos e melhorar o desempenho funcional realizam o princípio expresso da eficiência, que impõe qualidade e economicidade na prestação do serviço público. Eficácia, celeridade e produtividade são apenas critérios decorrentes desse princípio, e a impessoalidade se refere à finalidade pública e à vedação de favorecimentos, não ao desempenho buscado. Por isso a resposta é a letra E.",
+    "fundamento": "CF, art. 37, caput (princípio da eficiência, EC 19/1998)"
+  },
+  {
+    "hash": "9b2094266f27015d0e63b3b1fb5706ff",
+    "explicacao": "A edição de ato geral e abstrato para complementar e minudenciar a lei é manifestação do poder normativo (regulamentar) da Administração, que é subordinado à lei e não pode contrariá-la, sob pena de invalidação, como afirma a letra D. A letra A confunde o poder normativo com o poder de polícia; a C trata o poder hierárquico como estruturação externa, quando ele é interno; a E confunde-o com o poder disciplinar, e a B invoca um poder de segurança pública que não é espécie de poder administrativo.",
+    "fundamento": "poder normativo/regulamentar da Administração Pública e princípio da legalidade"
+  },
+  {
+    "hash": "69849697147db5133a596b2ffdc0cd32",
+    "explicacao": "O art. 129, VII e VIII, da CF atribui ao Ministério Público o controle externo da atividade policial e a prerrogativa de requisitar diligências investigatórias e a instauração de inquérito policial, indicados os fundamentos jurídicos de suas manifestações processuais. A letra C reproduz o texto constitucional. A letra A atribui essa função ao Tribunal de Contas, e as letras B, D e E a atribuem, respectivamente, ao Judiciário, à Defensoria e ao Legislativo, sem previsão no art. 129 da Constituição.",
+    "fundamento": "CF, art. 129, VII e VIII"
+  },
+  {
+    "hash": "a720caa31ca592ed4cebeeda286b1684",
+    "explicacao": "Após a Lei 14.230/2021, o art. 3º, § 1º, da Lei 8.429/1992 passou a dispor que sócios, cotistas, diretores e colaboradores de pessoa jurídica de direito privado não respondem pelo ato de improbidade imputado à pessoa jurídica, salvo se, comprovadamente, houver participação e benefícios diretos, caso em que responderão nos limites de sua participação. A letra E reproduz a regra. As letras A e B dizem que particulares nunca respondem; a C dispensa a participação e os benefícios, e a D desloca a imputação para a pessoa jurídica, todas em desacordo com o dispositivo.",
+    "fundamento": "Lei 8.429/1992, art. 3º, § 1º (redação da Lei 14.230/2021)"
+  },
+  {
+    "hash": "4ecd160e1586282df8dbc578aa48f4e1",
+    "explicacao": "Na Lei 14.133/2021, o pregão é a modalidade de licitação destinada à aquisição de bens e à contratação de serviços comuns, cujo critério de julgamento pode ser o menor preço ou o maior desconto. A letra B corresponde a essa definição. Concorrência, concurso, leilão e diálogo competitivo têm objetos e critérios próprios e não se destinam à contratação de bens e serviços comuns com esses critérios, como descrito no enunciado.",
+    "fundamento": "Lei 14.133/2021, art. 6º, XLI"
+  },
+  {
+    "hash": "69eb7ff6511f00429dca13b18da36271",
+    "explicacao": "A responsabilidade civil do Estado por morte de preso é objetiva e fundada no dever específico de proteção, mas, como toda responsabilidade objetiva, exige nexo de causalidade. Comprovado o suicídio e afastada a inobservância do dever de proteção, há causa impeditiva da atuação estatal protetiva e o nexo causal é rompido, o que afasta a pretensão, como afirma a letra D. A letra A ignora o nexo causal, a B e a C discutem dolo ou culpa de agentes, e a E é excessivamente absoluta, pois o Estado pode responder quando houver falha no dever de proteção.",
+    "fundamento": "CF, arts. 5º, XLIX, e 37, § 6º"
+  },
+  {
+    "hash": "7a73fc3ededa4ceb6c7834825c4cb50d",
+    "explicacao": "O art. 26 da Lei 13.146/2015 determina que os casos de suspeita ou confirmação de violência contra pessoa com deficiência sejam objeto de notificação compulsória pelos serviços de saúde públicos e privados à autoridade policial e ao Ministério Público, além dos Conselhos dos Direitos da Pessoa com Deficiência. A letra D reproduz a regra. É irrelevante que o hospital seja privado ou que a violência tenha ocorrido em local privado (A e B), e não se exige manifestação de representação da vítima para a notificação (C e E).",
+    "fundamento": "Lei 13.146/2015, art. 26"
+  },
+  {
+    "hash": "d821e88a215240f982196d36c2460ff4",
+    "explicacao": "No Estatuto da Polícia Civil do Amazonas, a insubordinação grave em serviço é punida com demissão, aplicada após regular processo administrativo disciplinar. A gravidade concreta da conduta, que frustrou operação de cumprimento de mandados de prisão preventiva e de busca e apreensão, confirma a sanção mais severa, e por isso a letra E é a correta. Advertência, repreensão e suspensão são penas reservadas a faltas menos graves e não se ajustam ao caso.",
+    "fundamento": "Lei Estadual nº 2.271/1994 (AM), art. 47, VI"
+  }
+]
