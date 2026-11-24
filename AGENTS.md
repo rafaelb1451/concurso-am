@@ -57,6 +57,22 @@ frontend/src/App.tsx, api.ts, index.css
 - Próximo passo combinado: extrair as provas reais da FGV (PM-AM 2022, PC-AM 2021) para calibrar
   as autorais lado a lado.
 
+## Fontes primárias de legislação (`docs/legislacao/`)
+
+Textos oficiais baixados do portal **Legisla.Am** (Imprensa Oficial do AM) por
+`tools/baixar-legislacao.py`. **É contra eles que questões de Legislação Institucional devem ser
+conferidas** — antes de afirmar qualquer artigo, leia o dispositivo no arquivo.
+
+| Arquivo | Norma |
+|---|---|
+| `lei-3514-2010.txt` | Lei 3.514/2010 — organização básica da PMAM (55 artigos) |
+| `constituicao-estado-amazonas.txt` | Constituição do Estado do Amazonas (456 artigos) |
+| `lei-4-044-2014.txt` | Lei 4.044/2014 — carreira e promoção de praças (32 artigos) |
+
+**Falta**: Lei 1.154/75 (Estatuto dos Policiais Militares do AM) — não está digitalizada na base
+(o portal salta da lei 1.147 para a 1.158 em 1975). Questões sobre situação funcional, licença
+especial, círculos hierárquicos e deveres éticos dependem dela e são marcadas como **sem fonte**.
+
 ## Critérios jurídicos (obrigatório — ver `docs/criterios-juridicos.md`)
 
 **O alvo são cargos não privativos do Direito** (Soldado PM-AM, Investigador PC-AM): a FGV cobra

@@ -278,7 +278,7 @@
       "por transferência para a reserva remunerada, que também é forma de promoção."
     ],
     "correta": 2,
-    "explicacao": "A Lei Estadual 4.044/2014 prevê a promoção de praças por antiguidade, por merecimento e por bravura. A bravura distingue-se por decorrer de ato de excepcional valor, admitindo a antecipação da promoção em relação a militares que precedem o agraciado na ordem de antiguidade (letra C). As letras A e D trocam as modalidades; a letra B cria promoção por conveniência política, inexistente na lei; e a letra E confunde promoção com passagem à inatividade.",
+    "explicacao": "A Lei Estadual 4.044/2014 prevê a promoção de praças por antiguidade, por merecimento e por bravura. A bravura distingue-se por decorrer de ato de excepcional valor, admitindo a antecipação da promoção em relação a militares que precedem o agraciado na ordem de antiguidade (letra C). As letras A e D trocam as modalidades; a letra B cria promoção por conveniência política, inexistente na lei; e a letra E confunde promoção com passagem à inatividade. A alternativa D erra ao falar em merecimento: nas praças, a Lei 4.044/2014 (art. 5º) prevê apenas promoção por antiguidade, bravura, especial e post mortem — merecimento é critério da carreira de oficiais.",
     "concursos": [
       "PM-AM"
     ],
@@ -319,18 +319,18 @@
     "ano": null,
     "orgao": null,
     "cargo": null,
-    "fundamento": "Lei Estadual 4.044/2014 (promoção de praças na PMAM) – promoção por merecimento",
+    "fundamento": "Promoção de oficiais: critérios de antiguidade e merecimento (Lei Estadual 1.154/75). Atenção: para praças, a Lei 4.044/2014, art. 5º, prevê apenas antiguidade, bravura, promoção especial e post mortem — não há promoção por merecimento.",
     "dificuldade": 2,
-    "enunciado": "A promoção por merecimento distingue-se da promoção por antiguidade porque:",
+    "enunciado": "Na carreira de oficiais da Polícia Militar, a promoção por merecimento distingue-se da promoção por antiguidade porque:",
     "alternativas": [
       "exige que o militar seja o mais antigo do quadro.",
-      "considera o conjunto de condições de mérito do militar, como desempenho, cursos e conceito, e pode alcançar militar situado depois na ordem de antiguidade.",
+      "considera o conjunto de condições de mérito do militar, como desempenho, cursos e conceito, podendo alcançar militar que não é o mais antigo do quadro.",
       "é decidida por sorteio entre os concorrentes.",
       "só é admitida quando não houver militar habilitado por bravura.",
       "não depende de existência de vaga na graduação superior."
     ],
     "correta": 1,
-    "explicacao": "Na promoção por merecimento, a Administração avalia condições de mérito do militar, como desempenho, cursos e conceito, escolhendo entre os habilitados; por isso o promovido pode estar colocado depois de outro na ordem de antiguidade (letra B). A letra A descreve a promoção por antiguidade; a letra C cria sorteio; a letra D estabelece preferência inexistente; e a letra E afasta requisito inerente à promoção, que preenche vaga no quadro.",
+    "explicacao": "Na carreira de oficiais, a promoção ocorre por antiguidade ou por merecimento. O merecimento não se limita à ordem de antiguidade: avalia o conjunto de condições do militar (desempenho, cursos, conceito), o que permite alcançar quem não é o mais antigo do quadro. Cuidado com a pegadinha: nas praças, a Lei 4.044/2014 (art. 5º) admite apenas promoção por antiguidade, por bravura, especial e post mortem — não existe promoção por merecimento para praças.",
     "concursos": [
       "PM-AM"
     ],
