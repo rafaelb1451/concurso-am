@@ -50,4 +50,8 @@ public final class Dtos {
     public record DesempenhoView(long respondidas, long acertos, double percentual,
                                  List<MateriaStats> porMateria) {
     }
+
+    /** Resultado de um lote de importacao. */
+    public record ImportReport(int recebidas, int importadas, int ignoradas, List<String> erros) {
+    }
 }

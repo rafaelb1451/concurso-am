@@ -85,6 +85,13 @@ public class Question {
     @Column(columnDefinition = "TEXT")
     private String explicacao;
 
+    /**
+     * Hash do enunciado normalizado, usado para nao importar a mesma questao duas vezes
+     * (inclusive quando ela vem de provas diferentes com pequenas diferencas de pontuacao).
+     */
+    @Column(length = 40)
+    private String hash;
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -129,4 +136,7 @@ public class Question {
 
     public java.util.Set<String> getConcursos() { return concursos; }
     public void setConcursos(java.util.Set<String> concursos) { this.concursos = concursos; }
+
+    public String getHash() { return hash; }
+    public void setHash(String hash) { this.hash = hash; }
 }

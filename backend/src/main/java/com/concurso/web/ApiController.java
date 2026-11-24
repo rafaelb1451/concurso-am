@@ -19,9 +19,12 @@ import java.util.Map;
 public class ApiController {
 
     private final QuestaoService questoes;
+    private final com.concurso.service.ImportService importService;
 
-    public ApiController(QuestaoService questoes) {
+    public ApiController(QuestaoService questoes,
+                         com.concurso.service.ImportService importService) {
         this.questoes = questoes;
+        this.importService = importService;
     }
 
     @GetMapping("/concursos")
@@ -51,6 +54,12 @@ public class ApiController {
     @GetMapping("/desempenho")
     public Dtos.DesempenhoView desempenho(@RequestParam(required = false) String concurso) {
         return questoes.desempenho(concurso);
+    }
+
+    /** Importa um lote no mesmo formato do questoes.json. */
+    @PostMapping("/importar")
+    public Dtos.ImportReport importar(@RequestBody java.util.List<com.concurso.seed.QuestionPayload> lote) {
+        return importService.importar(lote);
     }
 
     @ExceptionHandler(IllegalArgumentException.class)

@@ -1,0 +1,34 @@
+[
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conceito de ransomware",
+    "dificuldade": 1,
+    "concursos": ["PM-AM", "PC-AM"],
+    "enunciado": "Um computador tem seus arquivos criptografados e uma mensagem exige pagamento para liberá-los. Esse ataque é classificado como:",
+    "alternativas": ["phishing", "ransomware", "spyware", "adware", "rootkit"],
+    "correta": 1,
+    "explicacao": "Ransomware criptografa os dados da vítima e cobra resgate pela chave. Phishing engana para obter dados; spyware monitora a atividade; adware exibe propaganda; rootkit oculta a presença do invasor."
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância verbal",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância com sujeito posposto; verbos impessoais",
+    "dificuldade": 2,
+    "concursos": ["PC-AM"],
+    "enunciado": "Assinale a frase em que a concordância verbal está correta.",
+    "alternativas": [
+      "Chegou os policiais ao local do fato.",
+      "Chegaram os policiais ao local do fato.",
+      "Chegaram o delegado ao local do fato.",
+      "Fazem dois anos que ele ingressou na corporação.",
+      "Houveram muitas ocorrências naquele dia."
+    ],
+    "correta": 1,
+    "explicacao": "O verbo concorda com o sujeito: \"os policiais chegaram\" (plural). Em A o sujeito é plural e o verbo está no singular; em C o sujeito é singular e o verbo está no plural. \"Fazer\" indicando tempo decorrido e \"haver\" no sentido de existir são impessoais: faz dois anos, houve muitas ocorrências."
+  }
+]
