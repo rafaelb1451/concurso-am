@@ -164,7 +164,7 @@ export default function App() {
                   : '-mb-px border-b-2 border-transparent px-3 py-2.5 text-[13px] font-semibold text-ink-500 transition hover:text-ink-800'
               }
             >
-              {a === 'treino' ? 'Treino' : a === 'fixacao' ? 'Fixação + tutor' : 'Simulado'}
+              {a === 'treino' ? 'Questões' : a === 'fixacao' ? 'Fixação + tutor' : 'Simulado'}
             </button>
           ))}
         </nav>
@@ -293,7 +293,7 @@ function Inicio(props: {
     <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
       <h2 className="text-lg font-bold text-ink-900">Montar sessão</h2>
       <p className="mt-1 text-sm text-ink-500">
-        {props.totalQuestoes} questões no banco. Filtre por matéria e assunto, ou treine tudo.
+        {props.totalQuestoes} questões no banco. Filtre por matéria e assunto, ou resolva tudo.
       </p>
 
       <div className="mt-5 grid gap-4 sm:grid-cols-3">
