@@ -113,6 +113,17 @@ inciso, parágrafo, item do edital).
   Lei 14.843/2024 e reescrito pela **Lei 15.402/2026** (1/6 como regra, exceções de 20/25/30%,
   incisos IV a X vetados).
 
+### Testes neste ambiente Windows (sandbox)
+
+- **Vitest** falha com `Failed to start forks worker` (o sandbox bloqueia processos-filho com pipe).
+  Rodar com pool de threads:
+  `node node_modules/vitest/vitest.mjs run --pool=threads`
+  (o `npm test` funciona normalmente fora do sandbox).
+- **Mockito** precisa de `-Djdk.attach.allowAttachSelf=true` na JVM de teste — já configurado no
+  `maven-surefire-plugin` do `pom.xml`. Sem isso: `MockitoInitializationException`.
+- **Smoke test das contas**: `python tools/teste-contas.py` com o backend em :8080 no ar
+  (cadastro 201, duplicado 400, login 200/401, logout invalida token, conteudo exige login).
+
 ## Armadilhas do ambiente
 
 - **Matar o java à força deixa o H2 read-only** na próxima subida → apagar `backend/data/*` e reiniciar.

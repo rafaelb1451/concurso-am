@@ -130,6 +130,11 @@ public class AuthController {
         return null;
     }
 
+    @ExceptionHandler(com.concurso.service.AuthException.class)
+    public ResponseEntity<Map<String, String>> erroDeAutenticacao(com.concurso.service.AuthException ex) {
+        return ResponseEntity.status(ex.getStatus()).body(Map.of("message", ex.getMessage()));
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, String>> erroDeValidacao(MethodArgumentNotValidException ex) {
         String msg = ex.getBindingResult().getFieldErrors().stream()

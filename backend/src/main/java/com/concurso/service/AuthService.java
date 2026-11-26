@@ -103,12 +103,12 @@ public class AuthService {
     public Dtos.AuthView login(String email, String senha) {
         Usuario usuario = usuarios.findByEmail(normalizarEmail(email)).orElse(null);
         if (usuario == null) {
-            throw new IllegalArgumentException("E-mail ou senha inválidos.");
+            throw AuthException.credenciaisInvalidas();
         }
 
         Instant agora = Instant.now();
         if (usuario.getBloqueadoAte() != null && usuario.getBloqueadoAte().isAfter(agora)) {
-            throw new IllegalArgumentException("Conta temporariamente bloqueada. Tente novamente mais tarde.");
+            throw AuthException.contaBloqueada();
         }
         if (!SenhaHash.confere(senha, usuario.getSenhaHash())) {
             if (usuario.getBloqueadoAte() != null) {
@@ -116,11 +116,11 @@ public class AuthService {
                 usuarios.limparFalhas(usuario.getId());
             }
             usuarios.registrarFalhaLogin(usuario.getId(), LIMITE_TENTATIVAS, agora.plus(BLOQUEIO_LOGIN));
-            throw new IllegalArgumentException("E-mail ou senha inválidos.");
+            throw AuthException.credenciaisInvalidas();
         }
 
         if (!usuario.isEmailVerificado()) {
-            throw new IllegalArgumentException("Confirme seu e-mail antes de entrar.");
+            throw AuthException.emailNaoVerificado();
         }
 
         usuarios.limparFalhas(usuario.getId());
