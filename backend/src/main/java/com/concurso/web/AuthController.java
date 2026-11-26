@@ -27,11 +27,14 @@ public class AuthController {
     private final AuthService auth;
     private final DadosPessoaisService dados;
     private final RateLimiter limiter;
+    private final com.concurso.service.GoogleTokenVerifier google;
 
-    public AuthController(AuthService auth, DadosPessoaisService dados, RateLimiter limiter) {
+    public AuthController(AuthService auth, DadosPessoaisService dados, RateLimiter limiter,
+                          com.concurso.service.GoogleTokenVerifier google) {
         this.auth = auth;
         this.dados = dados;
         this.limiter = limiter;
+        this.google = google;
     }
 
     @PostMapping("/cadastro")
@@ -40,6 +43,13 @@ public class AuthController {
         limiter.exigir("cadastro", 5);
         return auth.cadastrar(request.nome(), request.email(), request.senha(),
                 request.aceitouTermos(), request.aceitouPrivacidade());
+    }
+
+    /** Login ou cadastro via Google: recebe o ID token do Google e devolve a sessao. */
+    @PostMapping("/google")
+    public Dtos.AuthView google(@Valid @RequestBody Dtos.GoogleRequest request) {
+        limiter.exigir("google", 20);
+        return auth.entrarComGoogle(google.verificar(request.credential()));
     }
 
     @PostMapping("/login")

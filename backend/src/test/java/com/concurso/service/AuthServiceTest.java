@@ -5,6 +5,7 @@ import com.concurso.repo.AttemptRepository;
 import com.concurso.repo.SessaoEstudoRepository;
 import com.concurso.repo.SessaoRepository;
 import com.concurso.repo.TokenContaRepository;
+import com.concurso.repo.IdentidadeExternaRepository;
 import com.concurso.repo.UsuarioRepository;
 import com.concurso.web.Dtos;
 import org.junit.jupiter.api.BeforeEach;
@@ -34,12 +35,13 @@ class AuthServiceTest {
     @Mock private SessaoEstudoRepository estudos;
     @Mock private TokenContaRepository tokens;
     @Mock private EmailService email;
+    @Mock private IdentidadeExternaRepository identidades;
 
     private AuthService service;
 
     @BeforeEach
     void setUp() {
-        service = new AuthService(usuarios, sessoes, attempts, estudos, tokens, email);
+        service = new AuthService(usuarios, sessoes, attempts, estudos, tokens, email, identidades);
     }
 
     @Test
@@ -107,7 +109,7 @@ class AuthServiceTest {
         usuario.setTentativasFalhas(4);
         when(usuarios.findByEmail("aluno@teste.com")).thenReturn(Optional.of(usuario));
 
-        assertThrows(IllegalArgumentException.class,
+        assertThrows(AuthException.class,
                 () -> service.login("aluno@teste.com", "Errada123"));
         // O contador deve ser persistido por consulta atomica (nao pela entidade em memoria).
         verify(usuarios).registrarFalhaLogin(eq(3L), eq(5), any(Instant.class));
@@ -125,7 +127,7 @@ class AuthServiceTest {
         usuario.setBloqueadoAte(Instant.now().minusSeconds(60));
         when(usuarios.findByEmail("aluno@teste.com")).thenReturn(Optional.of(usuario));
 
-        assertThrows(IllegalArgumentException.class,
+        assertThrows(AuthException.class,
                 () -> service.login("aluno@teste.com", "Errada123"));
         verify(usuarios).limparFalhas(5L);
         verify(usuarios).registrarFalhaLogin(eq(5L), eq(5), any(Instant.class));
@@ -141,7 +143,7 @@ class AuthServiceTest {
         usuario.setEmailVerificado(false);
         when(usuarios.findByEmail("aluno@teste.com")).thenReturn(Optional.of(usuario));
 
-        IllegalArgumentException erro = assertThrows(IllegalArgumentException.class,
+        AuthException erro = assertThrows(AuthException.class,
                 () -> service.login("aluno@teste.com", "Test123456"));
         assertTrue(erro.getMessage().contains("Confirme seu e-mail"));
     }

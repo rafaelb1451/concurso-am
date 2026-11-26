@@ -52,7 +52,8 @@ public class AuthInterceptor implements HandlerInterceptor {
         if (!"POST".equalsIgnoreCase(metodo)) {
             return false;
         }
-        return "/api/cadastro".equals(caminho)
+        return "/api/google".equals(caminho)
+                || "/api/cadastro".equals(caminho)
                 || "/api/login".equals(caminho)
                 || "/api/verificar-email".equals(caminho)
                 || "/api/reenviar-verificacao".equals(caminho)

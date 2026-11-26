@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import GoogleBotao from './GoogleBotao'
 import { api, type Auth } from './api'
 import Logo from './Logo'
 
@@ -33,6 +34,19 @@ export default function Auth({ onAutenticado }: { onAutenticado: (auth: Auth) =>
         .catch((e) => setErro(e instanceof Error ? e.message : 'Não foi possível confirmar o e-mail.'))
     }
   }, [])
+
+  async function entrarComGoogle(credential: string) {
+    setErro(null)
+    setCarregando(true)
+    try {
+      const auth = await api.entrarComGoogle(credential)
+      onAutenticado(auth)
+    } catch (e) {
+      setErro(e instanceof Error ? e.message : 'Não foi possível entrar com o Google.')
+    } finally {
+      setCarregando(false)
+    }
+  }
 
   async function enviar() {
     setCarregando(true)
@@ -114,6 +128,14 @@ export default function Auth({ onAutenticado }: { onAutenticado: (auth: Auth) =>
               {opcao === 'login' ? 'Entrar' : 'Criar conta'}
             </button>
           ))}
+        </div>
+
+        <GoogleBotao onCredencial={(credential) => void entrarComGoogle(credential)} />
+
+        <div className="mt-5 flex items-center gap-3">
+          <span className="h-px flex-1 bg-ink-200" />
+          <span className="text-xs font-semibold text-ink-400">ou use seu e-mail</span>
+          <span className="h-px flex-1 bg-ink-200" />
         </div>
 
         <div className="mt-5 space-y-3">

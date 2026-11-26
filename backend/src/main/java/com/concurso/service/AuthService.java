@@ -2,7 +2,9 @@ package com.concurso.service;
 
 import com.concurso.domain.Sessao;
 import com.concurso.domain.TokenConta;
+import com.concurso.domain.IdentidadeExterna;
 import com.concurso.domain.Usuario;
+import com.concurso.repo.IdentidadeExternaRepository;
 import com.concurso.repo.AttemptRepository;
 import com.concurso.repo.SessaoRepository;
 import com.concurso.repo.SessaoEstudoRepository;
@@ -35,17 +37,20 @@ public class AuthService {
     private final SessaoEstudoRepository estudos;
     private final TokenContaRepository tokens;
     private final EmailService emailService;
+    private final IdentidadeExternaRepository identidades;
     private final SecureRandom aleatorio = new SecureRandom();
 
     public AuthService(UsuarioRepository usuarios, SessaoRepository sessoes,
                        AttemptRepository attempts, SessaoEstudoRepository estudos,
-                       TokenContaRepository tokens, EmailService email) {
+                       TokenContaRepository tokens, EmailService email,
+            IdentidadeExternaRepository identidades) {
         this.usuarios = usuarios;
         this.sessoes = sessoes;
         this.attempts = attempts;
         this.estudos = estudos;
         this.tokens = tokens;
         this.emailService = email;
+        this.identidades = identidades;
     }
 
     @Transactional
@@ -272,6 +277,56 @@ public class AuthService {
         }
         token.setUsado(true);
         return token;
+    }
+
+    /**
+     * Login (ou cadastro) via Google. O {@code id_token} ja foi validado por
+     * {@link GoogleTokenVerifier}; aqui so' decidimos qual usuario local ele representa.
+     *
+     * <p>Vinculo por e-mail so' acontece quando a conta local <b>ja confirmou</b> o e-mail: caso
+     * contrario alguem que criasse uma conta com o e-mail de outra pessoa ganharia acesso ao
+     * historico dela ao entrar com o Google. Conta nova nasce com o e-mail verificado pelo Google
+     * e sem senha local.</p>
+     */
+    @Transactional
+    public Dtos.AuthView entrarComGoogle(GoogleTokenVerifier.ContaGoogle conta) {
+        Optional<IdentidadeExterna> existente = identidades.findByProviderAndProviderSubject(
+                IdentidadeExterna.PROVIDER_GOOGLE, conta.subject());
+        if (existente.isPresent()) {
+            Usuario usuario = usuarios.findById(existente.get().getUsuarioId())
+                    .orElseThrow(AuthException::credenciaisInvalidas);
+            return new Dtos.AuthView(novaSessao(usuario.getId()), Dtos.UsuarioView.de(usuario));
+        }
+
+        Usuario usuario;
+        Optional<Usuario> porEmail = usuarios.findByEmail(normalizarEmail(conta.email()));
+        if (porEmail.isPresent()) {
+            usuario = porEmail.get();
+            if (!usuario.isEmailVerificado()) {
+                throw new AuthException(org.springframework.http.HttpStatus.CONFLICT,
+                        "Ja existe uma conta com este e-mail. Confirme o e-mail ou entre com a senha para vincular.");
+            }
+        } else {
+            usuario = new Usuario();
+            String nome = conta.nome() == null || conta.nome().isBlank() ? conta.email() : conta.nome();
+            usuario.setNome(nome.trim());
+            usuario.setEmail(normalizarEmail(conta.email()));
+            usuario.setSenhaHash(null); // conta so' com Google: sem senha local
+            usuario.setEmailVerificado(true);
+            usuario.setEmailVerificadoEm(Instant.now());
+            usuario.setTermosAceitosEm(Instant.now());
+            usuario.setPrivacidadeAceitaEm(Instant.now());
+            usuario.setAdmin(usuarios.count() == 0);
+            usuarios.save(usuario);
+        }
+
+        IdentidadeExterna identidade = new IdentidadeExterna();
+        identidade.setProvider(IdentidadeExterna.PROVIDER_GOOGLE);
+        identidade.setProviderSubject(conta.subject());
+        identidade.setUsuarioId(usuario.getId());
+        identidades.save(identidade);
+
+        return new Dtos.AuthView(novaSessao(usuario.getId()), Dtos.UsuarioView.de(usuario));
     }
 
     private String novaSessao(Long usuarioId) {

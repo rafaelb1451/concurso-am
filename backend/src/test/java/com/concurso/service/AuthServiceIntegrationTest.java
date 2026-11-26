@@ -48,7 +48,7 @@ class AuthServiceIntegrationTest {
         criarUsuarioVerificado("aluno@qb.test");
 
         for (int i = 0; i < 5; i++) {
-            assertThrows(IllegalArgumentException.class,
+            assertThrows(AuthException.class,
                     () -> auth.login("aluno@qb.test", "Errada123"));
         }
 
@@ -56,7 +56,7 @@ class AuthServiceIntegrationTest {
         assertEquals(5, persistido.getTentativasFalhas(), "o contador deve persistir as 5 falhas");
         assertNotNull(persistido.getBloqueadoAte(), "a conta deve estar bloqueada");
 
-        IllegalArgumentException bloqueio = assertThrows(IllegalArgumentException.class,
+        AuthException bloqueio = assertThrows(AuthException.class,
                 () -> auth.login("aluno@qb.test", "Test123456"));
         assertTrue(bloqueio.getMessage().contains("bloqueada"));
     }

@@ -120,6 +120,7 @@ export const api = {
   cadastro: (nome: string, email: string, senha: string,
              aceitouTermos: boolean, aceitouPrivacidade: boolean) =>
     post<Auth>('/cadastro', { nome, email, senha, aceitouTermos, aceitouPrivacidade }),
+  entrarComGoogle: (credential: string) => post<Auth>('/google', { credential }),
   login: (email: string, senha: string) =>
     post<Auth>('/login', { email, senha }),
   verificarEmail: (token: string) =>

@@ -87,6 +87,13 @@ public final class Dtos {
     ) {
     }
 
+    /** Credencial devolvida pelo Google Identity Services (ID token, JWT). */
+    public record GoogleRequest(
+            @jakarta.validation.constraints.NotBlank(message = "credencial vazia")
+            String credential
+    ) {
+    }
+
     public record ChatMensagem(
             String role,
             @jakarta.validation.constraints.NotBlank(message = "mensagem vazia")

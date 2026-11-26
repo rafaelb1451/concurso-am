@@ -25,7 +25,7 @@ public class Usuario {
     private String email;
 
     /** Hash PBKDF2 da senha (nunca a senha em claro). */
-    @Column(name = "senha_hash", nullable = false, length = 200)
+    @Column(name = "senha_hash", length = 200)
     private String senhaHash;
 
     /** Administrador pode importar questoes e comentarios. */
