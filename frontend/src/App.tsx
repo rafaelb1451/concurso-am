@@ -4,6 +4,7 @@ import { Highlighter, Pencil, Scissors } from 'lucide-react'
 import Fixacao from './Fixacao'
 import Simulado from './Simulado'
 import Evolucao from './Evolucao'
+import Planos from './Planos'
 import AuthScreen from './Auth'
 import Rascunho from './Rascunho'
 import MarcadorTexto from './MarcadorTexto'
@@ -22,7 +23,7 @@ export default function App() {
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
   const [concursos, setConcursos] = useState<Concurso[]>([])
   const [concurso, setConcurso] = useState('TODOS')
-  const [aba, setAba] = useState<'treino' | 'fixacao' | 'simulado' | 'evolucao' | 'conta'>('treino')
+  const [aba, setAba] = useState<'treino' | 'fixacao' | 'simulado' | 'evolucao' | 'planos' | 'conta'>('treino')
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
 
@@ -220,7 +221,7 @@ export default function App() {
         </div>
 
         <nav className="mx-auto flex max-w-6xl gap-1 px-5">
-          {(['treino', 'fixacao', 'simulado', 'evolucao', 'conta'] as const).map((a) => (
+          {(['treino', 'fixacao', 'simulado', 'evolucao', 'planos', 'conta'] as const).map((a) => (
             <button
               key={a}
               onClick={() => setAba(a)}
@@ -238,7 +239,9 @@ export default function App() {
                     ? 'Simulado'
                     : a === 'evolucao'
                       ? 'Evolução'
-                      : 'Conta'}
+                      : a === 'planos'
+                        ? 'Planos'
+                        : 'Conta'}
             </button>
           ))}
         </nav>
@@ -279,6 +282,7 @@ export default function App() {
         {aba === 'fixacao' ? <Fixacao concurso={concurso} /> : null}
         {aba === 'simulado' ? <Simulado concursoInicial={concurso} /> : null}
         {aba === 'evolucao' ? <Evolucao concurso={concurso} topicos={topico} /> : null}
+        {aba === 'planos' ? <Planos /> : null}
         {aba === 'conta' ? (
           <ContaSeguranca
             usuario={usuario}

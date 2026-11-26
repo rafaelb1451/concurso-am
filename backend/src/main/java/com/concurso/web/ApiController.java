@@ -27,15 +27,18 @@ public class ApiController {
     private final com.concurso.service.ImportService importService;
     private final com.concurso.service.SimuladoService simuladoService;
     private final EvolucaoService evolucao;
+    private final com.concurso.service.AcessoService acesso;
 
     public ApiController(QuestaoService questoes,
                          com.concurso.service.ImportService importService,
                          com.concurso.service.SimuladoService simuladoService,
-                         EvolucaoService evolucao) {
+                         EvolucaoService evolucao,
+                           com.concurso.service.AcessoService acesso) {
         this.questoes = questoes;
         this.importService = importService;
         this.simuladoService = simuladoService;
         this.evolucao = evolucao;
+        this.acesso = acesso;
     }
 
     @GetMapping("/concursos")
@@ -60,6 +63,8 @@ public class ApiController {
     public Dtos.AnswerView responder(@PathVariable Long id,
                                      @RequestBody Dtos.AnswerRequest request,
                                      @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        // limite diario do plano FREE (429 com mensagem de upsell)
+        acesso.exigirDireitoDeResponder(usuarioId);
         return questoes.responder(usuarioId, id, request.alternativa());
     }
 

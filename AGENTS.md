@@ -187,6 +187,18 @@ Config: `ASAAS_API_KEY` (ou `backend/segredos/asaas.key`), `ASAAS_BASE_URL`,
 
 Smoke test: `python tools/teste-pagamento.py` (precisa do backend no ar com o token do webhook).
 
+## Limite do plano e tela de Planos
+
+- POST /api/questoes/{id}/responder chama AcessoService.exigirDireitoDeResponder: conta FREE
+  acima do limite diário recebe **429** com mensagem de upsell; PRO passa direto.
+- O limite do FREE é contado a partir de ttempts do dia (America/Sao_Paulo) — não existe
+  contador paralelo para dessincronizar.
+- Tela rontend/src/Planos.tsx (aba **Planos**): plano atual, medidor de uso do FREE, cards de
+  PRO mensal/anual com economia, formulário de dados exigidos pelo checkout e redirecionamento
+  para a página hospedada do Asaas. Se pagamentoConfigurado for false, o botão fica desabilitado.
+- Smoke test do limite: python tools/teste-limite-plano.py (responde 20, espera 429 na 21ª e
+  faz o checkout + webhook para confirmar a liberação do PRO).
+
 ## Fontes primárias de legislação (`docs/legislacao/`)
 
 Textos oficiais baixados do portal **Legisla.Am** (Imprensa Oficial do AM) por
@@ -268,7 +280,7 @@ python concurso-am\tools\teste-pagamento.py
 | Login com Google (ID token + identidade externa) | ✅ concluído, incluindo reautenticação para excluir conta e trocar e-mail (falta testar com token real no navegador) |
 | Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
-| Fase 2: planos, assinatura, webhook Asaas | 🔶 **núcleo pronto e testado no sandbox** — falta tela de planos no frontend e configurar o webhook no painel |
+| Fase 2: planos, assinatura, webhook Asaas | ✅ backend + **tela de Planos** no frontend; falta registrar o webhook no painel do Asaas (exige domínio/HTTPS) |
 | Fase 3: AccessControlService, limite FREE, cota de IA por plano | 🔶 `AcessoService` criado (limite diário derivado de `attempts`); falta aplicar no endpoint de responder e cota de IA por plano |
 
 **Para retomar:** `git log --oneline -8` mostra o ponto; rodar backend + frontend conforme acima;

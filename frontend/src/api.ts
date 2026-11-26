@@ -117,7 +117,53 @@ export interface Evolucao {
   serie: EvolucaoPonto[]
 }
 
+
+export interface Plano {
+  id: number
+  codigo: string
+  nome: string
+  valorCentavos: number
+  ciclo: string | null
+  limiteDiarioQuestoes: number
+  ilimitado: boolean
+  pago: boolean
+}
+
+export interface AssinaturaAtual {
+  status: string
+  plano: Plano
+  periodoFim: string | null
+  cancelaNoFim: boolean
+  carenciaFim: string | null
+  liberaPro: boolean
+  pagamentoConfigurado: boolean
+}
+
+export interface UsoPlano {
+  plano: Plano
+  limiteDiarioQuestoes: number
+  ilimitado: boolean
+  respondidasHoje: number
+}
+
+export interface DadosCheckout {
+  plano: string
+  cpfCnpj: string
+  telefone: string
+  cep: string
+  endereco: string
+  numero: string
+  bairro: string
+}
+
 export const api = {
+  // ---------------------------------------------------------------- planos
+  planos: () => get<Plano[]>('/planos'),
+  assinatura: () => get<AssinaturaAtual>('/assinatura'),
+  usoPlano: () => get<UsoPlano>('/assinatura/uso'),
+  iniciarCheckout: (dados: DadosCheckout) => post<{ url: string }>('/assinatura/checkout', dados),
+  cancelarAssinatura: () => post<{ ok: boolean }>('/assinatura/cancelar', {}),
+
   cadastro: (nome: string, email: string, senha: string,
              aceitouTermos: boolean, aceitouPrivacidade: boolean) =>
     post<Auth>('/cadastro', { nome, email, senha, aceitouTermos, aceitouPrivacidade }),
