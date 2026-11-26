@@ -30,5 +30,5 @@ ENV TZ=America/Sao_Paulo \
     JAVA_TOOL_OPTIONS="-XX:MaxRAMPercentage=75 -Duser.timezone=America/Sao_Paulo -Djava.io.tmpdir=/tmp"
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=5s --start-period=60s --retries=3 \
-  CMD curl -fsS http://localhost:8080/api/concursos > /dev/null || exit 1
+  CMD curl -fsS http://localhost:8080/api/publico/materias > /dev/null || exit 1
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
