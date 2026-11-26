@@ -156,7 +156,38 @@ export interface DadosCheckout {
   bairro: string
 }
 
+
+export interface MateriaResumo {
+  materia: string
+  questoes: number
+}
+
+export interface QuestaoPublica {
+  id: number
+  materia: string
+  assunto: string
+  enunciado: string
+  alternativas: string[]
+  origem: 'PROVA' | 'AUTORAL'
+  banca: string
+  ano: number
+}
+
+export interface RespostaPublica {
+  acertou: boolean
+  gabarito: number
+  explicacao: string | null
+  fundamento: string | null
+}
+
 export const api = {
+  // ---------------------------------------------------------------- pratica gratis
+  publicoMaterias: () => get<MateriaResumo[]>('/publico/materias'),
+  publicoQuestoes: (materia: string, quantidade = 10) =>
+    get<QuestaoPublica[]>('/publico/questoes' + qs({ materia, quantidade })),
+  publicoResponder: (questaoId: number, alternativa: number) =>
+    post<RespostaPublica>('/publico/responder', { questaoId, alternativa }),
+
   // ---------------------------------------------------------------- planos
   planos: () => get<Plano[]>('/planos'),
   assinatura: () => get<AssinaturaAtual>('/assinatura'),

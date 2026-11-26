@@ -11,6 +11,9 @@ import MarcadorTexto from './MarcadorTexto'
 import PomodoroEstudo, { type ModoTempo } from './PomodoroEstudo'
 import ContaSeguranca from './ContaSeguranca'
 import Logo from './Logo'
+import SiteHeader, { type PaginaPublica } from './SiteHeader'
+import Landing from './Inicio'
+import PraticaGratis from './PraticaGratis'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
@@ -19,6 +22,8 @@ type Fase = 'inicio' | 'estudando' | 'fim'
 export default function App() {
   const [usuario, setUsuario] = useState<Usuario | null>(null)
   const [checandoSessao, setChecandoSessao] = useState(true)
+  const [paginaPublica, setPaginaPublica] = useState<PaginaPublica>('inicio')
+  const [mostrarAuth, setMostrarAuth] = useState(false)
   const [topico, setTopico] = useState<Topico[]>([])
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
   const [concursos, setConcursos] = useState<Concurso[]>([])
@@ -181,8 +186,48 @@ export default function App() {
     )
   }
 
+  function abrirAuth() {
+    setMostrarAuth(true)
+  }
+
+  // visitante: site aberto (landing, pratica gratis e planos) com login sob demanda
   if (!usuario) {
-    return <AuthScreen onAutenticado={onAutenticado} />
+    if (mostrarAuth) {
+      return (
+        <div className="min-h-screen bg-canvas">
+          <div className="mx-auto max-w-md px-5 py-10">
+            <button
+              onClick={() => setMostrarAuth(false)}
+              className="mb-4 text-[12px] font-semibold text-ink-400 hover:text-ink-700"
+            >
+              ← voltar ao site
+            </button>
+            <AuthScreen onAutenticado={onAutenticado} />
+          </div>
+        </div>
+      )
+    }
+    return (
+      <div className="min-h-screen bg-canvas">
+        <SiteHeader
+          atual={paginaPublica}
+          onNavegar={setPaginaPublica}
+          onEntrar={abrirAuth}
+          onCriarConta={abrirAuth}
+        />
+        {paginaPublica === 'inicio' ? (
+          <Landing onNavegar={setPaginaPublica} onCriarConta={abrirAuth} />
+        ) : null}
+        {paginaPublica === 'pratica' ? (
+          <PraticaGratis onNavegar={setPaginaPublica} onCriarConta={abrirAuth} />
+        ) : null}
+        {paginaPublica === 'planos' ? (
+          <div className="mx-auto max-w-4xl px-5 py-10">
+            <Planos anonimo onAssinar={abrirAuth} />
+          </div>
+        ) : null}
+      </div>
+    )
   }
 
   return (

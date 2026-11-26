@@ -13,7 +13,7 @@ import {
  * O pagamento acontece na página hospedada do Asaas: aqui só montamos o checkout e
  * redirecionamos. Nenhum dado de cartão passa por esta tela.
  */
-export default function Planos() {
+export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boolean; onAssinar?: () => void } = {}) {
   const [planos, setPlanos] = useState<Plano[]>([])
   const [assinatura, setAssinatura] = useState<AssinaturaAtual | null>(null)
   const [uso, setUso] = useState<UsoPlano | null>(null)
@@ -35,13 +35,17 @@ export default function Planos() {
 
   useEffect(() => {
     let ativo = true
-    Promise.all([api.planos(), api.assinatura(), api.usoPlano()])
-      .then(([lista, atual, usoAtual]) => {
-        if (!ativo) return
-        setPlanos(lista)
-        setAssinatura(atual)
-        setUso(usoAtual)
-      })
+    const carregar = anonimo
+      ? api.planos().then((lista) => {
+          if (ativo) setPlanos(lista)
+        })
+      : Promise.all([api.planos(), api.assinatura(), api.usoPlano()]).then(([lista, atual, usoAtual]) => {
+          if (!ativo) return
+          setPlanos(lista)
+          setAssinatura(atual)
+          setUso(usoAtual)
+        })
+    carregar
       .catch(() => {
         if (ativo) setErro('Não foi possível carregar os planos.')
       })
@@ -198,11 +202,11 @@ export default function Planos() {
                 <li>• simulados e evolução completa</li>
               </ul>
               <button
-                onClick={() => abrirFormulario(plano!)}
-                disabled={!configurado}
+                onClick={() => (anonimo ? onAssinar?.() : abrirFormulario(plano!))}
+                disabled={anonimo ? false : !configurado}
                 className="qb-btn mt-4 w-full disabled:opacity-50"
               >
-                {configurado ? 'Assinar com cartão' : 'Pagamento indisponível'}
+                {anonimo ? 'Criar conta para assinar' : configurado ? 'Assinar com cartão' : 'Pagamento indisponível'}
               </button>
               {!configurado ? (
                 <p className="mt-2 text-[11px] text-ink-400">

@@ -199,6 +199,23 @@ Smoke test: `python tools/teste-pagamento.py` (precisa do backend no ar com o to
 - Smoke test do limite: `python tools/teste-limite-plano.py` (responde 20, espera 429 na 21ª e
   faz o checkout + webhook para confirmar a liberação do PRO).
 
+## Área pública (sem conta)
+
+O site abre para qualquer visitante: **landing**, **prática gratuita** e **planos**. Só o app
+completo (questões, fixação, simulado, evolução, conta) exige login.
+
+- **Prática gratuita**: o visitante escolhe **uma matéria** e responde **até 10 questões**.
+  O teto é imposto no servidor (`PublicoController.LIMITE_QUESTOES`), não no frontend.
+- `GET /api/publico/materias` — matérias com contagem de questões (público).
+- `GET /api/publico/questoes?materia=X&quantidade=10` — sem gabarito e sem comentário;
+  `quantidade > 10` responde **400**.
+- `POST /api/publico/responder` — devolve `acertou`, `gabarito`, `explicacao` e `fundamento`.
+- O interceptor libera `/api/publico/**`; **o resto de `/api/**` continua exigindo sessão**.
+- Frontend: `SiteHeader.tsx` (nav + Entrar/Criar conta), `Inicio.tsx` (landing com hero,
+  matérias, como funciona, diferenciais e planos) e `PraticaGratis.tsx` (fluxo das 10 questões).
+  `Planos.tsx` aceita `anonimo` para a versão pública.
+- Smoke test: `python tools/teste-pratica-gratis.py`.
+
 ## Fontes primárias de legislação (`docs/legislacao/`)
 
 Textos oficiais baixados do portal **Legisla.Am** (Imprensa Oficial do AM) por
@@ -280,7 +297,8 @@ python concurso-am\tools\teste-pagamento.py
 | Login com Google (ID token + identidade externa) | ✅ concluído, incluindo reautenticação para excluir conta e trocar e-mail (falta testar com token real no navegador) |
 | Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
-| Fase 2: planos, assinatura, webhook Asaas | ✅ backend + **tela de Planos** no frontend; falta registrar o webhook no painel do Asaas (exige domínio/HTTPS) |
+| Fase 2: planos, assinatura, webhook Asaas | ✅ backend + **tela de Planos**; falta registrar o webhook no painel do Asaas (exige domínio/HTTPS) |
+| Área pública (landing + prática grátis sem conta) | ✅ 1 matéria / 10 questões, teto imposto no servidor |
 | Fase 3: limite FREE e cota de IA | 🔶 **limite FREE aplicado no responder (429)**; falta cota de IA por plano e rate limit por usuário |
 
 **Para retomar:** `git log --oneline -8` mostra o ponto; rodar backend + frontend conforme acima;

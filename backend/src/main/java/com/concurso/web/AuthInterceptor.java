@@ -49,6 +49,10 @@ public class AuthInterceptor implements HandlerInterceptor {
     }
 
     private static boolean publico(String caminho, String metodo) {
+        // pratica gratuita: sem conta, limitada no proprio controller
+        if (caminho.startsWith("/api/publico") && ("POST".equalsIgnoreCase(metodo) || "GET".equalsIgnoreCase(metodo))) {
+            return true;
+        }
         // webhook do gateway: publico, protegido pelo token no header
         if ("POST".equalsIgnoreCase(metodo) && "/api/webhooks/asaas".equals(caminho)) {
             return true;
