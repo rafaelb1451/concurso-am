@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import { api, type Usuario } from './api'
+import GoogleBotao, { googleConfigurado } from './GoogleBotao'
 
+/**
+ * Conta e privacidade.
+ *
+ * Acoes sensiveis exigem confirmar identidade. Conta com senha local confirma digitando a senha;
+ * conta criada apenas com Google (sem senha) confirma com um ID token novo do Google — que o
+ * backend valida e compara com o vinculo da conta.
+ */
 export default function ContaSeguranca({
   usuario,
   onSair,
@@ -11,17 +19,28 @@ export default function ContaSeguranca({
   const [novoEmail, setNovoEmail] = useState('')
   const [senhaEmail, setSenhaEmail] = useState('')
   const [senhaExcluir, setSenhaExcluir] = useState('')
+  const [credEmail, setCredEmail] = useState<string | null>(null)
+  const [credExcluir, setCredExcluir] = useState<string | null>(null)
   const [mensagem, setMensagem] = useState<string | null>(null)
   const [erro, setErro] = useState<string | null>(null)
+
+  const temSenha = usuario.temSenha
+  const confirmacaoEmail = temSenha ? senhaEmail : (credEmail ?? '')
+  const confirmacaoExcluir = temSenha ? senhaExcluir : (credExcluir ?? '')
 
   async function alterarEmail() {
     setErro(null)
     setMensagem(null)
     try {
-      await api.alterarEmail(senhaEmail, novoEmail)
+      await api.alterarEmail(
+        temSenha ? senhaEmail : null,
+        novoEmail,
+        temSenha ? undefined : (credEmail ?? undefined),
+      )
       setMensagem('Link de confirmação enviado ao novo e-mail.')
       setSenhaEmail('')
       setNovoEmail('')
+      setCredEmail(null)
     } catch (e) {
       setErro(e instanceof Error ? e.message : 'Não foi possível solicitar a alteração.')
     }
@@ -47,12 +66,62 @@ export default function ContaSeguranca({
     if (!window.confirm('Excluir permanentemente sua conta e todo o seu histórico? Esta ação não pode ser desfeita.')) return
     setErro(null)
     try {
-      await api.excluirConta(senhaExcluir)
+      await api.excluirConta(
+        temSenha ? senhaExcluir : null,
+        temSenha ? undefined : (credExcluir ?? undefined),
+      )
       localStorage.removeItem('qb_token')
       onSair()
     } catch (e) {
       setErro(e instanceof Error ? e.message : 'Não foi possível excluir a conta.')
     }
+  }
+
+  /** Bloco de confirmacao: senha para contas locais, botao do Google para contas so'-Google. */
+  function confirmacao(
+    valor: string,
+    aoDigitar: (v: string) => void,
+    aoConfirmarGoogle: (credential: string) => void,
+    confirmado: boolean,
+    cor: 'normal' | 'perigo',
+  ) {
+    if (temSenha) {
+      return (
+        <input
+          type="password"
+          value={valor}
+          onChange={(e) => aoDigitar(e.target.value)}
+          placeholder="Senha atual"
+          className={
+            cor === 'perigo'
+              ? 'rounded-xl border border-err-200 bg-white px-3 py-2 text-sm'
+              : 'rounded-xl border border-ink-200 px-3 py-2 text-sm'
+          }
+        />
+      )
+    }
+    if (!googleConfigurado()) {
+      return (
+        <p className="text-xs font-semibold text-err-700">
+          Esta conta entra pelo Google; o login com Google não está configurado neste ambiente.
+        </p>
+      )
+    }
+    if (confirmado) {
+      return (
+        <p className="text-xs font-semibold text-ok-700">
+          Identidade confirmada com o Google.
+        </p>
+      )
+    }
+    return (
+      <div>
+        <GoogleBotao onCredencial={aoConfirmarGoogle} />
+        <p className="mt-1 text-xs text-ink-500">
+          Confirme com o Google para continuar — esta conta não tem senha local.
+        </p>
+      </div>
+    )
   }
 
   return (
@@ -61,6 +130,9 @@ export default function ContaSeguranca({
         <h2 className="text-lg font-bold text-ink-900">Conta e privacidade</h2>
         <p className="mt-1 text-sm text-ink-500">
           E-mail cadastrado: <strong>{usuario.email}</strong>
+        </p>
+        <p className="mt-1 text-xs text-ink-400">
+          {temSenha ? 'Entrada por e-mail e senha.' : 'Entrada pelo Google (sem senha local).'}
         </p>
         {!usuario.emailVerificado ? (
           <p className="mt-2 text-xs font-semibold text-accent-700">
@@ -79,13 +151,13 @@ export default function ContaSeguranca({
       <div className="qb-card p-5">
         <h3 className="text-sm font-bold text-ink-900">Alterar e-mail</h3>
         <div className="mt-3 grid gap-3 sm:grid-cols-2">
-          <input
-            type="password"
-            value={senhaEmail}
-            onChange={(e) => setSenhaEmail(e.target.value)}
-            placeholder="Senha atual"
-            className="rounded-xl border border-ink-200 px-3 py-2 text-sm"
-          />
+          {confirmacao(
+            senhaEmail,
+            setSenhaEmail,
+            setCredEmail,
+            Boolean(credEmail),
+            'normal',
+          )}
           <input
             type="email"
             value={novoEmail}
@@ -96,7 +168,7 @@ export default function ContaSeguranca({
         </div>
         <button
           onClick={() => void alterarEmail()}
-          disabled={!senhaEmail || !novoEmail}
+          disabled={!confirmacaoEmail || !novoEmail}
           className="qb-btn mt-3 disabled:opacity-50"
         >
           Enviar confirmação
@@ -118,17 +190,17 @@ export default function ContaSeguranca({
         <p className="mt-1 text-sm text-ink-600">
           Apaga permanentemente perfil, respostas, sessões de estudo e tokens.
         </p>
-        <div className="mt-3 flex flex-wrap gap-2">
-          <input
-            type="password"
-            value={senhaExcluir}
-            onChange={(e) => setSenhaExcluir(e.target.value)}
-            placeholder="Senha atual"
-            className="rounded-xl border border-err-200 bg-white px-3 py-2 text-sm"
-          />
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          {confirmacao(
+            senhaExcluir,
+            setSenhaExcluir,
+            setCredExcluir,
+            Boolean(credExcluir),
+            'perigo',
+          )}
           <button
             onClick={() => void excluir()}
-            disabled={!senhaExcluir}
+            disabled={!confirmacaoExcluir}
             className="rounded-xl bg-err-600 px-4 py-2 text-sm font-semibold text-white disabled:opacity-50"
           >
             Excluir minha conta

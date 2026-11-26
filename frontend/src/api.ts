@@ -94,6 +94,7 @@ export interface Usuario {
   email: string
   admin: boolean
   emailVerificado: boolean
+  temSenha: boolean
 }
 
 export interface Auth {
@@ -131,13 +132,14 @@ export const api = {
     post<{ ok: boolean }>('/solicitar-reset', { email }),
   resetarSenha: (token: string, novaSenha: string) =>
     post<{ ok: boolean }>('/resetar-senha', { token, novaSenha }),
-  alterarEmail: (senha: string, novoEmail: string) =>
-    post<{ ok: boolean }>('/usuario/alterar-email', { senha, novoEmail }),
+  // conta com senha: manda senha; conta so'-Google: manda credential (ID token)
+  alterarEmail: (senha: string | null, novoEmail: string, credential?: string) =>
+    post<{ ok: boolean }>('/usuario/alterar-email', { senha, novoEmail, credential }),
   confirmarAlteracaoEmail: (token: string) =>
     post<{ ok: boolean }>('/usuario/confirmar-email', { token }),
   dadosPessoais: () => get<Record<string, unknown>>('/usuario/dados'),
-  excluirConta: (senha: string) =>
-    post<{ ok: boolean }>('/usuario/excluir', { senha }),
+  excluirConta: (senha: string | null, credential?: string) =>
+    post<{ ok: boolean }>('/usuario/excluir', { senha, credential }),
   logout: () => post<{ ok: boolean }>('/logout', {}),
   usuario: () => get<Usuario>('/usuario'),
 

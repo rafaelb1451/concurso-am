@@ -105,7 +105,7 @@ public class AuthController {
             @Valid @RequestBody Dtos.AlterarEmailRequest request,
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
         limiter.exigir("alterar-email", 5);
-        auth.solicitarAlteracaoEmail(usuarioId, request.senha(), request.novoEmail());
+        auth.solicitarAlteracaoEmail(usuarioId, request.senha(), request.credential(), request.novoEmail());
         return Map.of("ok", true);
     }
 
@@ -128,7 +128,7 @@ public class AuthController {
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId,
             @RequestHeader(value = "Authorization", required = false) String authorization) {
         limiter.exigir("excluir-conta", 3);
-        auth.excluirConta(usuarioId, request.senha());
+        auth.excluirConta(usuarioId, request.senha(), request.credential());
         auth.logout(extrairToken(authorization));
         return Map.of("ok", true);
     }

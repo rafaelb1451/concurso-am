@@ -36,12 +36,13 @@ class AuthServiceTest {
     @Mock private TokenContaRepository tokens;
     @Mock private EmailService email;
     @Mock private IdentidadeExternaRepository identidades;
+    @Mock private GoogleTokenVerifier google;
 
     private AuthService service;
 
     @BeforeEach
     void setUp() {
-        service = new AuthService(usuarios, sessoes, attempts, estudos, tokens, email, identidades);
+        service = new AuthService(usuarios, sessoes, attempts, estudos, tokens, email, identidades, google);
     }
 
     @Test

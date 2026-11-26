@@ -38,12 +38,13 @@ public class AuthService {
     private final TokenContaRepository tokens;
     private final EmailService emailService;
     private final IdentidadeExternaRepository identidades;
+    private final GoogleTokenVerifier google;
     private final SecureRandom aleatorio = new SecureRandom();
 
     public AuthService(UsuarioRepository usuarios, SessaoRepository sessoes,
                        AttemptRepository attempts, SessaoEstudoRepository estudos,
                        TokenContaRepository tokens, EmailService email,
-            IdentidadeExternaRepository identidades) {
+            IdentidadeExternaRepository identidades, GoogleTokenVerifier google) {
         this.usuarios = usuarios;
         this.sessoes = sessoes;
         this.attempts = attempts;
@@ -51,6 +52,7 @@ public class AuthService {
         this.tokens = tokens;
         this.emailService = email;
         this.identidades = identidades;
+        this.google = google;
     }
 
     @Transactional
@@ -181,13 +183,42 @@ public class AuthService {
         criarToken(usuario.getId(), usuario.getEmail(), TokenConta.Tipo.VERIFICAR_EMAIL);
     }
 
+    /**
+     * Confirma que quem esta pedindo a acao e' o dono da conta.
+     *
+     * <p>Conta com senha local: confere a senha. Conta criada apenas com Google nao tem senha,
+     * entao exige um <b>ID token novo</b> do Google e verifica que o {@code sub} pertence a esta
+     * conta — nao basta estar logado, porque a sessao pode estar em um dispositivo esquecido.</p>
+     */
+    private void confirmarIdentidade(Usuario usuario, String senha, String credential) {
+        if (usuario.getSenhaHash() != null) {
+            if (!SenhaHash.confere(senha, usuario.getSenhaHash())) {
+                throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
+                        "Senha atual invalida.");
+            }
+            return;
+        }
+
+        if (credential == null || credential.isBlank()) {
+            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
+                    "Confirme sua identidade com o Google para continuar.");
+        }
+
+        GoogleTokenVerifier.ContaGoogle conta = google.verificar(credential);
+        boolean pertence = identidades.findByUsuarioId(usuario.getId()).stream()
+                .anyMatch(i -> IdentidadeExterna.PROVIDER_GOOGLE.equals(i.getProvider())
+                        && i.getProviderSubject().equals(conta.subject()));
+        if (!pertence) {
+            throw new AuthException(org.springframework.http.HttpStatus.FORBIDDEN,
+                    "A conta Google informada nao e' a desta conta.");
+        }
+    }
+
     @Transactional
-    public void solicitarAlteracaoEmail(Long usuarioId, String senha, String novoEmail) {
+    public void solicitarAlteracaoEmail(Long usuarioId, String senha, String credential, String novoEmail) {
         Usuario usuario = usuarios.findById(usuarioId)
                 .orElseThrow(() -> new IllegalStateException("Usuário não encontrado."));
-        if (!SenhaHash.confere(senha, usuario.getSenhaHash())) {
-            throw new IllegalArgumentException("Senha atual inválida.");
-        }
+        confirmarIdentidade(usuario, senha, credential);
         String normalizado = normalizarEmail(novoEmail);
         if (usuarios.existsByEmail(normalizado)) {
             throw new IllegalArgumentException("Esse e-mail já está cadastrado.");
@@ -209,16 +240,16 @@ public class AuthService {
     }
 
     @Transactional
-    public void excluirConta(Long usuarioId, String senha) {
+    public void excluirConta(Long usuarioId, String senha, String credential) {
         Usuario usuario = usuarios.findById(usuarioId)
                 .orElseThrow(() -> new IllegalStateException("Usuário não encontrado."));
-        if (!SenhaHash.confere(senha, usuario.getSenhaHash())) {
-            throw new IllegalArgumentException("Senha atual inválida.");
-        }
+        confirmarIdentidade(usuario, senha, credential);
         sessoes.deleteByUsuarioId(usuarioId);
         tokens.deleteByUsuarioId(usuarioId);
         attempts.deleteByUsuarioId(usuarioId);
         estudos.deleteByUsuarioId(usuarioId);
+        // sem isto o vinculo com o Google ficaria orfao e o sub nunca mais poderia ser usado
+        identidades.deleteByUsuarioId(usuarioId);
         usuarios.delete(usuario);
     }
 

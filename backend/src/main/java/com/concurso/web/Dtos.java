@@ -196,9 +196,9 @@ public final class Dtos {
     ) {
     }
 
-    public record UsuarioView(Long id, String nome, String email, boolean admin, boolean emailVerificado) {
+    public record UsuarioView(Long id, String nome, String email, boolean admin, boolean emailVerificado, boolean temSenha) {
         public static UsuarioView de(Usuario u) {
-            return new UsuarioView(u.getId(), u.getNome(), u.getEmail(), u.isAdmin(), u.isEmailVerificado());
+            return new UsuarioView(u.getId(), u.getNome(), u.getEmail(), u.isAdmin(), u.isEmailVerificado(), u.getSenhaHash() != null);
         }
     }
 
@@ -228,8 +228,10 @@ public final class Dtos {
     }
 
     public record AlterarEmailRequest(
-            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            // conta com senha: senha obrigatoria; conta so'-Google: credential obrigatorio.
+            // A regra real e' aplicada no AuthService, que sabe se a conta tem senha.
             String senha,
+            String credential,
             @jakarta.validation.constraints.NotBlank(message = "novo e-mail vazio")
             @jakarta.validation.constraints.Email(message = "novo e-mail inválido")
             @jakarta.validation.constraints.Size(max = 160, message = "e-mail longo demais")
@@ -237,9 +239,10 @@ public final class Dtos {
     ) {
     }
 
+    /** Confirmacao de identidade para acoes sensiveis (senha ou credencial do Google). */
     public record ConfirmarSenhaRequest(
-            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
-            String senha
+            String senha,
+            String credential
     ) {
     }
 

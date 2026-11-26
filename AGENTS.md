@@ -112,9 +112,14 @@ frontend/src/  App.tsx, Auth.tsx, GoogleBotao.tsx, ContaSeguranca.tsx, Evolucao.
 - Erros com status correto (`AuthException`): 401 credencial inválida, 403 e-mail não verificado,
   409 conflito de vínculo, 429 conta bloqueada (5 tentativas / 15 min), 503 Google sem configurar.
 
-**Lacuna conhecida:** contas que só usam Google não têm senha, então `POST /api/usuario/excluir`
-e `POST /api/usuario/alterar-email` (que pedem senha) recusam essas contas. Falta reautenticação
-pelo Google nesses dois fluxos.
+**Confirmação de identidade em ações sensíveis** (`excluir conta`, `alterar e-mail`):
+- conta com senha local → exige a senha (`senha` no corpo);
+- conta só-Google → exige um **ID token novo** (`credential` no corpo), validado pelo
+  `GoogleTokenVerifier`, e o `sub` precisa pertencer a esta conta (403 se for de outra). Estar
+  logado não basta: a sessão pode estar em um dispositivo esquecido.
+- `GET /api/usuario` devolve `temSenha` para o frontend decidir qual confirmação pedir.
+- Ao excluir a conta, `identidades_externas` também é apagado (senão o `sub` do Google ficaria
+  órfão e nunca mais poderia ser usado).
 
 ## API
 
@@ -193,7 +198,7 @@ inciso, parágrafo, item do edital).
 ## Testes
 
 ```powershell
-# backend (61 testes)
+# backend (67 testes)
 treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f concurso-am\backend\pom.xml test
 
 # frontend (19 testes) — no sandbox do agente precisa de pool de threads
@@ -227,7 +232,7 @@ python concurso-am\tools\teste-contas.py
 |---|---|
 | Banco de questões (1.004) | ✅ concluído |
 | Contas: e-mail/senha, verificação, reset, LGPD, sessão | ✅ concluído |
-| Login com Google (ID token + identidade externa) | ✅ concluído (falta testar com token real no navegador) |
+| Login com Google (ID token + identidade externa) | ✅ concluído, incluindo reautenticação para excluir conta e trocar e-mail (falta testar com token real no navegador) |
 | Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
 | Fase 2: planos, assinatura, webhook Asaas | ⬜ não iniciado |
@@ -237,10 +242,11 @@ python concurso-am\tools\teste-contas.py
 `python tools/teste-contas.py` valida o básico em segundos.
 
 **Pendências pequenas conhecidas:**
-1. Excluir conta / trocar e-mail para contas só-Google (reautenticação pelo Google).
-2. `RateLimiter` é global por processo — precisa ser por usuário antes de virar multiusuário.
-3. Frontend: `localStorage` guarda o token (considerar cookie HttpOnly quando houver domínio próprio).
-4. Testar o botão do Google no navegador com `http://localhost:5173` nas *Authorized JavaScript origins*.
+1. `RateLimiter` é global por processo — precisa ser por usuário antes de virar multiusuário.
+2. Frontend: `localStorage` guarda o token (considerar cookie HttpOnly quando houver domínio próprio).
+3. Testar o botão do Google no navegador com `http://localhost:5173` nas *Authorized JavaScript origins*.
+4. Conta só-Google não pode **definir uma senha** ainda (só existe troca por e-mail/senha).
+   Caminho natural: `POST /api/usuario/definir-senha` confirmando com credencial do Google.
 
 ## Git
 
