@@ -1,3 +1,8 @@
+{
+	# força o Let's Encrypt de produção (sem staging)
+	acme_ca https://acme-v02.api.letsencrypt.org/directory
+}
+
 # QB Concurso — porta de entrada única.
 #
 # HTTPS automático (Let's Encrypt) + senha + cabeçalhos de segurança.
@@ -39,4 +44,9 @@
 		}
 		format json
 	}
+}
+
+# www -> domínio principal
+www.{$DOMINIO} {
+	redir https://{$DOMINIO}{uri} permanent
 }
