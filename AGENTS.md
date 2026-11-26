@@ -1,7 +1,9 @@
 # QB Concurso — Quebrando a Banca
 
-Banco de questões para os concursos de **Soldado PM-AM** e **Investigador PC-AM**, no estilo da
+Plataforma de questões para os concursos de **Soldado PM-AM** e **Investigador PC-AM**, no estilo da
 banca **FGV**. O nome é **QB de "Quebrando a Banca"** — não de "question bank".
+
+Banco atual: **1.004 questões** (PM-AM 602, PC-AM 739), **524 assuntos**, todas com comentário.
 
 ## Identidade visual
 
@@ -15,29 +17,69 @@ banca **FGV**. O nome é **QB de "Quebrando a Banca"** — não de "question ban
 
 | Camada | Tecnologia |
 |---|---|
-| Backend | Java 21 + Spring Boot 4.0.9 (REST, JPA) |
-| Banco | H2 em arquivo (`backend/data/concurso`) — dev |
+| Backend | Java 21 + Spring Boot **4.0.9** (REST, JPA, Validation) |
+| Banco (dev) | H2 em arquivo (`backend/data/concurso`) |
+| Banco (prod) | **PostgreSQL 16** (serviço `db` no compose) |
 | Frontend | React 19 + TypeScript + Vite 8 + Tailwind v4 |
+| Sessão | token opaco de 30 dias, `Authorization: Bearer`, guardado em `localStorage` |
+| Deploy | Docker Compose + Caddy (HTTPS + basic auth) na Oracle Cloud |
 
-## Como rodar
+## Como rodar (local)
 
 ```bash
-cd backend && mvn spring-boot:run          # API em :8080
-cd frontend && npm install && npm run dev  # UI em :5173 (proxy /api → 8080)
+# backend  -> :8080
+cd backend
+GOOGLE_CLIENT_ID=<client-id> mvn spring-boot:run
+
+# frontend -> :5173 (proxy /api -> 8080)
+cd frontend
+npm install --ignore-scripts
+npm run dev
 ```
 
-Nesta máquina Windows o Maven não está no PATH: usar
-`treino/tools/apache-maven-3.9.16/bin/mvn.cmd -s treino/tools/settings.xml` e
-`JAVA_HOME="C:\Program Files\Amazon Corretto\jdk21.0.8_9"`.
+Nesta máquina Windows o Maven não está no PATH:
+
+```powershell
+$env:JAVA_HOME = "C:\Program Files\Amazon Corretto\jdk21.0.8_9"
+treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f concurso-am\backend\pom.xml package
+```
+
+**Não há `mvnw`** — o Maven vem da pasta `treino/tools`.
+
+## Variáveis de ambiente
+
+| Variável | Onde | Para que serve |
+|---|---|---|
+| `DEEPSEEK_API_KEY` | backend | chave do tutor (alternativa: `backend/segredos/deepseek.key`) |
+| `GOOGLE_CLIENT_ID` | backend | audience do login Google; sem ela `/api/google` responde 503 |
+| `VITE_GOOGLE_CLIENT_ID` | frontend (`.env.local`) | renderiza o botão do Google; sem ela o botão não aparece |
+| `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | backend | e-mail transacional (verificação, reset, troca de e-mail) |
+| `CONCURSO_APP_URL` | backend | URL pública usada nos links dos e-mails |
+| `POSTGRES_*`, `DB_POOL_SIZE`, `DDL_AUTO`, `FLYWAY_ENABLED` | compose | banco de produção |
+
+`frontend/.env.example` é versionado; `frontend/.env.local` **não**.
+Arquivos `.env.local` gravados com BOM (PowerShell 5.1 `Set-Content`) quebram o Vite — gravar sem BOM.
 
 ## Estrutura
 
 ```
 backend/src/main/java/com/concurso
-  domain/Question, Attempt, Origem, Concursos
-  repo/, service/QuestaoService, web/ApiController+Dtos, seed/SeedLoader
-backend/src/main/resources/questoes.json   ← banco inicial (formato de importação)
-frontend/src/App.tsx, api.ts, index.css
+  domain/    Question, Attempt, Origem, Concursos, Usuario, Sessao, TokenConta,
+             SessaoEstudo, IdentidadeExterna
+  repo/      QuestionRepository, AttemptRepository, UsuarioRepository, SessaoRepository,
+             TokenContaRepository, SessaoEstudoRepository, IdentidadeExternaRepository
+  service/   QuestaoService, SimuladoService, ImportService, DeepSeekService, RateLimiter,
+             AuthService, AuthException, SenhaHash, GoogleTokenVerifier, EmailService,
+             DadosPessoaisService, EvolucaoService
+  web/       ApiController, AuthController, TutorController, AuthInterceptor, WebConfig,
+             ApiErrors, AcessoNegadoException, Dtos
+  seed/      SeedLoader, QuestionPayload
+backend/src/main/resources/
+  seed-completo.json          ← 1.004 questões (gerado por tools/consolidar-seed.py)
+  questoes.json               ← 24 questões de base (fallback do seed)
+frontend/src/  App.tsx, Auth.tsx, GoogleBotao.tsx, ContaSeguranca.tsx, Evolucao.tsx,
+               Fixacao.tsx, Simulado.tsx, PomodoroEstudo.tsx, Rascunho.tsx,
+               MarcadorTexto.tsx, Logo.tsx, api.ts, index.css
 ```
 
 ## Modelo e regras
@@ -47,33 +89,68 @@ frontend/src/App.tsx, api.ts, index.css
   e `concursos` (PM-AM, PC-AM ou ambos).
 - **Conteúdo comum leva as duas marcas**; matéria específica leva só a sua. Sem marcação no
   JSON, o `SeedLoader` assume os dois.
-- `Attempt` = cada resposta dada; alimenta `/api/desempenho`.
+- `Attempt` = cada resposta dada; alimenta `/api/desempenho` e a evolução diária.
 - O seed só roda com a tabela vazia — reiniciar não duplica.
+- `tools/consolidar-seed.py` regenera o `seed-completo.json` a partir de `backend/lotes/*.json`.
+  **Rodar de novo a cada lote novo.**
+
+## Autenticação e contas
+
+- Login por **e-mail/senha** (hash PBKDF2/bcrypt em `SenhaHash`) e por **Google**.
+- Sessão: token aleatório de 32 bytes; o banco guarda **apenas o hash**. Validade 30 dias.
+- Login com Google usa **ID token** (Google Identity Services) — **não há client secret**.
+  `GoogleTokenVerifier` confere assinatura (JWKS com cache + rotação), `iss`, `aud`, `exp`,
+  `iat` e `email_verified`; recusa `alg` diferente de RS256 e `alg=none`.
+- Vínculo Google ↔ conta local: pela tabela `identidades_externas`, chave `(provider, sub)`.
+  **Nunca pelo e-mail** — o vínculo com conta local existente só é feito se ela já confirmou o
+  e-mail, senão qualquer um criaria uma conta com o e-mail alheio e assumiria o histórico.
+- Conta criada pelo Google nasce verificada e **sem senha local** (`senha_hash` aceita nulo).
+- Rotas públicas (POST): `/api/google`, `/api/cadastro`, `/api/login`, `/api/verificar-email`,
+  `/api/reenviar-verificacao`, `/api/solicitar-reset`, `/api/resetar-senha`,
+  `/api/usuario/confirmar-email`. **Todo o resto de `/api/**` exige sessão.**
+- Primeiro usuário cadastrado vira **ADMIN**.
+- Erros com status correto (`AuthException`): 401 credencial inválida, 403 e-mail não verificado,
+  409 conflito de vínculo, 429 conta bloqueada (5 tentativas / 15 min), 503 Google sem configurar.
+
+**Lacuna conhecida:** contas que só usam Google não têm senha, então `POST /api/usuario/excluir`
+e `POST /api/usuario/alterar-email` (que pedem senha) recusam essas contas. Falta reautenticação
+pelo Google nesses dois fluxos.
 
 ## API
 
+Conteúdo (exige sessão):
 `GET /api/concursos` · `GET /api/topicos?concurso=` · `GET /api/questoes?concurso=&materia=&assunto=&quantidade=`
-· `POST /api/questoes/{id}/responder` · `GET /api/desempenho?concurso=`
-· `POST /api/importar` · `POST /api/explicacoes`
-· `GET|POST /api/config/deepseek` · `POST /api/chat` (tutor)
+· `POST /api/questoes/{id}/responder` · `GET /api/desempenho?concurso=` · `GET /api/simulado`
+· `POST /api/simulado/corrigir` · `POST /api/importar` · `POST /api/explicacoes`
+· `GET|POST /api/config/deepseek` · `POST /api/chat`
+
+Contas:
+`POST /api/cadastro` · `POST /api/login` · `POST /api/google` · `POST /api/logout`
+· `GET /api/usuario` · `POST /api/verificar-email` · `POST /api/reenviar-verificacao`
+· `POST /api/solicitar-reset` · `POST /api/resetar-senha` · `POST /api/usuario/alterar-email`
+· `POST /api/usuario/confirmar-email` · `GET /api/usuario/dados` (LGPD) · `POST /api/usuario/excluir`
 
 ## Tutor (aba Fixação)
 
 `POST /api/chat` recebe `{mensagens, contexto}` e chama `https://api.deepseek.com/chat/completions`
 (modelo `deepseek-chat`) com o contexto da questão atual — o tutor responde sobre ELA, não em
 genérico. A chave é lida de `DEEPSEEK_API_KEY` ou do arquivo `backend/segredos/deepseek.key`
-(ignorado pelo git; o aluno cola na tela de configuração da aba Fixação). O prompt de sistema
-proíbe inventar artigo/súmula e mantém o foco em lei seca.
+(ignorado pelo git). O prompt de sistema proíbe inventar artigo/súmula e mantém o foco em lei seca.
+Limites: 20 mensagens de histórico, 4.000 caracteres por mensagem, 20 chamadas/minuto por processo.
+Erro do provedor externo **nunca** volta para o cliente (vai para o log).
 
 ## Decisões de produto (não mudar sem combinar)
 
 - **Banca alvo é FGV.** Não implementar multi-banca agora.
 - **Questão autoral precisa de `fundamento`** (artigo de lei, súmula ou item do edital) e estilo
   FGV: texto-base curto, 5 alternativas, distratores plausíveis, pegadinha de absolutismo.
-- **Procedência sempre visível** (`PROVA` vs `AUTORAL`) — o aluno precisa saber o que está treinando.
+- **Procedência sempre visível** (`PROVA` vs `AUTORAL`).
 - Questões de prova real devem vir de caderno oficial, com banca/ano/órgão atribuídos.
-- Próximo passo combinado: extrair as provas reais da FGV (PM-AM 2022, PC-AM 2021) para calibrar
-  as autorais lado a lado.
+- **Gateway de pagamento escolhido: Asaas** (Pix + boleto + cartão em assinatura recorrente,
+  checkout hospedado, webhook com token). Fase 2 ainda não implementada.
+- Planos previstos: **FREE** (limite diário) e **PRO** (ilimitado), mensal/anual.
+- Contas de usuário: Cookie/JWT — decisão tomada foi **token Bearer em localStorage** (simples para
+  SPA mesma origem). Se houver app mobile, reavaliar.
 
 ## Fontes primárias de legislação (`docs/legislacao/`)
 
@@ -113,28 +190,69 @@ inciso, parágrafo, item do edital).
   Lei 14.843/2024 e reescrito pela **Lei 15.402/2026** (1/6 como regra, exceções de 20/25/30%,
   incisos IV a X vetados).
 
-### Testes neste ambiente Windows (sandbox)
+## Testes
 
-- **Vitest** falha com `Failed to start forks worker` (o sandbox bloqueia processos-filho com pipe).
-  Rodar com pool de threads:
-  `node node_modules/vitest/vitest.mjs run --pool=threads`
-  (o `npm test` funciona normalmente fora do sandbox).
-- **Mockito** precisa de `-Djdk.attach.allowAttachSelf=true` na JVM de teste — já configurado no
-  `maven-surefire-plugin` do `pom.xml`. Sem isso: `MockitoInitializationException`.
-- **Smoke test das contas**: `python tools/teste-contas.py` com o backend em :8080 no ar
-  (cadastro 201, duplicado 400, login 200/401, logout invalida token, conteudo exige login).
+```powershell
+# backend (61 testes)
+treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f concurso-am\backend\pom.xml test
+
+# frontend (19 testes) — no sandbox do agente precisa de pool de threads
+cd concurso-am\frontend
+node node_modules\vitest\vitest.mjs run --pool=threads
+
+# smoke test das contas (backend no ar em :8080)
+python concurso-am\tools\teste-contas.py
+```
+
+- **Mockito** precisa de `-Djdk.attach.allowAttachSelf=true` (já no `maven-surefire-plugin`).
+  Sem isso: `MockitoInitializationException`.
+- **Vitest** com `npm test` falha no sandbox do agente (`Failed to start forks worker`) — usar
+  `--pool=threads`. Fora do sandbox, `npm test` funciona.
 
 ## Armadilhas do ambiente
 
-- **Matar o java à força deixa o H2 read-only** na próxima subida → apagar `backend/data/*` e reiniciar.
+- **Matar o java à força deixa o H2 read-only** na próxima subida → apagar `backend/data/*` e
+  reiniciar (o seed recria as 1.004). Confirmar que a pasta ficou vazia antes de subir.
 - `mvn package` falha com "Unable to rename ...jar" se a aplicação estiver rodando → matar antes.
 - `npm install` deve usar `--ignore-scripts` (sandbox bloqueia postinstall do esbuild).
 - `tsc` só roda dentro de `frontend/` (o tsconfig está lá).
-- PowerShell 5.1: `@(Invoke-RestMethod ...)` embrulha arrays — indexar direto, sem `@()`.
+- PowerShell 5.1: `@(Invoke-RestMethod ...)` embrulha arrays; `curl --data-binary $var` corrompe
+  JSON com aspas — para testar API use **Python** (`tools/teste-contas.py`) ou arquivo.
+- Heredoc do PowerShell come backticks — não usar para escrever arquivos com Markdown/código.
 - Acentuação embaralhada no console é só exibição; o arquivo e o banco são UTF-8.
+
+## Estado em 2026-11-26 — onde parar e como retomar
+
+| Fase | Situação |
+|---|---|
+| Banco de questões (1.004) | ✅ concluído |
+| Contas: e-mail/senha, verificação, reset, LGPD, sessão | ✅ concluído |
+| Login com Google (ID token + identidade externa) | ✅ concluído (falta testar com token real no navegador) |
+| Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
+| Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
+| Fase 2: planos, assinatura, webhook Asaas | ⬜ não iniciado |
+| Fase 3: AccessControlService, limite FREE, cota de IA por plano | ⬜ não iniciado |
+
+**Para retomar:** `git log --oneline -8` mostra o ponto; rodar backend + frontend conforme acima;
+`python tools/teste-contas.py` valida o básico em segundos.
+
+**Pendências pequenas conhecidas:**
+1. Excluir conta / trocar e-mail para contas só-Google (reautenticação pelo Google).
+2. `RateLimiter` é global por processo — precisa ser por usuário antes de virar multiusuário.
+3. Frontend: `localStorage` guarda o token (considerar cookie HttpOnly quando houver domínio próprio).
+4. Testar o botão do Google no navegador com `http://localhost:5173` nas *Authorized JavaScript origins*.
 
 ## Git
 
-Repositório próprio, branch `main`. Não versionar `target/`, `node_modules/`, `data/`, `*.log`
-(já no `.gitignore`). O push é feito manualmente pelo usuário — a rede do git é bloqueada no
-sandbox do agente.
+Repositório `rafaelb1451/concurso-am`, branch `main`. Não versionar `target/`, `node_modules/`,
+`data/`, `dist/`, `*.log`, `.env`, `.env.local`. O push é feito manualmente pelo usuário — a rede do
+git é bloqueada no sandbox do agente.
+
+Commits recentes relevantes:
+
+```
+d4927f5 feat: login com Google via validacao de ID token
+f638494 fix: semantica HTTP do login e teste de fumaca das contas
+1ca5ffa feat: postgres em producao e preparacao do flyway
+bed4787 feat: contas de usuario, sessoes, LGPD e evolucao do estudo
+```
