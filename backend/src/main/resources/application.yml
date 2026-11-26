@@ -30,6 +30,10 @@ spring:
       ddl-auto: update
     open-in-view: false
     show-sql: false
+  flyway:
+    # Desligado no perfil padrao (dev/testes com H2): a migration V1 e' SQL de
+    # PostgreSQL. O perfil prod define spring.flyway.enabled via FLYWAY_ENABLED.
+    enabled: false
 
 logging:
   level:
