@@ -54,7 +54,10 @@ treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f con
 | `GOOGLE_CLIENT_ID` | backend | audience do login Google; sem ela `/api/google` responde 503 |
 | `VITE_GOOGLE_CLIENT_ID` | frontend (`.env.local`) | renderiza o botão do Google; sem ela o botão não aparece |
 | `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | backend | e-mail transacional (verificação, reset, troca de e-mail) |
-| `CONCURSO_APP_URL` | backend | URL pública usada nos links dos e-mails |
+| `CONCURSO_APP_URL` | backend | URL pública (links de e-mail e callbacks do checkout; precisa ser https) |
+| `ASAAS_API_KEY` / `ASAAS_CHAVE_ARQUIVO` | backend | chave do Asaas (dev: `backend/segredos/asaas.key`) |
+| `ASAAS_BASE_URL` | backend | sandbox `https://api-sandbox.asaas.com/v3` ou produção `https://api.asaas.com/v3` |
+| `ASAAS_WEBHOOK_TOKEN` | backend | token do webhook; sem ele o webhook recusa toda requisição |
 | `POSTGRES_*`, `DB_POOL_SIZE`, `DDL_AUTO`, `FLYWAY_ENABLED` | compose | banco de produção |
 
 `frontend/.env.example` é versionado; `frontend/.env.local` **não**.
@@ -151,11 +154,38 @@ Erro do provedor externo **nunca** volta para o cliente (vai para o log).
   FGV: texto-base curto, 5 alternativas, distratores plausíveis, pegadinha de absolutismo.
 - **Procedência sempre visível** (`PROVA` vs `AUTORAL`).
 - Questões de prova real devem vir de caderno oficial, com banca/ano/órgão atribuídos.
-- **Gateway de pagamento escolhido: Asaas** (Pix + boleto + cartão em assinatura recorrente,
-  checkout hospedado, webhook com token). Fase 2 ainda não implementada.
+- **Gateway de pagamento escolhido: Asaas** (checkout hospedado, webhook com token). **Principal
+  limitação descoberta: assinatura recorrente no Asaas só aceita cartão de crédito** — Pix/boleto
+  ficam para cobrança avulsa (plano anual pago de uma vez).
 - Planos previstos: **FREE** (limite diário) e **PRO** (ilimitado), mensal/anual.
 - Contas de usuário: Cookie/JWT — decisão tomada foi **token Bearer em localStorage** (simples para
   SPA mesma origem). Se houver app mobile, reavaliar.
+
+## Pagamento e assinatura (Fase 2)
+
+Gateway: **Asaas**, checkout hospedado (não guardamos cartão). Descobertas da API em
+`docs/integracao-asaas.md` — resumo do que morde:
+
+- **Assinatura recorrente no Asaas só aceita cartão de crédito** (`RECURRENT` + `CREDIT_CARD`).
+  Pix/boleto exigem chave Pix/habilitação e são cobrança avulsa.
+- O `callback` do checkout precisa ser **HTTPS público** (localhost é recusado).
+- `customerData` inline exige nome, e-mail, CPF, **`phone`**, endereço, número, bairro e CEP.
+- A URL de pagamento volta no campo **`link`**.
+- Webhook: o Asaas manda o token no header **`asaas-access-token`**.
+
+Fluxo: `POST /api/assinatura/checkout` cria a sessão hospedada e a assinatura nasce **PENDENTE**
+(não libera). Só o **webhook** muda o estado: `PAYMENT_CONFIRMED`/`PAYMENT_RECEIVED` → `ATIVA` com
+período de 1 mês/1 ano; `PAYMENT_OVERDUE` → `EM_ATRASO` com carência de 5 dias;
+`SUBSCRIPTION_DELETED`/`PAYMENT_REFUNDED` → `CANCELADA` (acesso até o fim do período pago).
+Idempotência por `(gateway, gateway_event_id)` único + consulta prévia.
+
+Endpoints: `GET /api/planos` (público) · `GET /api/assinatura` · `GET /api/assinatura/uso`
+· `POST /api/assinatura/checkout` · `POST /api/assinatura/cancelar` · `POST /api/webhooks/asaas`.
+
+Config: `ASAAS_API_KEY` (ou `backend/segredos/asaas.key`), `ASAAS_BASE_URL`,
+`ASAAS_WEBHOOK_TOKEN`, `CONCURSO_APP_URL` (https, para os callbacks).
+
+Smoke test: `python tools/teste-pagamento.py` (precisa do backend no ar com o token do webhook).
 
 ## Fontes primárias de legislação (`docs/legislacao/`)
 
@@ -198,7 +228,7 @@ inciso, parágrafo, item do edital).
 ## Testes
 
 ```powershell
-# backend (67 testes)
+# backend (76 testes)
 treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f concurso-am\backend\pom.xml test
 
 # frontend (19 testes) — no sandbox do agente precisa de pool de threads
@@ -207,6 +237,9 @@ node node_modules\vitest\vitest.mjs run --pool=threads
 
 # smoke test das contas (backend no ar em :8080)
 python concurso-am\tools\teste-contas.py
+
+# smoke test do pagamento (backend no ar com ASAAS_WEBHOOK_TOKEN e CONCURSO_APP_URL https)
+python concurso-am\tools\teste-pagamento.py
 ```
 
 - **Mockito** precisa de `-Djdk.attach.allowAttachSelf=true` (já no `maven-surefire-plugin`).
@@ -235,8 +268,8 @@ python concurso-am\tools\teste-contas.py
 | Login com Google (ID token + identidade externa) | ✅ concluído, incluindo reautenticação para excluir conta e trocar e-mail (falta testar com token real no navegador) |
 | Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
-| Fase 2: planos, assinatura, webhook Asaas | ⬜ não iniciado |
-| Fase 3: AccessControlService, limite FREE, cota de IA por plano | ⬜ não iniciado |
+| Fase 2: planos, assinatura, webhook Asaas | 🔶 **núcleo pronto e testado no sandbox** — falta tela de planos no frontend e configurar o webhook no painel |
+| Fase 3: AccessControlService, limite FREE, cota de IA por plano | 🔶 `AcessoService` criado (limite diário derivado de `attempts`); falta aplicar no endpoint de responder e cota de IA por plano |
 
 **Para retomar:** `git log --oneline -8` mostra o ponto; rodar backend + frontend conforme acima;
 `python tools/teste-contas.py` valida o básico em segundos.

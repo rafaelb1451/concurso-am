@@ -1,6 +1,16 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  app:
+    # URL publica usada nos callbacks do checkout (o Asaas exige https)
+    url: ${CONCURSO_APP_URL:http://localhost:5173}
+  asaas:
+    api-key: ${ASAAS_API_KEY:}
+    # no dev a chave fica em backend/segredos/asaas.key (gitignored)
+    chave-arquivo: ${ASAAS_CHAVE_ARQUIVO:segredos/asaas.key}
+    base-url: ${ASAAS_BASE_URL:https://api-sandbox.asaas.com/v3}
+    # token que o Asaas envia no header asaas-access-token; sem ele o webhook recusa tudo
+    webhook-token: ${ASAAS_WEBHOOK_TOKEN:}
   google:
     client-id: ${GOOGLE_CLIENT_ID:}
 

@@ -13,6 +13,9 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
 
     long countByAcertouTrue();
 
+    /** Respostas do aluno a partir de um instante (limite diario do FREE). */
+    long countByUsuarioIdAndCriadaEmGreaterThanEqual(Long usuarioId, java.time.Instant desde);
+
     @Query(value = """
             SELECT q.materia AS materia, COUNT(a.id) AS respondidas,
                    SUM(CASE WHEN a.acertou = TRUE THEN 1 ELSE 0 END) AS acertos

@@ -70,6 +70,13 @@ spring:
       enabled: false
 
 concurso:
+  app:
+    url: ${CONCURSO_APP_URL:http://localhost:8080}
+  asaas:
+    api-key: ${ASAAS_API_KEY:}
+    chave-arquivo: ${ASAAS_CHAVE_ARQUIVO:}
+    base-url: ${ASAAS_BASE_URL:https://api.asaas.com/v3}
+    webhook-token: ${ASAAS_WEBHOOK_TOKEN:}
   google:
     client-id: ${GOOGLE_CLIENT_ID:}
   seed:

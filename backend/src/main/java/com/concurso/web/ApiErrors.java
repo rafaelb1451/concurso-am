@@ -16,6 +16,18 @@ import java.util.Map;
 @RestControllerAdvice
 public class ApiErrors {
 
+    /** Erros de autenticacao/assinatura carregam o proprio status. */
+    @ExceptionHandler(com.concurso.service.AuthException.class)
+    public ResponseEntity<Map<String, String>> erroDeAuth(com.concurso.service.AuthException ex) {
+        return ResponseEntity.status(ex.getStatus()).body(Map.of("message", ex.getMessage()));
+    }
+
+    /** Regra de negocio violada (entrada invalida). */
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Map<String, String>> erroDeRegra(IllegalArgumentException ex) {
+        return ResponseEntity.badRequest().body(Map.of("message", ex.getMessage()));
+    }
+
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<Map<String, String>> corpoInvalido(HttpMessageNotReadableException ex) {
         return ResponseEntity.badRequest()
