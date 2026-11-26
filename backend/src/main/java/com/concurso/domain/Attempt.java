@@ -12,7 +12,10 @@ import java.time.Instant;
 
 /** Resposta dada pelo usuario a uma questao. Base das estatisticas. */
 @Entity
-@Table(name = "attempts", indexes = @Index(name = "idx_attempts_question_id", columnList = "question_id"))
+@Table(name = "attempts", indexes = {
+        @Index(name = "idx_attempts_question_id", columnList = "question_id"),
+        @Index(name = "idx_attempts_usuario_id", columnList = "usuario_id")
+})
 public class Attempt {
 
     @Id
@@ -21,6 +24,10 @@ public class Attempt {
 
     @Column(name = "question_id", nullable = false)
     private Long questionId;
+
+    /** Usuario que respondeu. {@code null} apenas em registros legados (antes das contas). */
+    @Column(name = "usuario_id")
+    private Long usuarioId;
 
     @Column(nullable = false)
     private Integer escolhida;
@@ -36,6 +43,9 @@ public class Attempt {
 
     public Long getQuestionId() { return questionId; }
     public void setQuestionId(Long questionId) { this.questionId = questionId; }
+
+    public Long getUsuarioId() { return usuarioId; }
+    public void setUsuarioId(Long usuarioId) { this.usuarioId = usuarioId; }
 
     public Integer getEscolhida() { return escolhida; }
     public void setEscolhida(Integer escolhida) { this.escolhida = escolhida; }

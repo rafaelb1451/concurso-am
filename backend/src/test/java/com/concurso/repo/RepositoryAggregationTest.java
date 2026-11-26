@@ -43,7 +43,7 @@ class RepositoryAggregationTest {
         assertEquals(1, pmTopics.get(0).getTotal());
         assertEquals(2, questions.findTopicCounts("TODOS").get(0).getTotal());
 
-        List<AttemptRepository.MateriaStats> stats = attempts.findMateriaStats("PM-AM");
+        List<AttemptRepository.MateriaStats> stats = attempts.findMateriaStats(1L, "PM-AM");
         assertEquals(1, stats.size());
         assertEquals(2, stats.get(0).getRespondidas());
         assertEquals(1, stats.get(0).getAcertos());
@@ -63,6 +63,7 @@ class RepositoryAggregationTest {
     private static Attempt attempt(Long questionId, boolean acertou) {
         Attempt attempt = new Attempt();
         attempt.setQuestionId(questionId);
+        attempt.setUsuarioId(1L);
         attempt.setEscolhida(acertou ? 0 : 1);
         attempt.setAcertou(acertou);
         return attempt;

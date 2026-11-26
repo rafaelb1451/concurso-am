@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { api, type Correcao, type Simulado as SimuladoTipo } from './api'
+import Rascunho from './Rascunho'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 const DURACAO_MIN: Record<string, number> = { 'PM-AM': 210, 'PC-AM': 240 }
@@ -285,6 +286,8 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
             )
           })}
         </ul>
+
+        <Rascunho questaoId={atual.id} compact />
 
         <div className="mt-4 flex items-center justify-between gap-2">
           <button

@@ -62,7 +62,7 @@ public class SimuladoService {
      * desempenho por matéria. Antes disso o aluno nao ve' o gabarito, como na prova.
      */
     @Transactional
-    public Dtos.CorrecaoView corrigir(Dtos.CorrecaoRequest request) {
+    public Dtos.CorrecaoView corrigir(Long usuarioId, Dtos.CorrecaoRequest request) {
         List<Dtos.RespostaSimulado> respostas = request.respostas() == null ? List.of() : request.respostas();
         // Busca so' as questoes respondidas: a correcao nao precisa carregar o banco inteiro.
         List<Long> ids = respostas.stream()
@@ -96,6 +96,7 @@ public class SimuladoService {
 
             com.concurso.domain.Attempt tentativa = new com.concurso.domain.Attempt();
             tentativa.setQuestionId(q.getId());
+            tentativa.setUsuarioId(usuarioId);
             tentativa.setEscolhida(r.alternativa() == null ? -1 : r.alternativa());
             tentativa.setAcertou(acertou);
             attempts.save(tentativa);

@@ -50,7 +50,7 @@ public class QuestaoService {
     }
 
     @Transactional
-    public Dtos.AnswerView responder(Long id, Integer alternativa) {
+    public Dtos.AnswerView responder(Long usuarioId, Long id, Integer alternativa) {
         Question questao = questions.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Questao nao encontrada"));
 
@@ -63,6 +63,7 @@ public class QuestaoService {
 
         Attempt tentativa = new Attempt();
         tentativa.setQuestionId(id);
+        tentativa.setUsuarioId(usuarioId);
         tentativa.setEscolhida(alternativa);
         tentativa.setAcertou(acertou);
         attempts.save(tentativa);
@@ -99,12 +100,12 @@ public class QuestaoService {
     }
 
     @Transactional(readOnly = true)
-    public Dtos.DesempenhoView desempenho(String concurso) {
+    public Dtos.DesempenhoView desempenho(Long usuarioId, String concurso) {
         long respondidas = 0;
         long acertos = 0;
         List<Dtos.MateriaStats> stats = new ArrayList<>();
         String filtro = concurso == null || concurso.isBlank() ? null : concurso;
-        for (AttemptRepository.MateriaStats linha : attempts.findMateriaStats(filtro)) {
+        for (AttemptRepository.MateriaStats linha : attempts.findMateriaStats(usuarioId, filtro)) {
             stats.add(new Dtos.MateriaStats(linha.getMateria(), linha.getRespondidas(), linha.getAcertos()));
             respondidas += linha.getRespondidas();
             acertos += linha.getAcertos();

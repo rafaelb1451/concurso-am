@@ -9,6 +9,11 @@ dois certames.
 - Sessão de estudo com filtro por **concurso → matéria → assunto**
 - Correção imediata com **gabarito comentado** e **fundamento** (artigo de lei, súmula ou tópico do edital)
 - Estatísticas de acertos por matéria
+- Dashboard de evolução por usuário e por matéria
+- Timer Pomodoro e modo de estudo por tempo
+- Rascunho por questão salvo no tablet/navegador (oculto, com botão para abrir)
+- Ferramentas de estudo na resolução: marcador de texto (caneta) e eliminação de alternativas
+- Cadastro com conta LGPD e recuperação de senha (verificação por e-mail pausada até haver domínio; sem chave do Resend, a conta já nasce ativa)
 - Cada questão declara a **procedência**: `PROVA` (extraída de certame) ou `AUTORAL` (criada no estilo da banca)
 
 ## Stack
@@ -55,7 +60,7 @@ npx playwright install chromium
 E2E_BASE_URL=http://127.0.0.1:5173 npm run test:e2e
 ```
 
-Cobertura atual: 41 testes de backend, 11 de frontend e 3 fluxos E2E (sessão de questões,
+Cobertura atual: 52 testes de backend, 19 de frontend e 3 fluxos E2E (sessão de questões,
 simulado com cronômetro e troca de concurso).
 
 ## Modelo de dados
@@ -88,7 +93,7 @@ Conteúdo comum aos dois concursos leva as duas marcas; matéria específica lev
 - [x] Tutor de IA na aba Fixação (DeepSeek)
 - [x] Simulado no formato do caderno da banca
 - [x] Deploy em container único com Caddy (HTTPS + senha) — ver `DEPLOY.md`
-- [ ] Extração das provas reais da FGV (PM-AM 2022, PC-AM 2021)
+- [x] Extração das provas reais da FGV (PM-AM 2022, PC-AM 2021)
 - [ ] Migração para PostgreSQL se o uso deixar de ser pessoal
 
 ## Notas

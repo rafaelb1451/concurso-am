@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
 import {
   answer,
@@ -14,10 +14,18 @@ import {
 
 afterEach(() => {
   vi.unstubAllGlobals()
+  localStorage.clear()
+})
+
+beforeEach(() => {
+  localStorage.setItem('qb_token', 'token-teste')
 })
 
 function rotearApi(responder = () => answer()) {
   return mockFetch((url, init) => {
+    if (url === '/api/usuario') {
+      return jsonResponse({ id: 1, nome: 'Aluno Teste', email: 'teste@qb.local', admin: false, emailVerificado: true })
+    }
     if (url === '/api/concursos') return jsonResponse(concursos)
     if (url === '/api/topicos') return jsonResponse(topicos)
     if (url === '/api/desempenho') return jsonResponse(desempenho)
@@ -72,8 +80,34 @@ describe('App', () => {
     expect(await screen.findByText('Você errou — gabarito A')).toBeInTheDocument()
   })
 
+  it('oferece marcador, rascunho oculto e eliminação de alternativas', async () => {
+    const user = userEvent.setup()
+    rotearApi()
+    render(<App />)
+
+    await user.click(await screen.findByRole('button', { name: 'Começar sessão' }))
+    expect(await screen.findByText('Questão 1 de 2')).toBeInTheDocument()
+
+    // o rascunho começa oculto
+    expect(screen.queryByPlaceholderText(/Escreva aqui/)).not.toBeInTheDocument()
+
+    // abrir o rascunho
+    await user.click(screen.getByRole('button', { name: 'Rascunho' }))
+    expect(screen.getByPlaceholderText(/Escreva aqui/)).toBeInTheDocument()
+
+    // eliminar e restaurar a alternativa B
+    await user.click(screen.getByRole('button', { name: 'Eliminar alternativa B' }))
+    expect(screen.getByRole('button', { name: 'Restaurar alternativa B' })).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: 'Restaurar alternativa B' }))
+    expect(screen.getByRole('button', { name: 'Eliminar alternativa B' })).toBeInTheDocument()
+  })
+
   it('mostra mensagem amigável quando o servidor está fora', async () => {
-    mockFetch(() => {
+    mockFetch((url) => {
+      if (url === '/api/usuario') {
+        return jsonResponse({ id: 1, nome: 'Aluno Teste', email: 'teste@qb.local', admin: false, emailVerificado: true })
+      }
       throw new Error('conexão recusada')
     })
     render(<App />)

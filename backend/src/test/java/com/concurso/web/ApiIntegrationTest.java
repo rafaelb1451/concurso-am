@@ -1,6 +1,10 @@
 package com.concurso.web;
 
+import com.concurso.domain.Usuario;
+import com.concurso.repo.UsuarioRepository;
+import com.concurso.service.SenhaHash;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
@@ -36,10 +40,33 @@ class ApiIntegrationTest {
     @LocalServerPort
     private int porta;
 
+    private String token;
+
     @Autowired
     private ObjectMapper mapper;
 
+    @Autowired
+    private UsuarioRepository usuarios;
+
     private final HttpClient http = HttpClient.newHttpClient();
+
+    @BeforeEach
+    void autenticar() throws Exception {
+        if (usuarios.findByEmail("admin@qb.test").isEmpty()) {
+            Usuario usuario = new Usuario();
+            usuario.setNome("Administrador");
+            usuario.setEmail("admin@qb.test");
+            usuario.setSenhaHash(SenhaHash.gerar("Test123456"));
+            usuario.setEmailVerificado(true);
+            usuario.setAdmin(true);
+            usuarios.save(usuario);
+        }
+        HttpResponse<String> login = chamarSemToken("POST", "/api/login",
+                "{\"email\":\"admin@qb.test\",\"senha\":\"Test123456\"}");
+        assertEquals(200, login.statusCode());
+        JsonNode auth = mapper.readTree(login.body());
+        token = auth.get("token").asString();
+    }
 
     @Test
     void painelTopicosESimuladoRespondem() throws Exception {
@@ -98,6 +125,22 @@ class ApiIntegrationTest {
                 "{\"alternativa\":99}");
         assertEquals(400, invalida.statusCode());
         assertTrue(invalida.body().contains("Alternativa invalida"));
+    }
+
+    @Test
+    void evolucaoRespondeDepoisDeResponderQuestao() throws Exception {
+        HttpResponse<String> questoes = chamar("GET", "/api/questoes?concurso=PM-AM&quantidade=1", null);
+        assertEquals(200, questoes.statusCode());
+        long id = mapper.readTree(questoes.body()).get(0).get("id").asLong();
+
+        chamar("POST", "/api/questoes/" + id + "/responder", "{\"alternativa\":0}");
+
+        HttpResponse<String> evolucao = chamar("GET", "/api/evolucao?concurso=PM-AM", null);
+        assertEquals(200, evolucao.statusCode());
+        JsonNode corpo = mapper.readTree(evolucao.body());
+        assertTrue(corpo.get("respondidas").asLong() >= 1);
+        assertTrue(corpo.get("serie").isArray(), "a serie diaria deve ser uma lista");
+        assertTrue(corpo.get("serie").size() >= 1, "deve haver ao menos um dia na serie");
     }
 
     @Test
@@ -180,13 +223,24 @@ class ApiIntegrationTest {
     }
 
     private HttpResponse<String> chamar(String metodo, String caminho, String corpo) throws Exception {
+        return chamar(metodo, caminho, corpo, true);
+    }
+
+    private HttpResponse<String> chamarSemToken(String metodo, String caminho, String corpo) throws Exception {
+        return chamar(metodo, caminho, corpo, false);
+    }
+
+    private HttpResponse<String> chamar(String metodo, String caminho, String corpo, boolean autenticado) throws Exception {
         HttpRequest.BodyPublisher publisher = corpo == null
                 ? HttpRequest.BodyPublishers.noBody()
                 : HttpRequest.BodyPublishers.ofString(corpo, StandardCharsets.UTF_8);
-        HttpRequest request = HttpRequest.newBuilder(URI.create("http://localhost:" + porta + caminho))
+        HttpRequest.Builder builder = HttpRequest.newBuilder(URI.create("http://localhost:" + porta + caminho))
                 .header("Content-Type", "application/json")
-                .method(metodo, publisher)
-                .build();
+                .method(metodo, publisher);
+        if (autenticado && token != null) {
+            builder.header("Authorization", "Bearer " + token);
+        }
+        HttpRequest request = builder.build();
         return http.send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
     }
 }

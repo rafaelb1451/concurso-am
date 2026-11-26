@@ -37,4 +37,18 @@ public class ApiErrors {
     public ResponseEntity<Map<String, String>> naoEncontrado(Exception ex) {
         return ResponseEntity.status(404).body(Map.of("message", "Recurso não encontrado."));
     }
+
+    @ExceptionHandler(AcessoNegadoException.class)
+    public ResponseEntity<Map<String, String>> acessoNegado(AcessoNegadoException ex) {
+        return ResponseEntity.status(403).body(Map.of("message", ex.getMessage()));
+    }
+
+    @ExceptionHandler(IllegalStateException.class)
+    public ResponseEntity<Map<String, String>> limiteOuEstado(IllegalStateException ex) {
+        if (ex.getMessage() != null && ex.getMessage().contains("Limite de uso")) {
+            return ResponseEntity.status(429).body(Map.of("message", ex.getMessage()));
+        }
+        return ResponseEntity.status(502)
+                .body(Map.of("message", "Operação temporariamente indisponível."));
+    }
 }

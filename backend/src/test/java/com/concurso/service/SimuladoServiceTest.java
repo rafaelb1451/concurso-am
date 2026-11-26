@@ -66,7 +66,7 @@ class SimuladoServiceTest {
         // a correcao busca so' os ids respondidos, nao a tabela inteira
         when(questions.findAllById(any())).thenReturn(List.of(q1, q2));
 
-        Dtos.CorrecaoView correcao = service.corrigir(new Dtos.CorrecaoRequest("PM-AM", List.of(
+        Dtos.CorrecaoView correcao = service.corrigir(1L, new Dtos.CorrecaoRequest("PM-AM", List.of(
                 new Dtos.RespostaSimulado(1L, 0),   // correta
                 new Dtos.RespostaSimulado(2L, 1),   // errada
                 new Dtos.RespostaSimulado(999L, 0)  // desconhecida: ignorada
@@ -85,7 +85,7 @@ class SimuladoServiceTest {
         Question q = question(1L, "Direito Penal");
         when(questions.findAllById(any())).thenReturn(List.of(q));
 
-        Dtos.CorrecaoView correcao = service.corrigir(new Dtos.CorrecaoRequest("PM-AM",
+        Dtos.CorrecaoView correcao = service.corrigir(1L, new Dtos.CorrecaoRequest("PM-AM",
                 List.of(new Dtos.RespostaSimulado(1L, null))));
 
         assertEquals(0, correcao.acertos());

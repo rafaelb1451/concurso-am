@@ -7,6 +7,7 @@ import {
   type Question,
   type Topico,
 } from './api'
+import Rascunho from './Rascunho'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 const SUGESTOES = [
@@ -223,6 +224,8 @@ export default function Fixacao({ concurso }: { concurso: string }) {
                 )
               })}
             </ul>
+
+            <Rascunho questaoId={atual.id} compact />
 
             {resposta ? (
               <div

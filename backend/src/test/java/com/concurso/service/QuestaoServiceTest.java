@@ -66,7 +66,7 @@ class QuestaoServiceTest {
         Question q = question(7L);
         when(questions.findById(7L)).thenReturn(Optional.of(q));
 
-        Dtos.AnswerView resposta = service.responder(7L, 0);
+        Dtos.AnswerView resposta = service.responder(1L, 7L, 0);
 
         assertTrue(resposta.acertou());
         verify(attempts).save(any());
@@ -77,14 +77,14 @@ class QuestaoServiceTest {
         Question q = question(7L);
         when(questions.findById(7L)).thenReturn(Optional.of(q));
 
-        assertThrows(IllegalArgumentException.class, () -> service.responder(7L, 2));
+        assertThrows(IllegalArgumentException.class, () -> service.responder(1L, 7L, 2));
     }
 
     @Test
     void responderRejeitaQuestaoInexistente() {
         when(questions.findById(99L)).thenReturn(Optional.empty());
 
-        assertThrows(IllegalArgumentException.class, () -> service.responder(99L, 0));
+        assertThrows(IllegalArgumentException.class, () -> service.responder(1L, 99L, 0));
     }
 
     @Test
@@ -115,9 +115,9 @@ class QuestaoServiceTest {
     @Test
     void desempenhoSomaEstatisticasDoRepositorio() {
         AttemptRepository.MateriaStats linha = materiaStats("Direito Penal", 2, 1);
-        when(attempts.findMateriaStats(null)).thenReturn(List.of(linha));
+        when(attempts.findMateriaStats(1L, null)).thenReturn(List.of(linha));
 
-        Dtos.DesempenhoView desempenho = service.desempenho(null);
+        Dtos.DesempenhoView desempenho = service.desempenho(1L, null);
 
         assertEquals(2, desempenho.respondidas());
         assertEquals(1, desempenho.acertos());

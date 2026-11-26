@@ -1,11 +1,13 @@
 package com.concurso.web;
 
+import com.concurso.service.EvolucaoService;
 import com.concurso.service.QuestaoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,13 +26,16 @@ public class ApiController {
     private final QuestaoService questoes;
     private final com.concurso.service.ImportService importService;
     private final com.concurso.service.SimuladoService simuladoService;
+    private final EvolucaoService evolucao;
 
     public ApiController(QuestaoService questoes,
                          com.concurso.service.ImportService importService,
-                         com.concurso.service.SimuladoService simuladoService) {
+                         com.concurso.service.SimuladoService simuladoService,
+                         EvolucaoService evolucao) {
         this.questoes = questoes;
         this.importService = importService;
         this.simuladoService = simuladoService;
+        this.evolucao = evolucao;
     }
 
     @GetMapping("/concursos")
@@ -53,18 +58,38 @@ public class ApiController {
 
     @PostMapping("/questoes/{id}/responder")
     public Dtos.AnswerView responder(@PathVariable Long id,
-                                     @RequestBody Dtos.AnswerRequest request) {
-        return questoes.responder(id, request.alternativa());
+                                     @RequestBody Dtos.AnswerRequest request,
+                                     @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.responder(usuarioId, id, request.alternativa());
     }
 
     @GetMapping("/desempenho")
-    public Dtos.DesempenhoView desempenho(@RequestParam(required = false) String concurso) {
-        return questoes.desempenho(concurso);
+    public Dtos.DesempenhoView desempenho(@RequestParam(required = false) String concurso,
+                                          @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.desempenho(usuarioId, concurso);
+    }
+
+    @GetMapping("/evolucao")
+    public Dtos.EvolucaoView evolucao(@RequestParam(required = false) String concurso,
+                                      @RequestParam(required = false) String materia,
+                                      @RequestParam(defaultValue = "30") int dias,
+                                      @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return evolucao.evolucao(usuarioId, concurso, materia, dias);
+    }
+
+    /** Registra um bloco de tempo de estudo (pomodoro ou modo por tempo). */
+    @PostMapping("/estudo")
+    public Map<String, Object> registrarEstudo(@RequestBody Dtos.EstudoRequest request,
+                                               @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        evolucao.registrarEstudo(usuarioId, request.materia(), request.duracaoSegundos());
+        return Map.of("ok", true);
     }
 
     /** Importa um lote no mesmo formato do questoes.json. */
     @PostMapping("/importar")
-    public Dtos.ImportReport importar(@RequestBody java.util.List<com.concurso.seed.QuestionPayload> lote) {
+    public Dtos.ImportReport importar(@RequestBody java.util.List<com.concurso.seed.QuestionPayload> lote,
+                                      @RequestAttribute(AuthInterceptor.ATTR_ADMIN) Boolean admin) {
+        exigirAdmin(admin);
         if (lote != null && lote.size() > LIMITE_LOTE) {
             throw new IllegalArgumentException("Lote acima de " + LIMITE_LOTE + " questões; divida em partes.");
         }
@@ -73,7 +98,9 @@ public class ApiController {
 
     /** Anexa comentarios a questoes existentes (identificadas pelo hash do enunciado). */
     @PostMapping("/explicacoes")
-    public Dtos.ExplicacaoReport explicacoes(@RequestBody java.util.List<Dtos.ExplicacaoPayload> itens) {
+    public Dtos.ExplicacaoReport explicacoes(@RequestBody java.util.List<Dtos.ExplicacaoPayload> itens,
+                                             @RequestAttribute(AuthInterceptor.ATTR_ADMIN) Boolean admin) {
+        exigirAdmin(admin);
         if (itens != null && itens.size() > LIMITE_LOTE) {
             throw new IllegalArgumentException("Lote acima de " + LIMITE_LOTE + " comentários; divida em partes.");
         }
@@ -88,12 +115,19 @@ public class ApiController {
 
     /** Corrige o simulado no fim: registra as tentativas e devolve gabaritos e desempenho. */
     @PostMapping("/simulado/corrigir")
-    public Dtos.CorrecaoView corrigirSimulado(@RequestBody Dtos.CorrecaoRequest request) {
-        return simuladoService.corrigir(request);
+    public Dtos.CorrecaoView corrigirSimulado(@RequestBody Dtos.CorrecaoRequest request,
+                                              @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return simuladoService.corrigir(usuarioId, request);
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<Map<String, String>> erro(IllegalArgumentException ex) {
         return ResponseEntity.badRequest().body(Map.of("message", ex.getMessage()));
+    }
+
+    private static void exigirAdmin(Boolean admin) {
+        if (!Boolean.TRUE.equals(admin)) {
+            throw new AcessoNegadoException("Ação restrita ao administrador.");
+        }
     }
 }

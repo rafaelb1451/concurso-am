@@ -1,15 +1,22 @@
 const BASE = '/api'
 
 async function get<T>(url: string): Promise<T> {
-  const response = await fetch(`${BASE}${url}`)
+  const token = localStorage.getItem('qb_token')
+  const response = token
+    ? await fetch(`${BASE}${url}`, { headers: { Authorization: `Bearer ${token}` } })
+    : await fetch(`${BASE}${url}`)
   if (!response.ok) throw new Error(`Falha ao buscar ${url}`)
   return response.json() as Promise<T>
 }
 
 async function post<T>(url: string, body: unknown): Promise<T> {
+  const token = localStorage.getItem('qb_token')
   const response = await fetch(`${BASE}${url}`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
     body: JSON.stringify(body),
   })
   if (!response.ok) {
@@ -81,7 +88,58 @@ export interface Desempenho {
   porMateria: MateriaStats[]
 }
 
+export interface Usuario {
+  id: number
+  nome: string
+  email: string
+  admin: boolean
+  emailVerificado: boolean
+}
+
+export interface Auth {
+  token: string | null
+  usuario: Usuario
+}
+
+export interface EvolucaoPonto {
+  dia: string
+  respondidas: number
+  acertos: number
+  percentual: number
+}
+
+export interface Evolucao {
+  respondidas: number
+  acertos: number
+  percentual: number
+  tempoEstudoSegundos: number
+  serie: EvolucaoPonto[]
+}
+
 export const api = {
+  cadastro: (nome: string, email: string, senha: string,
+             aceitouTermos: boolean, aceitouPrivacidade: boolean) =>
+    post<Auth>('/cadastro', { nome, email, senha, aceitouTermos, aceitouPrivacidade }),
+  login: (email: string, senha: string) =>
+    post<Auth>('/login', { email, senha }),
+  verificarEmail: (token: string) =>
+    post<{ ok: boolean }>('/verificar-email', { token }),
+  reenviarVerificacao: (email: string) =>
+    post<{ ok: boolean }>('/reenviar-verificacao', { email }),
+  solicitarReset: (email: string) =>
+    post<{ ok: boolean }>('/solicitar-reset', { email }),
+  resetarSenha: (token: string, novaSenha: string) =>
+    post<{ ok: boolean }>('/resetar-senha', { token, novaSenha }),
+  alterarEmail: (senha: string, novoEmail: string) =>
+    post<{ ok: boolean }>('/usuario/alterar-email', { senha, novoEmail }),
+  confirmarAlteracaoEmail: (token: string) =>
+    post<{ ok: boolean }>('/usuario/confirmar-email', { token }),
+  dadosPessoais: () => get<Record<string, unknown>>('/usuario/dados'),
+  excluirConta: (senha: string) =>
+    post<{ ok: boolean }>('/usuario/excluir', { senha }),
+  logout: () => post<{ ok: boolean }>('/logout', {}),
+  usuario: () => get<Usuario>('/usuario'),
+
   concursos: () => get<Concurso[]>('/concursos'),
   topicos: (concurso?: string) => get<Topico[]>(`/topicos${qs({ concurso })}`),
   questoes: (concurso?: string, materia?: string, assunto?: string, quantidade = 10) =>
@@ -89,6 +147,10 @@ export const api = {
   responder: (id: number, alternativa: number) =>
     post<Answer>(`/questoes/${id}/responder`, { alternativa }),
   desempenho: (concurso?: string) => get<Desempenho>(`/desempenho${qs({ concurso })}`),
+  evolucao: (concurso?: string, materia?: string, dias = 30) =>
+    get<Evolucao>(`/evolucao${qs({ concurso, materia, dias })}`),
+  registrarEstudo: (materia: string | null, duracaoSegundos: number) =>
+    post<{ ok: boolean }>('/estudo', { materia, duracaoSegundos }),
 
   // tutor (chat)
   configDeepseek: () => get<ConfigStatus>('/config/deepseek'),

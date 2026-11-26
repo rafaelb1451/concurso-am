@@ -4,6 +4,7 @@ import { answer, jsonResponse, mockFetch, question } from './test/fixtures'
 
 afterEach(() => {
   vi.unstubAllGlobals()
+  localStorage.clear()
 })
 
 describe('api', () => {
@@ -67,6 +68,43 @@ describe('api', () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ alternativa: 2 }),
+      }),
+    )
+  })
+
+  it('envia cadastro com consentimentos LGPD', async () => {
+    const fetchMock = mockFetch(() => jsonResponse({
+      token: null,
+      usuario: { id: 1, nome: 'Aluno', email: 'aluno@qb.local', admin: false, emailVerificado: false },
+    }))
+
+    await api.cadastro('Aluno', 'aluno@qb.local', 'Test123456', true, true)
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/cadastro',
+      expect.objectContaining({
+        method: 'POST',
+        body: JSON.stringify({
+          nome: 'Aluno',
+          email: 'aluno@qb.local',
+          senha: 'Test123456',
+          aceitouTermos: true,
+          aceitouPrivacidade: true,
+        }),
+      }),
+    )
+  })
+
+  it('usa bearer token nas chamadas autenticadas', async () => {
+    localStorage.setItem('qb_token', 'token-seguro')
+    const fetchMock = mockFetch(() => jsonResponse({}))
+
+    await api.usuario()
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/usuario',
+      expect.objectContaining({
+        headers: { Authorization: 'Bearer token-seguro' },
       }),
     )
   })

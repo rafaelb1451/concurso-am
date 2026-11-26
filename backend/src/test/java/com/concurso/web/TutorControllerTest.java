@@ -1,6 +1,10 @@
 package com.concurso.web;
 
 import com.concurso.service.DeepSeekService;
+import com.concurso.domain.Usuario;
+import com.concurso.repo.UsuarioRepository;
+import com.concurso.service.SenhaHash;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -40,10 +44,35 @@ class TutorControllerTest {
     @Autowired
     private ObjectMapper mapper;
 
+    @Autowired
+    private UsuarioRepository usuarios;
+
     @MockitoBean
     private DeepSeekService tutor;
 
     private final HttpClient http = HttpClient.newHttpClient();
+    private String token;
+
+    @BeforeEach
+    void autenticar() throws Exception {
+        String email = "aluno-" + System.nanoTime() + "@qb.test";
+        Usuario usuario = new Usuario();
+        usuario.setNome("Aluno Teste");
+        usuario.setEmail(email);
+        usuario.setSenhaHash(SenhaHash.gerar("Test123456"));
+        usuario.setEmailVerificado(true);
+        usuarios.save(usuario);
+
+        HttpRequest request = HttpRequest.newBuilder(URI.create("http://localhost:" + porta + "/api/login"))
+                .header("Content-Type", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString(
+                        "{\"email\":\"" + email + "\",\"senha\":\"Test123456\"}",
+                        StandardCharsets.UTF_8))
+                .build();
+        HttpResponse<String> login = http.send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
+        assertEquals(200, login.statusCode());
+        token = mapper.readTree(login.body()).get("token").asString();
+    }
 
     @Test
     void statusMostraSeHaChaveConfigurada() throws Exception {
@@ -142,6 +171,7 @@ class TutorControllerTest {
                 : HttpRequest.BodyPublishers.ofString(corpo, StandardCharsets.UTF_8);
         HttpRequest request = HttpRequest.newBuilder(URI.create("http://localhost:" + porta + caminho))
                 .header("Content-Type", "application/json")
+                .header("Authorization", "Bearer " + token)
                 .method(metodo, publisher)
                 .build();
         return http.send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));

@@ -1,5 +1,7 @@
 package com.concurso.web;
 
+import com.concurso.domain.Usuario;
+
 import java.util.List;
 
 public final class Dtos {
@@ -156,5 +158,93 @@ public final class Dtos {
             List<MateriaResultado> porMateria,
             List<CorrecaoItem> itens
     ) {
+    }
+
+    // ---------- contas (cadastro/login) ----------
+
+    public record CadastroRequest(
+            @jakarta.validation.constraints.NotBlank(message = "nome vazio")
+            @jakarta.validation.constraints.Size(max = 80, message = "nome acima de 80 caracteres")
+            String nome,
+            @jakarta.validation.constraints.NotBlank(message = "e-mail vazio")
+            @jakarta.validation.constraints.Email(message = "e-mail inválido")
+            @jakarta.validation.constraints.Size(max = 160, message = "e-mail longo demais")
+            String email,
+            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            @jakarta.validation.constraints.Size(min = 10, max = 100, message = "senha entre 10 e 100 caracteres")
+            String senha,
+            @jakarta.validation.constraints.NotNull(message = "confirme os termos")
+            Boolean aceitouTermos,
+            @jakarta.validation.constraints.NotNull(message = "confirme a política de privacidade")
+            Boolean aceitouPrivacidade
+    ) {
+    }
+
+    public record LoginRequest(
+            @jakarta.validation.constraints.NotBlank(message = "e-mail vazio")
+            @jakarta.validation.constraints.Email(message = "e-mail inválido")
+            String email,
+            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            String senha
+    ) {
+    }
+
+    public record UsuarioView(Long id, String nome, String email, boolean admin, boolean emailVerificado) {
+        public static UsuarioView de(Usuario u) {
+            return new UsuarioView(u.getId(), u.getNome(), u.getEmail(), u.isAdmin(), u.isEmailVerificado());
+        }
+    }
+
+    public record AuthView(String token, UsuarioView usuario) {
+    }
+
+    public record SolicitarResetRequest(
+            @jakarta.validation.constraints.NotBlank(message = "e-mail vazio")
+            @jakarta.validation.constraints.Email(message = "e-mail inválido")
+            String email
+    ) {
+    }
+
+    public record ResetSenhaRequest(
+            @jakarta.validation.constraints.NotBlank(message = "token vazio")
+            String token,
+            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            @jakarta.validation.constraints.Size(min = 10, max = 100, message = "senha entre 10 e 100 caracteres")
+            String novaSenha
+    ) {
+    }
+
+    public record VerificarEmailRequest(
+            @jakarta.validation.constraints.NotBlank(message = "token vazio")
+            String token
+    ) {
+    }
+
+    public record AlterarEmailRequest(
+            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            String senha,
+            @jakarta.validation.constraints.NotBlank(message = "novo e-mail vazio")
+            @jakarta.validation.constraints.Email(message = "novo e-mail inválido")
+            @jakarta.validation.constraints.Size(max = 160, message = "e-mail longo demais")
+            String novoEmail
+    ) {
+    }
+
+    public record ConfirmarSenhaRequest(
+            @jakarta.validation.constraints.NotBlank(message = "senha vazia")
+            String senha
+    ) {
+    }
+
+    // ---------- evolucao e tempo de estudo ----------
+
+    public record EvolucaoPonto(String dia, long respondidas, long acertos, double percentual) {
+    }
+
+    public record EvolucaoView(long respondidas, long acertos, double percentual,
+                               long tempoEstudoSegundos, List<EvolucaoPonto> serie) {
+    }
+
+    public record EstudoRequest(String materia, int duracaoSegundos) {
     }
 }
