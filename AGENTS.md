@@ -189,14 +189,14 @@ Smoke test: `python tools/teste-pagamento.py` (precisa do backend no ar com o to
 
 ## Limite do plano e tela de Planos
 
-- POST /api/questoes/{id}/responder chama AcessoService.exigirDireitoDeResponder: conta FREE
+- `POST /api/questoes/{id}/responder` chama `AcessoService.exigirDireitoDeResponder`: conta FREE
   acima do limite diário recebe **429** com mensagem de upsell; PRO passa direto.
-- O limite do FREE é contado a partir de ttempts do dia (America/Sao_Paulo) — não existe
+- O limite do FREE é contado a partir de `attempts` do dia (`America/Sao_Paulo`) — não existe
   contador paralelo para dessincronizar.
-- Tela rontend/src/Planos.tsx (aba **Planos**): plano atual, medidor de uso do FREE, cards de
+- Tela `frontend/src/Planos.tsx` (aba **Planos**): plano atual, medidor de uso do FREE, cards de
   PRO mensal/anual com economia, formulário de dados exigidos pelo checkout e redirecionamento
-  para a página hospedada do Asaas. Se pagamentoConfigurado for false, o botão fica desabilitado.
-- Smoke test do limite: python tools/teste-limite-plano.py (responde 20, espera 429 na 21ª e
+  para a página hospedada do Asaas. Se `pagamentoConfigurado` for false, o botão fica desabilitado.
+- Smoke test do limite: `python tools/teste-limite-plano.py` (responde 20, espera 429 na 21ª e
   faz o checkout + webhook para confirmar a liberação do PRO).
 
 ## Fontes primárias de legislação (`docs/legislacao/`)
@@ -281,7 +281,7 @@ python concurso-am\tools\teste-pagamento.py
 | Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
 | Fase 2: planos, assinatura, webhook Asaas | ✅ backend + **tela de Planos** no frontend; falta registrar o webhook no painel do Asaas (exige domínio/HTTPS) |
-| Fase 3: AccessControlService, limite FREE, cota de IA por plano | 🔶 `AcessoService` criado (limite diário derivado de `attempts`); falta aplicar no endpoint de responder e cota de IA por plano |
+| Fase 3: limite FREE e cota de IA | 🔶 **limite FREE aplicado no responder (429)**; falta cota de IA por plano e rate limit por usuário |
 
 **Para retomar:** `git log --oneline -8` mostra o ponto; rodar backend + frontend conforme acima;
 `python tools/teste-contas.py` valida o básico em segundos.
