@@ -1,0 +1,7 @@
+# Override de DESENVOLVIMENTO — nunca use junto com producao.
+# Publica o Postgres apenas no loopback para o backend rodar na maquina local:
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db
+services:
+  db:
+    ports:
+      - "127.0.0.1:5433:5432"

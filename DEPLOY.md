@@ -74,50 +74,31 @@ HHH000412: Hibernate ORM core version ...
 Seed: 1004 questoes carregadas de seed-completo.json.
 ```
 
-### 3.1. Migração H2 → PostgreSQL (só na primeira vez)
+### 3.1. Banco de dados (PostgreSQL + Flyway)
 
-O banco antigo (H2) está no volume Docker `dados` e **continua intacto** até você removê-lo — ele
-serve de rollback. Para migrar:
+O schema é versionado por migration (`backend/src/main/resources/db/migration/V1__schema_inicial.sql`),
+gerada a partir do schema validado em PostgreSQL 16. No primeiro boot:
 
-```bash
-# 1. confirme que o Postgres está de pé e o app subiu sem erro
-docker compose ps                 # db e app devem estar healthy
-docker compose logs app | tail -20
+1. o **Flyway** cria a tabela de histórico e aplica a V1;
+2. o **Hibernate** apenas **valida** as entidades contra o schema (`ddl-auto=validate`);
+3. o **seed** carrega as 1.004 questões (só com a tabela vazia).
 
-# 2. confira que o seed entrou
-docker compose exec db psql -U qb -d qb -c "SELECT COUNT(*) FROM questions;"
-#    esperado: 1004
+Confirme no log:
 
-# 3. guarde o backup do banco antigo (rollback)
-docker run --rm -v concurso-am_dados:/dados -v $PWD:/bkp alpine tar czf /bkp/h2-antigo.tgz -C /dados .
+```
+Successfully applied 1 migration to schema "public"
+Seed: 1004 questoes carregadas de seed-completo.json.
 ```
 
-> **Dados do usuário não são migrados** — decisão consciente: existia um único usuário (você) e o
-> histórico de respostas é descartável. O que importa (as 1.004 questões e comentários) vem do seed.
+> **Dados antigos**: não há migração do H2. A decisão foi descartar o histórico (existia um único
+> usuário) e subir o banco novo a partir do seed. O volume antigo pode ser removido.
 
-### 3.2. Trocar o schema para Flyway (Etapa B, depois de validar o boot)
-
-Com o Postgres rodando e o schema criado pelo Hibernate, o baseline é gerado **do banco real** (nada
-de escrever DDL à mão):
+Para validar o banco sem subir a aplicação:
 
 ```bash
-# 1. baseline a partir do schema vivo
-docker compose exec db pg_dump -U qb -d qb --schema-only --no-owner --no-privileges > backend/src/main/resources/db/migration/V1__schema_inicial.sql
-
-# 2. revise o arquivo (não deve conter CREATE DATABASE nem ALTER OWNER)
-head -40 backend/src/main/resources/db/migration/V1__schema_inicial.sql
-
-# 3. vire as chaves no .env
-#    DDL_AUTO=validate
-#    FLYWAY_ENABLED=true
-
-# 4. rebuild e suba
-docker compose up -d --build
-docker compose logs app | grep -i flyway     # deve mostrar "Successfully validated"
+docker compose exec db psql -U qb -d qb -c "SELECT COUNT(*) FROM questions;"     # 1004
+docker compose exec db psql -U qb -d qb -c "SELECT version, success FROM flyway_schema_history;"
 ```
-
-Se o boot falhar em `validate`, o Hibernate aponta exatamente qual coluna/tabela diverge — o que é
-desejável: falha cedo, com mensagem clara, em vez de drift silencioso.
 
 ## 4. Verificar
 

@@ -97,6 +97,32 @@ frontend/src/  App.tsx, Auth.tsx, GoogleBotao.tsx, ContaSeguranca.tsx, Evolucao.
 - `tools/consolidar-seed.py` regenera o `seed-completo.json` a partir de `backend/lotes/*.json`.
   **Rodar de novo a cada lote novo.**
 
+## Banco e migrations
+
+| Ambiente | Banco | Schema |
+|---|---|---|
+| dev (esta máquina) | H2 em arquivo (`backend/data/concurso`) | `ddl-auto: update` |
+| dev com Postgres | serviço `db` do compose, via `docker-compose.dev.yml` | Flyway + `validate` |
+| produção | PostgreSQL 16 | Flyway + `validate` |
+
+- **Migrations em** `backend/src/main/resources/db/migration/`. A `V1__schema_inicial.sql` é o
+  baseline real (pg_dump do schema validado no Postgres 16) e já está provada: aplicada num banco
+  vazio, o Hibernate validou sem divergência e o seed carregou as 1.004 questões.
+- **Validado de verdade** (não por suposição): as queries nativas rodam no Postgres —
+  `findTopicCounts` com parâmetro nulo, `findMateriaStats` (`SUM CASE WHEN` + `GROUP BY`),
+  `findEvolucaoDiaria` (`CAST(criada_em AS DATE)`) e `countByConcurso`.
+- **Rodar local contra Postgres** (Docker Desktop, fora do sandbox do agente):
+
+  ```powershell
+  docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db
+  # backend com SPRING_PROFILES_ACTIVE=prod, SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5433/qb,
+  # FLYWAY_ENABLED=true, DDL_AUTO=validate e a senha do .env
+  ```
+- `docker-compose.dev.yml` publica o banco **só em 127.0.0.1:5433**; o compose de produção continua
+  sem porta exposta.
+- Smoke test completo: `python tools/teste-postgres.py` (roda contra qualquer backend ativo e cobre
+  catálogo, contas, queries nativas, simulado, evolução e assinatura).
+
 ## Autenticação e contas
 
 - Login por **e-mail/senha** (hash PBKDF2/bcrypt em `SenhaHash`) e por **Google**.
@@ -295,7 +321,7 @@ python concurso-am\tools\teste-pagamento.py
 | Banco de questões (1.004) | ✅ concluído |
 | Contas: e-mail/senha, verificação, reset, LGPD, sessão | ✅ concluído |
 | Login com Google (ID token + identidade externa) | ✅ concluído, incluindo reautenticação para excluir conta e trocar e-mail (falta testar com token real no navegador) |
-| Postgres + compose + Flyway (preparado) | ⏳ commitado, **não deployado** |
+| Postgres + Flyway | ✅ **validado localmente** (migration aplicada + Hibernate validate + seed); falta só o deploy |
 | Deploy Oracle | ⛔ **bloqueado**: SSH na porta 22 não conecta (VM recriada sem IP público / chave perdida); falta recriar a instância com IP público + chave própria + cloud-init |
 | Fase 2: planos, assinatura, webhook Asaas | ✅ backend + **tela de Planos**; falta registrar o webhook no painel do Asaas (exige domínio/HTTPS) |
 | Área pública (landing + prática grátis sem conta) | ✅ 1 matéria / 10 questões, teto imposto no servidor |
