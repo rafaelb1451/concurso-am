@@ -46,13 +46,14 @@ No `.env`:
   recomendado no servidor. A chave também pode ser colada na aba Fixação; nesse caso ela é gravada
   em `/dados/segredos/deepseek.key` (o root do container é read-only). A variável de ambiente tem
   precedência sobre o arquivo.
-- **`RESEND_API_KEY`** — API key da conta Resend usada para verificação de e-mail, alteração de
-  e-mail e recuperação de senha. Crie uma chave em `api.resend.com/api-keys`.
-  **Enquanto estiver vazia, a comunicação por e-mail fica pausada**: o cadastro já nasce com a
-  conta ativa (sem etapa de confirmação). Quando você tiver domínio e remetente validados, preencha
-  esta variável e a verificação por e-mail volta automaticamente.
-- **`RESEND_FROM_EMAIL`** — remetente aprovado pelo Resend, por exemplo
-  `noreply@qbconcurso.com`. Configure e valide o domínio/DKIM no painel do Resend.
+- **`SMTP_HOST` / `SMTP_PORT`** — servidor SMTP do e-mail profissional (UOL):
+  `smtp.uol.com.br` na porta `587` (STARTTLS) ou `465` (SSL).
+- **`SMTP_USERNAME` / `SMTP_PASSWORD`** — credenciais da caixa de e-mail profissional
+  (o usuário normalmente e' o endereço completo).
+- **`SMTP_FROM`** — remetente exibido, por exemplo `contato@qbconcurso.com.br`.
+- **`SMTP_STARTTLS` / `SMTP_SSL`** — `true`/`false` conforme a porta escolhida
+  (587 → STARTTLS `true`; 465 → SSL `true`).
+
 - **`CONCURSO_APP_URL`** — URL pública completa, por exemplo `https://SEU-DOMINIO`.
 
 ## 3. Subir
@@ -140,7 +141,7 @@ apague o volume (`docker compose down -v`) e suba de novo; o seed recarrega tudo
 | Cabeçalhos | CSP, HSTS, `nosniff`, `Referrer-Policy`, `X-Frame-Options` |
 | Limite de custo | `/api/chat` limitado a 20 chamadas/min e 20 mensagens por requisição |
 | Contas | senha PBKDF2, bloqueio após 5 tentativas, tokens SHA-256; sessão guarda só o hash |
-| Comunicação | Resend por API; links com validade de 2 horas — pausada enquanto `RESEND_API_KEY` estiver vazia (conta ativa sem verificação) |
+| Comunicação | SMTP do e-mail profissional (UOL); links com validade de 2 horas — pausada enquanto `SMTP_HOST`/`SMTP_USERNAME` estiverem vazios (conta ativa sem verificação) |
 | LGPD | exportação JSON e exclusão permanente dos dados pelo usuário |
 | Container | usuário não-root, root FS read-only, `cap_drop: ALL` |
 | Dados | volume Docker, fora da imagem |

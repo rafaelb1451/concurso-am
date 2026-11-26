@@ -1,48 +1,47 @@
 package com.concurso.service;
 
+import jakarta.mail.internet.MimeMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.web.util.HtmlUtils;
-import tools.jackson.databind.ObjectMapper;
 
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.nio.charset.StandardCharsets;
-import java.time.Duration;
-import java.util.List;
-import java.util.Map;
-
-/** Envio transacional via Resend. Nenhuma chave fica no banco ou no repositorio. */
+/**
+ * Envio transacional por SMTP (e-mail profissional da UOL).
+ *
+ * <p>Sem credenciais SMTP o envio fica pausado e a conta nasce verificada; nesse modo o
+ * link é apenas registrado no log para permitir testar o fluxo em desenvolvimento.</p>
+ */
 @Service
 public class EmailService {
 
     private static final Logger log = LoggerFactory.getLogger(EmailService.class);
-    private static final String ENDPOINT = "https://api.resend.com/emails";
 
-    private final ObjectMapper mapper;
-    private final HttpClient http = HttpClient.newBuilder()
-            .connectTimeout(Duration.ofSeconds(15))
-            .build();
+    private final ObjectProvider<JavaMailSender> mailSenderProvider;
 
-    @Value("${RESEND_API_KEY:}")
-    private String apiKey;
+    @Value("${concurso.email.remetente:}")
+    private String remetente;
 
-    @Value("${RESEND_FROM_EMAIL:onboarding@resend.dev}")
-    private String fromEmail;
+    @Value("${spring.mail.host:}")
+    private String smtpHost;
+
+    @Value("${spring.mail.username:}")
+    private String smtpUsuario;
 
     @Value("${CONCURSO_APP_URL:http://localhost:5173}")
     private String appUrl;
 
-    public EmailService(ObjectMapper mapper) {
-        this.mapper = mapper;
+    public EmailService(ObjectProvider<JavaMailSender> mailSenderProvider) {
+        this.mailSenderProvider = mailSenderProvider;
     }
 
     public boolean configurado() {
-        return apiKey != null && !apiKey.isBlank();
+        return preenchido(smtpHost) && preenchido(smtpUsuario) && preenchido(remetente)
+                && mailSenderProvider.getIfAvailable() != null;
     }
 
     public void verificarEmail(String email, String nome, String token) {
@@ -65,8 +64,7 @@ public class EmailService {
 
     private void enviar(String to, String subject, String titulo, String texto, String link) {
         if (!configurado()) {
-            // Sem Resend (dev/teste local): registra o link para permitir o fluxo de verificacao.
-            log.info("Resend não configurado; e-mail '{}' para {} não enviado. Link: {}", subject, to, link);
+            log.info("SMTP não configurado; e-mail '{}' para {} não enviado. Link: {}", subject, to, link);
             return;
         }
 
@@ -83,30 +81,22 @@ public class EmailService {
                 "<p style=\"color:#78716c;font-size:12px\">Se você não solicitou esta mensagem, ignore-a.</p>" +
                 "</div></body></html>";
 
-        Map<String, Object> corpo = Map.of(
-                "from", "QB Concurso <" + fromEmail + ">",
-                "to", List.of(to),
-                "subject", subject,
-                "html", html);
-
         try {
-            HttpRequest request = HttpRequest.newBuilder(URI.create(ENDPOINT))
-                    .timeout(Duration.ofSeconds(30))
-                    .header("Authorization", "Bearer " + apiKey)
-                    .header("Content-Type", "application/json")
-                    .POST(HttpRequest.BodyPublishers.ofString(
-                            mapper.writeValueAsString(corpo), StandardCharsets.UTF_8))
-                    .build();
-            HttpResponse<String> response = http.send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
-            if (response.statusCode() < 200 || response.statusCode() >= 300) {
-                log.error("Resend respondeu {} ao enviar e-mail para {}", response.statusCode(), to);
-                throw new IllegalStateException("Não foi possível enviar o e-mail.");
-            }
-        } catch (IllegalStateException e) {
-            throw e;
+            JavaMailSender sender = mailSenderProvider.getIfAvailable();
+            MimeMessage message = sender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, false, "UTF-8");
+            helper.setFrom("QB Concurso <" + remetente + ">");
+            helper.setTo(to);
+            helper.setSubject(subject);
+            helper.setText(html, true);
+            sender.send(message);
         } catch (Exception e) {
-            log.error("Falha ao enviar e-mail pelo Resend", e);
+            log.error("Falha ao enviar e-mail por SMTP para {}", to, e);
             throw new IllegalStateException("Não foi possível enviar o e-mail.");
         }
+    }
+
+    private static boolean preenchido(String valor) {
+        return valor != null && !valor.isBlank();
     }
 }

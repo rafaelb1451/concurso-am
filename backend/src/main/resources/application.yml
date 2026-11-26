@@ -1,6 +1,8 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  email:
+    remetente: ${SMTP_FROM:}
   app:
     # URL publica usada nos callbacks do checkout (o Asaas exige https)
     url: ${CONCURSO_APP_URL:http://localhost:5173}
@@ -25,6 +27,18 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password: ""
+  mail:
+    host: ${SMTP_HOST:}
+    port: ${SMTP_PORT:587}
+    username: ${SMTP_USERNAME:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail.smtp.auth: ${SMTP_AUTH:true}
+      mail.smtp.starttls.enable: ${SMTP_STARTTLS:true}
+      mail.smtp.ssl.enable: ${SMTP_SSL:false}
+      mail.smtp.connectiontimeout: 10000
+      mail.smtp.timeout: 10000
+      mail.smtp.writetimeout: 10000
   jpa:
     hibernate:
       ddl-auto: update

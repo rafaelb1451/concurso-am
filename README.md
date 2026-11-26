@@ -13,7 +13,7 @@ dois certames.
 - Timer Pomodoro e modo de estudo por tempo
 - Rascunho por questão salvo no tablet/navegador (oculto, com botão para abrir)
 - Ferramentas de estudo na resolução: marcador de texto (caneta) e eliminação de alternativas
-- Cadastro com conta LGPD e recuperação de senha (verificação por e-mail pausada até haver domínio; sem chave do Resend, a conta já nasce ativa)
+- Cadastro com conta LGPD e recuperação de senha (verificação por e-mail via SMTP do e-mail profissional; sem SMTP configurado, a conta já nasce ativa)
 - Cada questão declara a **procedência**: `PROVA` (extraída de certame) ou `AUTORAL` (criada no estilo da banca)
 
 ## Stack

@@ -35,8 +35,13 @@ services:
         condition: service_healthy
     environment:
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
-      RESEND_API_KEY: ${RESEND_API_KEY:-}
-      RESEND_FROM_EMAIL: ${RESEND_FROM_EMAIL:-onboarding@resend.dev}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      SMTP_STARTTLS: ${SMTP_STARTTLS:-true}
+      SMTP_SSL: ${SMTP_SSL:-false}
       CONCURSO_APP_URL: ${CONCURSO_APP_URL:-http://localhost:8080}
       SPRING_PROFILES_ACTIVE: prod
       # conexao com o Postgres (credenciais vindas do .env)
