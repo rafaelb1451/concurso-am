@@ -46,6 +46,14 @@ No `.env`:
   recomendado no servidor. A chave também pode ser colada na aba Fixação; nesse caso ela é gravada
   em `/dados/segredos/deepseek.key` (o root do container é read-only). A variável de ambiente tem
   precedência sobre o arquivo.
+- **`RESEND_API_KEY`** — API key da conta Resend usada para verificação de e-mail, alteração de
+  e-mail e recuperação de senha. Crie uma chave em `api.resend.com/api-keys`.
+  **Enquanto estiver vazia, a comunicação por e-mail fica pausada**: o cadastro já nasce com a
+  conta ativa (sem etapa de confirmação). Quando você tiver domínio e remetente validados, preencha
+  esta variável e a verificação por e-mail volta automaticamente.
+- **`RESEND_FROM_EMAIL`** — remetente aprovado pelo Resend, por exemplo
+  `noreply@qbconcurso.com`. Configure e valide o domínio/DKIM no painel do Resend.
+- **`CONCURSO_APP_URL`** — URL pública completa, por exemplo `https://SEU-DOMINIO`.
 
 ## 3. Subir
 
@@ -55,19 +63,67 @@ docker compose up -d --build
 docker compose logs -f app     # acompanhe o primeiro boot
 ```
 
-O Caddy só começa a aceitar tráfego depois que o `HEALTHCHECK` da aplicação passa.
+O Postgres sobe primeiro (o app espera o `pg_isready` responder). O Caddy só começa a aceitar
+tráfego depois que o `HEALTHCHECK` da aplicação passa.
 
-No primeiro boot o app carrega **1.000+ questões** do seed consolidado. Espere a linha:
+No primeiro boot o app **cria o schema no Postgres** e carrega **1.000+ questões** do seed
+consolidado. Espere estas linhas:
 
 ```
+HHH000412: Hibernate ORM core version ...
 Seed: 1004 questoes carregadas de seed-completo.json.
 ```
+
+### 3.1. Migração H2 → PostgreSQL (só na primeira vez)
+
+O banco antigo (H2) está no volume Docker `dados` e **continua intacto** até você removê-lo — ele
+serve de rollback. Para migrar:
+
+```bash
+# 1. confirme que o Postgres está de pé e o app subiu sem erro
+docker compose ps                 # db e app devem estar healthy
+docker compose logs app | tail -20
+
+# 2. confira que o seed entrou
+docker compose exec db psql -U qb -d qb -c "SELECT COUNT(*) FROM questions;"
+#    esperado: 1004
+
+# 3. guarde o backup do banco antigo (rollback)
+docker run --rm -v concurso-am_dados:/dados -v $PWD:/bkp alpine tar czf /bkp/h2-antigo.tgz -C /dados .
+```
+
+> **Dados do usuário não são migrados** — decisão consciente: existia um único usuário (você) e o
+> histórico de respostas é descartável. O que importa (as 1.004 questões e comentários) vem do seed.
+
+### 3.2. Trocar o schema para Flyway (Etapa B, depois de validar o boot)
+
+Com o Postgres rodando e o schema criado pelo Hibernate, o baseline é gerado **do banco real** (nada
+de escrever DDL à mão):
+
+```bash
+# 1. baseline a partir do schema vivo
+docker compose exec db pg_dump -U qb -d qb --schema-only --no-owner --no-privileges > backend/src/main/resources/db/migration/V1__schema_inicial.sql
+
+# 2. revise o arquivo (não deve conter CREATE DATABASE nem ALTER OWNER)
+head -40 backend/src/main/resources/db/migration/V1__schema_inicial.sql
+
+# 3. vire as chaves no .env
+#    DDL_AUTO=validate
+#    FLYWAY_ENABLED=true
+
+# 4. rebuild e suba
+docker compose up -d --build
+docker compose logs app | grep -i flyway     # deve mostrar "Successfully validated"
+```
+
+Se o boot falhar em `validate`, o Hibernate aponta exatamente qual coluna/tabela diverge — o que é
+desejável: falha cedo, com mensagem clara, em vez de drift silencioso.
 
 ## 4. Verificar
 
 ```bash
 curl -u rafael:SUA-SENHA https://SEU-DOMINIO/api/concursos
-docker compose ps          # app deve estar "healthy"
+docker compose ps          # db, app e caddy devem estar "healthy"
 ```
 
 Abra `https://SEU-DOMINIO` no navegador: o Caddy pede usuário e senha, e aí entra o app.
@@ -102,13 +158,16 @@ apague o volume (`docker compose down -v`) e suba de novo; o seed recarrega tudo
 | Chave da DeepSeek | variável de ambiente; nunca na imagem nem no repo |
 | Cabeçalhos | CSP, HSTS, `nosniff`, `Referrer-Policy`, `X-Frame-Options` |
 | Limite de custo | `/api/chat` limitado a 20 chamadas/min e 20 mensagens por requisição |
+| Contas | senha PBKDF2, bloqueio após 5 tentativas, tokens SHA-256; sessão guarda só o hash |
+| Comunicação | Resend por API; links com validade de 2 horas — pausada enquanto `RESEND_API_KEY` estiver vazia (conta ativa sem verificação) |
+| LGPD | exportação JSON e exclusão permanente dos dados pelo usuário |
 | Container | usuário não-root, root FS read-only, `cap_drop: ALL` |
 | Dados | volume Docker, fora da imagem |
 
 ## Limitações conhecidas
 
-- **H2 em arquivo**: adequado a um usuário. Se um dia virar multiusuário, migrar para PostgreSQL
-  (o `pom.xml` já traz o driver).
+- **H2 em arquivo**: adequado ao volume atual; o sistema já separa dados por usuário. Quando o
+  crescimento exigir mais concorrência, migrar para PostgreSQL (o `pom.xml` já traz o driver).
 - **`ddl-auto: update`**: sem migração versionada. Como o banco é reproduzível pelos lotes, o risco
   é baixo — mas não é o ideal para evolução de schema.
 - **Sem backup automático**: agende o backup acima no cron se quiser garantia.

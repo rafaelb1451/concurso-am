@@ -1,10 +1,11 @@
 # Perfil de producao (container).
 #
-# Diferencas em relacao ao dev:
-# - banco em volume absoluto (/dados), nao no diretorio de trabalho
-# - cabeçalhos de proxy respeitados (Caddy manda X-Forwarded-*)
-# - log so em stdout, para o `docker logs`
-# - seed consolidado com o banco inteiro
+# Banco: PostgreSQL (servico `db` do compose). O H2 saiu de producao — em arquivo
+# unico ele nao suporta concorrencia de usuarios nem backup point-in-time.
+#
+# Etapa de transicao: o schema ainda e' criado pelo Hibernate (ddl-auto=update).
+# Depois do primeiro boot contra o Postgres, gera-se o baseline do Flyway a partir
+# do banco real (ver DEPLOY.md, Etapa B) e troca-se para ddl-auto=validate.
 
 server:
   port: 8080
@@ -16,23 +17,50 @@ server:
   tomcat:
     max-http-form-post-size: 200KB
     max-swallow-size: 200KB
+    threads:
+      max: 200
+    accept-count: 100
 
 spring:
   application:
     name: concurso-backend
   lifecycle:
-    # o encerramento graceful tem que caber no stop_grace_period do compose
     timeout-per-shutdown-phase: 20s
+
   datasource:
-    url: jdbc:h2:file:/dados/concurso;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=FALSE
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: ""
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://db:5432/qb}
+    username: ${SPRING_DATASOURCE_USERNAME:qb}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:12}
+      minimum-idle: 2
+      connection-timeout: 10000
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      pool-name: qb-pool
+
   jpa:
-    hibernate:
-      ddl-auto: update
     open-in-view: false
     show-sql: false
+    hibernate:
+      ddl-auto: ${DDL_AUTO:update}
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          batch_size: 30
+          time_zone: UTC
+        order_inserts: true
+        order_updates: true
+
+  flyway:
+    # habilite depois de gerar o baseline (DEPLOY.md, Etapa B)
+    enabled: ${FLYWAY_ENABLED:false}
+    baseline-on-migrate: true
+    baseline-version: 1
+    locations: classpath:db/migration
+
   servlet:
     multipart:
       max-file-size: 1MB
@@ -53,3 +81,4 @@ logging:
     root: INFO
     com.concurso: INFO
     org.hibernate: WARN
+    org.flywaydb: INFO

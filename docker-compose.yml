@@ -1,15 +1,53 @@
 services:
+  # ---------------------------------------------------------------- banco
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-qb}
+      POSTGRES_USER: ${POSTGRES_USER:-qb}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      TZ: America/Sao_Paulo
+    volumes:
+      - pg_dados:/var/lib/postgresql/data
+    # SEM "ports": o banco vive so' na rede interna do compose.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-qb} -d ${POSTGRES_DB:-qb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ---------------------------------------------------------------- aplicacao
   app:
     build: .
     image: qb-concurso:latest
     restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
     environment:
-      # a chave vem do arquivo .env do servidor; nunca da imagem
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      RESEND_FROM_EMAIL: ${RESEND_FROM_EMAIL:-onboarding@resend.dev}
+      CONCURSO_APP_URL: ${CONCURSO_APP_URL:-http://localhost:8080}
       SPRING_PROFILES_ACTIVE: prod
+      # conexao com o Postgres (credenciais vindas do .env)
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/${POSTGRES_DB:-qb}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-qb}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
+      DDL_AUTO: ${DDL_AUTO:-update}
+      FLYWAY_ENABLED: ${FLYWAY_ENABLED:-false}
     volumes:
+      # apenas a chave do tutor fica em disco; o banco agora e' o Postgres
       - dados:/dados
-    # encerramento graceful do Spring (20s) dentro da janela do Docker
     stop_grace_period: 30s
     # SEM "ports": o app só é alcançável pela rede interna do compose.
     expose:
@@ -27,12 +65,12 @@ services:
         max-size: "10m"
         max-file: "3"
 
+  # ---------------------------------------------------------------- porta de entrada
   caddy:
     image: caddy:2-alpine
     restart: unless-stopped
     depends_on:
       app:
-        # só começa a aceitar tráfego depois que o Spring responde ao healthcheck
         condition: service_healthy
     environment:
       DOMINIO: ${DOMINIO}
@@ -55,6 +93,7 @@ services:
         max-file: "3"
 
 volumes:
+  pg_dados:
   dados:
   caddy_dados:
   caddy_config:
