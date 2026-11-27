@@ -1078,5 +1078,625 @@
     "concursos": [
       "CREA-AM"
     ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 6º, b",
+    "dificuldade": 3,
+    "enunciado": "Um engenheiro civil registrado no CREA-AM é contratado para assinar projeto de instalação elétrica predial, atividade que não consta das atribuições do seu registro. Nessa situação, ele:",
+    "alternativas": [
+      "pode assinar, pois o registro é único para todas as modalidades",
+      "incorre em exercício ilegal da profissão, por assumir atividades estranhas às atribuições do seu registro",
+      "só precisa comunicar o CREA depois da entrega",
+      "pode assinar se o cliente concordar"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º, alínea b, da Lei 5.194/1966 considera exercício ilegal o profissional que se incumbir de atividades estranhas às atribuições discriminadas em seu registro.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.496/1977, art. 3º",
+    "dificuldade": 3,
+    "enunciado": "Uma construtora inicia a execução de uma obra sem qualquer Anotação de Responsabilidade Técnica. A consequência prevista na legislação é:",
+    "alternativas": [
+      "apenas advertência verbal",
+      "multa prevista na alínea \"a\" do art. 73 da Lei 5.194/1966, além das demais cominações",
+      "nada, pois a ART é facultativa em obras privadas",
+      "cancelamento imediato do registro do engenheiro"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 3º da Lei 6.496/1977 sujeita a falta da ART à multa da alínea \"a\" do art. 73 da Lei 5.194/1966 e às demais cominações legais.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 6º, c",
+    "dificuldade": 3,
+    "enunciado": "Um profissional empresta seu nome a uma empresa de engenharia, sem participar efetivamente dos trabalhos, apenas para viabilizar o registro da empresa. Essa conduta configura:",
+    "alternativas": [
+      "mera irregularidade administrativa",
+      "exercício ilegal da profissão",
+      "prestação de serviço técnico válida",
+      "sociedade regular de profissionais"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º, alínea c, considera exercício ilegal emprestar o nome a pessoas, firmas ou empresas executoras de obras e serviços sem real participação nos trabalhos.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 6º, d",
+    "dificuldade": 3,
+    "enunciado": "Um engenheiro com registro suspenso por decisão do CREA continua assinando projetos e emitindo laudos. Nos termos da Lei 5.194/1966, ele:",
+    "alternativas": [
+      "pode atuar, pois a suspensão é apenas administrativa",
+      "exerce ilegalmente a profissão",
+      "está regular, desde que pague a anuidade",
+      "só comete infração se houver dano"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º, alínea d, considera exercício ilegal a atuação do profissional suspenso que continua em atividade.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 55",
+    "dificuldade": 3,
+    "enunciado": "Um recém-formado em Engenharia, ainda sem registro no CREA, assina laudo técnico para um cliente. A situação é:",
+    "alternativas": [
+      "regular, porque o diploma garante o exercício",
+      "irregular, pois a profissão só pode ser exercida após o registro no Conselho Regional",
+      "regular se o laudo for revisado por outro engenheiro",
+      "irregular apenas se o laudo for usado em processo judicial"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 55 da Lei 5.194/1966 exige o registro no Conselho Regional sob cuja jurisdição estiver o local da atividade antes do exercício profissional.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 58",
+    "dificuldade": 3,
+    "enunciado": "Um engenheiro registrado no CREA de outro estado passa a executar obras no Amazonas sem qualquer providência. Segundo a Lei 5.194/1966, ele deve:",
+    "alternativas": [
+      "requerer novo registro e cancelar o anterior",
+      "visar o seu registro no CREA-AM",
+      "apenas informar o CONFEA",
+      "manter-se assim, pois o registro é nacional"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 58 determina que o profissional registrado em qualquer Conselho Regional vise o registro na região onde exercer atividade.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 61",
+    "dificuldade": 3,
+    "enunciado": "Uma empresa executa serviços em municípios distantes da sede, sem profissional habilitado na localidade. A Lei 5.194/1966 exige que:",
+    "alternativas": [
+      "a empresa comunique o fato ao prefeito",
+      "mantenha, junto a cada serviço, um profissional devidamente habilitado naquela jurisdição",
+      "contrate estagiários supervisionados",
+      "envie relatório mensal ao CREA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 61 exige que a entidade mantenha, junto a cada serviço executado em lugar distante, um profissional devidamente habilitado naquela jurisdição.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 56, § 2º",
+    "dificuldade": 3,
+    "enunciado": "Sobre a carteira profissional emitida pelo CREA, a Lei 5.194/1966 estabelece que ela:",
+    "alternativas": [
+      "substitui o diploma, vale como documento de identidade e tem fé pública",
+      "é apenas um comprovante de pagamento da anuidade",
+      "tem validade de dois anos",
+      "é emitida pelo CONFEA, não pelo CREA"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 56, § 2º, atribui à carteira a função de substituir o diploma, valer como identidade e ter fé pública.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 72",
+    "dificuldade": 3,
+    "enunciado": "Determinado profissional descumpre reiteradamente o Código de Ética, sem gravidade suficiente para suspensão. As penalidades aplicáveis, conforme a Lei 5.194/1966, são:",
+    "alternativas": [
+      "multa e suspensão",
+      "advertência reservada e censura pública",
+      "cancelamento definitivo",
+      "prisão administrativa"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 72 aplica advertência reservada e censura pública aos profissionais que deixarem de cumprir disposições do Código de Ética, conforme a gravidade da falta.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 73, parágrafo único",
+    "dificuldade": 3,
+    "enunciado": "Um profissional comete a mesma infração pela terceira vez e é multado. Nos termos da Lei 5.194/1966, a multa:",
+    "alternativas": [
+      "é reduzida pela metade",
+      "é aplicada em dobro nos casos de reincidência",
+      "é convertida em advertência",
+      "não pode ser reaplicada"
+    ],
+    "correta": 1,
+    "explicacao": "O parágrafo único do art. 73 determina a aplicação da multa em dobro na reincidência.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 63, § 2º",
+    "dificuldade": 3,
+    "enunciado": "A anuidade do CREA, paga após 31 de março do mesmo exercício, sofre acréscimo de:",
+    "alternativas": [
+      "10%",
+      "15%",
+      "20%",
+      "30%"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 63, § 2º, com a redação da Lei 6.619/1978, prevê acréscimo de 20% para pagamento após 31 de março no mesmo exercício.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 4.950-A/1966, art. 5º",
+    "dificuldade": 3,
+    "enunciado": "Uma empresa contrata engenheiro formado em curso de 5 anos para jornada de 6 horas diárias. O salário-base mínimo, nos termos da Lei 4.950-A/1966, é de:",
+    "alternativas": [
+      "3 salários mínimos",
+      "4 salários mínimos",
+      "5 salários mínimos",
+      "6 salários mínimos"
+    ],
+    "correta": 3,
+    "explicacao": "O art. 5º fixa 6 salários mínimos para os profissionais de curso de 4 anos ou mais, na jornada de 6 horas.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 4.950-A/1966, art. 6º",
+    "dificuldade": 3,
+    "enunciado": "O mesmo engenheiro passa a cumprir jornada de 8 horas diárias. Sobre as 2 horas excedentes, a Lei 4.950-A/1966 determina:",
+    "alternativas": [
+      "pagamento em dobro",
+      "acréscimo de 25% sobre o custo da hora",
+      "compensação em folga",
+      "nada, pois o salário é mensal"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º manda tomar por base o custo da hora do art. 5º, acrescidas de 25% as horas excedentes das 6 diárias.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 4.950-A/1966, art. 7º",
+    "dificuldade": 3,
+    "enunciado": "Um engenheiro é escalado para trabalho noturno. A remuneração, segundo a Lei 4.950-A/1966, será:",
+    "alternativas": [
+      "igual à diurna",
+      "a diurna acrescida de 25%",
+      "a diurna acrescida de 50%",
+      "definida em acordo individual"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 7º prevê que a remuneração do trabalho noturno seja feita na base da diurna, acrescida de 25%.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.496/1977, art. 1º",
+    "dificuldade": 3,
+    "enunciado": "Um cliente contrata verbalmente um engenheiro para projeto e execução de uma reforma. Quanto à ART:",
+    "alternativas": [
+      "só é exigida em contrato escrito",
+      "é obrigatória, pois todo contrato escrito ou verbal de obra/serviço está sujeito à ART",
+      "é dispensável em reformas",
+      "só é exigida em obra pública"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 1º da Lei 6.496/1977 sujeita à ART todo contrato, escrito ou verbal, para execução de obras ou prestação de serviços de Engenharia, Arquitetura e Agronomia.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.496/1977, art. 2º",
+    "dificuldade": 3,
+    "enunciado": "Em uma obra com vários profissionais envolvidos, a ART serve para:",
+    "alternativas": [
+      "definir os responsáveis técnicos pelo empreendimento",
+      "substituir o registro no CREA",
+      "comprovar a quitação de tributos",
+      "autorizar o início da obra pela prefeitura"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 2º da Lei 6.496/1977 dispõe que a ART define, para os efeitos legais, os responsáveis técnicos pelo empreendimento.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.496/1977, art. 2º, § 1º",
+    "dificuldade": 3,
+    "enunciado": "A ART é efetuada:",
+    "alternativas": [
+      "no CONFEA, exclusivamente",
+      "no CREA, de acordo com resolução própria do CONFEA",
+      "no órgão ambiental",
+      "em cartório"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º, § 1º, da Lei 6.496/1977 determina que a ART seja efetuada no CREA, conforme resolução do CONFEA.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro de empresas",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.839/1980, art. 1º",
+    "dificuldade": 3,
+    "enunciado": "Uma empresa de manutenção industrial tem como atividade básica a execução de serviços de engenharia. Nos termos da Lei 6.839/1980, ela:",
+    "alternativas": [
+      "não precisa de registro, pois é indústria",
+      "deve registrar-se no CREA e anotar os profissionais encarregados",
+      "registra-se apenas na junta comercial",
+      "só precisa de registro se vencer licitação pública"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 1º da Lei 6.839/1980 obriga o registro em razão da atividade básica ou do serviço prestado a terceiros.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro de empresas",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.121/2019, art. 8º",
+    "dificuldade": 3,
+    "enunciado": "Segundo a Resolução CONFEA nº 1.121/2019, o registro da pessoa jurídica é requerido:",
+    "alternativas": [
+      "por qualquer empregado",
+      "por representante legal da pessoa jurídica",
+      "de ofício, pelo CREA",
+      "pelo CONFEA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 8º da Resolução 1.121/2019 exige que o registro seja requerido por representante legal da pessoa jurídica.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 2º, IV",
+    "dificuldade": 3,
+    "enunciado": "Um profissional assume cálculo estrutural de obra para a qual não possui conhecimento técnico suficiente. A Resolução CONFEA nº 1.090/2017 enquadra a conduta como:",
+    "alternativas": [
+      "imperícia",
+      "negligência",
+      "imprudência",
+      "escândalo"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 2º, IV, define imperícia como a atuação de quem se incumbe de atividades para as quais não possua conhecimento técnico suficiente, mesmo tendo legalmente essas atribuições.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 2º, VI",
+    "dificuldade": 3,
+    "enunciado": "Um engenheiro responsável por obra deixa de acompanhar a execução, omitindo-se quanto ao seu dever de fiscalização. A Resolução 1.090/2017 classifica a conduta como:",
+    "alternativas": [
+      "imperícia",
+      "negligência",
+      "imprudência",
+      "crime infamante"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º, VI, define negligência como a atuação omissa ou a falta de observação do dever, principalmente a não participação efetiva na autoria ou execução.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 3º, VII",
+    "dificuldade": 3,
+    "enunciado": "Um profissional foi penalizado com duas censuras públicas, em processos transitados em julgado, nos últimos cinco anos. Segundo a Resolução 1.090/2017, isso:",
+    "alternativas": [
+      "não gera consequência",
+      "pode enquadrar-se como má conduta passível de cancelamento do registro",
+      "gera apenas nova multa",
+      "impede novo registro em qualquer conselho"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 3º, VII, da Resolução 1.090/2017 prevê expressamente a hipótese de duas censuras públicas transitadas em julgado nos últimos cinco anos.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 4º",
+    "dificuldade": 3,
+    "enunciado": "Para o enquadramento de infração por crime considerado infamante, a Resolução 1.090/2017 exige:",
+    "alternativas": [
+      "notícia pública do fato",
+      "decisão criminal transitada em julgado",
+      "denúncia do CREA",
+      "parecer do Ministério Público"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º condiciona o enquadramento por crime infamante à apresentação da decisão criminal transitada em julgado.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.050/2013 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "Uma obra foi concluída sem ART e o responsável técnico quer regularizar a situação. A norma específica para esse caso é a:",
+    "alternativas": [
+      "Resolução CONFEA nº 1.050/2013",
+      "Resolução CONFEA nº 1.121/2019",
+      "Resolução CONFEA nº 1.002/2002",
+      "Resolução CONFEA nº 1.047/2013"
+    ],
+    "correta": 0,
+    "explicacao": "A Resolução 1.050/2013 dispõe sobre a regularização de obras e serviços concluídos sem a devida ART.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.073/2016 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 1.073/2016 é utilizada para:",
+    "alternativas": [
+      "definir títulos, atividades, competências e campos de atuação dos profissionais registrados",
+      "fixar o salário mínimo profissional",
+      "criar o Código de Ética",
+      "cancelar registros"
+    ],
+    "correta": 0,
+    "explicacao": "A 1.073/2016 regulamenta a atribuição de títulos, atividades, competências e campos de atuação para fins de fiscalização.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.047/2013 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "O processo de apuração de infração e aplicação de penalidades é regulado pela Resolução 1.008/2004, alterada pela:",
+    "alternativas": [
+      "Resolução CONFEA nº 1.047/2013",
+      "Resolução CONFEA nº 1.090/2017",
+      "Resolução CONFEA nº 1.121/2019",
+      "Resolução CONFEA nº 218/1973"
+    ],
+    "correta": 0,
+    "explicacao": "A Resolução 1.047/2013 altera a 1.008/2004, que dispõe sobre os procedimentos para instauração, instrução e julgamento dos processos de infração e aplicação de penalidades.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 14",
+    "dificuldade": 3,
+    "enunciado": "Uma sessão plenária ordinária do CREA-AM foi convocada com apenas três dias de antecedência. Nos termos do Regimento:",
+    "alternativas": [
+      "a convocação é válida, pois a antecedência é facultativa",
+      "há irregularidade, pois a convocação e a pauta devem ser encaminhadas com antecedência mínima de sete dias",
+      "o prazo mínimo é de 48 horas",
+      "o prazo mínimo é de quinze dias"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 14 do Regimento exige antecedência mínima de sete dias para a convocação da sessão plenária ordinária, acompanhada da pauta.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 15, parágrafo único",
+    "dificuldade": 3,
+    "enunciado": "Um grupo de conselheiros pretende convocar sessão plenária extraordinária. O Regimento permite a convocação:",
+    "alternativas": [
+      "por qualquer conselheiro, isoladamente",
+      "pelo presidente ou por dois terços dos membros do Plenário, com requerimento justificado",
+      "somente pelo CONFEA",
+      "somente pelo Ministério Público"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 15, parágrafo único, permite a convocação pelo presidente do CREA ou por dois terços dos membros do Plenário, mediante requerimento justificado.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 20",
+    "dificuldade": 3,
+    "enunciado": "Em uma sessão plenária, o quórum de instalação é atingido quando presentes:",
+    "alternativas": [
+      "um terço dos conselheiros",
+      "metade exata dos conselheiros",
+      "o número inteiro imediatamente superior à metade da composição do Plenário",
+      "dois terços dos conselheiros"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 20 define o quórum como o número inteiro imediatamente superior à metade da composição do Plenário.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 9º, XXXVI",
+    "dificuldade": 3,
+    "enunciado": "Sobre a cassação de mandato do presidente do CREA-AM ou de conselheiro regional, o Regimento exige:",
+    "alternativas": [
+      "maioria simples",
+      "voto de, no mínimo, dois terços dos membros do Plenário",
+      "unanimidade",
+      "aprovação do CONFEA apenas"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 9º, XXXVI, exige o voto de, no mínimo, dois terços dos membros do Plenário para decidir sobre a proposição de cassação, em caso de condenação ética ou inquérito administrativo.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 6º",
+    "dificuldade": 3,
+    "enunciado": "O Plenário do CREA-AM, conforme o Regimento, constitui:",
+    "alternativas": [
+      "órgão consultivo sem poder de decisão",
+      "órgão colegiado decisório e segunda instância de julgamento na jurisdição",
+      "primeira instância de julgamento",
+      "órgão vinculado ao Poder Executivo estadual"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º define o Plenário como órgão colegiado decisório e segunda instância de julgamento no âmbito da jurisdição, ressalvado o foro privilegiado.",
+    "concursos": [
+      "CREA-AM"
+    ]
   }
 ]
