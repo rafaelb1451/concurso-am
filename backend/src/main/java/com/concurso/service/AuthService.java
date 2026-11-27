@@ -163,6 +163,8 @@ public class AuthService {
         usuario.setSenhaAlteradaEm(Instant.now());
         usuario.setTentativasFalhas(0);
         usuario.setBloqueadoAte(null);
+        // Reset de senha encerra TODAS as sessoes: um token roubado deixa de valer.
+        sessoes.deleteByUsuarioId(usuario.getId());
     }
 
     @Transactional

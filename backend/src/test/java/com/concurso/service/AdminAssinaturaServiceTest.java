@@ -60,7 +60,6 @@ class AdminAssinaturaServiceTest {
     @Test
     @DisplayName("concede PRO com prazo e grava auditoria")
     void concedeComAuditoria() {
-        when(assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(2L)).thenReturn(Optional.empty());
         when(assinaturas.save(any())).thenAnswer(inv -> inv.getArgument(0));
 
         Assinatura a = service.conceder("rafa@teste.com", "PRO_MENSAL", 30, 1L);
@@ -80,7 +79,8 @@ class AdminAssinaturaServiceTest {
         ativa.setPlanoId(2L);
         ativa.setStatus(StatusAssinatura.ATIVA);
         ativa.setPeriodoFim(Instant.now().plusSeconds(86400));
-        when(assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(2L)).thenReturn(Optional.of(ativa));
+        when(assinaturas.findByUsuarioIdOrderByCriadaEmDesc(2L))
+                .thenReturn(java.util.List.of(ativa));
         when(assinaturas.save(any())).thenAnswer(inv -> inv.getArgument(0));
 
         Assinatura a = service.revogar("rafa@teste.com", 1L);

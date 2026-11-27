@@ -22,6 +22,8 @@ public class ApiController {
 
     /** Teto de itens por requisicao de importacao (evita payload gigante). */
     private static final int LIMITE_LOTE = 500;
+    /** Teto de respostas por correcao (o maior simulado tem 80 questoes). */
+    private static final int LIMITE_CORRECAO = 100;
 
     private final QuestaoService questoes;
     private final com.concurso.service.ImportService importService;
@@ -136,6 +138,13 @@ public class ApiController {
     @PostMapping("/simulado/corrigir")
     public Dtos.CorrecaoView corrigirSimulado(@RequestBody Dtos.CorrecaoRequest request,
                                               @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        int total = request.respostas() == null ? 0 : request.respostas().size();
+        if (total > LIMITE_CORRECAO) {
+            throw new IllegalArgumentException(
+                    "Correcao acima de " + LIMITE_CORRECAO + " respostas; divida em partes.");
+        }
+        // Mesmo direito exigido no responder: a correcao grava Attempts e revela o gabarito.
+        acesso.exigirDireitoDeResponder(usuarioId, total);
         return simuladoService.corrigir(usuarioId, request);
     }
 

@@ -9,6 +9,9 @@ public interface AssinaturaRepository extends JpaRepository<Assinatura, Long> {
 
     Optional<Assinatura> findFirstByUsuarioIdOrderByCriadaEmDesc(Long usuarioId);
 
+    /** Todas as assinaturas do usuario, da mais recente para a mais antiga. */
+    java.util.List<Assinatura> findByUsuarioIdOrderByCriadaEmDesc(Long usuarioId);
+
     Optional<Assinatura> findByGatewayAndGatewaySubscriptionId(String gateway, String gatewaySubscriptionId);
 
     Optional<Assinatura> findByGatewayAndGatewayCheckoutId(String gateway, String gatewayCheckoutId);

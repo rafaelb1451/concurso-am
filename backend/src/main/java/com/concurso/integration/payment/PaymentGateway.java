@@ -75,6 +75,9 @@ public interface PaymentGateway {
      * @param referenciaExterna  valor que enviamos no checkout, para casar com o usuário
      * @param vencimento    vencimento da cobrança, quando houver
      * @param pago          true quando o evento representa pagamento confirmado
+     * @param valorCentavos valor efetivamente pago, em centavos; {@code -1} quando o gateway
+     *                      não informa (a validação de valor é então ignorada)
+     * @param moeda         moeda do pagamento (ex.: {@code BRL}); vazio quando desconhecida
      */
     record EventoWebhook(
             String id,
@@ -83,7 +86,14 @@ public interface PaymentGateway {
             String checkoutId,
             String referenciaExterna,
             Instant vencimento,
-            boolean pago
+            boolean pago,
+            long valorCentavos,
+            String moeda
     ) {
+        /** Compatibilidade para eventos sem informação de valor. */
+        public EventoWebhook(String id, String tipo, String assinaturaId, String checkoutId,
+                             String referenciaExterna, Instant vencimento, boolean pago) {
+            this(id, tipo, assinaturaId, checkoutId, referenciaExterna, vencimento, pago, -1L, "");
+        }
     }
 }

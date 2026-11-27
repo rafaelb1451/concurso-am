@@ -57,10 +57,20 @@ public class AssinaturaService {
         return gateway.configurado();
     }
 
+    /** Validacao de autenticidade do webhook, exposta para o controller limitar apos validar. */
+    public boolean webhookValido(PaymentGateway.WebhookRequest requisicao) {
+        return gateway.webhookValido(requisicao);
+    }
+
+    /** Variante por token (usada pelo gateway Asaas). */
+    public boolean webhookValido(String token) {
+        return gateway.webhookValido(token);
+    }
+
     /** Plano atual do aluno: o pago, se estiver liberado; senão FREE. */
     @Transactional(readOnly = true)
     public Plano planoEfetivo(Long usuarioId) {
-        Optional<Assinatura> assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId);
+        Optional<Assinatura> assinatura = vigente(usuarioId);
         if (assinatura.isPresent() && assinatura.get().liberaPro()) {
             Optional<Plano> pago = planos.findById(assinatura.get().getPlanoId());
             if (pago.isPresent()) {
@@ -72,7 +82,26 @@ public class AssinaturaService {
     }
 
     public Optional<Assinatura> assinaturaAtual(Long usuarioId) {
-        return assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId);
+        return vigente(usuarioId);
+    }
+
+    /**
+     * Assinatura que vale hoje. Com uma linha por checkout podem coexistir varias
+     * (ex.: anual pendente + mensal ativa); a vigente e' a que libera acesso por mais tempo.
+     */
+    Optional<Assinatura> vigente(Long usuarioId) {
+        java.util.List<Assinatura> todas = assinaturas.findByUsuarioIdOrderByCriadaEmDesc(usuarioId);
+        Optional<Assinatura> liberando = todas.stream()
+                .filter(Assinatura::liberaPro)
+                .max(java.util.Comparator.comparing(
+                        a -> a.getPeriodoFim() == null ? Instant.EPOCH : a.getPeriodoFim()));
+        if (liberando.isPresent()) {
+            return liberando;
+        }
+        return todas.stream()
+                .filter(a -> a.getStatus() == StatusAssinatura.PENDENTE)
+                .findFirst()
+                .or(() -> todas.stream().findFirst());
     }
 
     /**
@@ -103,9 +132,9 @@ public class AssinaturaService {
                 urlApp + "/?assinatura=sucesso",
                 urlApp + "/assinatura/cancelado"));
 
-        Assinatura assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId)
-                .filter(a -> a.getStatus() == StatusAssinatura.PENDENTE)
-                .orElseGet(Assinatura::new);
+        // Uma linha por checkout: reutilizar a PENDENTE fazia o webhook aplicar o plano
+        // do checkout mais recente, nao o plano efetivamente pago (ver auditoria A-01).
+        Assinatura assinatura = new Assinatura();
         assinatura.setUsuarioId(usuarioId);
         assinatura.setPlanoId(plano.getId());
         assinatura.setGateway(gateway.id());
@@ -146,6 +175,11 @@ public class AssinaturaService {
             registrarEvento(evento, corpoBruto, null);
             return ResultadoWebhook.IGNORADO;
         }
+        if (!valorConfere(assinatura, evento)) {
+            // valor/moeda divergentes do plano: registra e nao libera acesso
+            registrarEvento(evento, corpoBruto, assinatura.getUsuarioId());
+            return ResultadoWebhook.IGNORADO;
+        }
 
         aplicar(assinatura, evento);
         assinaturas.save(assinatura);
@@ -168,11 +202,51 @@ public class AssinaturaService {
                 return porCheckout.get();
             }
         }
-        Long usuarioId = usuarioDaReferencia(evento.referenciaExterna());
-        if (usuarioId != null) {
-            return assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId).orElse(null);
+
+        Referencia ref = referencia(evento.referenciaExterna());
+        if (ref == null) {
+            return null;
         }
-        return null;
+        // Casa usuario E plano pagos: um pagamento de PRO_MENSAL nunca ativa PRO_ANUAL.
+        Assinatura mesmaFamilia = null;
+        for (Assinatura candidata : assinaturas.findByUsuarioIdOrderByCriadaEmDesc(ref.usuarioId())) {
+            Plano plano = planos.findById(candidata.getPlanoId()).orElse(null);
+            if (plano == null || !plano.getCodigo().equalsIgnoreCase(ref.planoCodigo())) {
+                continue;
+            }
+            if (candidata.getStatus() == StatusAssinatura.PENDENTE) {
+                return candidata;
+            }
+            if (mesmaFamilia == null) {
+                mesmaFamilia = candidata;
+            }
+        }
+        return mesmaFamilia;
+    }
+
+    /**
+     * Confere o valor e a moeda do evento contra o preco do plano no banco.
+     * Eventos sem valor informado ({@code -1}) sao aceitos para nao quebrar gateways
+     * que nao enviam o montante em todos os tipos de notificacao.
+     */
+    private boolean valorConfere(Assinatura assinatura, PaymentGateway.EventoWebhook evento) {
+        if (evento.valorCentavos() < 0) {
+            return true;
+        }
+        if (evento.moeda() != null && !evento.moeda().isBlank()
+                && !"BRL".equalsIgnoreCase(evento.moeda())) {
+            log.warn("Webhook ignorado: moeda {} (esperado BRL).", evento.moeda());
+            return false;
+        }
+        int esperado = planos.findById(assinatura.getPlanoId())
+                .map(Plano::getValorCentavos)
+                .orElse(-1);
+        if (esperado != evento.valorCentavos()) {
+            log.warn("Webhook ignorado: valor divergente para o plano {} (esperado {} centavos, recebido {}).",
+                    assinatura.getPlanoId(), esperado, evento.valorCentavos());
+            return false;
+        }
+        return true;
     }
 
     private void aplicar(Assinatura assinatura, PaymentGateway.EventoWebhook evento) {
@@ -236,16 +310,20 @@ public class AssinaturaService {
         }
     }
 
-    private static Long usuarioDaReferencia(String referencia) {
-        if (referencia == null || !referencia.startsWith("usuario:")) {
+    private record Referencia(Long usuarioId, String planoCodigo) {
+    }
+
+    /** Formato combinado com o checkout: {@code usuario:<id>:plano:<codigo>}. */
+    private static Referencia referencia(String valor) {
+        if (valor == null || !valor.startsWith("usuario:")) {
             return null;
         }
-        String[] partes = referencia.split(":");
-        if (partes.length < 2) {
+        String[] partes = valor.split(":");
+        if (partes.length < 4 || !"plano".equals(partes[2])) {
             return null;
         }
         try {
-            return Long.parseLong(partes[1]);
+            return new Referencia(Long.parseLong(partes[1]), partes[3]);
         } catch (NumberFormatException e) {
             return null;
         }
@@ -254,7 +332,7 @@ public class AssinaturaService {
     /** Cancela a renovação; o acesso continua até o fim do período já pago. */
     @Transactional
     public void cancelar(Long usuarioId) {
-        Assinatura assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId)
+        Assinatura assinatura = vigente(usuarioId)
                 .orElseThrow(() -> new IllegalArgumentException("Nao existe assinatura para cancelar."));
         if (assinatura.getStatus() != StatusAssinatura.ATIVA
                 && assinatura.getStatus() != StatusAssinatura.EM_ATRASO) {

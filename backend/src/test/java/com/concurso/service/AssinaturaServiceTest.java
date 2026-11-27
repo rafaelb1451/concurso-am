@@ -53,6 +53,7 @@ class AssinaturaServiceTest {
         mensal.setNome("PRO mensal");
         mensal.setCiclo("MENSAL");
         mensal.setLimiteDiarioQuestoes(-1);
+        mensal.setValorCentavos(2990);
         lenient().when(planos.findById(1L)).thenReturn(Optional.of(mensal));
     }
 
@@ -78,6 +79,24 @@ class AssinaturaServiceTest {
                 .isEqualTo(HttpStatus.UNAUTHORIZED);
 
         verify(eventos, never()).save(any());
+    }
+
+    @Test
+    @DisplayName("pagamento com valor diferente do plano e' ignorado")
+    void valorDivergenteEhIgnorado() {
+        Assinatura assinatura = assinaturaAtiva();
+        assinatura.setStatus(StatusAssinatura.PENDENTE);
+        gateway.eventId = "evt-valor";
+        gateway.valorCentavos = 100L; // R$ 1,00 num plano de R$ 29,90
+        when(eventos.findByGatewayAndGatewayEventId("fake", "evt-valor")).thenReturn(Optional.empty());
+        when(assinaturas.findByGatewayAndGatewaySubscriptionId("fake", "sub_1"))
+                .thenReturn(Optional.of(assinatura));
+
+        AssinaturaService.ResultadoWebhook resultado = service.processarWebhook("ok", "{}");
+
+        assertThat(resultado).isEqualTo(AssinaturaService.ResultadoWebhook.IGNORADO);
+        assertThat(assinatura.getStatus()).isEqualTo(StatusAssinatura.PENDENTE);
+        verify(assinaturas, never()).save(any());
     }
 
     @Test
@@ -153,7 +172,8 @@ class AssinaturaServiceTest {
     @DisplayName("cancelamento mantem o acesso ate o fim do periodo pago")
     void cancelamentoRespeitaPeriodoPago() {
         Assinatura assinatura = assinaturaAtiva();
-        when(assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(7L)).thenReturn(Optional.of(assinatura));
+        when(assinaturas.findByUsuarioIdOrderByCriadaEmDesc(7L))
+                .thenReturn(java.util.List.of(assinatura));
 
         service.cancelar(7L);
 
@@ -201,7 +221,6 @@ class AssinaturaServiceTest {
     @DisplayName("iniciar checkout devolve a url hospedada do gateway")
     void checkoutDevolveUrl() {
         gateway.url = "https://sandbox.asaas.com/checkout/abc";
-        when(assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(7L)).thenReturn(Optional.empty());
 
         String url = service.iniciarCheckout(7L, 1L, new PaymentGateway.DadosCliente(
                 "Aluno", "aluno@teste.com", "24971563792", "11987654321",
@@ -222,6 +241,7 @@ class AssinaturaServiceTest {
         String referencia = "usuario:7:plano:PRO_MENSAL";
         String url = "https://pagamento.test/abc";
         String eventId = "evt-1";
+        long valorCentavos = 2990;
 
         @Override
         public String id() {
@@ -251,7 +271,7 @@ class AssinaturaServiceTest {
         @Override
         public EventoWebhook traduzir(String corpoBruto) {
             return new EventoWebhook(eventId, tipo, assinaturaId,
-                    "checkout_1", referencia, Instant.now(), pago);
+                    "checkout_1", referencia, Instant.now(), pago, valorCentavos, "BRL");
         }
     }
 }

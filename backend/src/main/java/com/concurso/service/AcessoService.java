@@ -46,14 +46,25 @@ public class AcessoService {
         return attempts.countByUsuarioIdAndCriadaEmGreaterThanEqual(usuarioId, inicioDoDia);
     }
 
-    /** Lança 429 quando o aluno FREE esgotou o limite do dia. */
+    /** Lança 429 quando o aluno FREE esgotou o limite do dia (uma resposta). */
     public void exigirDireitoDeResponder(Long usuarioId) {
+        exigirDireitoDeResponder(usuarioId, 1);
+    }
+
+    /**
+     * Lança 429 quando o lote pedido ultrapassa o que resta do limite diário.
+     * Usado também na correção de simulado, que grava várias respostas de uma vez.
+     */
+    public void exigirDireitoDeResponder(Long usuarioId, int lote) {
+        if (lote <= 0) {
+            return;
+        }
         Plano plano = planoDe(usuarioId);
         if (plano.ilimitado()) {
             return;
         }
         long usadas = respondidasHoje(usuarioId);
-        if (usadas >= plano.getLimiteDiarioQuestoes()) {
+        if (usadas + lote > plano.getLimiteDiarioQuestoes()) {
             throw new AuthException(HttpStatus.TOO_MANY_REQUESTS,
                     "Voce atingiu o limite de " + plano.getLimiteDiarioQuestoes()
                             + " questoes por dia do plano " + plano.getNome()

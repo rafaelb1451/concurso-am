@@ -9,6 +9,7 @@ import com.concurso.repo.UsuarioRepository;
 import com.concurso.service.AcessoService;
 import com.concurso.service.RateLimiter;
 import com.concurso.service.AssinaturaService;
+import com.concurso.service.AuthException;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -115,25 +115,36 @@ public class AssinaturaController {
     @PostMapping("/webhooks/asaas")
     public Map<String, Object> webhook(
             @RequestHeader(value = "asaas-access-token", required = false) String token,
-            @RequestBody String corpo) {
-        limiter.exigir("webhook-asaas", 120);
+            @RequestBody String corpo,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        // Autentica antes de contar no limitador: trafego anonimo nao consome o balde.
+        if (!assinaturas.webhookValido(token)) {
+            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
+                    "Token de webhook invalido.");
+        }
+        limiter.exigir("webhook-asaas:" + ClienteIp.de(requisicao), 600);
         AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
         return Map.of("ok", true, "resultado", resultado.name());
     }
 
     /**
-     * Webhook do Mercado Pago. Autenticidade vem do HMAC oficial ({@code x-signature}) quando
-     * a assinatura secreta esta configurada; o token da URL e' apenas fallback de desenvolvimento.
+     * Webhook do Mercado Pago. Autenticidade vem exclusivamente do HMAC oficial
+     * ({@code x-signature}); o token de URL foi removido (vazava em log de acesso).
      */
     @PostMapping("/webhooks/mercadopago")
     public Map<String, Object> webhookMercadoPago(
-            @RequestParam(value = "token", required = false) String token,
             @RequestHeader(value = "x-signature", required = false) String assinatura,
             @RequestHeader(value = "x-request-id", required = false) String requisicaoId,
-            @RequestBody String corpo) {
-        limiter.exigir("webhook-mercadopago", 120);
-        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(
-                new PaymentGateway.WebhookRequest(token, assinatura, requisicaoId, corpo));
+            @RequestBody String corpo,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        PaymentGateway.WebhookRequest pedido =
+                new PaymentGateway.WebhookRequest(null, assinatura, requisicaoId, corpo);
+        if (!assinaturas.webhookValido(pedido)) {
+            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
+                    "Assinatura de webhook invalida.");
+        }
+        limiter.exigir("webhook-mp:" + ClienteIp.de(requisicao), 600);
+        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(pedido);
         return Map.of("ok", true, "resultado", resultado.name());
     }
 }

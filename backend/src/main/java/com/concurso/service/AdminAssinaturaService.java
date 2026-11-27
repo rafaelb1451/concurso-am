@@ -64,9 +64,9 @@ public class AdminAssinaturaService {
             throw new IllegalArgumentException("Este plano nao pode ser concedido.");
         }
 
-        Assinatura assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuario.getId())
-                .filter(a -> a.getStatus() != StatusAssinatura.EXPIRADA)
-                .orElseGet(Assinatura::new);
+        // Concessao manual sempre cria uma linha propria: nao sobrescreve um checkout
+        // pendente do aluno (o que misturaria plano pago com cortesia).
+        Assinatura assinatura = new Assinatura();
         Instant agora = Instant.now();
         assinatura.setUsuarioId(usuario.getId());
         assinatura.setPlanoId(plano.getId());
@@ -90,7 +90,13 @@ public class AdminAssinaturaService {
     public Assinatura revogar(String email, Long adminId) {
         Usuario usuario = usuarios.findByEmail(normalizar(email))
                 .orElseThrow(() -> new IllegalArgumentException("Usuario nao encontrado."));
-        Assinatura assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuario.getId())
+        java.util.List<Assinatura> doUsuario =
+                assinaturas.findByUsuarioIdOrderByCriadaEmDesc(usuario.getId());
+        Assinatura assinatura = doUsuario.stream()
+                .filter(Assinatura::liberaPro)
+                .max(java.util.Comparator.comparing(
+                        a -> a.getPeriodoFim() == null ? Instant.EPOCH : a.getPeriodoFim()))
+                .or(() -> doUsuario.stream().findFirst())
                 .orElseThrow(() -> new IllegalArgumentException("Este usuario nao tem assinatura."));
 
         assinatura.setStatus(StatusAssinatura.EXPIRADA);

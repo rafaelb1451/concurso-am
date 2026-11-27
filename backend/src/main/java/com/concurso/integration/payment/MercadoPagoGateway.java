@@ -123,34 +123,35 @@ public class MercadoPagoGateway implements PaymentGateway {
 
     @Override
     public boolean webhookValido(WebhookRequest req) {
-        // Assinatura secreta configurada no painel: valida o HMAC oficial (x-signature).
-        if (!webhookSecret.isEmpty()) {
-            try {
-                String ts = parametro(req.signature(), "ts");
-                String v1 = parametro(req.signature(), "v1");
-                if (ts.isEmpty() || v1.isEmpty()) {
-                    return false;
-                }
-                String dataId = "";
-                try {
-                    JsonNode raiz = mapper.readTree(req.body());
-                    dataId = raiz.path("data").path("id").asText("");
-                } catch (RuntimeException ignorado) {
-                    // corpo sem JSON valido: segue com id vazio (a assinatura cobre)
-                }
-                String requestId = req.requestId() == null ? "" : req.requestId();
-                String manifesto = "id:" + dataId + ";request-id:" + requestId + ";ts:" + ts + ";";
-                String esperado = hmacHex(manifesto);
-                return MessageDigest.isEqual(
-                        esperado.getBytes(StandardCharsets.UTF_8),
-                        v1.getBytes(StandardCharsets.UTF_8));
-            } catch (RuntimeException e) {
-                log.warn("Webhook do Mercado Pago com assinatura invalida: {}", e.getMessage());
+        // Fail closed: sem a assinatura secreta nao ha' como provar autenticidade.
+        // O token na URL deixou de ser aceito (ele vazava em log de acesso).
+        if (webhookSecret.isEmpty()) {
+            log.error("MP_WEBHOOK_SECRET ausente: webhook do Mercado Pago recusado (fail closed).");
+            return false;
+        }
+        try {
+            String ts = parametro(req.signature(), "ts");
+            String v1 = parametro(req.signature(), "v1");
+            if (ts.isEmpty() || v1.isEmpty()) {
                 return false;
             }
+            String dataId = "";
+            try {
+                JsonNode raiz = mapper.readTree(req.body());
+                dataId = raiz.path("data").path("id").asText("");
+            } catch (RuntimeException ignorado) {
+                // corpo sem JSON valido: segue com id vazio (a assinatura cobre)
+            }
+            String requestId = req.requestId() == null ? "" : req.requestId();
+            String manifesto = "id:" + dataId + ";request-id:" + requestId + ";ts:" + ts + ";";
+            String esperado = hmacHex(manifesto);
+            return MessageDigest.isEqual(
+                    esperado.getBytes(StandardCharsets.UTF_8),
+                    v1.getBytes(StandardCharsets.UTF_8));
+        } catch (RuntimeException e) {
+            log.warn("Webhook do Mercado Pago com assinatura invalida: {}", e.getMessage());
+            return false;
         }
-        // Sem assinatura secreta configurada (dev): cai no token da URL.
-        return webhookValido(req.token());
     }
 
     private String hmacHex(String texto) {
@@ -182,15 +183,14 @@ public class MercadoPagoGateway implements PaymentGateway {
         return "";
     }
 
+    /**
+     * @deprecated o Mercado Pago só é aceito com HMAC ({@code x-signature}). O token de URL
+     *     foi removido por vazar em log de acesso e por não provar autenticidade.
+     */
     @Override
+    @Deprecated
     public boolean webhookValido(String tokenRecebido) {
-        if (webhookToken.isEmpty()) {
-            // sem token configurado nao ha' como validar: recusa sempre (fail closed)
-            return false;
-        }
-        return MessageDigest.isEqual(
-                webhookToken.getBytes(StandardCharsets.UTF_8),
-                (tokenRecebido == null ? "" : tokenRecebido).getBytes(StandardCharsets.UTF_8));
+        return false;
     }
 
     @Override
@@ -209,6 +209,8 @@ public class MercadoPagoGateway implements PaymentGateway {
             String referencia = "";
             Instant vencimento = null;
             boolean pago = false;
+            long valorCentavos = -1L;
+            String moeda = "";
             String tipo;
 
             switch (tipoNotificacao) {
@@ -219,6 +221,8 @@ public class MercadoPagoGateway implements PaymentGateway {
                     assinaturaId = recursoId;
                     checkoutId = recursoId;
                     vencimento = proximaCobranca(texto(pre, "next_payment_date"));
+                    valorCentavos = centavos(pre.path("auto_recurring").path("transaction_amount"));
+                    moeda = texto(pre.path("auto_recurring"), "currency_id");
                     tipo = switch (status) {
                         case "authorized" -> "SUBSCRIPTION_AUTHORIZED";
                         case "cancelled" -> "SUBSCRIPTION_DELETED";
@@ -233,6 +237,8 @@ public class MercadoPagoGateway implements PaymentGateway {
                     referencia = texto(pag, "external_reference");
                     assinaturaId = texto(pag, "preapproval_id");
                     vencimento = proximaCobranca(texto(pag, "debit_date"));
+                    valorCentavos = centavos(pag.path("transaction_amount"));
+                    moeda = texto(pag, "currency_id");
                     pago = "processed".equals(status) || "approved".equals(status);
                     tipo = pago ? "PAYMENT_CONFIRMED" : "PAYMENT_PENDING";
                 }
@@ -243,6 +249,8 @@ public class MercadoPagoGateway implements PaymentGateway {
                     assinaturaId = texto(pag, "preapproval_id");
                     checkoutId = primeiraNaoVazia(texto(pag, "preapproval_id"), "");
                     vencimento = proximaCobranca(texto(pag, "date_of_expiration"));
+                    valorCentavos = centavos(pag.path("transaction_amount"));
+                    moeda = texto(pag, "currency_id");
                     pago = "approved".equals(status);
                     tipo = switch (status) {
                         case "approved" -> "PAYMENT_CONFIRMED";
@@ -257,7 +265,8 @@ public class MercadoPagoGateway implements PaymentGateway {
                 }
             }
 
-            return new EventoWebhook(eventoId, tipo, assinaturaId, checkoutId, referencia, vencimento, pago);
+            return new EventoWebhook(eventoId, tipo, assinaturaId, checkoutId, referencia,
+                    vencimento, pago, valorCentavos, moeda);
         } catch (RuntimeException e) {
             throw new IllegalArgumentException("Webhook do Mercado Pago em formato inesperado.");
         }
@@ -291,6 +300,21 @@ public class MercadoPagoGateway implements PaymentGateway {
         } catch (Exception e) {
             log.warn("Falha ao falar com o Mercado Pago em {} {}", metodo, caminho, e);
             throw new IllegalStateException("Nao foi possivel falar com o gateway de pagamento.");
+        }
+    }
+
+    /** Converte o valor monetario do JSON para centavos; -1 quando ausente ou invalido. */
+    private static long centavos(JsonNode no) {
+        if (no == null || no.isMissingNode() || no.isNull()) {
+            return -1L;
+        }
+        try {
+            return new java.math.BigDecimal(no.asText().trim())
+                    .movePointRight(2)
+                    .setScale(0, java.math.RoundingMode.HALF_UP)
+                    .longValueExact();
+        } catch (RuntimeException e) {
+            return -1L;
         }
     }
 

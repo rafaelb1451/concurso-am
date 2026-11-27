@@ -54,12 +54,12 @@ class MercadoPagoGatewayTest {
     }
 
     @Test
-    @DisplayName("sem assinatura/secreto cai no token de fallback")
-    void fallbackToken() {
+    @DisplayName("sem segredo configurado o webhook e' recusado (fail closed)")
+    void semSegredoRecusa() {
         var req = new PaymentGateway.WebhookRequest("meu-token", null, null, "{}");
         var semSegredo = new MercadoPagoGateway("token", "meu-token", "", "",
                 "https://api.mercadopago.com", JsonMapper.builder().build());
 
-        assertThat(semSegredo.webhookValido(req)).isTrue();
+        assertThat(semSegredo.webhookValido(req)).isFalse();
     }
 }
