@@ -82,6 +82,17 @@ export default function App() {
       .finally(() => setChecandoSessao(false))
   }, [])
 
+  // O login aberto por cima do site vira uma entrada no histórico: o botão
+  // "voltar" do navegador fecha o login e retorna ao site (em vez de sair da página).
+  useEffect(() => {
+    function aoVoltarHistorico() {
+      setMostrarAuth(false)
+      setIntentAuth(null)
+    }
+    window.addEventListener('popstate', aoVoltarHistorico)
+    return () => window.removeEventListener('popstate', aoVoltarHistorico)
+  }, [])
+
   function onAutenticado(auth: AuthData) {
     // ponto único: vale para login por e-mail e por Google
     if (auth.token) localStorage.setItem('qb_token', auth.token)
@@ -304,6 +315,7 @@ export default function App() {
 
   function abrirAuth(intent?: 'planos') {
     setIntentAuth(intent === 'planos' ? 'planos' : null)
+    window.history.pushState({ auth: true }, '')
     setMostrarAuth(true)
   }
 
@@ -313,10 +325,7 @@ export default function App() {
       return (
         <AuthScreen
           onAutenticado={onAutenticado}
-          onVoltar={() => {
-            setMostrarAuth(false)
-            setIntentAuth(null)
-          }}
+          onVoltar={() => window.history.back()}
         />
       )
     }
