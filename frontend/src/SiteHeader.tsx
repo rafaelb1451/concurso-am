@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowRight, Menu, UserRound } from 'lucide-react'
+import { ArrowRight, Mail, Menu, UserRound } from 'lucide-react'
 import Logo from './Logo'
 import Sheet from './Sheet'
 
@@ -182,9 +182,19 @@ export default function SiteHeader({
 export function SiteFooter() {
   return (
     <footer className="border-t border-ink-200 bg-surface">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-6 text-[12px] text-ink-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-        <span className="font-semibold text-ink-700">QB Concurso — Quebrando a Banca</span>
-        <span>Questões, simulados e material de estudo por banca e certame</span>
+      <div className="mx-auto w-full max-w-6xl px-4 py-6 text-[12px] text-ink-500 sm:px-6">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <span className="font-semibold text-ink-700">QB Concurso — Quebrando a Banca</span>
+          <span>Questões comentadas, simulados e tutor com IA</span>
+        </div>
+        <a
+          href="mailto:contato@qbconcurso.online"
+          aria-label="Enviar e-mail para o suporte: contato@qbconcurso.online"
+          className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-lg text-[12px] font-semibold text-ink-600 transition hover:text-brand-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+        >
+          <Mail className="h-3.5 w-3.5 shrink-0 text-accent-500" aria-hidden="true" />
+          <span className="truncate">Contato: contato@qbconcurso.online</span>
+        </a>
       </div>
     </footer>
   )
