@@ -1698,5 +1698,585 @@
     "concursos": [
       "CREA-AM"
     ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 2º",
+    "dificuldade": 3,
+    "enunciado": "Segundo a Resolução CONFEA nº 1.137/2023, a ART é o instrumento que:",
+    "alternativas": [
+      "autoriza o início da obra perante o município",
+      "define, para os efeitos legais, os responsáveis técnicos pela execução de obras ou prestação de serviços",
+      "substitui o registro profissional no CREA",
+      "comprova o pagamento da anuidade"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º da Resolução 1.137/2023 define a ART como o instrumento que define os responsáveis técnicos pela execução de obras ou prestação de serviços.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 3º",
+    "dificuldade": 3,
+    "enunciado": "Nos termos da Resolução 1.137/2023, a ART deve ser registrada:",
+    "alternativas": [
+      "no CREA da sede da empresa",
+      "no CREA em cuja circunscrição for exercida a atividade",
+      "no CONFEA",
+      "no órgão licenciador ambiental"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 3º determina o registro da ART no CREA em cuja circunscrição for exercida a respectiva atividade.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 3º, parágrafo único",
+    "dificuldade": 3,
+    "enunciado": "Sobre o vínculo de profissional com pessoa jurídica para desempenho de cargo ou função técnica, a Resolução 1.137/2023:",
+    "alternativas": [
+      "dispensa a ART",
+      "sujeita também ao registro da ART",
+      "exige apenas contrato de trabalho",
+      "aplica somente a empresas públicas"
+    ],
+    "correta": 1,
+    "explicacao": "O parágrafo único do art. 3º estende a exigência de ART ao vínculo de profissional para desempenho de cargo ou função técnica.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 4º",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a Resolução 1.137/2023, o registro da ART efetiva-se:",
+    "alternativas": [
+      "com a simples assinatura do contrato",
+      "após o cadastro no sistema eletrônico do CREA e o recolhimento do valor correspondente",
+      "após a conclusão da obra",
+      "com a publicação no diário oficial"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º condiciona o registro da ART ao cadastro no sistema eletrônico do CREA e ao recolhimento do valor correspondente.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 4º, § 1º",
+    "dificuldade": 3,
+    "enunciado": "O início da atividade profissional sem o recolhimento do valor da ART, segundo a Resolução 1.137/2023, enseja:",
+    "alternativas": [
+      "nada, pois o recolhimento é facultativo",
+      "as sanções legais cabíveis",
+      "apenas regularização posterior",
+      "cancelamento automático do registro"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º, § 1º, prevê as sanções legais cabíveis para o início da atividade sem o recolhimento do valor da ART.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 5º",
+    "dificuldade": 3,
+    "enunciado": "O cadastro da ART, conforme a Resolução 1.137/2023, é efetivado:",
+    "alternativas": [
+      "pelo CREA, de ofício",
+      "pelo profissional, mediante formulário eletrônico e assinatura eletrônica com senha pessoal e intransferível",
+      "pelo contratante",
+      "por despachante credenciado"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 5º determina que o cadastro da ART seja efetivado pelo profissional, por formulário eletrônico e assinatura eletrônica com senha pessoal e intransferível.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 6º",
+    "dificuldade": 3,
+    "enunciado": "A guarda da via assinada da ART (ou cópia da ART eletrônica) é responsabilidade:",
+    "alternativas": [
+      "apenas do CREA",
+      "do profissional e do contratante",
+      "apenas do contratante",
+      "do município"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º atribui a guarda da via assinada da ART, ou cópia da eletrônica, ao profissional e ao contratante.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 7º",
+    "dificuldade": 3,
+    "enunciado": "Quanto à presença da ART no local da obra, a Resolução 1.137/2023 exige que:",
+    "alternativas": [
+      "fique arquivada somente na sede da empresa",
+      "o responsável técnico, contratante ou proprietário mantenha uma via no local da obra ou serviço, física ou digital",
+      "seja afixada em mural público",
+      "seja enviada ao CONFEA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 7º exige a manutenção de uma via da ART no local da obra ou serviço, em formato físico ou digital.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 8º",
+    "dificuldade": 3,
+    "enunciado": "É vedado registrar ART ao profissional que esteja com o registro:",
+    "alternativas": [
+      "em processo de renovação",
+      "cancelado, suspenso ou interrompido",
+      "vinculado a mais de um CREA",
+      "com anuidade em dia"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 8º veda o registro de ART ao profissional com registro cancelado, suspenso ou interrompido.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 9º, II",
+    "dificuldade": 3,
+    "enunciado": "A ART que especifica vários contratos ou vínculos referentes a obras/serviços em determinado período é classificada como:",
+    "alternativas": [
+      "ART inicial",
+      "ART múltipla (de obra ou serviço de rotina)",
+      "ART complementar",
+      "ART de substituição"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 9º, II, define a ART múltipla (de obra ou serviço de rotina) como a que especifica vários contratos ou vínculos em determinado período.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 9º, III",
+    "dificuldade": 3,
+    "enunciado": "A ART relativa ao vínculo com pessoa jurídica para desempenho de cargo ou função técnica é classificada, quanto à tipificação, como:",
+    "alternativas": [
+      "ART de obra",
+      "ART de serviço de rotina",
+      "ART de cargo ou função",
+      "ART complementar"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 9º, III, classifica como ART de cargo ou função a relativa ao vínculo com pessoa jurídica para desempenho de cargo ou função técnica.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 10, I",
+    "dificuldade": 3,
+    "enunciado": "A ART inicial é definida pela Resolução 1.137/2023 como:",
+    "alternativas": [
+      "a primeira anotação de responsabilidade técnica relativa à obra, serviço ou cargo/função",
+      "a que corrige erro de preenchimento",
+      "a que amplia o objeto do contrato",
+      "a que substitui o responsável técnico"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 10, I, define a ART inicial como a primeira anotação de responsabilidade técnica relativa à obra, serviço ou desempenho de cargo ou função.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 10, II",
+    "dificuldade": 3,
+    "enunciado": "Quando há alteração contratual que amplia o objeto, o valor ou o prazo da execução, a Resolução 1.137/2023 prevê:",
+    "alternativas": [
+      "nova ART inicial",
+      "ART complementar",
+      "cancelamento da ART",
+      "baixa automática"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 10, II (complementar), prevê a ART complementar para alteração contratual que amplie objeto, valor ou prazo.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.137/2023, art. 13",
+    "dificuldade": 3,
+    "enunciado": "O término da atividade técnica desenvolvida obriga:",
+    "alternativas": [
+      "à emissão de nova ART",
+      "à baixa da ART de execução",
+      "ao cancelamento do registro profissional",
+      "à comunicação ao CONFEA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 13 dispõe que o término da atividade técnica obriga à baixa da ART de execução.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.007/2003, art. 3º",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a Resolução CONFEA nº 1.007/2003, o profissional que exercer atividade na jurisdição de outro CREA fica obrigado a:",
+    "alternativas": [
+      "requerer novo registro",
+      "visar o seu registro no Conselho da jurisdição onde atuar",
+      "comunicar o CONFEA",
+      "pagar anuidade nos dois conselhos"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 3º da Resolução 1.007/2003 obriga o profissional que exerça atividade em outra jurisdição a visar o seu registro.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.007/2003, art. 2º",
+    "dificuldade": 3,
+    "enunciado": "Para a Resolução CONFEA nº 1.007/2003, o registro para habilitação ao exercício profissional é:",
+    "alternativas": [
+      "a inscrição dos profissionais nos Conselhos Regionais",
+      "a emissão do diploma",
+      "o pagamento da primeira anuidade",
+      "a assinatura do termo de compromisso"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 2º define o registro como a inscrição dos profissionais nos Conselhos Regionais para habilitação ao exercício.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.007/2003 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 1.007/2003 trata, entre outros temas, de:",
+    "alternativas": [
+      "modelos e critérios para expedição da Carteira de Identidade Profissional",
+      "salário mínimo profissional",
+      "Código de Ética",
+      "ART eletrônica"
+    ],
+    "correta": 0,
+    "explicacao": "A 1.007/2003 dispõe sobre o registro de profissionais e aprova modelos e critérios para a Carteira de Identidade Profissional.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.007/2003, art. 4º",
+    "dificuldade": 3,
+    "enunciado": "Segundo a Resolução 1.007/2003, o registro deve ser requerido:",
+    "alternativas": [
+      "pelo próprio profissional diplomado",
+      "pelo CREA de ofício",
+      "pela empresa contratante",
+      "pelo CONFEA"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 4º estabelece que o registro deve ser requerido pelo profissional diplomado (no País ou no exterior).",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.073/2016 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 1.073/2016 tem por finalidade, entre outras:",
+    "alternativas": [
+      "regulamentar títulos, atividades, competências e campos de atuação para fins de fiscalização",
+      "fixar o valor da anuidade",
+      "criar os CREAs",
+      "aprovar o Código de Ética"
+    ],
+    "correta": 0,
+    "explicacao": "A 1.073/2016 regulamenta a atribuição de títulos, atividades, competências e campos de atuação aos profissionais registrados, para efeito de fiscalização.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 1.073/2016",
+    "dificuldade": 3,
+    "enunciado": "A análise de exercício ilegal por assumir atividade fora das atribuições registradas apoia-se, entre outras normas, na:",
+    "alternativas": [
+      "Resolução 1.073/2016, que define títulos, atividades e campos de atuação",
+      "Lei 4.950-A/1966, que fixa salário mínimo",
+      "Resolução 1.002/2002, que adota o Código de Ética",
+      "Resolução 1.050/2013, sobre obras sem ART"
+    ],
+    "correta": 0,
+    "explicacao": "A 1.073/2016 detalha as atribuições e campos de atuação, servindo de base para aferir o exercício ilegal previsto no art. 6º, b, da Lei 5.194/1966.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 218/1973 (ementa)",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 218/1973 tem como objeto:",
+    "alternativas": [
+      "discriminar as atividades das diferentes modalidades profissionais da Engenharia, Arquitetura e Agronomia",
+      "o registro de pessoas jurídicas",
+      "o Código de Ética",
+      "o salário mínimo profissional"
+    ],
+    "correta": 0,
+    "explicacao": "A 218/1973 discrimina as atividades das diferentes modalidades profissionais, servindo de base para atribuições e fiscalização.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 218/1973",
+    "dificuldade": 3,
+    "enunciado": "A Resolução 218/1973 foi editada com fundamento, entre outros, nas alíneas do art. 27 da Lei 5.194/1966 que tratam de:",
+    "alternativas": [
+      "atribuições do CONFEA para baixar resoluções",
+      "fiscalização de obras",
+      "penalidades",
+      "anuidade"
+    ],
+    "correta": 0,
+    "explicacao": "A 218/1973 foi editada com base nas letras \"d\" e \"f\" do parágrafo único do art. 27 da Lei 5.194/1966, que conferem atribuições ao CONFEA.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Resolução CONFEA 218/1973 e 1.073/2016",
+    "dificuldade": 3,
+    "enunciado": "A distinção entre as atividades de cada modalidade profissional (ex.: engenharia civil e engenharia elétrica) é feita, no Sistema CONFEA/CREA, com base na:",
+    "alternativas": [
+      "Resolução 218/1973 e na Resolução 1.073/2016",
+      "Lei 4.950-A/1966",
+      "Resolução 1.121/2019",
+      "Lei 6.839/1980"
+    ],
+    "correta": 0,
+    "explicacao": "A 218/1973 discrimina as atividades por modalidade e a 1.073/2016 regulamenta títulos, atividades e campos de atuação.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Legislação Profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Decreto 23.569/1933",
+    "dificuldade": 3,
+    "enunciado": "O Decreto nº 23.569/1933, no contexto do Sistema CONFEA/CREA, é relevante porque:",
+    "alternativas": [
+      "criou o salário mínimo profissional",
+      "regulamentou o exercício da Engenharia, Arquitetura e Agrimensura e organizou os conselhos, sendo base histórica do sistema",
+      "instituiu a ART",
+      "criou a Mútua"
+    ],
+    "correta": 1,
+    "explicacao": "O Decreto 23.569/1933 regulamentou o exercício das profissões e organizou o Conselho Federal e os Regionais, base histórica do atual Sistema CONFEA/CREA.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Legislação Profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 5.194/1966, art. 8º, parágrafo único",
+    "dificuldade": 3,
+    "enunciado": "A Lei nº 5.194/1966, ao tratar das pessoas jurídicas, exige que elas exerçam as atividades profissionais:",
+    "alternativas": [
+      "com participação efetiva e autoria declarada de profissional legalmente habilitado e registrado",
+      "por meio de estagiários",
+      "sem necessidade de registro no CREA",
+      "apenas com profissional autônomo"
+    ],
+    "correta": 0,
+    "explicacao": "O parágrafo único do art. 8º da Lei 5.194/1966 exige a participação efetiva e autoria declarada de profissional habilitado e registrado.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Legislação Profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.839/1980, art. 1º",
+    "dificuldade": 3,
+    "enunciado": "A Lei 6.839/1980 é a base legal para o registro, no CREA, de:",
+    "alternativas": [
+      "profissionais estrangeiros",
+      "empresas cuja atividade básica ou serviço prestado envolva as profissões fiscalizadas",
+      "entidades de classe",
+      "consórcios públicos"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 1º da Lei 6.839/1980 obriga o registro de empresas em razão da atividade básica ou do serviço prestado a terceiros.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Legislação Profissional",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Lei 6.839/1980, art. 1º",
+    "dificuldade": 3,
+    "enunciado": "O motivo determinante para o registro da empresa no CREA, segundo a Lei 6.839/1980, é:",
+    "alternativas": [
+      "o porte econômico",
+      "a atividade básica ou o serviço prestado a terceiros",
+      "o número de sócios",
+      "a localização da sede"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 1º vincula o registro à atividade básica ou àquela pela qual a empresa preste serviços a terceiros.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 4º, I",
+    "dificuldade": 3,
+    "enunciado": "Compete ao CREA-AM cumprir e fazer cumprir:",
+    "alternativas": [
+      "apenas as leis federais",
+      "a legislação federal, as resoluções e decisões do CONFEA e seus próprios atos normativos",
+      "somente o seu regimento",
+      "apenas o Código de Ética"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º, I, do Regimento atribui ao CREA-AM cumprir e fazer cumprir a legislação federal, as resoluções e decisões do CONFEA e os atos normativos e administrativos do CREA.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "ACCESS",
+    "fundamento": "Regimento do CREA-AM, art. 8º",
+    "dificuldade": 3,
+    "enunciado": "A renovação da composição do Plenário do CREA-AM ocorre:",
+    "alternativas": [
+      "integralmente a cada quatro anos",
+      "em um terço, anualmente",
+      "em dois terços, a cada dois anos",
+      "somente por eleição do CONFEA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 8º do Regimento dispõe que a composição do Plenário é renovada em um terço, anualmente.",
+    "concursos": [
+      "CREA-AM"
+    ]
   }
 ]
