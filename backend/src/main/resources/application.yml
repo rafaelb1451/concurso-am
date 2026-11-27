@@ -1,6 +1,9 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  # URL publica usada em canonical, sitemap e JSON-LD das paginas de SEO.
+  seo:
+    url: ${SEO_BASE_URL:https://qbconcurso.com.br}
   mercadopago:
     access-token: ${MP_ACCESS_TOKEN:}
     webhook-token: ${MP_WEBHOOK_TOKEN:}
