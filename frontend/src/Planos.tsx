@@ -19,6 +19,7 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
   const [planoEscolhido, setPlanoEscolhido] = useState<Plano | null>(null)
   const [carregando, setCarregando] = useState(true)
   const [enviando, setEnviando] = useState(false)
+  const [verificando, setVerificando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
   const [mensagem, setMensagem] = useState<string | null>(null)
 
@@ -66,6 +67,23 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
     } catch (e) {
       setErro(e instanceof Error ? e.message : 'Não foi possível iniciar o pagamento.')
       setEnviando(false)
+    }
+  }
+
+  async function verificarPagamento() {
+    setErro(null)
+    setMensagem(null)
+    setVerificando(true)
+    try {
+      const atual = await api.assinatura()
+      setAssinatura(atual)
+      setMensagem(atual.liberaPro
+        ? 'Pagamento confirmado! Seu PRO está liberado.'
+        : 'Ainda não identificamos o pagamento. Se você acabou de pagar, aguarde alguns segundos e tente de novo.')
+    } catch (e) {
+      setErro(e instanceof Error ? e.message : 'Não foi possível verificar o pagamento.')
+    } finally {
+      setVerificando(false)
     }
   }
 
@@ -204,6 +222,17 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
               ) : null}
             </div>
           ))}
+        </div>
+      ) : null}
+
+      {!pro && configurado ? (
+        <div className="qb-card flex flex-wrap items-center justify-between gap-3 p-4">
+          <p className="text-xs text-ink-500">
+            Já pagou? A liberação acontece pelo webhook do Mercado Pago — às vezes leva alguns segundos.
+          </p>
+          <button onClick={() => void verificarPagamento()} disabled={verificando} className="qb-btn-ghost disabled:opacity-50">
+            {verificando ? 'Verificando…' : 'Verificar pagamento'}
+          </button>
         </div>
       ) : null}
 
