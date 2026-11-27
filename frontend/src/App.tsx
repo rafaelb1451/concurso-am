@@ -81,16 +81,47 @@ export default function App() {
       .finally(() => setChecandoSessao(false))
   }, [])
 
-  // O login aberto por cima do site vira uma entrada no histórico: o botão
-  // "voltar" do navegador fecha o login e retorna ao site (em vez de sair da página).
+  // Abas e páginas públicas viram entradas no histórico: o "voltar" do navegador
+  // percorre o que o usuário abriu e, na primeira entrada, volta à página inicial
+  // (em vez de sair do site).
   useEffect(() => {
-    function aoVoltarHistorico() {
+    function aoVoltarHistorico(evento: PopStateEvent) {
+      const estado = evento.state as { t?: string; a?: Aba; p?: PaginaPublica } | null
+      if (estado?.t === 'aba' && estado.a) {
+        setAba(estado.a)
+        setMostrarAuth(false)
+        setIntentAuth(null)
+        return
+      }
+      if (estado?.t === 'pub' && estado.p) {
+        setPaginaPublica(estado.p)
+        setMostrarAuth(false)
+        setIntentAuth(null)
+        return
+      }
+      if (estado?.t === 'auth') {
+        if (!usuario) setMostrarAuth(true)
+        return
+      }
+      // entrada inicial (sem estado): volta ao início, sem sair do site
       setMostrarAuth(false)
       setIntentAuth(null)
+      if (usuario) setAba('treino')
+      else setPaginaPublica('inicio')
     }
     window.addEventListener('popstate', aoVoltarHistorico)
     return () => window.removeEventListener('popstate', aoVoltarHistorico)
-  }, [])
+  }, [usuario])
+
+  function trocarAba(nova: Aba) {
+    setAba(nova)
+    window.history.pushState({ t: 'aba', a: nova }, '')
+  }
+
+  function trocarPaginaPublica(pagina: PaginaPublica) {
+    setPaginaPublica(pagina)
+    window.history.pushState({ t: 'pub', p: pagina }, '')
+  }
 
   function onAutenticado(auth: AuthData) {
     // ponto único: vale para login por e-mail e por Google
@@ -98,10 +129,11 @@ export default function App() {
     setUsuario(auth.usuario)
     setMostrarAuth(false)
     setMaisAberto(false)
-    if (intentAuth === 'planos') {
-      setAba('planos')
-      setIntentAuth(null)
-    }
+    // a entrada de login vira a entrada inicial do app (sem deixar histórico "morto")
+    const destino: Aba = intentAuth === 'planos' ? 'planos' : 'treino'
+    setAba(destino)
+    window.history.replaceState({ t: 'aba', a: destino }, '')
+    setIntentAuth(null)
   }
 
   async function sair() {
@@ -207,7 +239,7 @@ export default function App() {
   function simularCertame(id: string) {
     setConcurso(id)
     setBanca('TODAS')
-    setAba('simulado')
+    trocarAba('simulado')
   }
 
   function estudarCertame(id: string, extra?: { materia?: string; assunto?: string }) {
@@ -216,7 +248,7 @@ export default function App() {
     setMateria(extra?.materia ?? '')
     setAssunto(extra?.assunto ?? '')
     resetSessao()
-    setAba('treino')
+    trocarAba('treino')
   }
 
   const materias = useMemo(() => [...new Set(topico.map((t) => t.materia))].sort(), [topico])
@@ -314,7 +346,7 @@ export default function App() {
 
   function abrirAuth(intent?: 'planos') {
     setIntentAuth(intent === 'planos' ? 'planos' : null)
-    window.history.pushState({ auth: true }, '')
+    window.history.pushState({ t: 'auth' }, '')
     setMostrarAuth(true)
   }
 
@@ -332,16 +364,16 @@ export default function App() {
       <div className="flex min-h-dvh flex-col bg-canvas">
         <SiteHeader
           atual={paginaPublica}
-          onNavegar={setPaginaPublica}
+          onNavegar={trocarPaginaPublica}
           onEntrar={abrirAuth}
           onCriarConta={abrirAuth}
         />
         <main id="conteudo" className="flex-1">
           {paginaPublica === 'inicio' ? (
-            <Landing onNavegar={setPaginaPublica} onCriarConta={abrirAuth} />
+            <Landing onNavegar={trocarPaginaPublica} onCriarConta={abrirAuth} />
           ) : null}
           {paginaPublica === 'pratica' ? (
-            <PraticaGratis onNavegar={setPaginaPublica} onCriarConta={abrirAuth} />
+            <PraticaGratis onNavegar={trocarPaginaPublica} onCriarConta={abrirAuth} />
           ) : null}
           {paginaPublica === 'planos' ? (
             <div className="mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 sm:py-12">
@@ -368,7 +400,7 @@ export default function App() {
         usuario={usuario}
         desempenho={desempenho}
         aba={aba}
-        onAba={setAba}
+        onAba={trocarAba}
         onSair={() => void sair()}
       />
 
@@ -494,7 +526,7 @@ export default function App() {
 
       <MobileTabBar
         aba={aba}
-        onAba={setAba}
+        onAba={trocarAba}
         onMais={() => setMaisAberto((valor) => !valor)}
         maisAberto={maisAberto}
       />
@@ -504,7 +536,7 @@ export default function App() {
         onClose={() => setMaisAberto(false)}
         usuario={usuario}
         aba={aba}
-        onAba={setAba}
+        onAba={trocarAba}
         onSair={() => void sair()}
       />
       <div className="pb-20 md:pb-0">
