@@ -10,7 +10,7 @@ import {
 /**
  * Planos e assinatura.
  *
- * O pagamento acontece na página hospedada do Asaas: aqui só montamos o checkout e
+ * O pagamento acontece na página hospedada do Mercado Pago: aqui só montamos o checkout e
  * redirecionamos. Nenhum dado de cartão passa por esta tela.
  */
 export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boolean; onAssinar?: () => void } = {}) {
@@ -225,7 +225,7 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
             Dados para o pagamento — {planoEscolhido.nome}
           </h3>
           <p className="mt-1 text-xs text-ink-500">
-            O Asaas pede esses dados para emitir a cobrança. O cartão é digitado na página segura
+            O Mercado Pago pede esses dados para emitir a cobrança. O cartão é digitado na página segura
             dele — nada passa por aqui.
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
