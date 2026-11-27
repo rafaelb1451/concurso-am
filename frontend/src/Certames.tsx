@@ -49,11 +49,13 @@ export default function Certames({
   carregandoConcursos = false,
   concursosIndisponiveis = false,
   onEstudar,
+  onSimular,
 }: {
   concursos: Concurso[]
   carregandoConcursos?: boolean
   concursosIndisponiveis?: boolean
   onEstudar: (concurso: string, extra?: { materia?: string; assunto?: string }) => void
+  onSimular?: (concurso: string) => void
 }) {
   const [contagens, setContagens] = useState<Record<string, number>>({})
   const [selecionado, setSelecionado] = useState<string | null>(null)
@@ -275,9 +277,16 @@ export default function Certames({
                       : ` · ${quantidade} ${quantidade === 1 ? 'material' : 'materiais'} de estudo`}
                 </p>
               </div>
-              <button onClick={() => onEstudar(selecionado)} className="qb-btn">
-                Estudar este certame
-              </button>
+              <div className="flex flex-wrap gap-2">
+                <button onClick={() => onEstudar(selecionado)} className="qb-btn">
+                  Estudar este certame
+                </button>
+                {onSimular ? (
+                  <button onClick={() => onSimular(selecionado)} className="qb-btn-ghost px-4 py-2.5">
+                    Fazer simulado
+                  </button>
+                ) : null}
+              </div>
             </div>
           </div>
 

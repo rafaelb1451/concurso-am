@@ -158,5 +158,185 @@
     "resumo": "Como organizar o estudo para a banca ACCESS: prioridades do edital, uso dos materiais e das questões.",
     "conteudo": "**O que a banca cobra.** A ACCESS trabalha com questões de múltipla escolha (4 alternativas) e gosta de **situação-problema**: um caso concreto e a pergunta sobre a consequência jurídica (penalidade, registro, ART, competência). Não basta decorar; é preciso aplicar a norma ao caso.\n\n**Ordem de prioridade sugerida.** 1) Lei 5.194/1966 (exercício, registro, penalidades); 2) Lei 6.496/1977 (ART); 3) Resoluções 1.121/2019 (registro de PJ), 1.137/2023 (ART/acervos) e 1.090/2017 (cancelamento); 4) Regimento do CREA-AM (sessões, quórum, competências); 5) Lei 4.950-A/1966 e Lei 6.839/1980; 6) demais resoluções do edital.\n\n**Método.** Leia o resumo do material, responda as questões do assunto e volte ao texto legal apenas nos artigos que errou. Use o rascunho da plataforma para anotar o raciocínio (ele fica salvo só no seu aparelho).\n\n**Pegadinhas comuns.** Trocar 'advertência reservada' por 'censura pública'; confundir prazo de convocação ordinária (7 dias) com extraordinária (5 dias); achar que o registro é nacional (é preciso visto no CREA da região); confundir ART (define responsável técnico) com alvará ou licença.\n\n**Checklist do dia da prova.** Leia o enunciado até o fim; sublinhe 'EXCETO', 'INCORRETA' e 'NÃO'; elimine alternativas com absolutos ('sempre', 'nunca'); confira a unidade de prazo (dias/meses/anos).",
     "ordem": 16
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-guia",
+    "titulo": "Guia de estudo — PM-AM (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Prioridades do edital, distribuição das questões do banco e método de estudo para a FGV.",
+    "conteudo": "**Peso das matérias no nosso banco.** Noções de Informática (95), Língua Portuguesa (95), Raciocínio Lógico-Matemático (94), Legislação Institucional (90), Direito Constitucional (80), História do Amazonas (73), Geografia do Amazonas (72).\n\n**Banca FGV.** Cobra interpretação, aplicação e casos; alternativas com pegadinhas de detalhe. Treine leitura de enunciado e eliminação de alternativas absolutas.\n\n**Ordem sugerida.** 1) Português e RLM (base); 2) Informática; 3) Constitucional; 4) Legislação Institucional; 5) História e Geografia do Amazonas.\n\n**Método.** Resumo do material → questões do assunto → revisão só dos erros. Use o rascunho e o simulado por certame.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-legislacao",
+    "titulo": "Legislação Institucional (PM-AM) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Estatuto dos militares estaduais, hierarquia e disciplina, ética e organização da PM.",
+    "conteudo": "**Estatuto dos militares.** Define situação jurídica, deveres, direitos e prerrogativas dos militares estaduais; ingresso, carreira, promoções, licenças e reserva.\n\n**Hierarquia e disciplina.** Pilares da instituição militar: obediência, subordinação, respeito à ordem legal. As transgressões disciplinares e as sanções correspondentes são apuradas em processo regular.\n\n**Ética militar.** Probidade, lealdade, sigilo, respeito ao cidadão e aos direitos humanos; uso proporcional da força.\n\n**Organização.** Estrutura da PM-AM, comando, unidades, atribuições de policiamento ostensivo e preservação da ordem pública (art. 144, CF).\n\n**Dica.** Confira no edital o estatuto e o código de ética vigentes no Amazonas; o resumo é um mapa de estudo, não substitui a lei.",
+    "ordem": 2
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios fundamentais, direitos e garantias, organização do Estado e segurança pública.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político. Objetivos: construir sociedade livre, justa e solidária; erradicar a pobreza; reduzir desigualdades; promover o bem de todos.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, liberdade de expressão, inviolabilidade de domicílio, sigilo de comunicações, habeas corpus, habeas data, mandado de segurança, ação popular. Direitos fundamentais não são absolutos.\n\n**Organização do Estado.** União, Estados, DF e Municípios; competências (arts. 21 a 24); intervenção; repartição de receitas. Segurança pública é dever do Estado, direito e responsabilidade de todos (art. 144).\n\n**Segurança pública (art. 144).** Órgãos: Polícia Federal, Polícia Rodoviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares, Polícias Penais. Polícia Civil: funções de polícia judiciária e apuração de infrações penais, exceto militares.\n\n**Remédios constitucionais.** Habeas corpus (liberdade de locomoção), habeas data (informações), mandado de segurança (direito líquido e certo), mandado de injunção, ação popular.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Leitura e interpretação, coesão, classes de palavras, concordância, regência, pontuação e crase.",
+    "conteudo": "**Interpretação.** O comando da questão manda: leia o enunciado e volte ao texto para localizar a evidência. Cuidado com extrapolação (o texto não disse) e com paráfrase que altera o sentido.\n\n**Coesão e referenciação.** Pronomes e expressões retomam termos anteriores (anáfora) ou anunciam o que vem (catáfora). Substituições e conectivos (mas, porém, portanto, embora) mudam o sentido — é o ponto mais cobrado.\n\n**Classes e emprego.** Verbo (tempos/modos), substantivo, adjetivo, advérbio, preposição e conjunção. Observe o valor semântico dos conectivos: concessão, causa, consequência, oposição, conclusão.\n\n**Concordância e regência.** Sujeito composto, partícula 'se', verbos impessoais (haver/existir), expressões partitivas. Regência de verbos como assistir, aspirar, visar, obedecer, preferir.\n\n**Pontuação e crase.** Vírgula não separa sujeito de predicado; isola aposto, vocativo e orações deslocadas. Crase: preposição + artigo (à), diante de palavra feminina; teste com 'ao'.",
+    "ordem": 4
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Porcentagem, razão e proporção, regra de três, conjuntos, lógica proposicional, combinatória e probabilidade.",
+    "conteudo": "**Porcentagem e variações.** Aumentos e descontos sucessivos não se somam: multiplique os fatores (1+i). Aumento de 20% e desconto de 20% não voltam ao valor original.\n\n**Razão, proporção e regra de três.** Monte a proporção com as mesmas unidades; grandezas inversamente proporcionais invertem a razão. Divisão proporcional é tema frequente.\n\n**Conjuntos.** Use diagramas de Venn: interseção no centro; 'somente A' = A − (A∩B). Fórmula: n(A∪B) = n(A) + n(B) − n(A∩B).\n\n**Lógica proposicional.** Tabela-verdade, negação (não), conjunção (e), disjunção (ou), condicional (se...então) e bicondicional. A negação de 'todo A é B' é 'existe A que não é B'.\n\n**Análise combinatória e probabilidade.** Arranjo (ordem importa), combinação (ordem não importa), permutação com repetição. Probabilidade = casos favoráveis / casos possíveis; eventos independentes multiplicam.",
+    "ordem": 5
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, pacote Office, internet, segurança da informação, redes e nuvem.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, extensões, atalhos (Ctrl+C/V/X/Z), lixeira, área de transferência, painel de controle e contas de usuário.\n\n**Office.** Word (formatação, estilos, mala direta), Excel (fórmulas, referências absolutas/relativas, funções SE, SOMA, MÉDIA, PROCV, gráficos), PowerPoint (layouts, transições, animações).\n\n**Internet e navegadores.** HTTP/HTTPS, URL, cookies, cache, favoritos, downloads, abas. Diferença entre navegador e mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, autenticação em dois fatores, backup. HTTPS indica conexão criptografada, não garante que o site é confiável.\n\n**Redes e nuvem.** IP, DNS, LAN/WAN, Wi-Fi, roteador, armazenamento em nuvem e sincronização.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-historia",
+    "titulo": "História do Amazonas — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Formação territorial, ciclo da borracha, Zona Franca de Manaus e política local.",
+    "conteudo": "**Formação territorial.** Ocupação portuguesa, fortificações, missões religiosas, criação da capitania e da província do Amazonas (1850).\n\n**Ciclo da borracha.** Auge entre o final do século XIX e início do XX; seringais, imigração nordestina, Manaus como capital da borracha (Teatro Amazonas). Crise com a concorrência asiática.\n\n**Zona Franca de Manaus.** Criada em 1967 (Decreto-Lei 288), com incentivos fiscais, polo industrial e desenvolvimento regional; debates sobre custo-benefício e sustentabilidade.\n\n**Política e sociedade.** Movimentos sociais, questão indígena, conflitos agrários, criação de municípios e a economia atual (indústria, comércio, serviços, agropecuária).",
+    "ordem": 7
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-geografia",
+    "titulo": "Geografia do Amazonas — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Relevo, clima, hidrografia, vegetação, população e economia do Estado.",
+    "conteudo": "**Relevo e solo.** Predomínio de planícies e terras baixas; planalto residual ao norte; solos geralmente pobres e ácidos, com exceções de terra preta.\n\n**Clima e vegetação.** Clima equatorial quente e úmido, com chuvas o ano todo; floresta ombrófila densa (Amazônia) e formações de campina/campinarana.\n\n**Hidrografia.** Bacia amazônica: rio Amazonas e afluentes (Solimões, Negro, Madeira, Purus, Juruá). Encontro das águas; regimes de cheia e vazante; navegabilidade.\n\n**População e economia.** Concentração em Manaus e no eixo Manaus–Itacoatiara–Parintins; população ribeirinha e indígena; economia industrial (ZFM), comércio, serviços, pesca e agropecuária.\n\n**Questões ambientais.** Desmatamento, queimadas, garimpo ilegal, unidades de conservação e terras indígenas; políticas de desenvolvimento sustentável.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-guia",
+    "titulo": "Guia de estudo — PC-AM (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Prioridades do edital, distribuição das questões do banco e método de estudo para a FGV.",
+    "conteudo": "**Peso das matérias no nosso banco.** Direito Penal e Processual Penal (97), Língua Portuguesa (96), Direito Administrativo (90), Noções de Administração (90), Noções de Contabilidade (90), Informática (89), RLM (88), Direito Constitucional (87).\n\n**Banca FGV.** Casos concretos, interpretação de lei e detalhes de prazos/competências. Treine leitura de enunciado e eliminação de alternativas absolutas.\n\n**Ordem sugerida.** 1) Português e RLM; 2) Direito Constitucional; 3) Direito Administrativo; 4) Penal e Processual Penal; 5) Administração e Contabilidade; 6) Informática.\n\n**Método.** Resumo do material → questões do assunto → revisão só dos erros. Use o rascunho e o simulado por certame.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-legislacao",
+    "titulo": "Legislação Institucional (PC-AM) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lei Orgânica da Polícia Civil, carreira, atribuições e ética profissional.",
+    "conteudo": "**Lei Orgânica.** Organiza a Polícia Civil do Amazonas: natureza, competências (polícia judiciária, apuração de infrações penais, exceto militares), estrutura e cargos.\n\n**Carreira e prerrogativas.** Ingresso por concurso público, regime jurídico, deveres e direitos; delegado, investigador, escrivão e demais carreiras.\n\n**Ética e conduta.** Sigilo profissional, respeito aos direitos fundamentais, uso proporcional da força, integridade e responsabilidade funcional.\n\n**Relação com a Constituição.** Art. 144, § 4º: às polícias civis incumbem as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.\n\n**Dica.** Confira no edital a lei orgânica e o estatuto vigentes no Amazonas; o resumo é um mapa de estudo, não substitui a lei.",
+    "ordem": 2
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-penal",
+    "titulo": "Direito Penal e Processual Penal — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, crimes em espécie, leis penais especiais e noções de processo penal.",
+    "conteudo": "**Princípios e aplicação da lei.** Legalidade, anterioridade, irretroatividade (salvo benefício), insignificância, culpabilidade. Tempo e lugar do crime; lei penal no espaço.\n\n**Crimes em espécie.** Contra a pessoa (homicídio, lesão, ameaça), contra o patrimônio (furto, roubo, extorsão, estelionato, receptação), contra a administração pública (peculato, corrupção, concussão, prevaricação).\n\n**Leis especiais.** Lei de Drogas (11.343/2006), Estatuto do Desarmamento (10.826/2003), abuso de autoridade (13.869/2019), organização criminosa (12.850/2013), violência doméstica (11.340/2006).\n\n**Inquérito policial.** Natureza administrativa, inquisitivo, dispensável, sigiloso e escrito; prazos; indiciamento; arquivamento. Não há contraditório pleno no inquérito.\n\n**Prisões e medidas cautelares.** Prisão em flagrante, preventiva e temporária; requisitos; audiência de custódia; medidas cautelares diversas da prisão. Ação penal: pública incondicionada, condicionada e privada.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos administrativos, poderes, licitações, improbidade e servidores.",
+    "conteudo": "**Princípios.** Legalidade, impessoalidade, moralidade, publicidade e eficiência (art. 37, CF) + razoabilidade, proporcionalidade, motivação, autotutela e continuidade do serviço público.\n\n**Atos administrativos.** Elementos: competência, finalidade, forma, motivo e objeto. Atributos: presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade. Extinção por revogação (mérito) e anulação (ilegalidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia e vinculado. Abuso de poder: excesso (além da competência) e desvio de finalidade.\n\n**Licitações (Lei 14.133/2021).** Princípios, modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo), dispensa e inexigibilidade, fases do procedimento.\n\n**Improbidade (Lei 8.429/1992) e servidores.** Atos de improbidade (enriquecimento ilícito, dano ao erário, violação de princípios), sanções; regime disciplinar e responsabilidades do servidor.",
+    "ordem": 4
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios fundamentais, direitos e garantias, organização do Estado e segurança pública.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político. Objetivos: construir sociedade livre, justa e solidária; erradicar a pobreza; reduzir desigualdades; promover o bem de todos.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, liberdade de expressão, inviolabilidade de domicílio, sigilo de comunicações, habeas corpus, habeas data, mandado de segurança, ação popular. Direitos fundamentais não são absolutos.\n\n**Organização do Estado.** União, Estados, DF e Municípios; competências (arts. 21 a 24); intervenção; repartição de receitas. Segurança pública é dever do Estado, direito e responsabilidade de todos (art. 144).\n\n**Segurança pública (art. 144).** Órgãos: Polícia Federal, Polícia Rodoviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares, Polícias Penais. Polícia Civil: funções de polícia judiciária e apuração de infrações penais, exceto militares.\n\n**Remédios constitucionais.** Habeas corpus (liberdade de locomoção), habeas data (informações), mandado de segurança (direito líquido e certo), mandado de injunção, ação popular.",
+    "ordem": 5
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Leitura e interpretação, coesão, classes de palavras, concordância, regência, pontuação e crase.",
+    "conteudo": "**Interpretação.** O comando da questão manda: leia o enunciado e volte ao texto para localizar a evidência. Cuidado com extrapolação (o texto não disse) e com paráfrase que altera o sentido.\n\n**Coesão e referenciação.** Pronomes e expressões retomam termos anteriores (anáfora) ou anunciam o que vem (catáfora). Substituições e conectivos (mas, porém, portanto, embora) mudam o sentido — é o ponto mais cobrado.\n\n**Classes e emprego.** Verbo (tempos/modos), substantivo, adjetivo, advérbio, preposição e conjunção. Observe o valor semântico dos conectivos: concessão, causa, consequência, oposição, conclusão.\n\n**Concordância e regência.** Sujeito composto, partícula 'se', verbos impessoais (haver/existir), expressões partitivas. Regência de verbos como assistir, aspirar, visar, obedecer, preferir.\n\n**Pontuação e crase.** Vírgula não separa sujeito de predicado; isola aposto, vocativo e orações deslocadas. Crase: preposição + artigo (à), diante de palavra feminina; teste com 'ao'.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Porcentagem, razão e proporção, regra de três, conjuntos, lógica proposicional, combinatória e probabilidade.",
+    "conteudo": "**Porcentagem e variações.** Aumentos e descontos sucessivos não se somam: multiplique os fatores (1+i). Aumento de 20% e desconto de 20% não voltam ao valor original.\n\n**Razão, proporção e regra de três.** Monte a proporção com as mesmas unidades; grandezas inversamente proporcionais invertem a razão. Divisão proporcional é tema frequente.\n\n**Conjuntos.** Use diagramas de Venn: interseção no centro; 'somente A' = A − (A∩B). Fórmula: n(A∪B) = n(A) + n(B) − n(A∩B).\n\n**Lógica proposicional.** Tabela-verdade, negação (não), conjunção (e), disjunção (ou), condicional (se...então) e bicondicional. A negação de 'todo A é B' é 'existe A que não é B'.\n\n**Análise combinatória e probabilidade.** Arranjo (ordem importa), combinação (ordem não importa), permutação com repetição. Probabilidade = casos favoráveis / casos possíveis; eventos independentes multiplicam.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, pacote Office, internet, segurança da informação, redes e nuvem.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, extensões, atalhos (Ctrl+C/V/X/Z), lixeira, área de transferência, painel de controle e contas de usuário.\n\n**Office.** Word (formatação, estilos, mala direta), Excel (fórmulas, referências absolutas/relativas, funções SE, SOMA, MÉDIA, PROCV, gráficos), PowerPoint (layouts, transições, animações).\n\n**Internet e navegadores.** HTTP/HTTPS, URL, cookies, cache, favoritos, downloads, abas. Diferença entre navegador e mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, autenticação em dois fatores, backup. HTTPS indica conexão criptografada, não garante que o site é confiável.\n\n**Redes e nuvem.** IP, DNS, LAN/WAN, Wi-Fi, roteador, armazenamento em nuvem e sincronização.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-administracao",
+    "titulo": "Noções de Administração — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções administrativas, estruturas, motivação, liderança e gestão pública.",
+    "conteudo": "**Funções administrativas (Fayol).** Planejamento, organização, direção e controle (PODC). Planejamento estratégico, tático e operacional.\n\n**Estruturas.** Linear, funcional e matricial; centralização x descentralização; departamentalização; amplitude de controle; organograma.\n\n**Escolas e teorias.** Administração científica (Taylor), clássica (Fayol), burocrática (Weber), relações humanas (Mayo), comportamental, sistêmica e contingencial.\n\n**Motivação e liderança.** Hierarquia de Maslow, fatores de Herzberg (higiênicos e motivacionais), teoria X e Y. Liderança autocrática, democrática e liberal; competências do líder.\n\n**Gestão pública.** Princípios da administração pública, planejamento governamental, indicadores, accountability, governança e transparência.",
+    "ordem": 9
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-contabilidade",
+    "titulo": "Noções de Contabilidade — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Patrimônio, contas, escrituração, demonstrações e análise.",
+    "conteudo": "**Patrimônio.** Ativo (bens e direitos), passivo (obrigações) e patrimônio líquido (PL = A − P). Situação líquida positiva, negativa ou nula.\n\n**Contas e lançamentos.** Método das partidas dobradas: todo débito tem crédito de igual valor. Natureza das contas: ativo (devedora), passivo e PL (credoras), receitas (credoras), despesas (devedoras).\n\n**Escrituração.** Livro diário, razão, balancete de verificação. Regime de competência x regime de caixa.\n\n**Demonstrações.** Balanço patrimonial, DRE, DFC, DMPL, notas explicativas. Estrutura do ativo e passivo (circulante e não circulante).\n\n**Análise.** Índices de liquidez, endividamento e rentabilidade; capital de giro; análise vertical e horizontal.",
+    "ordem": 10
   }
 ]

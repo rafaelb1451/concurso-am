@@ -173,6 +173,13 @@ export default function App() {
   }
 
   /** Atalho da aba Certames: foca o certame e, se houver, matéria/assunto do material. */
+  /** Atalho da aba Certames: monta o simulado já com o certame escolhido. */
+  function simularCertame(id: string) {
+    setConcurso(id)
+    setBanca('TODAS')
+    setAba('simulado')
+  }
+
   function estudarCertame(id: string, extra?: { materia?: string; assunto?: string }) {
     setConcurso(id)
     setBanca('TODAS')
@@ -415,6 +422,7 @@ export default function App() {
             carregandoConcursos={carregandoFiltros}
             concursosIndisponiveis={concursosIndisponiveis}
             onEstudar={estudarCertame}
+            onSimular={simularCertame}
           />
         ) : null}
         {aba === 'planos' ? <Planos /> : null}
