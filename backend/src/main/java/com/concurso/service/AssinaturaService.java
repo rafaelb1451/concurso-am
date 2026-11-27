@@ -186,7 +186,13 @@ public class AssinaturaService {
                 Instant base = assinatura.getPeriodoFim() != null ? assinatura.getPeriodoFim() : Instant.now();
                 assinatura.setCarenciaFim(base.plus(DIAS_CARENCIA, ChronoUnit.DAYS));
             }
-            case "SUBSCRIPTION_DELETED", "PAYMENT_REFUNDED", "SUBSCRIPTION_INACTIVATED" -> {
+            case "PAYMENT_REFUNDED" -> {
+                // estorno: corta o acesso na hora (nao espera o fim do periodo)
+                assinatura.setStatus(StatusAssinatura.EXPIRADA);
+                assinatura.setCancelaNoFim(true);
+                assinatura.setPeriodoFim(Instant.now());
+            }
+            case "SUBSCRIPTION_DELETED", "SUBSCRIPTION_INACTIVATED" -> {
                 assinatura.setStatus(StatusAssinatura.CANCELADA);
                 assinatura.setCancelaNoFim(true);
             }

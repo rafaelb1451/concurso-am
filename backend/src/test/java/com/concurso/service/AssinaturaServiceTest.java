@@ -164,6 +164,23 @@ class AssinaturaServiceTest {
         assertThat(gateway.cancelamentoPedido).isTrue();
     }
 
+
+    @Test
+    @DisplayName("estorno revoga o acesso na hora")
+    void estornoRevogaAcesso() {
+        Assinatura assinatura = assinaturaAtiva();
+        gateway.eventId = "evt-ref";
+        when(eventos.findByGatewayAndGatewayEventId("fake", "evt-ref")).thenReturn(Optional.empty());
+        when(assinaturas.findByGatewayAndGatewaySubscriptionId("fake", "sub_1"))
+                .thenReturn(Optional.of(assinatura));
+        gateway.tipo = "PAYMENT_REFUNDED";
+        gateway.pago = false;
+
+        service.processarWebhook("ok", "{}");
+
+        assertThat(assinatura.getStatus()).isEqualTo(StatusAssinatura.EXPIRADA);
+        assertThat(assinatura.liberaPro()).isFalse();
+    }
     @Test
     @DisplayName("assinatura pendente nao libera PRO")
     void pendenteNaoLibera() {
