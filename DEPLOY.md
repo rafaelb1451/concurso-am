@@ -1,138 +1,189 @@
 # Deploy do QB Concurso
 
-Stack: **1 container de aplicação** (Spring Boot servindo o SPA buildado) + **Caddy** como porta de
-entrada com HTTPS automático. O acesso ao app é protegido pelo login do próprio sistema. O banco H2 vive em volume Docker.
+Stack: **PostgreSQL 16** + **aplicação Spring Boot** (serve a API e o SPA buildado) + **Caddy**
+como única porta de entrada (TLS automático, HTTP/3, cabeçalhos de segurança).
 
 ```
-internet ──443──> Caddy (TLS + basic auth + headers) ──8080──> app (Spring + React) ──> volume /dados
+internet ──80/443──> Caddy ──8080──> app (Spring + React) ──5432──> db (PostgreSQL)
+                                        └──> volume /dados (chave do tutor)
 ```
 
-O container da aplicação **não publica porta**: só o Caddy a alcança, pela rede interna do Compose.
+O `app` e o `db` **não publicam porta**: só o Caddy alcança a aplicação, pela rede interna do
+Compose. Não existe basic auth no Caddy — o login é o do próprio sistema.
 
 ---
 
-## 1. Na máquina Oracle (VM Ampere, Ubuntu 22.04/24.04)
+## 1. Primeiro deploy (VM nova)
+
+Requisitos: Ubuntu 22.04/24.04 com Docker; Security List da OCI liberando 80 e 443.
 
 ```bash
-# Docker
-sudo apt update && sudo apt install -y docker.io docker-compose-v2 git
-sudo usermod -aG docker $USER   # saia e entre de novo na sessão
-
-# firewall: só 22, 80 e 443 (o Security List da OCI também precisa liberar 80/443)
-sudo ufw allow 22,80,443/tcp
-sudo ufw enable
+# na VM, como root (ou com sudo)
+DOMINIO=qbconcurso.com.br \
+POSTGRES_PASSWORD="$(openssl rand -base64 24)" \
+MP_ACCESS_TOKEN="APP_USR-..." \
+MP_WEBHOOK_SECRET="..." \
+SMTP_USERNAME="contato@qbconcurso.com.br" \
+SMTP_PASSWORD="..." \
+SMTP_FROM="contato@qbconcurso.com.br" \
+GOOGLE_CLIENT_ID="...apps.googleusercontent.com" \
+DEEPSEEK_API_KEY="sk-..." \
+./scripts/deploy-fresh.sh
 ```
 
-## 2. Código e configuração
+O script:
 
-```bash
-git clone https://github.com/rafaelb1451/concurso-am.git
-cd concurso-am
+1. instala Docker e clona o repositório em `/root/concurso-am`;
+2. **se já existir `.env`, preserva** (só regrava com `FORCE_ENV=1`);
+3. exige `DOMINIO`, `POSTGRES_PASSWORD` e `MP_ACCESS_TOKEN`;
+4. valida `SMTP_USERNAME` sem `SMTP_PASSWORD` (aborta);
+5. grava o `.env` com `chmod 600`;
+6. roda `docker compose up -d --build`.
 
-cp .env.example .env
-nano .env
-```
-
-No `.env`:
-
-- **`DOMINIO`** — se não tiver domínio, use o IP da VM nesta forma:
-  `qb.203.0.113.10.sslip.io` (o `sslip.io` resolve para o IP e o Caddy emite certificado válido).
-- **`CONCURSO_APP_URL`** — URL pública completa, por exemplo `https://SEU-DOMINIO`.
-
-## 3. Subir
-
-```bash
-docker compose config          # confira a configuração resolvida
-docker compose up -d --build
-docker compose logs -f app     # acompanhe o primeiro boot
-```
-
-O Postgres sobe primeiro (o app espera o `pg_isready` responder). O Caddy só começa a aceitar
-tráfego depois que o `HEALTHCHECK` da aplicação passa.
-
-No primeiro boot o app **cria o schema no Postgres** e carrega **1.000+ questões** do seed
-consolidado. Espere estas linhas:
-
-```
-HHH000412: Hibernate ORM core version ...
-Seed: 1004 questoes carregadas de seed-completo.json.
-```
-
-### 3.1. Banco de dados (PostgreSQL + Flyway)
-
-O schema é versionado por migration (`backend/src/main/resources/db/migration/V1__schema_inicial.sql`),
-gerada a partir do schema validado em PostgreSQL 16. No primeiro boot:
-
-1. o **Flyway** cria a tabela de histórico e aplica a V1;
-2. o **Hibernate** apenas **valida** as entidades contra o schema (`ddl-auto=validate`);
-3. o **seed** carrega as 1.004 questões (só com a tabela vazia).
-
-Confirme no log:
+No primeiro boot, espere no log:
 
 ```
 Successfully applied 1 migration to schema "public"
 Seed: 1004 questoes carregadas de seed-completo.json.
 ```
 
-> **Dados antigos**: não há migração do H2. A decisão foi descartar o histórico (existia um único
-> usuário) e subir o banco novo a partir do seed. O volume antigo pode ser removido.
+---
 
-Para validar o banco sem subir a aplicação:
+## 2. Atualizações (dia a dia)
 
-```bash
-docker compose exec db psql -U qb -d qb -c "SELECT COUNT(*) FROM questions;"     # 1004
-docker compose exec db psql -U qb -d qb -c "SELECT version, success FROM flyway_schema_history;"
-```
-
-## 4. Verificar
+**Use sempre o `deploy.sh`.** Ele foi feito para não repetir o incidente em que um redeploy
+apagou `MP_ACCESS_TOKEN`/`SMTP_PASSWORD` e derrubou pagamento e cadastro.
 
 ```bash
-curl https://SEU-DOMINIO/api/publico/materias
-docker compose ps          # db, app e caddy devem estar "healthy"
+cd /root/concurso-am
+./scripts/deploy.sh
 ```
 
-Abra `https://SEU-DOMINIO` no navegador: o Caddy pede usuário e senha, e aí entra o app.
+O que ele faz, em ordem:
+
+| Etapa | Garantia |
+|---|---|
+| Pré-checagem do `.env` | aborta se `DOMINIO`, `POSTGRES_PASSWORD` ou `MP_ACCESS_TOKEN` estiverem vazios |
+| Avisos | `MP_WEBHOOK_SECRET` vazio, `SMTP_PASSWORD` ausente, `CONCURSO_APP_URL` não-https |
+| Backup do banco | `scripts/backup-postgres.sh` antes de trocar a imagem |
+| Rollback | guarda a imagem atual como `qb-concurso:rollback` |
+| Build | compila **antes** de recriar: o app antigo continua atendendo |
+| Healthcheck | espera `healthy` por até 120 s |
+| Falha | mostra os logs e volta a imagem anterior automaticamente |
+
+> **Nunca** use `docker compose restart` para mudança de `.env`: `restart` não recarrega
+> variáveis. Use `docker compose up -d --force-recreate app`.
 
 ---
 
-## Operação
+## 3. Variáveis obrigatórias
 
-| Ação | Comando |
+Confira sem expor segredo:
+
+```bash
+awk -F= '/^(DOMINIO|POSTGRES_PASSWORD|MP_ACCESS_TOKEN|MP_WEBHOOK_SECRET|SMTP_USERNAME|SMTP_PASSWORD|CONCURSO_APP_URL)=/{printf "%-20s %s\n",$1,(length($2)>0?"preenchido":"VAZIO")}' .env
+```
+
+| Variável | Sem ela |
 |---|---|
-| Logs da aplicação | `docker compose logs -f app` |
-| Logs de acesso/erro do proxy | `docker compose logs -f caddy` |
-| Reiniciar | `docker compose restart app` |
-| Atualizar código | `git pull && docker compose up -d --build` |
-| Backup do banco (app parado) | `docker compose stop app && docker run --rm -v concurso-am_dados:/dados -v $PWD:/bkp alpine tar czf /bkp/dados.tgz -C /dados . && docker compose start app` |
-| Restaurar | inverso do backup, com o app parado |
+| `DOMINIO` | Caddy não emite certificado |
+| `POSTGRES_PASSWORD` | app não conecta no banco (502 em tudo) |
+| `MP_ACCESS_TOKEN` | checkout desabilitado: **ninguém compra** |
+| `MP_WEBHOOK_SECRET` | webhook recusado: pagamento aprovado **não libera o PRO** |
+| `SMTP_PASSWORD` (com `SMTP_USERNAME`) | cadastro falha no envio do e-mail (503) |
+| `CONCURSO_APP_URL` (https) | Mercado Pago recusa `back_urls` |
 
-O nome do volume (`concurso-am_dados`) vem do diretório do clone. Confira com
-`docker volume ls` antes do backup. Pare o app durante a cópia para o H2 não estar no meio de uma
-escrita.
+Valores com `$`, `#` ou espaço precisam de aspas simples no `.env`. Senhas de
+`openssl rand -base64 24` não têm `$` e são seguras para o Compose.
 
-**Recuperar o banco do zero**: o conteúdo é reproduzível a partir dos lotes do repositório —
-apague o volume (`docker compose down -v`) e suba de novo; o seed recarrega tudo.
+---
 
-## Segurança aplicada
+## 4. Verificação pós-deploy
+
+```bash
+docker compose ps                                  # db, app e caddy "healthy"
+curl -fsS https://qbconcurso.com.br/api/publico/materias >/dev/null && echo API-OK
+curl -fsS https://qbconcurso.com.br/robots.txt | head -3
+curl -fsS https://qbconcurso.com.br/sitemap.xml | grep -c "<loc>"
+docker compose logs --tail=60 app | grep -iE "smtp|mercado|started"
+```
+
+Fluxo funcional mínimo:
+
+1. criar uma conta (não pode retornar 502);
+2. entrar e abrir **Planos** (o botão de assinatura precisa estar habilitado);
+3. iniciar checkout e confirmar que a página do Mercado Pago abre;
+4. após pagar, o webhook precisa aparecer no log como `PROCESSADO` e o plano virar PRO.
+
+---
+
+## 5. Rollback
+
+```bash
+cd /root/concurso-am
+docker tag qb-concurso:rollback qb-concurso:latest
+docker compose up -d app
+docker compose logs --tail=80 app
+```
+
+Rollback de código sem imagem anterior:
+
+```bash
+git log --oneline -5
+git checkout <commit-bom>
+docker compose up -d --build
+```
+
+---
+
+## 6. Banco de dados
+
+Schema versionado por Flyway (`backend/src/main/resources/db/migration/`), com
+`ddl-auto=validate` no perfil de produção. O seed só roda com a tabela vazia.
+
+```bash
+docker compose exec db psql -U qb -d qb -c "SELECT COUNT(*) FROM questions;"
+docker compose exec db psql -U qb -d qb -c "SELECT version, success FROM flyway_schema_history;"
+
+./scripts/backup-postgres.sh          # dump em backups/
+docker compose exec -T db pg_restore  # ver cabeçalho do script para restaurar
+```
+
+Não troque `POSTGRES_PASSWORD` em um volume existente: o Postgres mantém a senha antiga e o
+app passa a receber `password authentication failed` (o container entra em crash loop e o
+Caddy responde 502 em tudo). Se precisar trocar, faça via `ALTER USER` dentro do banco.
+
+---
+
+## 7. Troubleshooting
+
+| Sintoma | Causa provável | Ação |
+|---|---|---|
+| **502 em todas as rotas** | app unhealthy / crash loop / banco fora | `docker compose ps`, `docker compose logs --tail=100 app`, `docker compose logs db`; se for pós-deploy, rollback |
+| **Cadastro retorna 502/503** | SMTP sem senha ou credencial inválida | conferir `SMTP_USERNAME`/`SMTP_PASSWORD`; log mostra `Falha ao enviar e-mail por SMTP` |
+| **"Pagamento indisponível"** | `MP_ACCESS_TOKEN` vazio | preencher e `docker compose up -d --force-recreate app` |
+| **Checkout abre mas não libera PRO** | `MP_WEBHOOK_SECRET` errado/ausente | conferir log `Webhook do Mercado Pago`; reconfigurar a assinatura secreta no painel do MP |
+| **Página quebrada ao cancelar pagamento** | `back_urls` antigo (`/assinatura/cancelado` → 404) | atualizar para um commit com `/?assinatura=cancelado` |
+| **Site lento/OOM** | VM pequena para build + JVM | `free -m`, `docker stats`; limitar `JAVA_TOOL_OPTIONS` ou fazer build fora da VM |
+
+---
+
+## 8. Segurança aplicada
 
 | Item | Como |
 |---|---|
-| Porta de entrada | basic auth no Caddy (bcrypt) |
-| HTTPS | certificado automático do Caddy |
+| Porta de entrada | Caddy com TLS automático (sem basic auth) |
 | Backend exposto? | **não** — sem `ports:` no serviço `app` |
-| Chave da DeepSeek | variável de ambiente; nunca na imagem nem no repo |
-| Cabeçalhos | CSP, HSTS, `nosniff`, `Referrer-Policy`, `X-Frame-Options` |
-| Limite de custo | `/api/chat` limitado a 20 chamadas/min e 20 mensagens por requisição |
-| Contas | senha PBKDF2, bloqueio após 5 tentativas, tokens SHA-256; sessão guarda só o hash |
-| Comunicação | SMTP do e-mail profissional (UOL); links com validade de 2 horas — pausada enquanto `SMTP_HOST`/`SMTP_USERNAME` estiverem vazios (conta ativa sem verificação) |
-| LGPD | exportação JSON e exclusão permanente dos dados pelo usuário |
-| Container | usuário não-root, root FS read-only, `cap_drop: ALL` |
-| Dados | volume Docker, fora da imagem |
+| Segredos | `.env` com `chmod 600`, nunca na imagem nem no repositório |
+| Containers | usuário não-root, root FS read-only, `cap_drop: ALL`, `no-new-privileges` |
+| Cabeçalhos | CSP, HSTS, `nosniff`, `Referrer-Policy`, `X-Frame-Options`, `Permissions-Policy` |
+| Webhook | HMAC `x-signature` obrigatório (fail closed) |
+| Contas | PBKDF2, bloqueio após 5 tentativas, token de sessão hasheado |
+| LGPD | exportação JSON e exclusão permanente pelo usuário |
 
-## Limitações conhecidas
+## 9. Limitações conhecidas
 
-- **H2 em arquivo**: adequado ao volume atual; o sistema já separa dados por usuário. Quando o
-  crescimento exigir mais concorrência, migrar para PostgreSQL (o `pom.xml` já traz o driver).
-- **`ddl-auto: update`**: sem migração versionada. Como o banco é reproduzível pelos lotes, o risco
-  é baixo — mas não é o ideal para evolução de schema.
-- **Sem backup automático**: agende o backup acima no cron se quiser garantia.
+- Build (Maven + npm) roda **na própria VM**: em instância de 1 GB pode falhar por memória.
+  Nesse caso, faça o build em outra máquina e publique a imagem em um registry.
+- Sem CI/CD: o deploy é `git pull` + `docker compose build` na VM.
+- Backup é manual (ou agendado no cron); não há PITR.
