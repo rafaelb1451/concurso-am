@@ -1,6 +1,10 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  mercadopago:
+    access-token: ${MP_ACCESS_TOKEN:}
+    webhook-token: ${MP_WEBHOOK_TOKEN:}
+    base-url: ${MP_BASE_URL:https://api.mercadopago.com}
   email:
     remetente: ${SMTP_FROM:}
   app:

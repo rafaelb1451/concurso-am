@@ -55,9 +55,9 @@ treino\tools\apache-maven-3.9.16\bin\mvn.cmd -s treino\tools\settings.xml -f con
 | `VITE_GOOGLE_CLIENT_ID` | frontend (`.env.local`) | renderiza o botão do Google; sem ela o botão não aparece |
 | `RESEND_API_KEY` / `RESEND_FROM_EMAIL` | backend | e-mail transacional (verificação, reset, troca de e-mail) |
 | `CONCURSO_APP_URL` | backend | URL pública (links de e-mail e callbacks do checkout; precisa ser https) |
-| `ASAAS_API_KEY` / `ASAAS_CHAVE_ARQUIVO` | backend | chave do Asaas (dev: `backend/segredos/asaas.key`) |
-| `ASAAS_BASE_URL` | backend | sandbox `https://api-sandbox.asaas.com/v3` ou produção `https://api.asaas.com/v3` |
-| `ASAAS_WEBHOOK_TOKEN` | backend | token do webhook; sem ele o webhook recusa toda requisição |
+| `MP_ACCESS_TOKEN` | backend | Access Token do Mercado Pago (Suas integrações → Credenciais) |
+| `MP_WEBHOOK_TOKEN` | backend | token do webhook (vai em `?token=` na URL); sem ele o webhook recusa tudo |
+| `MP_BASE_URL` | backend | padrão `https://api.mercadopago.com` |
 | `POSTGRES_*`, `DB_POOL_SIZE`, `DDL_AUTO`, `FLYWAY_ENABLED` | compose | banco de produção |
 
 `frontend/.env.example` é versionado; `frontend/.env.local` **não**.
@@ -180,36 +180,33 @@ Erro do provedor externo **nunca** volta para o cliente (vai para o log).
   FGV: texto-base curto, 5 alternativas, distratores plausíveis, pegadinha de absolutismo.
 - **Procedência sempre visível** (`PROVA` vs `AUTORAL`).
 - Questões de prova real devem vir de caderno oficial, com banca/ano/órgão atribuídos.
-- **Gateway de pagamento escolhido: Asaas** (checkout hospedado, webhook com token). **Principal
-  limitação descoberta: assinatura recorrente no Asaas só aceita cartão de crédito** — Pix/boleto
-  ficam para cobrança avulsa (plano anual pago de uma vez).
+- **Gateway de pagamento escolhido: Mercado Pago** (checkout hospedado via `preapproval`,
+  webhook com token). Pix e cartão na mesma assinatura recorrente. O Asaas ficou como
+  implementação alternativa (`AsaasGateway`), mas o bean ativo é o `MercadoPagoGateway`.
 - Planos previstos: **FREE** (limite diário) e **PRO** (ilimitado), mensal/anual.
 - Contas de usuário: Cookie/JWT — decisão tomada foi **token Bearer em localStorage** (simples para
   SPA mesma origem). Se houver app mobile, reavaliar.
 
 ## Pagamento e assinatura (Fase 2)
 
-Gateway: **Asaas**, checkout hospedado (não guardamos cartão). Descobertas da API em
-`docs/integracao-asaas.md` — resumo do que morde:
+Gateway ativo: **Mercado Pago**, checkout hospedado por `preapproval` (não guardamos cartão).
 
-- **Assinatura recorrente no Asaas só aceita cartão de crédito** (`RECURRENT` + `CREDIT_CARD`).
-  Pix/boleto exigem chave Pix/habilitação e são cobrança avulsa.
-- O `callback` do checkout precisa ser **HTTPS público** (localhost é recusado).
-- `customerData` inline exige nome, e-mail, CPF, **`phone`**, endereço, número, bairro e CEP.
-- A URL de pagamento volta no campo **`link`**.
-- Webhook: o Asaas manda o token no header **`asaas-access-token`**.
-
-Fluxo: `POST /api/assinatura/checkout` cria a sessão hospedada e a assinatura nasce **PENDENTE**
-(não libera). Só o **webhook** muda o estado: `PAYMENT_CONFIRMED`/`PAYMENT_RECEIVED` → `ATIVA` com
-período de 1 mês/1 ano; `PAYMENT_OVERDUE` → `EM_ATRASO` com carência de 5 dias;
-`SUBSCRIPTION_DELETED`/`PAYMENT_REFUNDED` → `CANCELADA` (acesso até o fim do período pago).
-Idempotência por `(gateway, gateway_event_id)` único + consulta prévia.
+- `POST /api/assinatura/checkout` cria o `preapproval` (mensal: 1 mês; anual: 12 meses) e devolve
+  o `init_point`. A assinatura nasce **PENDENTE**.
+- Só o **webhook** muda o estado:
+  `subscription_preapproval` com status `authorized` → `ATIVA`; `cancelled` → `CANCELADA`;
+  `subscription_authorized_payment` com `processed` → `ATIVA`;
+  `payment` `approved` → `ATIVA`; `refunded`/`charged_back` → `CANCELADA`;
+  `cancelled` → `CANCELADA`; demais ficam sem efeito de acesso.
+- Idempotência por `(gateway, gateway_event_id)` único + consulta prévia.
+- Webhook: `POST /api/webhooks/mercadopago?token=<MP_WEBHOOK_TOKEN>` (rota pública).
+- Cancelamento: `PUT /preapproval/{id}` com `status=cancelled`.
 
 Endpoints: `GET /api/planos` (público) · `GET /api/assinatura` · `GET /api/assinatura/uso`
-· `POST /api/assinatura/checkout` · `POST /api/assinatura/cancelar` · `POST /api/webhooks/asaas`.
+· `POST /api/assinatura/checkout` · `POST /api/assinatura/cancelar` · `POST /api/webhooks/mercadopago`.
 
-Config: `ASAAS_API_KEY` (ou `backend/segredos/asaas.key`), `ASAAS_BASE_URL`,
-`ASAAS_WEBHOOK_TOKEN`, `CONCURSO_APP_URL` (https, para os callbacks).
+Config: `MP_ACCESS_TOKEN`, `MP_WEBHOOK_TOKEN`, `MP_BASE_URL` (opcional), `CONCURSO_APP_URL`
+(https, usado no `back_url` do checkout).
 
 Smoke test: `python tools/teste-pagamento.py` (precisa do backend no ar com o token do webhook).
 

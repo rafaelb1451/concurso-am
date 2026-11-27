@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -109,6 +110,15 @@ public class AssinaturaController {
     @PostMapping("/webhooks/asaas")
     public Map<String, Object> webhook(
             @RequestHeader(value = "asaas-access-token", required = false) String token,
+            @RequestBody String corpo) {
+        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
+        return Map.of("ok", true, "resultado", resultado.name());
+    }
+
+    /** Webhook do Mercado Pago; o token vem na query string configurada no painel. */
+    @PostMapping("/webhooks/mercadopago")
+    public Map<String, Object> webhookMercadoPago(
+            @RequestParam(value = "token", required = false) String token,
             @RequestBody String corpo) {
         AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
         return Map.of("ok", true, "resultado", resultado.name());
