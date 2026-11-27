@@ -189,15 +189,12 @@ Erro do provedor externo **nunca** volta para o cliente (vai para o log).
 
 ## Pagamento e assinatura (Fase 2)
 
-Gateway ativo: **Mercado Pago**, checkout hospedado por `preapproval` (não guardamos cartão).
+Gateway ativo: **Mercado Pago**, Checkout Pro (pagamento único de 1 mês ou 12 meses, Pix ou cartão).
+Sem renovação automática — o preapproval do MP só aceita cartão e travava no fluxo de pagamento.
 
-- `POST /api/assinatura/checkout` cria o `preapproval` (mensal: 1 mês; anual: 12 meses) e devolve
-  o `init_point`. A assinatura nasce **PENDENTE**.
-- Só o **webhook** muda o estado:
-  `subscription_preapproval` com status `authorized` → `ATIVA`; `cancelled` → `CANCELADA`;
-  `subscription_authorized_payment` com `processed` → `ATIVA`;
-  `payment` `approved` → `ATIVA`; `refunded`/`charged_back` → `CANCELADA`;
-  `cancelled` → `CANCELADA`; demais ficam sem efeito de acesso.
+- `POST /api/assinatura/checkout` cria a preferência e devolve o `init_point`. A assinatura nasce **PENDENTE**.
+- Só o **webhook** muda o estado: `payment` `approved` → `ATIVA` (1 mês ou 1 ano conforme o plano);
+  `refunded`/`charged_back`/`cancelled` → `CANCELADA`; demais sem efeito de acesso.
 - Idempotência por `(gateway, gateway_event_id)` único + consulta prévia.
 - Webhook: `POST /api/webhooks/mercadopago?token=<MP_WEBHOOK_TOKEN>` (rota pública).
 - Cancelamento: `PUT /preapproval/{id}` com `status=cancelled`.

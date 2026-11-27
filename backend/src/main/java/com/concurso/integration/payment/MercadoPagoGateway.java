@@ -22,7 +22,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Mercado Pago — assinatura recorrente pelo checkout hospedado ({@code /preapproval}).
+ * Mercado Pago — pagamento pelo Checkout Pro (Pix ou cartão), liberado pelo webhook.
  *
  * <p>O aluno paga na página do Mercado Pago; o acesso só é liberado pelo webhook, nunca pelo
  * retorno do navegador. O webhook chega em {@code /api/webhooks/mercadopago?token=...} e o
@@ -71,55 +71,30 @@ public class MercadoPagoGateway implements PaymentGateway {
             throw new IllegalStateException("Pagamento nao configurado no servidor.");
         }
 
-        boolean anual = "ANUAL".equalsIgnoreCase(dados.ciclo());
-        if (anual) {
-            // plano anual: pagamento unico (Pix ou cartao) no Checkout Pro.
-            // O Mercado Pago nao aceita Pix em cobranca recorrente (preapproval e' cartao).
-            Map<String, Object> item = new LinkedHashMap<>();
-            item.put("title", dados.nomePlano());
-            item.put("quantity", 1);
-            item.put("unit_price", dados.valorCentavos() / 100.0);
-            item.put("currency_id", "BRL");
+        // Checkout Pro nos dois ciclos: aceita Pix e cartao e volta sozinho ao app.
+        // (O preapproval do Mercado Pago so aceita cartao e travava no fluxo de pagamento.)
+        Map<String, Object> item = new LinkedHashMap<>();
+        item.put("title", dados.nomePlano());
+        item.put("quantity", 1);
+        item.put("unit_price", dados.valorCentavos() / 100.0);
+        item.put("currency_id", "BRL");
 
-            Map<String, Object> payer = new LinkedHashMap<>();
-            payer.put("email", dados.cliente().email());
+        Map<String, Object> payer = new LinkedHashMap<>();
+        payer.put("email", dados.cliente().email());
 
-            Map<String, Object> backUrls = new LinkedHashMap<>();
-            backUrls.put("success", dados.urlSucesso());
-            backUrls.put("failure", dados.urlCancelamento());
-            backUrls.put("pending", dados.urlSucesso());
-
-            Map<String, Object> corpo = new LinkedHashMap<>();
-            corpo.put("items", java.util.List.of(item));
-            corpo.put("payer", payer);
-            corpo.put("external_reference", dados.referenciaExterna());
-            corpo.put("back_urls", backUrls);
-            corpo.put("auto_return", "approved");
-
-            JsonNode resposta = chamar("POST", "/checkout/preferences", corpo);
-            String id = texto(resposta, "id");
-            String url = primeiraNaoVazia(texto(resposta, "init_point"), texto(resposta, "sandbox_init_point"));
-            if (id.isBlank() || url.isBlank()) {
-                throw new IllegalStateException("O Mercado Pago nao devolveu o link do checkout.");
-            }
-            return new CheckoutCriado(id, url);
-        }
-
-        Map<String, Object> autoRecurring = new LinkedHashMap<>();
-        autoRecurring.put("frequency", anual ? 12 : 1);
-        autoRecurring.put("frequency_type", "months");
-        autoRecurring.put("transaction_amount", dados.valorCentavos() / 100.0);
-        autoRecurring.put("currency_id", "BRL");
+        Map<String, Object> backUrls = new LinkedHashMap<>();
+        backUrls.put("success", dados.urlSucesso());
+        backUrls.put("failure", dados.urlCancelamento());
+        backUrls.put("pending", dados.urlSucesso());
 
         Map<String, Object> corpo = new LinkedHashMap<>();
-        corpo.put("reason", "QB Concurso — " + dados.nomePlano());
+        corpo.put("items", java.util.List.of(item));
+        corpo.put("payer", payer);
         corpo.put("external_reference", dados.referenciaExterna());
-        corpo.put("payer_email", dados.cliente().email());
-        corpo.put("back_url", dados.urlSucesso());
-        corpo.put("status", "pending");
-        corpo.put("auto_recurring", autoRecurring);
+        corpo.put("back_urls", backUrls);
+        corpo.put("auto_return", "approved");
 
-        JsonNode resposta = chamar("POST", "/preapproval", corpo);
+        JsonNode resposta = chamar("POST", "/checkout/preferences", corpo);
         String id = texto(resposta, "id");
         String url = primeiraNaoVazia(texto(resposta, "init_point"), texto(resposta, "sandbox_init_point"));
         if (id.isBlank() || url.isBlank()) {
@@ -130,17 +105,8 @@ public class MercadoPagoGateway implements PaymentGateway {
 
     @Override
     public void cancelarAssinatura(String gatewaySubscriptionId) {
-        if (!configurado() || gatewaySubscriptionId == null || gatewaySubscriptionId.isBlank()) {
-            return;
-        }
-        try {
-            Map<String, Object> corpo = new LinkedHashMap<>();
-            corpo.put("status", "cancelled");
-            chamar("PUT", "/preapproval/" + gatewaySubscriptionId, corpo);
-        } catch (RuntimeException e) {
-            // cancelar do nosso lado e' o que importa; o gateway pode recusar se ja' estiver cancelada
-            log.warn("Mercado Pago recusou cancelar a assinatura {}: {}", gatewaySubscriptionId, e.getMessage());
-        }
+        // Checkout Pro e' pagamento unico: nao existe renovacao no gateway para cancelar.
+        log.info("Pagamento unico (Checkout Pro); nada a cancelar no Mercado Pago.");
     }
 
     // ---------------------------------------------------------------- webhook

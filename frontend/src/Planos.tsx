@@ -195,7 +195,7 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
                 disabled={anonimo ? false : !configurado}
                 className="qb-btn mt-4 w-full disabled:opacity-50"
               >
-                {anonimo ? 'Criar conta para assinar' : configurado ? (plano!.ciclo === 'ANUAL' ? 'Assinar com Pix ou cartão' : 'Assinar com cartão') : 'Pagamento indisponível'}
+                {anonimo ? 'Criar conta para assinar' : configurado ? 'Assinar com Pix ou cartão' : 'Pagamento indisponível'}
               </button>
               {!configurado ? (
                 <p className="mt-2 text-[11px] text-ink-400">
@@ -212,9 +212,8 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
         <div className="qb-card p-5">
           <h3 className="text-sm font-bold text-ink-900">Assinar {planoEscolhido.nome}</h3>
           <p className="mt-1 text-xs text-ink-500">
-            {planoEscolhido.ciclo === 'ANUAL'
-              ? 'Pagamento único do plano anual — Pix ou cartão na página segura do Mercado Pago. Sem renovação automática.'
-              : 'Assinatura mensal recorrente no cartão, na página segura do Mercado Pago. Cancele quando quiser.'}
+            Pagamento único do plano {planoEscolhido.nome} — Pix ou cartão na página segura do
+            Mercado Pago. O acesso é liberado assim que o pagamento é confirmado, sem renovação automática.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             <button onClick={() => void assinar()} disabled={enviando} className="qb-btn disabled:opacity-50">
