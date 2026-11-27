@@ -146,6 +146,25 @@ export interface UsoPlano {
   respondidasHoje: number
 }
 
+export interface AdminUsuario {
+  id: number
+  nome: string
+  email: string
+  admin: boolean
+  criadaEm: string
+  plano: string
+  statusAssinatura: string
+  periodoFim: string | null
+  liberaPro: boolean
+}
+
+export interface AdminAssinatura {
+  plano: string
+  status: string
+  periodoFim: string | null
+  liberaPro: boolean
+}
+
 export interface DadosCheckout {
   plano: string
   /** Opcionais: o Mercado Pago so' precisa do e-mail da conta. */
@@ -194,6 +213,13 @@ export const api = {
   assinatura: () => get<AssinaturaAtual>('/assinatura'),
   usoPlano: () => get<UsoPlano>('/assinatura/uso'),
   iniciarCheckout: (dados: DadosCheckout) => post<{ url: string }>('/assinatura/checkout', dados),
+
+  adminUsuarios: (busca?: string) =>
+    get<AdminUsuario[]>(`/admin/usuarios${busca ? `?q=${encodeURIComponent(busca)}` : ''}`),
+  adminConceder: (email: string, plano: string, dias: number) =>
+    post<AdminAssinatura>('/admin/assinaturas/conceder', { email, plano, dias }),
+  adminRevogar: (email: string) =>
+    post<AdminAssinatura>('/admin/assinaturas/revogar', { email }),
   cancelarAssinatura: () => post<{ ok: boolean }>('/assinatura/cancelar', {}),
 
   cadastro: (nome: string, email: string, senha: string,

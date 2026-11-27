@@ -65,10 +65,10 @@ export default function GoogleBotao({
         theme: 'outline',
         size: 'large',
         text: 'continue_with',
-        shape: 'rectangular',
-        logo_alignment: 'left',
+        shape: 'pill',
+        logo_alignment: 'center',
         locale: 'pt-BR',
-        width: 336,
+        width: 320,
       })
     }
 

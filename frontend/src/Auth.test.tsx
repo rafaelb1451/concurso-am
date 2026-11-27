@@ -19,7 +19,7 @@ describe('Auth', () => {
     }))
     render(<Auth onAutenticado={() => {}} />)
 
-    await user.click(screen.getByRole('button', { name: 'Criar conta' }))
+    await user.click(screen.getByRole('button', { name: 'Criar conta grátis' }))
     await user.type(screen.getByPlaceholderText('Seu nome'), 'Aluno')
     await user.type(screen.getByPlaceholderText('voce@email.com'), 'aluno@qb.local')
     await user.type(screen.getByPlaceholderText(/Mínimo 10 caracteres/), 'Test123456')
