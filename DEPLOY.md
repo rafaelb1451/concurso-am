@@ -1,7 +1,7 @@
 # Deploy do QB Concurso
 
 Stack: **1 container de aplicação** (Spring Boot servindo o SPA buildado) + **Caddy** como porta de
-entrada com HTTPS automático e senha. O banco H2 vive em volume Docker.
+entrada com HTTPS automático. O acesso ao app é protegido pelo login do próprio sistema. O banco H2 vive em volume Docker.
 
 ```
 internet ──443──> Caddy (TLS + basic auth + headers) ──8080──> app (Spring + React) ──> volume /dados
@@ -37,23 +37,6 @@ No `.env`:
 
 - **`DOMINIO`** — se não tiver domínio, use o IP da VM nesta forma:
   `qb.203.0.113.10.sslip.io` (o `sslip.io` resolve para o IP e o Caddy emite certificado válido).
-- **`QB_SENHA_HASH`** — gere com:
-  ```bash
-  docker run --rm caddy:2-alpine caddy hash-password --plaintext 'sua-senha-forte'
-  ```
-  Cole o resultado inteiro (começa com `$2b$`).
-- **`DEEPSEEK_API_KEY`** — a chave atual (rotacione se desconfiar de exposição). É o caminho
-  recomendado no servidor. A chave também pode ser colada na aba Fixação; nesse caso ela é gravada
-  em `/dados/segredos/deepseek.key` (o root do container é read-only). A variável de ambiente tem
-  precedência sobre o arquivo.
-- **`SMTP_HOST` / `SMTP_PORT`** — servidor SMTP do e-mail profissional (UOL):
-  `smtp.uol.com.br` na porta `587` (STARTTLS) ou `465` (SSL).
-- **`SMTP_USERNAME` / `SMTP_PASSWORD`** — credenciais da caixa de e-mail profissional
-  (o usuário normalmente e' o endereço completo).
-- **`SMTP_FROM`** — remetente exibido, por exemplo `contato@qbconcurso.com.br`.
-- **`SMTP_STARTTLS` / `SMTP_SSL`** — `true`/`false` conforme a porta escolhida
-  (587 → STARTTLS `true`; 465 → SSL `true`).
-
 - **`CONCURSO_APP_URL`** — URL pública completa, por exemplo `https://SEU-DOMINIO`.
 
 ## 3. Subir
@@ -104,7 +87,7 @@ docker compose exec db psql -U qb -d qb -c "SELECT version, success FROM flyway_
 ## 4. Verificar
 
 ```bash
-curl -u rafael:SUA-SENHA https://SEU-DOMINIO/api/concursos
+curl https://SEU-DOMINIO/api/publico/materias
 docker compose ps          # db, app e caddy devem estar "healthy"
 ```
 

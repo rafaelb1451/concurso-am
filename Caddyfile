@@ -5,16 +5,12 @@
 
 # QB Concurso — porta de entrada única.
 #
-# HTTPS automático (Let's Encrypt) + senha + cabeçalhos de segurança.
+# HTTPS automático (Let's Encrypt) + cabeçalhos de segurança. O login é feito pelo próprio app.
 # O app roda sem porta publicada: só é alcançável por aqui.
 
 {$DOMINIO} {
 	encode zstd gzip
 
-	# porta de entrada: sem estas credenciais nada passa
-	basic_auth {
-		{$QB_USUARIO} {$QB_SENHA_HASH}
-	}
 
 	header {
 		# impede sniffing de tipo de conteúdo

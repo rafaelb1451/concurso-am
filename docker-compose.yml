@@ -79,8 +79,6 @@ services:
         condition: service_healthy
     environment:
       DOMINIO: ${DOMINIO}
-      QB_USUARIO: ${QB_USUARIO}
-      QB_SENHA_HASH: ${QB_SENHA_HASH}
     ports:
       - "80:80"
       - "443:443"
