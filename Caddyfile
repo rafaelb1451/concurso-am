@@ -16,7 +16,7 @@
 		# impede sniffing de tipo de conteúdo
 		X-Content-Type-Options "nosniff"
 		# não vaza a URL de origem para terceiros
-		Referrer-Policy "no-referrer"
+		Referrer-Policy "strict-origin-when-cross-origin"
 		# não permite ser embutido em iframe de outro site
 		X-Frame-Options "DENY"
 		# desliga APIs de dispositivo que o app não usa
