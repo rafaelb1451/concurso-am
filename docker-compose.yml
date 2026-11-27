@@ -27,7 +27,10 @@ services:
 
   # ---------------------------------------------------------------- aplicacao
   app:
-    build: .
+    build:
+      context: .
+      args:
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID:-}
     image: qb-concurso:latest
     restart: unless-stopped
     depends_on:
