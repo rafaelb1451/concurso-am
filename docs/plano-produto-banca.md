@@ -84,7 +84,7 @@ com fonte oficial e resumo fiel):
 > inventam artigo. Quando o texto integral não estiver disponível, o material traz o resumo e o
 > link oficial, marcado como “consulte a íntegra”.
 
-Questões autorais CREA-AM em `seed-extra.json`, ancoradas nos materiais, com `fundamento`
+Questões autorais CREA-AM em `seed-extra.json` (banca ACCESS, 4 alternativas), ancoradas nos materiais, com `fundamento`
 (artigo/resolução) e `origem: AUTORAL`, `banca: "CREA-AM"`.
 
 ## 5. Segurança (obrigatória)
