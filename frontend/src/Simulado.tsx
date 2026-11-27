@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { PencilLine } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { Clock3, Flag, PencilLine, Timer, Trophy } from 'lucide-react'
 import {
   api,
   type Banca,
@@ -8,6 +8,7 @@ import {
   type Simulado as SimuladoTipo,
 } from './api'
 import Rascunho from './Rascunho'
+import { Card, ErrorBanner, PageHeader, ProgressBar } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
@@ -75,7 +76,7 @@ export default function Simulado({
       setCorrecao(c)
       setEtapa('resultado')
     } catch {
-      setErro('Não foi possível corrigir o simulado.')
+      setErro('Não foi possível corrigir o simulado. Tente novamente.')
     } finally {
       setCarregando(false)
       finalizando.current = false
@@ -107,7 +108,7 @@ export default function Simulado({
       setRascunhoAberto(false)
       setEtapa('prova')
     } catch {
-      setErro('Não foi possível montar o simulado.')
+      setErro('Não foi possível montar o simulado. Verifique os filtros e tente novamente.')
     } finally {
       setCarregando(false)
     }
@@ -121,7 +122,7 @@ export default function Simulado({
   }, [atual?.id])
 
   const respondidas = Object.keys(respostas).length
-  const progresso = simulado ? Math.round((respondidas / simulado.questoes.length) * 100) : 0
+  const progresso = simulado ? Math.round((respondidas / Math.max(1, simulado.questoes.length)) * 100) : 0
   const emRisco = restante > 0 && restante < 300
 
   const porMateria = useMemo(() => {
@@ -144,79 +145,72 @@ export default function Simulado({
         : bancas
 
     return (
-      <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
-        <h2 className="text-base font-bold text-ink-900">Simulado</h2>
-        <p className="mt-1 text-sm text-ink-500">
-          Prova no formato do caderno da banca: distribuição de matérias e tempo de prova. O
-          gabarito aparece só no final.
-        </p>
+      <div className="space-y-5">
+        <PageHeader
+          eyebrow="Modo prova"
+          title="Simulado"
+          description="Prova no formato do caderno da banca: distribuição de matérias e tempo de prova. O gabarito aparece só no final."
+          actions={
+            <span className="qb-chip bg-accent-100 text-accent-800">
+              <Trophy className="h-3.5 w-3.5" aria-hidden="true" />
+              correção comentada
+            </span>
+          }
+        />
 
-        <div className="mt-4 grid gap-3 sm:grid-cols-3">
-          <label className="block">
-            <span className="text-xs font-semibold text-ink-700">Banca</span>
-            <select
-              aria-label="Banca"
-              value={banca}
-              onChange={(e) => setBanca(e.target.value)}
-              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
+        <Card padded>
+          <div className="grid gap-3 sm:grid-cols-3">
+            <Campo rotulo="Banca" valor={banca} onChange={setBanca}>
               <option value="TODAS">Todas as bancas</option>
               {opcoesBanca.map((item) => (
                 <option key={item.banca} value={item.banca}>
                   {item.banca} ({item.questoes})
                 </option>
               ))}
-            </select>
-          </label>
+            </Campo>
 
-          <label className="block">
-            <span className="text-xs font-semibold text-ink-700">Certame</span>
-            <select
-              aria-label="Certame"
-              value={concurso}
-              onChange={(e) => setConcurso(e.target.value)}
-              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
+            <Campo rotulo="Certame" valor={concurso} onChange={setConcurso}>
               <option value="TODOS">Todos os certames</option>
               {opcoesCertame.map((item) => (
                 <option key={item.id} value={item.id}>
                   {item.id} ({item.total})
                 </option>
               ))}
-            </select>
-          </label>
+            </Campo>
 
-          <label className="block">
-            <span className="text-xs font-semibold text-ink-700">Quantidade</span>
-            <select
-              aria-label="Quantidade"
-              value={quantidade}
-              onChange={(e) => setQuantidade(Number(e.target.value))}
-              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
+            <Campo rotulo="Quantidade" valor={String(quantidade)} onChange={(valor) => setQuantidade(Number(valor))}>
               {[20, 30, 40, 50].map((n) => (
-                <option key={n} value={n}>{n} questões</option>
+                <option key={n} value={n}>
+                  {n} questões
+                </option>
               ))}
-            </select>
-          </label>
-        </div>
+            </Campo>
+          </div>
 
-        <p className="mt-3 text-xs text-ink-400">
-          Duração estimada: {duracaoMinutos(quantidade)} minutos · sem consulta · correção com
-          comentários no fim.
-        </p>
+          <div className="mt-4 grid gap-2 sm:grid-cols-3">
+            <Info icone={<Clock3 className="h-4 w-4" aria-hidden="true" />} titulo={`${duracaoMinutos(quantidade)} min`} texto="de prova" />
+            <Info icone={<Timer className="h-4 w-4" aria-hidden="true" />} titulo={`${quantidade} questões`} texto="no caderno" />
+            <Info icone={<Flag className="h-4 w-4" aria-hidden="true" />} titulo="Gabarito no fim" texto="como na banca" />
+          </div>
 
-        {erro ? (
-          <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700">{erro}</p>
-        ) : null}
+          <p className="mt-3 text-xs leading-relaxed text-ink-500">
+            Duração estimada: {duracaoMinutos(quantidade)} minutos · sem consulta · correção com
+            comentários no fim.
+          </p>
 
-        <button
-          onClick={() => void iniciar()}
-          disabled={carregando}
-          className="mt-5 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
-        >
-          {carregando ? 'Montando…' : 'Iniciar simulado'}
-        </button>
+          {erro ? (
+            <ErrorBanner className="mt-4">{erro}</ErrorBanner>
+          ) : null}
+
+          <button
+            type="button"
+            onClick={() => void iniciar()}
+            disabled={carregando}
+            className="qb-btn mt-5 min-h-12 w-full text-sm sm:w-auto sm:px-7"
+          >
+            {carregando ? 'Montando…' : 'Iniciar simulado'}
+          </button>
+        </Card>
       </div>
     )
   }
@@ -225,72 +219,75 @@ export default function Simulado({
   if (etapa === 'resultado' && correcao) {
     return (
       <div className="space-y-4">
-        <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
-          <p className="text-xs font-semibold uppercase tracking-wide text-ink-400">
-            {simulado?.nome}
-          </p>
-          <p className="mt-1 text-3xl font-bold text-ink-900">
+        <Card padded>
+          <h1 className="qb-eyebrow">{simulado?.nome}</h1>
+          <p className="mt-1 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
             {correcao.acertos} / {correcao.total}
           </p>
           <p className="text-sm text-ink-600">
             {correcao.percentual}% de acerto · tempo usado {formatar(tempoGasto)}
           </p>
 
-          <table className="mt-4 w-full text-sm">
-            <tbody>
-              {correcao.porMateria.map((m) => (
-                <tr key={m.materia} className="border-t border-ink-100">
-                  <td className="py-1.5 text-ink-700">{m.materia}</td>
-                  <td className="py-1.5 text-right font-semibold text-ink-900">
-                    {m.acertos}/{m.total}
-                  </td>
-                  <td className="py-1.5 pl-3 text-right text-xs text-ink-500">
-                    {Math.round((m.acertos / m.total) * 100)}%
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-
-          <div className="mt-4 flex gap-2">
-            <button
-              onClick={() => {
-                setEtapa('inicio')
-                setCorrecao(null)
-                setSimulado(null)
-                setRascunhoAberto(false)
-              }}
-              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white"
-            >
-              Novo simulado
-            </button>
+          <div className="mt-4 border-t border-ink-100 pt-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-ink-500">Por matéria</p>
+            <ul className="mt-2 space-y-2.5">
+              {correcao.porMateria.map((m) => {
+                const pct = m.total > 0 ? Math.round((m.acertos / m.total) * 100) : 0
+                return (
+                  <li key={m.materia} className="min-w-0">
+                    <div className="flex items-baseline justify-between gap-3 text-sm">
+                      <span className="min-w-0 break-words text-ink-700">{m.materia}</span>
+                      <span className="shrink-0 font-semibold text-ink-900">
+                        {m.acertos}/{m.total}
+                        <span className="ml-2 text-xs font-medium text-ink-500">{pct}%</span>
+                      </span>
+                    </div>
+                    <ProgressBar value={pct} label={`Acertos em ${m.materia}`} height="h-1.5" className="mt-1" />
+                  </li>
+                )
+              })}
+            </ul>
           </div>
-        </div>
+
+          <button
+            type="button"
+            onClick={() => {
+              setEtapa('inicio')
+              setCorrecao(null)
+              setSimulado(null)
+              setRascunhoAberto(false)
+            }}
+            className="qb-btn mt-5 w-full sm:w-auto sm:px-6"
+          >
+            Novo simulado
+          </button>
+        </Card>
 
         <div className="space-y-3">
           {correcao.itens.map((item, i) => (
             <article
               key={item.questaoId}
-              className={`rounded-[14px] border p-4 ${
+              className={`rounded-[16px] border p-4 ${
                 item.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
               }`}
             >
-              <p className="text-xs font-semibold text-ink-500">
+              <p className="break-words text-xs font-semibold text-ink-600">
                 {i + 1}. {item.materia} · {item.assunto}
               </p>
-              <p className="mt-1 text-sm text-ink-900">
-                {item.acertou ? 'Acertou' : 'Errou'} — gabarito{' '}
-                <strong>{item.gabarito}</strong>
+              <p className="mt-1 break-words text-sm text-ink-900">
+                {item.acertou ? 'Acertou' : 'Errou'} — gabarito <strong>{item.gabarito}</strong>
                 {item.alternativaAluno !== null && item.alternativaAluno >= 0
                   ? ` · você marcou ${LETRAS[item.alternativaAluno]}`
                   : ' · em branco'}
               </p>
               {item.explicacao ? (
-                <p className="mt-2 whitespace-pre-line text-sm text-ink-800">{item.explicacao}</p>
+                <p className="mt-2 whitespace-pre-line break-words text-sm leading-relaxed text-ink-800">
+                  {item.explicacao}
+                </p>
               ) : null}
               {item.fundamento ? (
-                <p className="mt-2 text-xs text-ink-500">
-                  <strong>Fundamento:</strong> {item.fundamento}
+                <p className="mt-2 break-words text-xs leading-relaxed text-ink-600">
+                  <strong className="font-semibold text-ink-800">Fundamento:</strong> {item.fundamento}
                 </p>
               ) : null}
             </article>
@@ -305,73 +302,80 @@ export default function Simulado({
 
   return (
     <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-[14px] border border-ink-200 bg-surface px-4 py-3 shadow-card">
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-ink-400">
-            {simulado.nome}
-          </p>
-          <p className="text-sm font-semibold text-ink-900">
-            Questão {indice + 1} de {simulado.questoes.length} · {respondidas} respondidas
-          </p>
+      <h1 className="sr-only">Simulado em andamento</h1>
+      <Card className="p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
+            <p className="truncate text-[10px] font-semibold uppercase tracking-[0.1em] text-ink-500">
+              {simulado.nome}
+            </p>
+            <p className="text-sm font-semibold text-ink-900">
+              Questão {indice + 1} de {simulado.questoes.length} · {respondidas} respondidas
+            </p>
+          </div>
+          <div className="flex w-full items-center gap-2 sm:w-auto">
+            <span
+              className={`inline-flex min-h-11 flex-1 items-center justify-center rounded-xl px-3 font-mono text-lg font-bold tabular-nums sm:flex-none ${
+                emRisco ? 'bg-accent-100 text-accent-800' : 'bg-ink-50 text-ink-800'
+              }`}
+              role="timer"
+              aria-label="Tempo restante de prova"
+            >
+              {formatar(restante)}
+            </span>
+            <button
+              type="button"
+              onClick={() => void finalizar()}
+              disabled={carregando}
+              className="qb-btn-ghost flex-1 border-brand-200 text-brand-800 sm:flex-none"
+            >
+              {carregando ? 'Corrigindo…' : 'Finalizar'}
+            </button>
+          </div>
         </div>
-        <div className="flex items-center gap-3">
-          <span
-            className={`rounded-xl px-3 py-1.5 font-mono text-lg font-bold ${
-              emRisco ? 'bg-accent-100 text-accent-800' : 'bg-ink-50 text-ink-800'
-            }`}
-          >
-            {formatar(restante)}
-          </span>
-          <button
-            onClick={() => void finalizar()}
-            disabled={carregando}
-            className="rounded-xl border border-ink-200 px-3 py-2 text-sm font-semibold text-ink-700 transition hover:border-brand-300 hover:text-brand-700"
-          >
-            {carregando ? 'Corrigindo…' : 'Finalizar'}
-          </button>
-        </div>
-      </div>
+      </Card>
 
-      <div className="h-1.5 w-full overflow-hidden rounded-full bg-ink-100">
-        <div className="h-full bg-brand-500 transition-all" style={{ width: `${progresso}%` }} />
-      </div>
+      <ProgressBar value={progresso} label="Questões respondidas" height="h-1.5" />
 
-      <div className="rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
+      <Card className="p-4 sm:p-5">
         <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
-          <span className="rounded-full bg-ink-100 px-2.5 py-1 font-semibold text-ink-700">
-            {atual.materia}
-          </span>
-          <span className="rounded-full bg-ink-50 px-2.5 py-1 font-semibold text-ink-600">
-            {atual.assunto}
-          </span>
+          <span className="qb-chip max-w-full truncate bg-ink-100 text-ink-700">{atual.materia}</span>
+          <span className="qb-chip max-w-full truncate bg-ink-50 text-ink-600">{atual.assunto}</span>
           <button
+            type="button"
             onClick={() => setRascunhoAberto(true)}
-            className="ml-auto inline-flex items-center gap-1.5 rounded-lg border border-ink-200 bg-surface px-2.5 py-1.5 font-semibold text-ink-600 transition hover:border-brand-300 hover:text-brand-700"
+            aria-haspopup="dialog"
+            aria-expanded={rascunhoAberto}
+            className="ml-auto inline-flex min-h-11 items-center gap-1.5 rounded-xl border border-ink-200 bg-surface px-3 text-xs font-semibold text-ink-700 transition hover:border-brand-300 hover:text-brand-800"
           >
-            <PencilLine className="h-3.5 w-3.5" />
+            <PencilLine className="h-4 w-4" aria-hidden="true" />
             Rascunho
           </button>
         </div>
 
-        <p className="whitespace-pre-line text-[15px] leading-relaxed text-ink-900">
+        <p className="whitespace-pre-line break-words text-[15px] leading-relaxed text-ink-900">
           {atual.enunciado}
         </p>
 
-        <ul className="mt-4 space-y-2">
+        <ul className="mt-4 space-y-2.5">
           {atual.alternativas.map((texto, i) => {
             const marcada = respostas[atual.id] === i
             return (
               <li key={i}>
                 <button
+                  type="button"
                   onClick={() => setRespostas((r) => ({ ...r, [atual.id]: i }))}
+                  aria-pressed={marcada}
                   className={
                     marcada
-                      ? 'w-full rounded-xl border border-brand-400 bg-brand-50 px-4 py-3 text-left text-sm text-brand-900'
-                      : 'w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-left text-sm transition hover:border-brand-300'
+                      ? 'flex min-h-12 w-full items-start gap-3 rounded-xl border border-brand-400 bg-brand-50 px-3.5 py-3 text-left text-sm text-brand-900'
+                      : 'flex min-h-12 w-full items-start gap-3 rounded-xl border border-ink-200 bg-white px-3.5 py-3 text-left text-sm text-ink-800 transition hover:border-brand-300'
                   }
                 >
-                  <span className="mr-2 font-bold">{LETRAS[i]})</span>
-                  {texto}
+                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white/70 text-[11px] font-bold text-ink-700 ring-1 ring-inset ring-ink-200">
+                    {LETRAS[i]}
+                  </span>
+                  <span className="min-w-0 break-words leading-relaxed">{texto}</span>
                 </button>
               </li>
             )
@@ -384,15 +388,17 @@ export default function Simulado({
           onClose={() => setRascunhoAberto(false)}
         />
 
-        <div className="mt-4 flex items-center justify-between gap-2">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-ink-100 pt-4">
           <button
+            type="button"
             onClick={() => setIndice((i) => Math.max(0, i - 1))}
             disabled={indice === 0}
-            className="rounded-xl border border-ink-200 px-4 py-2 text-sm font-semibold text-ink-700 disabled:opacity-40"
+            className="qb-btn-ghost px-4"
           >
             Anterior
           </button>
           <button
+            type="button"
             onClick={() => {
               setRespostas((r) => {
                 const copia = { ...r }
@@ -400,36 +406,40 @@ export default function Simulado({
                 return copia
               })
             }}
-            className="text-xs text-ink-400 underline"
+            className="inline-flex min-h-11 items-center px-2 text-xs font-medium text-ink-500 underline transition hover:text-ink-800"
           >
             limpar marcação
           </button>
           <button
+            type="button"
             onClick={() => setIndice((i) => Math.min(simulado.questoes.length - 1, i + 1))}
             disabled={indice === simulado.questoes.length - 1}
-            className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
+            className="qb-btn px-4 disabled:opacity-40"
           >
             Próxima
           </button>
         </div>
-      </div>
+      </Card>
 
-      <div className="rounded-[14px] border border-ink-200 bg-surface p-4 shadow-card">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-400">Navegação</p>
-        <div className="flex flex-wrap gap-1.5">
+      <Card className="p-4">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-500">Navegação</p>
+        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Ir para uma questão">
           {simulado.questoes.map((q, i) => {
             const respondida = respostas[q.id] !== undefined
             const ativa = i === indice
             return (
               <button
                 key={q.id}
+                type="button"
                 onClick={() => setIndice(i)}
+                aria-label={`Ir para a questão ${i + 1}${respondida ? ' (respondida)' : ''}`}
+                aria-current={ativa ? 'step' : undefined}
                 className={
                   ativa
-                    ? 'h-8 w-8 rounded-lg bg-brand-700 text-xs font-bold text-white'
+                    ? 'h-11 w-11 rounded-lg bg-brand-700 text-xs font-bold text-white'
                     : respondida
-                      ? 'h-8 w-8 rounded-lg bg-brand-100 text-xs font-bold text-brand-800'
-                      : 'h-8 w-8 rounded-lg bg-ink-50 text-xs font-semibold text-ink-500'
+                      ? 'h-11 w-11 rounded-lg bg-brand-100 text-xs font-bold text-brand-800'
+                      : 'h-11 w-11 rounded-lg bg-ink-50 text-xs font-semibold text-ink-600'
                 }
               >
                 {i + 1}
@@ -438,13 +448,50 @@ export default function Simulado({
           })}
         </div>
         {simulado.avisos.length ? (
-          <p className="mt-3 text-xs text-accent-700">{simulado.avisos.join(' · ')}</p>
+          <p className="mt-3 text-xs leading-relaxed text-accent-800">{simulado.avisos.join(' · ')}</p>
         ) : null}
-      </div>
+      </Card>
 
-      <p className="text-center text-xs text-ink-400">
-        As respostas são registradas ao finalizar. Perguntas por matéria: {porMateria.map(([m, n]) => `${m} ${n}`).join(' · ')}
+      <p className="px-1 text-center text-xs leading-relaxed text-ink-500">
+        As respostas são registradas ao finalizar. Perguntas por matéria:{' '}
+        {porMateria.map(([m, n]) => `${m} ${n}`).join(' · ')}
       </p>
+    </div>
+  )
+}
+
+function Campo({
+  rotulo,
+  valor,
+  onChange,
+  children,
+}: {
+  rotulo: string
+  valor: string
+  onChange: (valor: string) => void
+  children: ReactNode
+}) {
+  const id = `simulado-${rotulo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`
+  return (
+    <div className="min-w-0">
+      <label htmlFor={id} className="qb-label">
+        {rotulo}
+      </label>
+      <select id={id} value={valor} onChange={(e) => onChange(e.target.value)} className="qb-select">
+        {children}
+      </select>
+    </div>
+  )
+}
+
+function Info({ icone, titulo, texto }: { icone: ReactNode; titulo: string; texto: string }) {
+  return (
+    <div className="flex items-center gap-2.5 rounded-xl bg-ink-50 px-3 py-2.5">
+      <span className="text-brand-700">{icone}</span>
+      <div className="min-w-0">
+        <p className="truncate text-[13px] font-bold text-ink-900">{titulo}</p>
+        <p className="text-[11px] text-ink-500">{texto}</p>
+      </div>
     </div>
   )
 }

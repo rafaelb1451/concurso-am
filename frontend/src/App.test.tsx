@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
@@ -198,6 +198,64 @@ describe('App', () => {
 
     await user.click(screen.getByRole('button', { name: 'Restaurar alternativa B' }))
     expect(screen.getByRole('button', { name: 'Eliminar alternativa B' })).toBeInTheDocument()
+  })
+
+  it('mantém a seção atual marcada com aria-current na navegação', async () => {
+    const user = userEvent.setup()
+    rotearApi()
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' })
+
+    const nav = screen.getByRole('navigation', { name: 'Seções do app' })
+    expect(within(nav).getByRole('button', { name: 'Questões' })).toHaveAttribute(
+      'aria-current',
+      'page',
+    )
+
+    await user.click(within(nav).getByRole('button', { name: 'Simulado' }))
+    expect(await screen.findByRole('heading', { name: 'Simulado' })).toBeInTheDocument()
+    expect(within(nav).getByRole('button', { name: 'Simulado' })).toHaveAttribute(
+      'aria-current',
+      'page',
+    )
+    expect(within(nav).getByRole('button', { name: 'Questões' })).not.toHaveAttribute(
+      'aria-current',
+    )
+  })
+
+  it('abre o menu Mais e navega para uma seção secundária', async () => {
+    const user = userEvent.setup()
+    rotearApi()
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' })
+
+    const botaoMais = screen.getByRole('button', { name: 'Mais' })
+    expect(botaoMais).toHaveAttribute('aria-expanded', 'false')
+
+    await user.click(botaoMais)
+    expect(botaoMais).toHaveAttribute('aria-expanded', 'true')
+
+    const menu = await screen.findByRole('dialog', { name: 'Mais seções' })
+    await user.click(within(menu).getByRole('button', { name: /Certames/ }))
+
+    expect(await screen.findByRole('heading', { name: 'Certames' })).toBeInTheDocument()
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+  })
+
+  it('fecha o menu Mais com a tecla Escape', async () => {
+    const user = userEvent.setup()
+    rotearApi()
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' })
+
+    await user.click(screen.getByRole('button', { name: 'Mais' }))
+    expect(await screen.findByRole('dialog', { name: 'Mais seções' })).toBeInTheDocument()
+
+    fireEvent.keyDown(document, { key: 'Escape' })
+    await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument())
   })
 
   it('mostra mensagem amigável quando o servidor está fora', async () => {

@@ -1,4 +1,4 @@
-import { useRef, useState, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 
 interface Marcacao {
   inicio: number
@@ -20,15 +20,13 @@ export default function MarcadorTexto({
   ativo: boolean
 }) {
   const chave = `qb_marcacao:${questaoId}`
-  const [marcacoes, setMarcacoes] = useState<Marcacao[]>(() => {
-    try {
-      const salvo = JSON.parse(localStorage.getItem(chave) ?? '[]')
-      return Array.isArray(salvo) ? salvo : []
-    } catch {
-      return []
-    }
-  })
+  const [marcacoes, setMarcacoes] = useState<Marcacao[]>(() => lerMarcacoes(chave))
   const ref = useRef<HTMLParagraphElement>(null)
+
+  // A mesma instância é reutilizada ao avançar de questão: recarrega as marcações da nova.
+  useEffect(() => {
+    setMarcacoes(lerMarcacoes(chave))
+  }, [chave])
 
   function aoSoltar() {
     if (!ativo) return
@@ -64,8 +62,8 @@ export default function MarcadorTexto({
         ref={ref}
         onMouseUp={aoSoltar}
         onTouchEnd={aoSoltar}
-        className={`whitespace-pre-line text-[15px] leading-relaxed text-ink-900 ${
-          ativo ? 'cursor-text' : ''
+        className={`whitespace-pre-line break-words text-[15px] leading-relaxed text-ink-900 ${
+          ativo ? 'cursor-text select-text' : ''
         }`}
       >
         {renderizar(texto, marcacoes)}
@@ -73,13 +71,30 @@ export default function MarcadorTexto({
       {marcacoes.length > 0 ? (
         <button
           onClick={limpar}
-          className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-brand-700 hover:text-brand-800"
+          className="mt-2 inline-flex min-h-11 items-center gap-1 text-xs font-semibold text-brand-700 hover:text-brand-800"
         >
           Limpar marcações ({marcacoes.length})
         </button>
       ) : null}
     </div>
   )
+}
+
+function lerMarcacoes(chave: string): Marcacao[] {
+  try {
+    const salvo: unknown = JSON.parse(localStorage.getItem(chave) ?? '[]')
+    if (!Array.isArray(salvo)) return []
+    return salvo.filter(
+      (item): item is Marcacao =>
+        typeof item === 'object' &&
+        item !== null &&
+        Number.isInteger((item as Marcacao).inicio) &&
+        Number.isInteger((item as Marcacao).fim) &&
+        (item as Marcacao).fim > (item as Marcacao).inicio,
+    )
+  } catch {
+    return []
+  }
 }
 
 function renderizar(texto: string, marcacoes: Marcacao[]): ReactNode[] {
@@ -102,7 +117,7 @@ function renderizar(texto: string, marcacoes: Marcacao[]): ReactNode[] {
   mescladas.forEach((m, idx) => {
     if (m.inicio > cursor) partes.push(texto.slice(cursor, m.inicio))
     partes.push(
-      <mark key={idx} className="rounded-sm bg-yellow-200 px-0.5 text-ink-900">
+      <mark key={idx} className="rounded-sm bg-accent-200 px-0.5 text-ink-900">
         {texto.slice(m.inicio, m.fim)}
       </mark>,
     )

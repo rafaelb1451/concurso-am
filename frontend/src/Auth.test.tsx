@@ -35,6 +35,15 @@ describe('Auth', () => {
     expect(await screen.findByText(/Confira seu e-mail/)).toBeInTheDocument()
   })
 
+  it('volta ao site pelo botão de voltar em tela cheia', async () => {
+    const user = userEvent.setup()
+    const onVoltar = vi.fn()
+    render(<Auth onAutenticado={() => {}} onVoltar={onVoltar} />)
+
+    await user.click(screen.getByRole('button', { name: 'Voltar ao site' }))
+    expect(onVoltar).toHaveBeenCalledTimes(1)
+  })
+
   it('envia solicitação de recuperação sem revelar se o e-mail existe', async () => {
     const user = userEvent.setup()
     mockFetch(() => jsonResponse({ ok: true }))

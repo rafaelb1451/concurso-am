@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Pause, Play, RotateCcw } from 'lucide-react'
 import { api } from './api'
 
 export type ModoTempo = 'pomodoro' | 'livre'
@@ -83,26 +84,55 @@ export default function PomodoroEstudo({
     setRestante(duracaoSegundos)
   }
 
+  const rotulo =
+    modo === 'pomodoro'
+      ? etapaPomodoro === 'foco'
+        ? 'Pomodoro · foco'
+        : 'Pomodoro · pausa'
+      : 'Sessão cronometrada'
+
   return (
-    <div className="flex flex-wrap items-center justify-between gap-3 rounded-[14px] border border-ink-200 bg-surface px-4 py-3 shadow-card">
-      <div>
-        <p className="text-[10px] font-bold uppercase tracking-wide text-ink-400">
-          {modo === 'pomodoro'
-            ? etapaPomodoro === 'foco'
-              ? 'Pomodoro · foco'
-              : 'Pomodoro · pausa'
-            : 'Sessão cronometrada'}
-        </p>
-        <p className="mt-0.5 font-mono text-lg font-bold text-brand-800">{formatar(restante)}</p>
-      </div>
-      <div className="flex gap-2">
-        <button
-          onClick={() => setPausado((valor) => !valor)}
-          className="qb-btn-ghost px-3 py-2 text-xs"
+    <div className="qb-card flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex items-center gap-3">
+        <span
+          className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${
+            etapaPomodoro === 'pausa' && modo === 'pomodoro'
+              ? 'bg-accent-100 text-accent-800'
+              : 'bg-brand-50 text-brand-700'
+          }`}
         >
+          <span className="h-2.5 w-2.5 rounded-full bg-current" aria-hidden="true" />
+        </span>
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-ink-500">{rotulo}</p>
+          <p
+            className="mt-0.5 font-mono text-xl font-bold tabular-nums text-brand-800"
+            role="timer"
+            aria-label="Tempo restante"
+            aria-live="off"
+          >
+            {formatar(restante)}
+          </p>
+        </div>
+        {pausado ? (
+          <span className="qb-chip bg-accent-100 text-accent-800" role="status">
+            pausado
+          </span>
+        ) : null}
+      </div>
+
+      <div className="grid grid-cols-2 gap-2 sm:flex">
+        <button
+          type="button"
+          onClick={() => setPausado((valor) => !valor)}
+          aria-pressed={pausado}
+          className="qb-btn-ghost px-3 text-xs"
+        >
+          {pausado ? <Play className="h-4 w-4" aria-hidden="true" /> : <Pause className="h-4 w-4" aria-hidden="true" />}
           {pausado ? 'Retomar' : 'Pausar'}
         </button>
-        <button onClick={reiniciar} className="qb-btn-ghost px-3 py-2 text-xs">
+        <button type="button" onClick={reiniciar} className="qb-btn-ghost px-3 text-xs">
+          <RotateCcw className="h-4 w-4" aria-hidden="true" />
           Reiniciar
         </button>
       </div>

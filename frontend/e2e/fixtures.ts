@@ -15,6 +15,86 @@ const USUARIO = {
   temSenha: true,
 }
 
+const PLANOS = [
+  {
+    id: 1,
+    codigo: 'FREE',
+    nome: 'Gratuito',
+    valorCentavos: 0,
+    ciclo: null,
+    limiteDiarioQuestoes: 20,
+    ilimitado: false,
+    pago: false,
+  },
+  {
+    id: 2,
+    codigo: 'PRO_MENSAL',
+    nome: 'PRO Mensal',
+    valorCentavos: 2990,
+    ciclo: 'MENSAL',
+    limiteDiarioQuestoes: 0,
+    ilimitado: true,
+    pago: true,
+  },
+  {
+    id: 3,
+    codigo: 'PRO_ANUAL',
+    nome: 'PRO Anual',
+    valorCentavos: 23990,
+    ciclo: 'ANUAL',
+    limiteDiarioQuestoes: 0,
+    ilimitado: true,
+    pago: true,
+  },
+]
+
+const ADMIN_USUARIOS = [
+  {
+    id: 1,
+    nome: 'Aluno E2E',
+    email: 'e2e@qb.local',
+    admin: true,
+    criadaEm: '2026-01-10T12:00:00Z',
+    plano: 'PRO_MENSAL',
+    statusAssinatura: 'ATIVA',
+    periodoFim: '2026-12-31T00:00:00Z',
+    liberaPro: true,
+  },
+  {
+    id: 2,
+    nome: 'Maria Fernanda de Souza Albuquerque',
+    email: 'maria.fernanda.albuquerque@exemplo.com.br',
+    admin: false,
+    criadaEm: '2026-02-11T12:00:00Z',
+    plano: 'FREE',
+    statusAssinatura: 'SEM_ASSINATURA',
+    periodoFim: null,
+    liberaPro: false,
+  },
+  {
+    id: 3,
+    nome: 'João Batista',
+    email: 'joao.batista@exemplo.com',
+    admin: false,
+    criadaEm: '2026-03-01T12:00:00Z',
+    plano: 'PRO_ANUAL',
+    statusAssinatura: 'ATIVA',
+    periodoFim: '2027-03-01T00:00:00Z',
+    liberaPro: true,
+  },
+  {
+    id: 4,
+    nome: 'Rafael Lima',
+    email: 'rafael.lima@exemplo.com',
+    admin: false,
+    criadaEm: '2026-03-15T12:00:00Z',
+    plano: 'FREE',
+    statusAssinatura: 'CANCELADA',
+    periodoFim: null,
+    liberaPro: false,
+  },
+]
+
 const BANCAS = [
   { banca: 'FGV', questoes: 1004 },
   { banca: 'CEBRASPE', questoes: 220 },
@@ -120,7 +200,7 @@ async function responderJson(route: Route, body: unknown, status = 200) {
 }
 
 /** Autentica o navegador e intercepta todas as chamadas /api/**. */
-export async function instalarApiFake(page: Page) {
+export async function instalarApiFake(page: Page, opcoes: { admin?: boolean } = {}) {
   await page.addInitScript(() => {
     localStorage.setItem('qb_token', 'token-e2e')
   })
@@ -133,7 +213,7 @@ export async function instalarApiFake(page: Page) {
     const metodo = request.method()
 
     if (path === '/api/usuario' && metodo === 'GET') {
-      return responderJson(route, USUARIO)
+      return responderJson(route, { ...USUARIO, admin: opcoes.admin ?? false })
     }
     if (path === '/api/bancas') {
       return responderJson(route, BANCAS)
@@ -238,14 +318,77 @@ export async function instalarApiFake(page: Page) {
       return responderJson(route, { configurado: true, modelo: 'deepseek-chat' })
     }
     if (path === '/api/planos') {
-      return responderJson(route, [])
+      return responderJson(route, PLANOS)
+    }
+    if (path === '/api/assinatura') {
+      return responderJson(route, {
+        status: 'ATIVA',
+        plano: PLANOS[0],
+        periodoFim: '2026-12-31T00:00:00Z',
+        cancelaNoFim: false,
+        carenciaFim: null,
+        liberaPro: false,
+        pagamentoConfigurado: true,
+      })
+    }
+    if (path === '/api/assinatura/checkout' && metodo === 'POST') {
+      return responderJson(route, { url: 'https://www.mercadopago.com.br/checkout/v1/redirect' })
+    }
+    if (path === '/api/assinatura/cancelar' && metodo === 'POST') {
+      return responderJson(route, { ok: true })
+    }
+    if (path === '/api/admin/usuarios') {
+      return responderJson(route, ADMIN_USUARIOS)
+    }
+    if (path === '/api/admin/assinaturas/conceder' && metodo === 'POST') {
+      return responderJson(route, {
+        plano: 'PRO_MENSAL',
+        status: 'ATIVA',
+        periodoFim: '2027-01-31T00:00:00Z',
+        liberaPro: true,
+      })
+    }
+    if (path === '/api/admin/assinaturas/revogar' && metodo === 'POST') {
+      return responderJson(route, {
+        plano: 'FREE',
+        status: 'REVOGADA',
+        periodoFim: null,
+        liberaPro: false,
+      })
+    }
+    if (path === '/api/usuario/dados') {
+      return responderJson(route, { respostas: 120, sessoes: 12, usuario: USUARIO })
+    }
+    if (path === '/api/chat' && metodo === 'POST') {
+      return responderJson(route, { resposta: 'O artigo 5º da Constituição garante a resposta.' })
+    }
+    if (path === '/api/estudo' && metodo === 'POST') {
+      return responderJson(route, { ok: true })
+    }
+    if (path === '/api/publico/materias') {
+      return responderJson(route, [
+        { materia: 'Direito Penal', questoes: 340 },
+        { materia: 'Direito Constitucional', questoes: 260 },
+        { materia: 'Legislação Institucional', questoes: 120 },
+      ])
+    }
+    if (path === '/api/publico/questoes') {
+      return responderJson(route, questoes(10))
+    }
+    if (path === '/api/publico/responder' && metodo === 'POST') {
+      return responderJson(route, {
+        acertou: true,
+        gabarito: 0,
+        explicacao: 'Comentário da prática gratuita no E2E.',
+        fundamento: 'Art. 5º da CF',
+      })
     }
     if (path === '/api/assinatura/uso') {
       return responderJson(route, {
-        plano: { id: 1, codigo: 'PRO_MENSAL', nome: 'PRO', valorCentavos: 2990, ciclo: 'MENSAL', limiteDiarioQuestoes: 0, ilimitado: true, pago: true },
-        limiteDiarioQuestoes: 0,
-        ilimitado: true,
-        respondidasHoje: 0,
+        plano: PLANOS[0],
+        limiteDiarioQuestoes: 20,
+        ilimitado: false,
+        respondidasHoje: 3,
       })
     }
     if (path === '/api/logout') {

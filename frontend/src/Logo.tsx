@@ -1,3 +1,5 @@
+import { useId } from 'react'
+
 /**
  * Marca do QB Concurso — "QB" de *Quebrando a Banca*.
  *
@@ -5,26 +7,33 @@
  * de exame, sem cair no clichê de escudo.
  */
 export default function Logo({ className = 'h-10 w-10' }: { className?: string }) {
+  const id = useId().replace(/[^a-zA-Z0-9_-]/g, '')
+  const idSelo = `qb-selo-${id}`
+  const idFilete = `qb-filete-${id}`
+
   return (
     <svg
       viewBox="0 0 48 48"
+      width="48"
+      height="48"
+      focusable="false"
       className={className}
       role="img"
       aria-label="QB — Quebrando a Banca"
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
-        <linearGradient id="qb-selo" x1="0" y1="0" x2="1" y2="1">
+        <linearGradient id={idSelo} x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#2a4067" />
           <stop offset="1" stopColor="#16243c" />
         </linearGradient>
-        <linearGradient id="qb-filete" x1="0" y1="0" x2="1" y2="0">
+        <linearGradient id={idFilete} x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stopColor="#b98a3f" />
           <stop offset="1" stopColor="#d9bd88" />
         </linearGradient>
       </defs>
 
-      <rect width="48" height="48" rx="13" fill="url(#qb-selo)" />
+      <rect width="48" height="48" rx="13" fill={`url(#${idSelo})`} />
       <rect
         x="4.5"
         y="4.5"
@@ -49,7 +58,7 @@ export default function Logo({ className = 'h-10 w-10' }: { className?: string }
         QB
       </text>
 
-      <rect x="15" y="34" width="18" height="2.4" rx="1.2" fill="url(#qb-filete)" />
+      <rect x="15" y="34" width="18" height="2.4" rx="1.2" fill={`url(#${idFilete})`} />
     </svg>
   )
 }

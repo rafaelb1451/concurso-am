@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { BookOpen, PencilLine, Send, Sparkles } from 'lucide-react'
 import {
   api,
   type Answer,
@@ -7,8 +8,8 @@ import {
   type Question,
   type Topico,
 } from './api'
-import { PencilLine } from 'lucide-react'
 import Rascunho from './Rascunho'
+import { Card, ErrorBanner, PageHeader } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 const SUGESTOES = [
@@ -41,12 +42,16 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
   const fim = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    api.topicos(banca, concurso).then(setTopicos).catch(() => setErro('Servidor indisponível.'))
+    api.topicos(banca, concurso).then(setTopicos).catch(() => setErro('Servidor indisponível. Recarregue e tente de novo.'))
     api.configDeepseek().then((c) => setConfigurado(c.configurado)).catch(() => setConfigurado(false))
   }, [banca, concurso])
 
   useEffect(() => {
-    fim.current?.scrollIntoView({ behavior: 'smooth' })
+    if (mensagens.length === 0 && !pensando) return
+    const reduzir =
+      typeof window !== 'undefined' &&
+      window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches
+    fim.current?.scrollIntoView({ behavior: reduzir ? 'auto' : 'smooth', block: 'nearest' })
   }, [mensagens, pensando])
 
   const materias = useMemo(() => [...new Set(topicos.map((t) => t.materia))].sort(), [topicos])
@@ -124,15 +129,12 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
     setPergunta('')
     setPensando(true)
     try {
-      // O backend aceita no maximo 20 mensagens por requisicao: envia a janela mais recente.
+      // O backend aceita no máximo 20 mensagens por requisição: envia a janela mais recente.
       const r = await api.chat(novas.slice(-20), montarContexto())
       setMensagens([...novas, { role: 'assistant', content: r.resposta }])
     } catch (e) {
       const msg = e instanceof Error ? e.message : 'Falha ao falar com o tutor.'
-      setMensagens([
-        ...novas,
-        { role: 'assistant', content: `Não consegui responder: ${msg}` },
-      ])
+      setMensagens([...novas, { role: 'assistant', content: `Não consegui responder: ${msg}` }])
     } finally {
       setPensando(false)
     }
@@ -150,229 +152,272 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
   }
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
-      {/* ---------------- coluna da questão ---------------- */}
-      <section>
-        <div className="mb-4 rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
-          <h2 className="text-base font-bold text-ink-900">Exercícios de fixação</h2>
-          <p className="mt-1 text-sm text-ink-500">
-            Treine a matéria e peça ajuda ao tutor ao lado, a qualquer momento.
-          </p>
-          <div className="mt-4 flex flex-wrap gap-2">
-            <select
-              value={materia}
-              onChange={(e) => setMateria(e.target.value)}
-              className="min-w-[240px] flex-1 rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
-              <option value="">Todas as matérias</option>
-              {materias.map((m) => (
-                <option key={m} value={m}>
-                  {m}
-                </option>
-              ))}
-            </select>
-            <button
-              onClick={comecar}
-              disabled={carregando}
-              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
-            >
-              {carregando ? 'Carregando…' : fila.length ? 'Nova sequência' : 'Começar fixação'}
-            </button>
-          </div>
-        </div>
+    <div className="space-y-5">
+      <PageHeader
+        eyebrow="Treino focado"
+        title="Fixação"
+        description="Resolva questões da matéria e peça ajuda ao tutor ao lado, a qualquer momento."
+        actions={
+          <span className="qb-chip bg-accent-100 text-accent-800">
+            <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+            tutor de IA
+          </span>
+        }
+      />
 
-        {erro ? (
-          <p className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700">{erro}</p>
-        ) : null}
-
-        {atual ? (
-          <div className="rounded-[14px] border border-ink-200 bg-surface p-5 shadow-card">
-            <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
-              <span className="rounded-full bg-ink-100 px-2.5 py-1 font-semibold text-ink-700">
-                {atual.materia}
-              </span>
-              <span className="rounded-full bg-ink-50 px-2.5 py-1 font-semibold text-ink-600">
-                {atual.assunto}
-              </span>
-              <span
-                className={
-                  atual.origem === 'PROVA'
-                    ? 'rounded-full bg-brand-50 px-2.5 py-1 font-semibold text-brand-700'
-                    : 'rounded-full bg-accent-50 px-2.5 py-1 font-semibold text-accent-700'
-                }
-              >
-                {atual.origem === 'PROVA' ? 'Prova oficial' : 'Autoral'}
-              </span>
-              <button
-                onClick={() => setRascunhoAberto(true)}
-                className="ml-auto inline-flex items-center gap-1.5 rounded-lg border border-ink-200 bg-surface px-2.5 py-1.5 font-semibold text-ink-600 transition hover:border-brand-300 hover:text-brand-700"
-              >
-                <PencilLine className="h-3.5 w-3.5" />
-                Rascunho
-              </button>
-              <span className="text-ink-400">
-                {indice + 1} de {fila.length}
-              </span>
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
+        {/* ---------------- coluna da questão ---------------- */}
+        <section className="min-w-0 space-y-4">
+          <Card padded>
+            <div className="flex items-center gap-2">
+              <BookOpen className="h-4 w-4 text-brand-700" aria-hidden="true" />
+              <h2 className="text-sm font-bold text-ink-900">Exercícios de fixação</h2>
             </div>
-
-            <p className="whitespace-pre-line text-[15px] leading-relaxed text-ink-900">
-              {atual.enunciado}
-            </p>
-
-            <ul className="mt-4 space-y-2">
-              {atual.alternativas.map((texto, i) => {
-                const marcada = escolhida === i
-                const correta = resposta ? resposta.correta === i : false
-                let classe =
-                  'w-full rounded-xl border px-4 py-3 text-left text-sm transition border-ink-200 bg-white hover:border-brand-300'
-                if (resposta) {
-                  if (correta) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-ok-500 bg-ok-50 text-ink-900'
-                  else if (marcada) classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-err-400 bg-err-50 text-ink-900'
-                  else classe = 'w-full rounded-xl border px-4 py-3 text-left text-sm border-ink-100 bg-surface text-ink-400'
-                }
-                return (
-                  <li key={i}>
-                    <button disabled={!!resposta} onClick={() => void responder(i)} className={classe}>
-                      <span className="mr-2 font-bold">{LETRAS[i]})</span>
-                      {texto}
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-
-            <Rascunho
-              questaoId={atual.id}
-              open={rascunhoAberto}
-              onClose={() => setRascunhoAberto(false)}
-            />
-
-            {resposta ? (
-              <div
-                className={`mt-4 rounded-[14px] border p-4 ${
-                  resposta.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
-                }`}
-              >
-                <p className="text-sm font-bold text-ink-900">
-                  {resposta.acertou ? 'Você acertou' : `Você errou — gabarito ${resposta.gabarito}`}
-                </p>
-                <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-ink-800">
-                  {resposta.explicacao ||
-                    (resposta.origem === 'PROVA'
-                      ? 'Questão de prova oficial — sem comentário cadastrado. Peça ao tutor.'
-                      : 'Sem comentário cadastrado.')}
-                </p>
-                {resposta.fundamento ? (
-                  <p className="mt-2 text-xs text-ink-500">
-                    <strong>Fundamento:</strong> {resposta.fundamento}
-                  </p>
-                ) : null}
-                <button
-                  onClick={proxima}
-                  className="mt-3 w-full rounded-xl bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-800"
+            <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-end">
+              <div className="min-w-0 flex-1">
+                <label htmlFor="fixacao-materia" className="qb-label">
+                  Matéria
+                </label>
+                <select
+                  id="fixacao-materia"
+                  value={materia}
+                  onChange={(e) => setMateria(e.target.value)}
+                  className="qb-select"
                 >
-                  Próxima questão
-                </button>
+                  <option value="">Todas as matérias</option>
+                  {materias.map((m) => (
+                    <option key={m} value={m}>
+                      {m}
+                    </option>
+                  ))}
+                </select>
               </div>
-            ) : null}
-          </div>
-        ) : (
-          <div className="rounded-2xl border border-dashed border-ink-200 bg-white p-8 text-center text-sm text-ink-500">
-            Escolha a matéria e clique em <strong>Começar fixação</strong>.
-          </div>
-        )}
-      </section>
+              <button
+                type="button"
+                onClick={comecar}
+                disabled={carregando}
+                className="qb-btn min-h-11 shrink-0 sm:px-5"
+              >
+                {carregando ? 'Carregando…' : fila.length ? 'Nova sequência' : 'Começar fixação'}
+              </button>
+            </div>
+          </Card>
 
-      {/* ---------------- coluna do tutor ---------------- */}
-      <aside className="flex h-[560px] flex-col rounded-[14px] border border-ink-200 bg-surface shadow-card lg:h-[640px]">
-        <div className="border-b border-ink-100 px-4 py-3">
-          <h3 className="text-sm font-bold text-ink-900">Tutor</h3>
-          <p className="text-[11px] text-ink-400">Ele vê a questão que você está resolvendo.</p>
-        </div>
+          {erro ? <ErrorBanner>{erro}</ErrorBanner> : null}
 
-        {configurado === false ? (
-          <div className="flex flex-1 flex-col justify-center gap-3 p-4">
-            <p className="text-sm text-ink-600">
-              Cole a sua chave da DeepSeek. Ela fica gravada no servidor e não vai para o
-              repositório.
-            </p>
-            <input
-              type="password"
-              value={chaveTmp}
-              onChange={(e) => setChaveTmp(e.target.value)}
-              placeholder="sk-..."
-              className="rounded-xl border border-ink-200 px-3 py-2 text-sm"
-            />
-            <button
-              onClick={() => void salvar()}
-              className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800"
-            >
-              Salvar chave
-            </button>
-          </div>
-        ) : (
-          <>
-            <div className="flex-1 space-y-3 overflow-y-auto p-4">
-              {mensagens.length === 0 ? (
-                <div className="space-y-2">
-                  <p className="text-sm text-ink-500">
-                    {atual
-                      ? 'Resolva a questão e pergunte o que quiser sobre ela.'
-                      : 'Comece uma fixação para o tutor conhecer a questão.'}
-                  </p>
-                  {atual
-                    ? SUGESTOES.map((s) => (
-                        <button
-                          key={s}
-                          onClick={() => void perguntar(s)}
-                          className="block w-full rounded-xl border border-ink-200 px-3 py-2 text-left text-xs text-ink-700 transition hover:border-brand-300 hover:text-brand-700"
-                        >
-                          {s}
-                        </button>
-                      ))
-                    : null}
-                </div>
-              ) : null}
-
-              {mensagens.map((m, i) => (
-                <div
-                  key={i}
+          {atual ? (
+            <Card className="p-4 sm:p-5">
+              <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
+                <span className="qb-chip max-w-full truncate bg-ink-100 text-ink-700">{atual.materia}</span>
+                <span className="qb-chip max-w-full truncate bg-ink-50 text-ink-600">{atual.assunto}</span>
+                <span
                   className={
-                    m.role === 'user'
-                      ? 'ml-6 rounded-2xl rounded-br-sm bg-brand-700 px-3 py-2 text-sm text-white'
-                      : 'mr-2 rounded-2xl rounded-bl-sm bg-ink-50 px-3 py-2 text-sm whitespace-pre-line text-ink-800'
+                    atual.origem === 'PROVA'
+                      ? 'qb-chip bg-brand-50 text-brand-700 ring-1 ring-inset ring-brand-200'
+                      : 'qb-chip bg-accent-50 text-accent-800 ring-1 ring-inset ring-accent-200'
                   }
                 >
-                  {m.content}
-                </div>
-              ))}
-              {pensando ? <p className="text-xs text-ink-400">o tutor está pensando…</p> : null}
-              <div ref={fim} />
-            </div>
-
-            <div className="border-t border-ink-100 p-3">
-              <div className="flex gap-2">
-                <input
-                  value={pergunta}
-                  onChange={(e) => setPergunta(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') void perguntar()
-                  }}
-                  placeholder="Pergunte sobre a questão…"
-                  className="flex-1 rounded-xl border border-ink-200 px-3 py-2 text-sm"
-                />
+                  {atual.origem === 'PROVA' ? 'Prova oficial' : 'Autoral'}
+                </span>
                 <button
-                  onClick={() => void perguntar()}
-                  disabled={pensando || !pergunta.trim()}
-                  className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-50"
+                  type="button"
+                  onClick={() => setRascunhoAberto(true)}
+                  aria-haspopup="dialog"
+                  aria-expanded={rascunhoAberto}
+                  className="ml-auto inline-flex min-h-11 items-center gap-1.5 rounded-xl border border-ink-200 bg-surface px-3 text-xs font-semibold text-ink-700 transition hover:border-brand-300 hover:text-brand-800"
                 >
-                  Enviar
+                  <PencilLine className="h-4 w-4" aria-hidden="true" />
+                  Rascunho
                 </button>
+                <span className="text-ink-500">
+                  {indice + 1} de {fila.length}
+                </span>
               </div>
+
+              <p className="whitespace-pre-line break-words text-[15px] leading-relaxed text-ink-900">
+                {atual.enunciado}
+              </p>
+
+              <ul className="mt-4 space-y-2.5">
+                {atual.alternativas.map((texto, i) => {
+                  const marcada = escolhida === i
+                  const correta = resposta ? resposta.correta === i : false
+                  let classe =
+                    'flex min-h-12 w-full items-start gap-2.5 rounded-xl border border-ink-200 bg-white px-3.5 py-3 text-left text-sm text-ink-800 transition hover:border-brand-300'
+                  if (resposta) {
+                    if (correta) {
+                      classe = 'flex min-h-12 w-full items-start gap-2.5 rounded-xl border border-ok-500 bg-ok-50 px-3.5 py-3 text-left text-sm text-ink-900'
+                    } else if (marcada) {
+                      classe = 'flex min-h-12 w-full items-start gap-2.5 rounded-xl border border-err-400 bg-err-50 px-3.5 py-3 text-left text-sm text-ink-900'
+                    } else {
+                      classe = 'flex min-h-12 w-full items-start gap-2.5 rounded-xl border border-ink-100 bg-surface px-3.5 py-3 text-left text-sm text-ink-500'
+                    }
+                  }
+                  return (
+                    <li key={i}>
+                      <button type="button" disabled={Boolean(resposta)} onClick={() => void responder(i)} className={classe}>
+                        <span className="mt-0.5 font-bold">{LETRAS[i]})</span>
+                        <span className="min-w-0 break-words leading-relaxed">{texto}</span>
+                      </button>
+                    </li>
+                  )
+                })}
+              </ul>
+
+              <Rascunho
+                questaoId={atual.id}
+                open={rascunhoAberto}
+                onClose={() => setRascunhoAberto(false)}
+              />
+
+              {resposta ? (
+                <div
+                  role="status"
+                  aria-live="polite"
+                  className={`mt-4 rounded-[16px] border p-4 ${
+                    resposta.acertou ? 'border-ok-200 bg-ok-50' : 'border-err-200 bg-err-50'
+                  }`}
+                >
+                  <p className="text-sm font-bold text-ink-900">
+                    {resposta.acertou ? 'Você acertou' : `Você errou — gabarito ${resposta.gabarito}`}
+                  </p>
+                  <p className="mt-2 whitespace-pre-line break-words text-sm leading-relaxed text-ink-800">
+                    {resposta.explicacao ||
+                      (resposta.origem === 'PROVA'
+                        ? 'Questão de prova oficial — sem comentário cadastrado. Peça ao tutor.'
+                        : 'Sem comentário cadastrado.')}
+                  </p>
+                  {resposta.fundamento ? (
+                    <p className="mt-2 break-words text-xs leading-relaxed text-ink-600">
+                      <strong className="font-semibold text-ink-800">Fundamento:</strong> {resposta.fundamento}
+                    </p>
+                  ) : null}
+                  <button type="button" onClick={proxima} className="qb-btn mt-3 w-full sm:w-auto sm:px-5">
+                    Próxima questão
+                  </button>
+                </div>
+              ) : null}
+            </Card>
+          ) : (
+            <div className="qb-empty">
+              <p className="text-sm font-semibold text-ink-800">
+                Escolha a matéria e clique em <strong>Começar fixação</strong>.
+              </p>
+              <p className="mt-1 text-xs text-ink-500">
+                Você recebe 10 questões e o tutor acompanha cada uma.
+              </p>
             </div>
-          </>
-        )}
-      </aside>
+          )}
+        </section>
+
+        {/* ---------------- coluna do tutor ---------------- */}
+        <aside className="flex h-[520px] min-w-0 flex-col overflow-hidden rounded-[16px] border border-ink-200 bg-surface shadow-card lg:sticky lg:top-28 lg:h-[640px]">
+          <div className="border-b border-ink-100 px-4 py-3">
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-4 w-4 text-accent-700" aria-hidden="true" />
+              <h3 className="text-sm font-bold text-ink-900">Tutor</h3>
+            </div>
+            <p className="mt-0.5 text-[11px] text-ink-500">Ele vê a questão que você está resolvendo.</p>
+          </div>
+
+          {configurado === false ? (
+            <div className="flex flex-1 flex-col justify-center gap-3 p-4">
+              <p className="text-sm leading-relaxed text-ink-600">
+                Cole a sua chave da DeepSeek. Ela fica gravada no servidor e não vai para o
+                repositório.
+              </p>
+              <label htmlFor="tutor-chave" className="sr-only">
+                Chave da DeepSeek
+              </label>
+              <input
+                id="tutor-chave"
+                type="password"
+                value={chaveTmp}
+                onChange={(e) => setChaveTmp(e.target.value)}
+                placeholder="sk-..."
+                autoComplete="off"
+                className="qb-input"
+              />
+              <button type="button" onClick={() => void salvar()} className="qb-btn w-full">
+                Salvar chave
+              </button>
+            </div>
+          ) : (
+            <>
+              <div
+                className="qb-scroll flex-1 space-y-3 overflow-y-auto p-4"
+                role="log"
+                aria-label="Conversa com o tutor"
+                aria-live="polite"
+              >
+                {mensagens.length === 0 ? (
+                  <div className="space-y-2">
+                    <p className="text-sm leading-relaxed text-ink-500">
+                      {atual
+                        ? 'Resolva a questão e pergunte o que quiser sobre ela.'
+                        : 'Comece uma fixação para o tutor conhecer a questão.'}
+                    </p>
+                    {atual
+                      ? SUGESTOES.map((s) => (
+                          <button
+                            key={s}
+                            type="button"
+                            onClick={() => void perguntar(s)}
+                            className="block min-h-11 w-full rounded-xl border border-ink-200 px-3 py-2 text-left text-xs leading-relaxed text-ink-700 transition hover:border-brand-300 hover:text-brand-800"
+                          >
+                            {s}
+                          </button>
+                        ))
+                      : null}
+                  </div>
+                ) : null}
+
+                {mensagens.map((m, i) => (
+                  <div
+                    key={i}
+                    className={
+                      m.role === 'user'
+                        ? 'ml-6 break-words rounded-2xl rounded-br-sm bg-brand-700 px-3 py-2 text-sm text-white'
+                        : 'mr-2 whitespace-pre-wrap break-words rounded-2xl rounded-bl-sm bg-ink-50 px-3 py-2 text-sm text-ink-800'
+                    }
+                  >
+                    {m.content}
+                  </div>
+                ))}
+                {pensando ? <p className="text-xs text-ink-500">o tutor está pensando…</p> : null}
+                <div ref={fim} />
+              </div>
+
+              <div className="border-t border-ink-100 p-3">
+                <label htmlFor="tutor-pergunta" className="sr-only">
+                  Pergunte sobre a questão
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    id="tutor-pergunta"
+                    value={pergunta}
+                    onChange={(e) => setPergunta(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') void perguntar()
+                    }}
+                    placeholder="Pergunte sobre a questão…"
+                    className="qb-input min-w-0 flex-1"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => void perguntar()}
+                    disabled={pensando || !pergunta.trim()}
+                    aria-label="Enviar pergunta"
+                    className="qb-btn min-h-11 w-11 shrink-0 px-0"
+                  >
+                    <Send className="h-4 w-4" aria-hidden="true" />
+                  </button>
+                </div>
+              </div>
+            </>
+          )}
+        </aside>
+      </div>
     </div>
   )
 }

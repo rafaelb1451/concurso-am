@@ -33,7 +33,7 @@ declare global {
 
 const SRC = 'https://accounts.google.com/gsi/client'
 
-/** Client ID configurado no build (Vite). */
+/** Client ID público configurado no build (Vite). Não é segredo. */
 export const googleClientId = (import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined) ?? ''
 
 export const googleConfigurado = (): boolean => googleClientId.trim().length > 0
@@ -47,20 +47,31 @@ export default function GoogleBotao({
   // guarda o callback em ref para não reinicializar o SDK a cada render
   const callback = useRef(onCredencial)
   callback.current = onCredencial
+  const ultimaLargura = useRef(0)
 
   useEffect(() => {
     if (!googleConfigurado()) return
     let cancelado = false
+    let observador: ResizeObserver | null = null
 
     const desenhar = () => {
-      if (cancelado || !alvo.current || !window.google?.accounts?.id) return
+      const caixa = alvo.current
+      if (cancelado || !caixa || !window.google?.accounts?.id) return
+
+      // O botão do Google tem largura fixa; medir a caixa evita overflow em telas de 360px.
+      const largura = Math.min(400, Math.max(200, Math.floor(caixa.clientWidth || 320)))
+      if (ultimaLargura.current && Math.abs(largura - ultimaLargura.current) < 16) return
+      ultimaLargura.current = largura
+
       window.google.accounts.id.initialize({
         client_id: googleClientId,
         callback: (resposta) => {
           if (resposta?.credential) callback.current(resposta.credential)
         },
       })
-      window.google.accounts.id.renderButton(alvo.current, {
+      // remove apenas os nós renderizados anteriormente (sem innerHTML)
+      caixa.replaceChildren()
+      window.google.accounts.id.renderButton(caixa, {
         type: 'standard',
         theme: 'outline',
         size: 'large',
@@ -68,30 +79,46 @@ export default function GoogleBotao({
         shape: 'pill',
         logo_alignment: 'center',
         locale: 'pt-BR',
-        width: 320,
+        width: largura,
       })
     }
 
     if (window.google?.accounts?.id) {
       desenhar()
-      return
+    } else {
+      let script = document.querySelector<HTMLScriptElement>(`script[src="${SRC}"]`)
+      if (!script) {
+        script = document.createElement('script')
+        script.src = SRC
+        script.async = true
+        script.defer = true
+        document.head.appendChild(script)
+      }
+      script.addEventListener('load', desenhar)
+      // o script pode ter carregado antes do listener ser anexado
+      if (window.google?.accounts?.id) desenhar()
     }
 
-    let script = document.querySelector<HTMLScriptElement>(`script[src="${SRC}"]`)
-    if (!script) {
-      script = document.createElement('script')
-      script.src = SRC
-      script.async = true
-      script.defer = true
-      document.head.appendChild(script)
+    if (typeof ResizeObserver !== 'undefined' && alvo.current) {
+      observador = new ResizeObserver(() => desenhar())
+      observador.observe(alvo.current)
     }
-    script.addEventListener('load', desenhar)
+
     return () => {
       cancelado = true
-      script?.removeEventListener('load', desenhar)
+      observador?.disconnect()
+      document
+        .querySelector<HTMLScriptElement>(`script[src="${SRC}"]`)
+        ?.removeEventListener('load', desenhar)
     }
   }, [])
 
   if (!googleConfigurado()) return null
-  return <div ref={alvo} className="mt-5 flex justify-center" />
+  return (
+    <div
+      ref={alvo}
+      className="flex min-h-11 w-full items-center justify-center overflow-hidden"
+      data-testid="google-botao"
+    />
+  )
 }

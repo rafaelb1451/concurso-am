@@ -40,6 +40,8 @@ frontend/test-results/
 frontend/playwright-report/
 frontend/blob-report/
 frontend/.playwright/
+# screenshots da auditoria responsiva (artefatos locais)
+frontend/auditoria/
 
 # browsers baixados para o E2E local
 frontend/.playwright-browsers/

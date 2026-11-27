@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { ArrowLeft, ArrowRight, BookOpenText, FileText, LibraryBig, Trophy } from 'lucide-react'
 import {
   api,
   ApiError,
@@ -6,6 +7,7 @@ import {
   type Material,
   type MaterialResumo,
 } from './api'
+import { Card, EmptyState, ErrorBanner, LoadingState, PageHeader } from './ui'
 
 const CATEGORIA: Record<string, string> = {
   LEI: 'Lei',
@@ -17,7 +19,7 @@ const CATEGORIA: Record<string, string> = {
 
 const CATEGORIA_COR: Record<string, string> = {
   LEI: 'bg-brand-50 text-brand-700 ring-1 ring-inset ring-brand-200',
-  REGIMENTO: 'bg-accent-50 text-accent-700 ring-1 ring-inset ring-accent-200',
+  REGIMENTO: 'bg-accent-50 text-accent-800 ring-1 ring-inset ring-accent-200',
   RESOLUCAO: 'bg-ink-100 text-ink-700',
   EDITAL: 'bg-ok-50 text-ok-700 ring-1 ring-inset ring-ok-200',
   OUTRO: 'bg-ink-100 text-ink-600',
@@ -150,42 +152,44 @@ export default function Certames({
     return (
       <div className="mx-auto max-w-3xl space-y-4">
         <button
+          type="button"
           onClick={voltarAosMateriais}
-          className="text-[12px] font-semibold text-ink-500 transition hover:text-brand-700"
+          className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-1 text-[12px] font-semibold text-ink-600 transition hover:text-brand-700"
         >
-          ← Voltar aos materiais
+          <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+          Voltar aos materiais
         </button>
 
-        {carregandoMaterial ? (
-          <div className="qb-card p-10 text-center text-sm text-ink-500">Abrindo material…</div>
-        ) : null}
+        {carregandoMaterial ? <LoadingState label="Abrindo material…" lines={5} /> : null}
 
         {materialErro ? (
-          <div className="qb-card p-8 text-center">
+          <Card className="p-6 text-center sm:p-8">
             <p className="text-sm font-semibold text-ink-800">{materialErro}</p>
             <p className="mt-1 text-sm text-ink-500">
               O conteúdo pode ter sido movido. Volte à lista do certame e tente outro material.
             </p>
-            <button onClick={voltarAosMateriais} className="qb-btn-ghost mt-4">
+            <button type="button" onClick={voltarAosMateriais} className="qb-btn-ghost mt-4">
               Ver todos os materiais
             </button>
-          </div>
+          </Card>
         ) : null}
 
         {material ? (
           <article className="qb-card overflow-hidden">
-            <header className="border-b border-ink-100 bg-gradient-to-b from-brand-50/70 to-surface px-6 py-6 sm:px-8">
+            <header className="border-b border-ink-100 bg-gradient-to-b from-brand-50/70 to-surface px-4 py-5 sm:px-7 sm:py-6">
               <div className="flex flex-wrap items-center gap-2">
                 <span className={`qb-chip ${corCategoria(material.categoria)}`}>
                   {rotuloCategoria(material.categoria)}
                 </span>
-                <span className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-400">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-500">
                   Material de estudo · {concursoDoMaterial}
                 </span>
               </div>
-              <h1 className="mt-3 text-2xl font-bold leading-tight text-ink-900">{material.titulo}</h1>
-              <p className="mt-2 text-[12.5px] font-medium text-ink-500">
-                Fonte oficial: <span className="text-ink-700">{material.fonte}</span>
+              <h1 className="mt-3 break-words text-xl font-bold leading-tight text-ink-900 sm:text-2xl">
+                {material.titulo}
+              </h1>
+              <p className="mt-2 break-words text-[12.5px] font-medium text-ink-600">
+                Fonte oficial: <span className="text-ink-800">{material.fonte}</span>
               </p>
               {material.resumo ? (
                 <p className="mt-4 rounded-xl border border-accent-200 bg-accent-50/70 px-4 py-3 text-sm leading-relaxed text-ink-700">
@@ -193,23 +197,25 @@ export default function Certames({
                 </p>
               ) : null}
               <button
+                type="button"
                 onClick={() =>
                   onEstudar(concursoDoMaterial ?? '', {
                     materia: material.materia ?? undefined,
                     assunto: material.assunto ?? undefined,
                   })
                 }
-                className="qb-btn mt-5"
+                className="qb-btn mt-5 w-full sm:w-auto sm:px-5"
               >
                 Ir para as questões deste material
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </button>
             </header>
 
-            <div className="px-6 py-6 sm:px-8 sm:py-8">
+            <div className="px-4 py-5 sm:px-7 sm:py-8">
               {paragrafos.length ? (
                 <div className="space-y-4 font-serif text-[15.5px] leading-[1.8] text-ink-800">
                   {paragrafos.map((paragrafo, indice) => (
-                    <p key={indice} className="whitespace-pre-line">
+                    <p key={indice} className="whitespace-pre-line break-words">
                       {paragrafo}
                     </p>
                   ))}
@@ -221,19 +227,20 @@ export default function Certames({
                 </p>
               )}
 
-              <div className="mt-8 flex flex-wrap items-center gap-3 border-t border-ink-100 pt-5">
+              <div className="mt-8 flex flex-col gap-2 border-t border-ink-100 pt-5 sm:flex-row sm:flex-wrap sm:items-center">
                 <button
+                  type="button"
                   onClick={() =>
                     onEstudar(concursoDoMaterial ?? '', {
                       materia: material.materia ?? undefined,
                       assunto: material.assunto ?? undefined,
                     })
                   }
-                  className="qb-btn"
+                  className="qb-btn w-full sm:w-auto sm:px-5"
                 >
                   Ir para as questões deste material
                 </button>
-                <button onClick={voltarAosMateriais} className="qb-btn-ghost">
+                <button type="button" onClick={voltarAosMateriais} className="qb-btn-ghost w-full sm:w-auto">
                   Voltar aos materiais
                 </button>
               </div>
@@ -251,23 +258,25 @@ export default function Certames({
     return (
       <div className="space-y-4">
         <button
+          type="button"
           onClick={() => {
             setSelecionado(null)
             setErro(null)
           }}
-          className="text-[12px] font-semibold text-ink-500 transition hover:text-brand-700"
+          className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-1 text-[12px] font-semibold text-ink-600 transition hover:text-brand-700"
         >
-          ← Todos os certames
+          <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+          Todos os certames
         </button>
 
-        <div className="qb-card overflow-hidden">
-          <div className="bg-gradient-to-b from-brand-50/70 to-surface px-6 py-6">
-            <div className="flex flex-wrap items-start justify-between gap-4">
-              <div>
-                <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-400">
-                  Certame
-                </p>
-                <h1 className="mt-1 text-2xl font-bold tracking-tight text-ink-900">{selecionado}</h1>
+        <Card className="overflow-hidden">
+          <div className="bg-gradient-to-b from-brand-50/70 to-surface px-4 py-5 sm:px-6 sm:py-6">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div className="min-w-0">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-500">Certame</p>
+                <h1 className="mt-1 break-words text-2xl font-bold tracking-tight text-ink-900">
+                  {selecionado}
+                </h1>
                 <p className="mt-1 text-sm text-ink-500">
                   {dados?.total ?? 0} questões no banco
                   {quantidade === undefined
@@ -277,12 +286,16 @@ export default function Certames({
                       : ` · ${quantidade} ${quantidade === 1 ? 'material' : 'materiais'} de estudo`}
                 </p>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <button onClick={() => onEstudar(selecionado)} className="qb-btn">
+              <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row">
+                <button type="button" onClick={() => onEstudar(selecionado)} className="qb-btn w-full sm:w-auto">
                   Estudar este certame
                 </button>
                 {onSimular ? (
-                  <button onClick={() => onSimular(selecionado)} className="qb-btn-ghost px-4 py-2.5">
+                  <button
+                    type="button"
+                    onClick={() => onSimular(selecionado)}
+                    className="qb-btn-ghost w-full sm:w-auto"
+                  >
                     Fazer simulado
                   </button>
                 ) : null}
@@ -290,45 +303,37 @@ export default function Certames({
             </div>
           </div>
 
-          <div className="border-t border-ink-100 px-6 py-5">
+          <div className="border-t border-ink-100 px-4 py-5 sm:px-6">
             <h2 className="text-sm font-bold text-ink-900">Materiais de estudo</h2>
             <p className="mt-0.5 text-xs text-ink-500">
               Leitura objetiva da legislação e das normas do edital, com a fonte oficial.
             </p>
 
-            {erro ? (
-              <p className="mt-4 rounded-xl bg-err-50 px-4 py-3 text-sm font-medium text-err-700">
-                {erro}
-              </p>
-            ) : null}
+            {erro ? <ErrorBanner className="mt-4">{erro}</ErrorBanner> : null}
 
-            {carregandoMateriais ? (
-              <p className="mt-4 rounded-xl border border-dashed border-ink-200 py-10 text-center text-sm text-ink-500">
-                Carregando materiais…
-              </p>
-            ) : null}
+            {carregandoMateriais ? <LoadingState label="Carregando materiais…" lines={3} className="mt-4" /> : null}
 
             {!carregandoMateriais && materiaisIndisponiveis ? (
-              <div className="mt-4 rounded-xl border border-dashed border-ink-200 py-10 px-4 text-center">
-                <p className="text-sm font-semibold text-ink-700">
-                  Materiais ainda não disponíveis para este certame.
-                </p>
-                <p className="mt-1 text-sm text-ink-500">
-                  Você já pode estudar as questões. Os materiais aparecem aqui assim que forem
-                  publicados.
-                </p>
-              </div>
+              <EmptyState
+                className="mt-4"
+                icon={LibraryBig}
+                title="Materiais ainda não disponíveis para este certame."
+                description="Você já pode estudar as questões. Os materiais aparecem aqui assim que forem publicados."
+                action={
+                  <button type="button" onClick={() => onEstudar(selecionado)} className="qb-btn">
+                    Estudar questões
+                  </button>
+                }
+              />
             ) : null}
 
             {!carregandoMateriais && !materiaisIndisponiveis && materiais.length === 0 ? (
-              <div className="mt-4 rounded-xl border border-dashed border-ink-200 py-10 px-4 text-center">
-                <p className="text-sm font-semibold text-ink-700">
-                  Sem materiais de estudo publicados.
-                </p>
-                <p className="mt-1 text-sm text-ink-500">
-                  Use as questões deste certame para treinar enquanto o material é preparado.
-                </p>
-              </div>
+              <EmptyState
+                className="mt-4"
+                icon={FileText}
+                title="Sem materiais de estudo publicados."
+                description="Use as questões deste certame para treinar enquanto o material é preparado."
+              />
             ) : null}
 
             {!carregandoMateriais && materiais.length > 0 ? (
@@ -336,27 +341,28 @@ export default function Certames({
                 {materiais.map((item) => (
                   <li key={item.slug}>
                     <button
+                      type="button"
                       onClick={() => void abrirMaterial(item.slug)}
-                      className="group flex w-full flex-col gap-2 rounded-xl border border-ink-200 bg-surface px-4 py-3.5 text-left transition hover:border-brand-300 hover:bg-brand-50/40 sm:flex-row sm:items-center sm:justify-between"
+                      className="group flex w-full min-h-11 flex-col gap-2 rounded-xl border border-ink-200 bg-surface px-4 py-3.5 text-left transition hover:border-brand-300 hover:bg-brand-50/40 sm:flex-row sm:items-center sm:justify-between"
                     >
                       <span className="min-w-0">
                         <span className="flex flex-wrap items-center gap-2">
                           <span className={`qb-chip ${corCategoria(item.categoria)}`}>
                             {rotuloCategoria(item.categoria)}
                           </span>
-                          <span className="text-[11px] font-medium text-ink-400">{item.fonte}</span>
+                          <span className="break-words text-[11px] font-medium text-ink-500">{item.fonte}</span>
                         </span>
-                        <span className="mt-1 block text-sm font-semibold text-ink-900 group-hover:text-brand-800">
+                        <span className="mt-1 block break-words text-sm font-semibold text-ink-900 group-hover:text-brand-800">
                           {item.titulo}
                         </span>
                         {item.resumo ? (
-                          <span className="mt-0.5 block text-xs leading-relaxed text-ink-500">
+                          <span className="mt-0.5 block break-words text-xs leading-relaxed text-ink-500">
                             {item.resumo}
                           </span>
                         ) : null}
                       </span>
-                      <span className="shrink-0 text-xs font-semibold text-brand-700">
-                        Ler material →
+                      <span className="inline-flex shrink-0 items-center gap-1 text-xs font-semibold text-brand-700">
+                        Ler material <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                       </span>
                     </button>
                   </li>
@@ -364,64 +370,62 @@ export default function Certames({
               </ul>
             ) : null}
           </div>
-        </div>
+        </Card>
       </div>
     )
   }
 
   // ----------------------------------------------------------- lista de certames
   return (
-    <div className="space-y-4">
-      <div>
-        <h1 className="text-lg font-bold tracking-tight text-ink-900">Certames</h1>
-        <p className="mt-1 text-sm text-ink-500">
-          Escolha o concurso-alvo, leia o material do edital e vá direto para as questões.
-        </p>
-      </div>
+    <div className="space-y-5">
+      <PageHeader
+        eyebrow="Concurso-alvo"
+        title="Certames"
+        description="Escolha o concurso-alvo, leia o material do edital e vá direto para as questões."
+        actions={
+          <span className="qb-chip bg-brand-50 text-brand-800 ring-1 ring-inset ring-brand-200">
+            <Trophy className="h-3.5 w-3.5" aria-hidden="true" />
+            {certames.length} {certames.length === 1 ? 'certame' : 'certames'}
+          </span>
+        }
+      />
 
-      {carregandoConcursos ? (
-        <div className="qb-card p-10 text-center text-sm text-ink-500">Carregando certames…</div>
-      ) : null}
+      {carregandoConcursos ? <LoadingState label="Carregando certames…" /> : null}
 
       {!carregandoConcursos && concursosIndisponiveis ? (
-        <div className="qb-card p-8 text-center">
-          <p className="text-sm font-semibold text-ink-800">
-            A lista de certames não está disponível no momento.
-          </p>
-          <p className="mt-1 text-sm text-ink-500">
-            Você ainda pode estudar todas as questões pela aba Questões.
-          </p>
-        </div>
+        <EmptyState
+          icon={BookOpenText}
+          title="A lista de certames não está disponível no momento."
+          description="Você ainda pode estudar todas as questões pela aba Questões."
+        />
       ) : null}
 
       {!carregandoConcursos && !concursosIndisponiveis && certames.length === 0 ? (
-        <div className="qb-card p-8 text-center">
-          <p className="text-sm font-semibold text-ink-800">Nenhum certame cadastrado ainda.</p>
-          <p className="mt-1 text-sm text-ink-500">
-            Assim que um novo concurso entrar no banco, ele aparece aqui automaticamente.
-          </p>
-        </div>
+        <EmptyState
+          icon={LibraryBig}
+          title="Nenhum certame cadastrado ainda."
+          description="Assim que um novo concurso entrar no banco, ele aparece aqui automaticamente."
+        />
       ) : null}
 
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {certames.map((concurso) => {
           const quantidade = contagens[concurso.id]
           return (
             <button
               key={concurso.id}
+              type="button"
               onClick={() => void abrirCertame(concurso.id)}
-              className="qb-card group flex flex-col p-5 text-left transition hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-pop"
+              className="qb-card-interactive group flex min-h-11 flex-col p-5 text-left"
             >
               <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-ink-400">
-                    Certame
-                  </p>
-                  <h2 className="mt-1 text-lg font-bold tracking-tight text-ink-900 group-hover:text-brand-800">
+                <div className="min-w-0">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-ink-500">Certame</p>
+                  <h2 className="mt-1 break-words text-lg font-bold tracking-tight text-ink-900 group-hover:text-brand-800">
                     {concurso.id}
                   </h2>
                 </div>
-                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand-700 text-[11px] font-bold text-white">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-700 text-[11px] font-bold text-white">
                   {concurso.id.slice(0, 2)}
                 </span>
               </div>
@@ -429,26 +433,22 @@ export default function Certames({
               <div className="mt-4 flex items-end justify-between gap-3">
                 <div>
                   <p className="text-2xl font-bold leading-none text-ink-900">{concurso.total}</p>
-                  <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.08em] text-ink-400">
+                  <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.08em] text-ink-500">
                     questões
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="text-sm font-bold leading-none text-accent-700">
-                    {quantidade === undefined
-                      ? '…'
-                      : quantidade === 0
-                        ? '—'
-                        : quantidade}
+                  <p className="text-sm font-bold leading-none text-accent-800">
+                    {quantidade === undefined ? '…' : quantidade === 0 ? '—' : quantidade}
                   </p>
-                  <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.08em] text-ink-400">
+                  <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.08em] text-ink-500">
                     {quantidade === 1 ? 'material' : 'materiais'}
                   </p>
                 </div>
               </div>
 
-              <p className="mt-4 text-xs font-semibold text-brand-700">
-                Abrir certame <span aria-hidden="true">→</span>
+              <p className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-brand-700">
+                Abrir certame <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
               </p>
             </button>
           )
