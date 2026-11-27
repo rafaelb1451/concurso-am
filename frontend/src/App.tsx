@@ -61,6 +61,8 @@ export default function App() {
   }, [])
 
   function onAutenticado(auth: AuthData) {
+    // ponto unico: vale para login por e-mail e por Google
+    if (auth.token) localStorage.setItem('qb_token', auth.token)
     setUsuario(auth.usuario)
   }
 
