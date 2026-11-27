@@ -252,7 +252,7 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
       ) : null}
 
       <p className="text-center text-[11px] text-ink-400">
-        Pagamento processado pelo Asaas. A liberação do PRO acontece quando o pagamento é
+        Pagamento processado pelo Mercado Pago. A liberação do PRO acontece quando o pagamento é
         confirmado — pode levar alguns segundos depois de você pagar.
       </p>
     </div>
