@@ -16,6 +16,7 @@ import { EstudoQuestao, FimSessao, TreinoInicio } from './Treino'
 import AuthScreen from './Auth'
 import ContaSeguranca from './ContaSeguranca'
 import SiteHeader, { SiteFooter, type PaginaPublica } from './SiteHeader'
+import ContatoBar from './ContatoBar'
 import Landing from './Inicio'
 import PraticaGratis from './PraticaGratis'
 import { ErrorBanner, LoadingState } from './ui'
@@ -321,6 +322,7 @@ export default function App() {
     }
     return (
       <div className="flex min-h-dvh flex-col bg-canvas">
+        <ContatoBar />
         <SiteHeader
           atual={paginaPublica}
           onNavegar={setPaginaPublica}
@@ -355,6 +357,7 @@ export default function App() {
         Pular para o conteúdo
       </a>
 
+      <ContatoBar />
       <AppHeader
         usuario={usuario}
         desempenho={desempenho}
