@@ -502,5 +502,635 @@
     "concursos": [
       "CREA-AM"
     ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 72",
+    "dificuldade": 2,
+    "enunciado": "Segundo a Lei nº 5.194/1966, as penas de advertência reservada e censura pública são aplicáveis:",
+    "alternativas": [
+      "a qualquer infração, independentemente da gravidade",
+      "aos profissionais que deixarem de cumprir disposições do Código de Ética",
+      "somente a pessoas jurídicas",
+      "apenas em caso de reincidência",
+      "somente por decisão judicial"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 72 aplica advertência reservada e censura pública aos profissionais que deixarem de cumprir disposições do Código de Ética, considerando a gravidade da falta e a reincidência.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 73, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "Na Lei nº 5.194/1966, as multas previstas no art. 73 serão aplicadas:",
+    "alternativas": [
+      "sempre em valor fixo",
+      "em dobro nos casos de reincidência",
+      "somente após decisão do CONFEA",
+      "apenas a pessoas físicas",
+      "convertidas em advertência"
+    ],
+    "correta": 1,
+    "explicacao": "O parágrafo único do art. 73 determina que as multas serão aplicadas em dobro nos casos de reincidência.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 56, § 2º",
+    "dificuldade": 2,
+    "enunciado": "Sobre a carteira profissional prevista na Lei nº 5.194/1966, é correto afirmar que:",
+    "alternativas": [
+      "substitui o diploma, vale como documento de identidade e tem fé pública",
+      "tem validade apenas para identificação interna do CREA",
+      "é emitida pelo CONFEA e não pelo CREA",
+      "perde validade após 5 anos",
+      "só é exigida em obras públicas"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 56, § 2º, dispõe que a carteira profissional substitui o diploma, vale como documento de identidade e tem fé pública.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 58",
+    "dificuldade": 2,
+    "enunciado": "O profissional registrado em um Conselho Regional que exercer atividade em outra região deverá:",
+    "alternativas": [
+      "requerer novo registro, abandonando o anterior",
+      "visar o seu registro no Conselho da nova região",
+      "comunicar apenas ao CONFEA",
+      "nada fazer, pois o registro é nacional",
+      "pagar anuidade apenas ao primeiro CREA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 58 da Lei 5.194/1966 exige que o profissional, firma ou organização registrado em qualquer Conselho Regional vise o registro na região onde exercer atividade.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 61",
+    "dificuldade": 3,
+    "enunciado": "Quando os serviços forem executados em lugares distantes da sede da entidade, a Lei nº 5.194/1966 determina que a empresa:",
+    "alternativas": [
+      "dispense responsável técnico",
+      "mantenha, junto a cada serviço, um profissional devidamente habilitado naquela jurisdição",
+      "contrate apenas estagiários",
+      "registre-se em outro país",
+      "comunique o fato ao Ministério do Trabalho"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 61 exige que a entidade mantenha, junto a cada um dos serviços executados em lugares distantes, um profissional devidamente habilitado naquela jurisdição.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Exercício e fiscalização",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 5.194/1966, art. 6º, b",
+    "dificuldade": 2,
+    "enunciado": "Considera-se exercício ilegal da profissão, nos termos do art. 6º da Lei nº 5.194/1966, a conduta do profissional que:",
+    "alternativas": [
+      "assume atividade estranha às atribuições discriminadas em seu registro",
+      "atua dentro das atribuições de seu registro",
+      "visa o registro em outra região",
+      "mantém sociedade com outro profissional habilitado",
+      "faz curso de especialização"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 6º, alínea b, considera ilegal o exercício por profissional que se incumbir de atividades estranhas às atribuições discriminadas em seu registro.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 4.950-A/1966, art. 5º",
+    "dificuldade": 2,
+    "enunciado": "Na Lei nº 4.950-A/1966, para os diplomados em curso universitário de menos de 4 anos, na jornada de 6 horas, o salário-base mínimo corresponde a:",
+    "alternativas": [
+      "3 salários mínimos",
+      "4 salários mínimos",
+      "5 salários mínimos",
+      "6 salários mínimos",
+      "8 salários mínimos"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 5º fixa 5 salários mínimos para os profissionais de curso inferior a 4 anos (alínea b do art. 4º), na jornada de 6 horas.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 4.950-A/1966, art. 3º",
+    "dificuldade": 1,
+    "enunciado": "De acordo com a Lei nº 4.950-A/1966, as atividades ou tarefas são classificadas em:",
+    "alternativas": [
+      "diurnas e noturnas apenas",
+      "com exigência de 6 horas diárias e com mais de 6 horas diárias",
+      "técnicas e administrativas",
+      "simples e complexas",
+      "públicas e privadas"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 3º classifica as atividades em: (a) com exigência de 6 horas diárias; (b) com mais de 6 horas diárias de serviço.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Salário mínimo profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 4.950-A/1966, art. 2º",
+    "dificuldade": 1,
+    "enunciado": "O salário mínimo fixado pela Lei nº 4.950-A/1966 é:",
+    "alternativas": [
+      "devido apenas quando não houver contrato escrito",
+      "a remuneração mínima obrigatória por serviços prestados, qualquer que seja a fonte pagadora",
+      "facultativo em empresas privadas",
+      "aplicável só a servidores públicos",
+      "substituído pelo piso estadual"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º define o salário mínimo da lei como remuneração mínima obrigatória por serviços prestados, com relação de emprego ou função, qualquer que seja a fonte pagadora.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 6.496/1977, art. 2º, § 1º",
+    "dificuldade": 1,
+    "enunciado": "A ART será efetuada pelo profissional ou pela empresa:",
+    "alternativas": [
+      "no CONFEA, exclusivamente",
+      "no CREA, de acordo com resolução própria do CONFEA",
+      "no Ministério do Trabalho",
+      "em cartório de registro de títulos",
+      "na prefeitura do município da obra"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º, § 1º, da Lei 6.496/1977 determina que a ART será efetuada no CREA, de acordo com resolução própria do CONFEA.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "ART e responsabilidade técnica",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 6.496/1977, art. 11, I",
+    "dificuldade": 3,
+    "enunciado": "Na Lei nº 6.496/1977, constitui renda da Mútua de Assistência:",
+    "alternativas": [
+      "a totalidade da taxa de ART",
+      "um quinto da taxa de ART",
+      "metade da anuidade do CREA",
+      "as multas aplicadas pelo CONFEA",
+      "o valor integral das anuidades"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 11, I, da Lei 6.496/1977 destina à Mútua 1/5 (um quinto) da taxa de ART.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro de empresas",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Lei 6.839/1980, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "A obrigatoriedade de registro de empresas prevista na Lei nº 6.839/1980 decorre:",
+    "alternativas": [
+      "do porte da empresa",
+      "da atividade básica ou daquela pela qual preste serviços a terceiros",
+      "do número de empregados",
+      "do faturamento anual",
+      "da existência de filial"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 1º vincula o registro à atividade básica da empresa ou àquela pela qual preste serviços a terceiros, perante a entidade de fiscalização profissional.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro de empresas",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.121/2019, art. 2º",
+    "dificuldade": 3,
+    "enunciado": "No que se refere ao registro de pessoas jurídicas, a Resolução CONFEA nº 1.121/2019 estabelece que o registro é:",
+    "alternativas": [
+      "a inscrição da pessoa jurídica nos assentamentos do CREA da circunscrição",
+      "um contrato de prestação de serviços",
+      "a licença ambiental da obra",
+      "o alvará municipal de funcionamento",
+      "a matrícula da empresa na junta comercial"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 2º da Resolução 1.121/2019 define o registro como a inscrição da pessoa jurídica nos assentamentos do CREA da circunscrição.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Registro de empresas",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.121/2019, art. 8º",
+    "dificuldade": 2,
+    "enunciado": "Segundo a Resolução CONFEA nº 1.121/2019, o registro da pessoa jurídica deve ser requerido:",
+    "alternativas": [
+      "por qualquer empregado",
+      "por representante legal da pessoa jurídica",
+      "pelo CREA de ofício",
+      "pelo CONFEA",
+      "por despachante"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 8º da Resolução 1.121/2019 determina que o registro deve ser requerido por representante legal da pessoa jurídica.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.002/2002, art. 6º",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 1.002/2002 adotou o Código de Ética Profissional e revogou expressamente a:",
+    "alternativas": [
+      "Resolução nº 218/1973",
+      "Resolução nº 205/1971",
+      "Resolução nº 1.007/2003",
+      "Resolução nº 1.008/2004",
+      "Resolução nº 1.090/2017"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 6º da Resolução 1.002/2002 revoga a Resolução 205/1971 e demais disposições em contrário.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 2º, IV",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CONFEA nº 1.090/2017 define imperícia como:",
+    "alternativas": [
+      "a atuação omissa do profissional",
+      "a atuação de quem se incumbe de atividades para as quais não possua conhecimento técnico suficiente, mesmo tendo legalmente essas atribuições",
+      "qualquer erro de cálculo",
+      "a recusa de assumir obra",
+      "a ausência de registro no CREA"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º, IV, da Resolução 1.090/2017 define imperícia como a atuação do profissional que se incumbe de atividades para as quais não possua conhecimento técnico suficiente, mesmo tendo legalmente essas atribuições.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 2º, VI",
+    "dificuldade": 3,
+    "enunciado": "Na Resolução CONFEA nº 1.090/2017, a negligência é definida como:",
+    "alternativas": [
+      "a atuação omissa do profissional ou a falta de observação do seu dever, principalmente quanto à não participação efetiva na autoria do projeto ou na execução do empreendimento",
+      "o erro técnico grave por imperícia",
+      "a conduta incompatível com a honra",
+      "a falsificação de documento do CREA",
+      "a condenação por crime infamante"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 2º, VI, define negligência como a atuação omissa ou a falta de observação do dever, especialmente a não participação efetiva na autoria do projeto ou na execução do empreendimento.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 3º, VII",
+    "dificuldade": 3,
+    "enunciado": "Entre os atos enquadráveis como má conduta passíveis de cancelamento do registro, a Resolução 1.090/2017 inclui:",
+    "alternativas": [
+      "ter sido penalizado com duas censuras públicas, em processos transitados em julgado, nos últimos cinco anos",
+      "ter sido multado uma única vez",
+      "responder a sindicância sem decisão",
+      "atrasar a anuidade",
+      "mudar de endereço sem comunicar"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 3º, VII, da Resolução 1.090/2017 prevê expressamente a hipótese de duas censuras públicas transitadas em julgado nos últimos cinco anos.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.090/2017, art. 4º",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Resolução CONFEA nº 1.090/2017, o enquadramento da infração por crime considerado infamante dependerá de:",
+    "alternativas": [
+      "denúncia anônima",
+      "decisão criminal transitada em julgado",
+      "parecer do CREA",
+      "inquérito administrativo",
+      "notícia pública do fato"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º exige a apresentação da decisão criminal transitada em julgado para o enquadramento por crime infamante.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 13",
+    "dificuldade": 2,
+    "enunciado": "No Regimento do CREA-AM, as sessões plenárias ordinárias são realizadas, preferencialmente:",
+    "alternativas": [
+      "uma vez por semana",
+      "uma vez por mês, na primeira quinzena",
+      "a cada dois meses",
+      "somente quando convocadas pelo CONFEA",
+      "duas vezes por ano"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 13 dispõe que as sessões plenárias ordinárias são realizadas, preferencialmente, uma vez por mês na primeira quinzena.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 14",
+    "dificuldade": 2,
+    "enunciado": "A convocação da sessão plenária ordinária, com a respectiva pauta, deve ser encaminhada ao conselheiro com antecedência mínima de:",
+    "alternativas": [
+      "24 horas",
+      "48 horas",
+      "sete dias",
+      "quinze dias",
+      "trinta dias"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 14 exige antecedência mínima de sete dias para a convocação da sessão plenária ordinária, acompanhada da pauta.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 15",
+    "dificuldade": 3,
+    "enunciado": "A sessão plenária extraordinária é realizada, mediante justificativa e pauta predefinida, dentro de:",
+    "alternativas": [
+      "dois dias da convocação",
+      "cinco dias da convocação, salvo matéria eleitoral",
+      "dez dias da convocação",
+      "trinta dias da convocação",
+      "qualquer prazo"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 15 fixa a realização da sessão extraordinária dentro de cinco dias contados da convocação, salvo em caso de apreciação de matéria eleitoral.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 15, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "A sessão plenária extraordinária pode ser convocada:",
+    "alternativas": [
+      "somente pelo presidente do CREA",
+      "pelo presidente ou por dois terços dos membros do Plenário, mediante requerimento justificado",
+      "somente pelo CONFEA",
+      "por qualquer conselheiro",
+      "pelo Ministério Público"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 15, parágrafo único, permite a convocação pelo presidente do CREA ou por dois terços dos membros do Plenário, com requerimento justificado.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 18",
+    "dificuldade": 1,
+    "enunciado": "As sessões plenárias são dirigidas por uma Mesa Diretora composta por:",
+    "alternativas": [
+      "presidente e secretário-executivo",
+      "presidente, vice-presidente e secretário",
+      "presidente e dois conselheiros sorteados",
+      "diretor e relator",
+      "somente o presidente"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 18 define a Mesa Diretora composta pelo presidente, vice-presidente e secretário.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 20",
+    "dificuldade": 3,
+    "enunciado": "O quórum para instalação e funcionamento da sessão plenária corresponde:",
+    "alternativas": [
+      "a dois terços da composição",
+      "à maioria absoluta dos conselheiros",
+      "ao número inteiro imediatamente superior à metade da composição do Plenário",
+      "a um terço da composição",
+      "a todos os membros"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 20 define o quórum como o número inteiro imediatamente superior à metade da composição do Plenário.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 21",
+    "dificuldade": 2,
+    "enunciado": "A ordem dos trabalhos do Plenário inclui, entre as primeiras etapas:",
+    "alternativas": [
+      "leitura do regimento",
+      "verificação do quórum, execução do Hino Nacional e do Hino do Estado do Amazonas",
+      "apresentação de relatório financeiro",
+      "eleição do presidente",
+      "sorteio de processos"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 21 estabelece a sequência: verificação do quórum, execução do Hino Nacional, execução do Hino do Estado do Amazonas, discussão e aprovação da ata, entre outras.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 9º, XXXVI",
+    "dificuldade": 3,
+    "enunciado": "A decisão sobre proposição de cassação de mandato do presidente do CREA ou de conselheiro regional exige voto de, no mínimo:",
+    "alternativas": [
+      "metade dos membros do Plenário",
+      "dois terços dos membros do Plenário",
+      "três quintos dos membros",
+      "um terço dos membros",
+      "unanimidade"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 9º, XXXVI, exige o voto de, no mínimo, dois terços dos membros do Plenário para decidir sobre a proposição de cassação de mandato, em caso de condenação em processo ético ou inquérito administrativo interno.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Regimento Interno do CREA-AM",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Regimento do CREA-AM, art. 4º, II",
+    "dificuldade": 3,
+    "enunciado": "Compete ao CREA-AM, entre outras atribuições:",
+    "alternativas": [
+      "apresentar ao Congresso Nacional proposta de resolução",
+      "apresentar ao CONFEA proposta de resolução e de decisão normativa",
+      "legislar sobre o exercício profissional",
+      "julgar recursos em última instância",
+      "criar conselhos regionais"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º, II, atribui ao CREA-AM apresentar ao CONFEA proposta de resolução e de decisão normativa (e não ao Congresso Nacional).",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.047/2013 (ementa)",
+    "dificuldade": 2,
+    "enunciado": "A Resolução CONFEA nº 1.047/2013 altera a Resolução nº 1.008/2004, que trata de:",
+    "alternativas": [
+      "registro de pessoas jurídicas",
+      "procedimentos para instauração, instrução e julgamento dos processos de infração e aplicação de penalidades",
+      "Código de Ética",
+      "salário mínimo profissional",
+      "ART eletrônica"
+    ],
+    "correta": 1,
+    "explicacao": "A 1.047/2013 altera a 1.008/2004, que dispõe sobre os procedimentos para instauração, instrução e julgamento dos processos de infração e aplicação de penalidades.",
+    "concursos": [
+      "CREA-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Profissional",
+    "assunto": "Resoluções CONFEA",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "fundamento": "Resolução CONFEA 1.073/2016 (ementa)",
+    "dificuldade": 2,
+    "enunciado": "A Resolução CONFEA nº 1.073/2016 regulamenta:",
+    "alternativas": [
+      "o registro de pessoas jurídicas",
+      "a atribuição de títulos, atividades, competências e campos de atuação profissionais",
+      "o processo de cancelamento de registro",
+      "o salário mínimo",
+      "a ART"
+    ],
+    "correta": 1,
+    "explicacao": "A 1.073/2016 regulamenta a atribuição de títulos, atividades, competências e campos de atuação aos profissionais registrados no Sistema CONFEA/CREA.",
+    "concursos": [
+      "CREA-AM"
+    ]
   }
 ]
