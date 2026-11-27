@@ -4,7 +4,10 @@ concurso:
   mercadopago:
     access-token: ${MP_ACCESS_TOKEN:}
     webhook-token: ${MP_WEBHOOK_TOKEN:}
+    webhook-secret: ${MP_WEBHOOK_SECRET:}
     base-url: ${MP_BASE_URL:https://api.mercadopago.com}
+    # URL publica que o MP chama apos o pagamento (com ?token=...)
+    notification-url: ${MP_NOTIFICATION_URL:}
   email:
     remetente: ${SMTP_FROM:}
   app:

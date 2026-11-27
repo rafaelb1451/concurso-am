@@ -37,6 +37,8 @@ public class MercadoPagoGateway implements PaymentGateway {
 
     private final String accessToken;
     private final String webhookToken;
+    private final String notificationUrl;
+    private final String webhookSecret;
     private final String baseUrl;
     private final ObjectMapper mapper;
     private final HttpClient http;
@@ -44,10 +46,14 @@ public class MercadoPagoGateway implements PaymentGateway {
     public MercadoPagoGateway(
             @Value("${concurso.mercadopago.access-token:}") String accessToken,
             @Value("${concurso.mercadopago.webhook-token:}") String webhookToken,
+            @Value("${concurso.mercadopago.notification-url:}") String notificationUrl,
+            @Value("${concurso.mercadopago.webhook-secret:}") String webhookSecret,
             @Value("${concurso.mercadopago.base-url:https://api.mercadopago.com}") String baseUrl,
             ObjectMapper mapper) {
         this.accessToken = accessToken == null ? "" : accessToken.trim();
         this.webhookToken = webhookToken == null ? "" : webhookToken.trim();
+        this.notificationUrl = notificationUrl == null ? "" : notificationUrl.trim();
+        this.webhookSecret = webhookSecret == null ? "" : webhookSecret.trim();
         this.baseUrl = baseUrl;
         this.mapper = mapper;
         this.http = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
@@ -93,6 +99,10 @@ public class MercadoPagoGateway implements PaymentGateway {
         corpo.put("external_reference", dados.referenciaExterna());
         corpo.put("back_urls", backUrls);
         corpo.put("auto_return", "approved");
+        if (!notificationUrl.isEmpty()) {
+            // garante a notificacao mesmo se o webhook do painel nao estiver configurado
+            corpo.put("notification_url", notificationUrl);
+        }
 
         JsonNode resposta = chamar("POST", "/checkout/preferences", corpo);
         String id = texto(resposta, "id");
@@ -110,6 +120,67 @@ public class MercadoPagoGateway implements PaymentGateway {
     }
 
     // ---------------------------------------------------------------- webhook
+
+    @Override
+    public boolean webhookValido(WebhookRequest req) {
+        // Assinatura secreta configurada no painel: valida o HMAC oficial (x-signature).
+        if (!webhookSecret.isEmpty()) {
+            try {
+                String ts = parametro(req.signature(), "ts");
+                String v1 = parametro(req.signature(), "v1");
+                if (ts.isEmpty() || v1.isEmpty()) {
+                    return false;
+                }
+                String dataId = "";
+                try {
+                    JsonNode raiz = mapper.readTree(req.body());
+                    dataId = raiz.path("data").path("id").asText("");
+                } catch (RuntimeException ignorado) {
+                    // corpo sem JSON valido: segue com id vazio (a assinatura cobre)
+                }
+                String requestId = req.requestId() == null ? "" : req.requestId();
+                String manifesto = "id:" + dataId + ";request-id:" + requestId + ";ts:" + ts + ";";
+                String esperado = hmacHex(manifesto);
+                return MessageDigest.isEqual(
+                        esperado.getBytes(StandardCharsets.UTF_8),
+                        v1.getBytes(StandardCharsets.UTF_8));
+            } catch (RuntimeException e) {
+                log.warn("Webhook do Mercado Pago com assinatura invalida: {}", e.getMessage());
+                return false;
+            }
+        }
+        // Sem assinatura secreta configurada (dev): cai no token da URL.
+        return webhookValido(req.token());
+    }
+
+    private String hmacHex(String texto) {
+        try {
+            javax.crypto.Mac mac = javax.crypto.Mac.getInstance("HmacSHA256");
+            mac.init(new javax.crypto.spec.SecretKeySpec(
+                    webhookSecret.getBytes(StandardCharsets.UTF_8), "HmacSHA256"));
+            byte[] digest = mac.doFinal(texto.getBytes(StandardCharsets.UTF_8));
+            StringBuilder sb = new StringBuilder(digest.length * 2);
+            for (byte b : digest) {
+                sb.append(String.format("%02x", b));
+            }
+            return sb.toString();
+        } catch (Exception e) {
+            throw new IllegalStateException("Falha ao calcular HMAC", e);
+        }
+    }
+
+    private static String parametro(String cabecalho, String chave) {
+        if (cabecalho == null || cabecalho.isBlank()) {
+            return "";
+        }
+        for (String parte : cabecalho.split(",")) {
+            int igual = parte.indexOf('=');
+            if (igual > 0 && parte.substring(0, igual).trim().equalsIgnoreCase(chave)) {
+                return parte.substring(igual + 1).trim();
+            }
+        }
+        return "";
+    }
 
     @Override
     public boolean webhookValido(String tokenRecebido) {

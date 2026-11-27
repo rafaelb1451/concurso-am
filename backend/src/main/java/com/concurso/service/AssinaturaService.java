@@ -124,10 +124,16 @@ public class AssinaturaService {
      */
     @Transactional
     public ResultadoWebhook processarWebhook(String token, String corpoBruto) {
-        if (!gateway.webhookValido(token)) {
+        return processarWebhook(new PaymentGateway.WebhookRequest(token, null, null, corpoBruto));
+    }
+
+    @Transactional
+    public ResultadoWebhook processarWebhook(PaymentGateway.WebhookRequest requisicao) {
+        if (!gateway.webhookValido(requisicao)) {
             throw new AuthException(HttpStatus.UNAUTHORIZED, "Token de webhook invalido.");
         }
 
+        String corpoBruto = requisicao.body();
         PaymentGateway.EventoWebhook evento = gateway.traduzir(corpoBruto);
         if (eventos.findByGatewayAndGatewayEventId(gateway.id(), evento.id()).isPresent()) {
             log.info("Webhook {} repetido ({}); ignorando.", evento.tipo(), evento.id());

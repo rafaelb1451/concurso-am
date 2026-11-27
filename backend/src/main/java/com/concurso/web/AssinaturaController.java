@@ -7,6 +7,7 @@ import com.concurso.integration.payment.PaymentGateway;
 import com.concurso.repo.PlanoRepository;
 import com.concurso.repo.UsuarioRepository;
 import com.concurso.service.AcessoService;
+import com.concurso.service.RateLimiter;
 import com.concurso.service.AssinaturaService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,13 +31,16 @@ public class AssinaturaController {
     private final AcessoService acesso;
     private final PlanoRepository planos;
     private final UsuarioRepository usuarios;
+    private final RateLimiter limiter;
 
     public AssinaturaController(AssinaturaService assinaturas, AcessoService acesso,
-                                PlanoRepository planos, UsuarioRepository usuarios) {
+                                PlanoRepository planos, UsuarioRepository usuarios,
+                                RateLimiter limiter) {
         this.assinaturas = assinaturas;
         this.acesso = acesso;
         this.planos = planos;
         this.usuarios = usuarios;
+        this.limiter = limiter;
     }
 
     /** Catálogo público de planos. */
@@ -77,6 +81,7 @@ public class AssinaturaController {
     public DtosAssinatura.CheckoutView checkout(
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId,
             @Valid @RequestBody DtosAssinatura.CheckoutRequest request) {
+        limiter.exigir("checkout:" + usuarioId, 5);
         Plano plano = planos.findByCodigo(request.plano())
                 .orElseThrow(() -> new IllegalArgumentException("Plano inexistente."));
         Usuario usuario = usuarios.findById(usuarioId)
@@ -111,16 +116,24 @@ public class AssinaturaController {
     public Map<String, Object> webhook(
             @RequestHeader(value = "asaas-access-token", required = false) String token,
             @RequestBody String corpo) {
+        limiter.exigir("webhook-asaas", 120);
         AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
         return Map.of("ok", true, "resultado", resultado.name());
     }
 
-    /** Webhook do Mercado Pago; o token vem na query string configurada no painel. */
+    /**
+     * Webhook do Mercado Pago. Autenticidade vem do HMAC oficial ({@code x-signature}) quando
+     * a assinatura secreta esta configurada; o token da URL e' apenas fallback de desenvolvimento.
+     */
     @PostMapping("/webhooks/mercadopago")
     public Map<String, Object> webhookMercadoPago(
             @RequestParam(value = "token", required = false) String token,
+            @RequestHeader(value = "x-signature", required = false) String assinatura,
+            @RequestHeader(value = "x-request-id", required = false) String requisicaoId,
             @RequestBody String corpo) {
-        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
+        limiter.exigir("webhook-mercadopago", 120);
+        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(
+                new PaymentGateway.WebhookRequest(token, assinatura, requisicaoId, corpo));
         return Map.of("ok", true, "resultado", resultado.name());
     }
 }

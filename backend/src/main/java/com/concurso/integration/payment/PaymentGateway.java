@@ -22,8 +22,20 @@ public interface PaymentGateway {
     /** Cancela a renovação no gateway. O acesso local continua até o fim do período pago. */
     void cancelarAssinatura(String gatewaySubscriptionId);
 
+    /** Dados de autenticacao que chegam no webhook (token, assinatura e headers). */
+    record WebhookRequest(String token, String signature, String requestId, String body) {
+    }
+
     /** Confere o token que o gateway manda no header do webhook. */
     boolean webhookValido(String tokenRecebido);
+
+    /**
+     * Validacao completa do webhook. O padrao mantem o token; gateways com assinatura
+     * criptografica (Mercado Pago) sobrescrevem para validar o HMAC.
+     */
+    default boolean webhookValido(WebhookRequest request) {
+        return webhookValido(request.token());
+    }
 
     /** Traduz o corpo do webhook para o nosso vocabulário. */
     EventoWebhook traduzir(String corpoBruto);
