@@ -31,6 +31,8 @@
 	# nenhum caminho especial: tudo vai para o Spring (que serve o SPA e a API)
 	reverse_proxy app:8080 {
 		header_up X-Forwarded-Proto {scheme}
+		# sobrescreve qualquer X-Forwarded-For enviado pelo cliente com o IP real da conexão
+		header_up X-Forwarded-For {remote_host}
 	}
 
 	log {
