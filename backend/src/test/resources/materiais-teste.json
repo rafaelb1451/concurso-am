@@ -1,0 +1,22 @@
+[
+  {
+    "concurso": "CREA-AM",
+    "slug": "lei-5194-1966",
+    "titulo": "Lei nº 5.194/1966",
+    "resumo": "Regula o exercício das profissões de engenheiro, arquiteto e agrônomo.",
+    "categoria": "LEI",
+    "fonte": "Lei 5.194/1966",
+    "conteudo": "Art. 1º O exercício das profissões de engenheiro, arquiteto e agrônomo fica sujeito às exigências desta lei.\n\nArt. 2º O exercício das profissões referidas no artigo anterior depende de registro no Conselho Regional.",
+    "ordem": 1
+  },
+  {
+    "concurso": "CREA-AM",
+    "slug": "regimento-interno-crea-am",
+    "titulo": "Regimento Interno do CREA-AM",
+    "resumo": "Estrutura, competências e processo disciplinar do Conselho Regional.",
+    "categoria": "REGIMENTO",
+    "fonte": "Regimento Interno do CREA-AM",
+    "conteudo": "Art. 1º O Conselho Regional de Engenharia e Agronomia do Amazonas tem sede em Manaus.\n\nArt. 2º Compete ao Plenário deliberar sobre as matérias de interesse da profissão.",
+    "ordem": 2
+  }
+]

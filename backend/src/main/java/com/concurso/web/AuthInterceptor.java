@@ -62,6 +62,11 @@ public class AuthInterceptor implements HandlerInterceptor {
         if ("GET".equalsIgnoreCase(metodo) && "/api/planos".equals(caminho)) {
             return true;
         }
+        // material de estudo: leitura publica; escrita continua sem rota
+        if ("GET".equalsIgnoreCase(metodo)
+                && ("/api/materiais".equals(caminho) || caminho.startsWith("/api/materiais/"))) {
+            return true;
+        }
         if (!"POST".equalsIgnoreCase(metodo)) {
             return false;
         }

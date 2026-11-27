@@ -1,11 +1,25 @@
 const BASE = '/api'
 
+/** Erro de API com o status HTTP, para o frontend tratar 404 com um estado próprio. */
+export class ApiError extends Error {
+  readonly status: number
+
+  constructor(status: number, message: string) {
+    super(message)
+    this.name = 'ApiError'
+    this.status = status
+  }
+}
+
 async function get<T>(url: string): Promise<T> {
   const token = localStorage.getItem('qb_token')
   const response = token
     ? await fetch(`${BASE}${url}`, { headers: { Authorization: `Bearer ${token}` } })
     : await fetch(`${BASE}${url}`)
-  if (!response.ok) throw new Error(`Falha ao buscar ${url}`)
+  if (!response.ok) {
+    const corpo = (await response.json().catch(() => null)) as { message?: string } | null
+    throw new ApiError(response.status, corpo?.message ?? `Falha ao buscar ${url}`)
+  }
   return response.json() as Promise<T>
 }
 
@@ -29,7 +43,9 @@ async function post<T>(url: string, body: unknown): Promise<T> {
 function qs(params: Record<string, string | number | undefined>): string {
   const search = new URLSearchParams()
   Object.entries(params).forEach(([chave, valor]) => {
-    if (valor !== undefined && valor !== '' && valor !== 'TODOS') search.set(chave, String(valor))
+    if (valor !== undefined && valor !== '' && valor !== 'TODOS' && valor !== 'TODAS') {
+      search.set(chave, String(valor))
+    }
   })
   const texto = search.toString()
   return texto ? `?${texto}` : ''
@@ -70,9 +86,34 @@ export interface Topico {
   total: number
 }
 
+export interface Banca {
+  banca: string
+  questoes: number
+}
+
 export interface Concurso {
   id: string
   total: number
+}
+
+/** Categorias editoriais do material de estudo (a API pode evoluir sem quebrar a UI). */
+export type CategoriaMaterial = 'LEI' | 'REGIMENTO' | 'RESOLUCAO' | 'EDITAL' | 'OUTRO'
+
+export interface MaterialResumo {
+  slug: string
+  titulo: string
+  resumo: string
+  categoria: CategoriaMaterial | string
+  fonte: string
+  ordem: number
+  /** Opcionais: quando o material estiver ancorado em um tópico, o CTA já filtra. */
+  materia?: string | null
+  assunto?: string | null
+}
+
+export interface Material extends MaterialResumo {
+  /** Texto puro, com parágrafos separados por linha em branco. Nunca HTML. */
+  conteudo: string
 }
 
 export interface MateriaStats {
@@ -247,17 +288,26 @@ export const api = {
   logout: () => post<{ ok: boolean }>('/logout', {}),
   usuario: () => get<Usuario>('/usuario'),
 
+  bancas: () => get<Banca[]>('/bancas'),
   concursos: () => get<Concurso[]>('/concursos'),
-  topicos: (concurso?: string) => get<Topico[]>(`/topicos${qs({ concurso })}`),
-  questoes: (concurso?: string, materia?: string, assunto?: string, quantidade = 10) =>
-    get<Question[]>(`/questoes${qs({ concurso, materia, assunto, quantidade })}`),
+  topicos: (banca?: string, concurso?: string) =>
+    get<Topico[]>(`/topicos${qs({ banca, concurso })}`),
+  questoes: (banca?: string, concurso?: string, materia?: string, assunto?: string, quantidade = 10) =>
+    get<Question[]>(`/questoes${qs({ banca, concurso, materia, assunto, quantidade })}`),
   responder: (id: number, alternativa: number) =>
     post<Answer>(`/questoes/${id}/responder`, { alternativa }),
-  desempenho: (concurso?: string) => get<Desempenho>(`/desempenho${qs({ concurso })}`),
-  evolucao: (concurso?: string, materia?: string, dias = 30) =>
-    get<Evolucao>(`/evolucao${qs({ concurso, materia, dias })}`),
+  desempenho: (banca?: string, concurso?: string) =>
+    get<Desempenho>(`/desempenho${qs({ banca, concurso })}`),
+  evolucao: (banca?: string, concurso?: string, materia?: string, dias = 30) =>
+    get<Evolucao>(`/evolucao${qs({ banca, concurso, materia, dias })}`),
   registrarEstudo: (materia: string | null, duracaoSegundos: number) =>
     post<{ ok: boolean }>('/estudo', { materia, duracaoSegundos }),
+
+  // material de estudo (somente leitura, texto puro)
+  materiais: (concurso: string) =>
+    get<MaterialResumo[]>(`/materiais${qs({ concurso })}`),
+  material: (slug: string) =>
+    get<Material>(`/materiais/${encodeURIComponent(slug)}`),
 
   // tutor (chat)
   configDeepseek: () => get<ConfigStatus>('/config/deepseek'),
@@ -266,7 +316,8 @@ export const api = {
     post<{ resposta: string }>('/chat', { mensagens, contexto }),
 
   // simulado
-  simulado: (concurso: string) => get<Simulado>(`/simulado${qs({ concurso })}`),
+  simulado: (banca?: string, concurso?: string, quantidade = 60) =>
+    get<Simulado>(`/simulado${qs({ banca, concurso, quantidade })}`),
   corrigirSimulado: (concurso: string, respostas: RespostaSimulado[]) =>
     post<Correcao>('/simulado/corrigir', { concurso, respostas }),
 }

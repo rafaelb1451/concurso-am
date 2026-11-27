@@ -1,5 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { api, type Evolucao as EvolucaoDados, type Topico } from './api'
+import {
+  api,
+  type Banca,
+  type Concurso,
+  type Evolucao as EvolucaoDados,
+  type Topico,
+} from './api'
 
 function formatarTempo(segundos: number): string {
   const h = Math.floor(segundos / 3600)
@@ -8,7 +14,23 @@ function formatarTempo(segundos: number): string {
   return `${m}m`
 }
 
-export default function Evolucao({ concurso, topicos }: { concurso: string; topicos: Topico[] }) {
+export default function Evolucao({
+  banca,
+  concurso,
+  topicos,
+  bancas = [],
+  concursos = [],
+  onBanca,
+  onConcurso,
+}: {
+  banca: string
+  concurso: string
+  topicos: Topico[]
+  bancas?: Banca[]
+  concursos?: Concurso[]
+  onBanca: (valor: string) => void
+  onConcurso: (valor: string) => void
+}) {
   const [materia, setMateria] = useState('')
   const [dias, setDias] = useState(30)
   const [dados, setDados] = useState<EvolucaoDados | null>(null)
@@ -19,11 +41,17 @@ export default function Evolucao({ concurso, topicos }: { concurso: string; topi
     [topicos],
   )
 
+  // Ao trocar banca/certame o universo de matérias muda: evita filtro órfão.
   useEffect(() => {
-    api.evolucao(concurso, materia || undefined, dias)
+    setMateria('')
+  }, [banca, concurso])
+
+  useEffect(() => {
+    setErro(null)
+    api.evolucao(banca, concurso, materia || undefined, dias)
       .then(setDados)
       .catch((e) => setErro(e instanceof Error ? e.message : 'Não foi possível carregar a evolução'))
-  }, [concurso, materia, dias])
+  }, [banca, concurso, materia, dias])
 
   const serie = dados?.serie ?? []
   const largura = 760
@@ -38,6 +66,15 @@ export default function Evolucao({ concurso, topicos }: { concurso: string; topi
     return { x, y, ponto }
   })
   const polyline = pontos.map((ponto) => `${ponto.x},${ponto.y}`).join(' ')
+  const certames = concursos.filter((item) => item.id !== 'TODOS')
+  const opcoesCertame =
+    concurso !== 'TODOS' && !certames.some((item) => item.id === concurso)
+      ? [{ id: concurso, total: 0 }, ...certames]
+      : certames
+  const opcoesBanca =
+    banca !== 'TODAS' && !bancas.some((item) => item.banca === banca)
+      ? [{ banca, questoes: 0 }, ...bancas]
+      : bancas
 
   return (
     <div className="space-y-4">
@@ -46,29 +83,65 @@ export default function Evolucao({ concurso, topicos }: { concurso: string; topi
           <div>
             <h2 className="text-lg font-bold text-ink-900">Evolução</h2>
             <p className="mt-1 text-sm text-ink-500">
-              Acompanhe o seu desempenho e o tempo estudado por matéria.
+              Acompanhe o seu desempenho e o tempo estudado por banca, certame e matéria.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2">
-            <select
-              value={materia}
-              onChange={(e) => setMateria(e.target.value)}
-              className="rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
-              <option value="">Todas as matérias</option>
-              {materias.map((nome) => (
-                <option key={nome} value={nome}>{nome}</option>
-              ))}
-            </select>
-            <select
-              value={dias}
-              onChange={(e) => setDias(Number(e.target.value))}
-              className="rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
-              {[7, 30, 90, 365].map((valor) => (
-                <option key={valor} value={valor}>{valor} dias</option>
-              ))}
-            </select>
+          <div className="flex flex-wrap items-end gap-2">
+            <label className="block">
+              <span className="qb-label">Banca</span>
+              <select
+                aria-label="Banca"
+                value={banca}
+                onChange={(e) => onBanca(e.target.value)}
+                className="mt-1 rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+              >
+                <option value="TODAS">Todas as bancas</option>
+                {opcoesBanca.map((item) => (
+                  <option key={item.banca} value={item.banca}>{item.banca}</option>
+                ))}
+              </select>
+            </label>
+            <label className="block">
+              <span className="qb-label">Certame</span>
+              <select
+                aria-label="Certame"
+                value={concurso}
+                onChange={(e) => onConcurso(e.target.value)}
+                className="mt-1 rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+              >
+                <option value="TODOS">Todos os certames</option>
+                {opcoesCertame.map((item) => (
+                  <option key={item.id} value={item.id}>{item.id}</option>
+                ))}
+              </select>
+            </label>
+            <label className="block">
+              <span className="qb-label">Matéria</span>
+              <select
+                aria-label="Matéria"
+                value={materia}
+                onChange={(e) => setMateria(e.target.value)}
+                className="mt-1 rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+              >
+                <option value="">Todas as matérias</option>
+                {materias.map((nome) => (
+                  <option key={nome} value={nome}>{nome}</option>
+                ))}
+              </select>
+            </label>
+            <label className="block">
+              <span className="qb-label">Período</span>
+              <select
+                aria-label="Período"
+                value={dias}
+                onChange={(e) => setDias(Number(e.target.value))}
+                className="mt-1 rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+              >
+                {[7, 30, 90, 365].map((valor) => (
+                  <option key={valor} value={valor}>{valor} dias</option>
+                ))}
+              </select>
+            </label>
           </div>
         </div>
       </div>
@@ -91,6 +164,8 @@ export default function Evolucao({ concurso, topicos }: { concurso: string; topi
               <div>
                 <p className="text-sm font-bold text-ink-900">Aproveitamento diário</p>
                 <p className="mt-0.5 text-xs text-ink-400">
+                  {banca === 'TODAS' ? 'Todas as bancas' : banca} ·{' '}
+                  {concurso === 'TODOS' ? 'Todos os certames' : concurso} ·{' '}
                   {materia || 'Todas as matérias'} · últimos {dias} dias
                 </p>
               </div>

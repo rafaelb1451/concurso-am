@@ -21,7 +21,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest(properties = {
         "spring.datasource.url=jdbc:h2:mem:auth-integration;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
         "spring.jpa.hibernate.ddl-auto=create-drop",
-        "concurso.seed.arquivo=questoes.json"
+        "concurso.seed.arquivo=questoes.json",
+        "concurso.seed.extra-arquivo=",
+        "concurso.materiais.arquivo="
 })
 class AuthServiceIntegrationTest {
 

@@ -43,7 +43,7 @@ class QuestaoServiceTest {
     void listarUsaFiltroDeAssuntoQuandoMateriaEstaAusente() {
         when(questions.findByAssuntoOrderByIdAsc("Acentuação")).thenReturn(List.of(question(1L)));
 
-        List<Dtos.QuestionView> resultado = service.listar("PM-AM", null, "Acentuação", 10);
+        List<Dtos.QuestionView> resultado = service.listar("PM-AM", null, "Acentuação", null, 10);
 
         assertEquals(1, resultado.size());
         verify(questions).findByAssuntoOrderByIdAsc("Acentuação");
@@ -57,8 +57,35 @@ class QuestaoServiceTest {
         }
         when(questions.findAll()).thenReturn(muitas);
 
-        assertEquals(50, service.listar(null, null, null, 100).size());
-        assertEquals(1, service.listar(null, null, null, 0).size());
+        assertEquals(50, service.listar(null, null, null, null, 100).size());
+        assertEquals(1, service.listar(null, null, null, null, 0).size());
+    }
+
+    @Test
+    void listarCombinaFiltroDeBancaComConcursoEMateria() {
+        Question fgv = question(1L);
+        fgv.setBanca("FGV");
+        Question cebraspe = question(2L);
+        cebraspe.setBanca("CEBRASPE");
+        when(questions.findByMateriaOrderByIdAsc("Direito Penal"))
+                .thenReturn(List.of(fgv, cebraspe));
+
+        List<Dtos.QuestionView> resultado =
+                service.listar("PM-AM", "Direito Penal", null, "fgv", 10);
+
+        assertEquals(1, resultado.size());
+        assertEquals("FGV", resultado.get(0).banca());
+    }
+
+    @Test
+    void listarComBancaEmBrancoTrazTodasAsBancas() {
+        Question fgv = question(1L);
+        fgv.setBanca("FGV");
+        Question cebraspe = question(2L);
+        cebraspe.setBanca("CEBRASPE");
+        when(questions.findAll()).thenReturn(List.of(fgv, cebraspe));
+
+        assertEquals(2, service.listar(null, null, null, "   ", 10).size());
     }
 
     @Test
@@ -90,9 +117,9 @@ class QuestaoServiceTest {
     @Test
     void topicosMapeiaContagemDoRepositorio() {
         QuestionRepository.TopicCount linha = topicCount("Direito Penal", "Aplicação", 3);
-        when(questions.findTopicCounts(null)).thenReturn(List.of(linha));
+        when(questions.findTopicCounts(null, "FGV")).thenReturn(List.of(linha));
 
-        List<Dtos.TopicoView> topicos = service.topicos(null);
+        List<Dtos.TopicoView> topicos = service.topicos(null, "FGV");
 
         assertEquals(1, topicos.size());
         assertEquals("Direito Penal", topicos.get(0).materia());
@@ -100,24 +127,42 @@ class QuestaoServiceTest {
     }
 
     @Test
-    void concursosUsaContagemAgregada() {
-        when(questions.countByConcurso("PM-AM")).thenReturn(10L);
-        when(questions.countByConcurso("PC-AM")).thenReturn(20L);
-        when(questions.count()).thenReturn(30L);
+    void concursosUsaAgrupamentoDinamicoDaTabelaDeVinculo() {
+        when(questions.findConcursoCounts()).thenReturn(List.of(
+                concursoCount("CREA-AM", 40L),
+                concursoCount("PM-AM", 30L),
+                concursoCount("PC-AM", 20L)));
+        when(questions.count()).thenReturn(90L);
 
         List<Dtos.ConcursoView> concursos = service.concursos();
 
-        assertEquals(3, concursos.size());
-        assertEquals(10L, concursos.get(0).total());
-        assertEquals(30L, concursos.get(2).total());
+        assertEquals(4, concursos.size());
+        assertEquals("CREA-AM", concursos.get(0).id());
+        assertEquals(40L, concursos.get(0).total());
+        assertEquals("TODOS", concursos.get(3).id());
+        assertEquals(90L, concursos.get(3).total());
+    }
+
+    @Test
+    void bancasMapeiaContagemEPreservaOrdemDoRepositorio() {
+        when(questions.findBancaCounts()).thenReturn(List.of(
+                bancaCount("FGV", 1004L),
+                bancaCount("CEBRASPE", 12L)));
+
+        List<Dtos.BancaView> bancas = service.bancas();
+
+        assertEquals(2, bancas.size());
+        assertEquals("FGV", bancas.get(0).banca());
+        assertEquals(1004L, bancas.get(0).questoes());
+        assertEquals("CEBRASPE", bancas.get(1).banca());
     }
 
     @Test
     void desempenhoSomaEstatisticasDoRepositorio() {
         AttemptRepository.MateriaStats linha = materiaStats("Direito Penal", 2, 1);
-        when(attempts.findMateriaStats(1L, null)).thenReturn(List.of(linha));
+        when(attempts.findMateriaStats(1L, null, "FGV")).thenReturn(List.of(linha));
 
-        Dtos.DesempenhoView desempenho = service.desempenho(1L, null);
+        Dtos.DesempenhoView desempenho = service.desempenho(1L, null, "FGV");
 
         assertEquals(2, desempenho.respondidas());
         assertEquals(1, desempenho.acertos());
@@ -172,6 +217,34 @@ class QuestaoServiceTest {
             @Override
             public long getAcertos() {
                 return acertos;
+            }
+        };
+    }
+
+    private static QuestionRepository.ConcursoCount concursoCount(String concurso, long total) {
+        return new QuestionRepository.ConcursoCount() {
+            @Override
+            public String getConcurso() {
+                return concurso;
+            }
+
+            @Override
+            public long getTotal() {
+                return total;
+            }
+        };
+    }
+
+    private static QuestionRepository.BancaCount bancaCount(String banca, long questoes) {
+        return new QuestionRepository.BancaCount() {
+            @Override
+            public String getBanca() {
+                return banca;
+            }
+
+            @Override
+            public long getQuestoes() {
+                return questoes;
             }
         };
     }

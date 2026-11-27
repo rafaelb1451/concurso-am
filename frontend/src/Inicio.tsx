@@ -35,7 +35,7 @@ export default function Inicio({
         <div className="relative mx-auto max-w-6xl px-5 py-16 md:py-20">
           <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[12px] font-semibold text-accent-200">
             <span className="h-1.5 w-1.5 rounded-full bg-accent-400" />
-            Foco total em PM-AM e PC-AM · estilo FGV
+            Estudo por banca e certame · questões comentadas
           </p>
 
           <h1 className="mt-5 max-w-3xl text-3xl font-extrabold leading-tight tracking-tight md:text-[42px]">
@@ -46,8 +46,9 @@ export default function Inicio({
             comentadas e um tutor que explica cada resposta.
           </h1>
           <p className="mt-4 max-w-2xl text-base text-brand-100 md:text-[17px]">
-            Banco de questões no estilo FGV, com comentário fundamentado artigo por artigo,
-            simulados cronometrados e um tutor de IA que responde só sobre a questão da tela.
+            Banco de questões organizado por banca e certame, com comentário fundamentado artigo
+            por artigo, simulados cronometrados e um tutor de IA que responde só sobre a questão da
+            tela.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -68,7 +69,7 @@ export default function Inicio({
           <dl className="mt-10 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-4">
             <Numero valor={totalQuestoes > 0 ? String(totalQuestoes) : '1.004'} rotulo="questões" />
             <Numero valor="524" rotulo="assuntos" />
-            <Numero valor="2" rotulo="concursos" />
+            <Numero valor="3" rotulo="certames" />
             <Numero valor="100%" rotulo="comentadas" />
           </dl>
         </div>
@@ -108,7 +109,7 @@ export default function Inicio({
             <Passo
               numero="1"
               titulo="Escolha o foco"
-              texto="Filtre por concurso, matéria e assunto. São 524 assuntos mapeados do edital."
+              texto="Filtre por banca, certame, matéria e assunto. São 524 assuntos mapeados do edital."
             />
             <Passo
               numero="2"
@@ -136,7 +137,7 @@ export default function Inicio({
           />
           <Diferencial
             titulo="Procedência sempre visível"
-            texto="Você sabe se está treinando prova real (FGV) ou questão autoral no mesmo estilo."
+            texto="Você sabe se está treinando prova real da banca ou questão autoral no mesmo estilo."
           />
           <Diferencial
             titulo="Tutor com IA focado na questão"
@@ -245,7 +246,7 @@ export default function Inicio({
       <footer className="border-t border-ink-200 bg-surface">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-6 text-[12px] text-ink-400">
           <span>QB Concurso — Quebrando a Banca</span>
-          <span>Conteúdo para PM-AM e PC-AM no estilo FGV</span>
+          <span>Questões, simulados e material de estudo por banca e certame</span>
         </div>
       </footer>
     </div>

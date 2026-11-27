@@ -171,8 +171,9 @@ public class ImportService {
         }
         if (p.concursos() != null) {
             for (String concurso : p.concursos()) {
-                if (!Concursos.valido(concurso)) {
-                    return prefixo + "concurso invalido '" + concurso + "' (use PM-AM ou PC-AM)";
+                if (!Concursos.valido(Concursos.normalizar(concurso))) {
+                    return prefixo + "concurso invalido '" + concurso
+                            + "' (use um codigo como PM-AM, PC-AM ou CREA-AM)";
                 }
             }
         }

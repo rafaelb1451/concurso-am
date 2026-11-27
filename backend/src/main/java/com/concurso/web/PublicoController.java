@@ -44,7 +44,7 @@ public class PublicoController {
     @GetMapping("/materias")
     public List<Map<String, Object>> materias() {
         Map<String, Long> total = new LinkedHashMap<>();
-        for (QuestionRepository.TopicCount t : questoes.findTopicCounts(null)) {
+        for (QuestionRepository.TopicCount t : questoes.findTopicCounts(null, null)) {
             total.merge(t.getMateria(), t.getTotal(), Long::sum);
         }
         List<Map<String, Object>> lista = new ArrayList<>();

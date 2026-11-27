@@ -27,15 +27,17 @@ public class EvolucaoService {
     }
 
     @Transactional(readOnly = true)
-    public Dtos.EvolucaoView evolucao(Long usuarioId, String concurso, String materia, int dias) {
+    public Dtos.EvolucaoView evolucao(Long usuarioId, String concurso, String materia,
+                                      String banca, int dias) {
         int janela = Math.max(1, Math.min(365, dias));
         Instant inicio = Instant.now().minus(Duration.ofDays(janela));
+        String filtroBanca = banca == null || banca.isBlank() ? null : banca;
 
         List<Dtos.EvolucaoPonto> pontos = new ArrayList<>();
         long respondidas = 0;
         long acertos = 0;
         for (AttemptRepository.EvolucaoDiaria linha :
-                attempts.findEvolucaoDiaria(usuarioId, concurso, materia, inicio)) {
+                attempts.findEvolucaoDiaria(usuarioId, concurso, materia, filtroBanca, inicio)) {
             respondidas += linha.getRespondidas();
             acertos += linha.getAcertos();
             pontos.add(new Dtos.EvolucaoPonto(

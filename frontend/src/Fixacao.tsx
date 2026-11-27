@@ -7,6 +7,7 @@ import {
   type Question,
   type Topico,
 } from './api'
+import { PencilLine } from 'lucide-react'
 import Rascunho from './Rascunho'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
@@ -20,7 +21,7 @@ const SUGESTOES = [
  * Aba de fixação: treino focado por matéria com o tutor ao lado.
  * O chat recebe o contexto da questão atual, então a resposta é sobre ELA — não genérica.
  */
-export default function Fixacao({ concurso }: { concurso: string }) {
+export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string; concurso: string }) {
   const [topicos, setTopicos] = useState<Topico[]>([])
   const [materia, setMateria] = useState('')
   const [fila, setFila] = useState<Question[]>([])
@@ -29,6 +30,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
   const [escolhida, setEscolhida] = useState<number | null>(null)
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
+  const [rascunhoAberto, setRascunhoAberto] = useState(false)
 
   // tutor
   const [configurado, setConfigurado] = useState<boolean | null>(null)
@@ -39,9 +41,9 @@ export default function Fixacao({ concurso }: { concurso: string }) {
   const fim = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    api.topicos(concurso).then(setTopicos).catch(() => setErro('Servidor indisponível.'))
+    api.topicos(banca, concurso).then(setTopicos).catch(() => setErro('Servidor indisponível.'))
     api.configDeepseek().then((c) => setConfigurado(c.configurado)).catch(() => setConfigurado(false))
-  }, [concurso])
+  }, [banca, concurso])
 
   useEffect(() => {
     fim.current?.scrollIntoView({ behavior: 'smooth' })
@@ -50,11 +52,16 @@ export default function Fixacao({ concurso }: { concurso: string }) {
   const materias = useMemo(() => [...new Set(topicos.map((t) => t.materia))].sort(), [topicos])
   const atual = fila[indice]
 
+  // A gaveta de rascunho pertence à questão atual: fecha ao avançar.
+  useEffect(() => {
+    setRascunhoAberto(false)
+  }, [atual?.id])
+
   async function comecar() {
     setCarregando(true)
     setErro(null)
     try {
-      const qs = await api.questoes(concurso, materia || undefined, undefined, 10)
+      const qs = await api.questoes(banca, concurso, materia || undefined, undefined, 10)
       if (!qs.length) {
         setErro('Nenhuma questão nessa matéria.')
         return
@@ -64,6 +71,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
       setResposta(null)
       setEscolhida(null)
       setMensagens([])
+      setRascunhoAberto(false)
     } catch {
       setErro('Não foi possível carregar as questões.')
     } finally {
@@ -89,6 +97,7 @@ export default function Fixacao({ concurso }: { concurso: string }) {
     setResposta(null)
     setEscolhida(null)
     setMensagens([])
+    setRascunhoAberto(false)
     setIndice((i) => (i + 1 < fila.length ? i + 1 : 0))
   }
 
@@ -194,7 +203,14 @@ export default function Fixacao({ concurso }: { concurso: string }) {
               >
                 {atual.origem === 'PROVA' ? 'Prova oficial' : 'Autoral'}
               </span>
-              <span className="ml-auto text-ink-400">
+              <button
+                onClick={() => setRascunhoAberto(true)}
+                className="ml-auto inline-flex items-center gap-1.5 rounded-lg border border-ink-200 bg-surface px-2.5 py-1.5 font-semibold text-ink-600 transition hover:border-brand-300 hover:text-brand-700"
+              >
+                <PencilLine className="h-3.5 w-3.5" />
+                Rascunho
+              </button>
+              <span className="text-ink-400">
                 {indice + 1} de {fila.length}
               </span>
             </div>
@@ -225,7 +241,11 @@ export default function Fixacao({ concurso }: { concurso: string }) {
               })}
             </ul>
 
-            <Rascunho questaoId={atual.id} compact />
+            <Rascunho
+              questaoId={atual.id}
+              open={rascunhoAberto}
+              onClose={() => setRascunhoAberto(false)}
+            />
 
             {resposta ? (
               <div

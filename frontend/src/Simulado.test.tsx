@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import Simulado from './Simulado'
-import { jsonResponse, mockFetch, question } from './test/fixtures'
+import { bancas, concursos, jsonResponse, mockFetch, question } from './test/fixtures'
 
 afterEach(() => {
   vi.unstubAllGlobals()
@@ -38,9 +38,9 @@ const correcao = {
   ],
 }
 
-function mockSimulado() {
+function mockSimulado(urlEsperada: string) {
   return mockFetch((url, init) => {
-    if (url === '/api/simulado?concurso=PM-AM') return jsonResponse(prova)
+    if (url === urlEsperada) return jsonResponse(prova)
     if (url === '/api/simulado/corrigir' && init?.method === 'POST') return jsonResponse(correcao)
     throw new Error(`rota não mockada: ${url}`)
   })
@@ -49,9 +49,18 @@ function mockSimulado() {
 describe('Simulado', () => {
   it('monta a prova, mostra o tempo e corrige ao finalizar', async () => {
     const user = userEvent.setup()
-    const fetchMock = mockSimulado()
-    render(<Simulado concursoInicial="PM-AM" />)
+    const fetchMock = mockSimulado('/api/simulado?banca=FGV&concurso=PM-AM&quantidade=50')
+    render(
+      <Simulado
+        bancaInicial="FGV"
+        concursoInicial="PM-AM"
+        bancas={bancas}
+        concursos={concursos}
+      />,
+    )
 
+    expect(screen.getByLabelText('Banca')).toHaveValue('FGV')
+    expect(screen.getByLabelText('Certame')).toHaveValue('PM-AM')
     await user.click(screen.getByRole('button', { name: 'Iniciar simulado' }))
 
     expect(await screen.findByText(/Questão 1 de 2/)).toBeInTheDocument()
@@ -67,6 +76,22 @@ describe('Simulado', () => {
     expect(fetchMock).toHaveBeenCalledWith(
       '/api/simulado/corrigir',
       expect.objectContaining({ method: 'POST' }),
+    )
+  })
+
+  it('envia banca, certame e quantidade escolhidos', async () => {
+    const user = userEvent.setup()
+    const fetchMock = mockSimulado('/api/simulado?banca=FGV&concurso=CREA-AM&quantidade=20')
+    render(<Simulado bancas={bancas} concursos={concursos} />)
+
+    await user.selectOptions(screen.getByLabelText('Banca'), 'FGV')
+    await user.selectOptions(screen.getByLabelText('Certame'), 'CREA-AM')
+    await user.selectOptions(screen.getByLabelText('Quantidade'), '20')
+    await user.click(screen.getByRole('button', { name: 'Iniciar simulado' }))
+
+    expect(await screen.findByText(/Questão 1 de 2/)).toBeInTheDocument()
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/simulado?banca=FGV&concurso=CREA-AM&quantidade=20',
     )
   })
 })

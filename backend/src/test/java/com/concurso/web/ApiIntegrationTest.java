@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.test.annotation.DirtiesContext;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
 
@@ -33,7 +34,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         properties = {
                 "spring.datasource.url=jdbc:h2:mem:api-integration;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
                 "spring.jpa.hibernate.ddl-auto=create-drop",
-                "concurso.seed.arquivo=questoes.json"
+                "concurso.seed.arquivo=questoes.json",
+                "concurso.seed.extra-arquivo=",
+                "concurso.materiais.arquivo="
         })
 class ApiIntegrationTest {
 
@@ -220,6 +223,89 @@ class ApiIntegrationTest {
         }
         assertEquals(Math.min(50, total), mapper.readTree(enorme.body()).size(),
                 "o teto por requisicao e' 50");
+    }
+
+    @Test
+    void bancasVemDoAgrupamentoDoBancoEFiltramQuestoes() throws Exception {
+        HttpResponse<String> resposta = chamar("GET", "/api/bancas", null);
+        assertEquals(200, resposta.statusCode());
+        JsonNode bancas = mapper.readTree(resposta.body());
+        assertEquals(1, bancas.size(), "o seed base so' tem FGV");
+        assertEquals("FGV", bancas.get(0).get("banca").asString());
+        assertEquals(24, bancas.get(0).get("questoes").asLong());
+
+        HttpResponse<String> fgv = chamar("GET", "/api/questoes?banca=fgv&quantidade=5", null);
+        assertEquals(200, fgv.statusCode());
+        JsonNode questoes = mapper.readTree(fgv.body());
+        assertEquals(5, questoes.size());
+        for (JsonNode q : questoes) {
+            assertEquals("FGV", q.get("banca").asString());
+        }
+
+        HttpResponse<String> nenhuma = chamar("GET", "/api/questoes?banca=CEBRASPE", null);
+        assertEquals(200, nenhuma.statusCode());
+        assertEquals(0, mapper.readTree(nenhuma.body()).size());
+
+        HttpResponse<String> simulado = chamar("GET",
+                "/api/simulado?concurso=TODOS&banca=FGV&quantidade=10", null);
+        assertEquals(200, simulado.statusCode());
+        JsonNode prova = mapper.readTree(simulado.body());
+        assertEquals("TODOS", prova.get("concurso").asString());
+        assertEquals(10, prova.get("totalPrevisto").asInt());
+        assertEquals(10, prova.get("totalGerado").asInt());
+        for (JsonNode q : prova.get("questoes")) {
+            assertEquals("FGV", q.get("banca").asString());
+        }
+
+        HttpResponse<String> limitado = chamar("GET", "/api/simulado?concurso=TODOS&quantidade=60", null);
+        assertEquals(200, limitado.statusCode());
+        assertEquals(50, mapper.readTree(limitado.body()).get("totalPrevisto").asInt(),
+                "quantidade do simulado e' limitada a 50");
+
+        HttpResponse<String> desconhecido = chamar("GET", "/api/simulado?concurso=ZZ", null);
+        assertEquals(400, desconhecido.statusCode());
+    }
+
+    @Test
+    @DirtiesContext(methodMode = DirtiesContext.MethodMode.AFTER_METHOD)
+    void importacaoAceitaCertameNovoComoCreaAm() throws Exception {
+        String lote = """
+                [
+                  {"materia":"Legislação Institucional","assunto":"CREA-AM","origem":"AUTORAL",
+                   "banca":"CREA-AM","fundamento":"Lei 5.194/1966, art. 1º",
+                   "enunciado":"Questao autoral de teste sobre o registro no CREA-AM.",
+                   "alternativas":["a","b"],"correta":0,
+                   "explicacao":"Comentario de teste.","concursos":["CREA-AM"]}
+                ]
+                """;
+        HttpResponse<String> importacao = chamar("POST", "/api/importar", lote);
+        assertEquals(200, importacao.statusCode());
+        assertEquals(1, mapper.readTree(importacao.body()).get("importadas").asInt());
+
+        JsonNode concursos = mapper.readTree(chamar("GET", "/api/concursos", null).body());
+        boolean achou = false;
+        for (JsonNode concurso : concursos) {
+            if ("CREA-AM".equals(concurso.get("id").asString())) {
+                achou = true;
+                assertEquals(1, concurso.get("total").asLong());
+            }
+        }
+        assertTrue(achou, "o certame novo deve aparecer no agrupamento dinamico");
+
+        HttpResponse<String> simulado = chamar("GET",
+                "/api/simulado?concurso=CREA-AM&banca=CREA-AM&quantidade=5", null);
+        assertEquals(200, simulado.statusCode());
+        JsonNode prova = mapper.readTree(simulado.body());
+        assertEquals("CREA-AM", prova.get("concurso").asString());
+        assertEquals(5, prova.get("totalPrevisto").asInt());
+        assertEquals(1, prova.get("totalGerado").asInt());
+        assertEquals("CREA-AM", prova.get("questoes").get(0).get("banca").asString());
+
+        HttpResponse<String> outraBanca = chamar("GET",
+                "/api/simulado?concurso=CREA-AM&banca=FGV&quantidade=5", null);
+        assertEquals(200, outraBanca.statusCode());
+        assertEquals(0, mapper.readTree(outraBanca.body()).get("totalGerado").asInt(),
+                "banca sem questoes no certame devolve prova vazia com aviso");
     }
 
     private HttpResponse<String> chamar(String metodo, String caminho, String corpo) throws Exception {

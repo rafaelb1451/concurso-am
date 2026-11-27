@@ -1,9 +1,21 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { api, type Answer, type Auth as AuthData, type Concurso, type Desempenho, type Question, type Topico, type Usuario } from './api'
+import {
+  api,
+  ApiError,
+  type Answer,
+  type Auth as AuthData,
+  type Banca,
+  type Concurso,
+  type Desempenho,
+  type Question,
+  type Topico,
+  type Usuario,
+} from './api'
 import { Highlighter, Pencil, Scissors } from 'lucide-react'
 import Fixacao from './Fixacao'
 import Simulado from './Simulado'
 import Evolucao from './Evolucao'
+import Certames from './Certames'
 import Planos from './Planos'
 import AuthScreen from './Auth'
 import Rascunho from './Rascunho'
@@ -27,13 +39,18 @@ export default function App() {
   const [mostrarAuth, setMostrarAuth] = useState(false)
   const [topico, setTopico] = useState<Topico[]>([])
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
+  const [bancas, setBancas] = useState<Banca[]>([])
   const [concursos, setConcursos] = useState<Concurso[]>([])
+  const [banca, setBanca] = useState('TODAS')
   const [concurso, setConcurso] = useState('TODOS')
   const [aba, setAba] = useState<
-    'treino' | 'fixacao' | 'simulado' | 'evolucao' | 'planos' | 'conta' | 'admin'
+    'treino' | 'fixacao' | 'simulado' | 'evolucao' | 'certames' | 'planos' | 'conta' | 'admin'
   >('treino')
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
+  const [carregandoFiltros, setCarregandoFiltros] = useState(true)
+  const [bancasIndisponiveis, setBancasIndisponiveis] = useState(false)
+  const [concursosIndisponiveis, setConcursosIndisponiveis] = useState(false)
 
   const [fase, setFase] = useState<Fase>('inicio')
   const [materia, setMateria] = useState('')
@@ -82,34 +99,87 @@ export default function App() {
 
   const carregarPainel = useCallback(async () => {
     try {
-      const [t, d, c] = await Promise.all([
-        api.topicos(concurso),
-        api.desempenho(concurso),
-        api.concursos(),
+      const [t, d] = await Promise.all([
+        api.topicos(banca, concurso),
+        api.desempenho(banca, concurso),
       ])
       setTopico(t)
       setDesempenho(d)
-      setConcursos(c)
+      setErro(null)
     } catch {
       setErro('Não foi possível falar com o servidor. Ele está rodando?')
     }
-  }, [concurso])
+  }, [banca, concurso])
+
+  // Listas dinâmicas de banca e certame. 404 vira estado elegante (select só com "Todas/Todos").
+  useEffect(() => {
+    if (!usuario) return
+    let ativo = true
+    setCarregandoFiltros(true)
+    setBancasIndisponiveis(false)
+    setConcursosIndisponiveis(false)
+    void Promise.allSettled([api.bancas(), api.concursos()]).then(([bancasResult, concursosResult]) => {
+      if (!ativo) return
+      if (bancasResult.status === 'fulfilled') {
+        setBancas(bancasResult.value)
+      } else {
+        setBancas([])
+        setBancasIndisponiveis(
+          bancasResult.reason instanceof ApiError && bancasResult.reason.status === 404,
+        )
+      }
+      if (concursosResult.status === 'fulfilled') {
+        setConcursos(concursosResult.value)
+      } else {
+        setConcursos([])
+        setConcursosIndisponiveis(
+          concursosResult.reason instanceof ApiError && concursosResult.reason.status === 404,
+        )
+      }
+      setCarregandoFiltros(false)
+    })
+    return () => {
+      ativo = false
+    }
+  }, [usuario])
 
   useEffect(() => {
     if (!usuario) return
     void carregarPainel()
   }, [carregarPainel, usuario])
 
-  /** Troca o concurso alvo: zera filtros e sessao, porque o universo de questoes muda. */
-  function trocarConcurso(id: string) {
-    setConcurso(id)
-    setMateria('')
-    setAssunto('')
+  function resetSessao() {
     setFase('inicio')
     setSessao([])
     setResposta(null)
     setEscolhida(null)
     setErro(null)
+  }
+
+  /** Troca a banca: zera filtros e sessão, porque o universo de questões muda. */
+  function trocarBanca(valor: string) {
+    setBanca(valor)
+    setMateria('')
+    setAssunto('')
+    resetSessao()
+  }
+
+  /** Troca o certame alvo: zera filtros e sessão, porque o universo de questões muda. */
+  function trocarConcurso(id: string) {
+    setConcurso(id)
+    setMateria('')
+    setAssunto('')
+    resetSessao()
+  }
+
+  /** Atalho da aba Certames: foca o certame e, se houver, matéria/assunto do material. */
+  function estudarCertame(id: string, extra?: { materia?: string; assunto?: string }) {
+    setConcurso(id)
+    setBanca('TODAS')
+    setMateria(extra?.materia ?? '')
+    setAssunto(extra?.assunto ?? '')
+    resetSessao()
+    setAba('treino')
   }
 
   const materias = useMemo(() => [...new Set(topico.map((t) => t.materia))].sort(), [topico])
@@ -123,7 +193,13 @@ export default function App() {
     setErro(null)
     try {
       const limite = modoTempo === 'livre' ? 50 : quantidade
-      const qs = await api.questoes(concurso, materia || undefined, assunto || undefined, limite)
+      const qs = await api.questoes(
+        banca,
+        concurso,
+        materia || undefined,
+        assunto || undefined,
+        limite,
+      )
       if (qs.length === 0) {
         setErro('Nenhuma questão encontrada com esses filtros.')
         return
@@ -246,7 +322,7 @@ export default function App() {
                 QB Concurso
               </h1>
               <p className="mt-0.5 text-[11.5px] font-medium text-ink-500">
-                Quebrando a Banca · PM-AM e PC-AM
+                Quebrando a Banca · estudo por banca e certame
               </p>
             </div>
           </div>
@@ -270,9 +346,9 @@ export default function App() {
           </div>
         </div>
 
-        <nav className="mx-auto flex max-w-6xl gap-1 px-5">
+        <nav className="qb-scroll mx-auto flex max-w-6xl gap-1 overflow-x-auto px-5">
           {([
-            'treino', 'fixacao', 'simulado', 'evolucao', 'planos', 'conta',
+            'treino', 'fixacao', 'simulado', 'evolucao', 'certames', 'planos', 'conta',
             ...(usuario?.admin ? (['admin'] as const) : []),
           ] as const).map((a) => (
             <button
@@ -280,8 +356,8 @@ export default function App() {
               onClick={() => setAba(a)}
               className={
                 aba === a
-                  ? '-mb-px border-b-2 border-brand-700 px-3 py-2.5 text-[13px] font-semibold text-brand-800'
-                  : '-mb-px border-b-2 border-transparent px-3 py-2.5 text-[13px] font-semibold text-ink-500 transition hover:text-ink-800'
+                  ? '-mb-px shrink-0 whitespace-nowrap border-b-2 border-brand-700 px-3 py-2.5 text-[13px] font-semibold text-brand-800'
+                  : '-mb-px shrink-0 whitespace-nowrap border-b-2 border-transparent px-3 py-2.5 text-[13px] font-semibold text-ink-500 transition hover:text-ink-800'
               }
             >
               {a === 'treino'
@@ -292,11 +368,13 @@ export default function App() {
                     ? 'Simulado'
                     : a === 'evolucao'
                       ? 'Evolução'
-                      : a === 'planos'
-                        ? 'Planos'
-                        : a === 'admin'
-                          ? 'Admin'
-                          : 'Conta'}
+                      : a === 'certames'
+                        ? 'Certames'
+                        : a === 'planos'
+                          ? 'Planos'
+                          : a === 'admin'
+                            ? 'Admin'
+                            : 'Conta'}
             </button>
           ))}
         </nav>
@@ -311,32 +389,34 @@ export default function App() {
           </p>
         ) : null}
 
-        <div className="mb-4 flex flex-wrap items-center gap-2">
-          <span className="text-xs font-semibold uppercase tracking-wide text-ink-500">
-            Estudando para
-          </span>
-          {concursos.map((c) => {
-            const ativo = c.id === concurso
-            return (
-              <button
-                key={c.id}
-                onClick={() => trocarConcurso(c.id)}
-                className={
-                  ativo
-                    ? 'rounded-full bg-brand-700 px-3.5 py-1.5 text-xs font-semibold text-white'
-                    : 'rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-xs font-semibold text-ink-700 transition hover:border-brand-300 hover:text-brand-700'
-                }
-              >
-                {rotuloConcurso(c.id)}
-                <span className={ativo ? 'ml-1 opacity-75' : 'ml-1 text-ink-400'}>{c.total}</span>
-              </button>
-            )
-          })}
-        </div>
-
-        {aba === 'fixacao' ? <Fixacao concurso={concurso} /> : null}
-        {aba === 'simulado' ? <Simulado concursoInicial={concurso} /> : null}
-        {aba === 'evolucao' ? <Evolucao concurso={concurso} topicos={topico} /> : null}
+        {aba === 'fixacao' ? <Fixacao banca={banca} concurso={concurso} /> : null}
+        {aba === 'simulado' ? (
+          <Simulado
+            bancaInicial={banca}
+            concursoInicial={concurso}
+            bancas={bancas}
+            concursos={concursos}
+          />
+        ) : null}
+        {aba === 'evolucao' ? (
+          <Evolucao
+            banca={banca}
+            concurso={concurso}
+            bancas={bancas}
+            concursos={concursos}
+            topicos={topico}
+            onBanca={trocarBanca}
+            onConcurso={trocarConcurso}
+          />
+        ) : null}
+        {aba === 'certames' ? (
+          <Certames
+            concursos={concursos}
+            carregandoConcursos={carregandoFiltros}
+            concursosIndisponiveis={concursosIndisponiveis}
+            onEstudar={estudarCertame}
+          />
+        ) : null}
         {aba === 'planos' ? <Planos /> : null}
         {aba === 'admin' ? <Admin /> : null}
         {aba === 'conta' ? (
@@ -351,12 +431,21 @@ export default function App() {
 
         {aba === 'treino' && fase === 'inicio' ? (
           <Inicio
+            bancas={bancas}
+            concursos={concursos}
+            banca={banca}
+            concurso={concurso}
+            carregandoFiltros={carregandoFiltros}
+            bancasIndisponiveis={bancasIndisponiveis}
+            concursosIndisponiveis={concursosIndisponiveis}
             materias={materias}
             assuntos={assuntos}
             materia={materia}
             assunto={assunto}
             quantidade={quantidade}
             carregando={carregando}
+            onBanca={trocarBanca}
+            onConcurso={trocarConcurso}
             onMateria={(valor) => {
               setMateria(valor)
               setAssunto('')
@@ -402,12 +491,6 @@ export default function App() {
   )
 }
 
-function rotuloConcurso(id: string): string {
-  if (id === 'PM-AM') return 'Soldado PM-AM'
-  if (id === 'PC-AM') return 'Investigador PC-AM'
-  return 'Todos'
-}
-
 function Metrica({ valor, rotulo, destaque }: { valor: string; rotulo: string; destaque?: boolean }) {
   return (
     <div className="text-right">
@@ -428,6 +511,13 @@ function Metrica({ valor, rotulo, destaque }: { valor: string; rotulo: string; d
 }
 
 function Inicio(props: {
+  bancas: Banca[]
+  concursos: Concurso[]
+  banca: string
+  concurso: string
+  carregandoFiltros: boolean
+  bancasIndisponiveis: boolean
+  concursosIndisponiveis: boolean
   materias: string[]
   assuntos: string[]
   materia: string
@@ -437,6 +527,8 @@ function Inicio(props: {
   totalQuestoes: number
   modoTempo: ModoTempo
   duracaoSessao: number
+  onBanca: (v: string) => void
+  onConcurso: (v: string) => void
   onMateria: (v: string) => void
   onAssunto: (v: string) => void
   onQuantidade: (v: number) => void
@@ -444,22 +536,63 @@ function Inicio(props: {
   onDuracaoSessao: (v: number) => void
   onComecar: () => void
 }) {
+  const certames = props.concursos.filter((concurso) => concurso.id !== 'TODOS')
+  const filtrosIndisponiveis = props.bancasIndisponiveis || props.concursosIndisponiveis
+  const bancaAtual = props.bancas.find((item) => item.banca === props.banca)
+  const certameAtual = certames.find((item) => item.id === props.concurso)
+
   return (
     <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
-      <h2 className="text-lg font-bold text-ink-900">Montar sessão</h2>
+      <h2 className="text-lg font-bold text-ink-900">Escolha a banca e o que estudar</h2>
       <p className="mt-1 text-sm text-ink-500">
-        {props.totalQuestoes} questões no banco. Filtre por matéria e assunto, ou resolva tudo.
+        {props.totalQuestoes} questões disponíveis com os filtros atuais. Combine banca, certame,
+        matéria e assunto — ou resolva tudo.
       </p>
 
-      <div className="mt-5 grid gap-4 sm:grid-cols-3">
+      <div className="mt-5 grid gap-4 sm:grid-cols-2">
+        <label className="block">
+          <span className="text-xs font-semibold text-ink-700">Banca</span>
+          <select
+            aria-label="Banca"
+            value={props.banca}
+            onChange={(e) => props.onBanca(e.target.value)}
+            className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900"
+          >
+            <option value="TODAS">Todas as bancas</option>
+            {props.bancas.map((item) => (
+              <option key={item.banca} value={item.banca}>
+                {item.banca} ({item.questoes})
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="block">
+          <span className="text-xs font-semibold text-ink-700">Certame</span>
+          <select
+            aria-label="Certame"
+            value={props.concurso}
+            onChange={(e) => props.onConcurso(e.target.value)}
+            className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900"
+          >
+            <option value="TODOS">Todos os certames</option>
+            {certames.map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.id} ({item.total})
+              </option>
+            ))}
+          </select>
+        </label>
+
         <label className="block">
           <span className="text-xs font-semibold text-ink-700">Matéria</span>
           <select
+            aria-label="Matéria"
             value={props.materia}
             onChange={(e) => props.onMateria(e.target.value)}
             className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900"
           >
-            <option value="">Todas</option>
+            <option value="">Todas as matérias</option>
             {props.materias.map((m) => (
               <option key={m} value={m}>
                 {m}
@@ -471,11 +604,12 @@ function Inicio(props: {
         <label className="block">
           <span className="text-xs font-semibold text-ink-700">Assunto</span>
           <select
+            aria-label="Assunto"
             value={props.assunto}
             onChange={(e) => props.onAssunto(e.target.value)}
             className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900"
           >
-            <option value="">Todos</option>
+            <option value="">Todos os assuntos</option>
             {props.assuntos.map((a) => (
               <option key={a} value={a}>
                 {a}
@@ -483,25 +617,50 @@ function Inicio(props: {
             ))}
           </select>
         </label>
-
       </div>
 
-      <div className="mt-5 grid gap-4 sm:grid-cols-2">
+      {props.carregandoFiltros ? (
+        <p className="mt-2 text-[11px] font-medium text-ink-400">Carregando bancas e certames…</p>
+      ) : filtrosIndisponiveis ? (
+        <p className="mt-2 text-[11px] font-medium text-ink-400">
+          Alguns filtros estão indisponíveis no momento. Você ainda pode estudar todas as questões.
+        </p>
+      ) : null}
+
+      <div className="mt-5 grid gap-4 sm:grid-cols-3">
+        <label className="block">
+          <span className="text-xs font-semibold text-ink-700">Quantidade</span>
+          <select
+            aria-label="Quantidade"
+            value={props.quantidade}
+            onChange={(e) => props.onQuantidade(Number(e.target.value))}
+            disabled={props.modoTempo === 'livre'}
+            className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm disabled:bg-ink-50 disabled:text-ink-400"
+          >
+            {[5, 10, 15, 20, 30].map((n) => (
+              <option key={n} value={n}>{n} questões</option>
+            ))}
+          </select>
+        </label>
+
         <label className="block">
           <span className="text-xs font-semibold text-ink-700">Modo de estudo</span>
           <select
+            aria-label="Modo de estudo"
             value={props.modoTempo}
             onChange={(e) => props.onModoTempo(e.target.value as ModoTempo)}
             className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
           >
-            <option value="pomodoro">Pomodoro (25 min foco / 5 min pausa)</option>
+            <option value="pomodoro">Pomodoro (25/5 min)</option>
             <option value="livre">Estudar por tempo</option>
           </select>
         </label>
+
         {props.modoTempo === 'livre' ? (
           <label className="block">
             <span className="text-xs font-semibold text-ink-700">Duração</span>
             <select
+              aria-label="Duração"
               value={props.duracaoSessao}
               onChange={(e) => props.onDuracaoSessao(Number(e.target.value))}
               className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
@@ -511,26 +670,23 @@ function Inicio(props: {
               ))}
             </select>
           </label>
-        ) : (
-          <label className="block">
-            <span className="text-xs font-semibold text-ink-700">Quantidade</span>
-            <select
-              value={props.quantidade}
-              onChange={(e) => props.onQuantidade(Number(e.target.value))}
-              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
-            >
-              {[5, 10, 15, 20, 30].map((n) => (
-                <option key={n} value={n}>{n}</option>
-              ))}
-            </select>
-          </label>
-        )}
+        ) : null}
       </div>
+
+      <p className="mt-4 text-xs text-ink-400">
+        {props.banca === 'TODAS' && props.concurso === 'TODOS'
+          ? 'Sem filtro de banca ou certame: você treina o banco completo.'
+          : `Filtros ativos: ${
+              bancaAtual ? bancaAtual.banca : 'todas as bancas'
+            } · ${certameAtual ? certameAtual.id : 'todos os certames'}${
+              props.materia ? ` · ${props.materia}` : ''
+            }${props.assunto ? ` · ${props.assunto}` : ''}`}
+      </p>
 
       <button
         onClick={props.onComecar}
         disabled={props.carregando}
-        className="mt-6 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
+        className="mt-5 w-full rounded-xl bg-brand-700 px-4 py-3 text-sm font-semibold text-white transition hover:bg-brand-800 disabled:opacity-60"
       >
         {props.carregando ? 'Carregando…' : 'Começar sessão'}
       </button>
@@ -692,7 +848,11 @@ function Estudo(props: {
           })}
         </ul>
 
-        {rascunhoAberto ? <Rascunho questaoId={questao.id} /> : null}
+        <Rascunho
+          questaoId={questao.id}
+          open={rascunhoAberto}
+          onClose={() => setRascunhoAberto(false)}
+        />
       </div>
 
       {resposta ? (

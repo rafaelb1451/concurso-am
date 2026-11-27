@@ -1,5 +1,14 @@
 import { vi } from 'vitest'
-import type { Answer, Concurso, Desempenho, Question, Topico } from '../api'
+import type {
+  Answer,
+  Banca,
+  Concurso,
+  Desempenho,
+  Material,
+  MaterialResumo,
+  Question,
+  Topico,
+} from '../api'
 
 export function question(overrides: Partial<Question> = {}): Question {
   return {
@@ -36,20 +45,50 @@ export function answer(overrides: Partial<Answer> = {}): Answer {
   }
 }
 
+export const bancas: Banca[] = [
+  { banca: 'FGV', questoes: 2 },
+  { banca: 'CEBRASPE', questoes: 1 },
+]
+
 export const concursos: Concurso[] = [
   { id: 'PM-AM', total: 2 },
   { id: 'PC-AM', total: 1 },
-  { id: 'TODOS', total: 2 },
+  { id: 'CREA-AM', total: 2 },
 ]
 
 export const topicos: Topico[] = [{ materia: 'Direito Penal', assunto: 'Crimes contra a pessoa', total: 2 }]
 
 export const desempenho: Desempenho = { respondidas: 0, acertos: 0, percentual: 0, porMateria: [] }
 
-export function jsonResponse(body: unknown, ok = true): Response {
+export const materiais: MaterialResumo[] = [
+  {
+    slug: 'lei-5194-1966',
+    titulo: 'Lei nº 5.194/1966',
+    resumo: 'Regula o exercício das profissões de engenheiro, arquiteto e agrônomo.',
+    categoria: 'LEI',
+    fonte: 'Lei 5.194/1966',
+    ordem: 1,
+  },
+  {
+    slug: 'resolucao-218-1973',
+    titulo: 'Resolução CONFEA nº 218/1973',
+    resumo: 'Atividades das diferentes modalidades profissionais.',
+    categoria: 'RESOLUCAO',
+    fonte: 'Resolução CONFEA 218/1973',
+    ordem: 2,
+  },
+]
+
+export const material: Material = {
+  ...materiais[0],
+  conteudo:
+    'Art. 1º A fiscalização do exercício das profissões de engenheiro, arquiteto e agrônomo cabe ao CONFEA e aos CREA.\n\nArt. 2º O exercício das profissões depende de registro no conselho regional.',
+}
+
+export function jsonResponse(body: unknown, ok = true, status = ok ? 200 : 400): Response {
   return {
     ok,
-    status: ok ? 200 : 400,
+    status,
     json: async () => body,
   } as unknown as Response
 }

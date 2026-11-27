@@ -22,6 +22,11 @@ concurso:
     webhook-token: ${ASAAS_WEBHOOK_TOKEN:}
   google:
     client-id: ${GOOGLE_CLIENT_ID:}
+  # Seeds opcionais: sem o arquivo, o boot segue normalmente.
+  seed:
+    extra-arquivo: classpath:seed-extra.json
+  materiais:
+    arquivo: classpath:materiais.json
 
 server:
   port: 8080

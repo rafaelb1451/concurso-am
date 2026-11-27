@@ -34,7 +34,9 @@ import static org.mockito.Mockito.when;
         properties = {
                 "spring.datasource.url=jdbc:h2:mem:tutor-integration;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
                 "spring.jpa.hibernate.ddl-auto=create-drop",
-                "concurso.seed.arquivo=questoes.json"
+                "concurso.seed.arquivo=questoes.json",
+                "concurso.seed.extra-arquivo=",
+                "concurso.materiais.arquivo="
         })
 class TutorControllerTest {
 

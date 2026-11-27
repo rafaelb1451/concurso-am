@@ -46,17 +46,26 @@ public class ApiController {
         return questoes.concursos();
     }
 
+    /** Bancas distintas do banco, com a contagem de questoes (eixo principal do estudo). */
+    @GetMapping("/bancas")
+    public List<Dtos.BancaView> bancas() {
+        return questoes.bancas();
+    }
+
     @GetMapping("/topicos")
-    public List<Dtos.TopicoView> topicos(@RequestParam(required = false) String concurso) {
-        return questoes.topicos(concurso);
+    public List<Dtos.TopicoView> topicos(@RequestParam(required = false) String concurso,
+                                         @RequestParam(required = false) String banca) {
+        return questoes.topicos(Parametros.concurso(concurso), Parametros.banca(banca));
     }
 
     @GetMapping("/questoes")
     public List<Dtos.QuestionView> questoes(@RequestParam(required = false) String concurso,
                                             @RequestParam(required = false) String materia,
                                             @RequestParam(required = false) String assunto,
+                                            @RequestParam(required = false) String banca,
                                             @RequestParam(defaultValue = "10") int quantidade) {
-        return questoes.listar(concurso, materia, assunto, quantidade);
+        return questoes.listar(Parametros.concurso(concurso), Parametros.materia(materia),
+                Parametros.assunto(assunto), Parametros.banca(banca), quantidade);
     }
 
     @PostMapping("/questoes/{id}/responder")
@@ -70,16 +79,19 @@ public class ApiController {
 
     @GetMapping("/desempenho")
     public Dtos.DesempenhoView desempenho(@RequestParam(required = false) String concurso,
+                                          @RequestParam(required = false) String banca,
                                           @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
-        return questoes.desempenho(usuarioId, concurso);
+        return questoes.desempenho(usuarioId, Parametros.concurso(concurso), Parametros.banca(banca));
     }
 
     @GetMapping("/evolucao")
     public Dtos.EvolucaoView evolucao(@RequestParam(required = false) String concurso,
                                       @RequestParam(required = false) String materia,
+                                      @RequestParam(required = false) String banca,
                                       @RequestParam(defaultValue = "30") int dias,
                                       @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
-        return evolucao.evolucao(usuarioId, concurso, materia, dias);
+        return evolucao.evolucao(usuarioId, Parametros.concurso(concurso),
+                Parametros.materia(materia), Parametros.banca(banca), dias);
     }
 
     /** Registra um bloco de tempo de estudo (pomodoro ou modo por tempo). */
@@ -114,8 +126,10 @@ public class ApiController {
 
     /** Monta um simulado com a distribuição de matérias do caderno da banca. */
     @GetMapping("/simulado")
-    public Dtos.SimuladoView simulado(@RequestParam(defaultValue = "PM-AM") String concurso) {
-        return simuladoService.montar(concurso);
+    public Dtos.SimuladoView simulado(@RequestParam(defaultValue = "PM-AM") String concurso,
+                                      @RequestParam(required = false) String banca,
+                                      @RequestParam(required = false) Integer quantidade) {
+        return simuladoService.montar(Parametros.concurso(concurso), Parametros.banca(banca), quantidade);
     }
 
     /** Corrige o simulado no fim: registra as tentativas e devolve gabaritos e desempenho. */

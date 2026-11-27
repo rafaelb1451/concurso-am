@@ -140,8 +140,8 @@ export default function Auth({ onAutenticado }: { onAutenticado: (auth: Auth) =>
             A banca não é o obstáculo. É o seu treino.
           </h2>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/70">
-            Questões comentadas no estilo FGV, com fundamento legal, simulado no formato do
-            caderno e evolução por matéria até o dia da prova.
+            Questões comentadas, simulado no formato da banca e evolução por banca e certame até o
+            dia da prova.
           </p>
 
           <ul className="mt-10 space-y-4 text-sm text-white/80">
@@ -151,7 +151,7 @@ export default function Auth({ onAutenticado }: { onAutenticado: (auth: Auth) =>
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent-400 text-[11px] font-bold text-brand-900">2</span>
-              PM-AM (Soldado) e PC-AM (Investigador), separados por edital
+              Filtros por banca e certame, com material de estudo do edital
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent-400 text-[11px] font-bold text-brand-900">3</span>

@@ -34,7 +34,7 @@ export default function SiteHeader({
               QB Concurso
             </span>
             <span className="block text-[11.5px] font-medium text-ink-500">
-              Quebrando a Banca · PM-AM e PC-AM
+              Quebrando a Banca · estudo por banca e certame
             </span>
           </span>
         </button>

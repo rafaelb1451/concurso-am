@@ -1,0 +1,46 @@
+[
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "CREA-AM: registro profissional",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "ano": 2024,
+    "orgao": "CREA-AM",
+    "cargo": "Assistente Administrativo",
+    "fundamento": "Lei 5.194/1966, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Lei 5.194/1966, o exercício das profissões de engenheiro, arquiteto e agrônomo depende de registro em qual conselho?",
+    "alternativas": [
+      "Conselho Regional da respectiva região",
+      "Conselho Nacional de Justiça",
+      "Ministério do Trabalho",
+      "Prefeitura do município",
+      "Ordem dos Advogados do Brasil"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 1º da Lei 5.194/1966 sujeita o exercício das profissões às exigências da lei, incluindo o registro no Conselho Regional.",
+    "concursos": ["CREA-AM"]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "CREA-AM: Anotação de Responsabilidade Técnica",
+    "origem": "AUTORAL",
+    "banca": "CREA-AM",
+    "ano": 2024,
+    "orgao": "CREA-AM",
+    "cargo": "Assistente Administrativo",
+    "fundamento": "Lei 6.496/1977, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "A Anotação de Responsabilidade Técnica (ART) está prevista em qual norma, no âmbito do Sistema CONFEA/CREA?",
+    "alternativas": [
+      "Lei 6.496/1977",
+      "Lei 8.666/1993",
+      "Lei 9.784/1999",
+      "Lei 10.406/2002",
+      "Lei 12.527/2011"
+    ],
+    "correta": 0,
+    "explicacao": "A ART foi instituída pela Lei 6.496/1977, que trata da responsabilidade técnica dos profissionais registrados nos conselhos.",
+    "concursos": ["CREA-AM"]
+  }
+]

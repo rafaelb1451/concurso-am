@@ -1,12 +1,15 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
 import {
   answer,
+  bancas,
   concursos,
   desempenho,
   jsonResponse,
+  material,
+  materiais,
   mockFetch,
   question,
   topicos,
@@ -26,17 +29,22 @@ function rotearApi(responder = () => answer()) {
     if (url === '/api/usuario') {
       return jsonResponse({ id: 1, nome: 'Aluno Teste', email: 'teste@qb.local', admin: false, emailVerificado: true })
     }
+    if (url === '/api/bancas') return jsonResponse(bancas)
     if (url === '/api/concursos') return jsonResponse(concursos)
-    if (url === '/api/topicos') return jsonResponse(topicos)
-    if (url === '/api/desempenho') return jsonResponse(desempenho)
-    if (url === '/api/questoes?quantidade=10') {
+    if (url.startsWith('/api/topicos')) return jsonResponse(topicos)
+    if (url.startsWith('/api/desempenho')) return jsonResponse(desempenho)
+    if (url.startsWith('/api/materiais?')) {
+      return jsonResponse(url.includes('concurso=CREA-AM') ? materiais : [])
+    }
+    if (url === `/api/materiais/${material.slug}`) return jsonResponse(material)
+    if (url.startsWith('/api/questoes/') && init?.method === 'POST') {
+      return jsonResponse(responder())
+    }
+    if (url.startsWith('/api/questoes?')) {
       return jsonResponse([
         question({ id: 1 }),
         question({ id: 2, enunciado: 'Enunciado da questão dois, também suficiente.', alternativas: ['Certa', 'Errada'] }),
       ])
-    }
-    if (url.startsWith('/api/questoes/') && init?.method === 'POST') {
-      return jsonResponse(responder())
     }
     throw new Error(`rota não mockada: ${url}`)
   })
@@ -48,7 +56,7 @@ describe('App', () => {
     rotearApi()
     render(<App />)
 
-    expect(await screen.findByText(/2 questões no banco/)).toBeInTheDocument()
+    expect(await screen.findByText(/2 questões disponíveis/)).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: 'Começar sessão' }))
 
     expect(await screen.findByText('Questão 1 de 2')).toBeInTheDocument()
@@ -60,11 +68,98 @@ describe('App', () => {
 
     await user.click(screen.getByRole('button', { name: 'Próxima questão' }))
     expect(await screen.findByText('Questão 2 de 2')).toBeInTheDocument()
-    await user.click(screen.getByRole('button', { name: /Certa/ }))
+    await user.click(screen.getByText('Certa'))
     await user.click(await screen.findByRole('button', { name: 'Ver resultado' }))
 
     expect(await screen.findByText('Sessão concluída')).toBeInTheDocument()
     expect(screen.getByText('2/2')).toBeInTheDocument()
+  })
+
+  it('abre com Banca "Todas" e Certame "Todos" e filtra o painel', async () => {
+    const user = userEvent.setup()
+    const fetchMock = rotearApi()
+    render(<App />)
+
+    expect(
+      await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' }),
+    ).toBeInTheDocument()
+    expect(screen.getByLabelText('Banca')).toHaveValue('TODAS')
+    expect(screen.getByLabelText('Certame')).toHaveValue('TODOS')
+    expect(screen.queryByText(/Estudando para/i)).not.toBeInTheDocument()
+    expect(screen.getByText(/estudo por banca e certame/)).toBeInTheDocument()
+
+    await screen.findByRole('option', { name: /FGV/ })
+    await screen.findByRole('option', { name: /CREA-AM/ })
+
+    await user.selectOptions(screen.getByLabelText('Banca'), 'FGV')
+    await waitFor(() =>
+      expect(
+        fetchMock.mock.calls.some(([url]) => String(url) === '/api/topicos?banca=FGV'),
+      ).toBe(true),
+    )
+
+    await user.selectOptions(screen.getByLabelText('Certame'), 'CREA-AM')
+    await waitFor(() =>
+      expect(
+        fetchMock.mock.calls.some(
+          ([url]) => String(url) === '/api/topicos?banca=FGV&concurso=CREA-AM',
+        ),
+      ).toBe(true),
+    )
+  })
+
+  it('abre Certames, lê o material em texto puro e vai para as questões do certame', async () => {
+    const user = userEvent.setup()
+    rotearApi()
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' })
+    await user.click(screen.getByRole('button', { name: 'Certames' }))
+
+    expect(await screen.findByRole('heading', { name: 'Certames' })).toBeInTheDocument()
+    await user.click(await screen.findByRole('button', { name: /CREA-AM/ }))
+
+    expect(await screen.findByRole('button', { name: 'Estudar este certame' })).toBeInTheDocument()
+    await user.click(await screen.findByRole('button', { name: /Lei nº 5.194\/1966/ }))
+
+    expect(
+      await screen.findByRole('heading', { name: 'Lei nº 5.194/1966' }),
+    ).toBeInTheDocument()
+    expect(await screen.findByText(/Art\. 1º A fiscalização/)).toBeInTheDocument()
+    expect(screen.getByText(/Fonte oficial/)).toBeInTheDocument()
+
+    await user.click(
+      screen.getAllByRole('button', { name: 'Ir para as questões deste material' })[0],
+    )
+
+    expect(
+      await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' }),
+    ).toBeInTheDocument()
+    expect(screen.getByLabelText('Certame')).toHaveValue('CREA-AM')
+    expect(screen.getByLabelText('Banca')).toHaveValue('TODAS')
+  })
+
+  it('mantém a tela utilizável quando bancas e certames respondem 404', async () => {
+    mockFetch((url) => {
+      if (url === '/api/usuario') {
+        return jsonResponse({ id: 1, nome: 'Aluno Teste', email: 'teste@qb.local', admin: false, emailVerificado: true })
+      }
+      if (url === '/api/bancas' || url === '/api/concursos') {
+        return jsonResponse({ message: 'não encontrado' }, false, 404)
+      }
+      if (url.startsWith('/api/topicos')) return jsonResponse(topicos)
+      if (url.startsWith('/api/desempenho')) return jsonResponse(desempenho)
+      throw new Error(`rota não mockada: ${url}`)
+    })
+
+    render(<App />)
+
+    expect(
+      await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' }),
+    ).toBeInTheDocument()
+    expect(await screen.findByText(/Alguns filtros estão indisponíveis/)).toBeInTheDocument()
+    expect(screen.getByLabelText('Banca')).toHaveValue('TODAS')
+    expect(screen.getByLabelText('Certame')).toHaveValue('TODOS')
   })
 
   it('permite responder pelo teclado', async () => {
@@ -89,11 +184,13 @@ describe('App', () => {
     expect(await screen.findByText('Questão 1 de 2')).toBeInTheDocument()
 
     // o rascunho começa oculto
-    expect(screen.queryByPlaceholderText(/Escreva aqui/)).not.toBeInTheDocument()
+    expect(screen.queryByPlaceholderText(/Escreva seu raciocínio/)).not.toBeInTheDocument()
 
-    // abrir o rascunho
+    // abrir o rascunho e fechar pelo botão da gaveta
     await user.click(screen.getByRole('button', { name: 'Rascunho' }))
-    expect(screen.getByPlaceholderText(/Escreva aqui/)).toBeInTheDocument()
+    expect(screen.getByPlaceholderText(/Escreva seu raciocínio/)).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: 'Concluir rascunho' }))
+    expect(screen.queryByPlaceholderText(/Escreva seu raciocínio/)).not.toBeInTheDocument()
 
     // eliminar e restaurar a alternativa B
     await user.click(screen.getByRole('button', { name: 'Eliminar alternativa B' }))

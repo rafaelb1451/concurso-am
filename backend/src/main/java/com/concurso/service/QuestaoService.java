@@ -16,7 +16,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-import java.util.Set;
 
 @Service
 public class QuestaoService {
@@ -31,15 +30,16 @@ public class QuestaoService {
     }
 
     /**
-     * Sessao de estudo: filtra por concurso, materia e assunto, e embaralha.
+     * Sessao de estudo: filtra por concurso, materia, assunto e banca, e embaralha.
      * A ordem aleatoria e' proposital — estudar sempre na mesma sequencia vicia a memoria
      * da posicao em vez do conteudo.
      */
     @Transactional(readOnly = true)
-    public List<Dtos.QuestionView> listar(String concurso, String materia, String assunto, int quantidade) {
+    public List<Dtos.QuestionView> listar(String concurso, String materia, String assunto,
+                                          String banca, int quantidade) {
         List<Question> encontradas = new ArrayList<>();
         for (Question q : universe(materia, assunto)) {
-            if (atendeConcurso(q, concurso)) {
+            if (atendeConcurso(q, concurso) && atendeBanca(q, banca)) {
                 encontradas.add(q);
             }
         }
@@ -81,31 +81,56 @@ public class QuestaoService {
     }
 
     @Transactional(readOnly = true)
-    public List<Dtos.TopicoView> topicos(String concurso) {
-        String filtro = concurso == null || concurso.isBlank() ? null : concurso;
-        return questions.findTopicCounts(filtro).stream()
+    public List<Dtos.TopicoView> topicos(String concurso, String banca) {
+        String filtroConcurso = concurso == null || concurso.isBlank() ? null : concurso;
+        String filtroBanca = banca == null || banca.isBlank() ? null : banca;
+        return questions.findTopicCounts(filtroConcurso, filtroBanca).stream()
                 .map(topico -> new Dtos.TopicoView(topico.getMateria(), topico.getAssunto(), topico.getTotal()))
                 .toList();
     }
 
-    /** Quantas questoes cada concurso tem (para o seletor da tela). */
+    /**
+     * Certames dinamicos: agrupa {@code question_concursos}, em vez de partir de uma lista fixa.
+     * O sentinela TODOS continua existindo para o seletor da tela e usa a contagem total.
+     */
     @Transactional(readOnly = true)
     public List<Dtos.ConcursoView> concursos() {
-        List<Dtos.ConcursoView> saida = new ArrayList<>();
-        for (String concurso : Concursos.TODOS) {
-            saida.add(new Dtos.ConcursoView(concurso, questions.countByConcurso(concurso)));
+        Map<String, Long> porCodigo = new LinkedHashMap<>();
+        for (QuestionRepository.ConcursoCount linha : questions.findConcursoCounts()) {
+            String codigo = Concursos.normalizar(linha.getConcurso());
+            if (codigo == null || !Concursos.valido(codigo)) {
+                continue;
+            }
+            porCodigo.merge(codigo, linha.getTotal(), Long::sum);
         }
+        List<Dtos.ConcursoView> saida = new ArrayList<>();
+        porCodigo.forEach((codigo, total) -> saida.add(new Dtos.ConcursoView(codigo, total)));
         saida.add(new Dtos.ConcursoView("TODOS", questions.count()));
         return saida;
     }
 
+    /** Bancas distintas do banco, com a contagem de questoes (eixo principal do estudo). */
     @Transactional(readOnly = true)
-    public Dtos.DesempenhoView desempenho(Long usuarioId, String concurso) {
+    public List<Dtos.BancaView> bancas() {
+        List<Dtos.BancaView> saida = new ArrayList<>();
+        for (QuestionRepository.BancaCount linha : questions.findBancaCounts()) {
+            String banca = linha.getBanca() == null ? "" : linha.getBanca().trim();
+            if (!banca.isEmpty()) {
+                saida.add(new Dtos.BancaView(banca, linha.getQuestoes()));
+            }
+        }
+        return saida;
+    }
+
+    @Transactional(readOnly = true)
+    public Dtos.DesempenhoView desempenho(Long usuarioId, String concurso, String banca) {
         long respondidas = 0;
         long acertos = 0;
         List<Dtos.MateriaStats> stats = new ArrayList<>();
-        String filtro = concurso == null || concurso.isBlank() ? null : concurso;
-        for (AttemptRepository.MateriaStats linha : attempts.findMateriaStats(usuarioId, filtro)) {
+        String filtroConcurso = concurso == null || concurso.isBlank() ? null : concurso;
+        String filtroBanca = banca == null || banca.isBlank() ? null : banca;
+        for (AttemptRepository.MateriaStats linha
+                : attempts.findMateriaStats(usuarioId, filtroConcurso, filtroBanca)) {
             stats.add(new Dtos.MateriaStats(linha.getMateria(), linha.getRespondidas(), linha.getAcertos()));
             respondidas += linha.getRespondidas();
             acertos += linha.getAcertos();
@@ -135,6 +160,13 @@ public class QuestaoService {
             return true;
         }
         return q.getConcursos().contains(concurso);
+    }
+
+    private static boolean atendeBanca(Question q, String banca) {
+        if (banca == null || banca.isBlank()) {
+            return true;
+        }
+        return q.getBanca() != null && q.getBanca().trim().equalsIgnoreCase(banca.trim());
     }
 
     private static String letra(int indice) {

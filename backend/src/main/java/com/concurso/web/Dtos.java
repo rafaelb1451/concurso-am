@@ -53,6 +53,37 @@ public final class Dtos {
     public record ConcursoView(String id, long total) {
     }
 
+    /** Quantidade de questoes por banca, da mais cobrada para a menos cobrada. */
+    public record BancaView(String banca, long questoes) {
+    }
+
+    /** Item da lista publica de materiais: sem o conteudo, que so' vai no detalhe. */
+    public record MaterialResumoView(
+            Long id,
+            String slug,
+            String titulo,
+            String resumo,
+            String categoria,
+            String fonte,
+            Integer ordem
+    ) {
+    }
+
+    /** Material completo, com o texto puro que o frontend renderiza em paragrafos. */
+    public record MaterialView(
+            Long id,
+            String concurso,
+            String slug,
+            String titulo,
+            String resumo,
+            String categoria,
+            String fonte,
+            String conteudo,
+            Integer ordem,
+            java.time.Instant atualizadoEm
+    ) {
+    }
+
     public record MateriaStats(String materia, long respondidas, long acertos) {
     }
 

@@ -28,11 +28,13 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
                     FROM question_concursos qc
                     WHERE qc.question_id = q.id AND qc.concurso = :concurso
                 ))
+              AND (:banca IS NULL OR :banca = '' OR UPPER(q.banca) = UPPER(:banca))
             GROUP BY q.materia
             ORDER BY COUNT(a.id) DESC
             """, nativeQuery = true)
     List<MateriaStats> findMateriaStats(@Param("usuarioId") Long usuarioId,
-                                        @Param("concurso") String concurso);
+                                        @Param("concurso") String concurso,
+                                        @Param("banca") String banca);
 
     /** Serie diaria de respostas do usuario (para o grafico de evolucao). */
     @Query(value = """
@@ -49,12 +51,14 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
                     FROM question_concursos qc
                     WHERE qc.question_id = q.id AND qc.concurso = :concurso
                 ))
+              AND (:banca IS NULL OR :banca = '' OR UPPER(q.banca) = UPPER(:banca))
             GROUP BY CAST(a.criada_em AS DATE)
             ORDER BY CAST(a.criada_em AS DATE)
             """, nativeQuery = true)
     List<EvolucaoDiaria> findEvolucaoDiaria(@Param("usuarioId") Long usuarioId,
                                             @Param("concurso") String concurso,
                                             @Param("materia") String materia,
+                                            @Param("banca") String banca,
                                             @Param("inicio") Instant inicio);
 
     /** Atribui as respostas legadas (sem dono) ao usuario administrador. */

@@ -1,6 +1,15 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { api } from './api'
-import { answer, jsonResponse, mockFetch, question } from './test/fixtures'
+import { api, ApiError } from './api'
+import {
+  answer,
+  bancas,
+  concursos,
+  jsonResponse,
+  material,
+  materiais,
+  mockFetch,
+  question,
+} from './test/fixtures'
 
 afterEach(() => {
   vi.unstubAllGlobals()
@@ -8,31 +17,85 @@ afterEach(() => {
 })
 
 describe('api', () => {
-  it('monta a query ignorando concurso TODOS e parâmetros vazios', async () => {
+  it('monta a query ignorando banca TODAS, concurso TODOS e parâmetros vazios', async () => {
     const fetchMock = mockFetch(() => jsonResponse([]))
 
-    await api.questoes('TODOS', '', undefined, 10)
+    await api.questoes('TODAS', 'TODOS', '', '', 10)
 
     expect(fetchMock).toHaveBeenCalledWith('/api/questoes?quantidade=10')
   })
 
-  it('envia os filtros escolhidos na query', async () => {
+  it('envia banca e certame escolhidos na query', async () => {
     const fetchMock = mockFetch(() => jsonResponse([]))
 
-    await api.questoes('PM-AM', 'Direito Penal', 'Crimes', 5)
+    await api.questoes('FGV', 'PM-AM', 'Direito Penal', 'Crimes', 5)
 
     expect(fetchMock).toHaveBeenCalledWith(
-      '/api/questoes?concurso=PM-AM&materia=Direito+Penal&assunto=Crimes&quantidade=5',
+      '/api/questoes?banca=FGV&concurso=PM-AM&materia=Direito+Penal&assunto=Crimes&quantidade=5',
     )
   })
 
   it('devolve o corpo tipado da resposta', async () => {
     mockFetch(() => jsonResponse([question()]))
 
-    const questoes = await api.questoes('PM-AM', undefined, undefined, 1)
+    const questoes = await api.questoes('FGV', 'PM-AM', undefined, undefined, 1)
 
     expect(questoes).toHaveLength(1)
     expect(questoes[0].enunciado).toContain('Enunciado da questão um')
+  })
+
+  it('busca bancas e certames dinâmicos', async () => {
+    const fetchMock = mockFetch((url) => {
+      if (url === '/api/bancas') return jsonResponse(bancas)
+      if (url === '/api/concursos') return jsonResponse(concursos)
+      throw new Error(`rota não mockada: ${url}`)
+    })
+
+    expect(await api.bancas()).toEqual(bancas)
+    expect(await api.concursos()).toEqual(concursos)
+    expect(fetchMock).toHaveBeenCalledWith('/api/bancas')
+    expect(fetchMock).toHaveBeenCalledWith('/api/concursos')
+  })
+
+  it('busca a lista e o conteúdo integral de materiais', async () => {
+    const fetchMock = mockFetch((url) => {
+      if (url === '/api/materiais?concurso=CREA-AM') return jsonResponse(materiais)
+      if (url === '/api/materiais/lei-5194-1966') return jsonResponse(material)
+      throw new Error(`rota não mockada: ${url}`)
+    })
+
+    expect(await api.materiais('CREA-AM')).toHaveLength(2)
+    expect((await api.material('lei-5194-1966')).conteudo).toContain('Art. 1º')
+    expect(fetchMock).toHaveBeenCalledWith('/api/materiais?concurso=CREA-AM')
+    expect(fetchMock).toHaveBeenCalledWith('/api/materiais/lei-5194-1966')
+  })
+
+  it('envia banca, certame e quantidade no simulado e na evolução', async () => {
+    const fetchMock = mockFetch(() => jsonResponse({}))
+
+    await api.simulado('FGV', 'CREA-AM', 20)
+    await api.evolucao('FGV', 'CREA-AM', undefined, 30)
+    await api.desempenho('FGV', 'CREA-AM')
+    await api.topicos('FGV', 'CREA-AM')
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/simulado?banca=FGV&concurso=CREA-AM&quantidade=20',
+    )
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/evolucao?banca=FGV&concurso=CREA-AM&dias=30',
+    )
+    expect(fetchMock).toHaveBeenCalledWith('/api/desempenho?banca=FGV&concurso=CREA-AM')
+    expect(fetchMock).toHaveBeenCalledWith('/api/topicos?banca=FGV&concurso=CREA-AM')
+  })
+
+  it('expõe o status 404 para a UI tratar materiais ausentes', async () => {
+    mockFetch(() => jsonResponse({ message: 'material não encontrado' }, false, 404))
+
+    await expect(api.material('inexistente')).rejects.toMatchObject({
+      name: 'ApiError',
+      status: 404,
+    })
+    await expect(api.material('inexistente')).rejects.toBeInstanceOf(ApiError)
   })
 
   it('propaga a mensagem de erro devolvida pelo servidor', async () => {

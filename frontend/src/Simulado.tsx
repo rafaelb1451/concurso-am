@@ -1,9 +1,25 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { api, type Correcao, type Simulado as SimuladoTipo } from './api'
+import { PencilLine } from 'lucide-react'
+import {
+  api,
+  type Banca,
+  type Concurso,
+  type Correcao,
+  type Simulado as SimuladoTipo,
+} from './api'
 import Rascunho from './Rascunho'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
-const DURACAO_MIN: Record<string, number> = { 'PM-AM': 210, 'PC-AM': 240 }
+
+/** Estimativa de prova: ~3,5 min por questão, arredondada para 5 minutos. */
+function duracaoMinutos(quantidade: number): number {
+  return Math.max(30, Math.round((quantidade * 3.5) / 5) * 5)
+}
+
+/** Total previsto pelo backend; cai para a quantidade pedida quando ele não informa. */
+function totalDaProva(simulado: SimuladoTipo, quantidade: number): number {
+  return simulado.totalPrevisto > 0 ? simulado.totalPrevisto : quantidade
+}
 
 type Etapa = 'inicio' | 'prova' | 'resultado'
 
@@ -19,9 +35,21 @@ function formatar(segundos: number): string {
  * Simulado no formato da prova: mesma distribuição de matérias do caderno,
  * tempo de prova, e gabarito só no final — como na banca.
  */
-export default function Simulado({ concursoInicial }: { concursoInicial: string }) {
+export default function Simulado({
+  bancaInicial = 'TODAS',
+  concursoInicial = 'TODOS',
+  bancas = [],
+  concursos = [],
+}: {
+  bancaInicial?: string
+  concursoInicial?: string
+  bancas?: Banca[]
+  concursos?: Concurso[]
+}) {
   const [etapa, setEtapa] = useState<Etapa>('inicio')
-  const [concurso, setConcurso] = useState(concursoInicial === 'PC-AM' ? 'PC-AM' : 'PM-AM')
+  const [banca, setBanca] = useState(bancaInicial)
+  const [concurso, setConcurso] = useState(concursoInicial)
+  const [quantidade, setQuantidade] = useState(50)
   const [simulado, setSimulado] = useState<SimuladoTipo | null>(null)
   const [indice, setIndice] = useState(0)
   const [respostas, setRespostas] = useState<Record<number, number>>({})
@@ -30,6 +58,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
   const [tempoGasto, setTempoGasto] = useState(0)
+  const [rascunhoAberto, setRascunhoAberto] = useState(false)
   const finalizando = useRef(false)
 
   const finalizar = useCallback(async () => {
@@ -41,7 +70,8 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
         .filter((q) => respostas[q.id] !== undefined)
         .map((q) => ({ questaoId: q.id, alternativa: respostas[q.id] }))
       const c = await api.corrigirSimulado(simulado.concurso, lista)
-      setTempoGasto((DURACAO_MIN[simulado.concurso] ?? 210) * 60 - restante)
+      const total = totalDaProva(simulado, quantidade)
+      setTempoGasto(duracaoMinutos(total) * 60 - restante)
       setCorrecao(c)
       setEtapa('resultado')
     } catch {
@@ -50,7 +80,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
       setCarregando(false)
       finalizando.current = false
     }
-  }, [simulado, respostas, restante])
+  }, [simulado, respostas, restante, quantidade])
 
   useEffect(() => {
     if (etapa !== 'prova') return
@@ -66,13 +96,15 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
     setCarregando(true)
     setErro(null)
     try {
-      const s = await api.simulado(concurso)
+      const s = await api.simulado(banca, concurso, quantidade)
       setSimulado(s)
       setRespostas({})
       setIndice(0)
-      setRestante((DURACAO_MIN[s.concurso] ?? 210) * 60)
+      // O backend pode ajustar o total (formato do caderno); o cronômetro segue o total real.
+      setRestante(duracaoMinutos(totalDaProva(s, quantidade)) * 60)
       setTempoGasto(0)
       setCorrecao(null)
+      setRascunhoAberto(false)
       setEtapa('prova')
     } catch {
       setErro('Não foi possível montar o simulado.')
@@ -82,6 +114,12 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
   }
 
   const atual = simulado?.questoes[indice]
+
+  // Ao navegar entre questões, a gaveta fecha para não cobrir a próxima.
+  useEffect(() => {
+    setRascunhoAberto(false)
+  }, [atual?.id])
+
   const respondidas = Object.keys(respostas).length
   const progresso = simulado ? Math.round((respondidas / simulado.questoes.length) * 100) : 0
   const emRisco = restante > 0 && restante < 300
@@ -95,32 +133,77 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
 
   // ---------------- início ----------------
   if (etapa === 'inicio') {
+    const certames = concursos.filter((item) => item.id !== 'TODOS')
+    const opcoesCertame =
+      concurso !== 'TODOS' && !certames.some((item) => item.id === concurso)
+        ? [{ id: concurso, total: 0 }, ...certames]
+        : certames
+    const opcoesBanca =
+      banca !== 'TODAS' && !bancas.some((item) => item.banca === banca)
+        ? [{ banca, questoes: 0 }, ...bancas]
+        : bancas
+
     return (
       <div className="rounded-[14px] border border-ink-200 bg-surface p-6 shadow-card">
         <h2 className="text-base font-bold text-ink-900">Simulado</h2>
         <p className="mt-1 text-sm text-ink-500">
-          Prova no formato do caderno da banca: mesma distribuição de matérias e tempo de prova. O
+          Prova no formato do caderno da banca: distribuição de matérias e tempo de prova. O
           gabarito aparece só no final.
         </p>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {(['PM-AM', 'PC-AM'] as const).map((c) => (
-            <button
-              key={c}
-              onClick={() => setConcurso(c)}
-              className={
-                concurso === c
-                  ? 'rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white'
-                  : 'rounded-xl border border-ink-200 px-4 py-2 text-sm font-semibold text-ink-700'
-              }
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <label className="block">
+            <span className="text-xs font-semibold text-ink-700">Banca</span>
+            <select
+              aria-label="Banca"
+              value={banca}
+              onChange={(e) => setBanca(e.target.value)}
+              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
             >
-              {c === 'PM-AM' ? 'Soldado PM-AM (60 questões)' : 'Investigador PC-AM (80 questões)'}
-            </button>
-          ))}
+              <option value="TODAS">Todas as bancas</option>
+              {opcoesBanca.map((item) => (
+                <option key={item.banca} value={item.banca}>
+                  {item.banca} ({item.questoes})
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="block">
+            <span className="text-xs font-semibold text-ink-700">Certame</span>
+            <select
+              aria-label="Certame"
+              value={concurso}
+              onChange={(e) => setConcurso(e.target.value)}
+              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+            >
+              <option value="TODOS">Todos os certames</option>
+              {opcoesCertame.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.id} ({item.total})
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="block">
+            <span className="text-xs font-semibold text-ink-700">Quantidade</span>
+            <select
+              aria-label="Quantidade"
+              value={quantidade}
+              onChange={(e) => setQuantidade(Number(e.target.value))}
+              className="mt-1 w-full rounded-xl border border-ink-200 bg-white px-3 py-2 text-sm"
+            >
+              {[20, 30, 40, 50].map((n) => (
+                <option key={n} value={n}>{n} questões</option>
+              ))}
+            </select>
+          </label>
         </div>
 
         <p className="mt-3 text-xs text-ink-400">
-          Duração: {DURACAO_MIN[concurso]} minutos · sem consulta · correção com comentários no fim.
+          Duração estimada: {duracaoMinutos(quantidade)} minutos · sem consulta · correção com
+          comentários no fim.
         </p>
 
         {erro ? (
@@ -175,6 +258,7 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
                 setEtapa('inicio')
                 setCorrecao(null)
                 setSimulado(null)
+                setRascunhoAberto(false)
               }}
               className="rounded-xl bg-brand-700 px-4 py-2 text-sm font-semibold text-white"
             >
@@ -260,6 +344,13 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
           <span className="rounded-full bg-ink-50 px-2.5 py-1 font-semibold text-ink-600">
             {atual.assunto}
           </span>
+          <button
+            onClick={() => setRascunhoAberto(true)}
+            className="ml-auto inline-flex items-center gap-1.5 rounded-lg border border-ink-200 bg-surface px-2.5 py-1.5 font-semibold text-ink-600 transition hover:border-brand-300 hover:text-brand-700"
+          >
+            <PencilLine className="h-3.5 w-3.5" />
+            Rascunho
+          </button>
         </div>
 
         <p className="whitespace-pre-line text-[15px] leading-relaxed text-ink-900">
@@ -287,7 +378,11 @@ export default function Simulado({ concursoInicial }: { concursoInicial: string 
           })}
         </ul>
 
-        <Rascunho questaoId={atual.id} compact />
+        <Rascunho
+          questaoId={atual.id}
+          open={rascunhoAberto}
+          onClose={() => setRascunhoAberto(false)}
+        />
 
         <div className="mt-4 flex items-center justify-between gap-2">
           <button

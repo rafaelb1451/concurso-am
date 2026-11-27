@@ -51,9 +51,18 @@ public record QuestionPayload(
         q.setAlternativas(alternativas == null ? List.of() : new ArrayList<>(alternativas));
         q.setCorreta(correta == null ? 0 : correta);
         q.setExplicacao(explicacao);
-        // Sem marcacao no arquivo, a questao vale para os dois concursos (conteudo comum).
-        q.setConcursos(new LinkedHashSet<>(
-                concursos == null || concursos.isEmpty() ? Concursos.TODOS : concursos));
+        // Sem marcacao no arquivo, a questao vale para os dois concursos historicos (conteudo
+        // comum). Codigos explicitos sao normalizados; a validacao de formato fica no ImportService.
+        java.util.Set<String> marcados = new LinkedHashSet<>();
+        if (concursos != null) {
+            for (String concurso : concursos) {
+                String codigo = Concursos.normalizar(concurso);
+                if (codigo != null) {
+                    marcados.add(codigo);
+                }
+            }
+        }
+        q.setConcursos(marcados.isEmpty() ? new LinkedHashSet<>(Concursos.TODOS) : marcados);
         q.setHash(hashDe(enunciado));
         q.setPrecedente(precedente);
         if (verificadoEm != null && !verificadoEm.isBlank()) {
