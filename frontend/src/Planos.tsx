@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import {
   api,
   type AssinaturaAtual,
-  type DadosCheckout,
   type Plano,
   type UsoPlano,
 } from './api'
@@ -22,16 +21,6 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
   const [enviando, setEnviando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
   const [mensagem, setMensagem] = useState<string | null>(null)
-
-  const [form, setForm] = useState<DadosCheckout>({
-    plano: '',
-    cpfCnpj: '',
-    telefone: '',
-    cep: '',
-    endereco: '',
-    numero: '',
-    bairro: '',
-  })
 
   useEffect(() => {
     let ativo = true
@@ -64,14 +53,14 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
     setErro(null)
     setMensagem(null)
     setPlanoEscolhido(plano)
-    setForm((atual) => ({ ...atual, plano: plano.codigo }))
   }
 
   async function assinar() {
+    if (!planoEscolhido) return
     setErro(null)
     setEnviando(true)
     try {
-      const resposta = await api.iniciarCheckout(form)
+      const resposta = await api.iniciarCheckout({ plano: planoEscolhido.codigo })
       // a página de pagamento é do gateway; o acesso só vale depois do webhook
       window.location.href = resposta.url
     } catch (e) {
@@ -218,30 +207,16 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
         </div>
       ) : null}
 
-      {/* ---------------- formulário de checkout */}
+      {/* ---------------- confirmação do checkout */}
       {planoEscolhido ? (
         <div className="qb-card p-5">
-          <h3 className="text-sm font-bold text-ink-900">
-            Dados para o pagamento — {planoEscolhido.nome}
-          </h3>
+          <h3 className="text-sm font-bold text-ink-900">Assinar {planoEscolhido.nome}</h3>
           <p className="mt-1 text-xs text-ink-500">
-            O Mercado Pago pede esses dados para emitir a cobrança. O cartão é digitado na página segura
-            dele — nada passa por aqui.
+            Você será levado à página segura do Mercado Pago para concluir a assinatura. O cartão
+            (ou Pix) é informado lá — nada passa por aqui.
           </p>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <Campo rotulo="CPF ou CNPJ" valor={form.cpfCnpj} onChange={(v) => setForm({ ...form, cpfCnpj: v })} />
-            <Campo rotulo="Celular com DDD" valor={form.telefone} onChange={(v) => setForm({ ...form, telefone: v })} />
-            <Campo rotulo="CEP" valor={form.cep} onChange={(v) => setForm({ ...form, cep: v })} />
-            <Campo rotulo="Bairro" valor={form.bairro} onChange={(v) => setForm({ ...form, bairro: v })} />
-            <Campo rotulo="Endereço" valor={form.endereco} onChange={(v) => setForm({ ...form, endereco: v })} />
-            <Campo rotulo="Número" valor={form.numero} onChange={(v) => setForm({ ...form, numero: v })} />
-          </div>
           <div className="mt-4 flex flex-wrap gap-2">
-            <button
-              onClick={() => void assinar()}
-              disabled={enviando || !formCompleto(form)}
-              className="qb-btn disabled:opacity-50"
-            >
+            <button onClick={() => void assinar()} disabled={enviando} className="qb-btn disabled:opacity-50">
               {enviando ? 'Abrindo pagamento…' : 'Ir para o pagamento'}
             </button>
             <button onClick={() => setPlanoEscolhido(null)} className="qb-btn-ghost">
@@ -259,38 +234,7 @@ export default function Planos({ anonimo = false, onAssinar }: { anonimo?: boole
   )
 }
 
-function Campo({
-  rotulo,
-  valor,
-  onChange,
-}: {
-  rotulo: string
-  valor: string
-  onChange: (v: string) => void
-}) {
-  return (
-    <label className="block">
-      <span className="text-xs font-semibold text-ink-700">{rotulo}</span>
-      <input
-        value={valor}
-        onChange={(e) => onChange(e.target.value)}
-        className="mt-1 w-full rounded-xl border border-ink-200 px-3 py-2 text-sm"
-      />
-    </label>
-  )
-}
 
-function formCompleto(dados: DadosCheckout): boolean {
-  return Boolean(
-    dados.plano &&
-      dados.cpfCnpj.trim() &&
-      dados.telefone.trim() &&
-      dados.cep.trim() &&
-      dados.endereco.trim() &&
-      dados.numero.trim() &&
-      dados.bairro.trim(),
-  )
-}
 
 function formatarData(iso: string): string {
   try {

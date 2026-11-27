@@ -24,18 +24,13 @@ public final class DtosAssinatura {
     public record CheckoutRequest(
             @jakarta.validation.constraints.NotBlank(message = "informe o plano")
             String plano,
-            // dados exigidos pelo checkout do Asaas (o cartao e' digitado la', nunca aqui)
-            @jakarta.validation.constraints.NotBlank(message = "informe o CPF/CNPJ")
+            // Opcionais: o Mercado Pago so' precisa do e-mail da conta. Mantidos para o
+            // AsaasGateway (implementacao alternativa), que exige os dados do cliente.
             String cpfCnpj,
-            @jakarta.validation.constraints.NotBlank(message = "informe o celular")
             String telefone,
-            @jakarta.validation.constraints.NotBlank(message = "informe o CEP")
             String cep,
-            @jakarta.validation.constraints.NotBlank(message = "informe o endereco")
             String endereco,
-            @jakarta.validation.constraints.NotBlank(message = "informe o numero")
             String numero,
-            @jakarta.validation.constraints.NotBlank(message = "informe o bairro")
             String bairro
     ) {
     }

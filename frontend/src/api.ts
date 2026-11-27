@@ -148,12 +148,13 @@ export interface UsoPlano {
 
 export interface DadosCheckout {
   plano: string
-  cpfCnpj: string
-  telefone: string
-  cep: string
-  endereco: string
-  numero: string
-  bairro: string
+  /** Opcionais: o Mercado Pago so' precisa do e-mail da conta. */
+  cpfCnpj?: string
+  telefone?: string
+  cep?: string
+  endereco?: string
+  numero?: string
+  bairro?: string
 }
 
 
