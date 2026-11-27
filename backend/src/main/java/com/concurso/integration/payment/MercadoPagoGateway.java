@@ -56,6 +56,9 @@ public class MercadoPagoGateway implements PaymentGateway {
         this.webhookSecret = webhookSecret == null ? "" : webhookSecret.trim();
         this.baseUrl = baseUrl;
         this.mapper = mapper;
+        if (this.accessToken.isEmpty()) {
+            log.warn("MP_ACCESS_TOKEN ausente: checkout desabilitado (pagamentoConfigurado=false).");
+        }
         this.http = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
     }
 

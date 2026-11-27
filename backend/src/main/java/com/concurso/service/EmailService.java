@@ -32,11 +32,23 @@ public class EmailService {
     @Value("${spring.mail.username:}")
     private String smtpUsuario;
 
+    @Value("${spring.mail.password:}")
+    private String smtpSenha;
+
     @Value("${CONCURSO_APP_URL:http://localhost:5173}")
     private String appUrl;
 
     public EmailService(ObjectProvider<JavaMailSender> mailSenderProvider) {
         this.mailSenderProvider = mailSenderProvider;
+    }
+
+    /** Avisa no boot quando o SMTP esta' pela metade (caso classico: .env regravado sem a senha). */
+    @jakarta.annotation.PostConstruct
+    void avisarConfiguracaoIncompleta() {
+        if (preenchido(smtpHost) && preenchido(smtpUsuario) && preenchido(remetente)
+                && !preenchido(smtpSenha)) {
+            log.error("SMTP configurado sem SMTP_PASSWORD: o cadastro vai falhar ao enviar e-mail.");
+        }
     }
 
     public boolean configurado() {
@@ -92,7 +104,8 @@ public class EmailService {
             sender.send(message);
         } catch (Exception e) {
             log.error("Falha ao enviar e-mail por SMTP para {}", to, e);
-            throw new IllegalStateException("Não foi possível enviar o e-mail.");
+            throw new AuthException(org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE,
+                    "Não foi possível enviar o e-mail agora. Tente novamente em instantes.");
         }
     }
 

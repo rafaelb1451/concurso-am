@@ -5,7 +5,7 @@ set -euo pipefail
 
 DOMINIO="${DOMINIO:?}"
 POSTGRES_PASSWORD="${POSTGRES_PASSWORD:?}"
-MP_ACCESS_TOKEN="${MP_ACCESS_TOKEN:-}"
+MP_ACCESS_TOKEN="${MP_ACCESS_TOKEN:?defina MP_ACCESS_TOKEN (sem ele o checkout fica desabilitado)}"
 MP_WEBHOOK_SECRET="${MP_WEBHOOK_SECRET:-}"
 SMTP_HOST="${SMTP_HOST:-smtp.suite.uol}"
 SMTP_USERNAME="${SMTP_USERNAME:-}"
@@ -13,6 +13,11 @@ SMTP_PASSWORD="${SMTP_PASSWORD:-}"
 SMTP_FROM="${SMTP_FROM:-}"
 GOOGLE_CLIENT_ID="${GOOGLE_CLIENT_ID:-}"
 DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
+
+if [ -n "${SMTP_USERNAME:-}" ] && [ -z "${SMTP_PASSWORD:-}" ]; then
+  echo "ERRO: SMTP_USERNAME definido sem SMTP_PASSWORD; o cadastro falharia no envio." >&2
+  exit 1
+fi
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
@@ -26,6 +31,12 @@ if [ ! -d concurso-am ]; then
 fi
 cd concurso-am
 git fetch -q origin && git checkout -q main && git pull -q --ff-only || true
+
+# Nunca sobrescreve o .env sem guardar o anterior: foi assim que os segredos
+# (MP_ACCESS_TOKEN / SMTP_PASSWORD) sumiram num redeploy.
+if [ -f .env ]; then
+  cp .env ".env.bak.$(date +%Y%m%d%H%M%S)"
+fi
 
 cat > .env <<ENV
 DOMINIO=${DOMINIO}

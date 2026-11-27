@@ -130,7 +130,7 @@ public class AssinaturaService {
                 plano.getCiclo(),
                 referencia,
                 urlApp + "/?assinatura=sucesso",
-                urlApp + "/assinatura/cancelado"));
+                urlApp + "/?assinatura=cancelado"));
 
         // Uma linha por checkout: reutilizar a PENDENTE fazia o webhook aplicar o plano
         // do checkout mais recente, nao o plano efetivamente pago (ver auditoria A-01).
