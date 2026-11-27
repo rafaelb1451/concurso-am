@@ -279,11 +279,13 @@ public class SeoController {
     public ResponseEntity<String> faq() {
         List<String[]> perguntas = List.of(
                 new String[]{"O que é o QB Concurso?",
-                        "É uma plataforma de questões comentadas para os concursos de Soldado PM-AM "
-                                + "e Investigador PC-AM, com comentário e fundamento legal em cada questão."},
+                        "É uma plataforma de questões comentadas para os concursos do Amazonas "
+                                + "(PM-AM, PC-AM e CREA-AM), organizada por banca e assunto, com "
+                                + "comentário e fundamento legal em cada questão."},
                 new String[]{"Quais concursos são atendidos?",
-                        "Soldado da Polícia Militar do Amazonas (PM-AM) e Investigador da Polícia "
-                                + "Civil do Amazonas (PC-AM), no estilo da banca FGV."},
+                        "Soldado da PM-AM, Investigador da PC-AM e o concurso do CREA-AM "
+                                + "(legislação e regimentos do Sistema CONFEA/CREA), cada um no "
+                                + "estilo da sua banca."},
                 new String[]{"O que o plano gratuito inclui?",
                         "A conta gratuita permite responder até 20 questões por dia, com comentário "
                                 + "e fundamento, além da prática aberta sem cadastro."},

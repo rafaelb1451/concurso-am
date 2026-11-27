@@ -150,6 +150,20 @@ export default function Inicio({
         </div>
       </section>
 
+
+      {/* ------------------------------------------------------------ para quem */}
+      <section className="mx-auto max-w-6xl px-5 py-14">
+        <h2 className="text-xl font-bold tracking-tight text-ink-900">Para quem é o QB Concurso</h2>
+        <p className="mt-1 text-sm text-ink-500">
+          Conteúdo separado por edital e no estilo da banca de cada prova.
+        </p>
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          <Certame nome="PM-AM — Soldado" banca="FGV" texto="Português, RLM, Informática, Direito Constitucional, Legislação Institucional, História e Geografia do Amazonas." />
+          <Certame nome="PC-AM — Investigador" banca="FGV" texto="Direito Penal e Processual Penal, Administrativo, Constitucional, Português, RLM, Informática, Administração e Contabilidade." />
+          <Certame nome="CREA-AM" banca="ACCESS" texto="Lei 5.194/66, Lei 6.496/77, resoluções do CONFEA e Regimento Interno, com material de estudo e questões autorais." />
+        </div>
+      </section>
+
       {/* ------------------------------------------------------------ planos */}
       <section className="border-y border-ink-200 bg-brand-50/60">
         <div className="mx-auto max-w-6xl px-5 py-14">
@@ -224,6 +238,20 @@ export default function Inicio({
         </div>
       </section>
 
+
+      {/* ------------------------------------------------------------ faq */}
+      <section className="border-t border-ink-200 bg-surface">
+        <div className="mx-auto max-w-6xl px-5 py-14">
+          <h2 className="text-xl font-bold tracking-tight text-ink-900">Perguntas frequentes</h2>
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            <Pergunta pergunta="O que é o QB Concurso?" resposta="Plataforma de questões comentadas para PM-AM, PC-AM e CREA-AM, organizada por banca e assunto, com fundamento legal." />
+            <Pergunta pergunta="O plano gratuito inclui o quê?" resposta="20 questões por dia com comentário e gabarito, além da prática aberta sem cadastro." />
+            <Pergunta pergunta="Tem tutor de IA?" resposta="Sim: ele responde dúvidas sobre a questão em estudo, com foco na letra da lei." />
+            <Pergunta pergunta="Como é o pagamento?" resposta="Mercado Pago (Pix ou cartão); o acesso PRO é liberado automaticamente após a confirmação." />
+          </div>
+        </div>
+      </section>
+
       {/* ------------------------------------------------------------ CTA final */}
       <section className="mx-auto max-w-6xl px-5 py-16 text-center">
         <h2 className="text-2xl font-extrabold tracking-tight text-ink-900">
@@ -279,6 +307,27 @@ function Diferencial({ titulo, texto }: { titulo: string; texto: string }) {
     <div className="rounded-[14px] border border-ink-200 bg-surface p-5">
       <h3 className="text-sm font-bold text-ink-900">{titulo}</h3>
       <p className="mt-1 text-sm text-ink-600">{texto}</p>
+    </div>
+  )
+}
+
+function Certame({ nome, banca, texto }: { nome: string; banca: string; texto: string }) {
+  return (
+    <div className="rounded-[14px] border border-ink-200 bg-surface p-5">
+      <div className="flex items-center gap-2">
+        <h3 className="text-sm font-bold text-ink-900">{nome}</h3>
+        <span className="qb-chip bg-accent-100 text-accent-800">{banca}</span>
+      </div>
+      <p className="mt-2 text-sm text-ink-600">{texto}</p>
+    </div>
+  )
+}
+
+function Pergunta({ pergunta, resposta }: { pergunta: string; resposta: string }) {
+  return (
+    <div className="rounded-[14px] border border-ink-200 bg-white p-4">
+      <h3 className="text-sm font-bold text-ink-900">{pergunta}</h3>
+      <p className="mt-1 text-sm text-ink-600">{resposta}</p>
     </div>
   )
 }
