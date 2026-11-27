@@ -100,7 +100,7 @@ public class AssinaturaService {
                 plano.getValorCentavos(),
                 plano.getCiclo(),
                 referencia,
-                urlApp + "/assinatura/sucesso",
+                urlApp + "/?assinatura=sucesso",
                 urlApp + "/assinatura/cancelado"));
 
         Assinatura assinatura = assinaturas.findFirstByUsuarioIdOrderByCriadaEmDesc(usuarioId)
