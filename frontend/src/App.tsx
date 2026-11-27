@@ -37,6 +37,8 @@ export default function App() {
   const [checandoSessao, setChecandoSessao] = useState(true)
   const [paginaPublica, setPaginaPublica] = useState<PaginaPublica>('inicio')
   const [mostrarAuth, setMostrarAuth] = useState(false)
+  /** Se o login foi aberto pelo botão "Assinar", volta direto para Planos. */
+  const [intentAuth, setIntentAuth] = useState<'planos' | null>(null)
   const [topico, setTopico] = useState<Topico[]>([])
   const [desempenho, setDesempenho] = useState<Desempenho | null>(null)
   const [bancas, setBancas] = useState<Banca[]>([])
@@ -84,6 +86,11 @@ export default function App() {
     // ponto unico: vale para login por e-mail e por Google
     if (auth.token) localStorage.setItem('qb_token', auth.token)
     setUsuario(auth.usuario)
+    setMostrarAuth(false)
+    if (intentAuth === 'planos') {
+      setAba('planos')
+      setIntentAuth(null)
+    }
   }
 
   async function sair() {
@@ -274,7 +281,8 @@ export default function App() {
     )
   }
 
-  function abrirAuth() {
+  function abrirAuth(intent?: 'planos') {
+    setIntentAuth(intent === 'planos' ? 'planos' : null)
     setMostrarAuth(true)
   }
 
@@ -282,16 +290,18 @@ export default function App() {
   if (!usuario) {
     if (mostrarAuth) {
       return (
-        <div className="min-h-screen bg-canvas">
-          <div className="mx-auto max-w-md px-5 py-10">
-            <button
-              onClick={() => setMostrarAuth(false)}
-              className="mb-4 text-[12px] font-semibold text-ink-400 hover:text-ink-700"
-            >
-              ← voltar ao site
-            </button>
-            <AuthScreen onAutenticado={onAutenticado} />
-          </div>
+        <div className="relative">
+          {/* o Auth é um layout de tela cheia (duas colunas no desktop); não pode ir dentro de max-w-md */}
+          <button
+            onClick={() => {
+              setMostrarAuth(false)
+              setIntentAuth(null)
+            }}
+            className="fixed left-4 top-4 z-20 rounded-lg bg-white/90 px-3 py-1.5 text-[12px] font-semibold text-ink-700 shadow-sm backdrop-blur transition hover:bg-white"
+          >
+            ← voltar ao site
+          </button>
+          <AuthScreen onAutenticado={onAutenticado} />
         </div>
       )
     }
@@ -311,7 +321,7 @@ export default function App() {
         ) : null}
         {paginaPublica === 'planos' ? (
           <div className="mx-auto max-w-4xl px-5 py-10">
-            <Planos anonimo onAssinar={abrirAuth} />
+            <Planos anonimo onAssinar={() => abrirAuth('planos')} />
           </div>
         ) : null}
       </div>
