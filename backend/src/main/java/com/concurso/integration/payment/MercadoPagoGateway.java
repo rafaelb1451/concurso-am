@@ -72,6 +72,39 @@ public class MercadoPagoGateway implements PaymentGateway {
         }
 
         boolean anual = "ANUAL".equalsIgnoreCase(dados.ciclo());
+        if (anual) {
+            // plano anual: pagamento unico (Pix ou cartao) no Checkout Pro.
+            // O Mercado Pago nao aceita Pix em cobranca recorrente (preapproval e' cartao).
+            Map<String, Object> item = new LinkedHashMap<>();
+            item.put("title", dados.nomePlano());
+            item.put("quantity", 1);
+            item.put("unit_price", dados.valorCentavos() / 100.0);
+            item.put("currency_id", "BRL");
+
+            Map<String, Object> payer = new LinkedHashMap<>();
+            payer.put("email", dados.cliente().email());
+
+            Map<String, Object> backUrls = new LinkedHashMap<>();
+            backUrls.put("success", dados.urlSucesso());
+            backUrls.put("failure", dados.urlCancelamento());
+            backUrls.put("pending", dados.urlSucesso());
+
+            Map<String, Object> corpo = new LinkedHashMap<>();
+            corpo.put("items", java.util.List.of(item));
+            corpo.put("payer", payer);
+            corpo.put("external_reference", dados.referenciaExterna());
+            corpo.put("back_urls", backUrls);
+            corpo.put("auto_return", "approved");
+
+            JsonNode resposta = chamar("POST", "/checkout/preferences", corpo);
+            String id = texto(resposta, "id");
+            String url = primeiraNaoVazia(texto(resposta, "init_point"), texto(resposta, "sandbox_init_point"));
+            if (id.isBlank() || url.isBlank()) {
+                throw new IllegalStateException("O Mercado Pago nao devolveu o link do checkout.");
+            }
+            return new CheckoutCriado(id, url);
+        }
+
         Map<String, Object> autoRecurring = new LinkedHashMap<>();
         autoRecurring.put("frequency", anual ? 12 : 1);
         autoRecurring.put("frequency_type", "months");
