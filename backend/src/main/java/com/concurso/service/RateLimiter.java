@@ -35,5 +35,23 @@ public class RateLimiter {
             }
             fila.addLast(agora);
         }
+        limpar();
+    }
+
+    /**
+     * Evita crescimento sem limite do mapa quando a chave inclui IP: descarta filas vazias
+     * e, se ainda estiver grande, entradas com a ultima marca fora da janela.
+     */
+    private void limpar() {
+        if (janelas.size() < 2_000) {
+            return;
+        }
+        long agora = System.currentTimeMillis();
+        janelas.entrySet().removeIf(e -> {
+            synchronized (e.getValue()) {
+                Long ultima = e.getValue().peekLast();
+                return ultima == null || agora - ultima > JANELA_MS;
+            }
+        });
     }
 }

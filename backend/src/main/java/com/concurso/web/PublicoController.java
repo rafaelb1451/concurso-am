@@ -60,8 +60,9 @@ public class PublicoController {
     @Transactional(readOnly = true)
     public List<Map<String, Object>> questoes(
             @RequestParam String materia,
-            @RequestParam(defaultValue = "10") int quantidade) {
-        limiter.exigir("publico-questoes", 40);
+            @RequestParam(defaultValue = "10") int quantidade,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("publico-questoes:" + ClienteIp.de(requisicao), 40);
         if (materia == null || materia.isBlank()) {
             throw new AuthException(HttpStatus.BAD_REQUEST, "Escolha uma materia para praticar.");
         }
@@ -93,8 +94,9 @@ public class PublicoController {
     /** Corrige uma questão da prática gratuita e mostra o comentário. */
     @PostMapping("/responder")
     @Transactional(readOnly = true)
-    public Map<String, Object> responder(@RequestBody RespostaPublica request) {
-        limiter.exigir("publico-responder", 20);
+    public Map<String, Object> responder(@RequestBody RespostaPublica request,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("publico-responder:" + ClienteIp.de(requisicao), 20);
         if (request == null || request.questaoId() == null || request.alternativa() == null) {
             throw new AuthException(HttpStatus.BAD_REQUEST, "Informe a questao e a alternativa.");
         }

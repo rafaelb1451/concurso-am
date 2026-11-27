@@ -95,7 +95,7 @@ public class AdminController {
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long adminId,
             @jakarta.validation.Valid @RequestBody ConcederRequest request) {
         exigirAdmin(adminFlag);
-        limiter.exigir("admin-conceder", 30);
+        limiter.exigir("admin-conceder:" + adminId, 30);
         Assinatura a = admin.conceder(request.email(), request.plano(), request.dias(), adminId);
         return new AssinaturaAdminView(planoDe(a.getPlanoId()), a.getStatus().name(),
                 a.getPeriodoFim(), a.liberaPro());
@@ -108,7 +108,7 @@ public class AdminController {
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long adminId,
             @jakarta.validation.Valid @RequestBody RevogarRequest request) {
         exigirAdmin(adminFlag);
-        limiter.exigir("admin-revogar", 30);
+        limiter.exigir("admin-revogar:" + adminId, 30);
         Assinatura a = admin.revogar(request.email(), adminId);
         return new AssinaturaAdminView(planoDe(a.getPlanoId()), a.getStatus().name(),
                 a.getPeriodoFim(), a.liberaPro());

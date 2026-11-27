@@ -39,51 +39,58 @@ public class AuthController {
 
     @PostMapping("/cadastro")
     @ResponseStatus(HttpStatus.CREATED)
-    public Dtos.AuthView cadastrar(@Valid @RequestBody Dtos.CadastroRequest request) {
-        limiter.exigir("cadastro", 5);
+    public Dtos.AuthView cadastrar(@Valid @RequestBody Dtos.CadastroRequest request,
+                                   jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("cadastro:" + ClienteIp.de(requisicao), 5);
         return auth.cadastrar(request.nome(), request.email(), request.senha(),
                 request.aceitouTermos(), request.aceitouPrivacidade());
     }
 
     /** Login ou cadastro via Google: recebe o ID token do Google e devolve a sessao. */
     @PostMapping("/google")
-    public Dtos.AuthView google(@Valid @RequestBody Dtos.GoogleRequest request) {
-        limiter.exigir("google", 20);
+    public Dtos.AuthView google(@Valid @RequestBody Dtos.GoogleRequest request,
+                                jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("google:" + ClienteIp.de(requisicao), 20);
         return auth.entrarComGoogle(google.verificar(request.credential()));
     }
 
     @PostMapping("/login")
-    public Dtos.AuthView login(@Valid @RequestBody Dtos.LoginRequest request) {
-        limiter.exigir("login", 10);
+    public Dtos.AuthView login(@Valid @RequestBody Dtos.LoginRequest request,
+                               jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("login:" + ClienteIp.de(requisicao), 10);
         return auth.login(request.email(), request.senha());
     }
 
     @PostMapping("/verificar-email")
-    public Map<String, Object> verificarEmail(@Valid @RequestBody Dtos.VerificarEmailRequest request) {
-        limiter.exigir("verificar-email", 10);
+    public Map<String, Object> verificarEmail(@Valid @RequestBody Dtos.VerificarEmailRequest request,
+                                               jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("verificar-email:" + ClienteIp.de(requisicao), 10);
         auth.verificarEmail(request.token());
         return Map.of("ok", true);
     }
 
     @PostMapping("/reenviar-verificacao")
     public Map<String, Object> reenviarVerificacao(
-            @RequestBody Dtos.SolicitarResetRequest request) {
-        limiter.exigir("reenviar-verificacao", 3);
+            @RequestBody Dtos.SolicitarResetRequest request,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("reenviar-verificacao:" + ClienteIp.de(requisicao), 3);
         auth.reenviarVerificacao(request.email());
         return Map.of("ok", true);
     }
 
     @PostMapping("/solicitar-reset")
     public Map<String, Object> solicitarReset(
-            @Valid @RequestBody Dtos.SolicitarResetRequest request) {
-        limiter.exigir("solicitar-reset", 5);
+            @Valid @RequestBody Dtos.SolicitarResetRequest request,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("solicitar-reset:" + ClienteIp.de(requisicao), 5);
         auth.solicitarReset(request.email());
         return Map.of("ok", true);
     }
 
     @PostMapping("/resetar-senha")
-    public Map<String, Object> resetarSenha(@Valid @RequestBody Dtos.ResetSenhaRequest request) {
-        limiter.exigir("resetar-senha", 5);
+    public Map<String, Object> resetarSenha(@Valid @RequestBody Dtos.ResetSenhaRequest request,
+                                              jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("resetar-senha:" + ClienteIp.de(requisicao), 5);
         auth.resetarSenha(request.token(), request.novaSenha());
         return Map.of("ok", true);
     }
@@ -104,15 +111,16 @@ public class AuthController {
     public Map<String, Object> alterarEmail(
             @Valid @RequestBody Dtos.AlterarEmailRequest request,
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
-        limiter.exigir("alterar-email", 5);
+        limiter.exigir("alterar-email:" + usuarioId, 5);
         auth.solicitarAlteracaoEmail(usuarioId, request.senha(), request.credential(), request.novoEmail());
         return Map.of("ok", true);
     }
 
     @PostMapping("/usuario/confirmar-email")
     public Map<String, Object> confirmarAlteracaoEmail(
-            @Valid @RequestBody Dtos.VerificarEmailRequest request) {
-        limiter.exigir("confirmar-email", 10);
+            @Valid @RequestBody Dtos.VerificarEmailRequest request,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        limiter.exigir("confirmar-email:" + ClienteIp.de(requisicao), 10);
         auth.confirmarAlteracaoEmail(request.token());
         return Map.of("ok", true);
     }
@@ -127,7 +135,7 @@ public class AuthController {
             @Valid @RequestBody Dtos.ConfirmarSenhaRequest request,
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId,
             @RequestHeader(value = "Authorization", required = false) String authorization) {
-        limiter.exigir("excluir-conta", 3);
+        limiter.exigir("excluir-conta:" + usuarioId, 3);
         auth.excluirConta(usuarioId, request.senha(), request.credential());
         auth.logout(extrairToken(authorization));
         return Map.of("ok", true);
