@@ -38,6 +38,7 @@ services:
         condition: service_healthy
     environment:
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       MP_ACCESS_TOKEN: ${MP_ACCESS_TOKEN:-}
       MP_WEBHOOK_TOKEN: ${MP_WEBHOOK_TOKEN:-}
       SMTP_HOST: ${SMTP_HOST:-}
