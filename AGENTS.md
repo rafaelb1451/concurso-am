@@ -301,6 +301,18 @@ python concurso-am\tools\teste-pagamento.py
 
 ## Armadilhas do ambiente
 
+- **Nunca use `basic_auth` no Caddy deste projeto.** O app usa `Authorization: Bearer` no mesmo
+  header; o navegador envia o `Basic` do Caddy e o token do app é sobrescrito — todas as APIs
+  autenticadas passam a responder 401 (“Não foi possível falar com o servidor”). O login do app é
+  a única proteção de acesso.
+- **Healthcheck do container** deve bater em endpoint público (`/api/publico/materias`); usar rota
+  autenticada deixa o container `unhealthy` e o Caddy não sobe (`depends_on: service_healthy`).
+- **Flyway só no perfil prod** (`FLYWAY_ENABLED=true`, `DDL_AUTO=validate`). No perfil padrão
+  (dev/testes com H2) ele fica desligado, senão a migration PostgreSQL quebra o contexto.
+- No `.env`, valores com `$` (hash bcrypt do Caddy, que não usamos mais) precisam de aspas simples;
+  o Compose interpola `$` caso contrário.
+
+
 - **Matar o java à força deixa o H2 read-only** na próxima subida → apagar `backend/data/*` e
   reiniciar (o seed recria as 1.004). Confirmar que a pasta ficou vazia antes de subir.
 - `mvn package` falha com "Unable to rename ...jar" se a aplicação estiver rodando → matar antes.
