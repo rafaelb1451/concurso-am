@@ -39,6 +39,8 @@ services:
     environment:
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      # Desligue em emergencia para reverter ao comportamento antigo (sem escopo).
+      ACESSO_ESCOPO_POR_CERTAME: ${ACESSO_ESCOPO_POR_CERTAME:-true}
       MP_ACCESS_TOKEN: ${MP_ACCESS_TOKEN:-}
       MP_WEBHOOK_TOKEN: ${MP_WEBHOOK_TOKEN:-}
       MP_WEBHOOK_SECRET: ${MP_WEBHOOK_SECRET:-}

@@ -10,6 +10,7 @@ import com.concurso.repo.AssinaturaCertameRepository;
 import com.concurso.repo.AttemptRepository;
 import com.concurso.repo.QuestionRepository;
 import com.concurso.repo.TutorUsoRepository;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -54,10 +55,20 @@ public class AcessoService {
     private final AuditoriaService auditoria;
     private final QuestionRepository questions;
 
+    /**
+     * Feature flag de canário/rollback do escopo por certame. Quando {@code false}, a regra nova
+     * é desligada e {@link #certamesDe(Long)} devolve vazio (sem escopo = comportamento antigo).
+     *
+     * <p>O gating do Tutor {@link #exigirTutor(Long)} <b>não</b> passa por esta flag: continua
+     * derivado do plano ({@link Plano#isTutorIa()} + cota), independentemente do escopo.</p>
+     */
+    private final boolean escopoPorCertame;
+
     public AcessoService(AssinaturaService assinaturas, AttemptRepository attempts,
                          AssinaturaCertameRepository certames, TutorUsoRepository tutorUso,
                          AcessoAuditoriaRepository auditorias, AuditoriaService auditoria,
-                         QuestionRepository questions) {
+                         QuestionRepository questions,
+                         @Value("${concurso.acesso.escopo-por-certame:true}") boolean escopoPorCertame) {
         this.assinaturas = assinaturas;
         this.attempts = attempts;
         this.certames = certames;
@@ -65,6 +76,7 @@ public class AcessoService {
         this.auditorias = auditorias;
         this.auditoria = auditoria;
         this.questions = questions;
+        this.escopoPorCertame = escopoPorCertame;
     }
 
     public Plano planoDe(Long usuarioId) {
@@ -98,6 +110,11 @@ public class AcessoService {
      */
     @Transactional(readOnly = true)
     public Set<String> certamesDe(Long usuarioId) {
+        // Canário/rollback: flag desligada = comportamento antigo (sem escopo por certame).
+        // Todo conteúdo volta a ficar visível, como antes da V4; o Tutor segue pelo plano.
+        if (!escopoPorCertame) {
+            return Set.of();
+        }
         if (usuarioId == null) {
             return Set.of();
         }

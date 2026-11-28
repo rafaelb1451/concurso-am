@@ -2,11 +2,13 @@ package com.concurso.web;
 
 import com.concurso.service.AuthService;
 import com.concurso.service.DadosPessoaisService;
+import com.concurso.service.ExclusaoContaService;
 import com.concurso.service.RateLimiter;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,13 +28,15 @@ public class AuthController {
 
     private final AuthService auth;
     private final DadosPessoaisService dados;
+    private final ExclusaoContaService exclusao;
     private final RateLimiter limiter;
     private final com.concurso.service.GoogleTokenVerifier google;
 
-    public AuthController(AuthService auth, DadosPessoaisService dados, RateLimiter limiter,
-                          com.concurso.service.GoogleTokenVerifier google) {
+    public AuthController(AuthService auth, DadosPessoaisService dados, ExclusaoContaService exclusao,
+                          RateLimiter limiter, com.concurso.service.GoogleTokenVerifier google) {
         this.auth = auth;
         this.dados = dados;
+        this.exclusao = exclusao;
         this.limiter = limiter;
         this.google = google;
     }
@@ -138,6 +142,22 @@ public class AuthController {
         limiter.exigir("excluir-conta:" + usuarioId, 3);
         auth.excluirConta(usuarioId, request.senha(), request.credential());
         auth.logout(extrairToken(authorization));
+        return Map.of("ok", true);
+    }
+
+    /**
+     * Direito ao esquecimento (LGPD): apaga a conta do usuário logado e todos os dados.
+     *
+     * <p>Diferente de {@code POST /api/usuario/excluir} (que exige senha/credencial), este endpoint
+     * é simples — o usuário já está autenticado — e remove também assinaturas, certames, auditoria,
+     * uso do Tutor e eventos de pagamento. A exclusão apaga as sessões (logout) e o {@code TokenConta}.
+     * Um admin pode excluir a própria conta normalmente.</p>
+     */
+    @DeleteMapping("/conta")
+    public Map<String, Object> excluirConta(
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        limiter.exigir("excluir-conta:" + usuarioId, 3);
+        exclusao.excluir(usuarioId);
         return Map.of("ok", true);
     }
 

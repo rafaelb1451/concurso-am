@@ -72,6 +72,19 @@ async function enviar<T>(url: string, metodo: 'POST' | 'PUT', body: unknown): Pr
   return response.json() as Promise<T>
 }
 
+async function remover<T>(url: string): Promise<T> {
+  const token = localStorage.getItem('qb_token')
+  const response = await fetch(`${BASE}${url}`, {
+    method: 'DELETE',
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+  })
+  if (!response.ok) {
+    const erro = (await response.json().catch(() => null)) as { message?: string } | null
+    throw new ApiError(response.status, erro?.message ?? 'Erro ao excluir')
+  }
+  return response.json() as Promise<T>
+}
+
 function post<T>(url: string, body: unknown): Promise<T> {
   return enviar<T>(url, 'POST', body)
 }
@@ -348,8 +361,8 @@ export const api = {
   confirmarAlteracaoEmail: (token: string) =>
     post<{ ok: boolean }>('/usuario/confirmar-email', { token }),
   dadosPessoais: () => get<Record<string, unknown>>('/usuario/dados'),
-  excluirConta: (senha: string | null, credential?: string) =>
-    post<{ ok: boolean }>('/usuario/excluir', { senha, credential }),
+  /** Direito ao esquecimento (LGPD): apaga a conta e todos os dados (simples, sem senha). */
+  excluirConta: () => remover<{ ok: boolean }>('/conta'),
   logout: () => post<{ ok: boolean }>('/logout', {}),
   usuario: () => get<Usuario>('/usuario'),
 

@@ -2,14 +2,23 @@ package com.concurso.web;
 
 import com.concurso.domain.Assinatura;
 import com.concurso.domain.AssinaturaCertame;
+import com.concurso.domain.AcessoAuditoria;
+import com.concurso.domain.EventoPagamento;
+import com.concurso.domain.MaterialCategoria;
+import com.concurso.domain.MaterialEstudo;
 import com.concurso.domain.Plano;
 import com.concurso.domain.StatusAssinatura;
+import com.concurso.domain.TutorUso;
+import com.concurso.domain.TutorUsoId;
 import com.concurso.domain.Usuario;
 import com.concurso.integration.payment.PaymentGateway;
 import com.concurso.repo.AcessoAuditoriaRepository;
 import com.concurso.repo.AssinaturaCertameRepository;
 import com.concurso.repo.AssinaturaRepository;
+import com.concurso.repo.EventoPagamentoRepository;
+import com.concurso.repo.MaterialEstudoRepository;
 import com.concurso.repo.PlanoRepository;
+import com.concurso.repo.TutorUsoRepository;
 import com.concurso.repo.UsuarioRepository;
 import com.concurso.service.AcessoService;
 import com.concurso.service.DeepSeekService;
@@ -29,6 +38,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -77,6 +88,15 @@ class AcessoPorCertameIntegrationTest {
 
     @Autowired
     private AcessoAuditoriaRepository auditorias;
+
+    @Autowired
+    private MaterialEstudoRepository materiais;
+
+    @Autowired
+    private TutorUsoRepository tutorUso;
+
+    @Autowired
+    private EventoPagamentoRepository eventos;
 
     @MockitoBean
     private PaymentGateway gateway;
@@ -295,6 +315,111 @@ class AcessoPorCertameIntegrationTest {
 
         HttpResponse<String> chat = chamar("POST", "/api/chat", chat());
         assertEquals(403, chat.statusCode());
+    }
+
+    @Test
+    void manipularConcursoNaQueryNaoVazaConteudoDeOutroCertame() throws Exception {
+        assinar(usuario, Plano.BASICO, 10, "PM-AM");
+
+        // Adversário tenta ler PC-AM pela query; o backend recusa (403) e devolve só a mensagem de erro.
+        HttpResponse<String> fora = chamar("GET", "/api/questoes?concurso=PC-AM&quantidade=50", null);
+        assertEquals(403, fora.statusCode(), fora.body());
+        assertFalse(fora.body().contains("concursos"), "não pode listar questões do PC-AM: " + fora.body());
+        assertTrue(fora.body().contains("não está incluído"), fora.body());
+    }
+
+    @Test
+    void responderQuestaoDeOutroCertameRetorna403SemRevelarGabarito() throws Exception {
+        // Antes de assinar (FREE, sem escopo), o app devolve as questões com seus certames.
+        HttpResponse<String> amostra = chamar("GET", "/api/questoes?quantidade=50", null);
+        assertEquals(200, amostra.statusCode(), amostra.body());
+        JsonNode lista = mapper.readTree(amostra.body());
+        Long idForaDoEscopo = null;
+        for (JsonNode q : lista) {
+            boolean temPcAm = false;
+            boolean temPmAm = false;
+            for (JsonNode concurso : q.get("concursos")) {
+                temPcAm |= "PC-AM".equals(concurso.asString());
+                temPmAm |= "PM-AM".equals(concurso.asString());
+            }
+            if (temPcAm && !temPmAm) {
+                idForaDoEscopo = q.get("id").asLong();
+                break;
+            }
+        }
+        assertNotNull(idForaDoEscopo, "seed sem questão exclusiva do PC-AM");
+
+        assinar(usuario, Plano.BASICO, 10, "PM-AM");
+
+        HttpResponse<String> resposta = chamar("POST",
+                "/api/questoes/" + idForaDoEscopo + "/responder", "{\"alternativa\":0}");
+        assertEquals(403, resposta.statusCode(), resposta.body());
+        assertFalse(resposta.body().contains("gabarito"), "não pode vazar o gabarito: " + resposta.body());
+        assertFalse(resposta.body().contains("correta"), "não pode vazar a alternativa correta: " + resposta.body());
+        assertTrue(resposta.body().contains("não está incluído"), resposta.body());
+    }
+
+    @Test
+    void materialDeOutroCertameFicaBloqueadoParaUsuarioEscopado() throws Exception {
+        assinar(usuario, Plano.BASICO, 10, "PM-AM");
+
+        MaterialEstudo deOutroCertame = new MaterialEstudo();
+        deOutroCertame.setConcurso("PC-AM");
+        deOutroCertame.setSlug("material-pc-am-teste");
+        deOutroCertame.setTitulo("Material do PC-AM");
+        deOutroCertame.setResumo("Resumo do PC-AM");
+        deOutroCertame.setCategoria(MaterialCategoria.LEI);
+        deOutroCertame.setFonte("Lei de teste");
+        deOutroCertame.setConteudo("Conteúdo que não pode vazar.");
+        deOutroCertame.setOrdem(1);
+        materiais.save(deOutroCertame);
+
+        HttpResponse<String> detalhe = chamar("GET", "/api/materiais/material-pc-am-teste", null);
+        assertEquals(403, detalhe.statusCode(), detalhe.body());
+        assertFalse(detalhe.body().contains("Conteúdo"), "não pode vazar o conteúdo: " + detalhe.body());
+    }
+
+    @Test
+    void excluirContaApagaDadosEInvalidaSessao() throws Exception {
+        assinar(usuario, Plano.BASICO, 10, "PM-AM");
+
+        // Dados pessoais distribuídos que também precisam sumir (LGPD).
+        auditorias.save(auditoria(usuario.getId(), AcessoService.RECURSO_TUTOR, true));
+        tutorUso.save(new TutorUso(usuario.getId(), LocalDate.now(ZoneId.of("America/Sao_Paulo")), 2));
+        String eventId = "evt-" + System.nanoTime();
+        EventoPagamento evento = new EventoPagamento();
+        evento.setGateway("manual");
+        evento.setGatewayEventId(eventId);
+        evento.setTipo("TESTE");
+        evento.setUsuarioId(usuario.getId());
+        eventos.save(evento);
+
+        HttpResponse<String> exclusao = chamar("DELETE", "/api/conta", null);
+        assertEquals(200, exclusao.statusCode(), exclusao.body());
+        assertTrue(mapper.readTree(exclusao.body()).get("ok").asBoolean(), exclusao.body());
+
+        // Sessão invalidada: rotas autenticadas passam a responder 401.
+        assertEquals(401, chamar("GET", "/api/usuario", null).statusCode());
+        assertEquals(401, chamar("GET", "/api/questoes", null).statusCode());
+
+        // Dados apagados do banco.
+        assertTrue(usuarios.findById(usuario.getId()).isEmpty(), "usuário deve sumir");
+        assertTrue(assinaturas.findByUsuarioIdOrderByCriadaEmDesc(usuario.getId()).isEmpty(),
+                "assinaturas devem sumir");
+        assertTrue(tutorUso.findById(new TutorUsoId(usuario.getId(),
+                LocalDate.now(ZoneId.of("America/Sao_Paulo")))).isEmpty(), "tutor_uso deve sumir");
+        assertEquals(0, auditorias.countByUsuarioIdAndRecursoAndPermitidoTrueAndCriadaEmGreaterThanEqual(
+                usuario.getId(), AcessoService.RECURSO_TUTOR, Instant.EPOCH), "auditoria deve sumir");
+        assertTrue(eventos.findByGatewayAndGatewayEventId("manual", eventId).isEmpty(),
+                "evento de pagamento deve sumir");
+    }
+
+    private AcessoAuditoria auditoria(Long usuarioId, String recurso, boolean permitido) {
+        AcessoAuditoria a = new AcessoAuditoria();
+        a.setUsuarioId(usuarioId);
+        a.setRecurso(recurso);
+        a.setPermitido(permitido);
+        return a;
     }
 
     private void assinar(Usuario alvo, String plano, int dias, String... escolhidos) {

@@ -1,6 +1,12 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  acesso:
+    # Feature flag de canario/rollback do escopo por certame.
+    # true  = regra nova (conteudo filtrado pelos certames contratados).
+    # false = comportamento antigo (sem escopo: todo conteudo visivel), para
+    #         desligar em emergencia via ACESSO_ESCOPO_POR_CERTAME=false.
+    escopo-por-certame: ${ACESSO_ESCOPO_POR_CERTAME:true}
   pagbank:
     token: ${PAGBANK_TOKEN:}
     base-url: ${PAGBANK_BASE_URL:https://api.pagseguro.com}

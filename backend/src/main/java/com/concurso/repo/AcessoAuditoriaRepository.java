@@ -12,4 +12,7 @@ public interface AcessoAuditoriaRepository extends JpaRepository<AcessoAuditoria
 
     long countByUsuarioIdAndRecursoAndPermitidoTrueAndCriadaEmGreaterThanEqual(
             Long usuarioId, String recurso, Instant desde);
+
+    /** Apaga a trilha de auditoria do usuário (direito ao esquecimento — LGPD). */
+    void deleteByUsuarioId(Long usuarioId);
 }

@@ -25,4 +25,9 @@ public interface TutorUsoRepository extends JpaRepository<TutorUso, TutorUsoId> 
                AND t.id.dia = :dia
             """)
     int incrementar(@Param("usuarioId") Long usuarioId, @Param("dia") LocalDate dia);
+
+    /** Apaga o contador de uso do Tutor do usuário (direito ao esquecimento — LGPD). */
+    @Modifying(clearAutomatically = true, flushAutomatically = true)
+    @Query("DELETE FROM TutorUso t WHERE t.id.usuarioId = :usuarioId")
+    int deleteByUsuarioId(@Param("usuarioId") Long usuarioId);
 }

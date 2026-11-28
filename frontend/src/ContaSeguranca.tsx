@@ -44,9 +44,7 @@ export default function ContaSeguranca({
 }) {
   const [novoEmail, setNovoEmail] = useState('')
   const [senhaEmail, setSenhaEmail] = useState('')
-  const [senhaExcluir, setSenhaExcluir] = useState('')
   const [credEmail, setCredEmail] = useState<string | null>(null)
-  const [credExcluir, setCredExcluir] = useState<string | null>(null)
   const [mensagem, setMensagem] = useState<string | null>(null)
   const [erro, setErro] = useState<string | null>(null)
 
@@ -90,7 +88,6 @@ export default function ContaSeguranca({
 
   const temSenha = usuario.temSenha
   const confirmacaoEmail = temSenha ? senhaEmail : (credEmail ?? '')
-  const confirmacaoExcluir = temSenha ? senhaExcluir : (credExcluir ?? '')
 
   async function alterarEmail() {
     setErro(null)
@@ -139,10 +136,7 @@ export default function ContaSeguranca({
     }
     setErro(null)
     try {
-      await api.excluirConta(
-        temSenha ? senhaExcluir : null,
-        temSenha ? undefined : (credExcluir ?? undefined),
-      )
+      await api.excluirConta()
       localStorage.removeItem('qb_token')
       onSair()
     } catch (e) {
@@ -513,17 +507,13 @@ export default function ContaSeguranca({
           Excluir conta
         </h3>
         <p className="mt-1 text-sm leading-relaxed text-ink-700">
-          Apaga permanentemente perfil, respostas, sessões de estudo e tokens. Esta ação não pode
-          ser desfeita.
+          Apaga permanentemente perfil, respostas, sessões de estudo, assinaturas e tokens. Esta
+          ação não pode ser desfeita.
         </p>
         <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center">
-          <div className="min-w-0 sm:max-w-xs sm:flex-1">
-            {confirmacao(senhaExcluir, setSenhaExcluir, setCredExcluir, Boolean(credExcluir), 'perigo')}
-          </div>
           <button
             type="button"
             onClick={() => void excluir()}
-            disabled={!confirmacaoExcluir}
             className="qb-btn-danger w-full sm:w-auto"
           >
             Excluir minha conta
