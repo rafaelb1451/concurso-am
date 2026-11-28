@@ -1,12 +1,24 @@
-import { useEffect, useMemo, useState } from 'react'
-import { ArrowLeft, ArrowRight, BookOpenText, FileText, LibraryBig, Trophy } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpenText,
+  Download,
+  FileText,
+  LibraryBig,
+  LoaderCircle,
+  Network,
+  Trophy,
+} from 'lucide-react'
 import {
   api,
   ApiError,
   type Concurso,
+  type MapaMental,
   type Material,
   type MaterialResumo,
 } from './api'
+import Sheet from './Sheet'
 import { Card, EmptyState, ErrorBanner, LoadingState, PageHeader } from './ui'
 
 const CATEGORIA: Record<string, string> = {
@@ -42,6 +54,78 @@ function paragrafosDe(conteudo: string): string[] {
 }
 
 /**
+ * Conteúdo do mapa mental em texto puro: um cartão central para o tema e uma
+ * lista hierárquica de ramos conectada por linhas (sem imagens externas).
+ */
+function MapaMentalConteudo({ mapa }: { mapa: MapaMental }) {
+  return (
+    <div>
+      <div className="rounded-2xl border border-brand-200 bg-gradient-to-b from-brand-50 to-surface p-4">
+        <p className="qb-eyebrow">Tema central</p>
+        <p className="mt-1 break-words text-[15px] font-bold leading-snug text-ink-900">
+          {mapa.tema}
+        </p>
+        <p className="mt-1 break-words text-[11px] font-medium text-ink-500">{mapa.titulo}</p>
+      </div>
+
+      {mapa.ramos.length === 0 ? (
+        <p className="mt-4 rounded-xl border border-dashed border-ink-300 bg-surface px-4 py-6 text-center text-sm text-ink-500">
+          Os ramos deste mapa mental ainda não foram publicados.
+        </p>
+      ) : (
+        <>
+          <div aria-hidden="true" className="ml-5 h-5 w-px bg-brand-300 sm:ml-6" />
+          <ol
+            aria-label="Ramos do mapa mental"
+            className="space-y-3 border-l border-brand-300 pl-4 sm:pl-6"
+          >
+            {mapa.ramos.map((ramo, indice) => (
+              <li key={`${indice}-${ramo.titulo}`} className="relative">
+                <span
+                  aria-hidden="true"
+                  className="absolute -left-4 top-6 h-px w-4 bg-brand-300 sm:-left-6 sm:w-6"
+                />
+                <section className="rounded-xl border border-ink-200 bg-surface p-3.5 shadow-sm sm:p-4">
+                  <div className="flex items-start gap-2.5">
+                    <span
+                      aria-hidden="true"
+                      className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-700 text-[11px] font-bold text-white"
+                    >
+                      {indice + 1}
+                    </span>
+                    <h3 className="min-w-0 break-words text-sm font-bold leading-snug text-ink-900">
+                      {ramo.titulo}
+                    </h3>
+                  </div>
+                  {ramo.itens.length ? (
+                    <ul className="mt-2.5 space-y-1.5 pl-1">
+                      {ramo.itens.map((item, itemIndice) => (
+                        <li
+                          key={itemIndice}
+                          className="flex gap-2 text-[13px] leading-relaxed text-ink-700"
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="mt-[0.45rem] h-1.5 w-1.5 shrink-0 rounded-full bg-accent-400"
+                          />
+                          <span className="min-w-0 break-words">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-2 pl-1 text-xs text-ink-500">Sem detalhes neste ramo.</p>
+                  )}
+                </section>
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
+    </div>
+  )
+}
+
+/**
  * Certames: visão por concurso-alvo.
  * Os cards mostram o volume de questões e de materiais; ao abrir, o aluno lê o
  * material (texto puro, sem HTML) ou parte direto para as questões do certame.
@@ -69,6 +153,16 @@ export default function Certames({
   const [material, setMaterial] = useState<Material | null>(null)
   const [carregandoMaterial, setCarregandoMaterial] = useState(false)
   const [materialErro, setMaterialErro] = useState<string | null>(null)
+
+  // Recursos opcionais do leitor: mapa mental e PDF, ambos buscados sob demanda.
+  const [mapaAberto, setMapaAberto] = useState(false)
+  const [mapa, setMapa] = useState<MapaMental | null>(null)
+  const [carregandoMapa, setCarregandoMapa] = useState(false)
+  const [mapaErro, setMapaErro] = useState<string | null>(null)
+  const [pdfGerando, setPdfGerando] = useState(false)
+  const [pdfErro, setPdfErro] = useState<string | null>(null)
+  // Descarta respostas atrasadas ao trocar de material com o mapa ainda aberto.
+  const mapaPedido = useRef(0)
 
   const certames = useMemo(
     () => concursos.filter((concurso) => concurso.id !== 'TODOS'),
@@ -123,7 +217,18 @@ export default function Certames({
     }
   }
 
+  function limparRecursosExtras() {
+    mapaPedido.current += 1
+    setMapaAberto(false)
+    setMapa(null)
+    setMapaErro(null)
+    setCarregandoMapa(false)
+    setPdfGerando(false)
+    setPdfErro(null)
+  }
+
   async function abrirMaterial(slug: string) {
+    limparRecursosExtras()
     setCarregandoMaterial(true)
     setMaterialErro(null)
     setMaterial(null)
@@ -140,7 +245,62 @@ export default function Certames({
     }
   }
 
+  async function abrirMapaMental() {
+    if (!material) return
+    const pedido = ++mapaPedido.current
+    setMapaAberto(true)
+    setMapa(null)
+    setMapaErro(null)
+    setCarregandoMapa(true)
+    try {
+      const dados = await api.mapaMental(material.slug)
+      if (pedido === mapaPedido.current) setMapa(dados)
+    } catch (e) {
+      if (pedido !== mapaPedido.current) return
+      if (e instanceof ApiError && e.status === 404) {
+        setMapaErro('Este material ainda não tem mapa mental publicado.')
+      } else {
+        setMapaErro(e instanceof Error ? e.message : 'Não foi possível montar o mapa mental.')
+      }
+    } finally {
+      if (pedido === mapaPedido.current) setCarregandoMapa(false)
+    }
+  }
+
+  async function baixarPdf() {
+    if (!material || pdfGerando) return
+    setPdfGerando(true)
+    setPdfErro(null)
+    let url: string | null = null
+    try {
+      const blob = await api.materialPdf(material.slug)
+      url = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = `${material.slug}.pdf`
+      link.rel = 'noopener'
+      link.style.display = 'none'
+      document.body.appendChild(link)
+      link.click()
+      link.remove()
+    } catch (e) {
+      if (e instanceof ApiError && e.status === 404) {
+        setPdfErro('O PDF deste material ainda não está disponível. Tente novamente mais tarde.')
+      } else {
+        setPdfErro(e instanceof Error ? e.message : 'Não foi possível gerar o PDF deste material.')
+      }
+    } finally {
+      setPdfGerando(false)
+      const criada = url
+      if (criada) {
+        // Deixa o navegador iniciar o download antes de liberar o objeto.
+        window.setTimeout(() => URL.revokeObjectURL(criada), 0)
+      }
+    }
+  }
+
   function voltarAosMateriais() {
+    limparRecursosExtras()
     setMaterial(null)
     setMaterialErro(null)
   }
@@ -196,19 +356,56 @@ export default function Certames({
                   {material.resumo}
                 </p>
               ) : null}
-              <button
-                type="button"
-                onClick={() =>
-                  onEstudar(concursoDoMaterial ?? '', {
-                    materia: material.materia ?? undefined,
-                    assunto: material.assunto ?? undefined,
-                  })
-                }
-                className="qb-btn mt-5 w-full sm:w-auto sm:px-5"
+              <div
+                role="group"
+                aria-label="Ações do material"
+                className="mt-5 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center"
               >
-                Ir para as questões deste material
-                <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </button>
+                <button
+                  type="button"
+                  onClick={() =>
+                    onEstudar(concursoDoMaterial ?? '', {
+                      materia: material.materia ?? undefined,
+                      assunto: material.assunto ?? undefined,
+                    })
+                  }
+                  className="qb-btn w-full sm:w-auto sm:px-5"
+                >
+                  Ir para as questões deste material
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => void abrirMapaMental()}
+                  className="qb-btn-ghost w-full sm:w-auto"
+                  aria-label="Mapa mental"
+                  aria-haspopup="dialog"
+                  aria-expanded={mapaAberto}
+                  aria-controls={mapaAberto ? 'mapa-mental-panel' : undefined}
+                >
+                  <Network className="h-4 w-4 text-brand-700" aria-hidden="true" />
+                  Mapa mental
+                </button>
+                <button
+                  type="button"
+                  onClick={() => void baixarPdf()}
+                  disabled={pdfGerando}
+                  aria-label="Baixar PDF"
+                  aria-busy={pdfGerando}
+                  className="qb-btn-ghost w-full sm:w-auto"
+                >
+                  {pdfGerando ? (
+                    <LoaderCircle className="h-4 w-4 animate-spin" aria-hidden="true" />
+                  ) : (
+                    <Download className="h-4 w-4 text-brand-700" aria-hidden="true" />
+                  )}
+                  {pdfGerando ? 'Gerando…' : 'Baixar PDF'}
+                </button>
+                <span className="sr-only" role="status">
+                  {pdfGerando ? 'Gerando o PDF do material…' : ''}
+                </span>
+              </div>
+              {pdfErro ? <ErrorBanner className="mt-3">{pdfErro}</ErrorBanner> : null}
             </header>
 
             <div className="px-4 py-5 sm:px-7 sm:py-8">
@@ -246,6 +443,41 @@ export default function Certames({
               </div>
             </div>
           </article>
+        ) : null}
+
+        {material ? (
+          <Sheet
+            open={mapaAberto}
+            onClose={() => setMapaAberto(false)}
+            title="Mapa mental"
+            description={material.titulo}
+            icon={<Network className="h-5 w-5" aria-hidden="true" />}
+            panelId="mapa-mental-panel"
+            overlayLabel="Fechar mapa mental"
+            footer={
+              <button
+                type="button"
+                onClick={() => setMapaAberto(false)}
+                className="qb-btn-ghost w-full"
+              >
+                Fechar mapa mental
+              </button>
+            }
+          >
+            <div className="px-4 py-4 sm:px-5 sm:py-5">
+              {carregandoMapa ? (
+                <LoadingState label="Montando o mapa mental…" lines={4} />
+              ) : null}
+
+              {!carregandoMapa && mapaErro ? (
+                <ErrorBanner onRetry={() => void abrirMapaMental()}>{mapaErro}</ErrorBanner>
+              ) : null}
+
+              {!carregandoMapa && !mapaErro && mapa ? (
+                <MapaMentalConteudo mapa={mapa} />
+              ) : null}
+            </div>
+          </Sheet>
         ) : null}
       </div>
     )

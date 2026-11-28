@@ -63,9 +63,9 @@ public class AuthInterceptor implements HandlerInterceptor {
         if ("GET".equalsIgnoreCase(metodo) && "/api/planos".equals(caminho)) {
             return true;
         }
-        // material de estudo: leitura publica; escrita continua sem rota
-        if ("GET".equalsIgnoreCase(metodo)
-                && ("/api/materiais".equals(caminho) || caminho.startsWith("/api/materiais/"))) {
+        // material de estudo: lista e DETALHE por slug sao publicos. As exportacoes
+        // (/{slug}/pdf e /{slug}/mapa-mental) sao autenticadas e continuam sob a regra geral.
+        if ("GET".equalsIgnoreCase(metodo) && materialPublico(caminho)) {
             return true;
         }
         if (!"POST".equalsIgnoreCase(metodo)) {
@@ -79,6 +79,19 @@ public class AuthInterceptor implements HandlerInterceptor {
                 || "/api/solicitar-reset".equals(caminho)
                 || "/api/resetar-senha".equals(caminho)
                 || "/api/usuario/confirmar-email".equals(caminho);
+    }
+
+    /** Lista (/api/materiais) ou detalhe com exatamente um segmento (/api/materiais/{slug}). */
+    private static boolean materialPublico(String caminho) {
+        if ("/api/materiais".equals(caminho)) {
+            return true;
+        }
+        String prefixo = "/api/materiais/";
+        if (!caminho.startsWith(prefixo)) {
+            return false;
+        }
+        String resto = caminho.substring(prefixo.length());
+        return !resto.isEmpty() && resto.indexOf('/') < 0;
     }
 
     private static String extrairToken(HttpServletRequest request) {

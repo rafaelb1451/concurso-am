@@ -84,6 +84,14 @@ public final class Dtos {
     ) {
     }
 
+    /** Ramo do mapa mental: titulo curto e ate' quatro frases do texto. */
+    public record RamoMapa(String titulo, List<String> itens) {
+    }
+
+    /** Mapa mental derivado do conteudo do material (sem persistencia). */
+    public record MapaMentalView(String titulo, String tema, List<RamoMapa> ramos) {
+    }
+
     public record MateriaStats(String materia, long respondidas, long acertos) {
     }
 

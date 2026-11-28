@@ -23,6 +23,37 @@ async function get<T>(url: string): Promise<T> {
   return response.json() as Promise<T>
 }
 
+/**
+ * Baixa um recurso binário autenticado (hoje: PDF do material).
+ * Quando o servidor responde JSON em vez do PDF, a mensagem do corpo é
+ * propagada para a UI exibir um erro amigável.
+ */
+async function getBlob(url: string, fallback: string): Promise<Blob> {
+  const token = localStorage.getItem('qb_token')
+  const response = token
+    ? await fetch(`${BASE}${url}`, { headers: { Authorization: `Bearer ${token}` } })
+    : await fetch(`${BASE}${url}`)
+  const tipo = response.headers?.get?.('content-type') ?? ''
+
+  if (!response.ok) {
+    const corpo = (await response.json().catch(() => null)) as { message?: string } | null
+    throw new ApiError(response.status, corpo?.message ?? fallback)
+  }
+
+  if (
+    tipo &&
+    !/application\/pdf/i.test(tipo) &&
+    !/application\/octet-stream/i.test(tipo)
+  ) {
+    const corpo = /json/i.test(tipo)
+      ? ((await response.json().catch(() => null)) as { message?: string } | null)
+      : null
+    throw new ApiError(response.status, corpo?.message ?? 'O servidor não devolveu um PDF válido.')
+  }
+
+  return response.blob()
+}
+
 async function post<T>(url: string, body: unknown): Promise<T> {
   const token = localStorage.getItem('qb_token')
   const response = await fetch(`${BASE}${url}`, {
@@ -114,6 +145,18 @@ export interface MaterialResumo {
 export interface Material extends MaterialResumo {
   /** Texto puro, com parágrafos separados por linha em branco. Nunca HTML. */
   conteudo: string
+}
+
+export interface MapaMentalRamo {
+  titulo: string
+  itens: string[]
+}
+
+/** Resumo visual do material: tema central e ramos, sempre texto puro. */
+export interface MapaMental {
+  titulo: string
+  tema: string
+  ramos: MapaMentalRamo[]
 }
 
 export interface MateriaStats {
@@ -308,6 +351,13 @@ export const api = {
     get<MaterialResumo[]>(`/materiais${qs({ concurso })}`),
   material: (slug: string) =>
     get<Material>(`/materiais/${encodeURIComponent(slug)}`),
+  mapaMental: (slug: string) =>
+    get<MapaMental>(`/materiais/${encodeURIComponent(slug)}/mapa-mental`),
+  materialPdf: (slug: string) =>
+    getBlob(
+      `/materiais/${encodeURIComponent(slug)}/pdf`,
+      'Não foi possível gerar o PDF deste material.',
+    ),
 
   // tutor (chat)
   configDeepseek: () => get<ConfigStatus>('/config/deepseek'),

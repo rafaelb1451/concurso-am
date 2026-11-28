@@ -33,11 +33,20 @@ public class MaterialService {
 
     @Transactional(readOnly = true)
     public Dtos.MaterialView buscar(String slug) {
-        MaterialEstudo m = materiais.findBySlug(slug)
-                .orElseThrow(() -> new AuthException(HttpStatus.NOT_FOUND, "Material não encontrado."));
+        MaterialEstudo m = entidade(slug);
         return new Dtos.MaterialView(
                 m.getId(), m.getConcurso(), m.getSlug(), m.getTitulo(), m.getResumo(),
                 m.getCategoria().name(), m.getFonte(), m.getConteudo(), m.getOrdem(),
                 m.getAtualizadoEm());
+    }
+
+    /**
+     * Entidade completa por slug (404 se nao existir), usada pelo mapa mental e pelo PDF.
+     * O texto integral fica disponivel porque essas rotas sao autenticadas.
+     */
+    @Transactional(readOnly = true)
+    public MaterialEstudo entidade(String slug) {
+        return materiais.findBySlug(slug)
+                .orElseThrow(() -> new AuthException(HttpStatus.NOT_FOUND, "Material não encontrado."));
     }
 }

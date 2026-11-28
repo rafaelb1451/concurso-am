@@ -2,6 +2,7 @@ package com.concurso.web;
 
 import com.concurso.service.DeepSeekService;
 import com.concurso.service.RateLimiter;
+import com.concurso.service.TutorCacheService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import com.concurso.service.AuthException;
@@ -29,10 +30,12 @@ public class TutorController {
     private static final int CHAT_POR_MINUTO = 20;
 
     private final DeepSeekService tutor;
+    private final TutorCacheService cache;
     private final RateLimiter limiter;
 
-    public TutorController(DeepSeekService tutor, RateLimiter limiter) {
+    public TutorController(DeepSeekService tutor, TutorCacheService cache, RateLimiter limiter) {
         this.tutor = tutor;
+        this.cache = cache;
         this.limiter = limiter;
     }
 
@@ -56,7 +59,7 @@ public class TutorController {
     public Dtos.ChatResposta conversar(@Valid @RequestBody Dtos.ChatRequest request,
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
         limiter.exigir("chat:" + usuarioId, CHAT_POR_MINUTO);
-        return new Dtos.ChatResposta(tutor.conversar(request.mensagens(), request.contexto()));
+        return new Dtos.ChatResposta(cache.conversar(usuarioId, request.mensagens(), request.contexto()));
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)

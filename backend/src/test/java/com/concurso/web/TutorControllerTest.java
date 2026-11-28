@@ -2,6 +2,7 @@ package com.concurso.web;
 
 import com.concurso.service.DeepSeekService;
 import com.concurso.domain.Usuario;
+import com.concurso.repo.TutorCacheRepository;
 import com.concurso.repo.UsuarioRepository;
 import com.concurso.service.SenhaHash;
 import org.junit.jupiter.api.BeforeEach;
@@ -49,6 +50,9 @@ class TutorControllerTest {
     @Autowired
     private UsuarioRepository usuarios;
 
+    @Autowired
+    private TutorCacheRepository caches;
+
     @MockitoBean
     private DeepSeekService tutor;
 
@@ -57,6 +61,9 @@ class TutorControllerTest {
 
     @BeforeEach
     void autenticar() throws Exception {
+        // O cache do tutor persiste entre metodos do mesmo contexto; sem limpar, a resposta
+        // de um teste poderia mascarar a falha simulada no seguinte (mesma chave).
+        caches.deleteAll();
         String email = "aluno-" + System.nanoTime() + "@qb.test";
         Usuario usuario = new Usuario();
         usuario.setNome("Aluno Teste");

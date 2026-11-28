@@ -70,6 +70,90 @@ describe('api', () => {
     expect(fetchMock).toHaveBeenCalledWith('/api/materiais/lei-5194-1966')
   })
 
+  it('busca o mapa mental autenticado', async () => {
+    localStorage.setItem('qb_token', 'token-mapa')
+    const mapa = {
+      titulo: 'Lei nº 5.194/1966',
+      tema: 'Exercício profissional',
+      ramos: [{ titulo: 'Registro', itens: ['Registro no CREA'] }],
+    }
+    const fetchMock = mockFetch(() => jsonResponse(mapa))
+
+    expect(await api.mapaMental('lei-5194-1966')).toEqual(mapa)
+    expect(fetchMock).toHaveBeenCalledWith('/api/materiais/lei-5194-1966/mapa-mental', {
+      headers: { Authorization: 'Bearer token-mapa' },
+    })
+  })
+
+  it('baixa o PDF como Blob autenticado', async () => {
+    localStorage.setItem('qb_token', 'token-pdf')
+    const blob = new Blob(['%PDF-1.4'], { type: 'application/pdf' })
+    const fetchMock = mockFetch(
+      () =>
+        ({
+          ok: true,
+          status: 200,
+          headers: { get: () => 'application/pdf' },
+          blob: async () => blob,
+        }) as unknown as Response,
+    )
+
+    expect(await api.materialPdf('lei-5194-1966')).toBe(blob)
+    expect(fetchMock).toHaveBeenCalledWith('/api/materiais/lei-5194-1966/pdf', {
+      headers: { Authorization: 'Bearer token-pdf' },
+    })
+  })
+
+  it('converte erro JSON do PDF em ApiError com a mensagem do servidor', async () => {
+    mockFetch(
+      () =>
+        ({
+          ok: false,
+          status: 503,
+          headers: { get: () => 'application/json' },
+          json: async () => ({ message: 'PDF em manutenção' }),
+        }) as unknown as Response,
+    )
+
+    await expect(api.materialPdf('lei-5194-1966')).rejects.toMatchObject({
+      name: 'ApiError',
+      status: 503,
+      message: 'PDF em manutenção',
+    })
+  })
+
+  it('rejeita resposta que não é PDF', async () => {
+    mockFetch(
+      () =>
+        ({
+          ok: true,
+          status: 200,
+          headers: { get: () => 'text/html' },
+        }) as unknown as Response,
+    )
+
+    await expect(api.materialPdf('lei-5194-1966')).rejects.toThrow(
+      'O servidor não devolveu um PDF válido.',
+    )
+  })
+
+  it('lê a mensagem JSON quando o PDF vem com status 200 e corpo de erro', async () => {
+    mockFetch(
+      () =>
+        ({
+          ok: true,
+          status: 200,
+          headers: { get: () => 'application/json;charset=UTF-8' },
+          json: async () => ({ message: 'Geração de PDF desligada' }),
+        }) as unknown as Response,
+    )
+
+    await expect(api.materialPdf('lei-5194-1966')).rejects.toMatchObject({
+      name: 'ApiError',
+      message: 'Geração de PDF desligada',
+    })
+  })
+
   it('envia banca, certame e quantidade no simulado e na evolução', async () => {
     const fetchMock = mockFetch(() => jsonResponse({}))
 

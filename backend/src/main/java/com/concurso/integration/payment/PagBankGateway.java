@@ -3,7 +3,6 @@ package com.concurso.integration.payment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
@@ -29,7 +28,6 @@ import java.util.Map;
  * {@code SHA-256(token + "-" + corpoBruto)} — comparado em tempo constante.</p>
  */
 @Component
-@Primary
 public class PagBankGateway implements PaymentGateway {
 
     private static final Logger log = LoggerFactory.getLogger(PagBankGateway.class);
