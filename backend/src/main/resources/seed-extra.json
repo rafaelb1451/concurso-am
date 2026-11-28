@@ -69890,5 +69890,845 @@
     "concursos": [
       "TJ-AP"
     ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo. Cada vez mais sistemas finais modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, estão sendo conectados à rede. Assim, a estratégia de atribuição de endereços da Internet é conhecida como roteamento interdomínio sem classes (Classless Inter-Domain Routing — CIDR). Nesse contexto, a máscara de rede/sub-rede de uma rede IPv4 CIDR /29 é:",
+    "alternativas": [
+      "255.255.240.0",
+      "255.255.255.240",
+      "255.255.255.192",
+      "255.255.255.224",
+      "255.255.255.248"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Redes Wi-Fi se tornaram populares pela mobilidade que oferecem e pela facilidade de instalação e de uso em diferentes tipos de ambientes. Embora sejam muito convenientes, há alguns riscos que você deve considerar ao usá-las. Para resolver alguns desses riscos, foram desenvolvidos mecanismos de segurança, e o primeiro mecanismo de segurança a ser lançado que, atualmente, é considerado frágil e, por isso, o seu uso deve ser evitado é o:",
+    "alternativas": [
+      "WEP (Wired Equivalent Privacy);",
+      "WPA (Wi-Fi Protected Access);",
+      "WPA-2;",
+      "Bluetooth;",
+      "Modem ADSL."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Uma propriedade interessante dos endereços MAC (Media Access Control — controle de acesso ao meio) é que não existem dois adaptadores de rede com o mesmo endereço. O endereço MAC, utilizado para designar unicamente o endereço de um dispositivo de rede, é composto de bits e pertence a uma camada específica do modelo de referência OSI (Open Systems Interconnection). Nesse contexto, a quantidade de bits de que o MAC é composto e a camada do modelo OSI a que ele pertence são, respectivamente:",
+    "alternativas": [
+      "32 e rede;",
+      "64 e física;",
+      "48 e física;",
+      "32 e aplicação;",
+      "48 e enlace de dados."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Redes de Computadores podem ser classificadas de diversas formas, como de acordo com o tamanho da área geográfica que elas abrangem. Quanto à abrangência, a rede que ocupa o espaço de uma sala, escritório ou mesmo um prédio inteiro, porém sem o uso de cabos, usando transmissões em radiofrequência, chama-se:",
+    "alternativas": [
+      "PAN (Personal Area Network);",
+      "WAN (Wide Area Network);",
+      "LAN (Local Area Network);",
+      "IEEE 802.11;",
+      "IEEE 802.3."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A comunicação óptica comumente utiliza três bandas de comprimentos de onda. Elas são centralizadas em 0,85; 1,30 e 1,55 mícron, respectivamente. As três bandas têm entre 25.000 e 30.000 GHz de largura. A banda de 0,85 mícron foi pioneira e o primeiro padrão de redes Ethernet usando fibras ópticas com taxa de transferência máxima de 10 Mbps foi o:",
+    "alternativas": [
+      "10Base-FL",
+      "100Base-FX",
+      "10GBase-ER",
+      "10GBase-LR",
+      "10GBase-LX4"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A arquitetura do TCP/IP é composta de quatro camadas, são elas:",
+    "alternativas": [
+      "Interface com a rede, Internet (Rede), Transporte e Aplicação;",
+      "Interface com a rede, Apresentação, Transporte e Internet (Rede);",
+      "Física, Enlace, Internet (Rede) e Transporte;",
+      "Física, Rede, Transporte e Aplicação;",
+      "Interface com a rede, Sessão, Transporte e Apresentação."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Um especialista em infraestrutura foi contratado para otimizar a transmissão de dados em uma rede local. Pela premissa de que a camada de rede oferece serviços à camada de transporte, os serviços precisam ser cuidadosamente planejados tendo em vista os objetivos a seguir. 1. Os serviços devem ser independentes da tecnologia presente nos roteadores. 2. A camada de transporte deve ser isolada do número, do tipo e da topologia dos roteadores presentes. 3. Os endereços de rede que tornam os pacotes disponíveis para a camada de transporte devem usar um plano de numeração uniforme, mesmo nas LANs e WANs. A camada de rede deve fornecer serviço orientado a conexões. Para tal, o especialista poderá optar pelas tecnologias:",
+    "alternativas": [
+      "MPLS e VLANs;",
+      "Rede de datagramas e ATM;",
+      "VLANs e Rede de datagramas;",
+      "UDP e Rede de circuitos virtuais;",
+      "Rede de datagramas e Rede de circuitos virtuais. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 12"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Os protocolos DNS, HTTPS, DHCP e SSH utilizam, respectivamente, as portas:",
+    "alternativas": [
+      "22, 80, 53 e 21;",
+      "67, 80, 22 e 443;",
+      "53, 443, 67 e 22;",
+      "443, 53, 143 e 67;",
+      "79, 80, 67 e 21."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "O cabeçalho IPv4 é composto por 12 campos fixos, podendo conter ou não opções, fazendo com que seu tamanho possa variar em função das opções usadas. Nesse contexto, o menor comprimento possível de um cabeçalho IPv4, em bytes, é:",
+    "alternativas": [
+      "16;",
+      "20;",
+      "24;",
+      "32;",
+      "60."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Dado o endereço IPv4: 10.2.3.4/25, o endereço de broadcast nesta rede é:",
+    "alternativas": [
+      "10.2.3.0;",
+      "10.2.3.127;",
+      "10.2.3.198;",
+      "10.2.3.255;",
+      "10.2.3.256."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "À luz das características dos principais protocolos de rede TCP/IP, o Protocolo de Mensagens de Controle da Internet (ICMP) é utilizado para:",
+    "alternativas": [
+      "traduzir o endereço web para um dado nome de host;",
+      "determinar a rota apropriada para um datagrama;",
+      "determinar o endereço do hardware de um dado nome de host;",
+      "comunicar informações de camada de rede entre si, por hospedeiros e roteadores para comunicação de erros;",
+      "determinar o endereço IP de um dado nome de host."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "O analista Itamar foi designado para fazer a instalação de uma fibra óptica no Tribunal de Justiça, durante a noite. Ele e sua equipe foram até o local e verificaram que precisariam passar cabos de fibra por uma tubulação. Estavam escritos no cabo as siglas CFOI e SM. Itamar explicou a sua equipe que as siglas significam, respectivamente:",
+    "alternativas": [
+      "cabo com baixa emissão de fumaça e multimodo;",
+      "cabo de fibra óptica de acesso e multimodo;",
+      "cabo óptico aéreo dielétrico autossustentável e monomodo;",
+      "cabo de fibra óptica para uso interno e monomodo;",
+      "cabo com alta emissão de fumaça e monomodo."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "O IPv6 em substituição do IPv4 será, em breve, o protocolo mais utilizado em redes. Nesse contexto, um endereço IP é uma sequência de números separados por pontos (IPv4) ou dois pontos (IPv6). A respeito do endereço especial de Loopback e suas representações em IPv6 e IPv4, é correto afirmar que:",
+    "alternativas": [
+      "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e IPv4=0.0.0.0;",
+      "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:1 e IPv4=0.0.0.1;",
+      "é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e IPv4=0.0.0.1;",
+      "é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e IPv4=127.0.0.1;",
+      "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e IPv4=127.0.0.1."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A Internet das Coisas, ou IoT (Internet of Things) como muitos conhecem, está dentro do tema casa inteligente, uma vez que faz com que “coisas” possam se comunicar, trocar informações e tomar decisões pré-programadas. Nesse contexto, o protocolo sem fio muito usado em dispositivos de casa inteligente, principalmente pela facilidade de transmitir pequenos pacotes de dados, com baixo consumo de energia e que não depende do Wi-Fi para funcionar, é o:",
+    "alternativas": [
+      "zigbee;",
+      "gateway;",
+      "relé smart;",
+      "6lowPAN;",
+      "tuya."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A internet só é possível porque todos os seus participantes concordam em seguir um conjunto comum de padrões tecnológicos. É importante lembrar que a internet é construída sobre a infraestrutura de telecomunicações tradicional, a mesma infraestrutura que é usada para telefonia, rádio e TV. Nesse contexto, a respeito do IPv6, é correto afirmar que:",
+    "alternativas": [
+      "possui 4.294.967.296 endereços;",
+      "a Network Address Translation (NAT) foi criada para resolver o esgotamento dos seus endereços;",
+      "realiza a fragmentação e remontagem dos pacotes apenas na origem e no destino;",
+      "é compatível com o IPv4 e eles podem interoperar diretamente;",
+      "possui 132 bits para endereçamento. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 13"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A equipe de gestão de riscos de um órgão público está atualizando seu Plano de Gestão de Riscos (PGR). Na atual fase de trabalho, a equipe está executando o processo de avaliação de riscos das atividades constantes do escopo do PGR, descrevendo, analisando e avaliando os riscos identificados. Durante a identificação dos riscos, a equipe deve considerar o fator:",
+    "alternativas": [
+      "mudanças nos contextos externo e interno do órgão;",
+      "natureza e magnitude das consequências;",
+      "probabilidade de eventos e consequências;",
+      "opções existentes para tratamento de riscos;",
+      "recursos requeridos, incluindo contingências."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "O diretor do órgão público X instaurou o processo de auditoria interna visando verificar a conformidade de seus processos e atividades com os requisitos legais e regulatórios definidos para os órgãos públicos, bem como com sua própria política interna de segurança da informação. A equipe de auditoria foi formalmente estabelecida para dar legalidade a essa tarefa. Durante a auditoria, a equipe identificou algumas vulnerabilidades nos processos e controles de segurança, atividade constante da etapa de:",
+    "alternativas": [
+      "testes e procedimentos de auditoria;",
+      "scanner de redes;",
+      "teste de penetração;",
+      "coleta de informações;",
+      "avaliação de riscos."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) define, em seu Art. 12, um modelo centralizado de governança nacional na segurança cibernética para os órgãos no âmbito do Poder Judiciário, à exceção do Supremo Tribunal Federal. Um dos objetivos desse modelo centralizado é:",
+    "alternativas": [
+      "realizar exercícios cibernéticos com a participação de múltiplos entes;",
+      "estabelecer norma sobre a definição dos requisitos metodológicos para a implementação da gestão de risco dos ativos da informação no Poder Judiciário;",
+      "estabelecer rotinas de verificações de conformidade em segurança cibernética;",
+      "elaborar a Política de Segurança da Informação e normas internas correlatas ao tema, observadas as normas de segurança da informação editadas pelo CNJ;",
+      "promover ações de capacitação e profissionalização dos recursos humanos em temas relacionados à segurança da informação."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Em um Sistema de Continuidade de Negócios (SCN), a organização deve considerar vários aspectos internos e externos ao órgão para determinar as consequências das paralisações das suas atividades, definindo planos de recuperação em caso de incidentes, permitindo a sua operação durante o momento de crise e no retorno à normalidade. O SCN envolve vários processos e planos formalmente estabelecidos. O estabelecimento dos prazos priorizados dentro do período máximo tolerável de interrupção para a retomada das atividades suspensas a uma capacidade mínima aceitável é definido no(a):",
+    "alternativas": [
+      "procedimento de continuidade de negócios;",
+      "processo de análise de impacto nos negócios;",
+      "plano de continuidade de negócios;",
+      "processo de avaliação de riscos;",
+      "seleção de estratégias e soluções."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "O setor de Tecnologia da Informação (TI) realiza as cópias de segurança (backup) de acordo com as políticas de backup definidas para cada sistema, conforme os requisitos estabelecidos pelos seus gestores. A fim de agilizar a cópia dos dados e diminuir o tempo da janela de backup diária, o setor de TI implementou um tipo de backup que copia nos dias úteis somente os dados modificados desde o último backup. Essa estratégia implementa um backup:",
+    "alternativas": [
+      "híbrido;",
+      "completo;",
+      "diferencial;",
+      "incremental;",
+      "em disco."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A equipe de Segurança da Informação (SI) de um órgão público realizou varreduras de vulnerabilidades em seus ativos a fim de reduzir a exposição dos sistemas aos riscos. Durante a varredura, a equipe de SI identificou que um dos sistemas tinha uma vulnerabilidade que permitia a inserção de scripts maliciosos na aplicação, alterando o conteúdo dinâmico que o usuário recebia em seu navegador, redirecionando-o para um site falso. A vulnerabilidade identificada permitia um ataque de:",
+    "alternativas": [
+      "backdoor;",
+      "rootkit;",
+      "session hijacking;",
+      "cross-site scripting;",
+      "SQL injection. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 14"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A equipe de resposta e tratamento de incidentes (ETIR) de um órgão público detectou, por meio de suas ferramentas de monitoramento da rede, um aumento no número de acessos a um determinado domínio de internet. Como resultado do processo de investigação de um possível incidente de segurança, a ETIR identificou que os usuários que acessaram o determinado domínio haviam recebido e-mails com orientação para trocarem suas senhas no sistema de Single Sign-On (SSO) do órgão. O domínio acessado continha uma página de internet, com características similares à página do SSO do órgão, porém, com domínio diferente, cujo objetivo era capturar as credenciais de acesso dos usuários. A ETIR identificou que o órgão sofreu um ataque do tipo:",
+    "alternativas": [
+      "advanced fee fraud;",
+      "phishing;",
+      "email spoofing;",
+      "scanning;",
+      "snifing."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Um centro de estudos, resposta e tratamento de incidentes (CERT) possui, dentre suas atribuições, a manutenção da consciência situacional relativa à segurança cibernética. O CERT atua correlacionando eventos a fim de permitir a detecção precoce de incidentes e ataques no espaço cibernético. Uma atividade que contribui para a manutenção ou incremento da consciência situacional é:",
+    "alternativas": [
+      "a coleta e o compartilhamento de informações que possam ser usadas pela comunidade;",
+      "o desenvolvimento de materiais de boas práticas para administradores de redes por meio da Internet e para usuários finais;",
+      "a fomentação da cooperação entre CSIRTs através da organização de fóruns específicos;",
+      "o suporte ao processo de mitigação de danos causados por um incidente e de recuperação de sistemas comprometidos;",
+      "o suporte ao processo de análise de atividades maliciosas e de sistemas comprometidos."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A arquitetura de firewall da empresa APP.TI utiliza uma sub-rede para isolar a rede interna e a internet. Essa é uma arquitetura de firewall do tipo:",
+    "alternativas": [
+      "Packet Filter;",
+      "Screened Host;",
+      "Screened Subnet;",
+      "Dual-Homed Host;",
+      "Stateful Inspection."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Amanda trabalha em uma consultoria X e está implementando um NAP (proteção de acesso à rede) em um cliente. O objetivo de Amanda com tal implementação é manter a integridade dos computadores da rede corporativa. Para proteger o acesso à rede de forma adequada, deve existir uma infraestrutura de rede que forneça à área de funcionalidade:",
+    "alternativas": [
+      "validação de integridade: determina se os computadores estão em conformidade com os requisitos de integridade do sistema;",
+      "zona desmilitarizada: impede que um usuário autorizado com um computador em conformidade carregue um programa mal-intencionado na rede;",
+      "restrição de rede: permite o acesso à rede, desde que o computador do usuário atenda aos requisitos de política de integridade;",
+      "correção: restringe o acesso à rede ou à comunicação para clientes que não estão em conformidade com os requisitos de integridade do sistema;",
+      "conformidade contínua: fornece as atualizações necessárias para permitir que o computador corrija seu estado de integridade não compatível."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Walace foi contratado pelo Tribunal de Justiça do Amapá (TJAP) para verificar as configurações no firewall existente. Ele recebeu como reclamação que não se conseguia conectar via SSH nas máquinas que passavam pelo firewall. Outra demanda solicitada foi que o servidor do TJAP não deveria responder a ping, não deixando que ele entre, com o objetivo de evitar o ataque de Flooding. De forma a atender à demanda solicitada pelo Tribunal, Walace deverá implementar as regras, respectivamente:",
+    "alternativas": [
+      "<1> # iptables -A INPUT -p tcp --dport 22 -j ACCEPT <2> # iptables -A OUTPUT -p icmp --icmp-type echo-request -j DROP;",
+      "<1> # iptables -A INPUT -p tcp --dport 22 -j ACCEPT <2> # iptables -A INPUT -p icmp --icmp-type echo-request -j DROP;",
+      "<1> # iptables -I INPUT 1 -i lo -j ACCEPT <2> # iptables -A INPUT -m mac --mac-source 00:12:A1:24:BB:0C -j ACCEPT;",
+      "<1> # iptables -A INPUT -m state --state NEW -p tcp --dport 80 -j ACCEPT <2> # iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT;",
+      "<1> # iptables -A INPUT -m state --state NEW -m tcp -p tcp -- dport 5100:5150 -j ACCEPT <2> # iptables -A INPUT -p icmp -- icmp-type echo-request -j DROP. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 15"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Davi é o coordenador de TI da empresa X e está efetuando uma prova de conceito (POC) para a computação em nuvem de alguns serviços e informações. Durante esse processo, Davi identificou alguns riscos de segurança que são específicos aos ambientes de nuvem. Dentre eles, há as questões tecnológicas partilhadas, que consistem na entrega dos serviços de forma escalável através da partilha de infraestrutura. Muitas vezes, essa infraestrutura não foi projetada para oferecer o isolamento necessário para uma arquitetura multilocatária. Algumas contramedidas que devem ser implementadas por Davi para evitar os riscos da partilha são:",
+    "alternativas": [
+      "especificação dos requisitos de recursos humanos como parte de contrato legal e determinação dos processos de notificação de violação de segurança;",
+      "análise do modelo de interfaces de segurança do provedor de nuvem e compreensão da cadeia de dependência associada à API;",
+      "implantação de técnicas de autenticação fortes de dois fatores, sempre que possível, e monitoramento proativo para detectar atividades não autorizadas;",
+      "monitoramento do ambiente para atividades não autorizadas e a promoção de forte autenticação para o controle de acesso administrativo e de operações;",
+      "implementação de uma forte API de controle de acesso e encriptação e proteção da integridade dos dados em trânsito."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Ana trabalha na empresa Y em home office. Ao retornar do almoço, ela verificou uma mensagem pop-up com o logo de uma empresa de antivírus informando que sua máquina havia sido invadida e que para resolver o problema deveria clicar na verificação de malware solicitada na mensagem. Ana acabou clicando no local solicitado e a mensagem sumiu. Após alguns dias, Ana notou que seus dados pessoais haviam sido roubados e que compras foram feitas em seu nome. Ana entrou em contato com a empresa Y, informando que tinha sofrido um ataque de:",
+    "alternativas": [
+      "scareware;",
+      "spyware;",
+      "adware;",
+      "malware sem arquivo;",
+      "ransomware."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Gilberto trabalha no setor de segurança do Tribunal de Justiça do Amapá (TJAP) e está fazendo a modelagem de possíveis ameaças aos seus sistemas, aplicativos, redes e serviços. Após pesquisar alguns modelos, decidiu realizar a modelagem seguindo o STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege). O modelo relaciona as ameaças do acrônimo STRIDE com as propriedades de segurança. Inicialmente, Gilberto trabalhará na propriedade de integridade. Logo, dentro do acrônimo STRIDE, a ameaça a ser trabalhada por Gilberto será:",
+    "alternativas": [
+      "spoofing;",
+      "tampering;",
+      "repudiation;",
+      "information disclosure;",
+      "denial of service."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A empresa Z criou uma nova aplicação web, mas foi atacada após disponibilizá-la na Internet. A equipe de segurança da empresa Z identificou que a configuração do servidor de aplicações permitia que os detalhes das mensagens de erro fossem retornados aos usuários. Tal fato exibe informações confidenciais ou falhas subjacentes. Para a elaboração do relatório de ataque a ser entregue à empresa Z, a equipe de segurança usou o OWASP. Ao verificar o OWASP, a equipe definiu o ataque como pertencente à categoria:",
+    "alternativas": [
+      "A09:2021 – Falhas de Registro e Monitoramento de Segurança;",
+      "A08:2021 – Falhas de Software e Integridade de Dados;",
+      "A07:2021 – Falhas de Identificação e Autenticação;",
+      "A06:2021 – Componentes Vulneráveis e Desatualizados;",
+      "A05:2021 – Configuração Incorreta de Segurança."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Considere as seguintes competências da Autoridade Nacional de Proteção de Dados (ANPD):  monitorar e realizar análise do mercado e do desenvolvimento de novas tecnologias que possam gerar impactos na proteção de dados e privacidade;  editar e publicar estudos e notas técnicas informativas realizadas pela Autoridade;  conscientizar e orientar sobre desenvolvimento de tecnologias relevantes para a proteção de dados, privacidade e segurança da informação; e  acompanhar e participar das discussões técnicas em fóruns internacionais de matérias relacionadas a tecnologias utilizadas na proteção e no tratamento de dados pessoais e privacidade. O elemento da estrutura organizacional da ANPD que possui as competências apresentadas é:",
+    "alternativas": [
+      "Coordenação-geral de administração;",
+      "Coordenação-geral de normatização;",
+      "Coordenação-geral de tecnologia e pesquisa;",
+      "Conselho nacional de proteção de dados pessoais e da privacidade;",
+      "Coordenação-geral de relações institucionais e internacionais."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Um órgão público, vinculado à União, contratou a solução de inteligência artificial da empresa SmartDecisionIA com a finalidade específica de realizar o tratamento automatizado de decisões com base em um banco de dados gerido pelo órgão. Seguindo as instruções fornecidas pelo gestor público responsável e estabelecidas em contrato, a SmartDecisionIA realiza as operações necessárias para viabilizar o tratamento dos dados em questão. Nesse cenário, o papel da empresa SmartDecisionIA é:",
+    "alternativas": [
+      "operadora;",
+      "controladora;",
+      "órgão de pesquisa;",
+      "encarregada;",
+      "data protection officer. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 16"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Um órgão público realiza tratamento dos dados pessoais dos seus servidores para implementar o módulo de autenticação de usuários de seus sistemas de informação e para prevenir ataques de softwares maliciosos na sua rede interna. Nesse cenário, é correto afirmar que:",
+    "alternativas": [
+      "o órgão público deve recorrer à base legal do legítimo interesse adotando medidas para garantir a transparência do tratamento dos dados dos seus funcionários;",
+      "o órgão público deve anonimizar os dados dos funcionários para poder usar no módulo de autenticação;",
+      "a Autoridade Nacional de Proteção de Dados deverá autorizar o tratamento dos dados sensíveis dos funcionários do órgão público;",
+      "o registro de um incidente de segurança é requisito para justificar o tratamento dos dados do servidor para o módulo de segurança;",
+      "cada funcionário deve manifestar seu consentimento concordando com o tratamento de seus dados pessoais para serem usados pelo módulo de autenticação."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A metodologia Scrum é um framework que apoia o desenvolvimento de soluções adaptativas para problemas complexos utilizando diversos artefatos. O artefato do Scrum composto pela Meta da Sprint (por que), o conjunto de itens do Product Backlog selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como) é o:",
+    "alternativas": [
+      "kanban;",
+      "incremento;",
+      "sprint backlog;",
+      "product owner;",
+      "meta do produto."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Como parte da Governança e Gestão de Tecnologia da Informação (TI), um Tribunal de Justiça desenvolveu novos serviços digitais para a sociedade. Após a entrega dos serviços digitais, foram criados meios para o monitoramento da qualidade com o intuito de capturar a percepção de benefícios pela sociedade e atender a melhoria contínua dos serviços. O monitoramento da qualidade dos serviços digitais disponibilizados à sociedade representa uma ação estratégica de:",
+    "alternativas": [
+      "implantação dos serviços;",
+      "sustentação dos serviços;",
+      "otimização do processo do serviço;",
+      "priorização de serviços;",
+      "abrangência dos resultados dos serviços."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A Governança de Tecnologia da Informação (TI) deverá ser implantada com base no(a):",
+    "alternativas": [
+      "área focal tecnológica;",
+      "gestão por projetos;",
+      "ativo operacional;",
+      "colaboração da sociedade;",
+      "transparência e prestação de contas."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a Resolução CNJ nº 396/2021, que institui a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), no seu Art. 18, estabelece que a Rede de Cooperação do Judiciário na área de segurança cibernética tem o seguinte objetivo:",
+    "alternativas": [
+      "evitar ambiente colaborativo com outros órgãos do Poder Judiciário, de forma a manter em segredo quaisquer ameaças e eventuais ataques ou incidentes cibernéticos;",
+      "estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas, exceto as do âmbito do Poder Judiciário;",
+      "realizar exercícios cibernéticos com a participação de entes restritos ao Poder Judiciário, no intuito de evitar vazamento de dados sensíveis;",
+      "fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ;",
+      "desestimular a estrutura judiciária quanto ao aprimoramento de investigações de crimes cibernéticos."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A Resolução CNJ nº 335, de 29 de setembro de 2020, que institui política pública para a governança e a gestão de processo judicial eletrônico, no seu Art. 4º, considera que a plataforma digital do Poder Judiciário Brasileiro (PDPJ-BR) adotará obrigatoriamente soluções que abranjam o(s) seguinte(s) conceito(s):",
+    "alternativas": [
+      "utilização preferencial de tecnologias com código fechado;",
+      "desenvolvimento que possibilite o compartilhamento em segmentos específicos e esferas do Poder Judiciário;",
+      "ampla cobertura de testes, alto acoplamento, baixa coesão e modularização;",
+      "processo eletrônico em plataforma privada;",
+      "adaptável ao uso de ferramentas de aprendizado de máquina (machine learning) e de I.A. (Inteligência Artificial)"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "Considere o seguinte código em Java: Map<String, String> cidades = Map.of(\"11\",\"Amapá\",\"13\",\"Itaubal\",\"15\",\"Cutias\"); String texto = cidades.entrySet().stream().sorted( (e1, e2) -> e1.getKey().compareTo(e2.getKey())) .map(e-> Arrays.asList(e.getKey(), e.getValue())) .map(e-> String.join(\", \", e)) .collect(Collectors.joining(\": \")); System.out.println(texto); Ao ser executado com as importações necessárias, o código Java acima imprime na saída padrão:",
+    "alternativas": [
+      "Cutias: 15, Amapá: 11, Itaubal: 13",
+      "Amapá: 11, Cutias: 15, Itaubal: 13",
+      "11, Amapá: 13, Itaubal: 15, Cutias",
+      "11: Amapá, 13: Itaubal, 15: Cutias",
+      "15: Cutias, 13: Itaubal, 11: Amapá Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 17"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Tecnologia da Informação (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (TI - Segurança da Informação)",
+    "dificuldade": 3,
+    "enunciado": "A analista Joana implementou o sistema de autorização da aplicação TJApp utilizando o protocolo OAuth2. Joana decidiu por implementar o fluxo do OAuth2 de concessão por código de autorização. A fim de indicar ao servidor de autorização o fluxo de concessão escolhido, Joana atribuiu ao parâmetro response_type da requisição de autorização de TJApp o valor associado ao fluxo implementado, conforme a especificação do OAuth2. Joana atribuiu ao response_type o valor:",
+    "alternativas": [
+      "code;",
+      "token;",
+      "auth-code;",
+      "access-token;",
+      "client-credentials. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 Branca Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 Branca Realização"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
   }
 ]
