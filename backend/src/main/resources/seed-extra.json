@@ -28037,5 +28037,1265 @@
     "concursos": [
       "PM-RR"
     ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional. Os cardápios devem vir ao encontro dessas necessidades.” Assinale a afirmativa correta sobre o conteúdo da frase.",
+    "alternativas": [
+      "Os desejos de ordem física dizem respeito à fome do cliente.",
+      "Os desejos de ordem emocional se referem aos preços dos pratos.",
+      "As informações dos cardápios devem incentivar o apetite.",
+      "Os clientes de restaurantes procuram comida boa e barata.",
+      "Os restaurantes montam cardápios deficientes em alguns aspectos."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional. Os cardápios devem vir ao encontro dessas necessidades.” As opções abaixo propõem substituições de termos por outros de sentido equivalente; assinale a opção em que essa substituição está correta e adequada.",
+    "alternativas": [
+      "Ao entrar / Quando entram.",
+      "todo cliente / todo o cliente.",
+      "satisfazer desejos / a satisfação de desejos.",
+      "de ordem física e emocional / de ordens físicas e emocionais.",
+      "ao encontro dessas / de encontro a essas."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional.” Nesse segmento da frase há uma correspondência semântica entre os termos destacados. Assinale a opção em que a correspondência equivalente entre termos está adequada.",
+    "alternativas": [
+      "supermercado / usuário.",
+      "farmácia / frequentador.",
+      "hospital / freguês.",
+      "escola / consumidor.",
+      "casa de shows / espectador."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“A religião teve um triunfal retorno. Católicos e protestantes, muçulmanos e judeus – todos demonstraram seu amor a Deus massacrando-se uns aos outros.” Sobre o conteúdo do fragmento acima, assinale a afirmativa correta.",
+    "alternativas": [
+      "O segundo período do texto justifica a afirmação do primeiro.",
+      "O adjetivo triunfal mostra, no texto, uma qualificação positiva.",
+      "O termo “seu amor a Deus” está usado em sentido irônico.",
+      "O termo “católicos e protestantes” se opõe a “muçulmanos e judeus”.",
+      "O vocábulo “retorno” mostra que a religião perdera o valor."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Os vocábulos abatimento, tristeza, pena, nostalgia, melancolia, infelicidade, desespero podem ser empregados como sinônimos em alguns contextos. Assinale a frase a seguir em que um desses vocábulos foi empregado de forma adequada.",
+    "alternativas": [
+      "Minha cachorrinha morreu e isso trouxe-me melancolia.",
+      "Causa desespero ver que o homem não está à altura de seu criador.",
+      "As desgraças sucessivas produziram nele grande pena.",
+      "Com o atropelamento sofrido, sentiu imenso abatimento.",
+      "Recordo com nostalgia os dias felizes que ali passei."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Todas as frases a seguir mostram repetições de vocábulos. Assinale a opção que apresenta forma adequada de evitar-se uma dessas repetições.",
+    "alternativas": [
+      "Vão construir um cinema aqui, mas não sei quando vão construir / Vão construir um cinema aqui, mas não sei quando vão fazê-lo.",
+      "Havia um buraco no chão e como não vi o buraco, enfiei o pé nele / Havia um buraco no chão e como não vi o furo, enfiei o pé nele.",
+      "Começaram a trabalhar com entusiasmo, mas já desistiram de trabalhar / Começaram a trabalhar com entusiasmo, mas já desistiram-no.",
+      "Li todo o livro e não li nada sobre isso / Li todo o livro e não fiz a leitura de nada sobre isso.",
+      "Desse assunto eu não entendo nada e, além disso, é assunto que não me interessa / Desse assunto eu não entendo nada e, além disso, isso não me interessa."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Um argumento a favor do Diabo: é preciso recordar que nós ouvimos só uma versão da história. Deus escreveu todos os livros.” (Samuel Buttler) A defesa do Diabo se apoia num argumento contra",
+    "alternativas": [
+      "a falta de credibilidade.",
+      "a ausência de imparcialidade.",
+      "a incompetência da autoridade.",
+      "a fuga do assunto.",
+      "o círculo vicioso."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Todas as frases abaixo se iniciam por uma metáfora ou uma comparação. Assinale a única dessas frases em que está ausente uma explicação para a metáfora.",
+    "alternativas": [
+      "“Tu és o arquiteto do teu próprio destino. Trabalha, espera e ousa!”.",
+      "“Todo homem é uma divindade disfarçada, um deus que se faz de tolo”.",
+      "“O casamento é uma grande instituição, mas eu não estou preparada para as instituições”.",
+      "“O casamento é como uma praça sitiada: os que estão fora querem entrar e os que estão dentro querem sair”.",
+      "“O ocioso é como um relógio sem os dois ponteiros: inútil se caminha ou se está parado”. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 4"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“O aluno inteligente dá mais trabalho para aprender jiu-jitsu, porque fica pensando antes de fazer o golpe. Uma moça ou um burro vão aprender mais depressa do que o inteligente.” Essa frase estaria incluída hoje como exemplo de politicamente incorreto, por trazer um preconceito, reconhecido por",
+    "alternativas": [
+      "intolerância religiosa.",
+      "homofobia.",
+      "racismo.",
+      "machismo.",
+      "preconceito linguístico."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em todas as frases abaixo há duas ocorrências do mesmo vocábulo; assinale a frase em que esses vocábulos mostram diferentes significados.",
+    "alternativas": [
+      "Se eu tivesse um conselho a dar, como homem bem-sucedido, eu diria: se quer ser bem-sucedido, pense, pense muito até doer.",
+      "Antever sucessos é grandioso; antever insucessos, mais ainda.",
+      "Ninguém está nos negócios por diversão, mas isso não quer dizer que não há diversão nos negócios.",
+      "O negócio para qualquer um não é negócio para ninguém.",
+      "Pedi para ele me dar uma mão na obra e ele só deu uma mão de tinta na parede da sala. Geografia do Amazonas"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Embora a Região Amazônica situe-se geograficamente próxima ao Equador, sua parte meridional sofre, eventualmente, o fenômeno localmente denominado de friagem. Assinale a opção que apresenta corretamente a origem da friagem.",
+    "alternativas": [
+      "A influência da corrente El Niño.",
+      "O movimento dos ventos alísios.",
+      "A inversão térmica intertropical.",
+      "A chegada de ar polar (frio e seco).",
+      "O resfriamento das águas do Atlântico."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“A floresta amazônica contém uma grande parte da biodiversidade do mundo, pois mais de 12% de todas as plantas com flores são encontradas na Amazônia. Sendo assim, ameaças à existência da floresta amazônica indicam sérias ameaças à biodiversidade.” (NOBRE, Carlos A., SAMPAIO, Gilvan. SALAZAR, Luís. Mudanças climáticas e Amazônia.) Assinale a opção que indica os principais fatores que atuam na perda da biodiversidade da floresta amazônica.",
+    "alternativas": [
+      "O uso da terra e as mudanças climáticas.",
+      "O aumento das chuvas e a ação antrópica.",
+      "O extrativismo mineral e a variação da intensidade solar.",
+      "Os cultivos de corte e queima e os fluxos dos rios voadores.",
+      "A elevação da temperatura e a variação da amplitude térmica."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Os minerais se acham distribuídos em todas as rochas da crosta terrestre, mas apenas são passíveis de exploração quando encontrados em concentrações que permitam seu aproveitamento econômico com a tecnologia disponível. No Estado do Amazonas, a maioria dos depósitos minerais metálicos está situada em terrenos pré-cambrianos, que correspondem a cerca de 40% do seu território. Nesses terrenos ocorre a exploração de depósitos minerais de",
+    "alternativas": [
+      "estanho, nióbio e ouro.",
+      "ferro, manganês e prata.",
+      "alumínio, cobre e tântalo.",
+      "níquel, cobre e diamante.",
+      "fosfato, zircônio e platina."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Assinale a opção que apresenta uma causa da decadência da economia gomífera no Estado do Amazonas.",
+    "alternativas": [
+      "As pragas que destruíram os seringais nativos.",
+      "A queda de preço nos mercados internacionais.",
+      "A concorrência dos países produtores asiáticos.",
+      "A retração dos mercados consumidores europeus.",
+      "A superprodução, devido à crise econômica de 1929."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A Amazônia é ocupada em grande parte por povos indígenas, caboclos seringueiros e ribeirinhos, ocupantes tradicionais da floresta. A respeito das condições de vida desses povos, analise as afirmativas a seguir. I. Eles sobrevivem, por razões étnicas, culturais e econômicas, mediante a prática do extrativismo e da agricultura de corte e queima, com baixo impacto ecológico sobre a floresta. II. Eles adotam, graças aos estímulos do mercado, práticas extrativistas que levam ao extermínio de inúmeras espécies, com consequências negativas para a biodiversidade. III. Eles estabelecem, graças à emergência de uma nova visão ecológica, uma relação com a natureza em que a biodiversidade é um trunfo para o futuro. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Leia o trecho a seguir. O sistema é formado por uma cadeia de agentes cujo elo mais poderoso é representado pelas grandes casas exportadoras, que concedem crédito a intermediários menores, emprestando-lhes dinheiro e adiantando meios de subsistência e os instrumentos usados na produção da borracha. Os médios e pequenos intermediários, por sua vez, repassam o “crédito” recebido aos últimos elos dessa cadeia, que são os produtores diretos da atividade extrativa. O trecho apresenta as características do sistema de crédito usado na economia da borracha. Assinale a opção que indica sua denominação.",
+    "alternativas": [
+      "Agiotagem.",
+      "Aviamento.",
+      "Patronagem.",
+      "Marretagem.",
+      "Atravessamento. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 5"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Os planos para aproveitar o potencial hidráulico dos rios amazônicos preveem a construção de dezenas de grandes barragens e mais de uma centena de pequenas barragens. A tomada de decisões no Brasil é fundamental para estas tendências, devido ao grande número de barragens planejadas na Amazônia brasileira.” (FEARNSIDE, Philip M. Hidrelétricas na Amazônia: impactos ambientais e sociais. Instituto de Pesquisas da Amazônia. Manaus. 2015.) A respeito dos impactos da construção de barragens nos rios amazônicos, assinale a afirmativa incorreta.",
+    "alternativas": [
+      "A emissão do dióxido de carbono, devido à decomposição das árvores mortas por inundação, contribui para o aquecimento global.",
+      "A proliferação de insetos e a transformação do mercúrio na sua forma tóxica representam riscos à saúde das populações ribeirinhas.",
+      "A inundação direta e a ação de residentes deslocados ou de imigrantes atraídos para a área, podem acelerar o desmatamento da vegetação original.",
+      "O reassentamento dos povos indígenas atingidos pela inundação de suas terras representa um elevado custo humano dessa forma de desenvolvimento.",
+      "Os meios de subsistência dos moradores situados na várzea, como a pesca e a agricultura de corte e queima, são enriquecidos pela vazão constante a jusante da barragem."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Sobre diferentes momentos da produção do espaço amazônico, analise as afirmativas a seguir. I. Nos séculos XVII/XVIII buscava-se, na floresta tropical, a partir dos rios, as chamadas drogas do sertão, utilizáveis na alimentação, na construção naval e na farmacopeia da Europa Ocidental. II. Entre as últimas décadas do século XIX e as duas primeiras do século XX, para atender à demanda das indústrias europeias e norte-americanas, ocorreu o chamado ciclo da borracha. III. Na segunda metade do século XX, o mundo amazônico passou por um novo devassamento, impulsionado pela expansão capitalista, no sentido de penetração territorial e de propriedade das terras. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A implantação de complexos industriais estava entre as prioridades do projeto de valorização da Amazônia. Assim, em 1967, foi criada a Superintendência da Zona Franca de Manaus (Suframa), que transformava Manaus em zona franca. Atualmente, o polo industrial instalado em Manaus dinamiza boa parte da economia regional e emprega diretamente cerca de 85 mil pessoas. (TERRA, Lígia et alii. Conexões – Estudos de Geografia Geral e do Brasil. Ed. Moderna. São Paulo. 2010.) Sobre as medidas que permitiram a instalação de um enclave industrial em Manaus, analise as afirmativas a seguir. I. A isenção das taxas de importação sobre máquinas e matérias primas necessárias à produção industrial. II. A cobrança dos impostos de exportação sobre os produtos da Zona Franca destinados aos mercados de consumo do Centro- Sul do país. III. As vantagens decorrentes dos incentivos fiscais, como a isenção de impostos, para a instalação das unidades produtivas no polo industrial. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O programa “Desenvolvimento e segurança na região ao norte das calhas dos rios Solimões e Amazonas: Projeto Calha Norte”, está fundamentado nas razões apresentadas a seguir, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "A expansão dos movimentos migratórios e pendulares na zona de fronteiras passou a exigir tratamento mais cuidadoso por parte dos países envolvidos.",
+      "O surgimento de estratégias e planos de ação de governos e empresas transnacionais passaram a exigir ações afirmativas de proteção das fronteiras nacionais.",
+      "A intensificação das relações bilaterais com os países fronteiriços passou a exigir o chamado “marco temporal” para garantir a posse das terras pelos atuais ocupantes.",
+      "As mudanças na produção e troca de informações no sistema global de telecomunicações passaram a exigir a proteção e o povoamento das fronteiras da região amazônica.",
+      "As pressões internacionais sobre o tráfico de ilícitos, que não está coberto pelos sistemas de controle dos estados nacionais, passaram a exigir maior segurança na faixa de fronteiras. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 6 História do Amazonas"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“A viagem iniciou em Cuzco, passando por Quito, de onde partiu com cerca de 220 espanhóis a cavalo e quase 4.000 índios, rumo ao desconhecido, com base em informações sobre as riquezas do chamado Pais de la Canela e do El Dorado. Lá chegando, comprovou que a esperança da riqueza não passava de uma escassa quantidade de pequenas árvores de canela e de algumas montanhas ásperas e inabitáveis. A falta de alimentação para os expedicionários obrigou que um grupo prosseguisse em um bergantim e algumas canoas, à procura de mantimentos. Foi quando começou uma expedição de oito meses em 6.000 km de navegação, por todo o Solimões-Amazonas, atingindo o Atlântico.” (Adaptado de SANTOS, Francisco Jorge dos. História Geral da Amazônia. Editora MemVavMem, 2007, p. 36-37) (Fonte: https://chdetrujillo.com) O texto e a imagem se referem à expedição de",
+    "alternativas": [
+      "Francisco de Orellana.",
+      "Vicente Pinzon.",
+      "Antônio Raposo Tavares.",
+      "Francisco Fernandes.",
+      "Pedro Teixeira."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Leia o texto a seguir: “Acordo de limites firmado entre Portugal e Espanha que visava reconhecer oficialmente as fronteiras marítimas e terrestres, definindo os limites do poderio de cada coroa sobre as colônias na América. Nesse contexto, destacou-se a figura de Alexandre de Gusmão, secretário do Conselho Ultramarino, brasileiro que intermediou o tratado e conferiu a este o princípio do uti possidetis, isto é, a ideia de que a terra deveria pertencer a quem de fato a ocupasse.” (Adaptado de http://historialuso.an.gov.br/) Assinale a opção que indica corretamente a que acordo diplomático o texto se refere.",
+    "alternativas": [
+      "Tratado de Tordesilhas (1494).",
+      "Tratado de paz e Amizade (1648).",
+      "Tratado de Madri (1750).",
+      "Tratado de Paris (1763).",
+      "Tratado de Badajoz (1801)."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A respeito do Diretório que se deve observar nas povoações de índios do Pará e Maranhão (1757), assinale V para a afirmativa verdadeira e F para a falsa. ( ) O Diretório dos Índios foi aprovado por D. José I e dispunha a substituição dos missionários por diretores leigos, entre outras normativas. ( ) Para promover a “civilidade dos índios”, os diretores deveriam incentivar a mestiçagem, por meio de casamentos mistos, e a adoção de hábitos e da língua portuguesa. ( ) O Diretório foi abolido em 1789, em meio a denúncias de abusos de poder dos diretores, mortes e fugas da população indígena. Assinale a opção que indica a sequência correta, de cima para baixo.",
+    "alternativas": [
+      "V – F – V.",
+      "V – V – F.",
+      "F – V – V.",
+      "F – F – V.",
+      "V – V – V."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "“Às vésperas da independência, a atual Amazônia brasileira ainda constituía uma unidade político-administrativa da Coroa portuguesa, e pouco tinha a ver com o Brasil. Era uma outra colônia, com o nome de Estado do Grão-Pará e Rio Negro. Essa colônia do norte da América portuguesa era composta por duas capitanias: a do Pará e a do Rio Negro, principal e subalterna, respectivamente.” (Adaptado de SANTOS, Francisco Jorge dos. História Geral da Amazônia. Editora MemVavMem, 2007, p. 132) A respeito da inclusão da Amazônia portuguesa ao Império brasileiro no contexto do processo de independência, assinale a afirmativa correta.",
+    "alternativas": [
+      "Com a elevação do Brasil a Reino Unido desvinculou-se o Pará do Maranhão e criou-se o Estado do Grão Pará e Rio Negro.",
+      "Em 1823 D. Pedro I incorporou o Estado do Grão-Pará e Rio Negro ao nascente Império do Brasil pela força das armas.",
+      "Na Constituição de 1824, somente a capitania do Rio Negro foi reconhecida como província, recebendo um presidente.",
+      "Pela Constituição de 1824, a antiga Capitania do Pará tornou- se comarca da Província do Rio Negro.",
+      "Após a independência do Brasil, Manaus foi elevada a sede conjunta da Província do Rio Negro e da Comarca do Pará."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Assinale a afirmativa correta a respeito da Cabanagem (1835- 1840).",
+    "alternativas": [
+      "As bases sociais da revolta eram homogêneas, compostas majoritariamente por proprietários: senhores de engenho das proximidades de Belém, arrendatários e artesãos.",
+      "Os líderes da revolta impediram a participação de indivíduos despossuídos, como índios destribalizados (tapuios), índios aldeados, negros e mestiços.",
+      "O programa dos revoltosos era separar-se politicamente do Brasil, constituindo uma nova monarquia independente e se reaproximando de Portugal.",
+      "O governo insurgente de Bernardo Lobo de Souza, aliado de Malcher e apoiado pela elite senhorial rebelde, conduziu negociações para autonomia da Província.",
+      "As facções rebeldes lideradas por Félix Malcher invadiram Belém e se apropriaram do governo até a retomada da cidade por forças locais enviadas pela Regência. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 7"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Leia os fatores listados a seguir e identifique os que contribuíram para a constituição de uma “civilização da borracha”. 1. O desenvolvimento da indústria automobilística nos países industrializados da Europa e Estados Unidos da América e a demanda crescente de borracha para o setor de pneumáticos. 2. A assinatura dos Acordos de Washington para instituição de um órgão que financiasse a extração e comercialização da borracha: o Banco de Crédito da Borracha. 3. O incentivo à transferência da população nordestina para a região amazônica pelo governo federal, que alistava e treinava os “soldados da borracha” na extração do látex. 4. A restruturação urbanística de Belém e Manaus, que passaram a ter luz elétrica, água encanada, esgoto e amplas avenidas, por onde transitavam bondes elétricos. São fatores que contribuíram para a constituição de uma “civilização da borracha” na Amazônia, entre 1870 e 1920, apenas:",
+    "alternativas": [
+      "1 e 2.",
+      "2 e 3.",
+      "1 e 3.",
+      "1 e 4.",
+      "3 e 4."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O documento firmado entre a Bolívia e o Brasil em 17 de novembro de 1903 recebeu o nome de Tratado de Petrópolis e oficializou a anexação ao território brasileiro do atual estado de",
+    "alternativas": [
+      "Amapá.",
+      "Roraima.",
+      "Acre.",
+      "Rondônia.",
+      "Alto Amazonas."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A chamada “Comuna de Manaus” fez parte da sequência de levantes tenentistas ocorridos no Brasil, entre os anos de 1920- 1930. Sobre esse movimento, assinale a afirmativa correta.",
+    "alternativas": [
+      "Ocorreu durante o governo de Arthur Bernardes, sob a liderança do tenente Alfredo Augusto Ribeiro Júnior.",
+      "Diferenciou-se do tenentismo paulista por apoiar a manutenção das oligarquias ruralistas no poder.",
+      "Favoreceu-se com a retomada da expansão gomífera, que fortaleceu a elite local contra o governo federal.",
+      "Foi apoiado pela Polícia Militar e pelos representantes do judiciário local que ajudaram na tomada de Manaus.",
+      "Estendeu-se à região de Óbidos, no Pará, onde pretendia juntar-se à chegada dos rebeldes da Coluna Prestes."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O surgimento do Clube da Madrugada em Manaus (1954) coincidiu com o desejo de renovação estética vivida por um grupo de poetas, escritores, intelectuais e artistas plásticos que desejava mudar a situação de isolamento cultural em função de dificuldades econômicas e geográficas. As iniciativas listadas a seguir caracterizam corretamente o Clube da Madrugada (1954-1972) como um movimento artístico e literário modernista do século XX, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "A intervenção na imprensa, através de publicação em periódicos e da criação de uma revista literária, para divulgar a atuação artística do grupo.",
+      "A boemia, como característica do Clube, marcou sua relação tanto com a política revolucionária quanto com a arte de vanguarda do período.",
+      "A realização de exposições e feiras de artes plásticas ao ar livre, em praças e outros espaços públicos, para aproximar o grande público da arte.",
+      "A oposição a qualquer espaço institucional para a arte, sobretudo à pinacoteca do Estado do Amazonas, vista como o baluarte da pintura neoclássica.",
+      "A organização de debates e conferências para divulgar a ideologia predominante do grupo, de caráter libertária."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A respeito do programa Zona Franca de Manaus (ZFM), estabelecido pelo Decreto-Lei 288/1967, analise as afirmativas a seguir. I. Permitiu a construção de um parque industrial na região concentrado nos setores de televisão, informática, celulares motocicletas e eletrodomésticos, entre outros. II. Contribuiu para o aumento de renda per capita do Amazonas e para um significativo afluxo demográfico para Manaus. III. É administrado pela Superintendência da Zona Franca de Manaus (Suframa), órgão vinculado ao Ministério da Ciência e da Tecnologia. IV. Compreende dois polos econômicos, o industrial e o tecnológico, dos quais o primeiro teve maior ascensão até o final de 1980, quando o Brasil adotava o regime de economia fechada. Está correto o que se afirma em",
+    "alternativas": [
+      "I, II e III, apenas.",
+      "II, III e IV, apenas.",
+      "I e II, apenas.",
+      "III e IV, apenas.",
+      "I, II, III e IV. Raciocínio Lógico Matemático"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Uma fila para vacinação se formou no posto de saúde e nela estão Sílvio e Mário. A fila tem 42 pessoas, Sílvio está na frente de Mario e há 4 pessoas entre eles. Sabe-se que o número de pessoas que estão atrás de Mário é o dobro do número de pessoas que estão à frente de Sílvio. O lugar que Mário ocupa na fila é o:",
+    "alternativas": [
+      "13º.",
+      "16º.",
+      "17º.",
+      "18º.",
+      "19º. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 8"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em certo estado, a Coordenadoria de Missões Especiais tem seu diretor trocado de 8 em 8 meses e a Coordenadoria de Operações tem seu diretor trocado de 10 em 10 meses. Sabe-se que em julho de 2021 as duas coordenadorias tiveram seus diretores trocados simultaneamente. A próxima troca simultânea dos dois diretores ocorrerá em",
+    "alternativas": [
+      "Outubro de 2023.",
+      "Março de 2024.",
+      "Julho de 2024.",
+      "Novembro de 2024.",
+      "Janeiro de 2025."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em uma fila com 12 cadeiras, três delas foram ocupadas aleatoriamente. A cadeira em que Valter deverá se sentar será sorteada entre as cadeiras que estão vazias. A probabilidade de que Valter não se sente ao lado de nenhuma pessoa já sentada é, no mínimo:",
+    "alternativas": [
+      "1/2.",
+      "1/3.",
+      "2/3.",
+      "1/4.",
+      "1/6."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Considere a afirmação: “Nenhum soldado escuta mal”. A sua negação é:",
+    "alternativas": [
+      "Há pelo menos um soldado que escuta mal.",
+      "Vários soldados escutam mal.",
+      "Todos os soldados escutam mal.",
+      "Todos os soldados escutam bem.",
+      "Todas as pessoas que escutam bem são soldados."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Segundo dados da PM do Estado do Amazonas, o número de veículos recuperados em 2018 foi 320 e o número de veículos recuperados em 2020 foi 870. Comparando os dados desses dois anos, o número de veículos recuperados em 2020 foi maior que o de 2018 em cerca de:",
+    "alternativas": [
+      "130%.",
+      "140%.",
+      "150%.",
+      "160%.",
+      "170%."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Sabe-se que a sentença “Se o sapato é preto, então a meia é preta ou o cinto é preto” é FALSA. É correto concluir que",
+    "alternativas": [
+      "o sapato é preto, a meia não é preta, o cinto não é preto.",
+      "o sapato é preto, a meia é preta, o cinto não é preto.",
+      "o sapato é preto, a meia é preta, o cinto é preto.",
+      "o sapato não é preto, a meia não é preta, o cinto não é preto.",
+      "o sapato não é preto, a meia é preta, o cinto é preto."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O soldado Golias mediu o comprimento de sua cama em palmos e encontrou 8 palmos e meio. Um palmo de Golias mede 26 cm. O comprimento da cama de Golias é aproximadamente",
+    "alternativas": [
+      "2 metros.",
+      "2 metros e 10 centímetros.",
+      "2 metros e 20 centímetros.",
+      "2 metros e 30 centímetros.",
+      "2 metros e 40 centímetros."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Rubinho pagou com juros uma conta já vencida. O valor total pago por Rubinho foi de R$ 483,00. Sabendo que Rubinho pagou 15% de juros sobre o valor inicial da conta, o valor dos juros foi de",
+    "alternativas": [
+      "R$ 75,15.",
+      "R$ 72,45.",
+      "R$ 68,00.",
+      "R$ 63,00.",
+      "R$ 61,25."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O soldado Garcia vai liderar uma equipe de 3 soldados (ele incluído) para uma missão. Os outros 2 soldados da equipe serão sorteados aleatoriamente de um grupo de 6 soldados, sendo que um dos 6 é o soldado Ryan, amigo do soldado Garcia. A probabilidade de o soldado Ryan ser um dos 2 sorteados é",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em um grupo de 45 soldados, 27 gostam de marchar e 38 gostam de praticar tiro ao alvo. Sejam: X: o número de soldados desse grupo que gostam de marchar e também de praticar tiro ao alvo; Y: o número de soldados desse grupo que não gostam nem de marchar nem de praticar tiro ao alvo. Nesse caso, é correto afirmar que",
+    "alternativas": [
+      "X é no máximo 20.",
+      "Y é no mínimo 7.",
+      "quando X = 23, tem-se Y = 7.",
+      "quando Y = 7, tem-se X = 20.",
+      "quando Y = 5, tem-se X = 25. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 9 Noções de Informática"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Numa planilha do MS Excel 2010, é possível identificar uma célula ou um intervalo de células referenciando-as pelos títulos de colunas e linhas. Considerando os intervalos A3:C10 e B5:H8, assinale o número de células que pertencem aos dois intervalos.",
+    "alternativas": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "João utiliza o Calc do LibreOffice 4.2, e precisa construir uma fórmula que envolve os valores de vendas diárias de uma empresa nos meses Novembro e Dezembro dispostos, respectivamente, nas colunas G e H, entre as linhas 2 e 32. Todas as células desses intervalos foram preenchidas de acordo com o calendário. Assinale a fórmula que calcula corretamente a variação percentual da média diária de vendas, positiva ou negativa, do mês de dezembro em relação ao mês de novembro.",
+    "alternativas": [
+      "=MÉDIA(H2:H32) - MÉDIA(G2:G31)/MÉDIA(G2:G31)*100",
+      "=(MÉDIA(H2:H32) - MÉDIA(G2:G31))/MÉDIA(G2:G31)*100",
+      "=(MÉDIA(H2:H32 - G2:G31)/MÉDIA(G2:G31)/100",
+      "=(MÉDIA(H2:H32) - MÉDIA(G2:G31))/MÉDIA(G2:G31)/100",
+      "=(MÉDIA(H2:H32) - MÉDIA(G2:G31) - MÉDIA(G2:G31)*100"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Analise as seguintes afirmativas a respeito da proteção de planilhas no MS Excel 2010. I. É possível permitir a modificação de alguns trechos de uma planilha protegida. II. Células bloqueadas não podem ser selecionadas. III. Não há possibilidade de permitir a inserção de linhas numa planilha protegida. Está correto o que se afirma em",
+    "alternativas": [
+      "I, somente.",
+      "II, somente.",
+      "II e III, somente.",
+      "III, somente.",
+      "I, II e III."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "No contexto do MS Word, assinale a alternativa que apresenta a palavra “Exemplo” com o efeito denominado “Tachado”.",
+    "alternativas": [
+      "Primeiro Exemplo",
+      "Segundo Exemplo",
+      "Terceiro EXEMPLO",
+      "Quarto Exemplo",
+      "Quinto Exemplo"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Assinale o software que executa funções típicas de um sistema operacional.",
+    "alternativas": [
+      "Google Chrome.",
+      "LibreOffice.",
+      "Microsoft Outlook.",
+      "Remote Desktop.",
+      "Windows 10."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "João preparou um longo documento sobre suas viagens no MS Word 2010, onde ocasionalmente usou o termo “lazer” grafado como “laser”. Para localizar precisamente essas ocorrências, certas e erradas, João decidiu usar a Localização Avançada do Word com as opções “Localizar apenas palavras inteiras” e “Usar caracteres curinga” acionadas. Assinale o termo a localizar que João deve usar no comando de busca.",
+    "alternativas": [
+      "la$er",
+      "la(*)er",
+      "la*er",
+      "la?er",
+      "la[s,z]er"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "No Windows 10, a Área de Transferência, ou clipboard, é usada primordialmente para armazenar",
+    "alternativas": [
+      "arquivos da Lixeira do Windows até que sejam removidos definitivamente.",
+      "arquivos durante o processamento de uma operação de download.",
+      "arquivos temporários da Internet.",
+      "dados copiados com Ctrl + C.",
+      "dados e arquivos temporários durante a compactação de arquivos."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Joana quer descobrir a capacidade, o espaço livre e o espaço usado do drive C: do seu notebook. Para tanto, depois de clicar com o botão direito sobre o drive no Explorador de Arquivos do Windows, Joana deve usar a opção",
+    "alternativas": [
+      "Configurações.",
+      "Expandir.",
+      "Info.",
+      "Propriedades.",
+      "Recolher."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Considere as seguintes afirmativas sobre protocolos/endereços básicos utilizados na Internet. I. FTP é empregado para transferências de arquivos pela internet. II. HTTP é empregado para acesso à Web por meio de mensagens criptografadas seguras. III. 170.66.11.10 é um exemplo de endereço IP. Está correto o que se afirma em",
+    "alternativas": [
+      "I, somente.",
+      "II, somente.",
+      "III, somente.",
+      "I e III, somente.",
+      "I, II e III. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 10"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Assinale o texto que, quando utilizado numa busca no Google, resultaria na mensagem “Sua pesquisa não encontrou nenhum documento correspondente”.",
+    "alternativas": [
+      "\"porta -porta\"",
+      "\"porta-porta\"",
+      "porta - porta",
+      "porta -porta",
+      "porta-porta Legislação Institucional"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "O Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) dispõe que a Polícia Militar, instituição destinada à manutenção da ordem púbica no Estado, subordina- se ao Governador do Estado, nos termos da Constituição Estadual, e operacionalmente ao Secretário de Estado de Segurança Pública. De acordo com o citado diploma normativo, a base institucional da Polícia Militar é a",
+    "alternativas": [
+      "hierarquia e a disciplina, sendo que a autoridade e a responsabilidade decrescem com o grau hierárquico.",
+      "hierarquia e a disciplina, sendo que a autoridade e a responsabilidade crescem com o grau hierárquico.",
+      "antiguidade e o merecimento, sendo que a autoridade e a responsabilidade aumentam em progressão geométrica.",
+      "antiguidade e o merecimento, sendo que a autoridade e a responsabilidade aumentam em progressão aritmética.",
+      "força e a ética, que devem ser aplicadas de forma progressiva e proporcional ao risco oferecido à coletividade."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Círculos hierárquicos são âmbitos de convivência entre os policiais militares da mesma categoria e têm a finalidade de desenvolver o espírito de camaradagem em ambiente de estima e confiança, sem prejuízo do respeito mútuo. De acordo com o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75), em matéria de círculo de praças",
+    "alternativas": [
+      "posto é o grau hierárquico do praça, conferido por ato do Comandante Geral da Polícia Militar.",
+      "posto é o grau hierárquico do praça, conferido por ato do Secretário de Estado de Segurança Pública.",
+      "posto é o grau hierárquico do praça, conferido por ato do Governador do Estado.",
+      "graduação é o grau hierárquico do praça, conferido pelo Comandante Geral da Polícia Militar.",
+      "graduação é o grau hierárquico do praça, conferido pelo Secretário de Estado de Segurança Pública."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em tema de ética, o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) dispõe que o sentimento do dever, o pundonor policial-militar e o decoro da classe impõem, a cada um dos integrantes da Polícia Militar, conduta moral e profissional irrepreensíveis com observância de alguns preceitos da ética policial-militar, como",
+    "alternativas": [
+      "acatar as autoridades militares, não tendo tal obrigação em relação às autoridades civis.",
+      "exercer com autoridade, eficiência e improbidade as funções que lhe couberem em decorrência do cargo.",
+      "abster-se o policial militar do uso das designações hierárquicas quando em atividades comerciais, exceto na inatividade.",
+      "fazer uso do posto ou da graduação com parcimônia para obter facilidades pessoais de qualquer natureza ou para encaminhar negócios particulares ou de terceiros.",
+      "conduzir-se, mesmo fora do serviço ou na inatividade, de modo que não sejam prejudicados os princípios da disciplina, do respeito e do decoro policial-militar."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em janeiro de 2020, o Policial Militar José, que nunca respondeu a qualquer processo judicial ou administrativo disciplinar e até então nunca havia gozado qualquer licença, completou cinco anos de efetivo exercício na Polícia Militar do Amazonas. Assim, de acordo com o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75), João fez jus à licença",
+    "alternativas": [
+      "especial de 1 (um) mês, com todos os direitos e vantagens do seu cargo efetivo, sendo que o período de licença especial interrompe a contagem do tempo de efetivo serviço.",
+      "especial de 3 (três) meses, com todos os direitos e vantagens do seu cargo efetivo, sendo que o período de licença especial não interrompe a contagem do tempo de efetivo serviço.",
+      "especial de 5 (cinco) meses, com todos os direitos e vantagens do seu cargo efetivo, sendo que o período de licença especial interrompe a contagem do tempo de efetivo serviço.",
+      "para tratar de interesse particular, pelo prazo de até 12 (doze) meses, com todos os direitos e vantagens do seu cargo efetivo, sendo que o período de licença especial não interrompe a contagem do tempo de efetivo serviço.",
+      "para tratar de interesse particular, pelo prazo de até 24 (doze) meses, sem direito a vencimentos e vantagens do seu cargo efetivo, sendo que o período de licença especial interrompe a contagem do tempo de efetivo serviço."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010) dispõe que, em seu âmbito de atuação, compete à Polícia Militar do Amazonas",
+    "alternativas": [
+      "desempenhar a função de polícia judiciária civil, nos termos da lei federal.",
+      "supervisionar e correicionar as guardas municipais, aplicando- lhes as sanções administrativas cabíveis em caso de infração.",
+      "atuar de maneira preventiva, como força de dissuasão, em locais ou áreas específicas, onde se presuma ser possível a perturbação da ordem.",
+      "atuar de maneira repressiva, em caso de perturbação da ordem, de forma posterior e caso insuficiente o emprego das Forças Armadas.",
+      "desempenhar as funções de polícia ostensiva de segurança pública, exceto em matéria de trânsito urbano e rodoviário, bem como ambiental. Polícia Militar do Estado do Amazonas FGV Aluno Soldado da PM  Tipo Branca – Página 11"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em matéria de estrutura da Polícia Militar do Amazonas, a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010) dispõe que, atuando de forma integrada e sistêmica, têm a atribuição de efetuar a administração setorial das atividades de recursos humanos, ensino, saúde e assistência social, logística e gestão financeira e orçamentária, dentre outras, os Órgãos de",
+    "alternativas": [
+      "Apoio Funcional.",
+      "Execução.",
+      "Direção Setorial.",
+      "Direção Geral.",
+      "Apoio Administrativo."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Consoante dispõe a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), o Estado Maior é o órgão de direção geral responsável, perante o Comandante-Geral",
+    "alternativas": [
+      "pela assinatura, com vistas à consecução dos objetivos da Corporação e respeitada a legislação aplicável, de convênios, contratos e ajustes, com pessoas físicas ou jurídicas, nacionais ou internacionais, e é chefiado privativamente pelo próprio Comandante-Geral da Polícia Militar.",
+      "pela aprovação e cumprimento do regulamento geral, dos regimentos internos, das diretrizes, planos e demais normas administrativas e operacionais de interesse da Corporação, e é chefiado privativamente pelo próprio Comandante-Geral da Polícia Militar.",
+      "pelo julgamento dos recursos contra atos do Subcomandante Geral, do Comandante-Geral e do Diretor da Diretoria de Justiça e Disciplina, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, que necessariamente tenha feito Curso Superior de Polícia ou curso militar correspondente.",
+      "pela coordenação e fiscalização das atividades dos órgãos de execução operacional da Corporação, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, que necessariamente tenha feito Curso Superior de Polícia ou curso militar correspondente.",
+      "pelo estudo, planejamento, coordenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, preferencialmente com Curso Superior de Polícia ou curso militar correspondente."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "Em matéria de nível hierárquico dos praças, a Lei nº 4.044/2014 do Estado do Amazonas (Lei de Promoção de Praças) dispõe que a carreira dos Praças Militares Estaduais é composta pelas seguintes graduações crescentes:",
+    "alternativas": [
+      "Aluno-soldado; Soldado; Cabo; 3º Sargento; 2º Sargento; 1º Sargento; Subtenente.",
+      "Aluno-soldado; Soldado; Cabo; Sargento; Subtenente; Tenente.",
+      "Aluno-soldado; Soldado; Cabo; Sargento; Subtenente; Tenente; Aluno-oficial.",
+      "Soldado; Cabo; Sargento; Subtenente; Tenente; Capitão; Major.",
+      "Soldado; Cabo; Sargento; Tenente; Capitão; Major; Coronel."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "No âmbito da Polícia Militar do Estado do Amazonas (PMAM), os Órgãos de Execução destinam-se à realização das atividades-fim da instituição. Conforme dispõe a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), tais atividades-fim da PMAM, de acordo com as peculiaridades, compreendem, entre outros, as chamadas Frações, que são as",
+    "alternativas": [
+      "menores organizações policiais militares, com responsabilidade territorial decorrente da subdivisão da área das Subunidades, podendo receber as denominações de Pelotão, Grupo, Destacamento ou Posto.",
+      "organizações policiais militares constituídas para atuarem como escalões superiores de comando, responsáveis pela coordenação e controle dos Comandos Intermediários e/ou conjunto de Unidades Policiais Militares.",
+      "organizações policiais militares constituídas para atuarem como escalões intermediários de comando, responsáveis pela coordenação e controle de determinadas áreas ou regiões, tendo a si subordinadas Unidades ou Subunidades de Polícia Militar.",
+      "organizações policiais militares, com responsabilidade territorial definida, constituídas em razão da reunião de Subunidades, podendo receber as denominações de Batalhão ou Regimento.",
+      "organizações policiais militares com responsabilidade territorial decorrente da subdivisão da área (subárea) de Comando Intermediário, constituídas em razão da reunião de Unidades, podendo receber as denominações de Companhia ou Esquadrão conforme a atividade a ser desenvolvida."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial PM-AM 2022 (FGV) — Aluno Soldado",
+    "dificuldade": 2,
+    "enunciado": "A Lei nº 4.044/2014 do Estado do Amazonas (Lei de Promoção de Praças) dispõe que a promoção por bravura resultará de ações incomuns de coragem e audácia que, ultrapassando os limites normais do cumprimento do dever, representem feitos indispensáveis ou úteis às operações militares, pelos resultados alcançados ou pelo exemplo positivo delas emanados. Nesse contexto, a citada lei estabelece que a promoção por bravura é ato",
+    "alternativas": [
+      "vinculado da Administração Militar Estadual, sendo que após a promoção por bravura é vedado ao militar promovido a matrícula no primeiro Curso de Formação e Aperfeiçoamento à respectiva graduação.",
+      "vinculado da Administração Militar Estadual, sendo que os atos de bravura deverão ser devidamente reconhecidos pelo Governador do Estado, mediante proposta encaminhada pelo Comandante-Geral da Corporação.",
+      "vinculado da Administração Militar Estadual, sendo que os atos de bravura deverão ser devidamente reconhecidos pelo Secretário de Segurança Pública, mediante proposta encaminhada pelo Comandante-Geral da Corporação.",
+      "discricionário da Administração Militar Estadual, sendo que os atos de bravura deverão ser devidamente reconhecidos pelo Comandante-Geral da Corporação, mediante proposta encaminhada pelo respectivo Comandante, Chefe ou Diretor de OPM/OBM, a que pertença o Militar Estadual.",
+      "discricionário da Administração Militar Estadual, sendo que a promoção por bravura será procedida imediatamente após o reconhecimento do ato, apenas se houver vaga disponível, garantindo-se ao Militar Estadual promovido o acesso às graduações subsequentes, independentemente de preenchidos os demais requisitos exigidos na Lei. REALIZAÇÃO"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "PM-AM"
+    ]
   }
 ]
