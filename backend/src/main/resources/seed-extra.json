@@ -13310,5 +13310,3555 @@
       "PM-RR",
       "PC-TO"
     ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 24.0.",
+      "15% de 200 é 30.",
+      "20% de 500 é 115.0.",
+      "15% de 200 é 36.0.",
+      "15% de 200 é 40.0."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 15% de 200 é 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 250 é 100.",
+      "25% de 80 é 20.",
+      "15% de 200 é 36.0.",
+      "20% de 500 é 100.",
+      "15% de 200 é 30."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 15% de 200 é 36.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "20% de 500 é 115.0.",
+      "20% de 500 é 85.0.",
+      "15% de 200 é 36.0.",
+      "20% de 500 é 125.0."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 20% de 500 é 100.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "20% de 500 é 115.0.",
+      "25% de 80 é 20.",
+      "40% de 250 é 100."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 20% de 500 é 115.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "25% de 80 é 24.0.",
+      "25% de 80 é 22.4.",
+      "15% de 200 é 36.0.",
+      "25% de 80 é 20.",
+      "25% de 80 é 17.6."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 25% de 80 é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "25% de 80 é 20.",
+      "15% de 200 é 30.",
+      "40% de 250 é 100.",
+      "20% de 500 é 100.",
+      "25% de 80 é 22.4."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 25% de 80 é 22.4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "40% de 250 é 100.",
+      "40% de 250 é 107.5.",
+      "40% de 250 é 92.5.",
+      "40% de 250 é 112.5.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 40% de 250 é 100.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 250 é 107.5.",
+      "20% de 500 é 100.",
+      "15% de 200 é 30.",
+      "40% de 250 é 100.",
+      "25% de 80 é 20."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 40% de 250 é 107.5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "10% de 120 é 18.0.",
+      "10% de 120 é 12.",
+      "10% de 120 é 15.6.",
+      "10% de 120 é 8.4."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 10% de 120 é 12.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "10% de 120 é 12.",
+      "10% de 120 é 15.6.",
+      "20% de 500 é 100.",
+      "25% de 80 é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 10% de 120 é 15.6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "5% de 300 é 24.0.",
+      "5% de 300 é 6.0.",
+      "5% de 300 é 15.",
+      "5% de 300 é 30.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 5% de 300 é 15.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "5% de 300 é 24.0.",
+      "5% de 300 é 15.",
+      "25% de 80 é 20.",
+      "20% de 500 é 100."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 5% de 300 é 24.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "30% de 150 é 45.",
+      "30% de 150 é 52.5.",
+      "30% de 150 é 40.5.",
+      "30% de 150 é 49.5.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 30% de 150 é 45.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "30% de 150 é 45.",
+      "30% de 150 é 49.5.",
+      "20% de 500 é 100."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 30% de 150 é 49.5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "50% de 90 é 45.",
+      "15% de 200 é 36.0.",
+      "50% de 90 é 47.7.",
+      "50% de 90 é 42.3.",
+      "50% de 90 é 49.5."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 50% de 90 é 45.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "25% de 80 é 20.",
+      "50% de 90 é 45.",
+      "15% de 200 é 30.",
+      "50% de 90 é 47.7."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 50% de 90 é 47.7.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "12% de 400 é 68.0.",
+      "12% de 400 é 48.",
+      "12% de 400 é 60.0.",
+      "12% de 400 é 36.0.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 12% de 400 é 48.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "25% de 80 é 20.",
+      "12% de 400 é 60.0.",
+      "12% de 400 é 48."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 12% de 400 é 60.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "8% de 600 é 78.0.",
+      "8% de 600 é 66.0.",
+      "8% de 600 é 48.",
+      "8% de 600 é 30.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 8% de 600 é 48.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "8% de 600 é 48.",
+      "25% de 80 é 20.",
+      "8% de 600 é 66.0.",
+      "15% de 200 é 30."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 8% de 600 é 66.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "Aumentos sucessivos de 10% e 10% equivalem a um aumento único de 21% (fator 1,10 × 1,10 = 1,21).",
+      "15% de 200 é 36.0.",
+      "Aumentos de 10% e 10% equivalem a 100%.",
+      "Aumentos de 10% e 10% equivalem a 20%."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 10% e 10% equivalem a um aumento único de 21% (fator 1,10 × 1,10 = 1,21).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Aumentos de 10% e 10% equivalem a 20%.",
+      "Aumentos sucessivos de 10% e 10% equivalem a um aumento único de 21% (fator 1,10 × 1,10 = 1,21).",
+      "25% de 80 é 20.",
+      "15% de 200 é 30."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 10% e 10% equivalem a 20%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Aumentos de 20% e 25% equivalem a 45%.",
+      "Aumentos sucessivos de 20% e 25% equivalem a um aumento único de 0% (0,8 × 1,25 = 1).",
+      "Aumentos de 20% e 25% equivalem a 500%.",
+      "15% de 200 é 40.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 20% e 25% equivalem a um aumento único de 0% (0,8 × 1,25 = 1).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "20% de 500 é 100.",
+      "Aumentos de 20% e 25% equivalem a 45%.",
+      "Aumentos sucessivos de 20% e 25% equivalem a um aumento único de 0% (0,8 × 1,25 = 1)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 20% e 25% equivalem a 45%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos sucessivos de 50% e 50% equivalem a um aumento único de 125% (1,5 × 1,5 = 2,25).",
+      "15% de 200 é 36.0.",
+      "Aumentos de 50% e 50% equivalem a 100%.",
+      "15% de 200 é 40.0.",
+      "Aumentos de 50% e 50% equivalem a 2500%."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 50% e 50% equivalem a um aumento único de 125% (1,5 × 1,5 = 2,25).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "15% de 200 é 30.",
+      "Aumentos sucessivos de 50% e 50% equivalem a um aumento único de 125% (1,5 × 1,5 = 2,25).",
+      "Aumentos de 50% e 50% equivalem a 100%.",
+      "25% de 80 é 20."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 50% e 50% equivalem a 100%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos de 10% e 20% equivalem a 200%.",
+      "Aumentos de 10% e 20% equivalem a 30%.",
+      "Aumentos sucessivos de 10% e 20% equivalem a um aumento único de 32% (1,10 × 1,20 = 1,32).",
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 10% e 20% equivalem a um aumento único de 32% (1,10 × 1,20 = 1,32).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "Aumentos de 10% e 20% equivalem a 30%.",
+      "20% de 500 é 100.",
+      "Aumentos sucessivos de 10% e 20% equivalem a um aumento único de 32% (1,10 × 1,20 = 1,32).",
+      "25% de 80 é 20."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 10% e 20% equivalem a 30%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "Aumentos de 30% e 30% equivalem a 60%.",
+      "Aumentos sucessivos de 30% e 30% equivalem a um aumento único de 69% (1,3 × 1,3 = 1,69).",
+      "Aumentos de 30% e 30% equivalem a 900%.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 30% e 30% equivalem a um aumento único de 69% (1,3 × 1,3 = 1,69).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Aumentos sucessivos de 30% e 30% equivalem a um aumento único de 69% (1,3 × 1,3 = 1,69).",
+      "Aumentos de 30% e 30% equivalem a 60%.",
+      "25% de 80 é 20.",
+      "15% de 200 é 30.",
+      "20% de 500 é 100."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 30% e 30% equivalem a 60%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "Dividindo 150 em partes proporcionais a 2 e 3, as partes são 2 e 3.",
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0.",
+      "Dividindo 150 em partes proporcionais a 2 e 3, as partes são 61 e 89.",
+      "Dividindo 150 em partes diretamente proporcionais a 2 e 3, as partes são 60 e 90."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 150 em partes diretamente proporcionais a 2 e 3, as partes são 60 e 90.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "25% de 80 é 20.",
+      "Dividindo 150 em partes proporcionais a 2 e 3, as partes são 2 e 3.",
+      "15% de 200 é 30.",
+      "Dividindo 150 em partes diretamente proporcionais a 2 e 3, as partes são 60 e 90.",
+      "20% de 500 é 100."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Dividindo 150 em partes proporcionais a 2 e 3, as partes são 2 e 3.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "15% de 200 é 40.0.",
+      "Dividindo 200 em partes proporcionais a 1 e 4, as partes são 1 e 4.",
+      "Dividindo 200 em partes diretamente proporcionais a 1 e 4, as partes são 40 e 160.",
+      "Dividindo 200 em partes proporcionais a 1 e 4, as partes são 41 e 159."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 200 em partes diretamente proporcionais a 1 e 4, as partes são 40 e 160.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "Dividindo 200 em partes diretamente proporcionais a 1 e 4, as partes são 40 e 160.",
+      "20% de 500 é 100.",
+      "Dividindo 200 em partes proporcionais a 1 e 4, as partes são 1 e 4."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Dividindo 200 em partes proporcionais a 1 e 4, as partes são 1 e 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Dividindo 360 em partes proporcionais a 2 e 7, as partes são 81 e 279.",
+      "Dividindo 360 em partes proporcionais a 2 e 7, as partes são 2 e 7.",
+      "Dividindo 360 em partes diretamente proporcionais a 2 e 7, as partes são 80 e 280.",
+      "15% de 200 é 40.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 360 em partes diretamente proporcionais a 2 e 7, as partes são 80 e 280.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Dividindo 360 em partes diretamente proporcionais a 2 e 7, as partes são 80 e 280.",
+      "25% de 80 é 20.",
+      "Dividindo 360 em partes proporcionais a 2 e 7, as partes são 2 e 7.",
+      "15% de 200 é 30."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Dividindo 360 em partes proporcionais a 2 e 7, as partes são 2 e 7.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Dividindo 240 em partes proporcionais a 3 e 5, as partes são 91 e 149.",
+      "15% de 200 é 40.0.",
+      "Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+      "Dividindo 240 em partes proporcionais a 3 e 5, as partes são 3 e 5."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+      "Dividindo 240 em partes proporcionais a 3 e 5, as partes são 3 e 5.",
+      "15% de 200 é 30.",
+      "25% de 80 é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Dividindo 240 em partes proporcionais a 3 e 5, as partes são 3 e 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "Dividindo 180 em partes proporcionais a 1 e 2, as partes são 1 e 2.",
+      "Dividindo 180 em partes proporcionais a 1 e 2, as partes são 61 e 119.",
+      "Dividindo 180 em partes diretamente proporcionais a 1 e 2, as partes são 60 e 120.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 180 em partes diretamente proporcionais a 1 e 2, as partes são 60 e 120.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Dividindo 180 em partes diretamente proporcionais a 1 e 2, as partes são 60 e 120.",
+      "Dividindo 180 em partes proporcionais a 1 e 2, as partes são 1 e 2.",
+      "25% de 80 é 20.",
+      "15% de 200 é 30."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Dividindo 180 em partes proporcionais a 1 e 2, as partes são 1 e 2.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Em juros simples, R$ 100 a 10% ao mês por 3 meses rendem R$ 30.",
+      "Em juros simples, R$ 100 a 10% a.m. por 3 meses rendem R$ 40.",
+      "15% de 200 é 40.0.",
+      "Em juros simples, R$ 100 a 10% a.m. por 3 meses rendem R$ 60."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 100 a 10% ao mês por 3 meses rendem R$ 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Em juros simples, R$ 100 a 10% a.m. por 3 meses rendem R$ 40.",
+      "Em juros simples, R$ 100 a 10% ao mês por 3 meses rendem R$ 30.",
+      "25% de 80 é 20.",
+      "15% de 200 é 30."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, R$ 100 a 10% a.m. por 3 meses rendem R$ 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "Em juros simples, R$ 500 a 5% a.m. por 4 meses rendem R$ 110.",
+      "Em juros simples, R$ 500 a 5% ao mês por 4 meses rendem R$ 100.",
+      "Em juros simples, R$ 500 a 5% a.m. por 4 meses rendem R$ 200.",
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 500 a 5% ao mês por 4 meses rendem R$ 100.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "Em juros simples, R$ 500 a 5% ao mês por 4 meses rendem R$ 100.",
+      "20% de 500 é 100.",
+      "Em juros simples, R$ 500 a 5% a.m. por 4 meses rendem R$ 110.",
+      "25% de 80 é 20.",
+      "15% de 200 é 30."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, R$ 500 a 5% a.m. por 4 meses rendem R$ 110.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Em juros simples, R$ 200 a 2% a.m. por 10 meses rendem R$ 80.",
+      "Em juros simples, R$ 200 a 2% ao mês por 10 meses rendem R$ 40.",
+      "Em juros simples, R$ 200 a 2% a.m. por 10 meses rendem R$ 50.",
+      "15% de 200 é 40.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 200 a 2% ao mês por 10 meses rendem R$ 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "Em juros simples, R$ 200 a 2% ao mês por 10 meses rendem R$ 40.",
+      "15% de 200 é 30.",
+      "Em juros simples, R$ 200 a 2% a.m. por 10 meses rendem R$ 50.",
+      "20% de 500 é 100.",
+      "25% de 80 é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, R$ 200 a 2% a.m. por 10 meses rendem R$ 50.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "Em juros simples, R$ 1000 a 3% a.m. por 6 meses rendem R$ 190.",
+      "15% de 200 é 40.0.",
+      "Em juros simples, R$ 1000 a 3% a.m. por 6 meses rendem R$ 360.",
+      "15% de 200 é 36.0.",
+      "Em juros simples, R$ 1000 a 3% ao mês por 6 meses rendem R$ 180."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 1000 a 3% ao mês por 6 meses rendem R$ 180.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "Em juros simples, R$ 1000 a 3% a.m. por 6 meses rendem R$ 190.",
+      "20% de 500 é 100.",
+      "15% de 200 é 30.",
+      "Em juros simples, R$ 1000 a 3% ao mês por 6 meses rendem R$ 180.",
+      "25% de 80 é 20."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, R$ 1000 a 3% a.m. por 6 meses rendem R$ 190.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "Em juros simples, R$ 250 a 4% ao mês por 5 meses rendem R$ 50.",
+      "15% de 200 é 36.0.",
+      "Em juros simples, R$ 250 a 4% a.m. por 5 meses rendem R$ 60.",
+      "Em juros simples, R$ 250 a 4% a.m. por 5 meses rendem R$ 100."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 250 a 4% ao mês por 5 meses rendem R$ 50.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples (J=C·i·t)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Em juros simples, R$ 250 a 4% ao mês por 5 meses rendem R$ 50.",
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "Em juros simples, R$ 250 a 4% a.m. por 5 meses rendem R$ 60."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, R$ 250 a 4% a.m. por 5 meses rendem R$ 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva correta.",
+    "alternativas": [
+      "Se 3 máquinas produzem 120 peças em 8 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0.",
+      "Se 3 máquinas produzem 120 peças em 8 horas, a produção é inversamente proporcional ao tempo.",
+      "A produção é inversamente proporcional ao número de máquinas."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Se 3 máquinas produzem 120 peças em 8 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva incorreta.",
+    "alternativas": [
+      "25% de 80 é 20.",
+      "Se 3 máquinas produzem 120 peças em 8 horas, a produção é inversamente proporcional ao tempo.",
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "Se 3 máquinas produzem 120 peças em 8 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Se 3 máquinas produzem 120 peças em 8 horas, a produção é inversamente proporcional ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0.",
+      "Se 4 máquinas produzem 80 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "Se 4 máquinas produzem 80 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+      "A produção é inversamente proporcional ao número de máquinas."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Se 4 máquinas produzem 80 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva incorreta.",
+    "alternativas": [
+      "Se 4 máquinas produzem 80 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "25% de 80 é 20.",
+      "Se 4 máquinas produzem 80 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Se 4 máquinas produzem 80 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "Se 6 máquinas produzem 300 peças em 10 horas, a produção é inversamente proporcional ao tempo.",
+      "Se 6 máquinas produzem 300 peças em 10 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "A produção é inversamente proporcional ao número de máquinas.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Se 6 máquinas produzem 300 peças em 10 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 500 é 100.",
+      "Se 6 máquinas produzem 300 peças em 10 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "Se 6 máquinas produzem 300 peças em 10 horas, a produção é inversamente proporcional ao tempo."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Se 6 máquinas produzem 300 peças em 10 horas, a produção é inversamente proporcional ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 36.0.",
+      "Se 2 máquinas produzem 60 peças em 4 horas, a produção é inversamente proporcional ao tempo.",
+      "Se 2 máquinas produzem 60 peças em 4 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "A produção é inversamente proporcional ao número de máquinas.",
+      "15% de 200 é 40.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Se 2 máquinas produzem 60 peças em 4 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva incorreta.",
+    "alternativas": [
+      "Se 2 máquinas produzem 60 peças em 4 horas, a produção é inversamente proporcional ao tempo.",
+      "25% de 80 é 20.",
+      "20% de 500 é 100.",
+      "Se 2 máquinas produzem 60 peças em 4 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "15% de 200 é 30."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Se 2 máquinas produzem 60 peças em 4 horas, a produção é inversamente proporcional ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva correta.",
+    "alternativas": [
+      "A produção é inversamente proporcional ao número de máquinas.",
+      "Se 5 máquinas produzem 200 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+      "15% de 200 é 40.0.",
+      "Se 5 máquinas produzem 200 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Se 5 máquinas produzem 200 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, indique a assertiva incorreta.",
+    "alternativas": [
+      "Se 5 máquinas produzem 200 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "25% de 80 é 20.",
+      "Se 5 máquinas produzem 200 peças em 5 horas, a produção é diretamente proporcional ao número de máquinas e ao tempo."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Se 5 máquinas produzem 200 peças em 5 horas, a produção é inversamente proporcional ao tempo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "A negação de 'A e B' é 'A ou B'.",
+      "15% de 200 é 40.0.",
+      "A negação de 'A e B' é 'não A e não B'.",
+      "15% de 200 é 36.0.",
+      "A negação de 'A e B' é 'não A ou não B' (De Morgan)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A negação de 'A e B' é 'não A ou não B' (De Morgan).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "25% de 80 é 20.",
+      "A negação de 'A e B' é 'não A ou não B' (De Morgan).",
+      "15% de 200 é 30.",
+      "20% de 500 é 100.",
+      "A negação de 'A e B' é 'não A e não B'."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de 'A e B' é 'não A e não B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "A negação de 'A ou B' é 'A e B'.",
+      "15% de 200 é 36.0.",
+      "A negação de 'A ou B' é 'não A e não B' (De Morgan).",
+      "A negação de 'A ou B' é 'não A ou não B'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A negação de 'A ou B' é 'não A e não B' (De Morgan).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "A negação de 'A ou B' é 'não A e não B' (De Morgan).",
+      "20% de 500 é 100.",
+      "25% de 80 é 20.",
+      "A negação de 'A ou B' é 'não A ou não B'.",
+      "15% de 200 é 30."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de 'A ou B' é 'não A ou não B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de condicional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "A negação de 'se P, então Q' é 'se não Q, então não P'.",
+      "A negação de 'se P, então Q' é 'não P e Q'.",
+      "A negação de 'se P, então Q' é 'P e não Q'.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A negação de 'se P, então Q' é 'P e não Q'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de condicional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 200 é 30.",
+      "25% de 80 é 20.",
+      "A negação de 'se P, então Q' é 'se não Q, então não P'.",
+      "20% de 500 é 100.",
+      "A negação de 'se P, então Q' é 'P e não Q'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de 'se P, então Q' é 'se não Q, então não P'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Contrapositiva",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 200 é 40.0.",
+      "A contrapositiva é 'se não P, então não Q'.",
+      "A contrapositiva de 'se P, então Q' é 'se não Q, então não P'.",
+      "A contrapositiva é 'se Q, então P'.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A contrapositiva de 'se P, então Q' é 'se não Q, então não P'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Contrapositiva",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "25% de 80 é 20.",
+      "15% de 200 é 30.",
+      "A contrapositiva de 'se P, então Q' é 'se não Q, então não P'.",
+      "20% de 500 é 100.",
+      "A contrapositiva é 'se Q, então P'."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A contrapositiva é 'se Q, então P'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de quantificadores",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "A negação de 'todo A é B' é 'nenhum A é B'.",
+      "A negação de 'todo A é B' é 'todo A não é B'.",
+      "15% de 200 é 36.0.",
+      "15% de 200 é 40.0.",
+      "A negação de 'todo A é B' é 'existe A que não é B'."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A negação de 'todo A é B' é 'existe A que não é B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de quantificadores",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "A negação de 'todo A é B' é 'existe A que não é B'.",
+      "25% de 80 é 20.",
+      "A negação de 'todo A é B' é 'nenhum A é B'.",
+      "15% de 200 é 30.",
+      "20% de 500 é 100."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de 'todo A é B' é 'nenhum A é B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de quantificadores",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "A negação de 'algum A é B' é 'nenhum A é B'.",
+      "A negação de 'algum A é B' é 'algum A não é B'.",
+      "A negação de 'algum A é B' é 'todo A é B'.",
+      "15% de 200 é 40.0.",
+      "15% de 200 é 36.0."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A negação de 'algum A é B' é 'nenhum A é B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de quantificadores",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "A negação de 'algum A é B' é 'algum A não é B'.",
+      "20% de 500 é 100.",
+      "15% de 200 é 30.",
+      "A negação de 'algum A é B' é 'nenhum A é B'.",
+      "25% de 80 é 20."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de 'algum A é B' é 'algum A não é B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, assinale a alternativa correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Desobedecer' é intransitivo.",
+      "'Obedecer' é transitivo direto."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'.",
+      "'Assistir' (presenciar) é transitivo direto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Assistir' (presenciar) é transitivo direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Obedecer' é transitivo direto.",
+      "'Desobedecer' é intransitivo.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Obedecer' é transitivo direto.",
+      "'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Obedecer' é transitivo direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Aspirar' (desejar) rege 'por'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Aspirar' (desejar) é transitivo direto."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Aspirar' (desejar) é transitivo direto.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Aspirar' (desejar) é transitivo direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'.",
+      "'Preferir' é intransitivo.",
+      "'Prefiro mais A do que B' é correto.",
+      "'Assistir' (presenciar) é transitivo direto."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Preferir' rege 'a', sem 'mais' e sem 'que': 'prefiro A a B'.",
+      "'Prefiro mais A do que B' é correto.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Prefiro mais A do que B' é correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "Há crase em 'às cegas', 'à vontade' e 'à noite' (locuções).",
+      "Crase é facultativa em todas as locuções adverbiais.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "Nessas locuções a crase é proibida."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Há crase em 'às cegas', 'à vontade' e 'à noite' (locuções).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "Há crase em 'às cegas', 'à vontade' e 'à noite' (locuções).",
+      "Nessas locuções a crase é proibida.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Nessas locuções a crase é proibida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "Usa-se crase antes de 'àquele/àquela/àquilo' (a + aquele).",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "A crase antes de 'aquele' é facultativa.",
+      "A crase antes de 'aquele' é proibida."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Usa-se crase antes de 'àquele/àquela/àquilo' (a + aquele).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "Usa-se crase antes de 'àquele/àquela/àquilo' (a + aquele).",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "A crase antes de 'aquele' é proibida.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A crase antes de 'aquele' é proibida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O sujeito simples concorda com o verbo: 'os servidores requereram'.",
+      "O verbo concorda com o objeto direto.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "Com sujeito simples posposto o verbo fica no singular."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O sujeito simples concorda com o verbo: 'os servidores requereram'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "O verbo concorda com o objeto direto.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "O sujeito simples concorda com o verbo: 'os servidores requereram'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: O verbo concorda com o objeto direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Haja vista' concorda com o termo a que se refere: 'haja vista os casos'.",
+      "'Haja vista' é invariável sempre.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Haja vista' não é expressão culta.",
+      "'Assistir' (presenciar) é transitivo direto."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 'Haja vista' concorda com o termo a que se refere: 'haja vista os casos'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Haja vista' concorda com o termo a que se refere: 'haja vista os casos'.",
+      "'Haja vista' é invariável sempre.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Haja vista' é invariável sempre.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "Aposto explicativo nunca leva vírgula.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "A vírgula isola apenas vocativo.",
+      "A vírgula é obrigatória para isolar aposto explicativo."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A vírgula é obrigatória para isolar aposto explicativo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "A vírgula é obrigatória para isolar aposto explicativo.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "Aposto explicativo nunca leva vírgula.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Aposto explicativo nunca leva vírgula.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "Vírgula antes de 'e' quando os sujeitos das orações são diferentes.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "Vírgula antes de 'e' indica sempre valor conclusivo.",
+      "Vírgula antes de 'e' é sempre proibida."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Vírgula antes de 'e' quando os sujeitos das orações são diferentes.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "Vírgula antes de 'e' é sempre proibida.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "Vírgula antes de 'e' quando os sujeitos das orações são diferentes.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Vírgula antes de 'e' é sempre proibida.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego de pronomes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Onde' e 'aonde' são sempre intercambiáveis.",
+      "'Aonde' indica permanência.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Onde' indica lugar físico; 'aonde' exige verbo de movimento."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Onde' indica lugar físico; 'aonde' exige verbo de movimento.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego de pronomes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Onde' e 'aonde' são sempre intercambiáveis.",
+      "'Onde' indica lugar físico; 'aonde' exige verbo de movimento."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Onde' e 'aonde' são sempre intercambiáveis.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Senão' e 'se não' são idênticos.",
+      "'Senão' (caso contrário) e 'se não' (condição + negação) têm usos distintos.",
+      "'Se não' é sempre conjunção.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Assistir' (presenciar) rege 'em'."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Senão' (caso contrário) e 'se não' (condição + negação) têm usos distintos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Senão' e 'se não' são idênticos.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Senão' (caso contrário) e 'se não' (condição + negação) têm usos distintos.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Senão' e 'se não' são idênticos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Mas' indica quantidade.",
+      "'Mas' é conjunção adversativa; 'mais' indica quantidade.",
+      "'Mais' é conjunção adversativa."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 'Mas' é conjunção adversativa; 'mais' indica quantidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Mas' indica quantidade.",
+      "'Mas' é conjunção adversativa; 'mais' indica quantidade.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Mas' indica quantidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "'A fim de' indica finalidade; 'afim' indica semelhança.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'A fim de' indica semelhança.",
+      "'Afim' indica finalidade."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'A fim de' indica finalidade; 'afim' indica semelhança.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'A fim de' indica finalidade; 'afim' indica semelhança.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'A fim de' indica semelhança.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'A fim de' indica semelhança.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "Com palavra negativa usa-se ênclise.",
+      "Com palavra negativa usa-se mesóclise.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "Colocação: a próclise é obrigatória com palavras negativas ('não me disseram')."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Colocação: a próclise é obrigatória com palavras negativas ('não me disseram').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "Colocação: a próclise é obrigatória com palavras negativas ('não me disseram').",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "Com palavra negativa usa-se ênclise.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Com palavra negativa usa-se ênclise.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Haviam vagas' é correto.",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "O verbo 'haver' no sentido de existir é impessoal: 'há vagas'.",
+      "O verbo 'haver' (existir) concorda com o sujeito."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O verbo 'haver' no sentido de existir é impessoal: 'há vagas'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Haviam vagas' é correto.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "O verbo 'haver' no sentido de existir é impessoal: 'há vagas'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Haviam vagas' é correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Fazem dez anos' está incorreto; o correto é 'faz dez anos' (tempo).",
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Fazem dez anos' é correto.",
+      "O verbo 'fazer' (tempo) varia em número."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Fazem dez anos' está incorreto; o correto é 'faz dez anos' (tempo).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Fazem dez anos' é correto.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Fazem dez anos' está incorreto; o correto é 'faz dez anos' (tempo)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Fazem dez anos' é correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo direto.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "Concordância nominal: 'é proibido entrada' (sem artigo) ou 'é proibida a entrada'.",
+      "'É proibida entrada' é correto.",
+      "'É proibido a entrada' é correto."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Concordância nominal: 'é proibido entrada' (sem artigo) ou 'é proibida a entrada'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'É proibida entrada' é correto.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "Concordância nominal: 'é proibido entrada' (sem artigo) ou 'é proibida a entrada'."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 'É proibida entrada' é correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Anexo' é invariável.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Obrigado' não varia em gênero.",
+      "'Anexo', 'incluso' e 'obrigado' concordam com o substantivo.",
+      "'Assistir' (presenciar) é transitivo direto."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 'Anexo', 'incluso' e 'obrigado' concordam com o substantivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Anexo', 'incluso' e 'obrigado' concordam com o substantivo.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Anexo' é invariável."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Anexo' é invariável.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Meia hora' está incorreto.",
+      "'Meio' (metade) concorda: 'meia hora'; 'meio' (advérbio) é invariável.",
+      "'Assistir' (presenciar) rege 'em'.",
+      "'Meio' (advérbio) concorda.",
+      "'Assistir' (presenciar) é transitivo direto."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Meio' (metade) concorda: 'meia hora'; 'meio' (advérbio) é invariável.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância nominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Assistir' (presenciar) é transitivo indireto: 'assistiu ao jogo'.",
+      "'Aspirar' (desejar) é transitivo indireto: 'aspira ao cargo'.",
+      "'Obedecer' e 'desobedecer' são transitivos indiretos: 'obedece ao regulamento'.",
+      "'Meia hora' está incorreto.",
+      "'Meio' (metade) concorda: 'meia hora'; 'meio' (advérbio) é invariável."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Meia hora' está incorreto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Memória",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, assinale a alternativa correta.",
+    "alternativas": [
+      "RAM mantém dados sem energia.",
+      "RAM é memória permanente.",
+      "SSD é memória volátil.",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "SSD perde os dados ao desligar."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: RAM é memória volátil, perdida ao desligar o computador.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Memória",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "HTTPS usa criptografia (TLS/SSL) na comunicação com o site.",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "RAM é memória permanente.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: RAM é memória permanente.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Armazenamento",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "RAM é memória permanente.",
+      "SSD é memória volátil.",
+      "RAM mantém dados sem energia.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "SSD perde os dados ao desligar."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O SSD armazena dados de forma persistente (não volátil).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Armazenamento",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "HTTPS usa criptografia (TLS/SSL) na comunicação com o site.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "SSD é memória volátil.",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: SSD é memória volátil.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "O navegador executa apenas binários.",
+      "RAM mantém dados sem energia.",
+      "O navegador só interpreta texto puro.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "RAM é memória permanente."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "HTTPS usa criptografia (TLS/SSL) na comunicação com o site.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O navegador só interpreta texto puro."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O navegador só interpreta texto puro.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "HTTPS é idêntico ao HTTP sem segurança.",
+      "HTTPS não oferece criptografia.",
+      "RAM é memória permanente.",
+      "HTTPS usa criptografia (TLS/SSL) na comunicação com o site.",
+      "RAM mantém dados sem energia."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: HTTPS usa criptografia (TLS/SSL) na comunicação com o site.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "HTTPS não oferece criptografia.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "HTTPS usa criptografia (TLS/SSL) na comunicação com o site."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: HTTPS não oferece criptografia.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "Firewall é um antivírus de e-mail.",
+      "Firewall filtra tráfego de rede segundo regras de segurança.",
+      "RAM é memória permanente.",
+      "Firewall acelera a internet.",
+      "RAM mantém dados sem energia."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Firewall filtra tráfego de rede segundo regras de segurança.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Firewall é um antivírus de e-mail.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "Firewall filtra tráfego de rede segundo regras de segurança."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Firewall é um antivírus de e-mail.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "Backup é cópia de segurança para restaurar dados perdidos.",
+      "Backup é o mesmo que formatação.",
+      "Backup substitui o antivírus.",
+      "RAM é memória permanente.",
+      "RAM mantém dados sem energia."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Backup é cópia de segurança para restaurar dados perdidos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Backup é cópia de segurança para restaurar dados perdidos.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "Backup substitui o antivírus.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Backup substitui o antivírus.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "RAM é memória permanente.",
+      "RAM mantém dados sem energia.",
+      "Malware é um utilitário de sistema.",
+      "Malware é sinônimo de firewall.",
+      "Malware é software malicioso (vírus, trojan, ransomware)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Malware é software malicioso (vírus, trojan, ransomware).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "Malware é um utilitário de sistema.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "Malware é software malicioso (vírus, trojan, ransomware).",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Malware é um utilitário de sistema.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "A nuvem (cloud) permite armazenar e acessar dados pela internet.",
+      "A nuvem exige armazenamento local exclusivo.",
+      "RAM mantém dados sem energia.",
+      "A nuvem dispensa conexão com a internet.",
+      "RAM é memória permanente."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A nuvem (cloud) permite armazenar e acessar dados pela internet.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "A nuvem exige armazenamento local exclusivo.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "A nuvem (cloud) permite armazenar e acessar dados pela internet.",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A nuvem exige armazenamento local exclusivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "Spam é um protocolo de rede.",
+      "RAM mantém dados sem energia.",
+      "Spam é e-mail criptografado.",
+      "O e-mail 'spam' é mensagem não solicitada enviada em massa.",
+      "RAM é memória permanente."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O e-mail 'spam' é mensagem não solicitada enviada em massa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Spam é e-mail criptografado.",
+      "O e-mail 'spam' é mensagem não solicitada enviada em massa.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Spam é e-mail criptografado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Software",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "Windows, Linux e macOS são exemplos de sistemas operacionais.",
+      "RAM mantém dados sem energia.",
+      "Windows é um editor de texto.",
+      "Linux é um aplicativo de planilha.",
+      "RAM é memória permanente."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Windows, Linux e macOS são exemplos de sistemas operacionais.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Software",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "Windows, Linux e macOS são exemplos de sistemas operacionais.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "Windows é um editor de texto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Windows é um editor de texto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Hardware",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "A CPU armazena arquivos permanentemente.",
+      "A CPU é a memória de longo prazo.",
+      "RAM mantém dados sem energia.",
+      "O processador (CPU) executa as instruções dos programas.",
+      "RAM é memória permanente."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O processador (CPU) executa as instruções dos programas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Hardware",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O processador (CPU) executa as instruções dos programas.",
+      "A CPU é a memória de longo prazo.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "RAM é memória volátil, perdida ao desligar o computador."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A CPU é a memória de longo prazo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Arquivos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "'.xlsx' indica documento de texto.",
+      "RAM mantém dados sem energia.",
+      "A extensão .pdf indica documento portátil; .xlsx, planilha.",
+      "'.pdf' indica planilha.",
+      "RAM é memória permanente."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A extensão .pdf indica documento portátil; .xlsx, planilha.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Arquivos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "'.pdf' indica planilha.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "A extensão .pdf indica documento portátil; .xlsx, planilha."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: '.pdf' indica planilha.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "LAN é sinônimo de internet.",
+      "RAM é memória permanente.",
+      "RAM mantém dados sem energia.",
+      "LAN é uma rede de longa distância global.",
+      "A rede LAN conecta dispositivos em área local (ex.: uma empresa)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A rede LAN conecta dispositivos em área local (ex.: uma empresa).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "LAN é uma rede de longa distância global.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "A rede LAN conecta dispositivos em área local (ex.: uma empresa).",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: LAN é uma rede de longa distância global.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "O IP é o mesmo que DNS.",
+      "O endereço IP identifica um dispositivo na rede.",
+      "RAM mantém dados sem energia.",
+      "RAM é memória permanente.",
+      "O IP identifica um site por nome de domínio."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O endereço IP identifica um dispositivo na rede.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O IP identifica um site por nome de domínio.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "O SSD armazena dados de forma persistente (não volátil).",
+      "O endereço IP identifica um dispositivo na rede."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O IP identifica um site por nome de domínio.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva correta.",
+    "alternativas": [
+      "O DNS traduz nomes de domínio em endereços IP.",
+      "DNS é um antivírus.",
+      "RAM mantém dados sem energia.",
+      "RAM é memória permanente.",
+      "DNS é um protocolo de criptografia."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O DNS traduz nomes de domínio em endereços IP.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Conceitos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Redes",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conceitos, indique a assertiva incorreta.",
+    "alternativas": [
+      "DNS é um protocolo de criptografia.",
+      "O DNS traduz nomes de domínio em endereços IP.",
+      "O navegador interpreta HTML, CSS e JavaScript para exibir páginas.",
+      "RAM é memória volátil, perdida ao desligar o computador.",
+      "O SSD armazena dados de forma persistente (não volátil)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: DNS é um protocolo de criptografia.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
   }
 ]
