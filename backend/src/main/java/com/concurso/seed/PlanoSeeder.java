@@ -38,7 +38,7 @@ public class PlanoSeeder implements ApplicationRunner {
         // Básico: exatamente 1 certame, sem tutor.
         criar(Plano.BASICO, "Básico", 2990, "MENSAL", -1, 1, false, 0);
         // Plus: ate 3 certames + Tutor de IA com cota diaria.
-        criar(Plano.PLUS, "Plus", 4990, "MENSAL", -1, 3, true, 50);
+        criar(Plano.PLUS, "Plus", 5990, "MENSAL", -1, 3, true, 50);
     }
 
     /**
