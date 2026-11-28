@@ -2278,5 +2278,530 @@
     "concursos": [
       "CREA-AM"
     ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Defensoria Pública",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 134, caput",
+    "dificuldade": 1,
+    "enunciado": "A Constituição Federal de 1988 define a Defensoria Pública como instituição:",
+    "alternativas": [
+      "transitória, vinculada ao Poder Executivo e subordinada ao Governador",
+      "permanente, essencial à função jurisdicional do Estado, incumbida da orientação jurídica, da promoção dos direitos humanos e da defesa dos necessitados",
+      "autônoma apenas administrativamente, sem iniciativa orçamentária",
+      "integrante do Poder Judiciário, com membros vitalícios",
+      "facultativa, organizada por lei ordinária estadual"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 134, caput, da CF/88 define a DP como instituição permanente, essencial à função jurisdicional, com as atribuições de orientação jurídica, promoção dos direitos humanos e defesa integral e gratuita dos necessitados.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Defensoria Pública",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 134, § 2º",
+    "dificuldade": 1,
+    "enunciado": "Às Defensorias Públicas Estaduais são asseguradas:",
+    "alternativas": [
+      "autonomia funcional e administrativa e a iniciativa de sua proposta orçamentária",
+      "apenas autonomia financeira, sem iniciativa orçamentária",
+      "subordinação hierárquica ao Chefe do Poder Executivo",
+      "autonomia apenas administrativa, vedada a autonomia funcional",
+      "nenhuma autonomia, pois integram a Advocacia-Geral do Estado"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 134, § 2º, da CF/88 assegura autonomia funcional e administrativa e a iniciativa da proposta orçamentária às DPEs estaduais.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Defensoria Pública",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 134, § 4º",
+    "dificuldade": 2,
+    "enunciado": "São princípios institucionais da Defensoria Pública previstos no art. 134, § 4º, da CF/88:",
+    "alternativas": [
+      "unidade, indivisibilidade e independência funcional",
+      "unidade, indivisibilidade e inamovibilidade",
+      "independência funcional, vitaliciedade e unidade",
+      "promotor natural, unidade e indivisibilidade",
+      "independência funcional, inamovibilidade e vitaliciedade"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 134, § 4º, da CF/88 elenca unidade, indivisibilidade e independência funcional. A inamovibilidade é garantia dos membros, e o 'promotor natural' pertence ao MP.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 4º-A, IV",
+    "dificuldade": 1,
+    "enunciado": "O direito do assistido ao patrocínio por órgão de atuação definido por regras objetivas de distribuição, vedada a designação casuística, corresponde ao princípio do:",
+    "alternativas": [
+      "promotor natural",
+      "Defensor Natural",
+      "juiz natural",
+      "custos vulnerabilis",
+      "amicus curiae"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º-A, IV, da LC 80/1994 assegura o 'Defensor Natural' — patrocínio por órgão definido por regras objetivas, vedada a designação casuística.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 128, I",
+    "dificuldade": 2,
+    "enunciado": "Constitui prerrogativa dos membros da Defensoria Pública a contagem dos prazos processuais:",
+    "alternativas": [
+      "em dobro, com intimação pessoal",
+      "em quádruplo para contestar",
+      "simples, sem intimação pessoal",
+      "em dobro apenas para recorrer",
+      "suspensa durante o recesso"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 128, I, da LC 80/1994 assegura intimação pessoal e contagem em dobro de todos os prazos processuais.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 128, XI",
+    "dificuldade": 2,
+    "enunciado": "Quanto à representação do assistido em juízo, o Defensor Público:",
+    "alternativas": [
+      "depende sempre de mandato com poderes especiais",
+      "representa independentemente de mandato, ressalvados os casos em que a lei exige poderes especiais",
+      "só atua com procuração lavrada em cartório",
+      "não pode representar em primeiro grau",
+      "depende de autorização do Defensor-Geral"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 128, XI, da LC 80/1994 permite a representação independentemente de mandato, ressalvados os casos de poderes especiais (confessar, transigir, desistir, renunciar, etc.).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 128, VI",
+    "dificuldade": 2,
+    "enunciado": "O Defensor Público pode comunicar-se, pessoal e reservadamente, com seus assistidos ainda que presos ou detidos:",
+    "alternativas": [
+      "apenas com autorização judicial prévia",
+      "mesmo incomunicáveis, com livre ingresso nos estabelecimentos prisionais",
+      "somente em dias úteis",
+      "apenas por meio de carta",
+      "vedado quando o preso estiver incomunicável"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 128, VI, da LC 80/1994 assegura a comunicação pessoal e reservada com assistidos presos, mesmo incomunicáveis, com livre ingresso nos estabelecimentos.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 128, XII",
+    "dificuldade": 2,
+    "enunciado": "Ao deixar de patrocinar ação por considerá-la manifestamente incabível ou inconveniente, o Defensor Público deve:",
+    "alternativas": [
+      "simplesmente abandonar a causa",
+      "comunicar o fato ao Defensor Público-Geral com as razões do proceder",
+      "pedir autorização ao juiz",
+      "consultar o Ministério Público",
+      "nada comunicar"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 128, XII, da LC 80/1994 condiciona a dispensa do patrocínio à comunicação formal ao Defensor-Geral, com as razões.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 99, § 1º",
+    "dificuldade": 2,
+    "enunciado": "O Defensor Público-Geral é nomeado pelo Governador dentre membros estáveis da carreira, maiores de 35 anos, em lista tríplice formada por:",
+    "alternativas": [
+      "indicação exclusiva do Governador",
+      "voto direto, plurinominal, obrigatório e secreto dos membros da carreira",
+      "sorteio entre os membros",
+      "indicação do Conselho Nacional de Justiça",
+      "eleição aberta pela sociedade civil"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 99, § 1º, da LC 80/1994 prevê lista tríplice formada pelo voto direto, plurinominal, obrigatório e secreto dos membros, para mandato de 2 anos, permitida uma recondução.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 105-B",
+    "dificuldade": 2,
+    "enunciado": "O Ouvidor-Geral da Defensoria Pública é escolhido pelo Conselho Superior:",
+    "alternativas": [
+      "dentre membros da carreira, por eleição",
+      "dentre cidadãos de reputação ilibada não integrantes da carreira, indicados em lista tríplice formada pela sociedade civil",
+      "pelo Governador, dentre servidores efetivos",
+      "pelo Defensor-Geral, livremente",
+      "por concurso público"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 105-B da LC 80/1994 define o Ouvidor-Geral como cidadão de reputação ilibada, não integrante da carreira, escolhido pelo Conselho Superior em lista tríplice da sociedade civil, mandato de 2 anos, permitida uma recondução.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LCE 01/1990",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LCE 01/1990",
+    "dificuldade": 1,
+    "enunciado": "São órgãos da Administração Superior da Defensoria Pública do Amazonas:",
+    "alternativas": [
+      "Defensoria Pública-Geral, Subdefensoria Pública-Geral, Conselho Superior e Corregedoria-Geral",
+      "apenas a Defensoria Pública-Geral e a Corregedoria",
+      "somente o Conselho Superior",
+      "Defensoria Pública-Geral e Assembleia Legislativa",
+      "Conselho Superior e Tribunal de Justiça"
+    ],
+    "correta": 0,
+    "explicacao": "A LCE 01/1990 estrutura a administração superior em: Defensoria Pública-Geral, Subdefensoria Pública-Geral, Conselho Superior e Corregedoria-Geral.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LCE 01/1990",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LCE 01/1990 c/c Lei 8.906/1994, art. 28, IV",
+    "dificuldade": 2,
+    "enunciado": "O exercício de cargo efetivo no quadro de servidores auxiliares da DPE-AM é incompatível com:",
+    "alternativas": [
+      "o exercício da advocacia (vedada a inscrição ativa na OAB)",
+      "o casamento",
+      "a participação em concursos",
+      "o exercício de outra função pública em geral",
+      "a residência no interior"
+    ],
+    "correta": 0,
+    "explicacao": "Conforme o Estatuto da Advocacia (art. 28, IV, Lei 8.906/1994), o cargo de servidor auxiliar da DPE-AM é incompatível com a advocacia.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Doutrina (Di Pietro); atributos dos atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "A impossibilidade de a Administração executar diretamente o patrimônio do devedor para cobrar multa, sem recorrer ao Judiciário, decorre da ausência do atributo da:",
+    "alternativas": [
+      "presunção de legitimidade",
+      "autoexecutoriedade",
+      "imperatividade",
+      "tipicidade",
+      "exigibilidade"
+    ],
+    "correta": 1,
+    "explicacao": "A cobrança de multa tem exigibilidade (meios indiretos, como inscrição em dívida ativa), mas não autoexecutoriedade (execução material direta), exigindo execução fiscal judicial.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Súmula 473/STF",
+    "dificuldade": 2,
+    "enunciado": "Segundo a Súmula 473 do STF, a Administração pode anular seus próprios atos:",
+    "alternativas": [
+      "apenas por conveniência, com efeitos ex nunc",
+      "quando eivados de vício de legalidade, pois deles não se originam direitos, com efeitos ex tunc ressalvados terceiros de boa-fé",
+      "somente por decisão judicial",
+      "apenas se o ato ainda não produziu efeitos",
+      "nunca, pois a autotutela é vedada"
+    ],
+    "correta": 1,
+    "explicacao": "A Súmula 473/STF autoriza a anulação de atos ilegais (efeitos ex tunc, ressalvados terceiros de boa-fé) e a revogação por conveniência/oportunidade (ex nunc), respeitados direitos adquiridos.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações (Lei 14.133/2021)",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lei 14.133/2021, art. 74, II",
+    "dificuldade": 2,
+    "enunciado": "A contratação direta de profissional do setor artístico consagrado pela crítica, diretamente ou por empresário exclusivo, configura:",
+    "alternativas": [
+      "dispensa de licitação",
+      "inexigibilidade de licitação, por inviabilidade de competição",
+      "licitação dispensada",
+      "pregão simplificado",
+      "adesão a ata de registro de preços"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 74, II, da Lei 14.133/2021 prevê inexigibilidade para artista consagrado, diretamente ou por empresário exclusivo (vedado o empresário com exclusividade apenas eventual).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações (Lei 14.133/2021)",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lei 14.133/2021, art. 75",
+    "dificuldade": 2,
+    "enunciado": "Na Lei 14.133/2021, a dispensa de licitação (art. 75) tem rol:",
+    "alternativas": [
+      "exemplificativo",
+      "taxativo",
+      "aberto, conforme conveniência",
+      "definido por decreto municipal",
+      "livre"
+    ],
+    "correta": 1,
+    "explicacao": "A dispensa (art. 75) tem rol taxativo: a competição é viável, mas a lei autoriza a contratação direta em hipóteses fechadas (ex.: valores inferiores a R$ 100 mil e R$ 50 mil).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Sintaxe — partícula apassivadora",
+    "dificuldade": 2,
+    "enunciado": "Em 'Garantem-se aos cidadãos o acesso gratuito à justiça e a orientação jurídica', o vocábulo 'se' é:",
+    "alternativas": [
+      "índice de indeterminação do sujeito, com verbo no singular",
+      "partícula apassivadora, com verbo no plural concordando com o sujeito composto",
+      "pronome reflexivo recíproco",
+      "conjunção integrante",
+      "partícula expletiva"
+    ],
+    "correta": 1,
+    "explicacao": "O verbo 'garantir' é VTD/VTDI; com o 'se' apassivador, o objeto direto vira sujeito composto ('o acesso... e a orientação'), exigindo verbo no plural.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa com regência correta:",
+    "alternativas": [
+      "A decisão implicou na suspensão do ato",
+      "O programa visa ao atendimento itinerante",
+      "O cidadão assistiu o julgamento (no sentido de presenciar)",
+      "A medida implicou em reforma",
+      "O relatório visa atender as comunidades"
+    ],
+    "correta": 1,
+    "explicacao": "'Visar' (almejar) é VTI (a). 'Implicar' (acarretar) é VTD, sem preposição. 'Assistir' (presenciar) é VTI (a).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "O acento grave indicativo de crase está corretamente empregado em:",
+    "alternativas": [
+      "referiu-se à comunidades indígenas",
+      "passará à funcionar em março",
+      "dirigiu-se à diretoria",
+      "garantindo à todos os moradores",
+      "obedecendo as normas"
+    ],
+    "correta": 2,
+    "explicacao": "Crase correta antes de palavra feminina com artigo ('à diretoria'). Proibida antes de verbo, pronome indefinido e com 'a' singular antes de plural.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conectivos",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Conjunções subordinativas",
+    "dificuldade": 2,
+    "enunciado": "Assinale a conjunção de valor concessivo:",
+    "alternativas": [
+      "porquanto",
+      "consoante",
+      "posto que",
+      "contanto que",
+      "por conseguinte"
+    ],
+    "correta": 2,
+    "explicacao": "'Posto que' é concessiva (equivalente a embora). 'Porquanto' é causal; 'consoante' é conformativa; 'contanto que' é condicional; 'por conseguinte' é conclusiva.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Equivalências lógicas — contrapositiva",
+    "dificuldade": 2,
+    "enunciado": "A proposição logicamente equivalente a 'Se o servidor é aprovado, então não pode manter inscrição na OAB' é:",
+    "alternativas": [
+      "Se não é aprovado, então pode manter inscrição",
+      "Se pode manter inscrição, então não é aprovado",
+      "É aprovado e não pode manter inscrição",
+      "Não é aprovado ou pode manter inscrição",
+      "Se não pode manter inscrição, então é aprovado"
+    ],
+    "correta": 1,
+    "explicacao": "Contrapositiva: P → ¬Q ≡ Q → ¬P. Invertendo e negando: 'Se pode manter inscrição, então não é aprovado'.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Dividindo 180 processos entre Ana e Bruno em partes proporcionais a 4 e 8 anos de serviço, a diferença entre eles é:",
+    "alternativas": [
+      "30",
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "correta": 2,
+    "explicacao": "Soma das partes = 12; constante = 180÷12 = 15. Ana = 4×15 = 60; Bruno = 8×15 = 120; diferença = 60.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Administração",
+    "assunto": "Gestão de pessoas",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Gestão por competências (Chiavenato)",
+    "dificuldade": 1,
+    "enunciado": "O tripé da competência individual (modelo CHA) é formado por:",
+    "alternativas": [
+      "Centralização, Hierarquia e Autoridade",
+      "Conhecimento, Habilidade e Atitude",
+      "Controle, Homologação e Avaliação",
+      "Capacitação, Honorários e Assiduidade",
+      "Cooperação, Honestidade e Autonomia"
+    ],
+    "correta": 1,
+    "explicacao": "CHA = Conhecimento (saber), Habilidade (saber fazer) e Atitude (querer fazer).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Jurisprudência",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "STF, RE 1.140.005/RJ (Tema 1.002)",
+    "dificuldade": 2,
+    "enunciado": "Segundo o STF (Tema 1.002), os honorários sucumbenciais devidos à Defensoria Pública quando vence demanda contra o ente que integra:",
+    "alternativas": [
+      "não são devidos, conforme a Súmula 421/STJ",
+      "são devidos e destinados ao aparelhamento da instituição, vedado o rateio",
+      "são devidos e rateados entre os membros",
+      "são devidos apenas em ações individuais",
+      "dependem de lei estadual autorizativa"
+    ],
+    "correta": 1,
+    "explicacao": "No RE 1.140.005/RJ (Tema 1.002), o STF firmou que são devidos honorários à DPE mesmo contra o ente que integra, destinados ao aparelhamento, vedado o rateio (superando a Súmula 421/STJ).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Jurisprudência",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "STF, ADI 3.943/DF",
+    "dificuldade": 2,
+    "enunciado": "A legitimidade da Defensoria Pública para propor Ação Civil Pública na defesa de direitos difusos e coletivos foi reconhecida pelo STF na:",
+    "alternativas": [
+      "ADI 3.943/DF",
+      "Súmula 421/STJ",
+      "Súmula 473/STF",
+      "LC 80/1994, art. 99",
+      "Lei 8.906/1994"
+    ],
+    "correta": 0,
+    "explicacao": "Na ADI 3.943/DF e no RE 733.433/MG (Tema 607), o STF reconheceu a legitimidade da DPE para ACP, bastando que beneficie grupos de necessitados.",
+    "concursos": [
+      "DPE-AM"
+    ]
   }
 ]

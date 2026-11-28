@@ -338,5 +338,85 @@
     "resumo": "Patrimônio, contas, escrituração, demonstrações e análise.",
     "conteudo": "**Patrimônio.** Ativo (bens e direitos), passivo (obrigações) e patrimônio líquido (PL = A − P). Situação líquida positiva, negativa ou nula.\n\n**Contas e lançamentos.** Método das partidas dobradas: todo débito tem crédito de igual valor. Natureza das contas: ativo (devedora), passivo e PL (credoras), receitas (credoras), despesas (devedoras).\n\n**Escrituração.** Livro diário, razão, balancete de verificação. Regime de competência x regime de caixa.\n\n**Demonstrações.** Balanço patrimonial, DRE, DFC, DMPL, notas explicativas. Estrutura do ativo e passivo (circulante e não circulante).\n\n**Análise.** Índices de liquidez, endividamento e rentabilidade; capital de giro; análise vertical e horizontal.",
     "ordem": 10
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-guia",
+    "titulo": "Guia de estudo — DPE-AM (banca FCC)",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Edital 01/2026, perfil da FCC, estrutura da prova e plano de 90 dias.",
+    "conteudo": "**Certame.** VI Concurso Público para Servidores Auxiliares da DPE-AM (Edital 01/2026). Banca FCC. Prova objetiva única: 60 questões de múltipla escolha (5 alternativas, A a E), 3 horas. Conhecimentos Gerais: 20 questões (peso 1); Específicos: 40 (peso 2). Nota mínima 6,00 na média ponderada.\n\n**Perfil da FCC.** Rigor técnico, clareza e cobrança literal da norma com exceções e jurisprudência pacificada. Alteram prazos, trocam verbos (deverá/poderá) e invertem competências entre Defensor-Geral e Conselho Superior.\n\n**Estratégia de prova.** ~3 min por questão. Comece pelos Específicos (peso 2) e Legislação Institucional, depois Português.\n\n**Plano de 90 dias (resumo).** Semanas 1-3: base (Português + Constitucional art. 5º, 37, 134-135). Semanas 4-6: LC 80/1994 + LCE 01/1990. Semanas 7-9: jurisprudência (Súmulas STF/STJ). Semanas 10-12: simulados e revisão por erros.",
+    "ordem": 1
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-constitucional",
+    "titulo": "Defensoria Pública na Constituição (art. 134)",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Natureza, autonomia, princípios e jurisprudência do STF/STJ.",
+    "conteudo": "**Natureza (art. 134, caput).** A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a orientação jurídica, a promoção dos direitos humanos e a defesa, em todos os graus, judicial e extrajudicial, dos direitos individuais e coletivos, de forma integral e gratuita, aos necessitados (art. 5º, LXXIV).\n\n**Autonomia (art. 134, § 2º).** Às Defensorias Públicas Estaduais são asseguradas autonomia funcional e administrativa e a iniciativa da proposta orçamentária, dentro dos limites da LDO.\n\n**Princípios institucionais (art. 134, § 4º).** Unidade, indivisibilidade e independência funcional.\n\n**Garantias dos membros.** A inamovibilidade é garantia do membro, não princípio institucional. O 'Defensor Natural' (LC 80/1994, art. 4º-A, IV) assegura ao assistido patrocínio por órgão de atuação definido por regras objetivas, vedada a designação casuística — não se confunde com o 'promotor natural' (do MP).\n\n**Jurisprudência.** ADI 3.943/DF e RE 733.433/MG (Tema 607): a DPE tem legitimidade para ACP em defesa de difusos/coletivos, bastando beneficiar necessitados. RE 1.140.005/RJ (Tema 1.002): são devidos honorários sucumbenciais à DPE mesmo quando litiga contra o ente que integra, vedado o rateio entre membros. Súmula 421/STJ foi superada por essa tese. STJ (REsp 1.712.163/SP): custos vulnerabilis.",
+    "ordem": 2
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-lc80",
+    "titulo": "LC nº 80/1994 — Lei Orgânica Nacional da Defensoria",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, objetivos, direitos dos assistidos, prerrogativas e Ouvidoria.",
+    "conteudo": "**Princípios (art. 3º).** Unidade, indivisibilidade e independência funcional.\n\n**Objetivos (art. 3º-A).** Primazia da dignidade humana e redução das desigualdades; afirmação do Estado Democrático de Direito; prevalência e efetividade dos direitos humanos; garantia da ampla defesa e do contraditório.\n\n**Defensor Natural (art. 4º-A, IV).** Direito do assistido ao patrocínio por órgão de atuação definido por regras objetivas de distribuição, vedada a designação casuística.\n\n**Prerrogativas dos membros (art. 128).** Intimação pessoal e contagem em dobro de todos os prazos; comunicação pessoal e reservada com assistidos presos, mesmo incomunicáveis; requisitar de autoridades exames, certidões, perícias e providências (sem quebrar sigilo bancário/fiscal sem reserva de jurisdição); representar independentemente de mandato (ressalvados poderes especiais); deixar de patrocinar ação manifestamente incabível ou inconveniente, comunicando o Defensor-Geral.\n\n**Defensor Público-Geral (art. 99).** Nomeado pelo Governador dentre membros estáveis da carreira, maiores de 35 anos, em lista tríplice formada por voto direto, plurinominal, obrigatório e secreto, para mandato de 2 anos, permitida uma recondução.\n\n**Ouvidoria-Geral (art. 105-B).** Ouvidor-Geral escolhido pelo Conselho Superior, dentre cidadãos de reputação ilibada não integrantes da carreira, indicado em lista tríplice formada pela sociedade civil, mandato de 2 anos, permitida uma recondução.",
+    "ordem": 3
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-lce01",
+    "titulo": "LCE nº 01/1990 — Organização da DPE-AM",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Órgãos da administração superior e estrutura estadual.",
+    "conteudo": "**Órgãos da Administração Superior.** (I) Defensoria Pública-Geral do Estado; (II) Subdefensoria Pública-Geral; (III) Conselho Superior (CSDPE); (IV) Corregedoria-Geral.\n\n**Mandato do Defensor-Geral.** Nomeado pelo Governador, dentre membros estáveis da carreira maiores de 35 anos, em lista tríplice (voto direto, plurinominal, obrigatório e secreto), mandato de 2 anos, permitida uma recondução (art. 99, § 1º, LC 80/1994 e art. 8º da LCE 01/1990).\n\n**Servidores auxiliares.** O exercício de cargo efetivo no quadro auxiliar da DPE-AM é incompatível com o exercício da advocacia (vedada a inscrição ativa na OAB, art. 28, IV, da Lei 8.906/1994).\n\n**Dica de prova.** A FCC troca competências entre o Defensor-Geral, o Conselho Superior e a Corregedoria — domine as atribuições de cada órgão superior.",
+    "ordem": 4
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-administrativo",
+    "titulo": "Direito Administrativo — atos, poderes e Lei 14.133/2021",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Atributos (PATI), anulação x revogação e contratação direta.",
+    "conteudo": "**Atributos dos atos (PATI).** Presunção de legitimidade e veracidade (relativa, em todos os atos); Autoexecutoriedade (exige lei ou urgência; ausente na cobrança judicial de multa); Tipicidade (só nos unilaterais); Imperatividade (impõe obrigação; ausente em enunciativos/negociais).\n\n**Anulação x revogação (Súmula 473/STF).** Anulação: vício de legalidade, efeitos ex tunc, ressalvados terceiros de boa-fé. Revogação: conveniência/oportunidade, efeitos ex nunc, respeitados direitos adquiridos. Não se revogam atos consumados, vinculados, geradores de direito adquirido, meros atos (certidões) e atos de procedimento precluso.\n\n**Inexigibilidade (art. 74, Lei 14.133/2021).** Inviabilidade de competição; rol exemplificativo: fornecedor exclusivo, serviços técnicos especializados de natureza intelectual (vedada para publicidade), artista consagrado (diretamente ou por empresário exclusivo — vedado o eventual/restrito ao dia), credenciamento, imóvel específico.\n\n**Dispensa (art. 75).** Competição viável, mas a lei autoriza a contratação direta (rol taxativo): valores inferiores a R$ 100.000,00 (obras/serviços de engenharia) e R$ 50.000,00 (outros serviços e compras), atualizados por decreto.",
+    "ordem": 5
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-portugues",
+    "titulo": "Língua Portuguesa — pontos críticos da FCC",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Emprego do 'se', regência, crase e conectivos.",
+    "conteudo": "**'Se' (apassivador x indeterminação).** Com VTD/VTDI na passiva sintética: apassivador; verbo concorda com o sujeito paciente ('Garantem-se direitos'). Com VI/VTI/VL: índice de indeterminação; verbo na 3ª pessoa do singular ('Necessita-se de defensores').\n\n**Regência clássica.** Visar (almejar) = VTI (a); Assistir (presenciar/caber) = VTI (a), sem 'lhe' para coisa; Implicar (acarretar) = VTD, sem preposição.\n\n**Crase.** Proibida antes de verbo, palavra masculina, pronomes pessoais/indefinidos/demonstrativos (exceto aquele/aquela/aquilo) e com 'a' singular antes de plural. Facultativa antes de possessivo feminino singular e nome próprio feminino, e após 'até'.\n\n**Conectivos.** Concessivos: embora, conquanto, posto que, ainda que (subjuntivo). Causal/explicativa: porque, porquanto. Conformativa: conforme, consoante. Condicional: se, desde que, contanto que. Conclusiva: portanto, por conseguinte.\n\n**Correlação verbal.** Pretérito imperfeito do subjuntivo (-sse) exige futuro do pretérito (-ria): 'Se a DPE dispusesse de mais unidades, ampliaria o atendimento'.",
+    "ordem": 6
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — FCC",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, equivalências e razão/proporção.",
+    "conteudo": "**Equivalências lógicas.** Contrapositiva: (A → B) ≡ (¬B → ¬A). Negação de condicional: A e ¬B. Tabela-verdade para condicional e bicondicional.\n\n**Razão e proporção.** Divisão em partes diretamente proporcionais: some as partes, calcule a constante (total ÷ soma) e multiplique. Grandezas inversamente proporcionais invertem a razão.\n\n**Porcentagem e regra de três.** Aumentos/descontos sucessivos multiplicam fatores (1+i). Regra de três composta: verifique o sentido (direta/inversa) de cada grandeza.",
+    "ordem": 7
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-administracao",
+    "titulo": "Noções de Administração — gestão por competências",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Modelo CHA e gestão de pessoas no setor público.",
+    "conteudo": "**Competência individual (CHA).** Conhecimento (saber teórico), Habilidade (saber fazer) e Atitude (querer fazer). Modelo de Gestão por Competências estruturado nesse tripé.\n\n**Aplicação pública.** Mapeamento de competências, seleção, desenvolvimento e avaliação por desempenho, alinhados ao planejamento estratégico da instituição.\n\n**Conceitos auxiliares.** Funções administrativas (planejamento, organização, direção, controle); eficiência, eficácia e efetividade; accountability e governança.",
+    "ordem": 8
   }
 ]
