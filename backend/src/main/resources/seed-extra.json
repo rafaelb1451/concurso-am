@@ -51725,5 +51725,1034 @@
     "concursos": [
       "ALE-AM"
     ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A figura abaixo mostra um retângulo ABCD com suas diagonais desenhado no chão deuma praça. Suasmedidassão AB =8m eBC = 6 m. Uma criança percorre aslinhasdo desenho partindo do vértice A e voltando ao mesmo ponto, passando sucessivamente pelos vértices na sequência: A, B, C, D, B, A, C, D, A. A distância total percorrida pela criança é de",
+    "alternativas": [
+      "64 m.",
+      "66 m.",
+      "68 m.",
+      "70 m.",
+      "72 m."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A prescrição é instituto de ordem pública, aplicável às ações de fiscalização do Tribunal de Contas do Estado do Amazonas (TCE- AM),noexercíciodesuascompetênciasconstitucionais,eàsações de execução administrativa de competência da Corte. Sobre esse tema, analise as afirmativas a seguir: I. A prescrição alcança tão somente as pretensões punitiva e ressarcitória do Tribunal, não abrangendo sua competência judicante, notadamente as ações de natureza declaratória. II. O reconhecimento da prescrição da pretensão punitiva e da pretensão ressarcitória obsta a imposição de sanção e de reparação do dano e impede o julgamento de prestação de contas anuais, tomadas de contas anuais e de transferências voluntárias. III. Prescrevem em 05 (cinco) anos as pretensões punitivas e ressarcitórias do TCE-AM no exercício do controle externo realizado nos termos da Constituição da República Federativa do Brasil e da Constituição do Estado do Amazonas. Considerando as disposições da Resolução TCE-AM nº 10/2024, está correto o que se afirma em",
+    "alternativas": [
+      "II, somente.",
+      "II e III, somente.",
+      "I, II e III.",
+      "I, somente.",
+      "I e III, somente."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A seguir, são descritas três ações de controle realizadas na administração pública: I. O Secretário Municipal de Educação do município Alfa anulou um ato administrativo praticado pelo fiscal de um contrato. II. O Tribunal de Contas do Estado realizou uma auditoria operacional nas unidades hospitalares do sistema de saúde estadual. III. A Controladoria do Estado do Amazonas realizou uma inspeçãonasunidadesescolaresdaredeestadualdeeducação para verificar as condições físicas dessa unidade. Considerando a classificação do controle quanto ao alcance (ou quanto à extensão), as ações descritas podem ser definidas, respectivamente, como de:",
+    "alternativas": [
+      "Controle interno – controle interno – controle externo.",
+      "Controle de legalidade – controle de eficácia – controle de legalidade.",
+      "Controle interno – controle externo – controle interno.",
+      "Controle posterior- controle posterior – controle posterior.",
+      "Controle administrativo – controle legislativo – controle administrativo."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "O prefeito do município Alfa, jurisdicionado do TCE-AM, não encaminhou a este Tribunal sua prestação de contas anual relativas ao exercício de 20XX, alegando a ocorrência de força maiorqueoimpossibilitoudereunirasinformaçõesedocumentos necessáriosàformalizaçãodoprocessodeprestaçãodecontas.Ao analisarosfatoseelementosdeprova apresentadaspelo prefeito, o TCE-AM considerou as suas contas iliquidáveis, determinando o seu trancamento. Nessa hipótese, o tipo de decisão adotada pelo Tribunal no processo de contas é denominado:",
+    "alternativas": [
+      "Preliminar.",
+      "Conclusiva.",
+      "Definitiva.",
+      "Terminativa.",
+      "Liminar."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Os atos de controle interno podem ser classificados quanto ao momento desua realização. Nestesentido, considereos seguintes atos praticados no âmbito da administração pública: I. Definição de procedimentos anteriores e necessários à formalização de atos de dispensa de licitação. II. Realizaçãodeinspeçãoparaverificaraquantidadeequalidade de bens entregues à administração em cumprimento de compromissos contratuais. Assim, quanto ao momento de sua realização, estes atos são classificados, respectivamente, como ações de controle:",
+    "alternativas": [
+      "De legalidade – de legalidade.",
+      "Prévio – posterior.",
+      "De legalidade – concomitante.",
+      "Interno – interno.",
+      "Prévio – concomitante."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Nos termos da Constituição da República Federativa do Brasil/88 os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno (SCI). Dentre outras finalidades constitucionais, o SCI deve apoiar o controle externo no exercício de sua missão institucional. Sobre esse tema, analise as afirmativas a seguir: I. É plenamente constitucional a previsão em lei estadual de que os órgãos de controle interno do Estado têm a obrigação de organizar e executar auditorias por iniciativa própria ou por determinação do Tribunal de Contas do Estado. II. A Lei municipal pode autorizar a nomeação de servidor ocupanteexclusivamentedecargo em comissão paraa função de Controlador Geral do Município, tendo em vista que a chefia do órgão de controle interno decorre da relação de confiança entre a autoridade nomeante e nomeada. III. É constitucional a exigência legal de assinatura do responsável pelo controle interno em relatórios de gestão fiscal de competência do Poder Executivo. Está correto o que se afirma em",
+    "alternativas": [
+      "III, somente.",
+      "I e III, somente.",
+      "I e II, somente.",
+      "II, somente.",
+      "I, II e III. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 9"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Sobre as auditorias e inspeções, físicas e digitais, realizadas pelo TCE-AM, considere as afirmativas a seguir: I. As inspeções são especiais, quando, por necessidade imperiosa do serviço, em razão da identificação de grave irregularidade,derepresentaçãooudedenúncia,sedevafazer a verificação fora do plano anual de auditorias governamentais. II. A inspeção é o procedimento de fiscalização utilizado pelo Tribunal como rotina na instrução dos processos de prestação ou tomada de contas anuais do Governador do Estado e dos Prefeitos Municipais. III. As inspeções ordinárias constam de plano anual elaborado pela Presidência do TCE-AM, sob a coordenação da Secretaria Geral de Controle Externo e posterior homologação pelo Tribunal Pleno. Está correto o que se afirma em",
+    "alternativas": [
+      "I e II, somente.",
+      "I, II e III.",
+      "I e III, somente.",
+      "II, somente.",
+      "III, somente."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "As contas do Governador são encaminhadas à Assembleia Legislativa dentro de sessenta dias, contados da abertura da sessão legislativa. A íntegra do processo de prestação de contas é encaminhada pela ALE-AM ao TCE-AM para análise e emissão de parecer prévio. A autoridade ou órgão da ALE-AM competente para encaminhar o referido processo ao Tribunal de Contas do Estado é o(a):",
+    "alternativas": [
+      "Presidente da Mesa Diretora.",
+      "Presidente da ALE-AM.",
+      "Comissão de Fiscalização de Políticas e Orçamento Público.",
+      "Auditor Geral.",
+      "Comissão de Assuntos Econômicos"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Encerrada a respectiva votação, a decisão do Plenário da ALE-AM sobreairregularidadeouregularidadedascontasanuaisprestadas pelo Governador do Estado se dá por meio da edição e publicação de:",
+    "alternativas": [
+      "Resolução Legislativa.",
+      "Parecer Prévio.",
+      "Decreto legislativo.",
+      "Lei específica.",
+      "Ofício legislativo."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Sobre a convocação de órgãos e agentes públicos para prestar esclarecimentos à ALE-AM, analise as afirmativas a seguir: I. A prerrogativa da ALE-AM de convocar agentes públicos para prestarem informações e esclarecimentos não alcança os dirigentes de entidades do terceiro setor, ainda quando responsáveis pela gestão de recursos estaduais. II. A convocação do Presidente do Tribunal de Contas e do Procurador Geral de Justiça é admitida, tendo por objeto esclarecer aspetos relativos à legalidade e à legitimidade da gestão, vedada a apreciação do mérito de decisões e atos de restrita competência. III. A pessoa convocada deve remeter à ALE-AM, quarenta e oito horas antes do seu comparecimento, um resumo da sua exposição. Tendo em vista as disposições do Regimento Interno da ALE-AM, está correto o que se afirma em",
+    "alternativas": [
+      "I, II e III.",
+      "II, somente.",
+      "I e II, somente.",
+      "I, somente.",
+      "II e III, somente."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "O relatório de gestão fiscal e o relatório resumido de execução orçamentária são instrumentos de transparência e responsabilidade na gestão fiscal. Conforme determinação da Lei de Responsabilidade fiscal, são informações que devem constar do relatório de gestão fiscal:",
+    "alternativas": [
+      "O comparativo com os limites dos montantes das operações de crédito, inclusive por antecipação de receita.",
+      "Resultado nominal e primário e os demonstrativos das despesas com juros da dívida.",
+      "Demonstrativo das receitas e despesas previdenciárias e o resultado orçamentário.",
+      "Projeções atuariais dos regimes de previdência social, geral e próprio dos servidores públicos.",
+      "Evolução do patrimônio líquido nos últimos três exercícios, destacando a origem e a aplicação dos recursos obtidos com a alienação de ativos."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Ao elaborar seu plano anual de auditorias governamentais, a AuditoriaInternadaALE-AMverificouque,emauditoriafinanceira anteriormente realizada no mesmo objeto, o valor das distorções detectadas nas demonstrações contábeis representavam 12% (doze porcento) do orçamento do Poder Legislativo, o que justificava a sua inclusão no referido plano. O critério utilizado pela Auditoria Interna para selecionar o referido objeto de auditoria é denominado:",
+    "alternativas": [
+      "Orçamentariedade.",
+      "Oportunidade.",
+      "Quantidade.",
+      "Materialidade.",
+      "Tempestividade. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 10"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Ao realizar o planejamento de uma auditoria e após a análise prévia de seu objeto, a equipe de auditores definiu os procedimentos a serem adotados para coletar e analisar os dados e produzir as evidências dos achados de auditoria. Nessa situação, a equipe definiu o elemento de planejamento da auditoria denominado:",
+    "alternativas": [
+      "Escopo.",
+      "Metodologia.",
+      "Critérios.",
+      "Objetivos.",
+      "Benefícios."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Durante o planejamento de uma auditoria e com a finalidade de definir o seu escopo, a equipe de auditoria aplicou um procedimento que lhe permitiu identificar quem era o agente responsável pelas atividades examinadas; quem a executava e quem eram os agentes e unidades consultados e informados no âmbito do órgão auditado. O procedimento utilizado pela equipe de auditoria é denominado:",
+    "alternativas": [
+      "Diagrama de Ishikawa.",
+      "Análise RECI.",
+      "Análise de Stakeholder.",
+      "Benchmarking.",
+      "Análise SWOT."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A equipe de auditoria governamental do TCE-AM aplicou um conjunto de procedimentos técnicos para comparar uma amostra do universo com diferentes fontes de informação, a fim de se certificar da igualdade entre ambas e, sendo o caso, identificar as causas das divergências constatadas. Nessa hipótese, a técnica de auditoria utilizada pela equipe é denominada:",
+    "alternativas": [
+      "Confirmação formal.",
+      "Circularização.",
+      "Cruzamento eletrônico de dados.",
+      "Correlação das informações obtidas.",
+      "Conciliação."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Sobre a Matriz de responsabilização, analise as afirmativas a seguir: I. Deve apresentar apenas os nomes daquelas pessoas cujas condutas tenham contribuído para a irregularidade, independentemente de haver causa excludente. II. Entre os seus campos, deve constar os critérios adotados para caracterização dos achados e as circunstâncias atenuantes relacionadas aos fatos imputados às pessoas responsabilizadas. III. É obrigatória a indicação do período de exercício no cargo do agente que deu causa à irregularidade, considerando-se ainda os eventuais afastamentos. Está correto o que se afirma em",
+    "alternativas": [
+      "I e II, somente.",
+      "I e III, somente.",
+      "II e III, somente.",
+      "III, somente.",
+      "I, II e III."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Durante a execução das auditorias, os auditores devem coletar os elementos de prova e de confirmação da possível incongruência entre a condição e o critério. Esses elementos de prova, que caracterizam o achado de auditoria, são denominados:",
+    "alternativas": [
+      "Situação encontrada.",
+      "Fator de verificação.",
+      "Evidências.",
+      "Responsabilização.",
+      "Papéis de trabalho."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Para entender os sistemas, programas, projetos e ações do governo, especialmente em termos contábeis, financeiros, orçamentários, operacionais e de gestão de patrimônio realizados pela unidade auditada, a equipe de auditoria deve utilizar o instrumento de auditoria denominado:",
+    "alternativas": [
+      "Auditoria Operacional.",
+      "Inspeção.",
+      "Auditoria de regularidade.",
+      "Monitoramento.",
+      "Levantamento."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A Secretaria Geral de Controle Externo do TCE-AM realizou um trabalho de auditoria em que a parte responsável mensura o objeto deacordo com oscritérioseapresenta a informação, sobre a qual o auditor obtém evidência para subsidiar a emissão de opinião. Esse tipo de trabalho de auditoria é denominado:",
+    "alternativas": [
+      "De conformação.",
+      "Inspeção.",
+      "De relatório direto.",
+      "De certificação.",
+      "De regularidade."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Ao realizar um trabalho, o auditor interno da ALE-AM aplicou os resultados de seus treinamentos, conhecimentos e experiências dentrodocontextofornecidopelasnormasdeauditoria,contábeis e éticas, na tomada de decisões a respeito dos cursos de ação apropriados nas circunstâncias do trabalho da auditoria realizada. Nessa situação, e de acordo com as disposições da NBC TA 200, o auditor agiu com:",
+    "alternativas": [
+      "Ceticismo profissional.",
+      "Julgamento profissional.",
+      "Objetividade.",
+      "Imparcialidade.",
+      "Conformidade. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 11"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação do Estado do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "O Poder Executivo do Estado Alfa aderiu ao Plano de Recuperação Fiscal junto ao governo federal, com vistas a otimizar a gestão fiscal e reduzir os fatores de riscos ao desequilíbrio das contas públicas. Para o Tribunal de Contas do Estado Alfa verificar o grau de atendimento das medidas pactuadas ao longo de um período predeterminado, quanto aos aspectos de legalidade, legitimidade e eficácia dos atos praticados durante a execução do plano, é possível utilizar o instrumento de fiscalização denominado:",
+    "alternativas": [
+      "Acompanhamento.",
+      "Monitoramento.",
+      "Auditoria Operacional.",
+      "Inspeção.",
+      "Levantamento. Administração Financeira, Orçamentária e Responsabilidade Fiscal"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "O Município de Felicidade do Norte iniciou a elaboração da sua propostaorçamentária para o exercício de2025. Durantea análise técnica, a equipe de planejamento identificou inconsistências na classificação de algumas despesas e receitas, especialmente no que diz respeito à correta vinculação entre Programa de Governo, Ação Orçamentária e Fontes de Recursos. Entre os erros verificados, constavam: I. A classificação de uma despesa de reforma com ampliação de unidade básica de saúde sob a subfunção 365 - Educação Infantil; II. A inclusão de taxas de coleta de lixo na categoria econômica de receitas de capital; III. A vinculação de uma emenda parlamentar de bancada para aquisição de ambulância a um programa genérico de administração e não ao programa setorial de saúde; e IV. A ausência de detalhamento da despesa quanto ao grupo de natureza e ao identificador de uso. Com base no caso descrito e nas classificações orçamentárias previstasnaLeinº4.320/1964,naPortariaMOGnº42/1999esuas alterações, além do Manual Técnico do Orçamento (MTO 2025), assinale a alternativa correta.",
+    "alternativas": [
+      "A despesa de reforma da unidade básica de saúde deve ser classificada na subfunção 301 – Atenção Básica, pertencente à função 10 – Saúde e vinculada a uma ação orçamentária de natureza de projeto, uma vez que se refere à ampliação ou melhoria do patrimônio público.",
+      "As taxas de coleta de lixo integram a categoria Receitas de Capital, pois são recursos provenientes de contraprestações específicas do contribuinte.",
+      "A emenda parlamentar, por representar recurso adicional ao orçamento, deve ser alocada em um programa de apoio administrativo, sem vinculação obrigatória à área finalística da despesa, conforme a autonomia do ente federado.",
+      "O detalhamento por grupo de natureza da despesa (GND) é facultativo, sendo exigido apenas para despesas de custeio, já que os investimentos são controlados apenas pelo elemento de despesa e pela função programática.",
+      "O identificador de uso (IDUSO) é aplicado apenas à receita pública e serve para diferenciar se o recurso é livre ou vinculado,sendodispensadonasdespesas,conformeasregras do MTO 2025. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 12"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Uma cidadã solicita ao Estado de Norte Feliz: (i) cópia dos relatórios de execução de um contrato de gestão firmado com entidade de direito privado, constituída sob a forma de serviço social autônomo; (ii) a tramitação interna do processo; e (iii) lista nominal com o quantitativo total de empregados da entidade, discriminada porcargoeporfaixassalariais. Oórgãoafirma quesó responderá se a requerente justificar o motivo do pedido, cobrará taxa de protocolo e informa prazo de 30 dias improrrogáveis. Diz ainda que, se houver documentos com parte sigilosa, negará integralmente o acesso. Por fim, a cidadã sustenta que a entidade é obrigada, pela LAI, a divulgar nominalmente a remuneração de todos os seus empregados. À luz da Lei nº 12.527/2011 (Lei de Acesso à Informação – LAI), assinale a alternativa correta.",
+    "alternativas": [
+      "É lícito exigir justificativa do pedido, pois a identificação do requerente inclui a demonstração do interesse.",
+      "É admissível cobrar taxa de protocolo pelo serviço de busca e fornecimento da informação, ainda que não haja reprodução de documentos.",
+      "Asinformaçõespessoaistêmacessorestritopor50anos, salvo ordem judicial.",
+      "O governo deve responder em até 20 dias, prorrogáveis por mais 10 mediante justificativa, e, havendo parte sigilosa, deve franquear o acesso à parte não sigilosa (certidão, extrato e cópia com ocultação).",
+      "A entidade de direito privado, constituída sob a forma de serviço social autônomo, por força do art. 8º-A da LAI, é sempre obrigada a divulgar nominalmente a remuneração de seusempregados, independentementeda natureza do vínculo com o ente público."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Recentemente as subfunções da Função 08 – Assistência Social sofreramadequaçõesconceituaiseterminológicasrelevantespara o aperfeiçoamento da classificação funcional do gasto público. ConsiderandoodispostonasportariasdaSecretariadoOrçamento Federaleosconceitosdefinidos no ManualTécnico do Orçamento (MTO), assinale a alternativa correta.",
+    "alternativas": [
+      "A função representa o nível mais detalhado da classificação funcional, sendo vinculada a um programa orçamentário, enquanto a subfunção corresponde ao agrupamento de despesas segundo a natureza econômica da ação governamental.",
+      "As subfunções 245 – Serviços Socioassistenciais e 246 – Segurança de Renda foram criadas pela Portaria SOF/MPO nº 169/2024 e representam a expansão da cobertura da Função 08, reforçando a dimensão protetiva e distributiva do SUAS, com vigência a partir de 2025.",
+      "A subfunção 244 - Assistência Comunitária foi extinta e substituída pela subfunção 245 - Serviços Socioassistenciais, que reflete a organização dos serviços continuados de proteção básica e especial.",
+      "A atualização da Portaria SOF/MPO nº 169/2024 preservou as subfunçõesanteriores,masajustousuasnomenclaturasauma terminologia de direitos, substituindo expressões como “portador de deficiência” por “pessoa com deficiência”, além de incluir as novas subfunções 245 – Serviços Socioassistenciais e 246 – Segurança de Renda, cujos efeitos passam a valer a partir de 2025.",
+      "A Portaria SOF/MPO nº 221/2023 adequou as subfunções 241 – Assistência ao Idoso e 242 - Assistência ao Portador de Deficiência da função 08 - Assistência Social para 241 – Assistência à Pessoa Idosa e 242 - Assistência à Pessoa com Deficiência, respectivamente, a fim de ajustar as subfunções existentes a nomenclaturas condizentes com o respeito que deve ser tratado cada cidadão, com vigência a partir de 2024. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 13"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Durante auditoria das contas de governo do Município de Alfa, o Tribunal de Contas constatou que, no último quadrimestre do exercício de 2024, a Secretaria de Obras inscreveu em Restos a Pagarprocessadosvaloresrelativosaserviçosquenãohaviamsido previamenteliquidadosecujaexecuçãoestavaprevistapara2025. O ordenador de despesa alegou que o procedimento era necessário para “garantir a continuidadedo serviço público”eque opagamento sóocorreriaapósaliquidação.Combasenasnormas de direito financeiro e penal aplicáveis, analise as afirmativas a seguir: I. A inscrição em Restos a Pagar somente pode recair sobre despesas regularmente empenhadas e que representem obrigação já constituída, ainda que não paga. II. A conduta descrita configura hipótese de inscrição indevida em Restos a Pagar, tipificada como crime contra as finanças públicas, tendo em vista que a autoridade competente deixou de ordenar, autorizar ou promover o cancelamento do montante de Restos a Pagar inscrito de forma ilegal, nos termos do art. 359-F do Código Penal. III. Despesas inscritas em Restos a Pagar não processados independem de prévio empenho, bastando que estejam previstas na lei orçamentária, uma vez que o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pode ser realizado no exercício seguinte, antes do pagamento. IV. No caso, a justificativa de continuidade do serviço público não afasta o caráter ilícito da conduta, pois a lei exige observância estrita da legalidade orçamentária. Está correto o que se afirma em",
+    "alternativas": [
+      "I e IV, apenas.",
+      "I, II e IV, apenas.",
+      "II e III, apenas.",
+      "I, III e IV, apenas.",
+      "I, II, III e IV."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A Resolução nº 15/2024 do Tribunal de Contas do Estado do Amazonas disciplinou o envio das prestações de contas anuais pelas unidades gestoras sob sua jurisdição, revogando normas anteriores e introduzindo novos procedimentos de controle e responsabilização. Sobre o tema, assinale a alternativa correta:",
+    "alternativas": [
+      "As contas anuais de gestão do Governador e dos Prefeitos, quando desempenhem a função de ordenador de despesas praticando atos de gestão, não se confundem com as contas de governo, devendo ser apresentadas separadamente em processos distintos, sob pena de rejeição liminar pelo Tribunal de Contas.",
+      "A Resolução nº 15/2024 estabeleceu a obrigatoriedade do envio eletrônico das prestações de contas, com assinatura digital do gestor e do contador, e vedou o envio parcial ou incompleto de documentos, sendo o sistema do TCE-AM programado para bloquear o envio em caso de inadimplência mensal.",
+      "As contas de governo do Prefeito devem ser encaminhadas exclusivamente ao Tribunal de Contas, dispensando o envio concomitante das contas do Poder Legislativo municipal, que somente apreciará o parecer prévio posteriormente.",
+      "As prestações de contas anuais podem ser entregues em meio físico e eletrônico, desde que acompanhadas de justificativa técnica e autorização expressa do Tribunal de Contas.",
+      "A ausência de entrega das contas de governo no prazo legal gera advertência formal, sendo vedada a aplicação de multa até a apreciação de mérito pelo colegiado."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Durante a execução orçamentária e financeira do exercício de 2025, um auditor verificou que determinado órgão público realizou o pagamento de despesas sem a devida liquidação, além de manter saldos em contas bancárias diversas. Diante dessa situação, analise as afirmações a seguir: I. A liquidação da despesa consiste na verificação do direito adquirido pelo credor, tendo por baseostítulos edocumentos comprobatórios do respectivo crédito. II. O pagamento da despesa deve ocorrer somente após a sua regularliquidação,salvoascircunstânciaslegaiseexcepcionais de adiantamento, e dentro dos limites de programação financeira e cronograma de desembolso. III. O empenho é o ato que cria para o Estado a obrigação de pagamento e não o que extingue a obrigação. IV. A programação de desembolso tem por objetivo adequar a realização das despesas à disponibilidade de caixa do Tesouro, promovendo equilíbrio entre receitas e pagamentos. Está correto o que se afirma em",
+    "alternativas": [
+      "I e II, apenas.",
+      "I, II e IV, apenas.",
+      "II e III, apenas.",
+      "I, III e IV, apenas.",
+      "I, II, III e IV."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Durante a elaboração da Lei Orçamentária Anual (LOA) de 2026, a Secretaria de Fazenda do Estado Norte Feliz verificou que parte das receitas oriundas de transferências da União estava vinculada aprogramasdeassistênciasocialeoutraparteainvestimentosem educação. Diante disso, o órgão precisou identificar corretamente as fontes de recursos correspondentes, observando as regras de vinculação e aplicação das receitas públicas. Com baseno ManualTécnico de Orçamento (MTO) enasportarias da STN/SOF que tratam da classificação da receita, assinale a alternativa correta.",
+    "alternativas": [
+      "A classificação por categoria econômica da receita indica a origem institucional dos recursos, permitindo identificar o ente federativo responsável pela arrecadação.",
+      "A fonte de recurso é utilizada apenas para fins contábeis, não interferindo na execução da despesa nem possuindo relação com as vinculações legais.",
+      "As receitas de mesma natureza e idênticas regras de aplicação são agrupadas sob um mesmo código de fonte ou destinação de recurso. Essa codificação garante a rastreabilidade das vinculações e a correta execução do gasto.",
+      "A classificação institucional da receita é determinada pela finalidade da despesa financiada, sendo definida de acordo com o programa orçamentário correspondente.",
+      "As fontes de recursos estão limitadas às receitas de impostos, não se aplicando às transferências voluntárias ou convênios federais. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 14"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Sobre a tramitação e o controle das matérias orçamentárias e financeiras na Assembleia Legislativa do Estado do Amazonas, assinale a alternativa correta de acordo com o Regimento Interno:",
+    "alternativas": [
+      "Competeà Comissão deConstituição, Justiça eRedação (CCJR) elaborar parecer conclusivo sobre a compatibilidade e a adequação das proposições com o PPA, a LDO e a LOA, cabendo à CAE apenas análise tributária.",
+      "A Comissão de Assuntos Econômicos (CAE) realiza acompanhamento quadrimestral da execução orçamentária, com apresentação até o final dos meses de maio, setembro e fevereiro, analisando perfil de dispêndios e percentuais legais.",
+      "As contas do Governador e dos órgãos da Administração são apreciadasexclusivamentepeloPlenário,sematuaçãoda CAE, salvo quando houver parecer do Tribunal de Contas.",
+      "As reuniões das comissões que tratem de matéria orçamentária devem ocorrer, obrigatoriamente, às terças e quintas, com votação por maioria qualificada de 2/3.",
+      "Projetos que afetem receitas e despesas dispensam distribuição à relatoria especializada, quando estiverem em regime de urgência, cabendo parecer oral direto em Plenário."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A Controladoria-Geral do Estado do Amazonas (CGE-AM), órgão central do Sistema de Controle Interno do Poder Executivo, foi instituída pela Lei Estadual nº 4.526/2017 e teve suas atribuições ampliadas pela Portaria nº 026/2022-GCG/CGE, que aprovou o Regimento Interno do Comitê Estadual de Prevenção e Combate à Corrupção. Considerando as competências normativas, de coordenação e de integridade da CGE-AM, assinale a alternativa correta.",
+    "alternativas": [
+      "A CGE-AM exerce exclusivamente o controle contábil e financeiro do PoderExecutivo, cabendo à Secretaria de Estado da Fazenda (SEFAZ-AM) o controle da integridade e o monitoramento de riscos institucionais. A presidência do Comitê Estadual de Prevenção e Combate à Corrupção é alternada entre a CGE-AM e a SEFAZ-AM, com reuniões mensais e deliberações de caráter vinculante aos órgãos de controle.",
+      "A CGE-AM atua de forma reativa, mediante provocação do Governador ou da Assembleia Legislativa, não possuindo autonomia técnica para instaurar auditorias, avaliações de integridade ou recomendações de melhoria dos controles. Compete ao Comitê a definição das fiscalizações, tendo a sua composição limitada a órgãos do Poder Executivo, vedada a participação da sociedade civil, em razão do sigilo das informações sensíveis de controle.",
+      "O Comitê Estadual de Prevenção e Combate à Corrupção, presidido pela Secretaria de Estado da Fazenda (SEFAZ-AM) e secretariado pela CGE-AM, tem competência exclusiva para fiscalizar contratos administrativos e instaurar processos disciplinares. O art. 1º da Portaria nº 026/2022-GCG/CGE determina que sua Secretaria Executiva é exercida pela Subcontroladoria-Geral de Controle Interno, órgão integrante da CGE-AM, responsável por promover a articulação e o acompanhamento das ações preventivas e corretivas no âmbito da administração pública estadual.",
+      "O Comitê tem natureza interinstitucional e caráter deliberativo, sendo presidido pela Controladoria-Geral do Estado (CGE-AM) e composto por órgãos estratégicos da administração direta e indireta, com a finalidade de propor, articular e acompanhar políticas públicas de integridade, transparência e combate à corrupção. Nos termos da Lei nº 4.526/2017, compete à CGE-AM avaliar a legalidade, legitimidade e economicidade dos atos administrativos, promover o controle preventivo, apoiar a governança e a gestão de riscos, além de atuar de forma coordenada com os órgãos de controle externo e de persecução penal.",
+      "O Comitê exerce atribuições meramente consultivas, sem articulação com órgãos de segurança, planejamento ou gestão, restringindo-se à análise de relatórios de auditoria. Suas deliberações, contudo, possuem caráter vinculante, cabendo à CGE-AM apenas executar as determinações e prestar contas ao Chefe do Poder Executivo. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 15"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Administração Financeira e Orçamentária",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Considerando as disposições da Lei Complementar nº 101/2000, da Lei Complementar nº 131/2009 e as orientações constantes do Manual de Demonstrativos Fiscais (MDF – 14ª edição, 2025) e do Manual de Contabilidade Aplicada ao Setor Público (MCASP – 11ª edição,2025),assinaleaalternativacorretasobreasobrigaçõesde prestação de contas e transparência da Assembleia Legislativa do EstadodoAmazonas(ALEAM),especialmentequantoàpublicação do Relatório Resumido da Execução Orçamentária (RREO), do Relatório de Gestão Fiscal (RGF) e das informações no Portal da Transparência.",
+    "alternativas": [
+      "O Relatório Resumido da Execução Orçamentária (RREO) é de elaboração exclusiva do Poder Executivo, sendo vedado aos demais Poderes e órgãos autônomos publicar relatórios análogos, uma vez que a consolidação estadual é suficiente para fins de transparência.",
+      "O Portal da Transparência da ALEAM deve restringir-se à publicação das demonstrações contábeis anuais, sendo vedada a exposição de informações sobre remunerações e despesas detalhadas com pessoal em respeito ao sigilo administrativo.",
+      "A publicação dos relatórios fiscais da ALEAM no Portal da Transparência é facultativa, pois a responsabilidade pela transparência fiscal é centralizada no Poder Executivo estadual, que consolida as informações de todos os Poderes no Siconfi.",
+      "O RGF deve conter o comparativo das metas fiscais e o demonstrativo da receitacorrentelíquida, não sendo exigida a divulgaçãodeinformaçõessobredespesascompessoal,dívida consolidada líquida e garantias.",
+      "A Assembleia Legislativa deve publicar, em seu Portal da Transparência, as versões simplificadas e completas do RREO e do RGF, assinadas digitalmente pelos responsáveis, até 30 dias após o encerramento de cada bimestre e até 30 dias após o término de cada quadrimestre, respectivamente, sob pena de descumprimento da LRF. Direito Constitucional, Administrativo e Tributário"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A Assembleia Legislativa do Estado Alfa (ALEA) almeja celebrar um ajuste com a organização não governamental Sigma, que não recebera qualquer qualificação específica do governo estadual. O objetivo é o de promover a consecução de uma finalidade de interesse público e recíproco, conforme proposta formulada por Sigma, o que envolverá o repasse de recursos públicos para a sua realização, com a correlata prestação de contas ao fim do cumprimento do ajuste. Considerando os objetivos almejados, é correto afirmar que deve ser celebrado um",
+    "alternativas": [
+      "convênio.",
+      "termo de fomento.",
+      "contrato de gestão.",
+      "termo de colaboração.",
+      "acordo de cooperação."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "O Diretor de Tecnologia da Informação da Assembleia Legislativa do Estado Delta (ALED) sugeriu ao Presidente dessa Casa Legislativa a contratação de organização societária, nascente ou em operação recente, cuja atuação seja caracterizada pela inovaçãoaplicadaaosserviçosofertados.Nessecaso,acontratada deve testar uma solução inovadora, a ser desenvolvida por ela, com risco tecnológico. Para tanto, o Diretor elaborou arrazoado indicando a solução do problema a ser resolvido e os resultados esperados pela ALED, incluídos os desafios tecnológicos a serem superados, não incursionando, porém, na descrição da solução técnica; acresceu, ainda, que caberia aos interessados propor diferentes meios para a resolução do problema. Considerando os balizamentos estabelecidos pela legislação de regência, o Presidente da ALED decidiu corretamente que",
+    "alternativas": [
+      "pode ser realizada a contratação direta, com dispensa de licitação.",
+      "oescopodalicitaçãopodeserdelimitadocombaseapenasnas informações constantes do arrazoado do Diretor.",
+      "a licitação deve ser realizada e irá selecionar uma única proposta para a celebração do contrato público para solução inovadora.",
+      "acontrataçãoalvitradapressupõequea sociedadeempresária tenha certificações positivas de projetos passados, o que não se compatibiliza com o perfil indicado pelo Diretor.",
+      "o termo de referência a ser elaborado deve ter por objeto solução inovadora já desenvolvida pelo potencial contratado, não se compatibilizando com as incertezas indicadas no arrazoado do Diretor. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 16"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Pedro, dirigente do Partido Político Alfa, teria desviado recursos endereçados a essa agremiação, oriundos do Fundo Especial de Assistência Financeira aos Partidos Políticos, criado por lei editada pela União e de natureza pública. Ao tomar conhecimento do ocorrido, o órgão competente de Alfa destituiu Pedro de suas funções e solicitou que a Advocacia-Geral da União adotasse as medidas necessárias e ajuizasse ação por ato de improbidade administrativa em face do referido agente. Considerando a sistemática vigente, é correto afirmar que",
+    "alternativas": [
+      "Alfa, por ter personalidade jurídica de direito privado, não é sujeito passivo em potencial dos ilícitos descritos na Lei nº 8.429/1992.",
+      "Pedro não é agente público, logo, deve ser responsabilizado com base nas normas afetas à generalidade das pessoas, não nos termos da Lei nº 8.429/1992.",
+      "Pedro deve ser responsabilizado apenas com base na legislação afeta aos partidos políticos, não lhe sendo aplicável a sistemática da Lei nº 8.429/1992.",
+      "a União, por seu órgão de representação judicial, não tem legitimidade para ajuizar a ação por ato de improbidade administrativa, apenas o Ministério Público.",
+      "a União tem legitimidade para ajuizar ação por ato de improbidade administrativa em face de Pedro, que é sujeito ativo em potencial desse ilícito, em razão do vínculo que mantém com Alfa."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A sociedade empresária Alfa saiu vencedora em uma licitação organizada no âmbito da Secretaria de Educação do Estado Sigma, que contou com diversos participantes, tendo por objeto o fornecimento de fichários, a serem distribuídos aos estudantes da rede pública estadual. Por tal razão, Alfa foi convocada para assinatura do termo de contrato, dentro do prazo e nas condições estabelecidas no edital de licitação. Nessa situação descrita, consoante os balizamentos estabelecidos na Lei nº 14.133/2021, é correto afirmar que",
+    "alternativas": [
+      "Alfa tem o direito subjetivo à prorrogação do prazo, por até quarenta e oito horas, salvo comprovada má-fé, a ser demonstrada por outro participante da licitação.",
+      "oprazodeconvocaçãopodeserprorrogadoporatétrintadias, mediante solicitação de Alfa, formulada antes do seu decurso, apresentando justificativa que seja aceita pela Secretaria.",
+      "caso Alfa não assine o termo de contrato, a Administração Pública pode celebrar o contrato com um licitante remanescente, desde que observadas as condições apresentadas pela vencedora.",
+      "caso Alfa não assine o termo de contrato, a licitação deve ser considerada fracassada, com a sua correlata responsabilização pelos danos causados, sem prejuízo da aplicação das sanções cabíveis.",
+      "caso Alfa não assine o termo de contrato, a Secretaria pode celebrar o contrato com um dos licitantes remanescentes, nas condições que um desses ofertou, observada a ordem de classificação, se não aceitarem celebrar o contrato nas condições de Alfa e for frustrada a negociação."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Após a aprovação do projeto de lei orçamentária anual pelo Congresso Nacional, o Presidente da República vetou a dotação referente a determinado programa de trabalho, o que deixou os respectivos recursos sem despesas correspondentes. Cerca de um mês após a publicação da lei orçamentária anual, mas antes da apreciação do veto pelo Poder Legislativo, foi editada a Medida Provisória nº X (MPX), abrindo créditos adicionais com o objetivo de ampliar as dotações orçamentárias direcionadas a outro programa de trabalho. A MPX seguiu para a apreciação do Poder Legislativo,sendoinicialmenteapreciadaporumaComissãoMista. À luz da sistemática vigente, é correto afirmar que a narrativa",
+    "alternativas": [
+      "não apresenta nenhuma irregularidade.",
+      "somente apresenta irregularidade em relação à tramitação da MPX.",
+      "somente apresenta irregularidade em relação ao objeto da MPX.",
+      "somente apresenta irregularidade em relação em relação ao veto parcial.",
+      "somente apresenta irregularidade em relação ao momento de edição da MPX. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 17"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "A Comissão de Constituição e Justiça da Assembleia Legislativa do Estado Beta, ao analisar a conformidade constitucional de uma proposiçãolegislativa,precisouinterpretaroArt.XdaConstituição da República. Ao realizar essa atividade, observou que o significado do Art. X não era mais aquele subjacente ao momento da edição da emenda constitucional que o veiculou. Em razão da superveniência de outras emendas constitucionais, que inseriram outros preceitos na ordem constitucional, o significado que lhe deve ser atribuído decorre da influência desses preceitos, embora não tenham promovido alterações em sua forma. Na situação descrita, é correto afirmar que a",
+    "alternativas": [
+      "atribuição de significado a significantes constitucionais é atividade tipicamente constituinte, situando-se no momento de criação normativa, não no momento de aplicação da norma.",
+      "atividade descrita há de ser desenvolvida pelo intérprete último,demodoatornarossignificadosprevisíveiseaampliar a segurança jurídica, o que não é alcançado por intérpretes intermédios.",
+      "ausência de sobreposição entre significantes e significados constitucionais não autoriza a conclusão de que outros significadospossaminfluirnoprocessodeinterpretaçãodeum preceito constitucional.",
+      "mobilidade normativa decorre da aproximação entre os momentos de criação e de aplicação dos padrões normativos, o que potencializa o papel da intérprete na apreensão de aspectos contextuais e ambientais.",
+      "a previsibilidade normativa e o respeito a padrões semióticos, próprios do realismo jurídico, evidenciam que o intérprete deve zelar pela obtenção de significados normativos que contem com a aquiescência de um auditório imaginário."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Joana, Pedro e Maria pretendiam concorrer a um cargo eletivo na próxima eleição a ser realizada, mas tinham dúvida de que a situação pessoal deles seria óbice à realização desse objetivo. Joana respondia a processo administrativo disciplinar, pela possível prática de infração disciplinar à qual era cominada a sanção de demissão. Pedro foi considerado inabilitado para o exercício de outra função pública por força de condenação pela prática de infração política. Por fim, Maria estava cumprindo pena restritivadedireitosemrazãodecondenação,realizadanoâmbito de Juizado Especial Criminal. À luz da sistemática constitucional vigente, é correto afirmar que",
+    "alternativas": [
+      "todos estão inelegíveis.",
+      "apenas Joana está inelegível.",
+      "apenas Pedro está inelegível.",
+      "apenas Joana e Maria estão inelegíveis.",
+      "apenas Pedro e Maria estão inelegíveis."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Foi apresentada proposição legislativa no âmbito da Assembleia Legislativa doEstadoAlfa,comoobjetivodedefiniracompetência dos órgãos públicos estaduais m relação ao uso de águas subterrâneas,considerandoasuaimportâncianociclohidrológico. Essas águas se encontram imediatamente abaixo de uma extensa área territorial pertencente ao Estado Alfa. No âmbito das discussões direcionadas à verificação da conformidade constitucional dessa proposição legislativa, a Comissão de Constituição e Justiça concluiu, corretamente, que as águas subterrâneas",
+    "alternativas": [
+      "pertencem ao Estado Alfa, logo, é possível que a legislação estadual incursione na temática na forma alvitrada.",
+      "não pertencem ao Estado Alfa, mas a legislação estadual deve disciplinar a atuação dos órgãos estaduais nessa temática.",
+      "não podem ser utilizadas, em razão de sua importância para o ciclo hidrológico, tratando-se de limitação constitucional ao direito de propriedade.",
+      "não pertencem ao Estado Alfa, pois a propriedade do solo é distinta da propriedade do subsolo, logo, a legislação estadual não poderia incursionar na temática.",
+      "são de domínio público, sendo que disciplinas afetas a essa temática devem observar a divisão de competências legislativas prevista na Constituição da República."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Com o objetivo de estimular a atividade produtiva em seu território, o Estado Sigma postergou em dez anos, para as sociedades empresárias voltadas à produção industrial que ali se instalassemnoperíodoindicado,orecolhimentodo impostosobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação, ainda que as operações e as prestações se iniciem no exterior (ICMS). Apesar do elevado número de novas sociedades empresárias, com a correlata sobrecarga dos servidos públicos em diversos Municípios, considerando o fluxo de trabalhadores nesses locais, esses entes não estavam recebendo o valor correspondente à sua parcela do ICMS devido, cujo recolhimento foi postergado por Sigma, o que levou à judicialização da questão. Na situação descrita, concluiu-se que",
+    "alternativas": [
+      "Sigma não pode dispor de direitos afetos aos Municípios situados em seu território, logo, deve lhes repassar os valores a que fazem jus, apesar de o recolhimento do ICMS ser postergado.",
+      "a postergação do recolhimento do ICMS é lícita e não consubstancia benefício fiscal, sendo que a repartição das receitas tributárias deve ocorrer no momento do seu ingresso nos cofres públicos.",
+      "Sigma somente pode ter concedido o referido benefício fiscal com base nos balizamentos estabelecidos em lei complementar nacional, não afrontando, dessa maneira, direitos dos Municípios.",
+      "o fluxo de caixa dos Municípios exige que os repasses correspondentes à arrecadação do ICMS sejam realizados nos prazos constitucionais, independentemente das operações delineadas por Sigma no plano infraconstitucional.",
+      "a disciplina da forma e do prazo de recolhimento do ICMS é estabelecida em convênios e em lei complementar nacional, não havendo liberdade de conformação para a legislação estadual, sendo que a repartição das receitas tributárias deve ocorrer no momento do seu ingresso nos cofres públicos. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 18"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional, Administrativo e Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Em virtude de uma grave crise econômica que assolou o Brasil em determinado momento histórico, decorrente de uma conjuntura hostil na qual o país se viu envolvido, com queda na arrecadação federal, foi considerada pela equipe econômica a criação de uma nova exação tributária pela União. Em razão da urgência e da necessidade, foi considerada a edição de uma medida provisória (MP) para a realização desse objetivo. Com o avanço das discussões e após serem sopesadas as variáveis envolvidas, concluiu-se corretamente que",
+    "alternativas": [
+      "a MP não pode ser utilizada para se criar um tributo.",
+      "a MP pode ser utilizada em se tratando do exercício da competência tributária residual da União.",
+      "a MP pode ser utilizada em se tratando do exercício da competência tributária extraordinária da União.",
+      "o novo imposto que venha a ser criado por MP, fora do rol constitucional, deve ter caráter pessoal e ser graduado conforme a capacidade econômica do contribuinte.",
+      "caso seja criado um novo imposto por MP, fora do rol constitucional, não pode ser cumulativo nem ter fato gerador ou base de cálculo próprio de outro preexistente. Contabilidade pública"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Com relação ao Relatório Contábil de Propósito Geral das Entidades do Setor Público (RCPG), de acordo com a NBC TSP ESTRUTURA CONCEITUAL– ESTRUTURA CONCEITUAL PARA ELABORAÇÃO E DIVULGAÇÃO DE INFORMAÇÃO CONTÁBIL DE PROPÓSITOGERALPELASENTIDADESDOSETORPÚBLICO, assinale (V) para a afirmativa verdadeira e (F) para a falsa. ( ) Os RCPGs são relatórios contábeis elaborados para atender às necessidades informacionais específicas dos usuários dos serviços públicos e dos provedores de recursos. ( ) Os RCPGs são os componentes centrais da transparência da informação contábil dos governos e de outras entidades do setor público, aprimorando-a e favorecendo-a. ( ) Os RCPGs têm papel significativo em fornecer a informação necessária para dar suporte ao cumprimento da obrigação do governo ou entidade do setor público em prestar contas e fornecer informação útil para a tomada de decisão, no entanto,éimprovávelqueforneçamtodasasinformaçõesque os usuários necessitam. As afirmativas são, respectivamente,",
+    "alternativas": [
+      "V – V – F.",
+      "V – F – F.",
+      "V – F – V.",
+      "F – V – V.",
+      "F – V – F."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Uma entidade do setor público possuía investimento em “A”, que era classificada como sua coligada. O investimento era reconhecido de acordo com o método da equivalência patrimonial. Em 2024, “A” deixou de se qualificar como coligada, pois houve a perda da influência significativa, e a entidade descontinuou o uso do método da equivalência patrimonial para reconhecer o investimento. Na data, foi verificado que a participação remanescente em “A” tinha preço de mercado em mercado ativo. No Balanço Patrimonial da entidade do setor público, a participação remanescente em “A” foi considerada como ativo financeiro e deve ser mensurada ao valor",
+    "alternativas": [
+      "justo.",
+      "de reposição.",
+      "de cumprimento.",
+      "contábil inicial.",
+      "contábil na data da mudança."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Em outubro de 2024, uma universidade do setor público adquiriu novas carteiras escolares para serem utilizadas a partir do ano letivo de 2025 por R$ 50.000, pagos à vista. Caso fossem adquiridas a prazo, o valor seria de R$ 60.000. Assinale a opção que indica o impacto gerado na Demonstração dos Fluxos de Caixa da universidade:",
+    "alternativas": [
+      "Em 2024, a atividade operacional consumiu R$ 50.000.",
+      "Em 2024, a atividade de investimento consumiu R$ 50.000.",
+      "Em 2025, a atividade operacional consumiu R$ 50.000.",
+      "Em 2024, a atividade de investimento consumiu R$ 60.000 e a atividade de financiamento gerou R$ 10.000.",
+      "Em 2024, a atividade operacional consumiu R$ 60.000 e a atividade de financiamento gerou R$ 10.000. ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS FGV CONHECIMENTO ANALISTA DE CONTROLE – TARDE  TIPO BRANCA – PÁGINA 19"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Umaentidade do setorpúblico apresentaa sua Demonstração das Variações Patrimoniais (DVP) acompanhada de notas explicativas, divulgando separadamente a natureza e valores dos itens relevantes que compõem as variações patrimoniais aumentativas (VPA) e as variações patrimoniais diminutivas (VPD). Em 2024, a entidade reconheceu os seguintes fatos na DVP: I. Reversão de provisão II. Baixa de investimento III. Redução ao valor recuperável no ativo imobilizado Osvaloresenvolvidosnosfatosnãoeramconsideradosrelevantes. A entidade pode apresentar em notas explicativas as circunstâncias relacionadas ao que se afirma em",
+    "alternativas": [
+      "I, somente.",
+      "I e II, somente.",
+      "I e III, somente.",
+      "II e III, somente.",
+      "I, II e III."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Lei Complementar nº 101/2000, em relação à escrituração e consolidação das contas, a Demonstração das Variações Patrimoniais dará destaque",
+    "alternativas": [
+      "às operações inter e intragovernamentais.",
+      "à natureza e ao tipo de credor de cada operação.",
+      "à constituição de ativos e de passivos contingentes.",
+      "ao impacto das receitas e das despesas previdenciárias.",
+      "à origem e ao destino dos recursos provenientes da alienação de ativos."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Assinale a opção que indica um demonstrativo do Relatório Resumido da Execução Orçamentária (RREO) que deve ser elaboradoepublicadoatétrintadiasapósoencerramentodecada bimestre de referência, durante o exercício:",
+    "alternativas": [
+      "Demonstrativo Patrimonial.",
+      "Demonstrativo dos Resultados Primário e Nominal.",
+      "DemonstrativodaProjeçãoAtuarialdoRegimedePrevidência.",
+      "Demonstrativo da Receita de Alienação de Ativos e Aplicação dos Recursos.",
+      "Demonstrativo das Receitas de Operações de Crédito e Despesas de Capital."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Em entidades do setor público, o critério geral utilizado para registro da receita orçamentária é o do ingresso de disponibilidades. Com relação a possíveis deduções da receita, analise o que se afirma a seguir: I. Restituição de receitas recebidas a maior ou indevidamente. II. Reconhecmento da inflação, através de atualização monetária do valor da receita. III. Recursos que o ente tenha a competência de arrecadar, mas que pertencem a outro ente. Adedução dereceitaorçamentária éo procedimento padrão a ser utilizado para as seguintes situações:",
+    "alternativas": [
+      "I, somente.",
+      "I e II, somente.",
+      "I e III, somente.",
+      "II e III, somente.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Pública",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial ALE-AM 2025 (FGV) — Analista de Controle",
+    "dificuldade": 2,
+    "enunciado": "Em 31/12/2023, uma entidade do setor público adquiriu um terreno com o intutito de mante-lo para valorização do capital a longo prazo, por R$ 400.000. A entidade escolheu como política contábilomodelodovalorjusto,queeraestimadoemR$450.000. Em 31/12/2024, foi constatado que havia clara evidência de que o valorjustodoterrenonão poderiamaisserdetermináveldeforma contínua e que os preços de mercado se tornaram menos disponíveis. Na data, a entidade deve",
+    "alternativas": [
+      "continuar mensurando o terreno pelo valor justo, de R$ 450.000.",
+      "voltar a mensurar o terreno pelo custo, de R$ 400.000 e reconhecer uma despesa de R$ 50.000.",
+      "mensurar o terreno por R$ 500.000, admitindo que o valor justo varia em linha reta, e reconhecer uma receita de R$ 50.000.",
+      "voltar a mensurar o terreno pelo custo, de R$ 400.000, e reconhecer uma diminuição de R$ 50.000 diretamente no patrimônio líquido.",
+      "mensurar o terreno por R$ 500.000, admitindo que o valor justo varia em linha reta, e reconhecer um aumento de R$ 50.000 diretamente no patrimônio líquido."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "ALE-AM"
+    ]
   }
 ]
