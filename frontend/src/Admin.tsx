@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Search, ShieldCheck, UserRound } from 'lucide-react'
-import { api, type AdminUsuario, type Plano } from './api'
+import { Search, ShieldCheck, Tag, UserRound } from 'lucide-react'
+import { api, type AdminUsuario, type Concurso, type Plano } from './api'
 import { Card, ErrorBanner, LoadingState, PageHeader, SuccessBanner } from './ui'
+import Sheet from './Sheet'
 
 /**
  * Painel administrativo: conceder PRO por cortesia/suporte e revogar.
@@ -18,18 +19,23 @@ export default function Admin() {
   const [enviando, setEnviando] = useState(false)
   const [erro, setErro] = useState<string | null>(null)
   const [mensagem, setMensagem] = useState<string | null>(null)
+  const [catalogo, setCatalogo] = useState<Concurso[]>([])
+  const [editando, setEditando] = useState<AdminUsuario | null>(null)
+  const [selecao, setSelecao] = useState<string[]>([])
 
   const carregar = useCallback(async (filtro?: string) => {
     setCarregando(true)
     setErro(null)
     try {
-      const [lista, catalogo] = await Promise.all([api.adminUsuarios(filtro), api.planos()])
+      const [lista, catalogoC] = await Promise.all([api.adminUsuarios(filtro), api.planos()])
       setUsuarios(lista)
-      const pagos = catalogo.filter((p) => p.pago ?? p.codigo !== 'FREE')
+      const pagos = catalogoC.filter((p) => p.pago ?? p.codigo !== 'FREE')
       setPlanos(pagos)
       setPlano((atual) =>
         pagos.some((p) => p.codigo === atual) ? atual : (pagos[0]?.codigo ?? ''),
       )
+      const certames = await api.concursos(true)
+      setCatalogo(certames.filter((c) => c.id !== 'TODOS'))
     } catch (e) {
       setErro(e instanceof Error ? e.message : 'Não foi possível carregar o painel.')
     } finally {
@@ -72,6 +78,36 @@ export default function Admin() {
     } finally {
       setEnviando(false)
     }
+  }
+
+  function abrirCertames(u: AdminUsuario) {
+    setEditando(u)
+    setSelecao([...(u.certames ?? [])])
+    setErro(null)
+    setMensagem(null)
+  }
+
+  async function salvarCertames() {
+    if (!editando) return
+    setEnviando(true)
+    setErro(null)
+    setMensagem(null)
+    try {
+      const novos = await api.adminDefinirCertames(editando.id, selecao)
+      setMensagem(`Certames de ${editando.email} atualizados (${novos.length}).`)
+      setEditando(null)
+      await carregar(busca)
+    } catch (e) {
+      setErro(e instanceof Error ? e.message : 'Não foi possível atualizar os certames.')
+    } finally {
+      setEnviando(false)
+    }
+  }
+
+  function alternarCertame(id: string) {
+    setSelecao((atual) =>
+      atual.includes(id) ? atual.filter((c) => c !== id) : [...atual, id],
+    )
   }
 
   function status(alvo: AdminUsuario): string {
@@ -230,7 +266,25 @@ export default function Admin() {
                     </div>
                   </dl>
 
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {(u.certames ?? []).length > 0 ? (
+                      u.certames.map((c) => (
+                        <span key={c} className="qb-chip bg-ink-100 text-ink-700">{c}</span>
+                      ))
+                    ) : (
+                      <span className="text-xs text-ink-400">Sem certames definidos</span>
+                    )}
+                  </div>
+
                   <div className="mt-3 flex gap-2">
+                    <button
+                      type="button"
+                      onClick={() => abrirCertames(u)}
+                      className="qb-btn-ghost min-h-11 flex-1 text-xs"
+                    >
+                      <Tag className="mr-1 inline h-3.5 w-3.5" aria-hidden="true" />
+                      Certames
+                    </button>
                     <button
                       type="button"
                       onClick={() => {
@@ -267,6 +321,7 @@ export default function Admin() {
                   <tr>
                     <th scope="col" className="px-4 py-2.5 font-semibold">Aluno</th>
                     <th scope="col" className="px-4 py-2.5 font-semibold">Plano</th>
+                    <th scope="col" className="px-4 py-2.5 font-semibold">Certames</th>
                     <th scope="col" className="px-4 py-2.5 font-semibold">Situação</th>
                     <th scope="col" className="px-4 py-2.5 font-semibold">Até</th>
                     <th scope="col" className="px-4 py-2.5 text-right font-semibold">Ações</th>
@@ -285,11 +340,29 @@ export default function Admin() {
                         </span>
                         {u.admin ? <span className="qb-chip ml-1 bg-accent-100 text-accent-800">admin</span> : null}
                       </td>
+                      <td className="px-4 py-3 text-xs text-ink-600">
+                        <div className="flex flex-wrap gap-1">
+                          {(u.certames ?? []).length > 0 ? (
+                            u.certames.map((c) => (
+                              <span key={c} className="qb-chip bg-ink-100 text-ink-700">{c}</span>
+                            ))
+                          ) : (
+                            <span className="text-ink-400">—</span>
+                          )}
+                        </div>
+                      </td>
                       <td className="px-4 py-3 text-xs text-ink-600">{status(u)}</td>
                       <td className="px-4 py-3 text-xs text-ink-600">
                         {u.periodoFim ? new Date(u.periodoFim).toLocaleDateString('pt-BR') : '—'}
                       </td>
                       <td className="px-4 py-3 text-right">
+                        <button
+                          type="button"
+                          onClick={() => abrirCertames(u)}
+                          className="qb-btn-ghost mr-2 min-h-11 px-2.5 py-1 text-xs"
+                        >
+                          Certames
+                        </button>
                         <button
                           type="button"
                           onClick={() => setEmail(u.email)}
@@ -314,6 +387,61 @@ export default function Admin() {
           </>
         )}
       </Card>
+
+      <Sheet
+        open={editando !== null}
+        onClose={() => setEditando(null)}
+        title="Ajustar certames"
+        description={
+          editando
+            ? `Exceção manual para ${editando.email}. O acesso passa a valer apenas para os certames marcados.`
+            : undefined
+        }
+        icon={<Tag className="h-5 w-5 text-brand-700" aria-hidden="true" />}
+        footer={
+          <div className="flex justify-end gap-2">
+            <button type="button" onClick={() => setEditando(null)} className="qb-btn-ghost">
+              Cancelar
+            </button>
+            <button
+              type="button"
+              onClick={() => void salvarCertames()}
+              disabled={enviando}
+              className="qb-btn disabled:opacity-50"
+            >
+              {enviando ? 'Salvando…' : `Salvar (${selecao.length})`}
+            </button>
+          </div>
+        }
+      >
+        <div className="space-y-1">
+          {catalogo.map((c) => {
+            const marcado = selecao.includes(c.id)
+            return (
+              <label
+                key={c.id}
+                className={`flex min-h-11 cursor-pointer items-center gap-3 rounded-xl border px-3 py-2 text-sm transition ${
+                  marcado
+                    ? 'border-brand-300 bg-brand-50 text-ink-900'
+                    : 'border-ink-200 bg-surface text-ink-700 hover:border-brand-200'
+                }`}
+              >
+                <input
+                  type="checkbox"
+                  checked={marcado}
+                  onChange={() => alternarCertame(c.id)}
+                  className="h-4 w-4 accent-brand-600"
+                />
+                <span className="flex-1 font-medium">{c.id}</span>
+                <span className="text-xs text-ink-500">{c.total} questões</span>
+              </label>
+            )
+          })}
+          {catalogo.length === 0 ? (
+            <p className="p-3 text-sm text-ink-500">Carregando catálogo de certames…</p>
+          ) : null}
+        </div>
+      </Sheet>
     </div>
   )
 }

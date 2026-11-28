@@ -282,6 +282,7 @@ export interface AdminUsuario {
   statusAssinatura: string
   periodoFim: string | null
   liberaPro: boolean
+  certames: string[]
 }
 
 export interface AdminAssinatura {
@@ -339,6 +340,9 @@ export const api = {
     post<AdminAssinatura>('/admin/assinaturas/conceder', { email, plano, dias }),
   adminRevogar: (email: string) =>
     post<AdminAssinatura>('/admin/assinaturas/revogar', { email }),
+  /** Exceção manual: define os certames da assinatura ativa de um aluno (sem limite do plano). */
+  adminDefinirCertames: (id: number, certames: string[]) =>
+    put<string[]>(`/admin/usuarios/${id}/certames`, { certames }),
   cancelarAssinatura: () => post<{ ok: boolean }>('/assinatura/cancelar', {}),
 
   cadastro: (nome: string, email: string, senha: string,

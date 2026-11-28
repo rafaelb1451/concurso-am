@@ -9,7 +9,9 @@ import com.concurso.service.RateLimiter;
 import com.concurso.repo.PlanoRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -54,7 +56,14 @@ public class AdminController {
             String plano,
             String statusAssinatura,
             Instant periodoFim,
-            boolean liberaPro
+            boolean liberaPro,
+            List<String> certames
+    ) {
+    }
+
+    public record CertamesRequest(
+            @jakarta.validation.constraints.NotNull(message = "informe os certames")
+            List<String> certames
     ) {
     }
 
@@ -114,15 +123,34 @@ public class AdminController {
                 a.getPeriodoFim(), a.liberaPro());
     }
 
+    /** Exceção manual: define os certames da assinatura ativa do usuário (sem limite do plano). */
+    @PutMapping("/usuarios/{id}/certames")
+    @ResponseStatus(HttpStatus.OK)
+    public List<String> definirCertames(
+            @RequestAttribute(AuthInterceptor.ATTR_ADMIN) Boolean adminFlag,
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long adminId,
+            @PathVariable Long id,
+            @jakarta.validation.Valid @RequestBody CertamesRequest request,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        exigirAdmin(adminFlag);
+        limiter.exigir("admin-certames:" + adminId, 30);
+        return acesso.definirCertamesAdmin(id, request.certames(), adminId,
+                ClienteIp.de(requisicao));
+    }
+
     private UsuarioAdminView view(Usuario u) {
         Assinatura atual = assinaturas.assinaturaAtual(u.getId()).orElse(null);
         String plano = acesso.planoDe(u.getId()).getCodigo();
+        List<String> certames = atual == null
+                ? List.of()
+                : acesso.certamesDaAssinatura(atual.getId()).stream().sorted().toList();
         return new UsuarioAdminView(
                 u.getId(), u.getNome(), u.getEmail(), u.isAdmin(), u.getCriadaEm(),
                 plano,
                 atual == null ? "SEM_ASSINATURA" : atual.getStatus().name(),
                 atual == null ? null : atual.getPeriodoFim(),
-                atual != null && atual.liberaPro());
+                atual != null && atual.liberaPro(),
+                certames);
     }
 
     private String planoDe(Long planoId) {

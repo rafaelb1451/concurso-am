@@ -18,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -343,6 +344,41 @@ public class AcessoService {
         auditar(usuarioId, ip, RECURSO_TROCA_CERTAMES, String.join(",", novos), true,
                 "certames atualizados");
         return novos;
+    }
+
+    /**
+     * Exceção manual do admin: define os certames da assinatura ativa sem respeitar o limite do
+     * plano (casos de bloqueio indevido ou cortesia). Valida apenas o formato dos códigos.
+     */
+    @Transactional
+    public List<String> definirCertamesAdmin(Long usuarioId, Collection<String> pedidos,
+                                             Long adminId, String ip) {
+        Optional<Assinatura> atual = assinaturas.assinaturaAtual(usuarioId)
+                .filter(Assinatura::liberaPro);
+        if (atual.isEmpty()) {
+            auditar(usuarioId, ip, RECURSO_TROCA_CERTAMES, null, false,
+                    "admin: sem assinatura ativa");
+            throw new AuthException(HttpStatus.BAD_REQUEST,
+                    "O usuário não tem assinatura ativa. Conceda um plano primeiro.");
+        }
+        LinkedHashSet<String> novos = new LinkedHashSet<>();
+        if (pedidos != null) {
+            for (String p : pedidos) {
+                String c = RegrasCertame.normalizar(p);
+                if (c != null && !"TODOS".equals(c)) {
+                    novos.add(c);
+                }
+            }
+        }
+        Long assinaturaId = atual.get().getId();
+        certames.apagarPorAssinatura(assinaturaId);
+        for (String c : novos) {
+            certames.save(new AssinaturaCertame(assinaturaId, c));
+        }
+        certames.flush();
+        auditar(usuarioId, ip, RECURSO_TROCA_CERTAMES, String.join(",", novos), true,
+                "admin ajustou certames (exceção)");
+        return new ArrayList<>(novos);
     }
 
     private static Instant inicioDoCiclo(Assinatura assinatura) {
