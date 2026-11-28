@@ -16528,5 +16528,1850 @@
     "concursos": [
       "TJ-AP"
     ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Matemática básica — fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, assinale a alternativa correta.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Um desconto de 20% seguido de aumento de 20% restaura o valor original.",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "Desconto de 20% e aumento de 25% resultam em valor 5% maior que o original.",
+      "Dois aumentos sucessivos de 10% equivalem a 19%."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Matemática básica — fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "A contrapositiva de (P → Q) é (¬Q → ¬P)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Matemática básica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "Desconto de 20% e aumento de 25% resultam em valor 5% maior que o original.",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "Um desconto de 20% seguido de aumento de 20% restaura o valor original."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Matemática básica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "A contrapositiva de (P → Q) é (¬Q → ¬P).",
+      "Um desconto de 20% seguido de aumento de 20% restaura o valor original.",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Um desconto de 20% seguido de aumento de 20% restaura o valor original.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, assinale a alternativa correta.",
+    "alternativas": [
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "A constante de proporcionalidade não depende do total.",
+      "Em divisão proporcional a 2 e 3, a constante é o total dividido por 6.",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em divisão proporcional a 2 e 3, a constante é o total dividido por 6.",
+      "A contrapositiva de (P → Q) é (¬Q → ¬P).",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Em divisão proporcional a 2 e 3, a constante é o total dividido por 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equivalências lógicas",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, assinale a alternativa correta.",
+    "alternativas": [
+      "A contrapositiva de (P → Q) é (¬Q → ¬P).",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "A contrapositiva de (P → Q) é (¬P → ¬Q).",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "A contrapositiva de (P → Q) é (Q → P)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A contrapositiva de (P → Q) é (¬Q → ¬P).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equivalências lógicas",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "A contrapositiva de (P → Q) é (Q → P).",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "A contrapositiva de (P → Q) é (¬Q → ¬P)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A contrapositiva de (P → Q) é (Q → P).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de condicional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "A negação de (P → Q) é (¬P → ¬Q).",
+      "A negação de (P → Q) é (P → Q).",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "A negação de (P → Q) é (P ∧ ¬Q).",
+      "Dois aumentos sucessivos de 10% equivalem a 19%."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A negação de (P → Q) é (P ∧ ¬Q).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Negação de condicional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "A negação de (P → Q) é (P ∧ ¬Q).",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "A negação de (P → Q) é (¬P → ¬Q).",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de (P → Q) é (¬P → ¬Q).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva correta.",
+    "alternativas": [
+      "A negação de (P ∧ Q) é (¬P ∧ ¬Q).",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "A negação de (P ∧ Q) é (¬P ∨ ¬Q), conforme a Lei de De Morgan.",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "A negação de (P ∧ Q) é (P ∨ Q)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A negação de (P ∧ Q) é (¬P ∨ ¬Q), conforme a Lei de De Morgan.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Leis de De Morgan",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica proposicional, indique a assertiva incorreta.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "A negação de (P ∧ Q) é (¬P ∧ ¬Q).",
+      "A negação de (P ∧ Q) é (¬P ∨ ¬Q), conforme a Lei de De Morgan.",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A negação de (P ∧ Q) é (¬P ∧ ¬Q).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Conjuntos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Princípio da inclusão-exclusão",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjuntos, assinale a alternativa correta.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "A união tem |A|+|B|+|A∩B| elementos.",
+      "A união tem |A|−|B|+|A∩B| elementos.",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "O número de elementos da união de dois conjuntos é |A|+|B|−|A∩B|."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O número de elementos da união de dois conjuntos é |A|+|B|−|A∩B|.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Conjuntos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Princípio da inclusão-exclusão",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjuntos, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "A união tem |A|+|B|+|A∩B| elementos.",
+      "O número de elementos da união de dois conjuntos é |A|+|B|−|A∩B|.",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A união tem |A|+|B|+|A∩B| elementos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, assinale a alternativa correta.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "Em juros simples, os juros crescem exponencialmente.",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "Em juros simples, o montante dobra a cada período fixo.",
+      "Em juros simples, o juro é proporcional ao tempo: J = C·i·t."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, o juro é proporcional ao tempo: J = C·i·t.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em juros simples, o juro é proporcional ao tempo: J = C·i·t.",
+      "Em juros simples, os juros crescem exponencialmente.",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros simples, os juros crescem exponencialmente.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, assinale a alternativa correta.",
+    "alternativas": [
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%.",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "Em juros compostos, o montante é M = C·(1+i·t).",
+      "Em juros compostos, o montante é M = C·(1+i)^t.",
+      "Juros compostos rendem menos que simples em qualquer prazo maior que 1."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Em juros compostos, o montante é M = C·(1+i)^t.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Em juros compostos, o montante é M = C·(1+i·t).",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Em juros compostos, o montante é M = C·(1+i)^t.",
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Em juros compostos, o montante é M = C·(1+i·t).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, assinale a alternativa correta.",
+    "alternativas": [
+      "Regra de três composta ignora o sentido das grandezas.",
+      "Dois aumentos sucessivos de 10% equivalem a 19%.",
+      "Grandezas diretamente proporcionais variam no mesmo sentido; inversamente, em sentidos opostos.",
+      "Grandezas diretamente proporcionais variam em sentidos opostos.",
+      "Aumentos sucessivos de 10% e 10% equivalem a 20%."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Grandezas diretamente proporcionais variam no mesmo sentido; inversamente, em sentidos opostos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regra de três",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regra de três, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Em divisão diretamente proporcional a 2 e 3, a constante de proporcionalidade é o total dividido por 5.",
+      "Um desconto de 20% seguido de um aumento de 25% restaura o valor original (0,8 × 1,25 = 1).",
+      "Aumentos sucessivos de 10% e 10% equivalem a um único aumento de 21% (fator 1,10 × 1,10 = 1,21).",
+      "Grandezas diretamente proporcionais variam no mesmo sentido; inversamente, em sentidos opostos.",
+      "Grandezas diretamente proporcionais variam em sentidos opostos."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Grandezas diretamente proporcionais variam em sentidos opostos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crase, assinale a alternativa correta.",
+    "alternativas": [
+      "Usa-se crase antes de verbo no infinitivo.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "A crase é obrigatória antes de verbo.",
+      "A crase é obrigatória antes de palavra masculina.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crase, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Em 'refiro-me à diretoria', a crase é facultativa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crase, indique a assertiva correta.",
+    "alternativas": [
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "A crase é obrigatória antes de verbo.",
+      "A crase é obrigatória antes de palavra masculina."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: É proibida a crase antes de palavra masculina e de verbo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crase, indique a assertiva incorreta.",
+    "alternativas": [
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "A crase é obrigatória antes de verbo.",
+      "O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "É proibida a crase antes de palavra masculina e de verbo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A crase é obrigatória antes de verbo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regência, assinale a alternativa correta.",
+    "alternativas": [
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "'Visar' (almejar) é transitivo direto.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "'Visar' (almejar) rege a preposição 'em'.",
+      "Usa-se crase antes de verbo no infinitivo."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regência, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "'Visar' (almejar) é transitivo direto.",
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Visar' (almejar) é transitivo direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regência, indique a assertiva correta.",
+    "alternativas": [
+      "'Implicar' (acarretar) rege preposição 'em'.",
+      "O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+      "'Implicar' (acarretar) é intransitivo.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "Usa-se crase antes de verbo no infinitivo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Regência",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Regência verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Regência, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Implicar' (acarretar) rege preposição 'em'.",
+      "O verbo 'implicar' (acarretar) é transitivo direto: 'implicou mudanças'.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Implicar' (acarretar) rege preposição 'em'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Concordância, assinale a alternativa correta.",
+    "alternativas": [
+      "O verbo concorda com o sujeito, ainda que este venha posposto.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "Com sujeito posposto, o verbo fica no singular.",
+      "Verbo sempre concorda com o objeto direto."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O verbo concorda com o sujeito, ainda que este venha posposto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância verbal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Concordância, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "O verbo concorda com o sujeito, ainda que este venha posposto.",
+      "Verbo sempre concorda com o objeto direto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Verbo sempre concorda com o objeto direto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pontuação, assinale a alternativa correta.",
+    "alternativas": [
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "A vírgula é proibida antes de 'mas'.",
+      "A vírgula separa oração subordinada adverbial deslocada para o início do período.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "Oração adverbial deslocada nunca leva vírgula."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A vírgula separa oração subordinada adverbial deslocada para o início do período.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pontuação, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "Oração adverbial deslocada nunca leva vírgula.",
+      "A vírgula separa oração subordinada adverbial deslocada para o início do período.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Oração adverbial deslocada nunca leva vírgula.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conjunções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções subordinativas",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjunções, assinale a alternativa correta.",
+    "alternativas": [
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "'Posto que' tem valor causal.",
+      "'Posto que' tem valor conclusivo.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "'Posto que' tem valor concessivo (equivale a 'embora')."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Posto que' tem valor concessivo (equivale a 'embora').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conjunções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções subordinativas",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjunções, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "'Posto que' tem valor concessivo (equivale a 'embora').",
+      "'Posto que' tem valor causal.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "É proibida a crase antes de palavra masculina e de verbo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Posto que' tem valor causal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conjunções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjunções, indique a assertiva correta.",
+    "alternativas": [
+      "'Por conseguinte' tem valor concessivo.",
+      "'Por conseguinte' tem valor conclusivo.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "'Por conseguinte' tem valor causal."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Por conseguinte' tem valor conclusivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Conjunções",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Conjunções, indique a assertiva incorreta.",
+    "alternativas": [
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "'Por conseguinte' tem valor concessivo.",
+      "'Por conseguinte' tem valor conclusivo.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "É proibida a crase antes de palavra masculina e de verbo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Por conseguinte' tem valor concessivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pronome 'se'",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego do 'se'",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pronome 'se', assinale a alternativa correta.",
+    "alternativas": [
+      "Com VTD, o 'se' é índice de indeterminação do sujeito.",
+      "Com verbo transitivo direto, o 'se' é partícula apassivadora e o verbo concorda com o sujeito.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "Com VTD, o verbo fica sempre no singular.",
+      "Usa-se crase antes de verbo no infinitivo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Com verbo transitivo direto, o 'se' é partícula apassivadora e o verbo concorda com o sujeito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pronome 'se'",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego do 'se'",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pronome 'se', assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "Com VTD, o 'se' é índice de indeterminação do sujeito.",
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "Com verbo transitivo direto, o 'se' é partícula apassivadora e o verbo concorda com o sujeito."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Com VTD, o 'se' é índice de indeterminação do sujeito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pronome 'se'",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego do 'se'",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pronome 'se', indique a assertiva correta.",
+    "alternativas": [
+      "Com verbo intransitivo, o verbo concorda com o sujeito.",
+      "Usa-se crase antes de verbo no infinitivo.",
+      "Com verbo intransitivo, o 'se' é apassivador.",
+      "Em 'refiro-me à diretoria', a crase é facultativa.",
+      "Com verbo intransitivo, o 'se' é índice de indeterminação e o verbo fica na 3ª pessoa do singular."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Com verbo intransitivo, o 'se' é índice de indeterminação e o verbo fica na 3ª pessoa do singular.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pronome 'se'",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Emprego do 'se'",
+    "dificuldade": 2,
+    "enunciado": "Sobre Pronome 'se', indique a assertiva incorreta.",
+    "alternativas": [
+      "É obrigatório o acento grave em 'refiro-me à diretoria' (a + a).",
+      "É proibida a crase antes de palavra masculina e de verbo.",
+      "O verbo 'visar' (almejar) é transitivo indireto: 'visar ao cargo'.",
+      "Com verbo intransitivo, o 'se' é índice de indeterminação e o verbo fica na 3ª pessoa do singular.",
+      "Com verbo intransitivo, o 'se' é apassivador."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Com verbo intransitivo, o 'se' é apassivador.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança da informação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Segurança, assinale a alternativa correta.",
+    "alternativas": [
+      "Backup substitui o antivírus.",
+      "Phishing é a criptografia de arquivos para resgate.",
+      "Phishing é um tipo de antivírus.",
+      "Backup é o mesmo que criptografia.",
+      "Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança da informação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Segurança, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Backup é uma cópia de segurança dos dados para restauração em caso de perda.",
+      "Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas.",
+      "A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+      "Phishing é um tipo de antivírus.",
+      "Sistema operacional é o software que gerencia hardware e fornece serviços aos programas."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Phishing é um tipo de antivírus.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança da informação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Segurança, indique a assertiva correta.",
+    "alternativas": [
+      "Backup é o mesmo que criptografia.",
+      "Backup substitui o antivírus.",
+      "Phishing é um tipo de antivírus.",
+      "Phishing é a criptografia de arquivos para resgate.",
+      "Backup é uma cópia de segurança dos dados para restauração em caso de perda."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Backup é uma cópia de segurança dos dados para restauração em caso de perda.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Segurança da informação",
+    "dificuldade": 2,
+    "enunciado": "Sobre Segurança, indique a assertiva incorreta.",
+    "alternativas": [
+      "Backup substitui o antivírus.",
+      "Backup é uma cópia de segurança dos dados para restauração em caso de perda.",
+      "Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas.",
+      "A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+      "Sistema operacional é o software que gerencia hardware e fornece serviços aos programas."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Backup substitui o antivírus.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Hardware",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Hardware",
+    "dificuldade": 2,
+    "enunciado": "Sobre Hardware, assinale a alternativa correta.",
+    "alternativas": [
+      "Phishing é um tipo de antivírus.",
+      "A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+      "Phishing é a criptografia de arquivos para resgate.",
+      "A RAM é memória permanente (ROM).",
+      "A RAM mantém dados após o desligamento."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Hardware",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Hardware",
+    "dificuldade": 2,
+    "enunciado": "Sobre Hardware, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+      "Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas.",
+      "Sistema operacional é o software que gerencia hardware e fornece serviços aos programas.",
+      "Backup é uma cópia de segurança dos dados para restauração em caso de perda.",
+      "A RAM mantém dados após o desligamento."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A RAM mantém dados após o desligamento.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Software",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Software",
+    "dificuldade": 2,
+    "enunciado": "Sobre Software, assinale a alternativa correta.",
+    "alternativas": [
+      "Sistema operacional é o software que gerencia hardware e fornece serviços aos programas.",
+      "Sistema operacional é um aplicativo de escritório.",
+      "Phishing é a criptografia de arquivos para resgate.",
+      "Sistema operacional é sinônimo de BIOS apenas.",
+      "Phishing é um tipo de antivírus."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Sistema operacional é o software que gerencia hardware e fornece serviços aos programas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Software",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Software",
+    "dificuldade": 2,
+    "enunciado": "Sobre Software, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Backup é uma cópia de segurança dos dados para restauração em caso de perda.",
+      "Phishing é a tentativa de obter dados sensíveis por meio de mensagens fraudulentas.",
+      "Sistema operacional é o software que gerencia hardware e fornece serviços aos programas.",
+      "A memória RAM é volátil: seu conteúdo é perdido ao desligar o computador.",
+      "Sistema operacional é um aplicativo de escritório."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Sistema operacional é um aplicativo de escritório.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, caput",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais, assinale a alternativa correta.",
+    "alternativas": [
+      "Brasileiro nato é apenas quem tem ambos os pais brasileiros.",
+      "A igualdade perante a lei admite distinção de raça e sexo.",
+      "Todo filho de estrangeiros nascido no Brasil é brasileiro naturalizado.",
+      "O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+      "O art. 5º não protege estrangeiros residentes."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, caput",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+      "A igualdade perante a lei admite distinção de raça e sexo.",
+      "São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país.",
+      "A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si.",
+      "A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A igualdade perante a lei admite distinção de raça e sexo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Nacionalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 12, I, a",
+    "dificuldade": 2,
+    "enunciado": "Sobre Nacionalidade, assinale a alternativa correta.",
+    "alternativas": [
+      "O art. 5º não protege estrangeiros residentes.",
+      "A igualdade perante a lei admite distinção de raça e sexo.",
+      "Todo filho de estrangeiros nascido no Brasil é brasileiro naturalizado.",
+      "São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país.",
+      "Brasileiro nato é apenas quem tem ambos os pais brasileiros."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Nacionalidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 12, I, a",
+    "dificuldade": 2,
+    "enunciado": "Sobre Nacionalidade, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si.",
+      "A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia.",
+      "O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+      "Todo filho de estrangeiros nascido no Brasil é brasileiro naturalizado.",
+      "São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Todo filho de estrangeiros nascido no Brasil é brasileiro naturalizado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Organização do Estado",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, arts. 1º e 18",
+    "dificuldade": 2,
+    "enunciado": "Sobre Organização do Estado, assinale a alternativa correta.",
+    "alternativas": [
+      "A igualdade perante a lei admite distinção de raça e sexo.",
+      "Os Municípios não são entes federativos.",
+      "O art. 5º não protege estrangeiros residentes.",
+      "O Brasil é um Estado unitário.",
+      "A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Organização do Estado",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, arts. 1º e 18",
+    "dificuldade": 2,
+    "enunciado": "Sobre Organização do Estado, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+      "O Brasil é um Estado unitário.",
+      "A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia.",
+      "A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si.",
+      "São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O Brasil é um Estado unitário.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Poder Judiciário",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 94",
+    "dificuldade": 2,
+    "enunciado": "Sobre Poder Judiciário, assinale a alternativa correta.",
+    "alternativas": [
+      "O art. 5º não protege estrangeiros residentes.",
+      "A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia.",
+      "O quinto constitucional reserva vagas a servidores públicos.",
+      "A igualdade perante a lei admite distinção de raça e sexo.",
+      "O quinto constitucional reserva vagas a juízes vitalícios."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Poder Judiciário",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 94",
+    "dificuldade": 2,
+    "enunciado": "Sobre Poder Judiciário, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O quinto constitucional reserva vagas a juízes vitalícios.",
+      "A regra do quinto constitucional reserva vagas nos tribunais a membros do MP e da advocacia.",
+      "O art. 5º da CF/88 assegura a todos a igualdade perante a lei, sem distinção de qualquer natureza.",
+      "A CF/88 adota a forma federativa de Estado, sendo os entes autônomos entre si.",
+      "São brasileiros natos os nascidos no Brasil, ainda que de pais estrangeiros, salvo se estes estiverem a serviço de seu país."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O quinto constitucional reserva vagas a juízes vitalícios.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, I",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, assinale a alternativa correta.",
+    "alternativas": [
+      "O SUS tem princípio de atendimento exclusivo a idosos.",
+      "A participação popular é vedada na gestão do SUS.",
+      "O SUS tem entre seus princípios a universalidade de acesso aos serviços de saúde.",
+      "O SUS atende apenas trabalhadores com carteira assinada.",
+      "Os conselhos de saúde têm caráter apenas consultivo em todas as matérias."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O SUS tem entre seus princípios a universalidade de acesso aos serviços de saúde.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, VIII; Lei 8.142/1990",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende apenas trabalhadores com carteira assinada.",
+      "A participação popular é vedada na gestão do SUS.",
+      "Os conselhos de saúde têm caráter apenas consultivo em todas as matérias.",
+      "A participação da comunidade é uma das diretrizes do SUS, concretizada nos conselhos e conferências.",
+      "O SUS tem princípio de atendimento exclusivo a idosos."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A participação da comunidade é uma das diretrizes do SUS, concretizada nos conselhos e conferências.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende apenas trabalhadores com carteira assinada.",
+      "A integralidade exclui as ações preventivas.",
+      "O SUS tem princípio de atendimento exclusivo a idosos.",
+      "A integralidade limita o SUS a ações curativas.",
+      "A integralidade é princípio do SUS: ações preventivas e curativas integradas."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A integralidade é princípio do SUS: ações preventivas e curativas integradas.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Súmula 473/STF",
+    "dificuldade": 2,
+    "enunciado": "Sobre Atos administrativos, assinale a alternativa correta.",
+    "alternativas": [
+      "A anulação não admite ressalva de terceiros de boa-fé.",
+      "A revogação retroage (ex tunc).",
+      "A anulação tem sempre efeitos ex nunc.",
+      "A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé.",
+      "A revogação se dá por vício de legalidade."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Súmula 473/STF",
+    "dificuldade": 2,
+    "enunciado": "Sobre Atos administrativos, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé.",
+      "A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns.",
+      "O poder de polícia permite à Administração condicionar direitos em favor do interesse público.",
+      "A anulação tem sempre efeitos ex nunc.",
+      "A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A anulação tem sempre efeitos ex nunc.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Súmula 473/STF",
+    "dificuldade": 2,
+    "enunciado": "Sobre Atos administrativos, indique a assertiva correta.",
+    "alternativas": [
+      "A anulação não admite ressalva de terceiros de boa-fé.",
+      "A anulação tem sempre efeitos ex nunc.",
+      "A revogação se dá por vício de legalidade.",
+      "A revogação retroage (ex tunc).",
+      "A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atos administrativos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Súmula 473/STF",
+    "dificuldade": 2,
+    "enunciado": "Sobre Atos administrativos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O poder de polícia permite à Administração condicionar direitos em favor do interesse público.",
+      "A revogação retroage (ex tunc).",
+      "A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns.",
+      "A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc.",
+      "A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A revogação retroage (ex tunc).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 14.133/2021, art. 29",
+    "dificuldade": 2,
+    "enunciado": "Sobre Licitações, assinale a alternativa correta.",
+    "alternativas": [
+      "A anulação não admite ressalva de terceiros de boa-fé.",
+      "A Lei 14.133/2021 não trata de pregão.",
+      "Pregão é vedado para bens comuns.",
+      "A anulação tem sempre efeitos ex nunc.",
+      "A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 14.133/2021, art. 29",
+    "dificuldade": 2,
+    "enunciado": "Sobre Licitações, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns.",
+      "Pregão é vedado para bens comuns.",
+      "A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé.",
+      "A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc.",
+      "O poder de polícia permite à Administração condicionar direitos em favor do interesse público."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Pregão é vedado para bens comuns.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 78; doutrina",
+    "dificuldade": 2,
+    "enunciado": "Sobre Poderes, assinale a alternativa correta.",
+    "alternativas": [
+      "Poder de polícia é exclusivo do Judiciário.",
+      "Poder de polícia não admite limites legais.",
+      "O poder de polícia permite à Administração condicionar direitos em favor do interesse público.",
+      "A anulação não admite ressalva de terceiros de boa-fé.",
+      "A anulação tem sempre efeitos ex nunc."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O poder de polícia permite à Administração condicionar direitos em favor do interesse público.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 78; doutrina",
+    "dificuldade": 2,
+    "enunciado": "Sobre Poderes, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A Lei 14.133/2021 admite pregão obrigatório para bens e serviços comuns.",
+      "Poder de polícia é exclusivo do Judiciário.",
+      "O poder de polícia permite à Administração condicionar direitos em favor do interesse público.",
+      "A revogação de ato válido se dá por conveniência e oportunidade, com efeitos ex nunc.",
+      "A anulação de ato ilegal tem efeitos ex tunc (retroativos), ressalvados terceiros de boa-fé."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Poder de polícia é exclusivo do Judiciário.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XXXIX; CP, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios, assinale a alternativa correta.",
+    "alternativas": [
+      "A lei penal mais benéfica nunca retroage.",
+      "A lei penal mais grave retroage para beneficiar.",
+      "Lei posterior pode retroagir para prejudicar o réu.",
+      "O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+      "Crime pode ser definido por costume."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XXXIX; CP, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+      "Crime pode ser definido por costume.",
+      "O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+      "A lei penal mais benéfica retroage em favor do réu.",
+      "Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Crime pode ser definido por costume.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XL; CP, art. 2º, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios, indique a assertiva correta.",
+    "alternativas": [
+      "Lei posterior pode retroagir para prejudicar o réu.",
+      "A lei penal mais grave retroage para beneficiar.",
+      "A lei penal mais benéfica nunca retroage.",
+      "Crime pode ser definido por costume.",
+      "A lei penal mais benéfica retroage em favor do réu."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A lei penal mais benéfica retroage em favor do réu.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Princípios",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XL; CP, art. 2º, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios, indique a assertiva incorreta.",
+    "alternativas": [
+      "O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+      "O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+      "Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento).",
+      "A lei penal mais benéfica retroage em favor do réu.",
+      "A lei penal mais benéfica nunca retroage."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A lei penal mais benéfica nunca retroage.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPM, art. 187",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crimes, assinale a alternativa correta.",
+    "alternativas": [
+      "O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+      "Deserção é contravenção penal.",
+      "Crime pode ser definido por costume.",
+      "Lei posterior pode retroagir para prejudicar o réu.",
+      "Deserção é crime comum praticado por civil."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPM, art. 187",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crimes, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Deserção é crime comum praticado por civil.",
+      "A lei penal mais benéfica retroage em favor do réu.",
+      "O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+      "O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+      "Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Deserção é crime comum praticado por civil.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 317",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento).",
+      "Corrupção passiva 'receber' consuma-se com a mera solicitação.",
+      "Crime pode ser definido por costume.",
+      "Lei posterior pode retroagir para prejudicar o réu.",
+      "A modalidade 'receber' da corrupção passiva é crime formal."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 317",
+    "dificuldade": 2,
+    "enunciado": "Sobre Crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "O crime de deserção é próprio de militares e está previsto no Código Penal Militar.",
+      "A modalidade 'receber' da corrupção passiva é crime formal.",
+      "Na corrupção passiva, a modalidade 'receber' é crime material (consuma-se com o recebimento).",
+      "O princípio da legalidade exige que não há crime sem lei anterior que o defina.",
+      "A lei penal mais benéfica retroage em favor do réu."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A modalidade 'receber' da corrupção passiva é crime formal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
   }
 ]
