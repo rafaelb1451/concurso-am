@@ -16860,5 +16860,5015 @@
       "MANAUSPREV",
       "TJ-AM"
     ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "15% de 400 é 52.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "15% de 400 é 68."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 20% de 300 é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "8% de 250 é 20.",
+      "40% de 150 é 60.",
+      "20% de 300 é 66."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 20% de 300 é 66.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "15% de 400 é 52.",
+      "20% de 300 é 66.",
+      "15% de 400 é 68.",
+      "20% de 300 é 54."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 15% de 400 é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 68.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "8% de 250 é 20.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 15% de 400 é 68.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "40% de 150 é 63.",
+      "40% de 150 é 60.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "40% de 150 é 57."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 40% de 150 é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "8% de 250 é 20.",
+      "15% de 400 é 60.",
+      "40% de 150 é 63.",
+      "40% de 150 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 40% de 150 é 63.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "8% de 250 é 20.",
+      "8% de 250 é 25.",
+      "20% de 300 é 66.",
+      "8% de 250 é 15."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 8% de 250 é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "8% de 250 é 20.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "8% de 250 é 25.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 8% de 250 é 25.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "25% de 500 é 115.",
+      "25% de 500 é 125.",
+      "25% de 500 é 135.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 25% de 500 é 125.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "25% de 500 é 135.",
+      "15% de 400 é 60.",
+      "25% de 500 é 125."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 25% de 500 é 135.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "30% de 80 é 24.",
+      "20% de 300 é 66.",
+      "30% de 80 é 26.",
+      "20% de 300 é 54.",
+      "30% de 80 é 22."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 30% de 80 é 24.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "30% de 80 é 26.",
+      "30% de 80 é 24.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 30% de 80 é 26.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "12% de 200 é 24.",
+      "12% de 200 é 20.",
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "12% de 200 é 28."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 12% de 200 é 24.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "12% de 200 é 28.",
+      "12% de 200 é 24.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 12% de 200 é 28.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "5% de 600 é 30.",
+      "5% de 600 é 42.",
+      "5% de 600 é 18.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 5% de 600 é 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "5% de 600 é 30.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "5% de 600 é 42."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 5% de 600 é 42.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "50% de 100 é 48.",
+      "50% de 100 é 50.",
+      "20% de 300 é 66.",
+      "50% de 100 é 52."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 50% de 100 é 50.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "50% de 100 é 50.",
+      "20% de 300 é 60.",
+      "50% de 100 é 52.",
+      "40% de 150 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 50% de 100 é 52.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "10% de 450 é 54.",
+      "10% de 450 é 45.",
+      "20% de 300 é 54.",
+      "10% de 450 é 36."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 10% de 450 é 45.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "10% de 450 é 45.",
+      "10% de 450 é 54.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 10% de 450 é 54.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 350 é 77.",
+      "20% de 350 é 63.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "20% de 350 é 70."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 20% de 350 é 70.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 350 é 70.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "20% de 350 é 77.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 20% de 350 é 77.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "4% de 750 é 45.",
+      "4% de 750 é 15.",
+      "20% de 300 é 54.",
+      "4% de 750 é 30."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 4% de 750 é 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Cálculo percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "4% de 750 é 45.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "4% de 750 é 30.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 4% de 750 é 45.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos de 15% e 10% equivalem a 25%.",
+      "20% de 300 é 66.",
+      "Aumentos de 15% e 10% equivalem a 1.5%.",
+      "20% de 300 é 54.",
+      "Aumentos sucessivos de 15% e 10% equivalem a um aumento único de 26.5%."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 15% e 10% equivalem a um aumento único de 26.5%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Aumentos sucessivos de 15% e 10% equivalem a um aumento único de 26.5%.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "Aumentos de 15% e 10% equivalem a 25%."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 15% e 10% equivalem a 25%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "Aumentos de 20% e 20% equivalem a 4.0%.",
+      "Aumentos de 20% e 20% equivalem a 40%.",
+      "Aumentos sucessivos de 20% e 20% equivalem a um aumento único de 44%."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 20% e 20% equivalem a um aumento único de 44%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Aumentos sucessivos de 20% e 20% equivalem a um aumento único de 44%.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "Aumentos de 20% e 20% equivalem a 40%."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 20% e 20% equivalem a 40%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "Aumentos de 30% e 20% equivalem a 50%.",
+      "20% de 300 é 66.",
+      "Aumentos sucessivos de 30% e 20% equivalem a um aumento único de 56%.",
+      "Aumentos de 30% e 20% equivalem a 6.0%."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 30% e 20% equivalem a um aumento único de 56%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Aumentos de 30% e 20% equivalem a 50%.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "Aumentos sucessivos de 30% e 20% equivalem a um aumento único de 56%."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 30% e 20% equivalem a 50%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos de 10% e 30% equivalem a 3.0%.",
+      "20% de 300 é 54.",
+      "Aumentos de 10% e 30% equivalem a 40%.",
+      "20% de 300 é 66.",
+      "Aumentos sucessivos de 10% e 30% equivalem a um aumento único de 43%."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 10% e 30% equivalem a um aumento único de 43%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Aumentos de 10% e 30% equivalem a 40%.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "Aumentos sucessivos de 10% e 30% equivalem a um aumento único de 43%.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 10% e 30% equivalem a 40%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "Aumentos de 25% e 20% equivalem a 5.0%.",
+      "Aumentos sucessivos de 25% e 20% equivalem a um aumento único de 50%.",
+      "20% de 300 é 54.",
+      "Aumentos de 25% e 20% equivalem a 45%."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 25% e 20% equivalem a um aumento único de 50%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Aumentos sucessivos de 25% e 20% equivalem a um aumento único de 50%.",
+      "20% de 300 é 60.",
+      "Aumentos de 25% e 20% equivalem a 45%.",
+      "40% de 150 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 25% e 20% equivalem a 45%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "Aumentos de 40% e 10% equivalem a 50%.",
+      "20% de 300 é 66.",
+      "Aumentos sucessivos de 40% e 10% equivalem a um aumento único de 54%.",
+      "Aumentos de 40% e 10% equivalem a 4.0%."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 40% e 10% equivalem a um aumento único de 54%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "Aumentos sucessivos de 40% e 10% equivalem a um aumento único de 54%.",
+      "Aumentos de 40% e 10% equivalem a 50%.",
+      "40% de 150 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 40% e 10% equivalem a 50%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos de 50% e 20% equivalem a 70%.",
+      "20% de 300 é 66.",
+      "Aumentos sucessivos de 50% e 20% equivalem a um aumento único de 80%.",
+      "Aumentos de 50% e 20% equivalem a 10.0%.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 50% e 20% equivalem a um aumento único de 80%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Aumentos sucessivos de 50% e 20% equivalem a um aumento único de 80%.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "Aumentos de 50% e 20% equivalem a 70%.",
+      "15% de 400 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 50% e 20% equivalem a 70%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Aumentos de 5% e 5% equivalem a 10%.",
+      "Aumentos sucessivos de 5% e 5% equivalem a um aumento único de 10.3%.",
+      "20% de 300 é 54.",
+      "Aumentos de 5% e 5% equivalem a 0.2%.",
+      "20% de 300 é 66."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Aumentos sucessivos de 5% e 5% equivalem a um aumento único de 10.3%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Fatores multiplicativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "Aumentos sucessivos de 5% e 5% equivalem a um aumento único de 10.3%.",
+      "Aumentos de 5% e 5% equivalem a 10%.",
+      "40% de 150 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Aumentos de 5% e 5% equivalem a 10%.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "Um produto de R$ 200 com desconto de 15% custa R$ 230.0.",
+      "Um produto de R$ 200 com desconto de 15% custa R$ 185.",
+      "Um produto de R$ 200 com desconto de 15% custa R$ 170."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 200 com desconto de 15% custa R$ 170.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Um produto de R$ 200 com desconto de 15% custa R$ 185.",
+      "40% de 150 é 60.",
+      "Um produto de R$ 200 com desconto de 15% custa R$ 170.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 200 com desconto de 15% custa R$ 185.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um produto de R$ 350 com desconto de 20% custa R$ 330.",
+      "Um produto de R$ 350 com desconto de 20% custa R$ 420.0.",
+      "Um produto de R$ 350 com desconto de 20% custa R$ 280.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 350 com desconto de 20% custa R$ 280.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Um produto de R$ 350 com desconto de 20% custa R$ 280.",
+      "40% de 150 é 60.",
+      "Um produto de R$ 350 com desconto de 20% custa R$ 330.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 350 com desconto de 20% custa R$ 330.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um produto de R$ 500 com desconto de 10% custa R$ 490.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "Um produto de R$ 500 com desconto de 10% custa R$ 450.",
+      "Um produto de R$ 500 com desconto de 10% custa R$ 550.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 500 com desconto de 10% custa R$ 450.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Um produto de R$ 500 com desconto de 10% custa R$ 450.",
+      "15% de 400 é 60.",
+      "Um produto de R$ 500 com desconto de 10% custa R$ 490.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 500 com desconto de 10% custa R$ 490.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um produto de R$ 120 com desconto de 25% custa R$ 95.",
+      "20% de 300 é 66.",
+      "Um produto de R$ 120 com desconto de 25% custa R$ 90.",
+      "Um produto de R$ 120 com desconto de 25% custa R$ 150.0.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 120 com desconto de 25% custa R$ 90.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "Um produto de R$ 120 com desconto de 25% custa R$ 90.",
+      "Um produto de R$ 120 com desconto de 25% custa R$ 95."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 120 com desconto de 25% custa R$ 95.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um produto de R$ 900 com desconto de 30% custa R$ 870.",
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "Um produto de R$ 900 com desconto de 30% custa R$ 630.",
+      "Um produto de R$ 900 com desconto de 30% custa R$ 1170.0."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 900 com desconto de 30% custa R$ 630.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "Um produto de R$ 900 com desconto de 30% custa R$ 870.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "Um produto de R$ 900 com desconto de 30% custa R$ 630.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 900 com desconto de 30% custa R$ 870.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva correta.",
+    "alternativas": [
+      "Um produto de R$ 75 com desconto de 20% custa R$ 90.0.",
+      "Um produto de R$ 75 com desconto de 20% custa R$ 55.",
+      "Um produto de R$ 75 com desconto de 20% custa R$ 60.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Um produto de R$ 75 com desconto de 20% custa R$ 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Porcentagem",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Desconto percentual",
+    "dificuldade": 2,
+    "enunciado": "Sobre Porcentagem, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "Um produto de R$ 75 com desconto de 20% custa R$ 60.",
+      "Um produto de R$ 75 com desconto de 20% custa R$ 55.",
+      "15% de 400 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Um produto de R$ 75 com desconto de 20% custa R$ 55.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "As partes são 91 e 149.",
+      "20% de 300 é 54.",
+      "Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+      "As partes são 3 e 5."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Dividindo 240 em partes diretamente proporcionais a 3 e 5, as partes são 90 e 150.",
+      "As partes são 3 e 5.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 3 e 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "Dividindo 300 em partes diretamente proporcionais a 1 e 4, as partes são 60 e 240.",
+      "As partes são 61 e 239.",
+      "As partes são 1 e 4.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 300 em partes diretamente proporcionais a 1 e 4, as partes são 60 e 240.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "As partes são 1 e 4.",
+      "Dividindo 300 em partes diretamente proporcionais a 1 e 4, as partes são 60 e 240.",
+      "15% de 400 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 1 e 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "As partes são 2 e 5.",
+      "Dividindo 420 em partes diretamente proporcionais a 2 e 5, as partes são 120 e 300.",
+      "20% de 300 é 54.",
+      "As partes são 121 e 299.",
+      "20% de 300 é 66."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 420 em partes diretamente proporcionais a 2 e 5, as partes são 120 e 300.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "As partes são 2 e 5.",
+      "20% de 300 é 60.",
+      "Dividindo 420 em partes diretamente proporcionais a 2 e 5, as partes são 120 e 300.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 2 e 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "As partes são 61 e 119.",
+      "20% de 300 é 54.",
+      "As partes são 2 e 4.",
+      "20% de 300 é 66.",
+      "Dividindo 180 em partes diretamente proporcionais a 2 e 4, as partes são 60 e 120."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 180 em partes diretamente proporcionais a 2 e 4, as partes são 60 e 120.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "Dividindo 180 em partes diretamente proporcionais a 2 e 4, as partes são 60 e 120.",
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "As partes são 2 e 4."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 2 e 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "As partes são 4 e 5.",
+      "Dividindo 540 em partes diretamente proporcionais a 4 e 5, as partes são 240 e 300.",
+      "20% de 300 é 66.",
+      "As partes são 241 e 299.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 540 em partes diretamente proporcionais a 4 e 5, as partes são 240 e 300.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "Dividindo 540 em partes diretamente proporcionais a 4 e 5, as partes são 240 e 300.",
+      "As partes são 4 e 5.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 4 e 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "Dividindo 360 em partes diretamente proporcionais a 1 e 3, as partes são 90 e 270.",
+      "As partes são 91 e 269.",
+      "20% de 300 é 66.",
+      "As partes são 1 e 3."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 360 em partes diretamente proporcionais a 1 e 3, as partes são 90 e 270.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "As partes são 1 e 3.",
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "Dividindo 360 em partes diretamente proporcionais a 1 e 3, as partes são 90 e 270.",
+      "40% de 150 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 1 e 3.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "As partes são 2 e 3.",
+      "Dividindo 300 em partes inversamente proporcionais a 2 e 3, as partes são 180 e 120 (aprox.).",
+      "20% de 300 é 54.",
+      "A maior parte é proporcional a 2.",
+      "20% de 300 é 66."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 300 em partes inversamente proporcionais a 2 e 3, as partes são 180 e 120 (aprox.).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "As partes são 2 e 3.",
+      "20% de 300 é 60.",
+      "Dividindo 300 em partes inversamente proporcionais a 2 e 3, as partes são 180 e 120 (aprox.).",
+      "40% de 150 é 60.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 2 e 3.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "Dividindo 240 em partes inversamente proporcionais a 1 e 2, as partes são 160 e 80 (aprox.).",
+      "A maior parte é proporcional a 1.",
+      "As partes são 1 e 2.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 240 em partes inversamente proporcionais a 1 e 2, as partes são 160 e 80 (aprox.).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "Dividindo 240 em partes inversamente proporcionais a 1 e 2, as partes são 160 e 80 (aprox.).",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "As partes são 1 e 2."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 1 e 2.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "Dividindo 360 em partes inversamente proporcionais a 2 e 4, as partes são 240 e 120 (aprox.).",
+      "20% de 300 é 66.",
+      "As partes são 2 e 4.",
+      "20% de 300 é 54.",
+      "A maior parte é proporcional a 2."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 360 em partes inversamente proporcionais a 2 e 4, as partes são 240 e 120 (aprox.).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Dividindo 360 em partes inversamente proporcionais a 2 e 4, as partes são 240 e 120 (aprox.).",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "As partes são 2 e 4."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 2 e 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "As partes são 1 e 3.",
+      "20% de 300 é 66.",
+      "Dividindo 200 em partes inversamente proporcionais a 1 e 3, as partes são 150 e 50 (aprox.).",
+      "A maior parte é proporcional a 1."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Dividindo 200 em partes inversamente proporcionais a 1 e 3, as partes são 150 e 50 (aprox.).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Razão e proporção",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Divisão inversamente proporcional",
+    "dificuldade": 2,
+    "enunciado": "Sobre Razão e proporção, indique a assertiva incorreta.",
+    "alternativas": [
+      "As partes são 1 e 3.",
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "Dividindo 200 em partes inversamente proporcionais a 1 e 3, as partes são 150 e 50 (aprox.)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: As partes são 1 e 3.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "Rendem R$ 100.",
+      "Em juros simples, R$ 200 a 10% ao mês por 4 meses rendem R$ 80.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "Rendem R$ 160."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 200 a 10% ao mês por 4 meses rendem R$ 80.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "Em juros simples, R$ 200 a 10% ao mês por 4 meses rendem R$ 80.",
+      "40% de 150 é 60.",
+      "Rendem R$ 100."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 100.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "Em juros simples, R$ 300 a 6% ao mês por 5 meses rendem R$ 90.",
+      "Rendem R$ 180.",
+      "20% de 300 é 54.",
+      "Rendem R$ 110."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 300 a 6% ao mês por 5 meses rendem R$ 90.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "Em juros simples, R$ 300 a 6% ao mês por 5 meses rendem R$ 90.",
+      "Rendem R$ 110.",
+      "15% de 400 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 110.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "Rendem R$ 260.",
+      "Rendem R$ 480.",
+      "Em juros simples, R$ 1000 a 2% ao mês por 12 meses rendem R$ 240.",
+      "20% de 300 é 54."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 1000 a 2% ao mês por 12 meses rendem R$ 240.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "Rendem R$ 260.",
+      "40% de 150 é 60.",
+      "Em juros simples, R$ 1000 a 2% ao mês por 12 meses rendem R$ 240."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 260.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "Em juros simples, R$ 500 a 8% ao mês por 6 meses rendem R$ 240.",
+      "Rendem R$ 260.",
+      "20% de 300 é 66.",
+      "Rendem R$ 480."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 500 a 8% ao mês por 6 meses rendem R$ 240.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "Em juros simples, R$ 500 a 8% ao mês por 6 meses rendem R$ 240.",
+      "20% de 300 é 60.",
+      "Rendem R$ 260.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 260.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "Rendem R$ 74.",
+      "Rendem R$ 108.",
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "Em juros simples, R$ 150 a 12% ao mês por 3 meses rendem R$ 54."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 150 a 12% ao mês por 3 meses rendem R$ 54.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "Em juros simples, R$ 150 a 12% ao mês por 3 meses rendem R$ 54.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "Rendem R$ 74.",
+      "20% de 300 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 74.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "Em juros simples, R$ 400 a 5% ao mês por 8 meses rendem R$ 160.",
+      "Rendem R$ 180.",
+      "20% de 300 é 66.",
+      "Rendem R$ 320."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Em juros simples, R$ 400 a 5% ao mês por 8 meses rendem R$ 160.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros simples",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros simples, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "Em juros simples, R$ 400 a 5% ao mês por 8 meses rendem R$ 160.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "Rendem R$ 180."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Rendem R$ 180.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva correta.",
+    "alternativas": [
+      "Em juros compostos, R$ 200 a 10% por 2 períodos resultam em montante de R$ 242.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "Resultam em R$ 252.",
+      "Resultam em R$ 240."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Em juros compostos, R$ 200 a 10% por 2 períodos resultam em montante de R$ 242.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "20% de 300 é 60.",
+      "Resultam em R$ 240.",
+      "40% de 150 é 60.",
+      "Em juros compostos, R$ 200 a 10% por 2 períodos resultam em montante de R$ 242."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Resultam em R$ 240.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva correta.",
+    "alternativas": [
+      "Resultam em R$ 700.",
+      "Resultam em R$ 730.",
+      "20% de 300 é 54.",
+      "Em juros compostos, R$ 500 a 20% por 2 períodos resultam em montante de R$ 720.",
+      "20% de 300 é 66."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Em juros compostos, R$ 500 a 20% por 2 períodos resultam em montante de R$ 720.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Resultam em R$ 700.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60.",
+      "Em juros compostos, R$ 500 a 20% por 2 períodos resultam em montante de R$ 720.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Resultam em R$ 700.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva correta.",
+    "alternativas": [
+      "Resultam em R$ 390.",
+      "20% de 300 é 66.",
+      "Resultam em R$ 409.3.",
+      "20% de 300 é 54.",
+      "Em juros compostos, R$ 300 a 10% por 3 períodos resultam em montante de R$ 399.3."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Em juros compostos, R$ 300 a 10% por 3 períodos resultam em montante de R$ 399.3.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Resultam em R$ 390.",
+      "40% de 150 é 60.",
+      "Em juros compostos, R$ 300 a 10% por 3 períodos resultam em montante de R$ 399.3.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Resultam em R$ 390.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva correta.",
+    "alternativas": [
+      "Resultam em R$ 200.",
+      "Resultam em R$ 235.",
+      "Em juros compostos, R$ 100 a 50% por 2 períodos resultam em montante de R$ 225.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Em juros compostos, R$ 100 a 50% por 2 períodos resultam em montante de R$ 225.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Juros compostos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Juros compostos, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "Resultam em R$ 200.",
+      "Em juros compostos, R$ 100 a 50% por 2 períodos resultam em montante de R$ 225.",
+      "20% de 300 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Resultam em R$ 200.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, assinale a alternativa correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "A média é 8.",
+      "A média é 18.",
+      "A média aritmética de (4, 6, 8) é 6.",
+      "20% de 300 é 66."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (4, 6, 8) é 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "A média aritmética de (4, 6, 8) é 6.",
+      "20% de 300 é 60.",
+      "A média é 18.",
+      "15% de 400 é 60."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 18.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "A média aritmética de (10, 20, 30) é 20.",
+      "A média é 60.",
+      "A média é 30.",
+      "20% de 300 é 66."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (10, 20, 30) é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A média aritmética de (10, 20, 30) é 20.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "15% de 400 é 60.",
+      "A média é 60."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "A média é 30.",
+      "20% de 300 é 54.",
+      "A média aritmética de (7, 9, 14) é 10.",
+      "20% de 300 é 66.",
+      "A média é 14."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (7, 9, 14) é 10.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A média é 30.",
+      "A média aritmética de (7, 9, 14) é 10.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "A média é 80.",
+      "A média aritmética de (12, 18, 24, 26) é 20.",
+      "20% de 300 é 66.",
+      "A média é 26."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (12, 18, 24, 26) é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "A média aritmética de (12, 18, 24, 26) é 20.",
+      "A média é 80.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 80.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "A média é 80.",
+      "A média é 35.",
+      "A média aritmética de (5, 15, 25, 35) é 20."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (5, 15, 25, 35) é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A média é 80.",
+      "A média aritmética de (5, 15, 25, 35) é 20.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 80.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "A média é 40.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "A média é 20.",
+      "A média aritmética de (8, 12, 20) é 13.333333333333334."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A média aritmética de (8, 12, 20) é 13.333333333333334.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "A média é 40.",
+      "A média aritmética de (8, 12, 20) é 13.333333333333334.",
+      "20% de 300 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, assinale a alternativa correta.",
+    "alternativas": [
+      "x = 7.0.",
+      "Na equação 2x + 3 = 11, x = 4.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "x = 5."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Na equação 2x + 3 = 11, x = 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "Na equação 2x + 3 = 11, x = 4.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60.",
+      "x = 5."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: x = 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "x = 6.",
+      "x = 2.3.",
+      "Na equação 3x + -4 = 11, x = 5.",
+      "20% de 300 é 66."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Na equação 3x + -4 = 11, x = 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "Na equação 3x + -4 = 11, x = 5.",
+      "x = 6.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: x = 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva correta.",
+    "alternativas": [
+      "20% de 300 é 54.",
+      "x = 7.8.",
+      "x = 6.",
+      "20% de 300 é 66.",
+      "Na equação 5x + 7 = 32, x = 5."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Na equação 5x + 7 = 32, x = 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva incorreta.",
+    "alternativas": [
+      "40% de 150 é 60.",
+      "Na equação 5x + 7 = 32, x = 5.",
+      "x = 6.",
+      "15% de 400 é 60.",
+      "20% de 300 é 60."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: x = 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva correta.",
+    "alternativas": [
+      "x = 7.",
+      "20% de 300 é 54.",
+      "20% de 300 é 66.",
+      "Na equação 4x + 1 = 25, x = 6.",
+      "x = 6.5."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Na equação 4x + 1 = 25, x = 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva incorreta.",
+    "alternativas": [
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "Na equação 4x + 1 = 25, x = 6.",
+      "20% de 300 é 60.",
+      "x = 7."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: x = 7.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva correta.",
+    "alternativas": [
+      "x = 4.3.",
+      "20% de 300 é 66.",
+      "Na equação 6x + -2 = 28, x = 5.",
+      "x = 6.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Na equação 6x + -2 = 28, x = 5.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Equações",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Sobre Equações, indique a assertiva incorreta.",
+    "alternativas": [
+      "x = 6.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "Na equação 6x + -2 = 28, x = 5.",
+      "20% de 300 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: x = 6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Probabilidade simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Probabilidade, assinale a alternativa correta.",
+    "alternativas": [
+      "Ao lançar um dado de 6 faces, a probabilidade de sair um número par é 1/2 (3/6).",
+      "20% de 300 é 66.",
+      "A probabilidade é 1/6.",
+      "A probabilidade é 1/3.",
+      "20% de 300 é 54."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Ao lançar um dado de 6 faces, a probabilidade de sair um número par é 1/2 (3/6).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Probabilidade simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Probabilidade, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A probabilidade é 1/6.",
+      "20% de 300 é 60.",
+      "Ao lançar um dado de 6 faces, a probabilidade de sair um número par é 1/2 (3/6).",
+      "15% de 400 é 60.",
+      "40% de 150 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A probabilidade é 1/6.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Probabilidade",
+    "dificuldade": 2,
+    "enunciado": "Sobre Probabilidade, indique a assertiva correta.",
+    "alternativas": [
+      "Ao lançar uma moeda duas vezes, a probabilidade de sair duas caras é 1/4.",
+      "20% de 300 é 66.",
+      "20% de 300 é 54.",
+      "A probabilidade é 1/3.",
+      "A probabilidade é 1/2."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Ao lançar uma moeda duas vezes, a probabilidade de sair duas caras é 1/4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Probabilidade",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Probabilidade",
+    "dificuldade": 2,
+    "enunciado": "Sobre Probabilidade, indique a assertiva incorreta.",
+    "alternativas": [
+      "A probabilidade é 1/2.",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "20% de 300 é 60.",
+      "Ao lançar uma moeda duas vezes, a probabilidade de sair duas caras é 1/4."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A probabilidade é 1/2.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Permutação simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Análise combinatória, assinale a alternativa correta.",
+    "alternativas": [
+      "O número de anagramas é 16.",
+      "O número de anagramas da palavra 'AMOR' (4 letras distintas) é 4! = 24.",
+      "20% de 300 é 66.",
+      "O número de anagramas é 4.",
+      "20% de 300 é 54."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O número de anagramas da palavra 'AMOR' (4 letras distintas) é 4! = 24.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Permutação simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Análise combinatória, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O número de anagramas é 4.",
+      "20% de 300 é 60.",
+      "O número de anagramas da palavra 'AMOR' (4 letras distintas) é 4! = 24.",
+      "40% de 150 é 60.",
+      "15% de 400 é 60."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O número de anagramas é 4.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Combinação simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Análise combinatória, indique a assertiva correta.",
+    "alternativas": [
+      "É 20.",
+      "20% de 300 é 66.",
+      "O número de combinações de 5 elementos tomados 2 a 2 é 10 (C(5,2)=10).",
+      "É 5.",
+      "20% de 300 é 54."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O número de combinações de 5 elementos tomados 2 a 2 é 10 (C(5,2)=10).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Análise combinatória",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Combinação simples",
+    "dificuldade": 2,
+    "enunciado": "Sobre Análise combinatória, indique a assertiva incorreta.",
+    "alternativas": [
+      "20% de 300 é 60.",
+      "O número de combinações de 5 elementos tomados 2 a 2 é 10 (C(5,2)=10).",
+      "15% de 400 é 60.",
+      "40% de 150 é 60.",
+      "É 20."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: É 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Plural",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural é 'projétils'.",
+      "O plural é 'projetís'.",
+      "'Cidadão' é invariável."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O plural de 'cidadão' é 'cidadãos'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Plural",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'cidadão' é 'cidadões'."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O plural de 'cidadão' é 'cidadões'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Plural",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural é 'projetís'.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Cidadão' é invariável.",
+      "O plural é 'projétils'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O plural de 'projétil' é 'projéteis'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Plural",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "O plural é 'projétils'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O plural é 'projétils'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Cerca de' não concorda com numeral.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Cerca de' pede verbo no singular sempre.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Cidadão' é invariável."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas.",
+      "'Cerca de' não concorda com numeral.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Cerca de' não concorda com numeral.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Cidadão' é invariável.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas.",
+      "Só 'foi' é aceito.",
+      "Só 'foram' é aceito."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'A maioria dos alunos foi/foram' — ambas as concordâncias são aceitas.",
+      "Só 'foi' é aceito.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'projétil' é 'projéteis'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Só 'foi' é aceito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'É necessária paciência' (sem artigo) é o correto.",
+      "'É necessário' fica invariável sem artigo: 'é necessário paciência'.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'É necessário' sempre concorda.",
+      "'Cidadão' é invariável."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'É necessário' fica invariável sem artigo: 'é necessário paciência'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'É necessário' fica invariável sem artigo: 'é necessário paciência'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'É necessária paciência' (sem artigo) é o correto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'É necessária paciência' (sem artigo) é o correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Cidadão' é invariável.",
+      "'Menas pessoas' é correto.",
+      "'Menos' é invariável: 'menos pessoas'.",
+      "'Menos' concorda em gênero.",
+      "O plural de 'cidadão' é 'cidadões'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'Menos' é invariável: 'menos pessoas'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Menos' é invariável: 'menos pessoas'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Menas pessoas' é correto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Menas pessoas' é correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Bastantes' (advérbio) é correto.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Bastante' (advérbio) é invariável; 'bastante(s)' (adjetivo) concorda.",
+      "'Bastante' é sempre variável.",
+      "'Cidadão' é invariável."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'Bastante' (advérbio) é invariável; 'bastante(s)' (adjetivo) concorda.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Concordância",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Bastante' (advérbio) é invariável; 'bastante(s)' (adjetivo) concorda.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Bastante' é sempre variável.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Bastante' é sempre variável.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "No futuro usa-se próclise obrigatória.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "Pronome oblíquo átono após verbo no futuro usa mesóclise: 'dir-te-ei'.",
+      "Mesóclise é proibida no futuro.",
+      "'Cidadão' é invariável."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Pronome oblíquo átono após verbo no futuro usa mesóclise: 'dir-te-ei'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "Pronome oblíquo átono após verbo no futuro usa mesóclise: 'dir-te-ei'.",
+      "No futuro usa-se próclise obrigatória.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural de 'projétil' é 'projéteis'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: No futuro usa-se próclise obrigatória.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "Início de frase pede próclise.",
+      "Início de frase pede mesóclise.",
+      "Com verbo no início de frase usa-se ênclise: 'Disseram-me'.",
+      "'Cidadão' é invariável.",
+      "O plural de 'cidadão' é 'cidadões'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Com verbo no início de frase usa-se ênclise: 'Disseram-me'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "Com verbo no início de frase usa-se ênclise: 'Disseram-me'.",
+      "Início de frase pede próclise.",
+      "O plural de 'cidadão' é 'cidadãos'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Início de frase pede próclise.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Embora' é conjunção concessiva e pede subjuntivo.",
+      "'Embora' pede indicativo.",
+      "'Cidadão' é invariável.",
+      "'Embora' é conclusiva."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: 'Embora' é conjunção concessiva e pede subjuntivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Embora' é conjunção concessiva e pede subjuntivo.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Embora' pede indicativo."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Embora' pede indicativo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Cidadão' é invariável.",
+      "'Ainda que' é conclusiva.",
+      "'Posto que' é causal.",
+      "'Conquanto', 'posto que' e 'ainda que' são concessivas."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Conquanto', 'posto que' e 'ainda que' são concessivas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Posto que' é causal.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Conquanto', 'posto que' e 'ainda que' são concessivas.",
+      "O plural de 'cidadão' é 'cidadãos'."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Posto que' é causal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Porquanto' é concessivo.",
+      "'Porquanto' é condicional.",
+      "'Cidadão' é invariável.",
+      "'Porquanto' tem valor causal/explicativo."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Porquanto' tem valor causal/explicativo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Porquanto' é concessivo.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Porquanto' tem valor causal/explicativo."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Porquanto' é concessivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Consoante' e 'conforme' são conjunções conformativas.",
+      "'Cidadão' é invariável.",
+      "'Conforme' é adversativa.",
+      "'Consoante' é causal.",
+      "O plural de 'cidadão' é 'cidadões'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 'Consoante' e 'conforme' são conjunções conformativas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Conjunções",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Consoante' é causal.",
+      "'Consoante' e 'conforme' são conjunções conformativas."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Consoante' é causal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Cidadão' é invariável.",
+      "A crase ocorre em 'à medida que' (locução).",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'À medida que' é grafado sem acento.",
+      "'À medida que' não tem crase."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A crase ocorre em 'à medida que' (locução).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'À medida que' não tem crase.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "A crase ocorre em 'à medida que' (locução).",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'cidadão' é 'cidadãos'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'À medida que' não tem crase.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "A crase é obrigatória antes de possessivo.",
+      "'Cidadão' é invariável.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "A crase é proibida antes de possessivo.",
+      "A crase é facultativa antes de pronome possessivo feminino singular."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A crase é facultativa antes de pronome possessivo feminino singular.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "A crase é obrigatória antes de possessivo.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "A crase é facultativa antes de pronome possessivo feminino singular."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A crase é obrigatória antes de possessivo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "As expressões são sinônimas.",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Cidadão' é invariável.",
+      "'De encontro a' significa a favor.",
+      "'Ao encontro de' = a favor; 'de encontro a' = contra."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Ao encontro de' = a favor; 'de encontro a' = contra.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Ao encontro de' = a favor; 'de encontro a' = contra.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "As expressões são sinônimas.",
+      "O plural de 'projétil' é 'projéteis'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: As expressões são sinônimas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Iminente' significa elevado.",
+      "'Eminente' (elevado) e 'iminente' (prestes a ocorrer).",
+      "'Cidadão' é invariável.",
+      "As palavras são sinônimas."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'Eminente' (elevado) e 'iminente' (prestes a ocorrer).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "As palavras são sinônimas.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Eminente' (elevado) e 'iminente' (prestes a ocorrer).",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: As palavras são sinônimas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Cessão' é reunião.",
+      "'Sessão' é divisão.",
+      "'Cidadão' é invariável.",
+      "'Sessão' (reunião), 'seção' (divisão) e 'cessão' (ato de ceder)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Sessão' (reunião), 'seção' (divisão) e 'cessão' (ato de ceder).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "'Sessão' é divisão.",
+      "'Sessão' (reunião), 'seção' (divisão) e 'cessão' (ato de ceder)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Sessão' é divisão.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "São sinônimos.",
+      "'Cidadão' é invariável.",
+      "'Descriminar' (absolver) e 'discriminar' (distinguir).",
+      "O plural de 'cidadão' é 'cidadões'.",
+      "'Descriminar' significa distinguir."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'Descriminar' (absolver) e 'discriminar' (distinguir).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "São sinônimos.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "'Descriminar' (absolver) e 'discriminar' (distinguir).",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O plural de 'cidadão' é 'cidadãos'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: São sinônimos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva correta.",
+    "alternativas": [
+      "'Microondas' é o correto.",
+      "O hífen se mantém em 'micro-ondas' e 'bem-vindo'.",
+      "'Cidadão' é invariável.",
+      "'Bemvindo' é o correto.",
+      "O plural de 'cidadão' é 'cidadões'."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O hífen se mantém em 'micro-ondas' e 'bem-vindo'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Norma-padrão",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Ortografia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Norma-padrão, indique a assertiva incorreta.",
+    "alternativas": [
+      "O plural de 'cidadão' é 'cidadãos'.",
+      "'Cerca de' concorda com o numeral: 'cerca de vinte pessoas'.",
+      "O plural de 'projétil' é 'projéteis'.",
+      "O hífen se mantém em 'micro-ondas' e 'bem-vindo'.",
+      "'Microondas' é o correto."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Microondas' é o correto.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XV",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, assinale a alternativa correta.",
+    "alternativas": [
+      "O mandado de segurança protege direito difuso.",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de segurança é usado contra lei em tese.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O art. 5º, XV, trata de liberdade de expressão."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XV",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O direito de ir e vir não é garantia fundamental.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXIX",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O mandado de segurança protege direito difuso.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O mandado de segurança é usado contra lei em tese."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXIX",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII).",
+      "O mandado de segurança protege direito difuso.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: O mandado de segurança protege direito difuso.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O habeas data é usado para prisão ilegal.",
+      "O habeas data é usado para direito líquido e certo."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII).",
+      "O habeas data é usado para prisão ilegal.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: O habeas data é usado para prisão ilegal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXVIII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII).",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O habeas corpus é ação coletiva.",
+      "O habeas corpus protege dados pessoais.",
+      "O direito de ir e vir não é garantia fundamental."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXVIII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O habeas corpus protege a liberdade de locomoção (art. 5º, LXVIII).",
+      "O habeas corpus protege dados pessoais.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O habeas corpus protege dados pessoais.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXIII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "A ação popular é privativa do MP.",
+      "A ação popular visa anular ato lesivo ao patrimônio público (art. 5º, LXXIII).",
+      "O direito de ir e vir não é garantia fundamental.",
+      "A ação popular protege dados pessoais.",
+      "O art. 5º, XV, trata de liberdade de expressão."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A ação popular visa anular ato lesivo ao patrimônio público (art. 5º, LXXIII).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXIII",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "A ação popular visa anular ato lesivo ao patrimônio público (art. 5º, LXXIII).",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "A ação popular é privativa do MP.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A ação popular é privativa do MP.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXI",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O mandado de injunção protege liberdade de locomoção.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O mandado de injunção anula ato lesivo.",
+      "O mandado de injunção é cabível diante de falta de norma regulamentadora (art. 5º, LXXI)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O mandado de injunção é cabível diante de falta de norma regulamentadora (art. 5º, LXXI).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, LXXI",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de injunção é cabível diante de falta de norma regulamentadora (art. 5º, LXXI).",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O mandado de injunção protege liberdade de locomoção."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O mandado de injunção protege liberdade de locomoção.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 12, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "A naturalização é vedada pela CF.",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "Todo estrangeiro é brasileiro nato.",
+      "São brasileiros naturalizados os estrangeiros naturalizados conforme a lei (art. 12, II).",
+      "O direito de ir e vir não é garantia fundamental."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: São brasileiros naturalizados os estrangeiros naturalizados conforme a lei (art. 12, II).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 12, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "Todo estrangeiro é brasileiro nato.",
+      "São brasileiros naturalizados os estrangeiros naturalizados conforme a lei (art. 12, II).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Todo estrangeiro é brasileiro nato.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 14, §1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O voto é obrigatório para maiores de 18 e facultativo para 16-17, analfabetos e maiores de 70 (art. 14, §1º).",
+      "O voto é obrigatório aos 16 anos.",
+      "O voto é facultativo para maiores de 18.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O art. 5º, XV, trata de liberdade de expressão."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O voto é obrigatório para maiores de 18 e facultativo para 16-17, analfabetos e maiores de 70 (art. 14, §1º).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 14, §1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O voto é facultativo para maiores de 18.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O voto é obrigatório para maiores de 18 e facultativo para 16-17, analfabetos e maiores de 70 (art. 14, §1º).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O voto é facultativo para maiores de 18.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 156, I",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O direito de ir e vir não é garantia fundamental.",
+      "Compete aos Municípios instituir o IPTU (art. 156, I).",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O IPTU é imposto estadual.",
+      "O IPTU é imposto federal."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Compete aos Municípios instituir o IPTU (art. 156, I).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 156, I",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O IPTU é imposto estadual.",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "Compete aos Municípios instituir o IPTU (art. 156, I).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O IPTU é imposto estadual.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 155, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O ICMS é federal.",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "O direito de ir e vir não é garantia fundamental.",
+      "Compete aos Estados o ICMS (art. 155, II).",
+      "O ICMS é municipal."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Compete aos Estados o ICMS (art. 155, II).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 155, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O ICMS é municipal.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "Compete aos Estados o ICMS (art. 155, II)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O ICMS é municipal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 153",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "O direito de ir e vir não é garantia fundamental.",
+      "A União institui o IR, o IPI e o ITR (art. 153).",
+      "O ITR é estadual.",
+      "O IPI é municipal.",
+      "O art. 5º, XV, trata de liberdade de expressão."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A União institui o IR, o IPI e o ITR (art. 153).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 153",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "O ITR é estadual.",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "A União institui o IR, o IPI e o ITR (art. 153).",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O ITR é estadual.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 60, §2º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva correta.",
+    "alternativas": [
+      "A EC é aprovada por 3/5 em dois turnos em cada Casa (art. 60, §2º).",
+      "O direito de ir e vir não é garantia fundamental.",
+      "O art. 5º, XV, trata de liberdade de expressão.",
+      "A EC exige 2/3 em turno único.",
+      "A EC é aprovada por maioria simples."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A EC é aprovada por 3/5 em dois turnos em cada Casa (art. 60, §2º).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais e organização",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 60, §2º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Direitos fundamentais e organização, indique a assertiva incorreta.",
+    "alternativas": [
+      "A EC é aprovada por maioria simples.",
+      "O direito de ir e vir é assegurado pelo art. 5º, XV, da CF/88.",
+      "O mandado de segurança protege direito líquido e certo (art. 5º, LXIX).",
+      "O habeas data assegura o conhecimento/retificação de dados pessoais (art. 5º, LXXII).",
+      "A EC é aprovada por 3/5 em dois turnos em cada Casa (art. 60, §2º)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A EC é aprovada por maioria simples.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, caput",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, assinale a alternativa correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "Concurso é só para cargo em comissão.",
+      "São apenas legalidade e moralidade.",
+      "Cargo efetivo dispensa concurso.",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, caput",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+      "São apenas legalidade e moralidade.",
+      "A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: São apenas legalidade e moralidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "Cargo efetivo dispensa concurso.",
+      "São apenas legalidade e moralidade.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "Concurso é só para cargo em comissão."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133).",
+      "Cargo efetivo dispensa concurso.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Cargo efetivo dispensa concurso.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, III",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+      "O prazo é de 1 ano, prorrogável 2 vezes.",
+      "São apenas legalidade e moralidade.",
+      "O prazo é de 3 anos, improrrogável."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, III",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+      "O prazo é de 1 ano, prorrogável 2 vezes.",
+      "A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: O prazo é de 1 ano, prorrogável 2 vezes.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, §1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133).",
+      "O art. 37 não prevê eficiência.",
+      "São apenas legalidade e moralidade.",
+      "A publicidade não é princípio expresso.",
+      "A publicidade é absoluta, sem exceção."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 37, §1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "A publicidade dos atos é princípio, salvo quando o sigilo for imprescindível (art. 37, §1º... e Lei 14.133).",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "A publicidade é absoluta, sem exceção.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A publicidade é absoluta, sem exceção.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "Atos vinculados são sempre discricionários.",
+      "São apenas legalidade e moralidade.",
+      "Atos vinculados admitem mérito.",
+      "Atos vinculados não admitem juízo de conveniência e oportunidade."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Atos vinculados não admitem juízo de conveniência e oportunidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "Atos vinculados admitem mérito.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "Atos vinculados não admitem juízo de conveniência e oportunidade.",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Atos vinculados admitem mérito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "São apenas legalidade e moralidade.",
+      "A autoexecutoriedade dispensa sempre previsão legal.",
+      "A autoexecutoriedade nunca existe.",
+      "A autoexecutoriedade permite execução direta pela Administração, com previsão legal ou urgência."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A autoexecutoriedade permite execução direta pela Administração, com previsão legal ou urgência.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "A autoexecutoriedade dispensa sempre previsão legal.",
+      "A autoexecutoriedade permite execução direta pela Administração, com previsão legal ou urgência.",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A autoexecutoriedade dispensa sempre previsão legal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "Não há presunção de legitimidade.",
+      "A presunção de legitimidade dos atos é relativa (juris tantum).",
+      "O art. 37 não prevê eficiência.",
+      "São apenas legalidade e moralidade.",
+      "A presunção é absoluta (juris et de jure)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A presunção de legitimidade dos atos é relativa (juris tantum).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Atos administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+      "A presunção é absoluta (juris et de jure).",
+      "A presunção de legitimidade dos atos é relativa (juris tantum).",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A presunção é absoluta (juris et de jure).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Poderes administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva correta.",
+    "alternativas": [
+      "O art. 37 não prevê eficiência.",
+      "O poder hierárquico é externo.",
+      "O poder hierárquico vincula particulares.",
+      "O poder hierárquico organiza escalões internos da Administração.",
+      "São apenas legalidade e moralidade."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O poder hierárquico organiza escalões internos da Administração.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Princípios e atos",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Poderes administrativos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Princípios e atos, indique a assertiva incorreta.",
+    "alternativas": [
+      "O prazo de validade do concurso é de até 2 anos, prorrogável uma vez (art. 37, III).",
+      "O concurso público é exigido para investidura em cargo efetivo (art. 37, II).",
+      "O poder hierárquico vincula particulares.",
+      "Os princípios expressos da Administração (art. 37) são LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+      "O poder hierárquico organiza escalões internos da Administração."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: O poder hierárquico vincula particulares.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "TJ-AM"
+    ]
   }
 ]
