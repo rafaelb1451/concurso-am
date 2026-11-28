@@ -418,5 +418,165 @@
     "resumo": "Modelo CHA e gestão de pessoas no setor público.",
     "conteudo": "**Competência individual (CHA).** Conhecimento (saber teórico), Habilidade (saber fazer) e Atitude (querer fazer). Modelo de Gestão por Competências estruturado nesse tripé.\n\n**Aplicação pública.** Mapeamento de competências, seleção, desenvolvimento e avaliação por desempenho, alinhados ao planejamento estratégico da instituição.\n\n**Conceitos auxiliares.** Funções administrativas (planejamento, organização, direção, controle); eficiência, eficácia e efetividade; accountability e governança.",
     "ordem": 8
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-guia",
+    "titulo": "Guia de estudo — PM-RR Oficial (banca UERR)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso (não é norma)",
+    "resumo": "Edital do QOPM, perfil da UERR, estrutura da prova e plano de 90 dias.",
+    "conteudo": "**Certame.** Concurso para o Quadro de Oficiais Policiais Militares (QOPM) da PM-RR, banca Universidade Estadual de Roraima (UERR/CPCV), ciclo 2027. Previsão de 30 a 40 vagas imediatas + cadastro de reserva.\n\n**Prova.** 1ª etapa: prova objetiva de múltipla escolha com 5 alternativas (A a E) + prova de redação. Etapas seguintes: exames médico, odontológico e toxicológico, TAF, avaliação psicológica, investigação social e Curso de Formação de Oficiais (CFO).\n\n**Perfil UERR.** Docentes locais e juristas do Estado: forte peso da legislação estadual (LCE 194/2012, Constituição de Roraima), cobrança literal do CPM/CPPM e História/Geografia de Roraima. Menos pegadinha semântica, mais letra da lei regional.\n\n**Ordem de prioridade sugerida.** 1) CPM/CPPM (arts. 9º a 29 do CPM, IPM, motim, revolta, deserção); 2) LCE 194/2012 (agregação, reversão, Conselho de Justificação e de Disciplina); 3) Constituição Federal (arts. 5º, 37, 42, 125 e 144); 4) História e Geografia de RR; 5) Português e RLM.\n\n**Pegadinhas comuns.** Trocar Conselho de Justificação (oficiais) por Conselho de Disciplina (praças); confundir prazo do IPM (20 dias preso / 40 dias solto); achar que a Justiça Militar Estadual julga civil (nunca julga — Súmula 53/STJ); confundir motim (sem armas) com revolta (armados).",
+    "ordem": 1
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-legislacao-estadual",
+    "titulo": "Legislação Estadual de Roraima (LCE 194/2012) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Estatuto dos Militares de Roraima, agregação, reversão e conselhos.",
+    "conteudo": "**Estatuto dos Militares de Roraima (LCE 194/2012).** Regula a situação, as obrigações, os deveres, os direitos e as prerrogativas dos integrantes da PM-RR e do CBM-RR.\n\n**Agregação.** Situação em que o militar da ativa deixa de ocupar vaga na escala hierárquica do quadro, permanecendo sem número (ex.: aguardando transferência para a reserva, afastamento por saúde ou posse em cargo público civil temporário não eletivo).\n\n**Reversão.** Ato pelo qual o militar agregado retorna ao quadro tão logo cesse o motivo da agregação.\n\n**Conselho de Justificação.** Processo especial para julgar a incapacidade do Oficial de permanecer na ativa, criando-lhe condições de se justificar; a decisão final sobre perda do posto e da patente cabe ao Tribunal de Justiça de Roraima.\n\n**Conselho de Disciplina.** Destina-se ao Aspirante a Oficial e às Praças com estabilidade assegurada.",
+    "ordem": 2
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-penal-militar",
+    "titulo": "Direito Penal e Processual Penal Militar (CPM/CPPM) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Crimes militares próprios, motim/revolta, deserção e IPM.",
+    "conteudo": "**Crime propriamente militar.** Previsto apenas no CPM e só praticável por militar (deserção, abandono de posto, recusa de obediência). Relevância do art. 5º, LXI, da CF/88: admite prisão sem ordem judicial nos casos de transgressão militar ou crime propriamente militar definidos em lei.\n\n**Motim x Revolta (art. 149 do CPM).** Motim é a reunião de militares agindo contra ordem recebida, negando-se a cumpri-la, recusando obediência, assentindo em recusa conjunta ou ocupando quartel/estabelecimento. Se os agentes estavam armados, qualifica-se como Revolta (parágrafo único).\n\n**Deserção (art. 187).** Ausentar-se o militar, sem licença, da unidade ou do lugar onde deve permanecer, por mais de oito dias (consuma-se no nono dia). Abandono de posto (art. 195) é o afastamento não autorizado do posto/lugar de serviço designado.\n\n**IPM (CPPM, arts. 9º a 28).** Apuração sumária de fato que configure crime militar e de sua autoria, com finalidade de instruir a ação penal. O encarregado é sempre Oficial, de posto não inferior ao do indiciado.\n\n**Prazo do IPM (art. 20).** 20 dias se o indiciado estiver preso (contados da execução da prisão); 40 dias se solto (prorrogáveis por mais 20 pela autoridade militar superior).",
+    "ordem": 3
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-historia-geografia",
+    "titulo": "História e Geografia de Roraima — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Formação territorial, fronteiras, hidrografia e relevo do Estado.",
+    "conteudo": "**Formação político-administrativa.** Criado em 13/09/1943 (Decreto-Lei 5.812) como Território Federal do Rio Branco, desmembrado do Amazonas. Em 13/12/1962 (Lei 4.182), passou a chamar-se Território Federal de Roraima. Foi elevado a Estado pela CF/1988 (art. 14 do ADCT), instalado em 01/01/1991.\n\n**Fronteiras.** Único Estado brasileiro situado integralmente no Hemisfério Norte. Limita-se ao norte/noroeste com a Venezuela e ao leste com a Guiana; não faz fronteira com Colômbia nem Suriname.\n\n**Hidrografia.** A principal bacia é a do Rio Branco, formado pela confluência dos rios Uraricoera e Tacutu ao norte de Boa Vista, afluente da margem esquerda do Rio Negro.\n\n**Relevo.** Planalto das Guianas (Serra de Pacaraima, Serra Parima e Monte Roraima) e a savana/campos naturais conhecida regionalmente como Lavrado.\n\n**Capital.** Boa Vista é a capital desde a criação do Território.",
+    "ordem": 4
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-constitucional",
+    "titulo": "Direito Constitucional — Justiça Militar Estadual (arts. 125 e 144)",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Competência da Justiça Militar Estadual e segurança pública.",
+    "conteudo": "**Competência penal militar (art. 125, § 4º).** Compete à Justiça Militar estadual processar e julgar os militares dos Estados nos crimes militares definidos em lei e as ações contra atos disciplinares, ressalvada a competência do júri quando a vítima for civil, cabendo ao tribunal competente decidir sobre a perda do posto/patente dos oficiais e da graduação das praças.\n\n**Competência monocrática (art. 125, § 5º).** Os juízes de direito do juízo militar julgam, singularmente, os crimes militares cometidos contra civis e as ações contra atos disciplinares; o Conselho de Justiça (especial para oficiais, permanente para praças), presidido por juiz de direito, julga os demais crimes militares.\n\n**Súmula 53/STJ.** Compete à Justiça Comum Estadual julgar civil acusado de crime contra instituições militares estaduais (a Justiça Militar Estadual nunca julga civil).\n\n**Súmula 78/STJ.** Compete à Justiça Militar julgar policial de corporação estadual, ainda que o delito tenha ocorrido em outra unidade federativa.\n\n**Segurança pública (art. 144).** Às polícias militares cabem a polícia ostensiva e a preservação da ordem pública; são forças auxiliares e reserva do Exército, subordinadas aos Governadores.",
+    "ordem": 5
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-guia",
+    "titulo": "Guia de estudo — TJ-AM (referência Cebraspe)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso (não é norma)",
+    "resumo": "Estrutura da prova, perfil Cebraspe e gestão de risco.",
+    "conteudo": "**Certame.** Concurso do Tribunal de Justiça do Amazonas para provimento de cargos de nível médio (Assistente Judiciário) e superior (Analista Judiciário), capital e comarcas do interior. Banca a definir, com referência no Cebraspe (banca do último certame, Edital 01/2019).\n\n**Prova (padrão Cebraspe).** 120 itens objetivos de julgamento (Certo ou Errado): 50 de Conhecimentos Básicos e 70 de Específicos, duração de 3h30 + prova discursiva.\n\n**Perfil Cebraspe.** Leitura analítica, jurisprudência do STF/STJ e situações hipotéticas. Armadilhas com advérbios totalizantes (sempre, nunca, exclusivamente) e inversão de causa e consequência.\n\n**Ordem de prioridade sugerida.** 1) Direito Constitucional e Administrativo; 2) LCE 261/2023 e Lei 1.762/1986; 3) Processo Civil (prazos, atos do juiz, tutela provisória); 4) Português (coesão, reescrita, pontuação); 5) Informática e Ética.\n\n**Gestão de risco.** Não 'chute' às escuras: um erro anula um acerto líquido. Só marque quando eliminar fundamentadamente uma das opções; em dúvida total, deixe em branco.",
+    "ordem": 1
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-formato-certo-errado",
+    "titulo": "Formato Certo/Errado e o fator de penalidade (Cebraspe)",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Como funciona a pontuação com erro anulando acerto.",
+    "conteudo": "**Sistema de pontuação.** Cada item julgado em concordância com o gabarito vale +1,00 ponto; cada item em discordância vale −1,00 ponto; item em branco ou com dupla marcação vale 0,00 ponto.\n\n**Consequência prática.** Errar um item anula integralmente um acerto. A nota líquida da prova é o saldo entre acertos e erros.\n\n**Estratégia.** Só marque quando houver segurança razoável ou eliminação fundamentada; em dúvida total, deixe em branco para preservar a pontuação líquida.\n\n**Armadilhas típicas.** Advérbios totalizantes (sempre, nunca, exclusivamente, unicamente, prescinde, em qualquer hipótese) frequentemente tornam o item ERRADO; a inversão sutil de causa/consequência também.\n\n**Como este banco treina.** As questões TJ-AM aqui usam exatamente duas alternativas — Certo e Errado — para simular o julgamento de itens.",
+    "ordem": 2
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-direito",
+    "titulo": "Direito Constitucional e Administrativo (TJ-AM) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Poder Judiciário, organização judiciária, regime do servidor e poderes.",
+    "conteudo": "**Poder Judiciário (arts. 92 a 100 e 125).** Os Estados organizam sua Justiça; a iniciativa da lei de organização judiciária é privativa do Tribunal de Justiça (art. 125, § 1º). O TJ-AM (LCE 261/2023) tem sede em Manaus, jurisdição em todo o Estado e é composto por 26 desembargadores, observado o quinto constitucional (art. 94).\n\n**Justiça itinerante (art. 125, § 7º).** O tribunal instalará (comando imperativo) a justiça itinerante, com audiências e demais funções jurisdicionais nos limites da jurisdição, servindo-se de equipamentos públicos e comunitários.\n\n**Competência penal.** Súmula 140/STJ: compete à Justiça Comum Estadual julgar crime em que indígena figure como autor ou vítima, salvo quando a infração atingir direitos coletivos indígenas (art. 109, XI, CF — Justiça Federal). Súmula Vinculante 45/STF: o Júri prevalece sobre foro por prerrogativa previsto apenas na Constituição Estadual.\n\n**Regime do servidor (Lei 1.762/1986).** Nomeação é provimento originário; posse investe no cargo (pode ocorrer por procuração); exercício é o efetivo desempenho. Não tomar posse no prazo: ato de provimento torna-se sem efeito. Tomar posse e não entrar em exercício: exoneração de ofício. Estabilidade após 3 anos de efetivo exercício (art. 41, CF).\n\n**Poderes administrativos.** Hierárquico (delegar), disciplinar, regulamentar e de polícia. Não se delega: edição de atos normativos, decisão de recursos administrativos e matérias de competência exclusiva (art. 13, Lei 9.784/1999). As instâncias civil, penal e administrativa são independentes; a absolvição criminal por insuficiência de provas não vincula a esfera disciplinar.",
+    "ordem": 3
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-portugues",
+    "titulo": "Língua Portuguesa no padrão Cebraspe — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Inferência, coesão referencial, pronomes relativos e reescrita.",
+    "conteudo": "**Inferir x segundo o texto.** Quando o item usa 'infere-se' ou 'depreende-se', a afirmação não está literal no texto, mas decorre logicamente das premissas, sem extrapolar os limites semânticos.\n\n**Pronome relativo 'onde'.** Só retoma antecedente de lugar físico; para tempo, processo ou situação abstrata usa-se 'em que' ou 'no qual'.\n\n**Pronome 'cujo'.** Exprime posse, concorda com o termo consequente (possuído) e não admite artigo posposto ('o processo cujo relator foi designado', nunca 'cujo o relator').\n\n**Reescrita.** Para ser julgada correta, a reescrita deve manter a correção gramatical E preservar o sentido original. Trocar adversativa por concessiva exige mudar o modo verbal (indicativo → subjuntivo) e desloca a ênfase, o que geralmente invalida o item.\n\n**Pontuação.** Expressões adverbiais intercaladas (entre sujeito e verbo) exigem dupla vírgula; a retirada de apenas uma separa sujeito de predicado.",
+    "ordem": 4
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-informatica",
+    "titulo": "Noções de Informática e processo eletrônico (TJ-AM) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Certificação digital, ICP-Brasil e processo judicial eletrônico.",
+    "conteudo": "**Processo judicial eletrônico (Lei 11.419/2006).** Tramitação eletrônica de processos, com assinatura digital e prática de atos por meio eletrônico (PJe/PROJUDI).\n\n**Certificação digital e ICP-Brasil (MP 2.200-2/2001).** A assinatura digital com certificado digital assegura autenticidade (autoria), integridade (conteúdo não alterado) e não repúdio (irretratabilidade do signatário).\n\n**Segurança da informação.** Pilares: confidencialidade (acesso apenas por autorizados), integridade (exatidão contra alterações indevidas), disponibilidade (acesso quando necessário), autenticidade e não repúdio.\n\n**Conceitos auxiliares.** Criptografia assimétrica (chave pública/privada), firewall, antivírus, phishing, backup e autenticação em dois fatores.",
+    "ordem": 5
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-guia",
+    "titulo": "Guia de estudo — ManausPrev (banca FCC)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso (não é norma)",
+    "resumo": "Estrutura da prova, perfil FCC e plano de 90 dias.",
+    "conteudo": "**Certame.** Concurso da ManausPrev, autarquia municipal gestora única do RPPS de Manaus, para quadro efetivo (níveis médio e superior), banca FCC, prova prevista para o 1º semestre de 2027.\n\n**Prova.** Padrão FCC em autarquias previdenciárias: 60 a 70 questões de múltipla escolha (5 alternativas, A a E), com Conhecimentos Gerais (Português, RLM, Informática, Legislação Municipal) e Específicos (peso 2).\n\n**Perfil FCC.** Rigor técnico e cobrança literal da norma: EC 103/2019, Lei 9.717/1998, Lei Municipal 870/2005 (RPPS de Manaus), Lei 1.118/1971 (Estatuto) e jurisprudência (Súmulas Vinculantes 33 e 55). Troca idades mínimas, prazos e regras de transição.\n\n**Ordem de prioridade sugerida.** 1) Direito Previdenciário (art. 40 CF e EC 103/2019); 2) Legislação municipal (Lei 870/2005 e Lei 1.118/1971); 3) Direito Administrativo (autarquias, atos, improbidade, licitações); 4) Matemática Financeira e RLM; 5) Português.\n\n**Pegadinhas comuns.** Comissionado exclusivo vai para o RGPS; compulsória aos 75 anos é com proventos proporcionais; tempo fictício é sempre vedado; ente tem unidade gestora única; desconto comercial incide sobre o valor nominal.",
+    "ordem": 1
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-previdenciario",
+    "titulo": "Direito Previdenciário — RPPS e EC 103/2019 — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Regime Próprio, aposentadorias, acumulação e jurisprudência.",
+    "conteudo": "**RPPS (art. 40, CF).** Regime contributivo e solidário, exclusivo dos titulares de cargos efetivos. O ocupante exclusivo de cargo em comissão, cargo temporário ou emprego público vincula-se ao RGPS (art. 40, § 13).\n\n**Aposentadorias.** Por incapacidade permanente (com avaliações periódicas), compulsória aos 75 anos com proventos proporcionais ao tempo de contribuição, e voluntária (idade e tempo conforme lei complementar do ente).\n\n**Vedações e estrutura.** Vedada contagem de tempo fictício (art. 40, § 10); vedada mais de uma unidade gestora do RPPS em cada ente (art. 40, § 20); previdência complementar observa o teto do RGPS (arts. 40, §§ 14 a 16).\n\n**Acumulação (art. 24 da EC 103/2019).** Vedada mais de uma pensão por morte no mesmo regime (ressalvadas as do mesmo instituidor por cargos acumuláveis). Pensão + aposentadoria: recebe 100% do benefício mais vantajoso + parcela escalonada do outro (100% até 1 SM; 60% entre 1 e 2 SM; 40% entre 2 e 3 SM; 20% entre 3 e 4 SM; 10% acima de 4 SM).\n\n**Jurisprudência.** SV 33: regras do RGPS sobre aposentadoria especial aplicam-se ao servidor até lei complementar específica. SV 55: auxílio-alimentação não se estende aos inativos. ADI 3.105/DF: constitucional a contribuição sobre proventos que superem o teto do RGPS; com déficit atuarial, pode incidir sobre o que supere o salário mínimo (art. 149, § 1º-A, CF).",
+    "ordem": 2
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-matematica-financeira",
+    "titulo": "Matemática Financeira — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Juros simples e compostos, taxas e desconto.",
+    "conteudo": "**Capitalização simples.** Juros incidem só sobre o capital inicial: J = C × i × n e M = C × (1 + i × n). Taxas proporcionais são equivalentes (2% a.m. = 24% a.a.).\n\n**Capitalização composta.** Juros incorporam-se ao capital: M = C × (1 + i)ⁿ. Taxas equivalentes: (1 + i_anual) = (1 + i_mensal)¹².\n\n**Desconto comercial (por fora).** A taxa incide sobre o valor nominal (N): Dc = N × i × n e Ac = N × (1 − i × n).\n\n**Desconto racional (por dentro).** Incide sobre o valor atual: N = Ar × (1 + i × n). Sempre Dc > Dr, pois Dc = Dr × (1 + i × n).\n\n**Atenção FCC.** Leia se a pergunta pede juros ou montante; e se o desconto é por dentro ou por fora — a troca inverte o resultado.",
+    "ordem": 3
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-administrativo",
+    "titulo": "Direito Administrativo e regime das autarquias — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Autarquias, atos administrativos, improbidade e licitações.",
+    "conteudo": "**Autarquia.** Pessoa jurídica de direito público, criada por lei específica (art. 37, XIX, CF), integrante da Administração Indireta, com autoadministração e patrimônio próprio; vínculo de tutela (controle finalístico), não de subordinação hierárquica.\n\n**Prerrogativas.** Imunidade tributária recíproca (art. 150, § 2º), bens impenhoráveis (pagamento por precatórios, art. 100, CF) e prazos processuais em dobro (art. 183, CPC).\n\n**Responsabilidade civil.** Objetiva pelos danos de seus agentes (art. 37, § 6º, CF), com direito de regresso em caso de dolo ou culpa.\n\n**Atos administrativos.** Atributos PATI: presunção de legitimidade e veracidade (relativa), autoexecutoriedade, tipicidade (só unilaterais) e imperatividade (ausente em enunciativos/negociais). Anulação (vício de legalidade, ex tunc) x revogação (mérito, ex nunc).\n\n**Improbidade (Lei 8.429/1992, alterada pela Lei 14.230/2021).** Exige dolo (vontade livre e consciente de alcançar o resultado ilícito); extinta a modalidade culposa.\n\n**Licitações (Lei 14.133/2021).** Inexigibilidade (art. 74, rol exemplificativo, inviabilidade de competição) e dispensa (art. 75, rol taxativo).",
+    "ordem": 4
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-portugues",
+    "titulo": "Língua Portuguesa (FCC) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Concordância, voz passiva, crase e orações adjetivas.",
+    "conteudo": "**Voz passiva.** Passiva sintética: verbo + 'se' apassivador concorda com o sujeito paciente ('Asseguram-se direitos'). 'Se' com VI/VTI/VL é índice de indeterminação (verbo na 3ª pessoa do singular).\n\n**Verbos impessoais.** Haver (existir) e fazer (tempo) não variam: 'Havia muitos requerimentos', 'Faz dez anos'. Existir é pessoal: 'Existem soluções'.\n\n**Crase.** Proibida antes de verbo, palavra masculina, pronomes e com 'a' singular antes de plural. Facultativa antes de possessivo feminino singular e após 'até'.\n\n**Orações adjetivas.** Sem vírgula: restritiva (restringe o conjunto). Com vírgulas: explicativa (generaliza a propriedade a todo o conjunto). A pontuação muda o sentido.\n\n**Regência clássica.** Visar (almejar) = VTI (a); assistir (presenciar) = VTI (a); implicar (acarretar) = VTD; obedecer = VTI (a).",
+    "ordem": 5
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-edital-2027",
+    "titulo": "Edital e cronograma — PM-AM 2027 (Soldado e Oficial)",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Cargos, requisitos de ingresso, etapas e remuneração do certame.",
+    "conteudo": "**Certame.** Concurso da Polícia Militar do Amazonas (ciclo 2027), com previsão de 1.000 a 1.350 vagas + cadastro de reserva, majoritariamente para Aluno Soldado, complementadas por vagas de Oficiais. Banca provável: FGV.\n\n**Cargos e escolaridade.** Aluno Soldado PM (nível médio completo); Aluno Oficial PM — QOPM (nível superior); Oficial de Saúde — QOSPM (nível superior específico: Medicina, Odontologia, Enfermagem, Psicologia, Serviço Social e Farmácia).\n\n**Requisitos de ingresso (Lei 3.498/2010).** Idade entre 18 e 35 anos; altura mínima de 1,60 m (homens) e 1,55 m (mulheres); CNH categoria B ou superior; idoneidade moral. Confirme os limites no edital definitivo.\n\n**Etapas (padrão FGV).** 1ª etapa: prova objetiva (5 alternativas, sem desconto por erro) + prova discursiva (Oficiais). Etapas seguintes: exame médico/odontológico, TAF, avaliação psicológica, investigação social e Curso de Formação.\n\n**Remuneração.** Aluno Soldado: cerca de R$ 2.657,00 no curso de formação, passando a cerca de R$ 5.200,00 como Soldado. Aluno Oficial: cerca de R$ 7.180,00 no CFO, com mais de R$ 11.800,00 no posto inicial de 2º Tenente.\n\n**Estatuto.** A carreira é regida pelo Estatuto dos Policiais Militares do Amazonas (Lei 1.154/1975) e pela Lei de Ingresso (Lei 3.498/2010).",
+    "ordem": 9
   }
 ]

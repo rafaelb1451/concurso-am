@@ -2803,5 +2803,1382 @@
     "concursos": [
       "DPE-AM"
     ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Justiça Militar Estadual",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CF/88, art. 125, § 5º",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 125, § 5º, da Constituição Federal, compete aos juízes de direito do juízo militar processar e julgar:",
+    "alternativas": [
+      "singularmente, os crimes militares cometidos contra civis e as ações judiciais contra atos disciplinares militares",
+      "por meio do Conselho Especial de Justiça, todos os crimes militares próprios",
+      "em conjunto com os juízes militares do Conselho Permanente, os crimes cometidos contra civis",
+      "exclusivamente as ações judiciais contra atos disciplinares, vedada a competência penal",
+      "os crimes dolosos contra a vida de civil, com a participação do Tribunal do Júri"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 125, § 5º, da CF/88 atribui aos juízes de direito do juízo militar a competência para processar e julgar, singularmente, os crimes militares cometidos contra civis e as ações judiciais contra atos disciplinares militares, cabendo ao Conselho de Justiça julgar os demais crimes militares.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Justiça Militar Estadual",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "Súmula 53 do STJ",
+    "dificuldade": 2,
+    "enunciado": "Sobre a competência da Justiça Militar Estadual, a Súmula 53 do STJ estabelece que:",
+    "alternativas": [
+      "compete à Justiça Militar Estadual processar e julgar civil acusado de crime contra as instituições militares estaduais",
+      "compete à Justiça Comum Estadual processar e julgar civil acusado de crime contra instituições militares estaduais",
+      "compete à Justiça Federal julgar os crimes militares praticados por civis",
+      "a Justiça Militar Estadual julga civis apenas em tempo de guerra declarada",
+      "civil acusado de crime militar será julgado pelo Tribunal de Justiça do Estado"
+    ],
+    "correta": 1,
+    "explicacao": "A Súmula 53 do STJ dispõe que compete à Justiça Comum Estadual processar e julgar civil acusado de crime contra instituições militares estaduais — a Justiça Militar Estadual nunca julga civis.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Penal Militar",
+    "assunto": "Crimes contra a autoridade ou disciplina militar",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CPM, art. 149, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 149 do Código Penal Militar (Decreto-Lei nº 1.001/1969), quando os militares reunidos em motim estão armados, o crime qualifica-se como:",
+    "alternativas": [
+      "insubordinação agravada",
+      "revolta",
+      "conspiração",
+      "recusa de obediência coletiva",
+      "deserção qualificada"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 149, parágrafo único, do CPM dispõe que, se os agentes do crime de motim estavam armados, configura-se a figura qualificada denominada revolta.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Penal Militar",
+    "assunto": "Deserção",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CPM, art. 187",
+    "dificuldade": 1,
+    "enunciado": "O militar que se ausenta, sem licença, da unidade em que serve, permanecendo ausente injustificadamente por mais de oito dias, pratica o crime militar de:",
+    "alternativas": [
+      "abandono de posto",
+      "deserção",
+      "descumprimento de missão",
+      "evasão",
+      "deserção apenas se ultrapassar trinta dias"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 187 do CPM define deserção como ausentar-se o militar, sem licença, da unidade em que serve, ou do lugar em que deve permanecer, por mais de oito dias.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Penal Militar",
+    "assunto": "Abandono de posto",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CPM, art. 195",
+    "dificuldade": 1,
+    "enunciado": "De acordo com o Código Penal Militar, afastar-se o militar, sem autorização, do posto ou do lugar de serviço que lhe tenha sido designado configura o crime de:",
+    "alternativas": [
+      "deserção",
+      "abandono de posto",
+      "omissão de socorro militar",
+      "recusa de obediência",
+      "insubordinação"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 195 do CPM tipifica o abandono de posto como o afastamento, sem autorização, do posto ou do lugar de serviço designado, distinguindo-se da deserção (art. 187), que exige ausência por mais de oito dias.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal Militar",
+    "assunto": "Inquérito Policial Militar",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CPPM, art. 20",
+    "dificuldade": 2,
+    "enunciado": "Conforme o Código de Processo Penal Militar (Decreto-Lei nº 1.002/1969), quando o indiciado estiver solto, o Inquérito Policial Militar deverá ser concluído no prazo de:",
+    "alternativas": [
+      "10 dias, improrrogáveis",
+      "20 dias, prorrogáveis por mais 10",
+      "40 dias, prorrogáveis por mais 20 dias pela autoridade militar superior",
+      "30 dias, prorrogáveis por mais 30",
+      "60 dias, improrrogáveis"
+    ],
+    "correta": 2,
+    "explicacao": "O art. 20 do CPPM fixa o prazo de 40 dias para conclusão do IPM quando o indiciado estiver solto, prorrogável por mais 20 dias pela autoridade militar superior; preso, o prazo é de 20 dias.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal Militar",
+    "assunto": "Inquérito Policial Militar",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "CPPM, art. 7º, § 1º",
+    "dificuldade": 2,
+    "enunciado": "No Inquérito Policial Militar, o encarregado da investigação será sempre:",
+    "alternativas": [
+      "uma praça de maior antiguidade",
+      "um Oficial, de posto não inferior ao do indiciado",
+      "um servidor civil com curso superior em Direito",
+      "o Comandante-Geral da corporação",
+      "qualquer militar da ativa designado pelo Ministério Público"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 7º, § 1º, do CPPM determina que o encarregado do IPM seja sempre um Oficial, de posto não inferior ao do indiciado (quando o indiciado for oficial, o encarregado deve ter posto superior ou ser mais antigo no mesmo posto).",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Legislação Estadual",
+    "assunto": "Estatuto dos Militares de Roraima (LCE 194/2012)",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "LCE nº 194/2012 (Estatuto dos Militares de Roraima)",
+    "dificuldade": 2,
+    "enunciado": "No Estatuto dos Militares do Estado de Roraima (LCE nº 194/2012), o ato pelo qual o militar agregado retorna ao respectivo quadro, tão logo cesse o motivo que determinou a agregação, denomina-se:",
+    "alternativas": [
+      "reintegração",
+      "reversão",
+      "readmissão",
+      "reforma",
+      "transferência"
+    ],
+    "correta": 1,
+    "explicacao": "A reversão é o ato pelo qual o militar estadual agregado retorna ao respectivo quadro, ocupando vaga na escala hierárquica, tão logo cesse o motivo que determinou a agregação.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Legislação Estadual",
+    "assunto": "Estatuto dos Militares de Roraima (LCE 194/2012)",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "LCE nº 194/2012 (Estatuto dos Militares de Roraima)",
+    "dificuldade": 2,
+    "enunciado": "O processo especial destinado a julgar a incapacidade do Aspirante a Oficial e das Praças com estabilidade assegurada para permanecerem na ativa é o:",
+    "alternativas": [
+      "Conselho de Justificação",
+      "Conselho de Disciplina",
+      "Conselho Permanente de Justiça",
+      "Inquérito Policial Militar",
+      "Conselho Superior da PM-RR"
+    ],
+    "correta": 1,
+    "explicacao": "O Conselho de Disciplina aplica-se ao Aspirante a Oficial e às Praças com estabilidade assegurada, enquanto o Conselho de Justificação é destinado aos Oficiais.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "História e Geografia de Roraima",
+    "assunto": "Formação político-administrativa",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "Decreto-Lei nº 5.812/1943; Lei nº 4.182/1962; ADCT da CF/88, art. 14",
+    "dificuldade": 2,
+    "enunciado": "Sobre a formação político-administrativa de Roraima, é correto afirmar que o atual Estado foi:",
+    "alternativas": [
+      "criado como Território Federal do Rio Branco em 1943, desmembrado do Amazonas, renomeado Território Federal de Roraima em 1962 e elevado a Estado pela CF/1988",
+      "emancipado diretamente do Pará, sem passar pela fase de Território Federal",
+      "criado como Estado pela Constituição de 1946",
+      "desmembrado do Acre, adotando desde sempre a denominação de Roraima",
+      "instalado como Estado em 1962, por meio da Lei nº 4.182"
+    ],
+    "correta": 0,
+    "explicacao": "Roraima foi criado como Território Federal do Rio Branco pelo Decreto-Lei 5.812/1943, desmembrado do Amazonas; teve a denominação alterada para Território Federal de Roraima pela Lei 4.182/1962 e foi elevado a Estado pela CF/1988 (art. 14 do ADCT).",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "História e Geografia de Roraima",
+    "assunto": "Fronteiras e hidrografia",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "IBGE — Geografia de Roraima",
+    "dificuldade": 2,
+    "enunciado": "Quanto às fronteiras internacionais e à hidrografia de Roraima, é correto afirmar que o Estado:",
+    "alternativas": [
+      "faz fronteira internacional com a Venezuela e a Guiana, sendo o Rio Branco formado pela confluência dos rios Uraricoera e Tacutu",
+      "faz fronteira com a Colômbia, o Suriname e a Guiana",
+      "é banhado ao norte pela bacia do rio Orinoco em território brasileiro",
+      "tem no rio Jauaperi a principal bacia hidrográfica do Estado",
+      "faz fronteira com a Venezuela, a Colômbia e o Peru"
+    ],
+    "correta": 0,
+    "explicacao": "Roraima limita-se internacionalmente apenas com a Venezuela e a Guiana (não faz fronteira com Colômbia, Suriname ou Peru); a principal bacia é a do Rio Branco, formado pela confluência dos rios Uraricoera e Tacutu.",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância e regência",
+    "origem": "AUTORAL",
+    "banca": "UERR",
+    "fundamento": "Concordância verbal e regência (norma-padrão)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a frase está de acordo com a norma-padrão da Língua Portuguesa.",
+    "alternativas": [
+      "O oficial obedeceu rigorosamente o regulamento disciplinar.",
+      "Fazem dois anos que o destacamento foi reforçado.",
+      "Devem existir soluções logísticas para o policiamento de fronteira.",
+      "A tropa assistiu o desfile cívico-militar.",
+      "Haviam muitos candidatos no curso de formação."
+    ],
+    "correta": 2,
+    "explicacao": "O verbo existir é pessoal e concorda com o sujeito plural 'soluções logísticas', flexionando o auxiliar (Devem existir). Erros: obedecer rege 'a' (ao regulamento); fazer temporal é impessoal (Faz); assistir (presenciar) rege 'a' (ao desfile); haver (existir) é impessoal (Havia).",
+    "concursos": [
+      "PM-RR"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Organização Judiciária do Amazonas",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "LCE nº 261/2023; CF/88, art. 94",
+    "dificuldade": 1,
+    "enunciado": "Conforme a Lei de Organização e Divisão Judiciária do Estado do Amazonas (LCE nº 261/2023), o Tribunal de Justiça do Amazonas é composto por 26 desembargadores, observado o quinto constitucional previsto no art. 94 da Constituição Federal.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "A LCE 261/2023 fixa a composição do TJ-AM em 26 desembargadores, observado o quinto constitucional do art. 94 da CF/88 (um quinto dos lugares destinado a membros do MP e advogados).",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Poder Judiciário",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "CF/88, art. 125, § 1º",
+    "dificuldade": 1,
+    "enunciado": "A iniciativa da lei de organização judiciária compete privativamente ao Tribunal de Justiça, nos termos do art. 125, § 1º, da Constituição Federal.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 125, § 1º, da CF/88 atribui privativamente ao Tribunal de Justiça a iniciativa da lei de organização judiciária, assegurando o autogoverno e a independência da magistratura estadual.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Justiça itinerante",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "CF/88, art. 125, § 7º",
+    "dificuldade": 2,
+    "enunciado": "A instalação da justiça itinerante pelos tribunais de justiça constitui mera faculdade discricionária do tribunal, condicionada à disponibilidade orçamentária de cada comarca.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 125, § 7º, da CF/88 usa comando imperativo: o Tribunal de Justiça instalará a justiça itinerante, com audiências e demais funções jurisdicionais nos limites territoriais da jurisdição, servindo-se de equipamentos públicos e comunitários.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Competência penal",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Súmula 140 do STJ; CF/88, art. 109, XI",
+    "dificuldade": 2,
+    "enunciado": "Compete à Justiça Federal processar e julgar, em regra, crime comum em que indígena figure como autor ou vítima, ainda que não haja disputa sobre direitos indígenas.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "Pela Súmula 140 do STJ, a regra é a competência da Justiça Comum Estadual para crime em que indígena figure como autor ou vítima; a competência da Justiça Federal só ocorre quando a infração atingir direitos coletivos indígenas ou a organização social da comunidade (art. 109, XI, CF).",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Competência do Tribunal do Júri",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Súmula Vinculante 45 do STF",
+    "dificuldade": 2,
+    "enunciado": "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente na Constituição Estadual.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "A Súmula Vinculante 45 do STF dispõe que a competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente pela Constituição Estadual.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Mandado de segurança coletivo",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Súmula 629 do STF",
+    "dificuldade": 2,
+    "enunciado": "A impetração de mandado de segurança coletivo por entidade de classe em favor de seus associados independe de autorização expressa destes.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "A Súmula 629 do STF dispõe que a impetração de mandado de segurança coletivo por entidade de classe em favor dos associados independe da autorização destes, tratando-se de substituição processual (art. 5º, LXX, CF).",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Processual Civil",
+    "assunto": "Atos do juiz e dos auxiliares",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "CPC/2015, art. 203, § 4º",
+    "dificuldade": 2,
+    "enunciado": "Os atos meramente ordinatórios, como a juntada de petições e a abertura de vista obrigatória às partes, dependem de prévio despacho do juiz, sob pena de nulidade.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 203, § 4º, do CPC dispõe que os atos meramente ordinatórios independem de despacho, devendo ser praticados de ofício pelo servidor e revistos pelo juiz quando necessário.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Processual Civil",
+    "assunto": "Contagem de prazos",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "CPC/2015, art. 219, parágrafo único",
+    "dificuldade": 2,
+    "enunciado": "A regra de contagem de prazo em dias computando-se somente os dias úteis aplica-se tanto aos prazos processuais quanto aos prazos prescricionais e decadenciais.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 219, parágrafo único, do CPC restringe a contagem em dias úteis aos prazos processuais; os prazos de direito material (prescrição e decadência) continuam contados de forma contínua.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Processual Civil",
+    "assunto": "Tutela provisória",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "CPC/2015, art. 311",
+    "dificuldade": 2,
+    "enunciado": "A tutela da evidência será concedida independentemente da demonstração de perigo de dano ou de risco ao resultado útil do processo quando as alegações de fato puderem ser comprovadas apenas documentalmente e houver tese firmada em julgamento de casos repetitivos ou em súmula vinculante.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 311, caput e inciso II, do CPC prevê a concessão da tutela da evidência independentemente da demonstração de perigo de dano ou de risco ao resultado útil do processo, na hipótese indicada.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Provimento, posse e exercício",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Lei Estadual nº 1.762/1986",
+    "dificuldade": 2,
+    "enunciado": "O servidor que toma posse no cargo público, mas não entra em exercício no prazo legal, será exonerado de ofício, e não terá o ato de provimento tornado sem efeito.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "Distinção clássica: torna-se sem efeito o ato de provimento quando o nomeado não toma posse no prazo legal; se tomou posse e não entrou em exercício no prazo, será exonerado de ofício.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Independência das instâncias",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Lei nº 8.112/1990, art. 126; jurisprudência do STF/STJ",
+    "dificuldade": 2,
+    "enunciado": "A absolvição do servidor na esfera criminal por insuficiência de provas impede automaticamente a aplicação de sanção administrativa pelo mesmo fato.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "As instâncias civil, penal e administrativa são independentes. A absolvição criminal só vincula a esfera administrativa quando negar a existência do fato ou a autoria; a absolvição por insuficiência de provas não impede a punição disciplinar pelo resíduo administrativo.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Poderes administrativos",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Lei nº 9.784/1999, art. 13",
+    "dificuldade": 2,
+    "enunciado": "A edição de atos de caráter normativo e a decisão de recursos administrativos podem ser objeto de delegação no âmbito do processo administrativo.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 13 da Lei 9.784/1999 veda a delegação da edição de atos de caráter normativo, da decisão de recursos administrativos e das matérias de competência exclusiva do órgão ou autoridade.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Emprego do pronome relativo",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Norma-padrão — pronome relativo 'onde'",
+    "dificuldade": 2,
+    "enunciado": "O pronome relativo 'onde' deve ser empregado apenas quando o termo antecedente exprimir ideia de lugar físico, devendo-se usar 'em que' ou 'no qual' para antecedentes de sentido abstrato.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "O pronome 'onde' retoma apenas antecedente de lugar físico; para tempo, processo ou situação abstrata empregam-se 'em que' ou 'no qual'.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Pontuação",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Pontuação — orações intercaladas",
+    "dificuldade": 2,
+    "enunciado": "Em 'O Tribunal de Justiça do Amazonas, por meio de suas unidades fluviais, assegura a prestação jurisdicional às populações ribeirinhas', a supressão de apenas uma das vírgulas que isolam a expressão adverbial comprometeria a correção gramatical.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "Expressões adverbiais intercaladas entre o sujeito e o verbo exigem dupla vírgula; a retirada de apenas uma separaria o sujeito do predicado por vírgula única, configurando erro de pontuação.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica proposicional",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Lógica proposicional — tabela-verdade do condicional",
+    "dificuldade": 1,
+    "enunciado": "Uma proposição condicional (P → Q) é falsa unicamente quando o antecedente P é verdadeiro e o consequente Q é falso.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "Na lógica proposicional clássica, o condicional P → Q só é falso na linha em que P é verdadeiro e Q é falso (regra da 'Vera Fischer').",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Certificação digital e ICP-Brasil",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "MP nº 2.200-2/2001; Lei nº 11.419/2006",
+    "dificuldade": 2,
+    "enunciado": "Na infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), a assinatura digital mediante certificado digital assegura simultaneamente a autenticidade da autoria, a integridade do conteúdo e o não repúdio do signatário.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "A assinatura digital ICP-Brasil, baseada em criptografia assimétrica, garante autenticidade, integridade e não repúdio (irretratabilidade) do documento eletrônico assinado.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Ética no Serviço Público",
+    "assunto": "Moralidade administrativa",
+    "origem": "AUTORAL",
+    "banca": "CEBRASPE",
+    "fundamento": "Princípio da moralidade (art. 37, CF/88); Decreto nº 1.171/1994",
+    "dificuldade": 1,
+    "enunciado": "A moralidade administrativa não se limita à distinção entre o legal e o ilegal, exigindo do servidor a observância do elemento ético de sua conduta, orientado pelo bem comum.",
+    "alternativas": [
+      "Certo",
+      "Errado"
+    ],
+    "correta": 0,
+    "explicacao": "A moralidade administrativa (art. 37, caput, da CF/88) exige do agente público conduta pautada pela ética e pela probidade, orientada ao bem comum, para além da mera legalidade formal.",
+    "concursos": [
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RPPS — abrangência subjetiva",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 40, § 13",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 40, § 13, da Constituição Federal, o agente público ocupante, exclusivamente, de cargo em comissão declarado em lei de livre nomeação e exoneração vincula-se:",
+    "alternativas": [
+      "obrigatoriamente ao Regime Próprio de Previdência Social do ente",
+      "ao Regime Geral de Previdência Social (RGPS)",
+      "a regime previdenciário facultativo, por opção do servidor",
+      "a nenhum regime, enquanto durar o cargo",
+      "ao RPPS se for estável"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 40, § 13, da CF/88 exclui do RPPS o ocupante exclusivo de cargo em comissão, de outro cargo temporário ou de emprego público, vinculando-o obrigatoriamente ao RGPS.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "Aposentadoria compulsória",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 40, § 1º, II; LC nº 152/2015",
+    "dificuldade": 2,
+    "enunciado": "A aposentadoria compulsória do servidor titular de cargo efetivo, nos termos da Constituição Federal, ocorre:",
+    "alternativas": [
+      "aos 70 anos, com proventos integrais",
+      "aos 75 anos, com proventos proporcionais ao tempo de contribuição",
+      "aos 75 anos, com proventos integrais correspondentes à última remuneração",
+      "aos 70 anos, com proventos proporcionais",
+      "aos 65 anos, com proventos integrais"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 40, § 1º, II, da CF/88 fixa a aposentadoria compulsória aos 75 anos de idade, com proventos proporcionais ao tempo de contribuição (LC 152/2015).",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "Tempo de contribuição",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 40, § 10",
+    "dificuldade": 1,
+    "enunciado": "Quanto ao tempo de contribuição no Regime Próprio de Previdência Social, a Constituição Federal estabelece que:",
+    "alternativas": [
+      "a lei poderá estabelecer contagem de tempo fictício para atividades especiais",
+      "é vedada qualquer forma de contagem de tempo de contribuição fictício",
+      "a contagem fictícia é permitida para licença-prêmio não gozada",
+      "somente a lei complementar federal pode criar tempo fictício",
+      "a contagem fictícia é admitida em dobro para aposentadoria especial"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 40, § 10, da CF/88 veda qualquer forma de contagem de tempo de contribuição fictício (como licença-prêmio não gozada convertida em dobro).",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "Unidade gestora",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 40, § 20",
+    "dificuldade": 2,
+    "enunciado": "O art. 40, § 20, da Constituição Federal, ao tratar do Regime Próprio de Previdência Social, veda:",
+    "alternativas": [
+      "a existência de mais de um regime próprio e de mais de um órgão ou entidade gestora desse regime em cada ente federativo",
+      "a concessão de aposentadoria voluntária aos servidores efetivos",
+      "a contribuição previdenciária dos inativos",
+      "a criação de regime de previdência complementar",
+      "a instituição do RPPS pelos Municípios"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 40, § 20, da CF/88 veda a existência de mais de um RPPS e de mais de uma unidade gestora em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais (em Manaus, a unidade é a ManausPrev).",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "Acumulação de benefícios",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "EC nº 103/2019, art. 24",
+    "dificuldade": 3,
+    "enunciado": "Quanto à acumulação de benefícios previdenciários, a EC nº 103/2019 (art. 24) estabelece que é vedada:",
+    "alternativas": [
+      "a acumulação de aposentadoria com pensão por morte em qualquer hipótese",
+      "a acumulação de mais de uma pensão por morte no âmbito do mesmo regime, ressalvadas as pensões do mesmo instituidor decorrentes de cargos acumuláveis",
+      "a percepção de benefício inferior ao salário mínimo",
+      "a acumulação de benefícios do RGPS com os do RPPS",
+      "a percepção de pensão por morte por cônjuge"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 24, caput, da EC 103/2019 veda a acumulação de mais de uma pensão por morte no âmbito do mesmo regime, ressalvadas as pensões do mesmo instituidor decorrentes de cargos acumuláveis na forma do art. 37 da CF.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Jurisprudência Previdenciária",
+    "assunto": "Súmulas Vinculantes",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Súmula Vinculante 55 do STF",
+    "dificuldade": 2,
+    "enunciado": "Segundo a Súmula Vinculante 55 do STF, o direito ao auxílio-alimentação:",
+    "alternativas": [
+      "estende-se automaticamente aos servidores inativos com paridade",
+      "não se estende aos servidores inativos",
+      "incorpora-se aos proventos após dez anos de recebimento",
+      "é garantido a todos os aposentados por invalidez",
+      "estende-se aos pensionistas, independentemente de lei"
+    ],
+    "correta": 1,
+    "explicacao": "A Súmula Vinculante 55 do STF dispõe que o direito ao auxílio-alimentação não se estende aos servidores inativos, por se tratar de verba de natureza indenizatória.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Regime jurídico das autarquias",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 37, XIX",
+    "dificuldade": 1,
+    "enunciado": "A ManausPrev, autarquia municipal gestora do RPPS de Manaus, somente pode ser criada por:",
+    "alternativas": [
+      "decreto do Prefeito, após autorização orçamentária",
+      "lei específica",
+      "resolução da Câmara Municipal",
+      "portaria do Tribunal de Contas",
+      "ato conjunto dos Poderes Executivo e Legislativo, sem lei"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 37, XIX, da CF/88 determina que as autarquias sejam criadas por lei específica.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Responsabilidade civil do Estado",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 37, § 6º",
+    "dificuldade": 2,
+    "enunciado": "Quanto à responsabilidade civil das autarquias, a Constituição Federal (art. 37, § 6º) adota a teoria:",
+    "alternativas": [
+      "da responsabilidade subjetiva, exigindo prova de culpa do servidor",
+      "do risco administrativo, com responsabilidade objetiva pelos danos causados por seus agentes",
+      "da irresponsabilidade do Estado",
+      "da culpa presumida do ente público",
+      "da responsabilidade apenas contratual"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 37, § 6º, da CF/88 adota a responsabilidade objetiva (teoria do risco administrativo) para as pessoas jurídicas de direito público, como as autarquias, com direito de regresso em caso de dolo ou culpa do agente.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Improbidade administrativa",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lei nº 8.429/1992, art. 1º, §§ 1º a 3º (redação da Lei nº 14.230/2021)",
+    "dificuldade": 2,
+    "enunciado": "Com as alterações da Lei nº 14.230/2021, a configuração do ato de improbidade administrativa exige a comprovação de:",
+    "alternativas": [
+      "culpa grave ou dolo eventual",
+      "dolo, consistente na vontade livre e consciente de alcançar o resultado ilícito, extinta a modalidade culposa",
+      "responsabilidade objetiva do gestor",
+      "condenação penal prévia transitada em julgado",
+      "mera violação de norma regulamentar"
+    ],
+    "correta": 1,
+    "explicacao": "A Lei 14.230/2021 passou a exigir dolo para todos os atos de improbidade (arts. 9º, 10 e 11), extinguindo a modalidade culposa; não basta a voluntariedade do agente.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Matemática Financeira",
+    "assunto": "Juros compostos",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Juros compostos — M = C × (1+i)ⁿ",
+    "dificuldade": 2,
+    "enunciado": "Um fundo previdenciário aplicou R$ 100.000,00 à taxa de juros compostos de 10% ao ano, por 2 anos, sem aportes ou resgates. O valor dos juros auferidos no período foi de:",
+    "alternativas": [
+      "R$ 20.000,00",
+      "R$ 21.000,00",
+      "R$ 22.000,00",
+      "R$ 120.000,00",
+      "R$ 121.000,00"
+    ],
+    "correta": 1,
+    "explicacao": "M = 100.000 × (1,10)² = 100.000 × 1,21 = R$ 121.000,00. Como se pede o valor dos juros: J = 121.000 − 100.000 = R$ 21.000,00 (pegadinha: a alternativa de R$ 121.000,00 é o montante).",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Matemática Financeira",
+    "assunto": "Desconto simples comercial",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Desconto simples comercial (por fora)",
+    "dificuldade": 2,
+    "enunciado": "Um título de valor nominal R$ 10.000,00 foi resgatado 2 meses antes do vencimento, sob desconto simples comercial (por fora), à taxa de 5% ao mês. O valor atual recebido foi de:",
+    "alternativas": [
+      "R$ 9.000,00",
+      "R$ 9.090,90",
+      "R$ 9.500,00",
+      "R$ 9.800,00",
+      "R$ 11.000,00"
+    ],
+    "correta": 0,
+    "explicacao": "Dc = N × i × n = 10.000 × 0,05 × 2 = R$ 1.000,00; Ac = N − Dc = 10.000 − 1.000 = R$ 9.000,00. (R$ 9.090,90 seria o desconto racional, por dentro.)",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Orações adjetivas",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Orações subordinadas adjetivas (restritiva e explicativa)",
+    "dificuldade": 2,
+    "enunciado": "Considere: I. 'Os servidores que ingressaram até 2003 têm direito às regras de transição.' II. 'Os servidores, que ingressaram até 2003, têm direito às regras de transição.' É correto afirmar que:",
+    "alternativas": [
+      "ambas têm o mesmo sentido, pois a pontuação é indiferente",
+      "em I a oração adjetiva é restritiva; em II é explicativa, pressupondo que todos ingressaram até 2003",
+      "II está incorreta, pois vírgula não pode separar sujeito de predicado",
+      "I tem oração adjetiva explicativa",
+      "a retirada das vírgulas em II torna o período agramatical"
+    ],
+    "correta": 1,
+    "explicacao": "Sem vírgulas, a oração adjetiva é restritiva (restringe o conjunto); isolada por vírgulas, é explicativa (generaliza a propriedade a todo o conjunto). A pontuação altera o sentido.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Negação de proposições",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lógica — negação de proposição quantificada",
+    "dificuldade": 1,
+    "enunciado": "A negação lógica da proposição 'Todos os segurados efetivos contribuem para o RPPS' é:",
+    "alternativas": [
+      "Nenhum segurado efetivo contribui para o RPPS",
+      "Algum segurado efetivo não contribui para o RPPS",
+      "Todos os segurados efetivos não contribuem para o RPPS",
+      "Algum segurado efetivo contribui para o RPPS",
+      "Nenhum segurado não contribui para o RPPS"
+    ],
+    "correta": 1,
+    "explicacao": "A negação do quantificador universal 'Todos os A são B' é 'Algum A não é B' (existe pelo menos um segurado efetivo que não contribui).",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Noções de Informática",
+    "assunto": "Segurança da informação",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "ABNT NBR ISO/IEC 27002",
+    "dificuldade": 2,
+    "enunciado": "Na segurança da informação, o pilar que assegura que a informação não seja divulgada a usuários não autorizados e aquele que salvaguarda a exatidão contra alterações indevidas são, respectivamente:",
+    "alternativas": [
+      "disponibilidade e autenticidade",
+      "confidencialidade e integridade",
+      "irretratabilidade e disponibilidade",
+      "integridade e confidencialidade",
+      "autenticidade e não repúdio"
+    ],
+    "correta": 1,
+    "explicacao": "A confidencialidade garante que a informação não seja divulgada a pessoas, entidades ou processos não autorizados; a integridade salvaguarda a exatidão e a completeza da informação contra alterações indevidas.",
+    "concursos": [
+      "MANAUSPREV"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Requisitos de ingresso",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Edital PM-AM 2027; Lei Estadual nº 3.498/2010",
+    "dificuldade": 1,
+    "enunciado": "Quanto à escolaridade exigida para ingresso na PM-AM (ciclo 2027), é correto afirmar que:",
+    "alternativas": [
+      "o cargo de Aluno Soldado exige nível superior completo",
+      "o cargo de Aluno Soldado exige nível médio completo, enquanto o Aluno Oficial (QOPM) exige nível superior",
+      "ambos os cargos exigem apenas nível fundamental",
+      "o Aluno Oficial exige exclusivamente bacharelado em Direito",
+      "não há exigência de escolaridade para os cargos"
+    ],
+    "correta": 1,
+    "explicacao": "O Aluno Soldado PM exige nível médio completo; o Aluno Oficial PM (QOPM) exige nível superior completo em qualquer área ou Direito, conforme a lei de ingresso vigente (Lei 3.498/2010).",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Requisitos de ingresso",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei Estadual nº 3.498/2010",
+    "dificuldade": 1,
+    "enunciado": "A idade para ingresso na Polícia Militar do Amazonas, conforme a legislação estadual de regência (Lei nº 3.498/2010), situa-se, em regra, entre:",
+    "alternativas": [
+      "16 e 30 anos",
+      "18 e 35 anos",
+      "18 e 30 anos",
+      "21 e 40 anos",
+      "16 e 25 anos"
+    ],
+    "correta": 1,
+    "explicacao": "A Lei 3.498/2010 fixa, em regra, a idade entre 18 e 35 anos para ingresso na PM-AM, devendo o limite exato ser confirmado no edital definitivo.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Requisitos de ingresso",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Edital PM-AM 2027; Lei Estadual nº 3.498/2010",
+    "dificuldade": 1,
+    "enunciado": "Entre os requisitos específicos para ingresso na PM-AM estão:",
+    "alternativas": [
+      "altura mínima de 1,65 m para homens e 1,60 m para mulheres, sem exigência de CNH",
+      "altura mínima de 1,60 m para homens e 1,55 m para mulheres, e CNH categoria B ou superior",
+      "altura mínima de 1,70 m para ambos os sexos",
+      "somente idoneidade moral, sem outros requisitos físicos",
+      "CNH categoria A, exclusivamente"
+    ],
+    "correta": 1,
+    "explicacao": "Os requisitos incluem altura mínima de 1,60 m (homens) e 1,55 m (mulheres), CNH categoria B ou superior e idoneidade moral comprovada.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Etapas do certame",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Edital PM-AM 2027 (padrão FGV)",
+    "dificuldade": 1,
+    "enunciado": "No certame da PM-AM (padrão FGV), a primeira etapa do concurso é composta por:",
+    "alternativas": [
+      "apenas teste de aptidão física",
+      "prova objetiva com 5 alternativas (sem desconto por erro) e prova discursiva para Oficiais",
+      "prova oral e avaliação psicológica",
+      "curso de formação, antes de qualquer prova",
+      "investigação social, exclusivamente"
+    ],
+    "correta": 1,
+    "explicacao": "A 1ª etapa é a prova objetiva (5 alternativas, A a E, sem desconto por erro), acrescida de prova discursiva para Oficiais; seguem-se TAF, avaliação psicológica, investigação social e Curso de Formação.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Estatuto dos Policiais Militares do AM",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei Estadual nº 1.154/1975",
+    "dificuldade": 2,
+    "enunciado": "Conforme o Estatuto dos Policiais Militares do Amazonas (Lei nº 1.154/1975), a base institucional da Polícia Militar assenta-se em:",
+    "alternativas": [
+      "hierarquia e disciplina",
+      "liberdade e igualdade absolutas",
+      "vitaliciedade e inamovibilidade",
+      "sindicalização e greve",
+      "independência funcional e partidarismo"
+    ],
+    "correta": 0,
+    "explicacao": "A hierarquia (ordenação da autoridade em níveis) e a disciplina (acatamento integral das normas) constituem a base institucional da Polícia Militar.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "Estatuto dos Policiais Militares do AM",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei Estadual nº 1.154/1975",
+    "dificuldade": 2,
+    "enunciado": "No regime militar estadual do Amazonas, o grau hierárquico do Oficial (posto) e o grau hierárquico da Praça (graduação) são conferidos, respectivamente, por ato:",
+    "alternativas": [
+      "do Comandante-Geral e do Governador",
+      "do Governador do Estado e do Comandante-Geral da Polícia Militar",
+      "do Congresso Nacional e do Ministro da Defesa",
+      "do Comandante do Exército e do Secretário de Segurança",
+      "do Presidente da República e do Governador"
+    ],
+    "correta": 1,
+    "explicacao": "O posto (grau hierárquico do Oficial) é conferido por ato do Governador do Estado; a graduação (grau hierárquico da Praça), por ato do Comandante-Geral da Polícia Militar.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Regime jurídico dos militares estaduais",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 42, § 1º, c/c art. 142, § 3º, IV e V",
+    "dificuldade": 2,
+    "enunciado": "Nos termos dos arts. 42, § 1º, e 142, § 3º, da Constituição Federal, aos militares dos Estados é vedado:",
+    "alternativas": [
+      "a sindicalização e a greve, bem como a filiação a partidos políticos enquanto em serviço ativo",
+      "apenas a greve, sendo permitida a sindicalização",
+      "apenas a filiação partidária, sendo permitida a greve",
+      "qualquer participação política, inclusive o voto",
+      "somente a greve em serviço"
+    ],
+    "correta": 0,
+    "explicacao": "São proibidas aos militares a sindicalização e a greve (art. 142, § 3º, IV) e, enquanto em serviço ativo, a filiação a partidos políticos (art. 142, § 3º, V), aplicáveis aos militares estaduais pelo art. 42, § 1º.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Segurança pública",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 144, § 5º",
+    "dificuldade": 1,
+    "enunciado": "Segundo o art. 144, § 5º, da Constituição Federal, às polícias militares incumbem:",
+    "alternativas": [
+      "a polícia judiciária e a apuração de infrações penais",
+      "a polícia ostensiva e a preservação da ordem pública",
+      "as funções de polícia marítima e aeroportuária",
+      "a fiscalização de fronteiras",
+      "a execução de atividades de defesa civil, com exclusividade"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 144, § 5º, da CF/88 atribui às polícias militares a polícia ostensiva e a preservação da ordem pública; aos corpos de bombeiros militares incumbem as atividades de defesa civil.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Direito Penal Militar",
+    "assunto": "Crime doloso contra a vida de civil",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPM, art. 9º, § 1º; CF/88, art. 125, § 4º",
+    "dificuldade": 3,
+    "enunciado": "Um soldado da PM-AM, em serviço, pratica crime doloso contra a vida de um civil. Nos termos do art. 9º, § 1º, do CPM e do art. 125, § 4º, da CF/88, a competência para julgamento é:",
+    "alternativas": [
+      "da Justiça Militar Estadual",
+      "do Tribunal do Júri da Justiça Comum Estadual",
+      "da Justiça Federal",
+      "do Tribunal de Justiça, originariamente",
+      "da Auditoria Militar da União"
+    ],
+    "correta": 1,
+    "explicacao": "Os crimes dolosos contra a vida cometidos por militares dos Estados contra civil são de competência do Tribunal do Júri (Justiça Comum Estadual), conforme o art. 9º, § 1º, do CPM (redação da Lei 13.491/2017) e o art. 125, § 4º, da CF/88.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Inviolabilidade domiciliar",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "STF, RE 603.616/RO (Tema 280)",
+    "dificuldade": 3,
+    "enunciado": "Conforme a tese fixada pelo STF no RE 603.616/RO (Tema 280), a entrada forçada em domicílio sem mandado judicial:",
+    "alternativas": [
+      "é sempre lícita em crimes de tráfico",
+      "só é lícita quando amparada em fundadas razões, devidamente justificadas, que indiquem situação de flagrante delito no interior da casa",
+      "é permitida com base em denúncia anônima isolada",
+      "é vedada em qualquer hipótese, mesmo com flagrante",
+      "depende apenas do consentimento do vizinho"
+    ],
+    "correta": 1,
+    "explicacao": "O STF (Tema 280) firmou que a entrada forçada em domicílio sem mandado só é lícita quando amparada em fundadas razões, devidamente justificadas a posteriori, que indiquem flagrante delito no interior da casa, sob pena de ilicitude das provas.",
+    "concursos": [
+      "PM-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 2º",
+    "dificuldade": 1,
+    "enunciado": "Nos termos da Lei Complementar nº 80/1994, a Defensoria Pública compreende:",
+    "alternativas": [
+      "apenas as Defensorias Públicas dos Estados",
+      "a Defensoria Pública da União, a do Distrito Federal e dos Territórios, e as Defensorias Públicas dos Estados",
+      "somente a Defensoria Pública da União",
+      "as Defensorias Públicas dos Estados e dos Municípios",
+      "exclusivamente a Defensoria Pública do Distrito Federal"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 2º da LC 80/1994 dispõe que a Defensoria Pública abrange a Defensoria Pública da União, a do Distrito Federal e dos Territórios e as Defensorias Públicas dos Estados.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 3º-A",
+    "dificuldade": 2,
+    "enunciado": "São objetivos da Defensoria Pública, nos termos do art. 3º-A da LC 80/1994, EXCETO:",
+    "alternativas": [
+      "a primazia da dignidade da pessoa humana e a redução das desigualdades sociais",
+      "a afirmação do Estado Democrático de Direito",
+      "a prevalência e efetividade dos direitos humanos",
+      "a garantia dos princípios do contraditório e da ampla defesa",
+      "a defesa exclusiva de interesses patrimoniais do Estado"
+    ],
+    "correta": 4,
+    "explicacao": "O art. 3º-A lista como objetivos a primazia da dignidade humana e a redução das desigualdades, a afirmação do Estado Democrático de Direito, a prevalência e efetividade dos direitos humanos e a garantia do contraditório e da ampla defesa. A defesa exclusiva do erário não é objetivo institucional.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 4º, VII",
+    "dificuldade": 2,
+    "enunciado": "Constitui função institucional da Defensoria Pública, nos termos do art. 4º da LC 80/1994:",
+    "alternativas": [
+      "exercer a função de fiscal da lei em todos os processos",
+      "promover ação civil pública e todas as espécies de ações capazes de propiciar a adequada tutela dos direitos difusos, coletivos ou individuais homogêneos quando o resultado puder beneficiar grupo de pessoas necessitadas",
+      "atuar exclusivamente na defesa do erário público",
+      "substituir o Ministério Público na titularidade da ação penal",
+      "patrocinar apenas causas individuais de natureza cível"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 4º, VII, da LC 80/1994 elenca, entre as funções institucionais, a promoção de ação civil pública e de todas as espécies de ações capazes de tutelar direitos difusos, coletivos ou individuais homogêneos quando o resultado puder beneficiar grupo de pessoas necessitadas.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 4º, X e XI; STJ, REsp 1.712.163/SP",
+    "dificuldade": 3,
+    "enunciado": "A atuação da Defensoria Pública na qualidade de custos vulnerabilis, reconhecida pela jurisprudência do STJ (REsp 1.712.163/SP), caracteriza-se por:",
+    "alternativas": [
+      "substituir processualmente a parte vulnerável em todos os atos",
+      "permitir a intervenção da Defensoria em processos de interesse de grupos vulneráveis, com capacidade postulatória e recursal, sem confundir-se com amicus curiae",
+      "equivaler à atuação do Ministério Público como fiscal da ordem jurídica, vedada a interposição de recursos",
+      "ser incabível no primeiro grau de jurisdição",
+      "depender de prévia comprovação de hipossuficiência individualizada de cada integrante do grupo"
+    ],
+    "correta": 1,
+    "explicacao": "A intervenção como custos vulnerabilis decorre do art. 134 da CF e dos arts. 4º, X e XI, da LC 80/1994, legitimando a Defensoria a intervir em qualquer grau de jurisdição onde haja impacto sobre grupos vulneráveis, com ampla capacidade postulatória e recursal, sem substituir a parte nem confundir-se com amicus curiae.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 127; CF/88, art. 134, § 4º",
+    "dificuldade": 2,
+    "enunciado": "A inamovibilidade dos membros da Defensoria Pública, nos termos da LC 80/1994, constitui:",
+    "alternativas": [
+      "princípio institucional da Defensoria Pública, previsto no art. 134, § 4º, da CF/88",
+      "garantia dos membros, e não princípio institucional",
+      "prerrogativa processual de contagem de prazo em dobro",
+      "função institucional de promoção dos direitos humanos",
+      "atribuição exclusiva do Ouvidor-Geral"
+    ],
+    "correta": 1,
+    "explicacao": "A inamovibilidade é garantia dos membros da Defensoria Pública (art. 127 da LC 80/1994), e não princípio institucional — os princípios institucionais são unidade, indivisibilidade e independência funcional (art. 134, § 4º, CF).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LC 80/1994",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LC 80/1994, art. 128, X",
+    "dificuldade": 2,
+    "enunciado": "Quanto ao poder de requisição dos membros da Defensoria Pública (art. 128, X, da LC 80/1994), é correto afirmar que:",
+    "alternativas": [
+      "autoriza a quebra direta de sigilo bancário e fiscal, independentemente de ordem judicial",
+      "permite requisitar exames, certidões, perícias, vistorias e providências, sem afastar a necessidade de autorização judicial para acesso a dados protegidos por sigilo",
+      "restringe-se aos processos criminais",
+      "somente pode ser exercido perante o Poder Executivo",
+      "depende de prévia autorização do Defensor Público-Geral em todos os casos"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 128, X, da LC 80/1994 confere ao Defensor Público o poder de requisitar exames, certidões, perícias, vistorias e providências, mas não autoriza a quebra direta de sigilo bancário ou fiscal sem reserva de jurisdição.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "Direitos fundamentais",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "CF/88, art. 5º, LXXIV",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 5º, LXXIV, da Constituição Federal, o Estado prestará assistência jurídica integral e gratuita:",
+    "alternativas": [
+      "a todos os cidadãos, independentemente de condição econômica",
+      "aos que comprovarem insuficiência de recursos",
+      "apenas em causas criminais",
+      "somente às pessoas jurídicas sem fins lucrativos",
+      "mediante pagamento de taxa proporcional à renda"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 5º, LXXIV, da CF/88 garante assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos, fundamento constitucional da atuação da Defensoria Pública.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "LCE 01/1990",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "LCE nº 01/1990; LC 80/1994, art. 105-B",
+    "dificuldade": 2,
+    "enunciado": "Conforme a LCE nº 01/1990, NÃO integra a Administração Superior da Defensoria Pública do Estado do Amazonas:",
+    "alternativas": [
+      "a Defensoria Pública-Geral do Estado",
+      "a Subdefensoria Pública-Geral do Estado",
+      "o Conselho Superior da Defensoria Pública",
+      "a Corregedoria-Geral",
+      "a Ouvidoria-Geral da Defensoria Pública"
+    ],
+    "correta": 4,
+    "explicacao": "A Administração Superior da DPE-AM é composta pela Defensoria Pública-Geral, Subdefensoria Pública-Geral, Conselho Superior e Corregedoria-Geral; a Ouvidoria-Geral é órgão auxiliar (art. 105-B da LC 80/1994).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Correlação verbal",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Correlação verbal (imperfeito do subjuntivo + futuro do pretérito)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta correlação verbal de acordo com a norma-padrão.",
+    "alternativas": [
+      "Se a Defensoria dispusesse de mais unidades fluviais, amplia o atendimento no interior.",
+      "Se a Defensoria dispusesse de mais unidades fluviais, ampliaria o atendimento no interior.",
+      "Se a Defensoria dispõe de mais unidades fluviais, ampliaria o atendimento no interior.",
+      "Se a Defensoria dispor de mais unidades fluviais, ampliava o atendimento no interior.",
+      "Se a Defensoria dispusesse de mais unidades fluviais, ampliará o atendimento no interior."
+    ],
+    "correta": 1,
+    "explicacao": "O pretérito imperfeito do subjuntivo (-sse) correlaciona-se com o futuro do pretérito do indicativo (-ria): 'dispusesse … ampliaria'.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Concordância verbal",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Concordância verbal — verbos impessoais",
+    "dificuldade": 2,
+    "enunciado": "Assinale a frase em que a concordância verbal está correta.",
+    "alternativas": [
+      "Haviam muitos requerimentos pendentes de análise.",
+      "Fazem dois anos que o edital foi publicado.",
+      "Existe, nos polos do interior, inúmeras demandas represadas.",
+      "Deve haver critérios objetivos para a concessão de benefícios.",
+      "Sobrou, após o mutirão, poucos processos sem atendimento."
+    ],
+    "correta": 3,
+    "explicacao": "O verbo haver no sentido de existir é impessoal e permanece no singular, inclusive com auxiliar (Deve haver). As demais trazem erros de concordância com haver, fazer (temporal), existir e sobrar.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Crase",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Crase — casos facultativos",
+    "dificuldade": 2,
+    "enunciado": "O emprego do acento grave indicativo de crase é FACULTATIVO em:",
+    "alternativas": [
+      "antes de pronome possessivo feminino singular e após a preposição 'até'",
+      "antes de palavra masculina",
+      "antes de verbo no infinitivo",
+      "antes de pronome pessoal",
+      "quando 'a' singular antecede palavra no plural"
+    ],
+    "correta": 0,
+    "explicacao": "A crase é facultativa antes de pronome possessivo feminino singular e após a preposição 'até'; é proibida antes de palavra masculina, verbo, pronome pessoal e com 'a' singular antes de plural.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Regra de três composta",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Regra de três composta / proporcionalidade",
+    "dificuldade": 2,
+    "enunciado": "Se 6 servidores digitalizam 120 processos em 5 dias de trabalho, mantidas as mesmas condições, quantos servidores com igual produtividade são necessários para digitalizar 240 processos em 5 dias?",
+    "alternativas": [
+      "6",
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "correta": 2,
+    "explicacao": "Mantido o prazo de 5 dias, processos e servidores são diretamente proporcionais: dobrando os processos (120 → 240), dobram-se os servidores (6 → 12).",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Atributos do ato administrativo",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Doutrina — atributos do ato administrativo (PATI)",
+    "dificuldade": 2,
+    "enunciado": "No estudo dos atributos dos atos administrativos, é correto afirmar que:",
+    "alternativas": [
+      "a presunção de legitimidade é absoluta e presente apenas nos atos discricionários",
+      "a tipicidade é atributo presente somente nos atos unilaterais, e a imperatividade está ausente nos atos enunciativos e negociais",
+      "a autoexecutoriedade está presente em todos os atos administrativos",
+      "a imperatividade é atributo de todas as certidões",
+      "a presunção de veracidade admite prova em contrário apenas nos atos vinculados"
+    ],
+    "correta": 1,
+    "explicacao": "A tipicidade só se verifica nos atos unilaterais; a imperatividade está ausente nos atos enunciativos (certidões) e negociais (licenças). A presunção de legitimidade é relativa e a autoexecutoriedade não é atributo de todos os atos.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações (Lei 14.133/2021)",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lei 14.133/2021, art. 74, I",
+    "dificuldade": 1,
+    "enunciado": "Nos termos da Lei nº 14.133/2021, a contratação de fornecedor exclusivo, comprovada a inviabilidade de competição, configura hipótese de:",
+    "alternativas": [
+      "dispensa de licitação",
+      "inexigibilidade de licitação",
+      "licitação dispensada",
+      "credenciamento obrigatório",
+      "pregão eletrônico"
+    ],
+    "correta": 1,
+    "explicacao": "O art. 74, I, da Lei 14.133/2021 trata como inexigível a licitação quando houver inviabilidade de competição, como na contratação de fornecedor exclusivo.",
+    "concursos": [
+      "DPE-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "Licitações (Lei 14.133/2021)",
+    "origem": "AUTORAL",
+    "banca": "FCC",
+    "fundamento": "Lei 14.133/2021, art. 75, I e II",
+    "dificuldade": 2,
+    "enunciado": "Na Lei nº 14.133/2021, é dispensável a licitação para contratação que envolva valores inferiores a:",
+    "alternativas": [
+      "R$ 100.000,00 para obras e serviços de engenharia e R$ 50.000,00 para outros serviços e compras",
+      "R$ 50.000,00 para obras e R$ 100.000,00 para compras",
+      "R$ 150.000,00 para qualquer objeto",
+      "R$ 200.000,00 para serviços de engenharia",
+      "um salário mínimo, em qualquer hipótese"
+    ],
+    "correta": 0,
+    "explicacao": "O art. 75, I e II, da Lei 14.133/2021 considera dispensável a licitação para valores inferiores a R$ 100.000,00 (obras e serviços de engenharia) e a R$ 50.000,00 (outros serviços e compras), atualizados por decreto.",
+    "concursos": [
+      "DPE-AM"
+    ]
   }
 ]
