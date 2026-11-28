@@ -21870,5 +21870,3841 @@
       "DPE-AM",
       "TJ-AM"
     ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, assinale a alternativa correta.",
+    "alternativas": [
+      "A lei penal mais grave retroage.",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia.",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "A lei penal benéfica nunca retroage."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Crime pode ser definido por costume.",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Crime pode ser definido por costume.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XL",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "A lei penal mais grave retroage.",
+      "A lei penal benéfica nunca retroage.",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 5º, XL",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "A lei penal benéfica nunca retroage.",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A lei penal benéfica nunca retroage.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 121",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia.",
+      "Homicídio simples tem pena de detenção.",
+      "Homicídio está no art. 155 do CP."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 121",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP).",
+      "Homicídio simples tem pena de detenção.",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Homicídio simples tem pena de detenção.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 155",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Furto exige violência ou grave ameaça.",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia.",
+      "Furto é crime contra a pessoa.",
+      "O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 155",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "O furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155 do CP).",
+      "Furto exige violência ou grave ameaça."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Furto exige violência ou grave ameaça.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 157",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Roubo é crime contra o patrimônio sem ameaça.",
+      "Roubo é subtração sem violência.",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia.",
+      "O roubo é furto com violência ou grave ameaça (art. 157 do CP)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O roubo é furto com violência ou grave ameaça (art. 157 do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 157",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "O roubo é furto com violência ou grave ameaça (art. 157 do CP).",
+      "Roubo é subtração sem violência.",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Roubo é subtração sem violência.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 157, § 3º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Latrocínio é furto qualificado.",
+      "Crime pode ser definido por analogia.",
+      "Latrocínio é homicídio culposo.",
+      "O latrocínio é o roubo seguido de morte (art. 157, § 3º, do CP).",
+      "Crime pode ser definido por costume."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O latrocínio é o roubo seguido de morte (art. 157, § 3º, do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 157, § 3º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "Latrocínio é furto qualificado.",
+      "O latrocínio é o roubo seguido de morte (art. 157, § 3º, do CP).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Latrocínio é furto qualificado.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 312",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Peculato está no art. 171 do CP.",
+      "Crime pode ser definido por analogia.",
+      "Peculato é crime de particular.",
+      "Crime pode ser definido por costume.",
+      "O peculato é a apropriação de bem público por funcionário público (art. 312 do CP)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O peculato é a apropriação de bem público por funcionário público (art. 312 do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 312",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "O peculato é a apropriação de bem público por funcionário público (art. 312 do CP).",
+      "Peculato é crime de particular.",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Peculato é crime de particular.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 14, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "A tentativa exige desistência voluntária.",
+      "Crime pode ser definido por analogia.",
+      "Na tentativa o crime se consuma.",
+      "A tentativa ocorre quando, iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade (art. 14, II).",
+      "Crime pode ser definido por costume."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A tentativa ocorre quando, iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade (art. 14, II).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 14, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "A tentativa ocorre quando, iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade (art. 14, II).",
+      "A tentativa exige desistência voluntária.",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A tentativa exige desistência voluntária.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 15",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Crime pode ser definido por analogia.",
+      "Crime pode ser definido por costume.",
+      "A desistência voluntária exclui a tentativa (art. 15 do CP): o agente responde só pelos atos já praticados.",
+      "A desistência voluntária não exclui a tentativa.",
+      "A desistência voluntária é sempre impunível."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A desistência voluntária exclui a tentativa (art. 15 do CP): o agente responde só pelos atos já praticados.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 15",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "A desistência voluntária não exclui a tentativa.",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "A desistência voluntária exclui a tentativa (art. 15 do CP): o agente responde só pelos atos já praticados."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A desistência voluntária não exclui a tentativa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 25",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "A legítima defesa exclui a ilicitude quando há agressão injusta, atual ou iminente (art. 25 do CP).",
+      "Crime pode ser definido por costume.",
+      "Crime pode ser definido por analogia.",
+      "A legítima defesa exige agressão passada.",
+      "A legítima defesa exclui a culpabilidade."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A legítima defesa exclui a ilicitude quando há agressão injusta, atual ou iminente (art. 25 do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 25",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "A legítima defesa exclui a ilicitude quando há agressão injusta, atual ou iminente (art. 25 do CP).",
+      "A legítima defesa exclui a culpabilidade.",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A legítima defesa exclui a culpabilidade.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 71",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Crime continuado não reduz pena.",
+      "Crime continuado é um só ato.",
+      "Crime pode ser definido por analogia.",
+      "O crime continuado é aquele em que o agente pratica vários crimes da mesma espécie nas mesmas condições (art. 71 do CP).",
+      "Crime pode ser definido por costume."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O crime continuado é aquele em que o agente pratica vários crimes da mesma espécie nas mesmas condições (art. 71 do CP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 71",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "Crime continuado é um só ato.",
+      "O crime continuado é aquele em que o agente pratica vários crimes da mesma espécie nas mesmas condições (art. 71 do CP).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Crime continuado é um só ato.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 27",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva correta.",
+    "alternativas": [
+      "Crime pode ser definido por costume.",
+      "Menor de 18 anos é inimputável (art. 27 do CP e art. 228 da CF).",
+      "Menor de 18 anos é plenamente imputável.",
+      "Crime pode ser definido por analogia.",
+      "Menor de 16 anos é inimputável."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Menor de 18 anos é inimputável (art. 27 do CP e art. 228 da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Penal",
+    "assunto": "Parte geral e crimes",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CP, art. 27",
+    "dificuldade": 2,
+    "enunciado": "Sobre Parte geral e crimes, indique a assertiva incorreta.",
+    "alternativas": [
+      "Menor de 18 anos é inimputável (art. 27 do CP e art. 228 da CF).",
+      "Menor de 16 anos é inimputável.",
+      "O crime de homicídio simples está no art. 121 do CP (pena de reclusão de 6 a 20 anos).",
+      "Não há crime sem lei anterior que o defina (princípio da legalidade, art. 1º do CP).",
+      "A lei penal mais benéfica retroage em favor do réu (art. 5º, XL, CF)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Menor de 16 anos é inimputável.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, arts. 4º e 6º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, assinale a alternativa correta.",
+    "alternativas": [
+      "O inquérito é presidido pelo juiz.",
+      "Só policiais podem prender em flagrante.",
+      "O inquérito é processo judicial.",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "O particular não pode prender em flagrante."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, arts. 4º e 6º",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+      "A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "O inquérito é processo judicial.",
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: O inquérito é processo judicial.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 301",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva correta.",
+    "alternativas": [
+      "Só policiais podem prender em flagrante.",
+      "O inquérito é processo judicial.",
+      "O inquérito é presidido pelo juiz.",
+      "O particular não pode prender em flagrante.",
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 301",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva incorreta.",
+    "alternativas": [
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "Só policiais podem prender em flagrante.",
+      "A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Só policiais podem prender em flagrante.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 312",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva correta.",
+    "alternativas": [
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "O inquérito é presidido pelo juiz.",
+      "O inquérito é processo judicial.",
+      "A prisão preventiva dispensa fundamentação.",
+      "A preventiva é cabível só após sentença."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 312",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva incorreta.",
+    "alternativas": [
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+      "A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+      "A prisão preventiva dispensa fundamentação."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A prisão preventiva dispensa fundamentação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 158-A (Lei 13.964/2019)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva correta.",
+    "alternativas": [
+      "A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+      "Cadeia de custódia é só para documentos.",
+      "O inquérito é processo judicial.",
+      "O inquérito é presidido pelo juiz.",
+      "Cadeia de custódia é irrelevante para provas."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 158-A (Lei 13.964/2019)",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva incorreta.",
+    "alternativas": [
+      "A cadeia de custódia documenta a custódia da prova desde o reconhecimento até o descarte (art. 158-A do CPP).",
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "Cadeia de custódia é só para documentos.",
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Cadeia de custódia é só para documentos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 24",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva correta.",
+    "alternativas": [
+      "A ação pública incondicionada é privada.",
+      "O inquérito é presidido pelo juiz.",
+      "A ação pública incondicionada exige representação.",
+      "O inquérito é processo judicial.",
+      "A ação penal pública incondicionada é promovida pelo MP independentemente de representação."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A ação penal pública incondicionada é promovida pelo MP independentemente de representação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, art. 24",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva incorreta.",
+    "alternativas": [
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+      "A ação pública incondicionada exige representação.",
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "A ação penal pública incondicionada é promovida pelo MP independentemente de representação."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A ação pública incondicionada exige representação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, arts. 647-667",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva correta.",
+    "alternativas": [
+      "O habeas corpus protege contra coação ilegal à liberdade de locomoção.",
+      "O inquérito é presidido pelo juiz.",
+      "O habeas corpus protege o patrimônio.",
+      "O inquérito é processo judicial.",
+      "O habeas corpus é ação coletiva."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: O habeas corpus protege contra coação ilegal à liberdade de locomoção.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Processual Penal",
+    "assunto": "Inquérito, prisão e provas",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CPP, arts. 647-667",
+    "dificuldade": 2,
+    "enunciado": "Sobre Inquérito, prisão e provas, indique a assertiva incorreta.",
+    "alternativas": [
+      "O habeas corpus protege o patrimônio.",
+      "O inquérito policial é procedimento administrativo, presidido pela autoridade policial.",
+      "Qualquer pessoa do povo pode prender em flagrante; a autoridade policial deve (art. 301 do CPP).",
+      "A prisão preventiva pode ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução ou para assegurar a aplicação da lei penal (art. 312 do CPP).",
+      "O habeas corpus protege contra coação ilegal à liberdade de locomoção."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: O habeas corpus protege o patrimônio.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "PM-RR",
+      "PC-TO"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 3º",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, assinale a alternativa correta.",
+    "alternativas": [
+      "Imposto exige contraprestação direta.",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "Imposto é taxa.",
+      "Tributo pode ser pago em bens.",
+      "Tributo é sanção de ato ilícito."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 3º",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF).",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "Tributo é sanção de ato ilícito.",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Tributo é sanção de ato ilícito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 16",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Tributo é sanção de ato ilícito.",
+      "Imposto exige contraprestação direta.",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "Imposto é taxa.",
+      "Tributo pode ser pago em bens."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 16",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF).",
+      "Imposto exige contraprestação direta.",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Imposto exige contraprestação direta.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 145, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Taxa não exige serviço.",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "Taxa é imposto.",
+      "Tributo é sanção de ato ilícito.",
+      "Tributo pode ser pago em bens."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 145, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "Taxa não exige serviço.",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Taxa não exige serviço.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 155, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Tributo é sanção de ato ilícito.",
+      "O ICMS é municipal.",
+      "O ICMS é federal.",
+      "Tributo pode ser pago em bens.",
+      "O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 155, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "O ICMS é imposto de competência dos Estados e do DF (art. 155, II, da CF).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "O ICMS é municipal."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O ICMS é municipal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 114",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Tributo é sanção de ato ilícito.",
+      "O fato gerador é sempre a sanção.",
+      "O fato gerador dispensa lei.",
+      "Tributo pode ser pago em bens.",
+      "O fato gerador da obrigação principal é a situação definida em lei como necessária e suficiente à sua ocorrência (art. 114 do CTN)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: O fato gerador da obrigação principal é a situação definida em lei como necessária e suficiente à sua ocorrência (art. 114 do CTN).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 114",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "O fato gerador dispensa lei.",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "O fato gerador da obrigação principal é a situação definida em lei como necessária e suficiente à sua ocorrência (art. 114 do CTN).",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O fato gerador dispensa lei.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 142",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "O lançamento extingue o crédito.",
+      "O lançamento tributário constitui o crédito tributário (art. 142 do CTN).",
+      "Tributo pode ser pago em bens.",
+      "O lançamento é facultativo.",
+      "Tributo é sanção de ato ilícito."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O lançamento tributário constitui o crédito tributário (art. 142 do CTN).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CTN, art. 142",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "O lançamento extingue o crédito.",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "O lançamento tributário constitui o crédito tributário (art. 142 do CTN).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN)."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O lançamento extingue o crédito.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 150, VI, a",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Tributo é sanção de ato ilícito.",
+      "Tributo pode ser pago em bens.",
+      "A imunidade recíproca não existe.",
+      "A imunidade recíproca veda tributar patrimônio, renda ou serviços entre os entes (art. 150, VI, a, da CF).",
+      "A imunidade recíproca é só entre União e Municípios."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A imunidade recíproca veda tributar patrimônio, renda ou serviços entre os entes (art. 150, VI, a, da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 150, VI, a",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "A imunidade recíproca veda tributar patrimônio, renda ou serviços entre os entes (art. 150, VI, a, da CF).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN).",
+      "A imunidade recíproca é só entre União e Municípios."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A imunidade recíproca é só entre União e Municípios.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 150, III, b",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva correta.",
+    "alternativas": [
+      "Tributo é sanção de ato ilícito.",
+      "Tributo pode ser pago em bens.",
+      "Princípio da anterioridade: é vedado cobrar tributo no mesmo exercício financeiro da lei que o instituiu (art. 150, III, b).",
+      "A anterioridade é dispensável.",
+      "A anterioridade permite cobrança imediata."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Princípio da anterioridade: é vedado cobrar tributo no mesmo exercício financeiro da lei que o instituiu (art. 150, III, b).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "CTN e espécies",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 150, III, b",
+    "dificuldade": 2,
+    "enunciado": "Sobre CTN e espécies, indique a assertiva incorreta.",
+    "alternativas": [
+      "A anterioridade permite cobrança imediata.",
+      "Princípio da anterioridade: é vedado cobrar tributo no mesmo exercício financeiro da lei que o instituiu (art. 150, III, b).",
+      "Tributo é prestação pecuniária compulsória, em moeda, que não constitua sanção de ato ilícito (art. 3º do CTN).",
+      "Taxa é tributo vinculado ao exercício do poder de polícia ou a serviço público específico e divisível (art. 145, II, CF).",
+      "Imposto é tributo cuja obrigação tem por fato gerador situação independente de atividade estatal específica (art. 16 do CTN)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A anterioridade permite cobrança imediata.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 201",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, assinale a alternativa correta.",
+    "alternativas": [
+      "O RPPS é para celetistas.",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+      "O RGPS é gerido pelos Estados.",
+      "O RGPS é regime facultativo.",
+      "O RPPS é o regime geral."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 201",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF).",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS).",
+      "O RGPS é regime facultativo."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O RGPS é regime facultativo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 40",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva correta.",
+    "alternativas": [
+      "O RPPS é o regime geral.",
+      "O RGPS é regime facultativo.",
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "O RGPS é gerido pelos Estados.",
+      "O RPPS é para celetistas."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 40",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS).",
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+      "O RPPS é para celetistas.",
+      "A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: O RPPS é para celetistas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "EC 103/2019, art. 19",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva correta.",
+    "alternativas": [
+      "O RGPS é regime facultativo.",
+      "A EC 103/2019 aboliu idades mínimas.",
+      "O RGPS é gerido pelos Estados.",
+      "A EC 103/2019 não trata de aposentadoria.",
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "EC 103/2019, art. 19",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva incorreta.",
+    "alternativas": [
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS).",
+      "A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF).",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+      "A EC 103/2019 aboliu idades mínimas."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A EC 103/2019 aboliu idades mínimas.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 201, V",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva correta.",
+    "alternativas": [
+      "Pensão por morte é devida a qualquer pessoa.",
+      "A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF).",
+      "O RGPS é gerido pelos Estados.",
+      "O RGPS é regime facultativo.",
+      "Pensão por morte não existe no RGPS."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 201, V",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva incorreta.",
+    "alternativas": [
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "A pensão por morte é devida aos dependentes do segurado falecido (art. 201, V, da CF).",
+      "Pensão por morte é devida a qualquer pessoa.",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF).",
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Pensão por morte é devida a qualquer pessoa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "EC 103/2019, art. 24",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva correta.",
+    "alternativas": [
+      "É vedada a acumulação de mais de uma pensão por morte no mesmo regime, ressalvadas as pensões de cargos acumuláveis (EC 103/2019, art. 24).",
+      "O RGPS é regime facultativo.",
+      "A EC 103/2019 não trata de acumulação de pensões.",
+      "O RGPS é gerido pelos Estados.",
+      "É lícita a acumulação de várias pensões no mesmo regime sem ressalva."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: É vedada a acumulação de mais de uma pensão por morte no mesmo regime, ressalvadas as pensões de cargos acumuláveis (EC 103/2019, art. 24).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Previdenciário",
+    "assunto": "RGPS e RPPS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "EC 103/2019, art. 24",
+    "dificuldade": 2,
+    "enunciado": "Sobre RGPS e RPPS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A EC 103/2019 fixou idades mínimas para aposentadoria (ex.: 62 anos mulher e 65 anos homem, no RGPS).",
+      "É vedada a acumulação de mais de uma pensão por morte no mesmo regime, ressalvadas as pensões de cargos acumuláveis (EC 103/2019, art. 24).",
+      "O RPPS é o regime próprio dos servidores titulares de cargo efetivo (art. 40 da CF).",
+      "É lícita a acumulação de várias pensões no mesmo regime sem ressalva.",
+      "O RGPS é o regime geral, de filiação obrigatória, gerido pelo INSS (art. 201 da CF)."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: É lícita a acumulação de várias pensões no mesmo regime sem ressalva.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, I",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "A integralidade exclui prevenção.",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "A integralidade limita o SUS a cura.",
+      "A universalidade exclui ações preventivas.",
+      "O SUS atende só trabalhadores."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, I",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90).",
+      "O SUS atende só trabalhadores."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O SUS atende só trabalhadores.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende só trabalhadores.",
+      "A integralidade limita o SUS a cura.",
+      "A universalidade exclui ações preventivas.",
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A integralidade exclui prevenção."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.080/1990, art. 7º, II",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90).",
+      "A integralidade exclui prevenção.",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "A equidade busca reduzir desigualdades no acesso à saúde."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A integralidade exclui prevenção.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Política de saúde",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende só trabalhadores.",
+      "Equidade não é princípio do SUS.",
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "Equidade é o mesmo que igualdade formal absoluta.",
+      "A universalidade exclui ações preventivas."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A equidade busca reduzir desigualdades no acesso à saúde.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Política de saúde",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90).",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "Equidade é o mesmo que igualdade formal absoluta.",
+      "A equidade busca reduzir desigualdades no acesso à saúde."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Equidade é o mesmo que igualdade formal absoluta.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 198",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS é centralizado na União.",
+      "A universalidade exclui ações preventivas.",
+      "O SUS atende só trabalhadores.",
+      "A regionalização é vedada.",
+      "A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90)."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 198",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A descentralização e a regionalização são diretrizes do SUS (art. 198 da CF; art. 7º, IX, Lei 8.080/90).",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "O SUS é centralizado na União."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O SUS é centralizado na União.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.142/1990",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "A participação da comunidade ocorre nos Conselhos e Conferências de Saúde (Lei 8.142/90).",
+      "O SUS atende só trabalhadores.",
+      "A universalidade exclui ações preventivas.",
+      "Os Conselhos são apenas consultivos em tudo.",
+      "A participação popular é vedada."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A participação da comunidade ocorre nos Conselhos e Conferências de Saúde (Lei 8.142/90).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Lei 8.142/1990",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A participação popular é vedada.",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "A participação da comunidade ocorre nos Conselhos e Conferências de Saúde (Lei 8.142/90).",
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A participação popular é vedada.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 198, § 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende só trabalhadores.",
+      "A universalidade exclui ações preventivas.",
+      "O financiamento do SUS é tripartite: União, Estados e Municípios (art. 198, § 1º, da CF).",
+      "O financiamento é só municipal.",
+      "O financiamento é só da União."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: O financiamento do SUS é tripartite: União, Estados e Municípios (art. 198, § 1º, da CF).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "CF/88, art. 198, § 1º",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "O financiamento é só da União.",
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "O financiamento do SUS é tripartite: União, Estados e Municípios (art. 198, § 1º, da CF)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: O financiamento é só da União.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "LC 141/2012",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva correta.",
+    "alternativas": [
+      "O SUS atende só trabalhadores.",
+      "Estados aplicam 15% e Municípios 12%.",
+      "Não há piso constitucional em saúde.",
+      "Estados devem aplicar no mínimo 12% e Municípios 15% em saúde (LC 141/2012).",
+      "A universalidade exclui ações preventivas."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Estados devem aplicar no mínimo 12% e Municípios 15% em saúde (LC 141/2012).",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Saúde Pública",
+    "assunto": "SUS",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "LC 141/2012",
+    "dificuldade": 2,
+    "enunciado": "Sobre SUS, indique a assertiva incorreta.",
+    "alternativas": [
+      "A integralidade integra ações preventivas e curativas (art. 7º, II, Lei 8.080/90).",
+      "A universalidade é princípio do SUS: acesso universal aos serviços de saúde (art. 7º, I, Lei 8.080/90).",
+      "Estados aplicam 15% e Municípios 12%.",
+      "A equidade busca reduzir desigualdades no acesso à saúde.",
+      "Estados devem aplicar no mínimo 12% e Municípios 15% em saúde (LC 141/2012)."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Estados aplicam 15% e Municípios 12%.",
+    "concursos": [
+      "SUSAM-AM",
+      "SESPA-PA",
+      "SESAU-RO"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, assinale a alternativa correta.",
+    "alternativas": [
+      "A área é 14.",
+      "A área é 20.",
+      "A área é 28.",
+      "A área é 10.",
+      "A área de um quadrado de lado 5 é 25."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A área de um quadrado de lado 5 é 25.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A área de um quadrado de lado 12 é 144.",
+      "A área é 20.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 5 é 25."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 20.",
+      "A área é 10.",
+      "A área é 14.",
+      "A área é 28.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A área de um quadrado de lado 7 é 49.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 12 é 144.",
+      "A área é 28.",
+      "A área de um quadrado de lado 10 é 100."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 28.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 28.",
+      "A área é 20.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área é 40."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A área de um quadrado de lado 10 é 100.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área é 40.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 12 é 144."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 20.",
+      "A área de um quadrado de lado 12 é 144.",
+      "A área é 24.",
+      "A área é 48."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A área de um quadrado de lado 12 é 144.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do quadrado",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A área é 48.",
+      "A área de um quadrado de lado 12 é 144.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 48.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 14.",
+      "A área é 20.",
+      "A área é 10.",
+      "A área é 28.",
+      "A área de um retângulo de base 6 e altura 4 é 24."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A área de um retângulo de base 6 e altura 4 é 24.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A área é 20.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um retângulo de base 6 e altura 4 é 24.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 20.",
+      "A área de um retângulo de base 10 e altura 6 é 60.",
+      "A área é 32.",
+      "A área é 16."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A área de um retângulo de base 10 e altura 6 é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 7 é 49.",
+      "A área é 32.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um retângulo de base 10 e altura 6 é 60."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 32.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 26.",
+      "A área é 10.",
+      "A área é 13.",
+      "A área de um retângulo de base 8 e altura 5 é 40.",
+      "A área é 20."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A área de um retângulo de base 8 e altura 5 é 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um retângulo de base 8 e altura 5 é 40.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área é 26.",
+      "A área de um quadrado de lado 10 é 100."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 26.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 38.",
+      "A área de um retângulo de base 12 e altura 7 é 84.",
+      "A área é 20.",
+      "A área é 19.",
+      "A área é 10."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A área de um retângulo de base 12 e altura 7 é 84.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do retângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área é 38.",
+      "A área de um retângulo de base 12 e altura 7 é 84."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 38.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 16.",
+      "A área de um triângulo de base 10 e altura 6 é 30.",
+      "A área é 60.",
+      "A área é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: A área de um triângulo de base 10 e altura 6 é 30.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um triângulo de base 10 e altura 6 é 30.",
+      "A área é 60.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 60.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área de um triângulo de base 8 e altura 5 é 20.",
+      "A área é 13.",
+      "A área é 10.",
+      "A área é 40.",
+      "A área é 20."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A área de um triângulo de base 8 e altura 5 é 20.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área é 40.",
+      "A área de um triângulo de base 8 e altura 5 é 20.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 28.",
+      "A área de um triângulo de base 12 e altura 8 é 48.",
+      "A área é 96.",
+      "A área é 20.",
+      "A área é 10."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A área de um triângulo de base 12 e altura 8 é 48.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um triângulo de base 12 e altura 8 é 48.",
+      "A área é 96.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 96.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área de um triângulo de base 6 e altura 4 é 12.",
+      "A área é 20.",
+      "A área é 24.",
+      "A área é 10.",
+      "A área é 28."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A área de um triângulo de base 6 e altura 4 é 12.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do triângulo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área é 24.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um triângulo de base 6 e altura 4 é 12.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 10 é 100."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 24.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 44.0.",
+      "A área é 20.",
+      "A área é 22.0.",
+      "A área de um círculo de raio 7 (π=3,14) é 153.86.",
+      "A área é 10."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A área de um círculo de raio 7 (π=3,14) é 153.86.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área é 44.0.",
+      "A área de um círculo de raio 7 (π=3,14) é 153.86."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 44.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área de um círculo de raio 10 (π=3,14) é 314.0.",
+      "A área é 62.8.",
+      "A área é 20.",
+      "A área é 31.4."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A área de um círculo de raio 10 (π=3,14) é 314.0.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um círculo de raio 10 (π=3,14) é 314.0.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área é 62.8."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 62.8.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva correta.",
+    "alternativas": [
+      "A área de um círculo de raio 14 (π=3,14) é 615.44.",
+      "A área é 10.",
+      "A área é 87.9.",
+      "A área é 44.0.",
+      "A área é 20."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: A área de um círculo de raio 14 (π=3,14) é 615.44.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Geometria",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Área do círculo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Geometria, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um círculo de raio 14 (π=3,14) é 615.44.",
+      "A área é 87.9.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 10 é 100."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: A área é 87.9.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, assinale a alternativa correta.",
+    "alternativas": [
+      "A soma é 20.",
+      "A área é 20.",
+      "A área é 10.",
+      "O 10º termo é 32.",
+      "Na PA de 1º termo 2 e razão 3, o 10º termo é 29 e a soma dos 10 primeiros é 155."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Na PA de 1º termo 2 e razão 3, o 10º termo é 29 e a soma dos 10 primeiros é 155.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "O 10º termo é 32.",
+      "Na PA de 1º termo 2 e razão 3, o 10º termo é 29 e a soma dos 10 primeiros é 155.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: O 10º termo é 32.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "Na PA de 1º termo 5 e razão 4, o 8º termo é 33 e a soma dos 8 primeiros é 152.",
+      "A soma é 40.",
+      "O 8º termo é 37.",
+      "A área é 20."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: Na PA de 1º termo 5 e razão 4, o 8º termo é 33 e a soma dos 8 primeiros é 152.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "O 8º termo é 37.",
+      "Na PA de 1º termo 5 e razão 4, o 8º termo é 33 e a soma dos 8 primeiros é 152."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: O 8º termo é 37.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A soma é 12.",
+      "O 12º termo é 25.",
+      "Na PA de 1º termo 1 e razão 2, o 12º termo é 23 e a soma dos 12 primeiros é 144.",
+      "A área é 20."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Na PA de 1º termo 1 e razão 2, o 12º termo é 23 e a soma dos 12 primeiros é 144.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva incorreta.",
+    "alternativas": [
+      "Na PA de 1º termo 1 e razão 2, o 12º termo é 23 e a soma dos 12 primeiros é 144.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 10 é 100.",
+      "O 12º termo é 25."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O 12º termo é 25.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A soma é 60.",
+      "Na PA de 1º termo 10 e razão 5, o 6º termo é 35 e a soma dos 6 primeiros é 135.",
+      "O 6º termo é 40.",
+      "A área é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Na PA de 1º termo 10 e razão 5, o 6º termo é 35 e a soma dos 6 primeiros é 135.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Sequências",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Progressão aritmética",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sequências, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25.",
+      "Na PA de 1º termo 10 e razão 5, o 6º termo é 35 e a soma dos 6 primeiros é 135.",
+      "A área de um quadrado de lado 7 é 49.",
+      "O 6º termo é 40."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: O 6º termo é 40.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A média ponderada dos valores (pesos) [(6, 2), (8, 3)] com pesos [2, 3] é 7.2.",
+      "A média é 8.2.",
+      "A média é 7.00.",
+      "A área é 20."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A média ponderada dos valores (pesos) [(6, 2), (8, 3)] com pesos [2, 3] é 7.2.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A média é 7.00.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A média ponderada dos valores (pesos) [(6, 2), (8, 3)] com pesos [2, 3] é 7.2.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 7 é 49."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 7.00.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 20.",
+      "A média é 8.8.",
+      "A média é 8.00.",
+      "A média ponderada dos valores (pesos) [(7, 3), (9, 2)] com pesos [3, 2] é 7.8."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: A média ponderada dos valores (pesos) [(7, 3), (9, 2)] com pesos [3, 2] é 7.8.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A média ponderada dos valores (pesos) [(7, 3), (9, 2)] com pesos [3, 2] é 7.8.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A média é 8.00."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 8.00.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A média ponderada dos valores (pesos) [(5, 1), (10, 4)] com pesos [1, 4] é 9.",
+      "A média é 10.",
+      "A média é 7.50.",
+      "A área é 20."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva correta é a que afirma: A média ponderada dos valores (pesos) [(5, 1), (10, 4)] com pesos [1, 4] é 9.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Média",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Média ponderada",
+    "dificuldade": 2,
+    "enunciado": "Sobre Média, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "A média ponderada dos valores (pesos) [(5, 1), (10, 4)] com pesos [1, 4] é 9.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A média é 7.50.",
+      "A área de um quadrado de lado 5 é 25."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: A média é 7.50.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Tautologia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, assinale a alternativa correta.",
+    "alternativas": [
+      "A área é 10.",
+      "A área é 20.",
+      "Tautologia é uma proposição sempre verdadeira, como P ou não-P.",
+      "Tautologia é contingente.",
+      "Tautologia é sempre falsa."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Tautologia é uma proposição sempre verdadeira, como P ou não-P.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Tautologia",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Tautologia é sempre falsa.",
+      "Tautologia é uma proposição sempre verdadeira, como P ou não-P.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Tautologia é sempre falsa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Contradição",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, indique a assertiva correta.",
+    "alternativas": [
+      "Contradição é uma proposição sempre falsa, como P e não-P.",
+      "Contradição é sempre verdadeira.",
+      "A área é 10.",
+      "A área é 20.",
+      "Contradição é contingente."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Contradição é uma proposição sempre falsa, como P e não-P.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Contradição",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, indique a assertiva incorreta.",
+    "alternativas": [
+      "A área de um quadrado de lado 10 é 100.",
+      "Contradição é uma proposição sempre falsa, como P e não-P.",
+      "Contradição é sempre verdadeira.",
+      "A área de um quadrado de lado 7 é 49.",
+      "A área de um quadrado de lado 5 é 25."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Contradição é sempre verdadeira.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Silogismo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, indique a assertiva correta.",
+    "alternativas": [
+      "Conclui-se (R→P).",
+      "A área é 10.",
+      "Silogismo hipotético: de (P→Q) e (Q→R) conclui-se (P→R).",
+      "Conclui-se (P e R).",
+      "A área é 20."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Silogismo hipotético: de (P→Q) e (Q→R) conclui-se (P→R).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "Lógica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Silogismo",
+    "dificuldade": 2,
+    "enunciado": "Sobre Lógica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Conclui-se (R→P).",
+      "A área de um quadrado de lado 10 é 100.",
+      "A área de um quadrado de lado 5 é 25.",
+      "A área de um quadrado de lado 7 é 49.",
+      "Silogismo hipotético: de (P→Q) e (Q→R) conclui-se (P→R)."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Conclui-se (R→P).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, assinale a alternativa correta.",
+    "alternativas": [
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Metáfora é inversão de termos.",
+      "Metáfora é comparação com 'como'.",
+      "Metonímia é oposição de ideias.",
+      "Metonímia é exagero."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metáfora é comparação com 'como'.",
+      "Eufemismo suaviza uma expressão ('partiu desta vida')."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva incorreta é a que afirma: Metáfora é comparação com 'como'.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Metonímia é exagero.",
+      "Metonímia é oposição de ideias.",
+      "Metáfora é inversão de termos.",
+      "Metáfora é comparação com 'como'.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado')."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Eufemismo suaviza uma expressão ('partiu desta vida').",
+      "Metonímia é oposição de ideias.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Metonímia é oposição de ideias.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metáfora é inversão de termos.",
+      "Metáfora é comparação com 'como'.",
+      "Hipérbole é ironia.",
+      "Hipérbole é eufemismo."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Hipérbole é o exagero intencional ('chorei rios').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é eufemismo.",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Eufemismo suaviza uma expressão ('partiu desta vida').",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado')."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: Hipérbole é eufemismo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Eufemismo exagera.",
+      "Eufemismo é ironia.",
+      "Metáfora é inversão de termos.",
+      "Eufemismo suaviza uma expressão ('partiu desta vida').",
+      "Metáfora é comparação com 'como'."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Eufemismo suaviza uma expressão ('partiu desta vida').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Eufemismo suaviza uma expressão ('partiu desta vida').",
+      "Eufemismo exagera.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Eufemismo exagera.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Ironia é literal.",
+      "Metáfora é inversão de termos.",
+      "Ironia é dizer o contrário do que se quer, com intenção crítica.",
+      "Metáfora é comparação com 'como'.",
+      "Ironia é sinônimo de metáfora."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: Ironia é dizer o contrário do que se quer, com intenção crítica.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Figuras de linguagem",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Ironia é dizer o contrário do que se quer, com intenção crítica.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Ironia é sinônimo de metáfora."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Ironia é sinônimo de metáfora.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Sujeito simples tem um só núcleo; composto, dois ou mais.",
+      "Sujeito composto tem um núcleo.",
+      "Metáfora é inversão de termos.",
+      "Sujeito simples não existe.",
+      "Metáfora é comparação com 'como'."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: Sujeito simples tem um só núcleo; composto, dois ou mais.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Sujeito composto tem um núcleo.",
+      "Sujeito simples tem um só núcleo; composto, dois ou mais.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Sujeito composto tem um núcleo.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Predicado verbal tem núcleo nominal.",
+      "Metáfora é comparação com 'como'.",
+      "Metáfora é inversão de termos.",
+      "O predicado verbal tem como núcleo um verbo de ação (transitivo ou intransitivo).",
+      "Predicado verbal tem verbo de ligação."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: O predicado verbal tem como núcleo um verbo de ação (transitivo ou intransitivo).",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Predicado verbal tem núcleo nominal.",
+      "O predicado verbal tem como núcleo um verbo de ação (transitivo ou intransitivo).",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Hipérbole é o exagero intencional ('chorei rios')."
+    ],
+    "correta": 1,
+    "explicacao": "A assertiva incorreta é a que afirma: Predicado verbal tem núcleo nominal.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Predicado nominal tem objeto direto.",
+      "Metáfora é comparação com 'como'.",
+      "Metáfora é inversão de termos.",
+      "Predicado nominal tem verbo de ação.",
+      "Predicado nominal tem como núcleo um nome (predicativo), com verbo de ligação."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: Predicado nominal tem como núcleo um nome (predicativo), com verbo de ligação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Sintaxe",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Predicado nominal tem como núcleo um nome (predicativo), com verbo de ligação.",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Predicado nominal tem verbo de ação."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: Predicado nominal tem verbo de ação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Vozes verbais",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Na voz ativa o sujeito sofre.",
+      "Na voz passiva o sujeito pratica.",
+      "Metáfora é comparação com 'como'.",
+      "Voz ativa: sujeito pratica a ação; passiva: sujeito sofre a ação.",
+      "Metáfora é inversão de termos."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: Voz ativa: sujeito pratica a ação; passiva: sujeito sofre a ação.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Vozes verbais",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Voz ativa: sujeito pratica a ação; passiva: sujeito sofre a ação.",
+      "Na voz passiva o sujeito pratica.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: Na voz passiva o sujeito pratica.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Vozes verbais",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "'Vendem-se casas' é voz ativa.",
+      "Voz passiva sintética usa 'por'.",
+      "Metáfora é comparação com 'como'.",
+      "A voz passiva sintética usa o pronome 'se' ('vendem-se casas').",
+      "Metáfora é inversão de termos."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: A voz passiva sintética usa o pronome 'se' ('vendem-se casas').",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Vozes verbais",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "'Vendem-se casas' é voz ativa.",
+      "A voz passiva sintética usa o pronome 'se' ('vendem-se casas').",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado')."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Vendem-se casas' é voz ativa.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Metáfora é comparação com 'como'.",
+      "'Acerca de' indica distância.",
+      "'A cerca de' significa 'sobre'.",
+      "Metáfora é inversão de termos.",
+      "'Acerca de' significa 'sobre'; 'a cerca de' indica distância aproximada."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva correta é a que afirma: 'Acerca de' significa 'sobre'; 'a cerca de' indica distância aproximada.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "'Acerca de' indica distância.",
+      "'Acerca de' significa 'sobre'; 'a cerca de' indica distância aproximada.",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado')."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Acerca de' indica distância.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "'Há cerca de' indica tempo aproximado decorrido.",
+      "'Há cerca de' indica lugar.",
+      "Metáfora é comparação com 'como'.",
+      "'Há cerca de' é grafado sem acento.",
+      "Metáfora é inversão de termos."
+    ],
+    "correta": 0,
+    "explicacao": "A assertiva correta é a que afirma: 'Há cerca de' indica tempo aproximado decorrido.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Semântica",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "'Há cerca de' indica tempo aproximado decorrido.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "'Há cerca de' indica lugar."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: 'Há cerca de' indica lugar.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "Metáfora é comparação com 'como'.",
+      "São sinônimos.",
+      "Metáfora é inversão de termos.",
+      "'Ratificar' (confirmar) e 'retificar' (corrigir) têm sentidos opostos.",
+      "'Ratificar' significa corrigir."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 'Ratificar' (confirmar) e 'retificar' (corrigir) têm sentidos opostos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "'Ratificar' (confirmar) e 'retificar' (corrigir) têm sentidos opostos.",
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "São sinônimos."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: São sinônimos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "'Emergir' significa afundar.",
+      "Metáfora é inversão de termos.",
+      "'Emergir' (vir à tona) e 'imergir' (afundar) são antônimos.",
+      "São sinônimos.",
+      "Metáfora é comparação com 'como'."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva correta é a que afirma: 'Emergir' (vir à tona) e 'imergir' (afundar) são antônimos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "'Emergir' (vir à tona) e 'imergir' (afundar) são antônimos.",
+      "São sinônimos."
+    ],
+    "correta": 4,
+    "explicacao": "A assertiva incorreta é a que afirma: São sinônimos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva correta.",
+    "alternativas": [
+      "São sinônimos.",
+      "Metáfora é comparação com 'como'.",
+      "Metáfora é inversão de termos.",
+      "'Infligir' (aplicar pena) e 'infringir' (violar) têm sentidos distintos.",
+      "'Infligir' significa violar."
+    ],
+    "correta": 3,
+    "explicacao": "A assertiva correta é a que afirma: 'Infligir' (aplicar pena) e 'infringir' (violar) têm sentidos distintos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "Sintaxe e semântica",
+    "origem": "AUTORAL",
+    "banca": "FGV",
+    "fundamento": "Parônimos",
+    "dificuldade": 2,
+    "enunciado": "Sobre Sintaxe e semântica, indique a assertiva incorreta.",
+    "alternativas": [
+      "Hipérbole é o exagero intencional ('chorei rios').",
+      "'Infligir' (aplicar pena) e 'infringir' (violar) têm sentidos distintos.",
+      "São sinônimos.",
+      "Metonímia substitui um termo por outro com relação de proximidade ('li Machado').",
+      "Metáfora é figura de linguagem que emprega termo em sentido figurado por comparação implícita."
+    ],
+    "correta": 2,
+    "explicacao": "A assertiva incorreta é a que afirma: São sinônimos.",
+    "concursos": [
+      "PM-AM",
+      "PC-AM",
+      "DPE-AM",
+      "MANAUSPREV",
+      "TJ-AM"
+    ]
   }
 ]
