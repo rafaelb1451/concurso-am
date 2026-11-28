@@ -140,7 +140,7 @@ describe('Planos — Básico × Plus', () => {
       '/api/assinatura/checkout',
       expect.objectContaining({
         method: 'POST',
-        body: JSON.stringify({ plano: 'PLUS', certames: ['PM-AM', 'PC-AM'] }),
+        body: JSON.stringify({ plano: 'PLUS', certames: ['PM-AM', 'PC-AM'], metodo: 'CARTAO', cpfCnpj: '', telefone: '', cep: '', endereco: '', numero: '', bairro: '' }),
       }),
     )
   })

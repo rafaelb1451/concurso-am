@@ -107,7 +107,8 @@ public class AssinaturaController {
                         request.cep(),
                         request.endereco(),
                         request.numero(),
-                        request.bairro()));
+                        request.bairro()),
+                request.metodo());
         return new DtosAssinatura.CheckoutView(url);
     }
 

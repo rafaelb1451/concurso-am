@@ -256,7 +256,7 @@ describe('api', () => {
       expect.objectContaining({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ plano: 'PLUS', certames: ['PM-AM', 'PC-AM'] }),
+        body: JSON.stringify({ plano: 'PLUS', certames: ['PM-AM', 'PC-AM'], metodo: 'CARTAO' }),
       }),
     )
   })

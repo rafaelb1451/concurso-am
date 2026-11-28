@@ -60,7 +60,9 @@ public interface PaymentGateway {
             String ciclo,
             String referenciaExterna,
             String urlSucesso,
-            String urlCancelamento
+            String urlCancelamento,
+            /** "CARTAO" (renovação automática) ou "PIX" (cobrança avulsa). */
+            String metodo
     ) {
     }
 

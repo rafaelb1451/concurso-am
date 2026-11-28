@@ -231,7 +231,8 @@ class AssinaturaServiceTest {
         String url = service.iniciarCheckout(7L, 1L, java.util.List.of("PM-AM"),
                 new PaymentGateway.DadosCliente(
                 "Aluno", "aluno@teste.com", "24971563792", "11987654321",
-                "01001000", "Rua Teste", "100", "Centro"));
+                "01001000", "Rua Teste", "100", "Centro"),
+                "CARTAO");
 
         assertThat(url).isEqualTo("https://sandbox.asaas.com/checkout/abc");
         verify(assinaturas).save(any(Assinatura.class));

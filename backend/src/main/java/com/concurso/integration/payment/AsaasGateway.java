@@ -24,6 +24,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -117,19 +118,28 @@ public class AsaasGateway implements PaymentGateway {
         callback.put("cancelUrl", dados.urlCancelamento());
 
         Map<String, Object> corpo = new LinkedHashMap<>();
-        // assinatura recorrente no Asaas: somente cartao de credito
-        corpo.put("billingTypes", List.of("CREDIT_CARD"));
-        corpo.put("chargeTypes", List.of("RECURRENT"));
+        // "PIX" = cobrança avulsa (paga 1 período, sem renovação automática);
+        // caso contrário, assinatura recorrente (somente cartão de crédito).
+        String metodo = dados.metodo() == null ? "CARTAO" : dados.metodo().toUpperCase(Locale.ROOT);
+        if ("PIX".equals(metodo)) {
+            corpo.put("billingTypes", List.of("PIX"));
+            corpo.put("chargeTypes", List.of("DETACHED"));
+        } else {
+            corpo.put("billingTypes", List.of("CREDIT_CARD"));
+            corpo.put("chargeTypes", List.of("RECURRENT"));
+        }
         corpo.put("minutesToExpire", 1440);
         corpo.put("externalReference", dados.referenciaExterna());
         corpo.put("callback", callback);
         corpo.put("items", List.of(item));
         corpo.put("customerData", cliente);
 
-        Map<String, Object> assinatura = new LinkedHashMap<>();
-        assinatura.put("cycle", "ANUAL".equalsIgnoreCase(dados.ciclo()) ? "YEARLY" : "MONTHLY");
-        assinatura.put("nextDueDate", LocalDate.now().plusDays(1).format(DateTimeFormatter.ISO_LOCAL_DATE));
-        corpo.put("subscription", assinatura);
+        if (!"PIX".equals(metodo)) {
+            Map<String, Object> assinatura = new LinkedHashMap<>();
+            assinatura.put("cycle", "ANUAL".equalsIgnoreCase(dados.ciclo()) ? "YEARLY" : "MONTHLY");
+            assinatura.put("nextDueDate", LocalDate.now().plusDays(1).format(DateTimeFormatter.ISO_LOCAL_DATE));
+            corpo.put("subscription", assinatura);
+        }
 
         JsonNode resposta = chamar("POST", "/checkouts", corpo);
         String id = texto(resposta, "id");

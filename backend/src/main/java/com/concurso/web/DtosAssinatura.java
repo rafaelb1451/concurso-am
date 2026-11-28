@@ -29,14 +29,15 @@ public final class DtosAssinatura {
             String plano,
             @jakarta.validation.constraints.NotEmpty(message = "escolha ao menos 1 certame")
             List<String> certames,
-            // Opcionais: o Mercado Pago so' precisa do e-mail da conta. Mantidos para o
-            // AsaasGateway (implementacao alternativa), que exige os dados do cliente.
+            // Opcionais: o Asaas exige os dados do cliente (cartão/Pix).
             String cpfCnpj,
             String telefone,
             String cep,
             String endereco,
             String numero,
-            String bairro
+            String bairro,
+            // "CARTAO" (renovação automática) ou "PIX" (cobrança avulsa). Default CARTAO.
+            String metodo
     ) {
     }
 

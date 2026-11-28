@@ -117,7 +117,7 @@ public class AssinaturaService {
      */
     @Transactional
     public String iniciarCheckout(Long usuarioId, Long planoId, java.util.List<String> certamesPedidos,
-                                  PaymentGateway.DadosCliente cliente) {
+                                  PaymentGateway.DadosCliente cliente, String metodo) {
         if (!gateway.configurado()) {
             throw new AuthException(HttpStatus.SERVICE_UNAVAILABLE,
                     "Pagamento indisponivel no momento. Tente mais tarde.");
@@ -139,7 +139,8 @@ public class AssinaturaService {
                 plano.getCiclo(),
                 referencia,
                 urlApp + "/?assinatura=sucesso",
-                urlApp + "/?assinatura=cancelado"));
+                urlApp + "/?assinatura=cancelado",
+                metodo == null ? "CARTAO" : metodo));
 
         // Uma linha por checkout: reutilizar a PENDENTE fazia o webhook aplicar o plano
         // do checkout mais recente, nao o plano efetivamente pago (ver auditoria A-01).

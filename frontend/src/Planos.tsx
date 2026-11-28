@@ -128,6 +128,8 @@ export default function Planos({
   const [mensagem, setMensagem] = useState<string | null>(null)
   const [validacao, setValidacao] = useState<string | null>(null)
   const [tentativa, setTentativa] = useState(0)
+  const [metodo, setMetodo] = useState<'CARTAO' | 'PIX'>('CARTAO')
+  const [cliente, setCliente] = useState({ cpfCnpj: '', telefone: '', cep: '', endereco: '', numero: '', bairro: '' })
 
   useEffect(() => {
     let ativo = true
@@ -262,6 +264,8 @@ export default function Planos({
       const resposta = await api.iniciarCheckout(
         ofertaSelecionada.plano.codigo,
         selecionados,
+        metodo,
+        cliente,
       )
       if (!checkoutSeguro(resposta.url)) {
         setErro('O endereço de pagamento retornado é inválido. Tente novamente em instantes.')
@@ -652,6 +656,63 @@ export default function Planos({
               {rotuloCertames(selecionados.length)} · R$ {formatarPreco(ofertaSelecionada.precoCentavos)}
               {rotuloCiclo(ofertaSelecionada.ciclo)}
             </p>
+          </div>
+
+          <div className="mt-4 rounded-xl border border-ink-200 bg-surface p-3.5">
+            <h3 className="text-sm font-bold text-ink-900">Forma de pagamento</h3>
+            <div className="mt-2 flex flex-col gap-2 sm:flex-row" role="radiogroup" aria-label="Forma de pagamento">
+              <label
+                className={`flex min-h-11 flex-1 cursor-pointer items-center gap-2 rounded-xl border px-3 text-sm font-medium transition ${
+                  metodo === 'CARTAO' ? 'border-brand-300 bg-brand-50 text-ink-900' : 'border-ink-200 text-ink-600'
+                }`}
+              >
+                <input type="radio" name="metodo" value="CARTAO" checked={metodo === 'CARTAO'}
+                  onChange={() => setMetodo('CARTAO')} className="h-4 w-4 accent-brand-600" />
+                Cartão (renovação automática)
+              </label>
+              <label
+                className={`flex min-h-11 flex-1 cursor-pointer items-center gap-2 rounded-xl border px-3 text-sm font-medium transition ${
+                  metodo === 'PIX' ? 'border-brand-300 bg-brand-50 text-ink-900' : 'border-ink-200 text-ink-600'
+                }`}
+              >
+                <input type="radio" name="metodo" value="PIX" checked={metodo === 'PIX'}
+                  onChange={() => setMetodo('PIX')} className="h-4 w-4 accent-brand-600" />
+                Pix (pagamento único)
+              </label>
+            </div>
+
+            <div className="mt-3 grid gap-3 sm:grid-cols-2">
+              <div>
+                <label htmlFor="ck-cpf" className="qb-label">CPF/CNPJ</label>
+                <input id="ck-cpf" className="qb-input" inputMode="numeric" value={cliente.cpfCnpj}
+                  onChange={(e) => setCliente((c) => ({ ...c, cpfCnpj: e.target.value }))} placeholder="Somente números" />
+              </div>
+              <div>
+                <label htmlFor="ck-tel" className="qb-label">Telefone (com DDD)</label>
+                <input id="ck-tel" className="qb-input" inputMode="tel" value={cliente.telefone}
+                  onChange={(e) => setCliente((c) => ({ ...c, telefone: e.target.value }))} placeholder="11987654321" />
+              </div>
+              <div>
+                <label htmlFor="ck-cep" className="qb-label">CEP</label>
+                <input id="ck-cep" className="qb-input" inputMode="numeric" value={cliente.cep}
+                  onChange={(e) => setCliente((c) => ({ ...c, cep: e.target.value }))} placeholder="01001000" />
+              </div>
+              <div>
+                <label htmlFor="ck-end" className="qb-label">Endereço</label>
+                <input id="ck-end" className="qb-input" value={cliente.endereco}
+                  onChange={(e) => setCliente((c) => ({ ...c, endereco: e.target.value }))} placeholder="Rua Exemplo" />
+              </div>
+              <div>
+                <label htmlFor="ck-num" className="qb-label">Número</label>
+                <input id="ck-num" className="qb-input" inputMode="numeric" value={cliente.numero}
+                  onChange={(e) => setCliente((c) => ({ ...c, numero: e.target.value }))} placeholder="100" />
+              </div>
+              <div>
+                <label htmlFor="ck-bai" className="qb-label">Bairro</label>
+                <input id="ck-bai" className="qb-input" value={cliente.bairro}
+                  onChange={(e) => setCliente((c) => ({ ...c, bairro: e.target.value }))} placeholder="Centro" />
+              </div>
+            </div>
           </div>
 
           <p className="mt-3 text-xs leading-relaxed text-ink-600" role="status" aria-live="polite">

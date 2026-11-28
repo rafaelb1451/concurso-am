@@ -292,6 +292,16 @@ export interface AdminAssinatura {
   liberaPro: boolean
 }
 
+/** Dados do comprador exigidos pelo Asaas (cartão e Pix). */
+export interface CheckoutCliente {
+  cpfCnpj?: string
+  telefone?: string
+  cep?: string
+  endereco?: string
+  numero?: string
+  bairro?: string
+}
+
 export interface MateriaResumo {
   materia: string
   questoes: number
@@ -328,8 +338,13 @@ export const api = {
   assinatura: () => get<AssinaturaAtual>('/assinatura'),
   usoPlano: () => get<UsoPlano>('/assinatura/uso'),
   /** Checkout do plano com os certames escolhidos (Básico 1, Plus até 3). */
-  iniciarCheckout: (plano: string, certames: string[]) =>
-    post<{ url: string }>('/assinatura/checkout', { plano, certames }),
+  iniciarCheckout: (
+    plano: string,
+    certames: string[],
+    metodo: 'CARTAO' | 'PIX' = 'CARTAO',
+    cliente?: CheckoutCliente,
+  ) =>
+    post<{ url: string }>('/assinatura/checkout', { plano, certames, metodo, ...cliente }),
   /** Troca os certames da assinatura; o backend limita a 1 troca por ciclo. */
   trocarCertames: (certames: string[]) =>
     put<{ ok: boolean }>('/assinatura/certames', { certames }),
