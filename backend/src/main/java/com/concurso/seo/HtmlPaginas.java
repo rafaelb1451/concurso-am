@@ -24,8 +24,10 @@ public final class HtmlPaginas {
             a{color:#2a4067}
             .topo{display:flex;gap:16px;align-items:center;justify-content:space-between;
                   padding:14px 20px;background:var(--ink);color:#fff;flex-wrap:wrap}
-            .marca{color:#fff;font-weight:800;letter-spacing:-.5px;text-decoration:none;font-size:20px}
-            .marca span{color:var(--ouro)}
+            .marca{color:#fff;font-weight:800;letter-spacing:-.5px;text-decoration:none;font-size:20px;display:inline-flex;align-items:center;gap:8px}
+            .marca svg{flex:none}
+            .marca span{color:#fff}
+            .marca strong{color:var(--ouro);font-weight:800}
             nav a{color:#e7e5e4;text-decoration:none;margin-right:14px;font-weight:600;font-size:14px}
             .cta{background:var(--ouro);color:var(--ink);padding:8px 14px;border-radius:9px;
                  font-weight:700;text-decoration:none;font-size:14px}
@@ -102,6 +104,7 @@ public final class HtmlPaginas {
                 <head>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="icon" type="image/svg+xml" href="/favicon.svg">
                 <title>%s</title>
                 <meta name="description" content="%s">
                 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -120,7 +123,14 @@ public final class HtmlPaginas {
                 </head>
                 <body>
                 <header class="topo">
-                  <a class="marca" href="/">QB<span>Concurso</span></a>
+                  <a class="marca" href="/">
+                    <svg width="26" height="26" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                      <rect width="48" height="48" rx="13" fill="#16243c"/>
+                      <text x="24" y="31" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="17" font-weight="800" fill="#fafaf9">QB</text>
+                      <rect x="15" y="35" width="18" height="2.4" rx="1.2" fill="#c8a05f"/>
+                    </svg>
+                    <span>QB<strong>Concurso</strong></span>
+                  </a>
                   <nav>
                     <a href="/materiais">Materiais</a>
                     <a href="/materias">Matérias</a>
@@ -131,7 +141,7 @@ public final class HtmlPaginas {
                 </header>
                 <main>%s</main>
                 <footer>
-                  <p>QB Concurso — questões comentadas para Soldado PM-AM e Investigador PC-AM (banca FGV).</p>
+                  <p>QB Concurso — questões comentadas para concursos públicos da Região Norte (PM-AM, PC-AM, CREA-AM, DPE-AM, TJ-AM e mais).</p>
                   <p><a href="/materiais">Materiais</a> · <a href="/materias">Matérias</a> ·
                      <a href="/planos">Planos</a> · <a href="/faq">FAQ</a></p>
                 </footer>

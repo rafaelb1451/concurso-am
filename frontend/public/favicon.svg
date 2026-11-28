@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="qbSelo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a4067"/>
+      <stop offset="1" stop-color="#16243c"/>
+    </linearGradient>
+    <linearGradient id="qbFilete" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98a3f"/>
+      <stop offset="1" stop-color="#d9bd88"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="13" fill="url(#qbSelo)"/>
+  <rect x="4.5" y="4.5" width="39" height="39" rx="10" fill="none" stroke="#fafaf9" stroke-opacity="0.18"/>
+  <text x="24" y="30.5" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="800" letter-spacing="-0.7" fill="#fafaf9">QB</text>
+  <rect x="15" y="34" width="18" height="2.4" rx="1.2" fill="url(#qbFilete)"/>
+</svg>
