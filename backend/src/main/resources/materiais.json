@@ -1248,5 +1248,1285 @@
     "resumo": "Regime Próprio, aposentadorias, EC 103/2019, acumulação de benefícios, contagem recíproca e jurisprudência.",
     "conteudo": "**RPPS (art. 40, CF).** Regime contributivo e solidário, exclusivo dos titulares de cargo efetivo. Comissionados, temporários e empregados públicos vinculam-se ao RGPS (§ 13). Vedadas a contagem de tempo fictício (§ 10) e mais de uma unidade gestora por ente (§ 20).\n\n**Aposentadorias (art. 40).** Por incapacidade permanente (proventos proporcionais e avaliações periódicas); compulsória aos 75 anos (proventos proporcionais ao tempo de contribuição); e voluntária (idade e tempo de contribuição, conforme lei complementar do ente).\n\n**EC 103/2019.** Idades mínimas e tempo mínimo para aposentadoria voluntária, regras de transição e cálculo pela média de todas as remunerações de contribuição. Pensão por morte (art. 23): cota familiar de 50% + 10% por dependente, até 100%.\n\n**Acumulação de benefícios (art. 24 da EC 103/2019).** Vedada mais de uma pensão por morte no mesmo regime (ressalvadas as do mesmo instituidor por cargos acumuláveis). Pensão + aposentadoria: 100% do benefício mais vantajoso + parcela escalonada do outro (100% até 1 SM; 60% de 1 a 2 SM; 40% de 2 a 3 SM; 20% de 3 a 4 SM; 10% acima de 4 SM).\n\n**Contagem recíproca e compensação financeira (art. 201, § 9º, CF; Lei 9.796/99).** O tempo de contribuição no RGPS e no RPPS conta-se reciprocamente, com compensação financeira entre os regimes, vedada a contagem de tempo fictício.\n\n**Jurisprudência.** SV 33: as regras do RGPS sobre aposentadoria especial aplicam-se ao servidor público até a edição de lei complementar específica. Contribuição previdenciária pode incidir sobre proventos que superem o teto do RGPS (art. 149, § 1º-A, CF; ADI 3.105/DF).",
     "ordem": 3
+  },
+  {
+    "concurso": "DPE-AM",
+    "slug": "dpe-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, pacote Office, internet, segurança da informação e redes.",
+    "conteudo": "**Sistema operacional Windows.** Gerenciador de arquivos, extensões, atalhos (Ctrl+C/V/X/Z), lixeira, área de transferência, painel de controle e contas de usuário.\n\n**Pacote Office.** Word (formatação, estilos, mala direta); Excel (fórmulas, referências absolutas e relativas, funções SE, SOMA, MÉDIA, PROCV e gráficos); PowerPoint (layouts, transições, animações).\n\n**Internet e navegadores.** HTTP/HTTPS, URL, cookies, cache, favoritos, downloads e abas; diferença entre navegador e mecanismo de busca.\n\n**Segurança da informação.** Pilares confidencialidade, integridade e disponibilidade; vírus, malware, phishing, ransomware, firewall, antivírus, autenticação em dois fatores e backup; HTTPS indica conexão criptografada, mas não garante que o site seja confiável.\n\n**Redes e nuvem.** IP, DNS, LAN/WAN, Wi-Fi, roteador, armazenamento em nuvem e sincronização.",
+    "ordem": 9
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-portugues",
+    "titulo": "Língua Portuguesa (UERR) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Morfologia, sintaxe de concordância e regência, crase e figuras de linguagem.",
+    "conteudo": "**Morfologia e formação de palavras.** Derivação prefixal/sufixal (insubordinação = subordinar → subordinação → insubordinação) difere da parassíntese, em que a retirada de qualquer afixo deixa forma inexistente (anoitecer).\n\n**Concordância verbal.** Haver (existir) e fazer (tempo) são impessoais e ficam no singular; existir é pessoal. Expressões partitivas (a maioria de) admitem singular ou plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) são transitivos indiretos (preposição a); implicar (acarretar) é transitivo direto.\n\n**Crase.** Ocorre na fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina, pronomes e artigo indefinido.\n\n**Figuras de linguagem.** Metáfora, metonímia, hipérbole, eufemismo e ironia, cobradas na leitura de textos literários regionais.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (UERR) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, análise combinatória, porcentagem e regra de três.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva ¬Q → ¬P e disjunção ¬P ou Q); negação da condicional = P e ¬Q (mantém a primeira e nega a segunda).\n\n**Análise combinatória.** Arranjo (a ordem importa) e combinação (a ordem não importa); C(n,k) = n! / [k!(n−k)!]. Use o princípio multiplicativo para eventos independentes.\n\n**Porcentagem.** Aumentos e descontos sucessivos não se somam; multiplique os fatores (1+i). Variação percentual = (final − inicial) / inicial × 100.\n\n**Razão, proporção e regra de três.** Grandezas inversamente proporcionais invertem a razão; regra de três composta verifica o sentido de cada grandeza.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-constituicao-rr",
+    "titulo": "Constituição do Estado de Roraima — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Organização dos Poderes, competências estaduais e segurança pública na Carta Estadual.",
+    "conteudo": "**Fundamentos e organização.** A Constituição do Estado de Roraima, promulgada após a elevação a Estado (art. 14 do ADCT da CF/88), organiza os Poderes Executivo, Legislativo (Assembleia Legislativa) e Judiciário (Tribunal de Justiça), observando os princípios da Constituição Federal por simetria.\n\n**Segurança pública.** Reproduz o modelo do art. 144 da CF/88: Polícia Militar (polícia ostensiva e preservação da ordem pública), Corpo de Bombeiros Militar (defesa civil e combate a incêndios), Polícia Civil (polícia judiciária) e Polícia Penal, subordinados ao Governador.\n\n**Militares estaduais.** Consagra a hierarquia e a disciplina como base institucional da PM-RR e do CBM-RR (simetria aos arts. 42 e 142 da CF/88), com vedação à sindicalização e à greve.\n\n**Administração e servidores.** Estabelece os princípios do art. 37 da CF/88 e remete o regime jurídico dos servidores e militares à legislação complementar estadual (LCE nº 194/2012).\n\n**Dica de prova.** A UERR cobra a literalidade dos dispositivos estaduais; confira os artigos específicos na íntegra da Carta Estadual, pois números podem variar entre emendas.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-penal-comum",
+    "titulo": "Direito Penal comum (CP) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, teoria do crime, excludentes e crimes contra a pessoa e o patrimônio.",
+    "conteudo": "**Princípios e aplicação da lei.** Legalidade e anterioridade; a lei posterior benéfica retroage. Tempo do crime: teoria da atividade; lugar do crime: teoria da ubiquidade.\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade. Excludentes de ilicitude: legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito.\n\n**Crimes contra a pessoa.** Homicídio (art. 121) e lesão corporal (art. 129), com as qualificadoras e os privilégios mais cobrados.\n\n**Crimes contra o patrimônio.** Furto (art. 155), roubo (art. 157, com o roubo impróprio do § 1º), extorsão (art. 158) e receptação (art. 180).\n\n**Crimes contra a Administração Pública.** Peculato, concussão, corrupção passiva e ativa, prevaricação; resistência, desobediência e desacato (arts. 329 a 331).",
+    "ordem": 9
+  },
+  {
+    "concurso": "PM-RR",
+    "slug": "pm-rr-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, art. 5º da CF/88 e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Proclama a dignidade inerente a todos, a igualdade, a vedação à tortura e à prisão arbitrária e o direito à vida e à liberdade.\n\n**Pacto de São José da Costa Rica (1969).** Incorporado ao ordenamento, garante o devido processo legal, a integridade pessoal e o controle judicial da prisão.\n\n**Garantias do art. 5º da CF/88.** Presunção de inocência, direito ao silêncio, comunicação da prisão ao juiz e à família e vedação à tortura (art. 5º, III e XLIII).\n\n**Uso progressivo e proporcional da força.** O agente deve observar legalidade, necessidade e proporcionalidade; o excesso é punível.\n\n**Grupos vulneráveis.** Proteção de indígenas, ribeirinhos, mulheres, idosos e pessoas privadas de liberdade (Regras de Mandela), tema sensível na atuação de fronteira.",
+    "ordem": 10
+  },
+  {
+    "concurso": "PM-RR-SOLDADO",
+    "slug": "pm-rr-soldado-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, concordância, regência, crase e pontuação.",
+    "conteudo": "**Interpretação de texto.** Leia o enunciado e volte ao texto para localizar a evidência; cuidado com extrapolação e com paráfrases que alteram o sentido.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; alerta e menos são invariáveis. Sujeito composto leva o verbo ao plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; implicar (acarretar) é transitivo direto.\n\n**Crase.** Obrigatória na fusão de preposição a + artigo a; proibida antes de verbo, pronome indefinido, palavra masculina e artigo indefinido.\n\n**Pontuação.** Vírgula não separa sujeito de predicado; isola aposto, vocativo e orações deslocadas.",
+    "ordem": 5
+  },
+  {
+    "concurso": "PM-RR-SOLDADO",
+    "slug": "pm-rr-soldado-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Porcentagem, regra de três, razão e proporção e lógica proposicional.",
+    "conteudo": "**Porcentagem.** x% = x/100; aumentos e descontos sucessivos multiplicam os fatores. Para achar o total: parte / percentual × 100.\n\n**Regra de três.** Simples e composta; verifique se as grandezas são direta ou inversamente proporcionais antes de montar a proporção.\n\n**Razão e proporção.** Produto cruzado (a·d = b·c); divisão proporcional soma as partes e calcula a constante.\n\n**Lógica proposicional.** Negação da condicional (P → Q) = P e ¬Q; equivalência da condicional = ¬Q → ¬P (contrapositiva) ou ¬P ou Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); use diagramas de Venn.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PM-RR-SOLDADO",
+    "slug": "pm-rr-soldado-direitos-humanos",
+    "titulo": "Direitos Humanos e Lei de Tortura — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, garantias do preso e Lei nº 9.455/1997 (tortura).",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura e a tratamento cruel, desumano ou degradante.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação imediata da prisão ao juiz e à família; direito ao silêncio; assistência de advogado e da família; identificação dos responsáveis pela prisão.\n\n**Tortura (Lei nº 9.455/1997).** Crime comum, inafiançável e insuscetível de graça ou anistia; a omissão de quem deveria evitar também é punida.\n\n**Efeitos da condenação.** Perda do cargo público e interdição para seu exercício pelo dobro do prazo da pena (art. 1º, § 5º).\n\n**Uso de algemas (Súmula Vinculante 11).** Só é lícito em caso de resistência, fundado receio de fuga ou perigo à integridade física, com justificativa por escrito.",
+    "ordem": 7
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (TJ-AM) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, argumentos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Condicional (P → Q) é falsa apenas quando P é verdadeira e Q é falsa (Vera Fischer). Equivalências: contrapositiva (¬Q → ¬P) e disjunção (¬P ou Q).\n\n**Negação.** Negação da condicional = P e ¬Q; Leis de De Morgan: ¬(P e Q) = ¬P ou ¬Q e ¬(P ou Q) = ¬P e ¬Q.\n\n**Quantificadores.** Negação de todo A é B = algum A não é B; negação de algum A é B = nenhum A é B.\n\n**Porcentagem e proporção.** Aumentos/descontos sucessivos multiplicam fatores; divisão proporcional calcula a constante.\n\n**Probabilidade e contagem.** Probabilidade = casos favoráveis / casos possíveis; eventos independentes multiplicam; combinação C(n,k).",
+    "ordem": 6
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-processual-civil",
+    "titulo": "Direito Processual Civil (CPC/2015) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Atos do juiz, prazos, citação eletrônica e tutela provisória.",
+    "conteudo": "**Pronunciamentos do juiz (art. 203).** Sentenças (põem fim à fase cognitiva ou à execução), decisões interlocutórias (pronunciamentos decisórios não enquadrados como sentença) e despachos (irrecorríveis, art. 1.001).\n\n**Atos ordinatórios (art. 203, § 4º).** Juntada e vista obrigatória independem de despacho, sendo praticados de ofício pelo servidor.\n\n**Contagem de prazos (art. 219).** Em dias, computam-se apenas os dias úteis; a regra não se aplica a prazos de direito material (prescrição e decadência).\n\n**Citação eletrônica (art. 246).** Preferencialmente por meio eletrônico, em até 2 dias úteis, pelos endereços indicados pelo citando no banco do Poder Judiciário.\n\n**Tutela provisória (arts. 294 a 311).** A de urgência exige probabilidade do direito e perigo de dano ou risco ao resultado útil; a da evidência dispensa o perigo de dano nas hipóteses do art. 311.",
+    "ordem": 7
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-nocoes-direito",
+    "titulo": "Noções de Direito Civil e Penal — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Pessoas, bens, fatos jurídicos, obrigações, responsabilidade civil e princípios penais.",
+    "conteudo": "**Pessoas e bens.** Pessoas naturais e jurídicas; capacidade; bens móveis e imóveis, públicos e particulares.\n\n**Fatos e negócios jurídicos.** Requisitos de validade (agente capaz, objeto lícito, forma prescrita ou não defesa em lei); nulidade e anulabilidade.\n\n**Obrigações e contratos.** Obrigação de dar, fazer e não fazer; inadimplemento e responsabilidade civil (dano, nexo causal e culpa ou risco).\n\n**Princípios penais.** Legalidade, anterioridade e irretroatividade da lei penal, salvo para beneficiar o réu.\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade; excludentes de ilicitude do art. 23 do CP.",
+    "ordem": 8
+  },
+  {
+    "concurso": "TJ-AM",
+    "slug": "tjam-regimento-interno",
+    "titulo": "Organização Judiciária (LCE 261/2023) e Regimento Interno — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Estrutura do TJ-AM, órgãos, competências e quinto constitucional.",
+    "conteudo": "**LCE nº 261/2023 (LODJ/AM).** O TJ-AM tem sede em Manaus e jurisdição em todo o Estado, composto por 26 desembargadores, observado o quinto constitucional (art. 94 da CF/88).\n\n**Órgãos do Tribunal.** Tribunal Pleno, Órgão Especial (quando instituído), Conselho da Magistratura, Seções Reunidas, Câmaras Isoladas (Cíveis e Criminais) e Corregedoria-Geral de Justiça.\n\n**Justiça itinerante (art. 125, § 7º, CF/88).** Instalação obrigatória, com audiências nos limites da jurisdição, usando equipamentos públicos e comunitários (unidades fluviais no Amazonas).\n\n**Varas agrárias (art. 126, CF/88).** O TJ proporá a criação de varas especializadas em questões agrárias, com presença do juiz no local do litígio quando necessário.\n\n**Regimento Interno.** Disciplina Mesa, quóruns, sessões, competências das Câmaras e o processo administrativo interno; confira a resolução vigente para os detalhes de votação.",
+    "ordem": 9
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (ManausPrev) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, quantificadores, porcentagem e proporção.",
+    "conteudo": "**Lógica proposicional.** Conectivos (e, ou, se...então, se e somente se) e tabela-verdade; equivalências da condicional (contrapositiva e disjunção).\n\n**Negação.** Negação da conjunção (De Morgan); negação da condicional = P e ¬Q; negação de todo = algum não; negação de algum = nenhum.\n\n**Porcentagem.** Aumentos e descontos sucessivos multiplicam fatores; juros simples e compostos usam a mesma lógica de fator.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Atenção FCC.** Leia se a pergunta pede juros ou montante; a troca inverte o resultado.",
+    "ordem": 6
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e LGPD em autarquias.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle e contas de usuário.\n\n**Office.** Word (formatação e mala direta); Excel (fórmulas, referências absolutas/relativas, SE, SOMA, MÉDIA, PROCV, gráficos); PowerPoint (layouts e transições).\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; diferença entre navegador e mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, ransomware, firewall, antivírus, backup e autenticação em dois fatores.\n\n**LGPD (Lei nº 13.709/2018).** Proteção de dados pessoais sensíveis (prontuários de perícia), com base legal, minimização e direitos do titular — relevante na gestão previdenciária.",
+    "ordem": 7
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-legislacao-municipal",
+    "titulo": "Legislação Municipal de Manaus (Lei 870/2005 e Lei 1.118/1971) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "RPPS de Manaus e Estatuto dos Servidores do Município.",
+    "conteudo": "**Lei nº 870/2005.** Institui o Regime Próprio de Previdência Social dos servidores efetivos do Município de Manaus, gerido pela ManausPrev, com caráter contributivo e solidário e busca do equilíbrio financeiro e atuarial.\n\n**Unidade gestora única.** A ManausPrev é a gestora única do RPPS municipal (art. 40, § 20, CF/88), vedada a existência de outro regime ou órgão gestor no ente.\n\n**Lei nº 1.118/1971.** Estatuto dos Servidores Públicos do Município de Manaus: provimento, posse, exercício, direitos, deveres, licenças e regime disciplinar.\n\n**Aposentadoria e pensão.** Regras locais alinhadas ao art. 40 da CF/88 e à EC nº 103/2019; comissionado exclusivo vai ao RGPS.\n\n**Dica FCC.** Troca idades mínimas, prazos e regras de transição; confira os dispositivos vigentes na íntegra das leis municipais.",
+    "ordem": 8
+  },
+  {
+    "concurso": "MANAUSPREV",
+    "slug": "manausprev-constitucional",
+    "titulo": "Direito Constitucional (art. 37 a 41) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Administração Pública, servidores, direitos fundamentais e controle.",
+    "conteudo": "**Princípios da Administração (art. 37, caput).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Servidores públicos.** Ingresso por concurso; acumulação de cargos (art. 37, XVI); teto remuneratório; estabilidade após 3 anos de efetivo exercício com avaliação especial de desempenho (art. 41).\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, devido processo legal, contraditório e ampla defesa; remédios constitucionais (habeas corpus, habeas data, mandado de segurança, mandado de injunção, ação popular).\n\n**Remuneração e subsídio.** Teto constitucional; vedação de vinculação de espécies remuneratórias; irredutibilidade de vencimentos.\n\n**Controle de constitucionalidade.** Difuso (inter partes) e concentrado (erga omnes); súmulas vinculantes aplicáveis (SV 33 e 55 em matéria previdenciária).",
+    "ordem": 9
+  },
+  {
+    "concurso": "PM-AM",
+    "slug": "pm-am-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, art. 5º e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura e a prisão arbitrária.\n\n**Pacto de São José da Costa Rica.** Incorporado ao ordenamento brasileiro, garante devido processo legal, integridade pessoal e controle judicial da prisão.\n\n**Garantias constitucionais (art. 5º).** Presunção de inocência, direito ao silêncio, comunicação da prisão ao juiz e à família e vedação à tortura (art. 5º, III e XLIII).\n\n**Uso de algemas (Súmula Vinculante 11).** Só em caso de resistência, fundado receio de fuga ou perigo à integridade física, com justificativa por escrito.\n\n**Uso progressivo da força.** Legalidade, necessidade e proporcionalidade; o excesso é punível nas esferas penal, civil e administrativa.\n\n**Grupos vulneráveis.** Proteção de indígenas, ribeirinhos, mulheres (Lei Maria da Penha) e pessoas privadas de liberdade.",
+    "ordem": 10
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-processual-penal",
+    "titulo": "Direito Processual Penal — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Inquérito, ação penal, prisões, provas e competência.",
+    "conteudo": "**Inquérito policial.** Procedimento administrativo, inquisitivo, escrito e sigiloso, presidido pelo delegado; o advogado tem acesso aos autos (Súmula Vinculante 14).\n\n**Ação penal.** Pública incondicionada, condicionada à representação/requisição e privada; denúncia (MP) e queixa-crime (ofendido).\n\n**Prisões.** Flagrante (arts. 301 e 302), preventiva (art. 312) e temporária (Lei 7.960/1989); audiência de custódia e medidas cautelares diversas da prisão (art. 319).\n\n**Provas.** Vedadas as ilícitas e as derivadas (frutos da árvore envenenada); interceptação telefônica (Lei 9.296/1996) exige ordem judicial, crime punido com reclusão e subsidiariedade.\n\n**Competência.** Lugar da infração (art. 70); júri nos crimes dolosos contra a vida; exceções da competência federal.",
+    "ordem": 11
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-legislacao-especial",
+    "titulo": "Legislação Penal Especial — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Drogas, desarmamento, abuso de autoridade, organização criminosa e Maria da Penha.",
+    "conteudo": "**Lei de Drogas (11.343/2006).** Tráfico (art. 33) e uso (art. 28); distinção entre traficante e usuário conforme quantidade, natureza e circunstâncias.\n\n**Estatuto do Desarmamento (10.826/2003).** Posse e porte de arma; porte ilegal de uso permitido e restrito; a tipicidade e os crimes do art. 16.\n\n**Abuso de autoridade (13.869/2019).** Exige dolo específico (finalidade de prejudicar ou beneficiar, ou mero capricho); divergência de interpretação não configura o crime.\n\n**Organização criminosa (12.850/2013).** Associação de 4 ou mais pessoas, estrutura ordenada e divisão de tarefas, para obter vantagem; colaboração premiada.\n\n**Lei Maria da Penha (11.340/2006).** Violência doméstica e familiar contra a mulher e medidas protetivas de urgência.",
+    "ordem": 12
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-medicina-legal",
+    "titulo": "Medicina Legal e Criminalística — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Traumatologia forense, tanatologia, cadeia de custódia e vestígios.",
+    "conteudo": "**Vestígio, evidência e indício.** Vestígio é o material bruto; evidência é o vestígio analisado; indício é a circunstância conhecida que, por indução, autoriza concluir outra (art. 239 do CPP).\n\n**Instrumentos cortantes.** Bordas regulares, lisas e coaptáveis, sem pontes de tecido, com predomínio do comprimento; cauda de escoriação indica o sentido do golpe.\n\n**Perfurocortantes.** Dois gumes formam fenda com dois ângulos agudos; um gume forma um ângulo agudo e outro rombo (dorso).\n\n**Contundentes.** Equimose, hematoma, escoriação e fratura; espectro equimótico (vermelho → violáceo → azulado → esverdeado → amarelado).\n\n**Cronotanatognose.** Fenômenos abióticos (resfriamento, livores de hipóstase, rigidez cadavérica) e transformativos (autólise, putrefação com mancha verde abdominal, esqueletização, mumificação e saponificação).\n\n**Cadeia de custódia (arts. 158-A a 158-F).** As 10 etapas do reconhecimento ao descarte, garantindo a rastreabilidade do vestígio.",
+    "ordem": 13
+  },
+  {
+    "concurso": "PC-AM",
+    "slug": "pc-am-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, garantias do preso e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura e a tratamento degradante.\n\n**Pacto de São José da Costa Rica.** Devido processo legal, integridade pessoal e controle judicial da prisão.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação da prisão, direito ao silêncio, assistência de advogado e da família.\n\n**Uso proporcional da força.** Legalidade, necessidade e proporcionalidade; vedação ao uso arbitrário.\n\n**Grupos vulneráveis.** Indígenas, ribeirinhos, mulheres, idosos, pessoas com deficiência e privados de liberdade (Regras de Mandela).",
+    "ordem": 14
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Concordância, regência, crase, colocação pronominal e interpretação.",
+    "conteudo": "**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; implicar (acarretar) é transitivo direto.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Colocação pronominal.** Próclise com palavras negativas, pronomes relativos e conjunções subordinativas; ênclise no início de frase; mesóclise com futuro.\n\n**Interpretação.** Distinga o que se afirma do que se infere; conectivos mudam o sentido (concessão, causa, conclusão).",
+    "ordem": 4
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e redes.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV, gráficos); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup e autenticação em dois fatores.\n\n**Redes.** IP, DNS, LAN/WAN, Wi-Fi, roteador e nuvem.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-penal",
+    "titulo": "Direito Penal — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, teoria do crime, excludentes e crimes em espécie.",
+    "conteudo": "**Princípios.** Legalidade, anterioridade, irretroatividade (salvo benefício) e insignificância.\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade; tentativa (art. 14, II) reduz a pena de 1/3 a 2/3.\n\n**Excludentes de ilicitude (art. 23).** Legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito.\n\n**Crimes contra a pessoa e o patrimônio.** Homicídio, lesão corporal, furto, roubo, extorsão e estelionato.\n\n**Crimes contra a Administração Pública.** Peculato, concussão, corrupção passiva e ativa, prevaricação.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-processual-penal",
+    "titulo": "Direito Processual Penal — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Inquérito, ação penal, prisões, provas e competência.",
+    "conteudo": "**Inquérito policial.** Inquisitivo, sigiloso e escrito; acesso do advogado (Súmula Vinculante 14).\n\n**Ação penal.** Pública incondicionada, condicionada e privada; denúncia e queixa-crime.\n\n**Prisões.** Flagrante (arts. 301 e 302), preventiva (art. 312) e temporária; audiência de custódia.\n\n**Provas.** Vedação às provas ilícitas e derivadas; interceptação telefônica (Lei 9.296/1996).\n\n**Competência.** Lugar da infração (art. 70); júri nos crimes dolosos contra a vida.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-legislacao-especial",
+    "titulo": "Legislação Penal Especial — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Drogas, desarmamento, abuso de autoridade, organização criminosa e Maria da Penha.",
+    "conteudo": "**Lei de Drogas (11.343/2006).** Tráfico (art. 33) e uso (art. 28); critérios de distinção.\n\n**Estatuto do Desarmamento (10.826/2003).** Posse e porte de arma; porte ilegal.\n\n**Abuso de autoridade (13.869/2019).** Exige dolo específico; divergência interpretativa não configura crime.\n\n**Organização criminosa (12.850/2013).** 4 ou mais pessoas, estrutura e divisão de tarefas; colaboração premiada.\n\n**Lei Maria da Penha (11.340/2006).** Violência doméstica e medidas protetivas de urgência.",
+    "ordem": 9
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-medicina-legal",
+    "titulo": "Medicina Legal e Criminalística — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Traumatologia forense, tanatologia, cadeia de custódia e vestígios.",
+    "conteudo": "**Vestígio, evidência e indício.** Material bruto, material analisado e circunstância que induz conclusão (art. 239 do CPP).\n\n**Cortantes.** Bordas regulares e coaptáveis, sem pontes de tecido; cauda de escoriação indica sentido do golpe.\n\n**Perfurocortantes.** Dois gumes (dois ângulos agudos) ou um gume (um ângulo agudo e outro rombo).\n\n**Contundentes.** Equimose, hematoma, escoriação e fratura; espectro equimótico.\n\n**Cronotanatognose.** Resfriamento, livores, rigidez cadavérica; putrefação com mancha verde abdominal.\n\n**Cadeia de custódia (arts. 158-A a 158-F).** Dez etapas do reconhecimento ao descarte.",
+    "ordem": 10
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, garantias do preso e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura.\n\n**Pacto de São José da Costa Rica.** Devido processo legal e integridade pessoal.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação da prisão, direito ao silêncio, assistência de advogado.\n\n**Uso proporcional da força.** Legalidade, necessidade e proporcionalidade.\n\n**Grupos vulneráveis.** Indígenas, ribeirinhos, mulheres, idosos e privados de liberdade.",
+    "ordem": 11
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 4
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e redes.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup.\n\n**Redes.** IP, DNS, LAN/WAN, Wi-Fi, roteador e nuvem.",
+    "ordem": 5
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios fundamentais, art. 5º, organização do Estado e segurança pública.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, inviolabilidade de domicílio, sigilo de comunicações, devido processo legal e remédios constitucionais.\n\n**Organização do Estado.** União, Estados, DF e Municípios; repartição de competências (arts. 21 a 24).\n\n**Segurança pública (art. 144).** Órgãos e competências; polícia civil = polícia judiciária e apuração de infrações penais, exceto militares.\n\n**Remédios constitucionais.** Habeas corpus, habeas data, mandado de segurança, mandado de injunção e ação popular.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, licitações e improbidade.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos (competência, finalidade, forma, motivo e objeto); atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário.\n\n**Licitações (Lei 14.133/2021).** Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo); dispensa e inexigibilidade.\n\n**Improbidade (Lei 8.429/1992).** Exige dolo; enriquecimento ilícito, dano ao erário e violação de princípios.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-legislacao-especial",
+    "titulo": "Legislação Penal Especial — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Drogas, desarmamento, abuso de autoridade, organização criminosa e Maria da Penha.",
+    "conteudo": "**Lei de Drogas (11.343/2006).** Tráfico (art. 33) e uso (art. 28); critérios de distinção.\n\n**Estatuto do Desarmamento (10.826/2003).** Posse, porte e registro de armas.\n\n**Abuso de autoridade (13.869/2019).** Exige dolo específico; flagrante preparado é nulo (Súmula 145 do STF).\n\n**Organização criminosa (12.850/2013).** Estrutura, divisão de tarefas e colaboração premiada.\n\n**Lei Maria da Penha (11.340/2006).** Violência doméstica e medidas protetivas de urgência.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-medicina-legal",
+    "titulo": "Medicina Legal e Criminalística — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Traumatologia forense, tanatologia, cadeia de custódia e vestígios.",
+    "conteudo": "**Vestígio, evidência e indício.** Material bruto, material analisado e circunstância que induz conclusão (art. 239 do CPP).\n\n**Cortantes.** Bordas regulares e coaptáveis, sem pontes de tecido; cauda de escoriação indica sentido do golpe.\n\n**Perfurocortantes.** Dois gumes (dois ângulos agudos) ou um gume (um ângulo agudo e outro rombo).\n\n**Contundentes.** Equimose, hematoma, escoriação e fratura; espectro equimótico.\n\n**Cronotanatognose.** Resfriamento, livores, rigidez cadavérica; putrefação com mancha verde abdominal.\n\n**Cadeia de custódia (arts. 158-A a 158-F).** Dez etapas do reconhecimento ao descarte.",
+    "ordem": 9
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, garantias do preso e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura.\n\n**Pacto de São José da Costa Rica.** Devido processo legal e integridade pessoal.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação da prisão, direito ao silêncio, assistência de advogado.\n\n**Uso proporcional da força.** Legalidade, necessidade e proporcionalidade.\n\n**Grupos vulneráveis.** Indígenas, ribeirinhos, mulheres, idosos e privados de liberdade.",
+    "ordem": 10
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, concordância, regência, crase e pontuação.",
+    "conteudo": "**Interpretação.** Distinga o que se afirma do que se infere; conectivos mudam o sentido.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; implicar (acarretar) é transitivo direto.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Vírgula não separa sujeito de predicado; isola aposto, vocativo e orações deslocadas.",
+    "ordem": 4
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e redes.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup.\n\n**Redes.** IP, DNS, LAN/WAN, Wi-Fi, roteador e nuvem.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios fundamentais, art. 5º, organização do Estado e segurança pública.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, inviolabilidade de domicílio, sigilo de comunicações, devido processo legal e remédios constitucionais.\n\n**Organização do Estado.** União, Estados, DF e Municípios; repartição de competências (arts. 21 a 24).\n\n**Segurança pública (art. 144).** Órgãos e competências; polícia civil = polícia judiciária e apuração de infrações penais, exceto militares.\n\n**Remédios constitucionais.** Habeas corpus, habeas data, mandado de segurança, mandado de injunção e ação popular.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, licitações e improbidade.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos (competência, finalidade, forma, motivo e objeto); atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário.\n\n**Licitações (Lei 14.133/2021).** Modalidades; dispensa e inexigibilidade.\n\n**Improbidade (Lei 8.429/1992).** Exige dolo; enriquecimento ilícito, dano ao erário e violação de princípios.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-legislacao-especial",
+    "titulo": "Legislação Penal Especial — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Drogas, desarmamento, abuso de autoridade, organização criminosa e lavagem.",
+    "conteudo": "**Lei de Drogas (11.343/2006).** Tráfico (art. 33) e uso (art. 28); critérios de distinção.\n\n**Estatuto do Desarmamento (10.826/2003).** Posse, porte e registro de armas.\n\n**Abuso de autoridade (13.869/2019).** Exige dolo específico; divergência interpretativa não configura crime.\n\n**Organização criminosa (12.850/2013).** Estrutura, divisão de tarefas e colaboração premiada.\n\n**Lavagem de dinheiro (9.613/1998).** Ocultação ou dissimulação de bens de origem ilícita.",
+    "ordem": 9
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, garantias do preso e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura.\n\n**Pacto de São José da Costa Rica.** Devido processo legal e integridade pessoal.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação da prisão, direito ao silêncio, assistência de advogado.\n\n**Uso proporcional da força.** Legalidade, necessidade e proporcionalidade.\n\n**Grupos vulneráveis.** Indígenas, quilombolas, ribeirinhos, mulheres e privados de liberdade.",
+    "ordem": 10
+  },
+  {
+    "concurso": "POLITEC-RO",
+    "slug": "politec-ro-portugues",
+    "titulo": "Língua Portuguesa (Cebraspe) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, coesão, concordância, crase e pontuação.",
+    "conteudo": "**Interpretação.** Distinga o que se afirma do que se infere; atenção a advérbios totalizantes que tornam o item errado.\n\n**Coesão referencial.** Pronome onde só retoma lugar físico; cujo exprime posse e não admite artigo posposto.\n\n**Concordância.** Haver (existir) é impessoal; expressões partitivas admitem singular ou plural.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Oração adjetiva explicativa exige vírgulas; a supressão transforma-a em restritiva e altera o sentido.",
+    "ordem": 5
+  },
+  {
+    "concurso": "POLITEC-RO",
+    "slug": "politec-ro-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (POLITEC-RO) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 6
+  },
+  {
+    "concurso": "POLITEC-RO",
+    "slug": "politec-ro-penal",
+    "titulo": "Direito Penal — teoria do crime e crimes em espécie — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, teoria do crime, excludentes e crimes contra a pessoa e o patrimônio.",
+    "conteudo": "**Princípios.** Legalidade, anterioridade, irretroatividade (salvo benefício) e insignificância.\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade; tentativa reduz a pena de 1/3 a 2/3.\n\n**Excludentes de ilicitude (art. 23).** Legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito; o excesso é punível.\n\n**Crimes contra a pessoa.** Homicídio (art. 121) e lesão corporal (art. 129).\n\n**Crimes contra o patrimônio.** Furto, roubo, extorsão e estelionato.\n\n**Fraude processual (art. 347).** Inovar artificiosamente o estado de lugar, coisa ou pessoa para induzir a erro o juiz ou o perito, inclusive em processo penal ainda não iniciado.",
+    "ordem": 7
+  },
+  {
+    "concurso": "POLITEC-RO",
+    "slug": "politec-ro-legislacao-especial",
+    "titulo": "Legislação Penal e Processual Especial — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Perícia oficial, abuso de autoridade, drogas e organização criminosa.",
+    "conteudo": "**Perícia oficial (Lei 12.030/2009).** Normas gerais das perícias oficiais de natureza criminal; perito oficial exige diploma de curso superior.\n\n**Cadeia de custódia (Lei 13.964/2019).** Arts. 158-A a 158-F do CPP; as 10 etapas e a inviolabilidade do lacre.\n\n**Abuso de autoridade (13.869/2019).** Exige dolo específico; divergência interpretativa não configura crime.\n\n**Lei de Drogas (11.343/2006).** Tráfico e uso; a perícia toxicológica na materialidade.\n\n**Organização criminosa (12.850/2013).** Estrutura, divisão de tarefas e colaboração premiada.",
+    "ordem": 8
+  },
+  {
+    "concurso": "POLITEC-RO",
+    "slug": "politec-ro-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, improbidade e licitações.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos e atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário.\n\n**Improbidade (Lei 8.429/1992).** Exige dolo (Tema 1.199/STF); a perda da função pública só após o trânsito em julgado.\n\n**Licitações (Lei 14.133/2021).** Objetivos do art. 11; modalidades; tratamento diferenciado às MPEs.",
+    "ordem": 9
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e reescrita.",
+    "conteudo": "**Interpretação e semântica.** A FGV cobra análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos que indicam concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Reescrita.** Deve manter a correção gramatical e preservar o sentido original; a troca de conectivo muda o nexo lógico.\n\n**Nominalização.** Substituição de orações desenvolvidas por substantivos abstratos sem perda semântica.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e educação digital.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup.\n\n**Educação digital.** Letramento digital, cidadania digital e uso pedagógico das TICs (Lei nº 14.533/2023).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-legislacao-estadual",
+    "titulo": "Legislação Educacional Estadual do Amazonas — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PCCR do magistério, jornada docente, FUNDEB e educação escolar indígena.",
+    "conteudo": "**Plano de Cargos e Carreira do Magistério.** O PCCR do magistério público estadual do Amazonas disciplina ingresso por concurso, progressão funcional e gratificações por titularidade.\n\n**Jornada docente (Lei 11.738/2008).** Limite de 2/3 da carga horária para interação com educandos e no mínimo 1/3 para atividades extraclasse (planejamento, avaliação e formação).\n\n**Estabilidade e estágio probatório.** 3 anos de efetivo exercício, com avaliação especial de desempenho (art. 41 da CF/88).\n\n**FUNDEB (art. 212-A da CF/88).** Mínimo de 70% dos recursos anuais de cada Fundo ao pagamento dos profissionais da educação básica em efetivo exercício.\n\n**Educação escolar indígena e interculturalidade.** CF (arts. 210 e 231) e LDB (arts. 78 e 79) garantem educação bilíngue e intercultural, tema central no Amazonas; confira o plano estadual no edital.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-constitucional-administrativo",
+    "titulo": "Direito Constitucional e Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Arts. 205 a 214 da CF/88, princípios administrativos e servidores.",
+    "conteudo": "**Educação na CF/88 (arts. 205 a 214).** Educação como direito de todos e dever do Estado e da família; princípios (igualdade, liberdade de aprender, pluralismo, gratuidade do ensino público).\n\n**Vinculação de recursos (art. 212).** Percentuais mínimos da receita de impostos para a educação (18% União; 25% Estados e Municípios).\n\n**Princípios administrativos (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Servidores.** Ingresso por concurso; acumulação de cargos; estabilidade após 3 anos.\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade, aplicáveis à gestão escolar.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SEDUC-TO",
+    "slug": "seduc-to-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e reescrita.",
+    "conteudo": "**Interpretação e semântica.** Análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos de concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Reescrita.** Deve manter correção gramatical e sentido original; troca de conectivo muda o nexo lógico.\n\n**Regência.** Assistir (presenciar) e preferir pedem preposição a; cuidado com dequeísmo.",
+    "ordem": 5
+  },
+  {
+    "concurso": "SEDUC-TO",
+    "slug": "seduc-to-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SEDUC-TO",
+    "slug": "seduc-to-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e educação digital.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup.\n\n**Educação digital.** Letramento digital e uso pedagógico das TICs (Lei nº 14.533/2023).",
+    "ordem": 7
+  },
+  {
+    "concurso": "SEDUC-TO",
+    "slug": "seduc-to-legislacao-estadual",
+    "titulo": "Legislação Estadual do Tocantins (Lei 1.818/2007 e Lei 2.859/2014) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Estatuto dos servidores e PCCR do magistério tocantinense.",
+    "conteudo": "**Lei nº 1.818/2007.** Estatuto dos Servidores Públicos Civis do Tocantins: provimento, posse, exercício, direitos, deveres e regime disciplinar; o estável perde o cargo só nas hipóteses do art. 41, § 1º, da CF/88.\n\n**Extinção do cargo.** O servidor estável fica em disponibilidade com remuneração proporcional até o aproveitamento.\n\n**Lei nº 2.859/2014.** Plano de Cargos, Carreiras e Remuneração do Magistério Público Estadual do Tocantins: progressão por titularidade (especialização, mestrado e doutorado).\n\n**Jornada docente (Lei 11.738/2008).** 2/3 para interação com educandos e no mínimo 1/3 para extraclasse.\n\n**Documento Curricular do Tocantins (DCT).** Referência curricular estadual alinhada à BNCC, com as especificidades regionais.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SEDUC-TO",
+    "slug": "seduc-to-constitucional-administrativo",
+    "titulo": "Direito Constitucional e Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Arts. 205 a 214 da CF/88, princípios administrativos e servidores.",
+    "conteudo": "**Educação na CF/88 (arts. 205 a 214).** Educação como direito de todos e dever do Estado e da família; princípios da igualdade, liberdade de aprender e gratuidade do ensino público.\n\n**Vinculação de recursos (art. 212).** Mínimos constitucionais para a educação (18% União; 25% Estados e Municípios).\n\n**Princípios administrativos (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Servidores.** Ingresso por concurso; acumulação de cargos; estabilidade após 3 anos.\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade.",
+    "ordem": 9
+  },
+  {
+    "concurso": "SEDUC-PA",
+    "slug": "seduc-pa-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e reescrita.",
+    "conteudo": "**Interpretação e semântica.** Análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos de concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Reescrita.** Deve manter correção gramatical e sentido original; troca de conectivo muda o nexo lógico.\n\n**Regência.** Assistir (presenciar) e preferir pedem preposição a; cuidado com dequeísmo.",
+    "ordem": 5
+  },
+  {
+    "concurso": "SEDUC-PA",
+    "slug": "seduc-pa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SEDUC-PA",
+    "slug": "seduc-pa-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e educação digital.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, malware, phishing, ransomware, firewall, antivírus, backup.\n\n**Educação digital.** Letramento digital e uso pedagógico das TICs (Lei nº 14.533/2023).",
+    "ordem": 7
+  },
+  {
+    "concurso": "SEDUC-PA",
+    "slug": "seduc-pa-constitucional-administrativo",
+    "titulo": "Direito Constitucional e Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Arts. 205 a 214 da CF/88, princípios administrativos e servidores.",
+    "conteudo": "**Educação na CF/88 (arts. 205 a 214).** Educação como direito de todos e dever do Estado e da família; princípios da igualdade, liberdade de aprender e gratuidade do ensino público.\n\n**Vinculação de recursos (art. 212).** Mínimos constitucionais para a educação (18% União; 25% Estados e Municípios).\n\n**Princípios administrativos (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Servidores.** Ingresso por concurso; acumulação de cargos; estabilidade após 3 anos.\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SESAU-RO",
+    "slug": "sesau-ro-portugues",
+    "titulo": "Língua Portuguesa (IDECAN) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções do se, concordância, regência, crase e interpretação.",
+    "conteudo": "**Funções do se.** Apassivador com VTD/VTDI (verbo concorda com o sujeito paciente); índice de indeterminação com VI/VTI/VL (3ª pessoa do singular).\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; existir é pessoal.\n\n**Regência.** Obedecer, assistir (presenciar) e proceder (realizar) pedem preposição a; preferir pede a.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, numeral cardinal e palavra masculina.\n\n**Interpretação.** Textos informativos e científicos; distinga o que se afirma do que se infere.",
+    "ordem": 5
+  },
+  {
+    "concurso": "SESAU-RO",
+    "slug": "sesau-ro-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SESAU-RO",
+    "slug": "sesau-ro-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e prontuário eletrônico.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas de saúde.** Prontuário eletrônico, SINAN e sistemas de informação do SUS; LGPD aplicada a dados de saúde.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SESAU-RO",
+    "slug": "sesau-ro-politicas-saude",
+    "titulo": "Políticas de Saúde e Atenção Básica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PNAB, ESF, determinantes sociais e promoção da saúde.",
+    "conteudo": "**PNAB (Portaria 2.436/2017).** Atenção básica como conjunto de ações individuais, familiares e coletivas, porta de entrada preferencial e ordenadora da Rede de Atenção à Saúde.\n\n**Estratégia Saúde da Família (ESF).** Modelo prioritário de organização da atenção básica, com equipe multiprofissional e base territorial.\n\n**Determinantes sociais da saúde.** Fatores sociais, econômicos, culturais, étnicos e comportamentais que condicionam a saúde da população.\n\n**Promoção da saúde.** Ações intersetoriais de prevenção de agravos, alimentação saudável, atividade física e redução de riscos.\n\n**Redes de Atenção à Saúde (RAS).** Organização regionalizada e hierarquizada, com regulação e integração entre níveis de complexidade.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-portugues",
+    "titulo": "Língua Portuguesa (Cebraspe) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, coesão, concordância, crase e pontuação.",
+    "conteudo": "**Interpretação.** Distinga o que se afirma do que se infere; atenção a advérbios totalizantes.\n\n**Coesão.** Pronome onde só retoma lugar físico; cujo exprime posse e não admite artigo posposto.\n\n**Concordância.** Haver (existir) é impessoal; expressões partitivas admitem singular ou plural.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Oração adjetiva explicativa exige vírgulas; a supressão transforma-a em restritiva.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas de informação.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas de saúde.** Prontuário eletrônico, SINAN e sistemas de informação do SUS; LGPD aplicada a dados de saúde.",
+    "ordem": 6
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-saude-publica",
+    "titulo": "Saúde Pública — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Campos de atuação do SUS, determinantes sociais e indicadores.",
+    "conteudo": "**Campos de atuação (art. 6º da Lei 8.080/1990).** Vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e assistência terapêutica integral, incluindo a farmacêutica.\n\n**Determinantes sociais da saúde.** Fatores sociais, econômicos, culturais, étnicos e comportamentais que condicionam a saúde.\n\n**Indicadores.** Incidência (casos novos), prevalência (casos existentes), mortalidade e letalidade; endemia, epidemia, pandemia e surto.\n\n**Modelos de atenção.** Vigilância e atenção básica articuladas, com regionalização e hierarquização.\n\n**Saúde indígena (arts. 19-A a 19-H da Lei 8.080/1990).** Subsistema financiado pela União, com atuação complementar de Estados e Municípios.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-politicas-saude",
+    "titulo": "Políticas de Saúde e Vigilância — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PNAB, ESF, promoção da saúde e imunização.",
+    "conteudo": "**PNAB (Portaria 2.436/2017).** Atenção básica como porta de entrada preferencial e ordenadora da rede.\n\n**Estratégia Saúde da Família (ESF).** Modelo prioritário, com equipe multiprofissional e base territorial.\n\n**Promoção da saúde.** Ações intersetoriais de prevenção, alimentação saudável e redução de riscos.\n\n**Imunização (PNI).** Calendário vacinal nacional; vacinação de bloqueio e cobertura vacinal como indicador.\n\n**Biossegurança (NR-32).** EPI, vacinação ocupacional, manejo seguro de resíduos e perfurocortantes.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-portugues",
+    "titulo": "Língua Portuguesa (Cebraspe) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, coesão, concordância, crase e pontuação.",
+    "conteudo": "**Interpretação.** Distinga o que se afirma do que se infere; atenção a advérbios totalizantes.\n\n**Coesão.** Pronome onde só retoma lugar físico; cujo exprime posse e não admite artigo posposto.\n\n**Concordância.** Haver (existir) é impessoal; expressões partitivas admitem singular ou plural.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Oração adjetiva explicativa exige vírgulas; a supressão transforma-a em restritiva.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas de informação.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas de saúde.** Prontuário eletrônico, SINAN e sistemas de informação do SUS; LGPD aplicada a dados de saúde.",
+    "ordem": 6
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-politicas-saude",
+    "titulo": "Políticas de Saúde e Atenção Básica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PNAB, ESF, determinantes sociais e promoção da saúde.",
+    "conteudo": "**PNAB (Portaria 2.436/2017).** Atenção básica como porta de entrada preferencial e ordenadora da rede.\n\n**Estratégia Saúde da Família (ESF).** Modelo prioritário, com equipe multiprofissional e base territorial.\n\n**Determinantes sociais da saúde.** Fatores sociais, econômicos, culturais, étnicos e comportamentais.\n\n**Promoção da saúde.** Ações intersetoriais de prevenção, alimentação saudável e redução de riscos.\n\n**Redes de Atenção à Saúde (RAS).** Regionalização e hierarquização, com regulação entre níveis de complexidade.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e reescrita.",
+    "conteudo": "**Interpretação e semântica.** Análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos de concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Reescrita.** Deve manter correção gramatical e sentido original; troca de conectivo muda o nexo lógico.\n\n**Regência.** Assistir (presenciar) e preferir pedem preposição a; cuidado com dequeísmo.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas de informação.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas de saúde.** Prontuário eletrônico, SINAN e sistemas de informação do SUS; LGPD aplicada a dados de saúde.",
+    "ordem": 6
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-politicas-saude",
+    "titulo": "Políticas de Saúde e Atenção Básica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PNAB, ESF, determinantes sociais e promoção da saúde.",
+    "conteudo": "**PNAB (Portaria 2.436/2017).** Atenção básica como porta de entrada preferencial e ordenadora da rede.\n\n**Estratégia Saúde da Família (ESF).** Modelo prioritário, com equipe multiprofissional e base territorial.\n\n**Determinantes sociais da saúde.** Fatores sociais, econômicos, culturais, étnicos e comportamentais.\n\n**Promoção da saúde.** Ações intersetoriais de prevenção, alimentação saudável e redução de riscos.\n\n**Redes de Atenção à Saúde (RAS).** Regionalização e hierarquização, com regulação entre níveis de complexidade.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-portugues",
+    "titulo": "Língua Portuguesa (AOCP) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções do se e do que, concordância, regência e redação oficial.",
+    "conteudo": "**Funções do se.** Apassivador com VTD (verbo concorda com o sujeito paciente); índice de indeterminação com VI/VTI (3ª pessoa do singular).\n\n**Funções do que.** Pronome relativo, conjunção integrante e conjunção subordinativa.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; existir é pessoal.\n\n**Regência e crase.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; crase proibida antes de verbo e palavra masculina.\n\n**Redação oficial.** Clareza, concisão, impessoalidade e paralelismo; pronomes de tratamento.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas de informação.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas de saúde.** Prontuário eletrônico, SINAN e sistemas de informação do SUS; LGPD aplicada a dados de saúde.",
+    "ordem": 6
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-saude-publica",
+    "titulo": "Saúde Pública — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Campos de atuação do SUS, determinantes sociais e indicadores.",
+    "conteudo": "**Campos de atuação (art. 6º da Lei 8.080/1990).** Vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e assistência terapêutica integral.\n\n**Determinantes sociais da saúde.** Fatores sociais, econômicos, culturais, étnicos e comportamentais.\n\n**Indicadores.** Incidência, prevalência, mortalidade e letalidade; endemia, epidemia, pandemia e surto.\n\n**Modelos de atenção.** Vigilância e atenção básica articuladas, com regionalização e hierarquização.\n\n**Saúde indígena (arts. 19-A a 19-H).** Subsistema financiado pela União, com atuação complementar de Estados e Municípios.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-politicas-saude",
+    "titulo": "Políticas de Saúde e Atenção Básica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "PNAB, ESF, promoção da saúde e imunização.",
+    "conteudo": "**PNAB (Portaria 2.436/2017).** Atenção básica como porta de entrada preferencial e ordenadora da rede.\n\n**Estratégia Saúde da Família (ESF).** Modelo prioritário, com equipe multiprofissional e base territorial.\n\n**Promoção da saúde.** Ações intersetoriais de prevenção, alimentação saudável e redução de riscos.\n\n**Imunização (PNI).** Calendário vacinal nacional; vacinação de bloqueio e cobertura vacinal.\n\n**Biossegurança e segurança do paciente.** NR-32 e protocolos básicos (identificação, higienização das mãos, cirurgia segura, medicamentos).",
+    "ordem": 8
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e crase.",
+    "conteudo": "**Interpretação e semântica.** Análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos de concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Colocação pronominal.** Próclise com palavras atrativas; ênclise no início de frase; mesóclise com futuro.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas fiscais.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas fazendários.** Nota Fiscal Eletrônica, SPED (fiscal e contábil) e certificação digital (ICP-Brasil).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, art. 5º, organização do Estado e limitações ao poder de tributar.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, devido processo legal e remédios constitucionais.\n\n**Organização do Estado e competências.** Repartição de competências (arts. 21 a 24); competências tributárias (arts. 145 a 156).\n\n**Limitações ao poder de tributar (arts. 150 a 152).** Legalidade, isonomia, irretroatividade, anterioridade anual e nonagesimal, vedação ao confisco e imunidades.\n\n**Repartição de receitas (arts. 157 a 162).** Transferências constitucionais aos Estados e Municípios.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-financeiro",
+    "titulo": "Direito Financeiro e Orçamento — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lei 4.320/1964, LRF, princípios orçamentários e receitas/despesas.",
+    "conteudo": "**Lei nº 4.320/1964.** Normas gerais de Direito Financeiro; receitas e despesas públicas; receitas correntes e de capital.\n\n**Princípios orçamentários.** Unidade, universalidade, anualidade, exclusividade e equilíbrio; orçamento-programa.\n\n**LRF (LC 101/2000).** Responsabilidade na gestão fiscal; metas, limites de despesa com pessoal e dívida; renúncia de receita.\n\n**Receitas e despesas.** Classificação por categoria econômica; contribuições sociais como receita corrente.\n\n**Créditos adicionais.** Suplementares, especiais e extraordinários; execução orçamentária e financeira.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-contabilidade",
+    "titulo": "Contabilidade Geral — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Patrimônio, contas, escrituração, demonstrações e princípios.",
+    "conteudo": "**Patrimônio.** Ativo (bens e direitos), passivo (obrigações) e patrimônio líquido (PL = A − P).\n\n**Contas e partidas dobradas.** Todo débito tem crédito de igual valor; natureza das contas (ativo devedor, passivo/PL credor, receitas credoras, despesas devedoras).\n\n**Escrituração.** Livro diário, razão e balancete de verificação; regime de competência x regime de caixa.\n\n**Demonstrações.** Balanço patrimonial, DRE, DFC, DMPL e notas explicativas.\n\n**Princípios.** Entidade, continuidade, oportunidade, registro pelo valor original, competência e prudência.\n\n**Análise.** Índices de liquidez, endividamento e rentabilidade; análise vertical e horizontal.",
+    "ordem": 9
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-legislacao-estadual",
+    "titulo": "Legislação Tributária Estadual do Acre — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "ICMS estadual, obrigações acessórias, substituição tributária e RICMS.",
+    "conteudo": "**ICMS (art. 155, II, CF/88 e LC 87/1996).** Imposto estadual sobre circulação de mercadorias e serviços de transporte interestadual/intermunicipal e de comunicação; não cumulatividade e seletividade.\n\n**Legislação estadual do Acre.** O RICMS/AC disciplina fato gerador, base de cálculo, alíquotas, crédito e obrigações acessórias; confira o regulamento vigente no edital.\n\n**Substituição tributária.** Retenção antecipada do ICMS por responsável designado; operações sujeitas conforme a legislação estadual.\n\n**Obrigações acessórias.** Emissão de documentos fiscais, escrituração e entrega de declarações (NF-e, SPED Fiscal).\n\n**Diferencial de alíquotas (DIFAL).** Incidência nas operações interestaduais destinadas a consumidor final não contribuinte.",
+    "ordem": 10
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-reforma-tributaria",
+    "titulo": "Reforma Tributária (EC 132/2023) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "IVA dual (IBS/CBS), princípios, transição e mecanismos.",
+    "conteudo": "**IVA dual.** O IBS (Imposto sobre Bens e Serviços, de competência de Estados e Municípios) substitui ICMS e ISS; a CBS (Contribuição sobre Bens e Serviços, federal) substitui PIS e Cofins (e, gradualmente, o IPI).\n\n**Princípios.** Não cumulatividade plena, cobrança no destino, transparência, isonomia e simplificação.\n\n**Transição.** Período de convivência com os tributos atuais até a plena vigência dos novos.\n\n**Cesta básica e cashback.** Cesta básica nacional desonerada; devolução personalizada (cashback) a famílias de baixa renda.\n\n**Fundos compensatórios.** Mecanismos de compensação aos entes federados durante a transição.",
+    "ordem": 11
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-portugues",
+    "titulo": "Língua Portuguesa (Cebraspe) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, coesão, concordância, crase e pontuação.",
+    "conteudo": "**Interpretação.** Distinga o que se afirma do que se infere; atenção a advérbios totalizantes.\n\n**Coesão.** Pronome onde só retoma lugar físico; cujo exprime posse e não admite artigo posposto.\n\n**Concordância.** Haver (existir) é impessoal; expressões partitivas admitem singular ou plural.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Oração adjetiva explicativa exige vírgulas; a supressão transforma-a em restritiva.",
+    "ordem": 4
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas fiscais.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas fazendários.** Nota Fiscal Eletrônica, SPED (fiscal e contábil) e certificação digital (ICP-Brasil).",
+    "ordem": 6
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, art. 5º, organização do Estado e limitações ao poder de tributar.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, devido processo legal e remédios constitucionais.\n\n**Organização do Estado e competências.** Repartição de competências (arts. 21 a 24); competências tributárias (arts. 145 a 156).\n\n**Limitações ao poder de tributar (arts. 150 a 152).** Legalidade, isonomia, irretroatividade, anterioridade anual e nonagesimal, vedação ao confisco e imunidades.\n\n**Repartição de receitas (arts. 157 a 162).** Transferências constitucionais aos Estados e Municípios.",
+    "ordem": 7
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-financeiro",
+    "titulo": "Direito Financeiro e Orçamento — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lei 4.320/1964, LRF, princípios orçamentários e receitas/despesas.",
+    "conteudo": "**Lei nº 4.320/1964.** Normas gerais de Direito Financeiro; receitas e despesas públicas; receitas correntes e de capital.\n\n**Princípios orçamentários.** Unidade, universalidade, anualidade, exclusividade e equilíbrio; orçamento-programa.\n\n**LRF (LC 101/2000).** Responsabilidade na gestão fiscal; metas, limites de despesa com pessoal e dívida; renúncia de receita.\n\n**Receitas e despesas.** Classificação por categoria econômica; contribuições sociais como receita corrente.\n\n**Créditos adicionais.** Suplementares, especiais e extraordinários; execução orçamentária e financeira.",
+    "ordem": 8
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-contabilidade",
+    "titulo": "Contabilidade Geral — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Patrimônio, contas, escrituração, demonstrações e princípios.",
+    "conteudo": "**Patrimônio.** Ativo (bens e direitos), passivo (obrigações) e patrimônio líquido (PL = A − P).\n\n**Contas e partidas dobradas.** Todo débito tem crédito de igual valor; natureza das contas (ativo devedor, passivo/PL credor, receitas credoras, despesas devedoras).\n\n**Escrituração.** Livro diário, razão e balancete de verificação; regime de competência x regime de caixa.\n\n**Demonstrações.** Balanço patrimonial, DRE, DFC, DMPL e notas explicativas.\n\n**Princípios.** Entidade, continuidade, oportunidade, registro pelo valor original, competência e prudência.\n\n**Análise.** Índices de liquidez, endividamento e rentabilidade; análise vertical e horizontal.",
+    "ordem": 9
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-legislacao-estadual",
+    "titulo": "Legislação Tributária Estadual do Pará — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "ICMS estadual, obrigações acessórias, substituição tributária e RICMS.",
+    "conteudo": "**ICMS (art. 155, II, CF/88 e LC 87/1996).** Imposto estadual sobre circulação de mercadorias e serviços de transporte interestadual/intermunicipal e de comunicação; não cumulatividade e seletividade.\n\n**Legislação estadual do Pará.** O RICMS/PA disciplina fato gerador, base de cálculo, alíquotas, crédito e obrigações acessórias; confira o regulamento vigente no edital.\n\n**Substituição tributária.** Retenção antecipada do ICMS por responsável designado; operações sujeitas conforme a legislação estadual.\n\n**Obrigações acessórias.** Emissão de documentos fiscais, escrituração e entrega de declarações (NF-e, SPED Fiscal).\n\n**Diferencial de alíquotas (DIFAL).** Incidência nas operações interestaduais destinadas a consumidor final não contribuinte.",
+    "ordem": 10
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-portugues",
+    "titulo": "Língua Portuguesa (AOCP) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções do que, concordância, regência, crase e interpretação.",
+    "conteudo": "**Funções do que.** Pronome relativo (retoma antecedente e exerce função sintática), conjunção integrante e conjunção subordinativa.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Regência.** Visar (almejar) é transitivo indireto (preposição a); informar algo a alguém (sem dequeísmo).\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Interpretação.** Textos informativos e jornalísticos; distinga o que se afirma do que se infere.",
+    "ordem": 5
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (AOCP) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Equivalência e negação da condicional, probabilidade e análise combinatória.",
+    "conteudo": "**Equivalência da condicional (P → Q).** Contrapositiva (¬Q → ¬P) e disjunção (¬P ou Q — NEga a primeira, troca por OU, MAntém a segunda).\n\n**Negação da condicional.** P e ¬Q (mantém a primeira E nega a segunda).\n\n**Análise combinatória.** Arranjo (ordem importa) e combinação (ordem não importa); C(n,k) = n! / [k!(n−k)!].\n\n**Probabilidade.** Casos favoráveis / casos possíveis; eventos dependentes multiplicam as probabilidades sem reposição.\n\n**Sequências e conjuntos.** Padrões lógicos; n(A∪B) = n(A) + n(B) − n(A∩B).",
+    "ordem": 6
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-informatica",
+    "titulo": "Noções de Informática (AOCP) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, planilhas, internet e segurança.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Planilhas eletrônicas.** Excel/LibreOffice Calc: fórmulas e funções (MÉDIA, SOMA, SE); ponto e vírgula (;) separa células isoladas e dois-pontos (:) indica intervalo.\n\n**Word e PowerPoint.** Formatação, mala direta, layouts e transições.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, phishing, firewall, antivírus e backup.",
+    "ordem": 7
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-constitucional",
+    "titulo": "Direito Constitucional — política agrícola e fundiária — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Arts. 184 a 191, terras devolutas e competências.",
+    "conteudo": "**Política agrícola e fundiária (arts. 184 a 191).** Competência da União para desapropriar por interesse social para reforma agrária; função social da propriedade (art. 186).\n\n**Função social (art. 186).** Aproveitamento racional e adequado, uso adequado dos recursos naturais, observância das relações de trabalho e bem-estar de proprietários e trabalhadores.\n\n**Terras devolutas.** Pertencem aos Estados as não compreendidas entre as da União (art. 26, IV); são da União as de fronteira, fortificações, vias federais e preservação ambiental (art. 20, II).\n\n**Usucapião rural (art. 191).** 5 anos ininterruptos, sem oposição, área até 50 hectares, produtiva e com moradia; imóveis públicos não são usucapíveis (Súmula 340 do STF).\n\n**Terras indígenas (art. 20, XI).** Bens da União, inalienáveis e indisponíveis.",
+    "ordem": 8
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-legislacao-fundiaria-pa",
+    "titulo": "Legislação Fundiária do Pará (Lei 8.878/2019) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Política estadual de regularização fundiária e instrumentos (TD e CDRU).",
+    "conteudo": "**Lei Estadual nº 8.878/2019.** Dispõe sobre a política estadual de regularização fundiária das ocupações em terras públicas rurais e urbanas do domínio do Estado do Pará, executada pelo ITERPA.\n\n**Título de Domínio (TD).** Instrumento definitivo de transferência de propriedade, oneroso ou gratuito nas hipóteses legais, sujeito a cláusulas resolutivas de inalienabilidade temporária e cumprimento da função socioambiental.\n\n**Concessão de Direito Real de Uso (CDRU).** Direito real resolúvel usado especialmente em territórios coletivos agroextrativistas, ribeirinhos e de uso sustentável.\n\n**Georreferenciamento (Lei 10.267/2001).** Memorial descritivo com ART e coordenadas ao SGB, certificadas pelo INCRA/SIGEF, requisito para desmembramento, parcelamento, remembramento e transferência.\n\n**Terras quilombolas (art. 68 do ADCT).** Titulação coletiva, pró-indiviso, inalienável e imprescritível, com critério de autoatribuição (Decreto 4.887/2003 e ADI 3.239/DF).",
+    "ordem": 9
+  },
+  {
+    "concurso": "ITERPA",
+    "slug": "iterpa-historia-geografia",
+    "titulo": "História e Geografia do Pará — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Formação histórica, Cabanagem, hidrografia e mesorregiões.",
+    "conteudo": "**Formação histórica.** O Pará integra a Amazônia; a ocupação remonta aos povos originários e à colonização portuguesa (fundação de Belém em 1616).\n\n**Cabanagem (1835–1840).** Revolta popular da Província do Grão-Pará em que camadas populares (indígenas, negros, mestiços e ribeirinhos) chegaram a tomar o poder provincial em Belém.\n\n**Ciclos econômicos.** Borracha (final do século XIX e início do XX), castanha, mineração e agropecuária; projetos como a Serra Pelada e a mineração de Carajás.\n\n**Hidrografia.** Bacia Amazônica: rio Amazonas e afluentes (Tapajós, Xingu, Tocantins, Araguaia); Ilha do Marajó (maior ilha fluviomarinha).\n\n**Mesorregiões e divisão.** Baixo Amazonas, Marajó, Metropolitana de Belém, Nordeste, Sudoeste e Sudeste paraense; 144 municípios (IBGE).",
+    "ordem": 10
+  },
+  {
+    "concurso": "ALEPA",
+    "slug": "alepa-rlm",
+    "titulo": "Raciocínio Lógico-Matemático (Cetap) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); resolva com a fórmula da união e diagramas.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "ALEPA",
+    "slug": "alepa-informatica",
+    "titulo": "Noções de Informática (Cetap) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, e-mail, internet e segurança.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Correio eletrônico.** Campos Para, Cc e Cco; Cco oculta os destinatários dos demais; anexos.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Vírus, phishing, firewall, antivírus e backup.",
+    "ordem": 6
+  },
+  {
+    "concurso": "ALEPA",
+    "slug": "alepa-legislacao-pa",
+    "titulo": "Legislação do Pará (Constituição Estadual e Lei 5.810/1994) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Organização dos Poderes e Regime Jurídico Único do Pará.",
+    "conteudo": "**Constituição do Estado do Pará.** Organiza os Poderes Executivo, Legislativo (ALEPA) e Judiciário (TJPA), por simetria à CF/88; disciplina o processo legislativo estadual e o controle externo com o TCE-PA.\n\n**Poder Legislativo estadual.** 41 deputados (art. 27 da CF/88); imunidades materiais e formais; comissões e CPIs.\n\n**Lei nº 5.810/1994 (RJU).** Regime jurídico dos servidores civis da Administração Direta, autarquias e fundações do Pará.\n\n**Provimento derivado.** Reversão, reintegração, readaptação, recondução e aproveitamento.\n\n**Estabilidade.** 3 anos de efetivo exercício com avaliação especial de desempenho (art. 41 da CF/88).",
+    "ordem": 7
+  },
+  {
+    "concurso": "ALEPA",
+    "slug": "alepa-historia-geografia",
+    "titulo": "História, Geografia e Atualidades do Pará — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Cabanagem, ciclos econômicos, hidrografia e mesorregiões.",
+    "conteudo": "**Formação histórica.** Ocupação portuguesa e fundação de Belém (1616); a Província do Grão-Pará.\n\n**Cabanagem (1835–1840).** Revolta popular em que os cabanos (liderados por Félix Clemente Malcher, Francisco Pedro Vinagre e Eduardo Angelim) tomaram o poder provincial.\n\n**Ciclos econômicos.** Borracha (auge no final do século XIX e início do XX, com o Teatro da Paz), castanha, mineração (Serra Pelada, Carajás) e agropecuária.\n\n**Hidrografia e relevo.** Bacia Amazônica; rio Amazonas e afluentes (Tapajós, Xingu, Tocantins, Araguaia); Ilha do Marajó.\n\n**Mesorregiões.** Baixo Amazonas, Marajó, Metropolitana de Belém, Nordeste, Sudoeste e Sudeste paraense; atualidades sobre desenvolvimento regional.",
+    "ordem": 8
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-portugues",
+    "titulo": "Língua Portuguesa e Redação Oficial (IBADE) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Concordância, regência, crase, colocação e redação oficial.",
+    "conteudo": "**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; implicar (acarretar) é transitivo direto.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Colocação pronominal.** Próclise com palavras atrativas; ênclise no início de frase; mesóclise com futuro.\n\n**Redação oficial (MRPR).** Clareza, concisão, impessoalidade, formalidade e padronização; pronomes de tratamento e fechos (Respeitosamente/Atenciosamente).",
+    "ordem": 4
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas previdenciários.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas previdenciários.** Bases de dados de segurados, certificação digital e LGPD aplicada a dados pessoais.",
+    "ordem": 5
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-constitucional",
+    "titulo": "Direito Constitucional — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, art. 5º, organização do Estado e controle concentrado estadual.",
+    "conteudo": "**Princípios fundamentais (arts. 1º a 4º).** Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.\n\n**Direitos e garantias (art. 5º).** Igualdade, legalidade, devido processo legal e remédios constitucionais.\n\n**Organização do Estado.** União, Estados, DF e Municípios; repartição de competências (arts. 21 a 24).\n\n**Controle concentrado estadual (art. 125, § 2º).** Representação de inconstitucionalidade de leis ou atos estaduais/municipais em face da Constituição Estadual, vedada a legitimação a um único órgão.\n\n**Repercussão geral (art. 102, § 3º).** Requisito do recurso extraordinário; reconhecimento por 2/3 do STF.\n\n**Defensoria Pública (art. 134).** Autonomia funcional, administrativa e orçamentária (EC 80/2014).",
+    "ordem": 6
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, autarquias e licitações.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos e atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário.\n\n**Autarquias.** Pessoa jurídica de direito público criada por lei; imunidade tributária recíproca, bens impenhoráveis e prazos em dobro; responsabilidade objetiva (art. 37, § 6º).\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade; improbidade exige dolo.",
+    "ordem": 7
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-portugues",
+    "titulo": "Língua Portuguesa (FGV) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, semântica, coesão, concordância e reescrita.",
+    "conteudo": "**Interpretação e semântica.** Análise de pressupostos, ambiguidade e valores de preposições e conjunções.\n\n**Coesão.** Pronomes relativos (que, cujo, onde, o qual); conectivos de concessão, causa, conclusão e oposição.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Reescrita.** Deve manter correção gramatical e sentido original; troca de conectivo muda o nexo lógico.\n\n**Regência.** Assistir (presenciar) e preferir pedem preposição a; cuidado com dequeísmo.",
+    "ordem": 4
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e processo eletrônico.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Processo judicial eletrônico.** PJe, certificação digital (ICP-Brasil) e assinatura digital (autenticidade, integridade e não repúdio).",
+    "ordem": 6
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, licitações e servidores.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos e atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário.\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade; improbidade exige dolo.\n\n**Servidores.** Ingresso por concurso; acumulação de cargos; estabilidade após 3 anos; responsabilidade civil objetiva do Estado (art. 37, § 6º).",
+    "ordem": 7
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-regimento-interno",
+    "titulo": "Regimento Interno do TJ-AP — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Organização, órgãos, competências e quóruns do Tribunal.",
+    "conteudo": "**Natureza e organização.** O Tribunal de Justiça do Amapá organiza-se por seu Regimento Interno, disciplinando composição, órgãos e competências, conforme a Constituição Estadual e a CF/88.\n\n**Órgãos.** Tribunal Pleno, Órgão Especial (quando instituído), Câmaras Cíveis e Criminais, Conselho da Magistratura e Corregedoria-Geral de Justiça.\n\n**Competências.** Julgamento originário e recursal; iniciativa da lei de organização judiciária é privativa do TJ (art. 125, § 1º, CF/88).\n\n**Quóruns e sessões.** Deliberações por maioria simples ou absoluta conforme a matéria; confira os artigos específicos no regimento vigente.\n\n**Quinto constitucional (art. 94).** Um quinto dos lugares composto por membros do MP e advogados, indicados em lista sêxtupla.",
+    "ordem": 8
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-portugues",
+    "titulo": "Língua Portuguesa (IDECAN) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções do se, concordância, regência, crase e interpretação.",
+    "conteudo": "**Funções do se.** Apassivador com VTD (verbo concorda com o sujeito paciente); índice de indeterminação com VI/VTI (3ª pessoa do singular).\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; existir é pessoal.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Interpretação.** Textos informativos; distinga o que se afirma do que se infere.",
+    "ordem": 4
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 5
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-legislacao",
+    "titulo": "Legislação da PM-AC — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Estatuto dos Policiais Militares do Acre, hierarquia, disciplina e ingresso.",
+    "conteudo": "**Estatuto dos Policiais Militares do Acre.** Regula a situação, os deveres, os direitos e as prerrogativas dos militares estaduais do Acre.\n\n**Hierarquia e disciplina.** Base institucional da PM-AC (arts. 42 e 142 da CF/88); postos para oficiais e graduações para praças.\n\n**Ingresso e requisitos.** Concurso público, idade, escolaridade, aptidão física e idoneidade moral conforme a lei de ingresso vigente.\n\n**Vedações.** Proibidas a sindicalização e a greve e, em serviço ativo, a filiação partidária (art. 142, § 3º, da CF/88).\n\n**Dica.** Confira o estatuto e a lei de ingresso vigentes no edital; este resumo é um mapa de estudo.",
+    "ordem": 6
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-direitos-humanos",
+    "titulo": "Direitos Humanos — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "DUDH, Pacto de São José, garantias do preso e uso proporcional da força.",
+    "conteudo": "**Declaração Universal dos Direitos Humanos (1948).** Dignidade, igualdade, vida, liberdade, vedação à tortura.\n\n**Pacto de São José da Costa Rica.** Devido processo legal e integridade pessoal.\n\n**Garantias do preso (art. 5º da CF/88).** Comunicação da prisão, direito ao silêncio, assistência de advogado.\n\n**Uso de algemas (Súmula Vinculante 11).** Só em caso de resistência, fundado receio de fuga ou perigo à integridade física.\n\n**Uso proporcional da força.** Legalidade, necessidade e proporcionalidade; o excesso é punível.",
+    "ordem": 7
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-historia-geografia",
+    "titulo": "História e Geografia do Acre — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Formação territorial, Tratado de Petrópolis, hidrografia e economia.",
+    "conteudo": "**Formação territorial.** O Acre, incorporado ao Brasil pelo Tratado de Petrópolis (1903), foi Território Federal e elevado a Estado em 1962; capital Rio Branco.\n\n**Tratado de Petrópolis.** Negociação com a Bolívia que definiu a incorporação do território, com indenização e o compromisso da ferrovia Madeira-Mamoré.\n\n**Ciclo da borracha.** Auge no final do século XIX e início do XX; seringueiros, migrantes nordestinos e a figura de Chico Mendes na defesa da floresta.\n\n**Hidrografia.** Rios Juruá, Purus, Acre, Tarauacá e Envira, integrantes da bacia amazônica.\n\n**Fronteiras e economia.** Limites com Peru e Bolívia e com os Estados do Amazonas e Rondônia; economia de extrativismo, agropecuária e serviços.",
+    "ordem": 8
+  },
+  {
+    "concurso": "CREA-AM",
+    "slug": "crea-am-portugues",
+    "titulo": "Língua Portuguesa (ACCESS) — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Interpretação, concordância, regência, crase e pontuação.",
+    "conteudo": "**Interpretação.** Leia o enunciado e volte ao texto; cuidado com extrapolação e paráfrases que alteram o sentido.\n\n**Concordância.** Haver (existir) e fazer (tempo) são impessoais; sujeito composto leva o verbo ao plural.\n\n**Regência.** Obedecer, assistir (presenciar) e visar (almejar) pedem preposição a; implicar (acarretar) é transitivo direto.\n\n**Crase.** Fusão de preposição a + artigo a; proibida antes de verbo, palavra masculina e pronome pessoal.\n\n**Pontuação.** Vírgula não separa sujeito de predicado; isola aposto, vocativo e orações deslocadas.",
+    "ordem": 17
+  },
+  {
+    "concurso": "CREA-AM",
+    "slug": "crea-am-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Lógica proposicional, conjuntos, porcentagem e probabilidade.",
+    "conteudo": "**Lógica proposicional.** Tabela-verdade; equivalência da condicional (contrapositiva e disjunção); negação da condicional = P e ¬Q.\n\n**Conjuntos.** n(A∪B) = n(A) + n(B) − n(A∩B); diagramas de Venn.\n\n**Porcentagem.** Aumentos/descontos sucessivos multiplicam fatores.\n\n**Razão, proporção e regra de três.** Produto cruzado; grandezas direta e inversamente proporcionais.\n\n**Probabilidade e combinatória.** Probabilidade = favoráveis / possíveis; combinação C(n,k).",
+    "ordem": 18
+  },
+  {
+    "concurso": "CREA-AM",
+    "slug": "crea-am-informatica",
+    "titulo": "Noções de Informática — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Windows, Office, internet, segurança e sistemas do CREA.",
+    "conteudo": "**Windows.** Gerenciador de arquivos, atalhos (Ctrl+C/V/X/Z), lixeira, painel de controle.\n\n**Office.** Word (formatação, mala direta); Excel (fórmulas, SE, SOMA, MÉDIA, PROCV); PowerPoint.\n\n**Internet.** HTTP/HTTPS, URL, cookies, cache, favoritos; navegador x mecanismo de busca.\n\n**Segurança.** Confidencialidade, integridade e disponibilidade; vírus, phishing, firewall, backup.\n\n**Sistemas corporativos.** ART eletrônica, protocolo e certidões; certificação digital (ICP-Brasil).",
+    "ordem": 19
+  },
+  {
+    "concurso": "CREA-AM",
+    "slug": "crea-am-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, autarquias e licitações.",
+    "conteudo": "**Princípios (art. 37).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).\n\n**Atos administrativos.** Elementos e atributos (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade).\n\n**Poderes.** Hierárquico, disciplinar, regulamentar, de polícia, vinculado e discricionário; poder de polícia no exercício profissional.\n\n**Autarquias e conselhos.** O CREA é autarquia federal de fiscalização profissional, criada por lei, com imunidade tributária recíproca e bens impenhoráveis.\n\n**Licitações (Lei 14.133/2021).** Modalidades, dispensa e inexigibilidade; improbidade exige dolo.",
+    "ordem": 20
   }
 ]
