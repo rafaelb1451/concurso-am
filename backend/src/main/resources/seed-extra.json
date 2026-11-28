@@ -37361,5 +37361,1454 @@
     "concursos": [
       "SEFAZ-AM"
     ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o Pronunciamento Técnico CPC 00 (R2) - Estrutura Conceitual para Relatório Financeiro, muitos investidores, credores por empréstimos e outros credores, existentes e potenciais, não podem exigir que as entidades forneçam informações diretamente a eles, sendo, portanto, os principais usuários aos quais se destinam relatórios financeiros para fins gerais. Nesse sentido, em relação aos relatórios financeiros para fins gerais, de acordo com o Pronunciamento, assinale a afirmativa correta.",
+    "alternativas": [
+      "Destinam-se a apresentar o valor da entidade que reportam.",
+      "Baseiam -se em representações exatas e precisas do que se propõem a apresentar.",
+      "São completos, de modo que os usuários não precisam considerar informações de outras fontes.",
+      "Incluem informações adicionais que são úteis a um subconjunto específico de principais usuários.",
+      "Não são do interesse da administração da entidade que reporta, uma vez que esta obtém, internamente, as informações financeiras de que precisa."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária apresentava o seguinte balanço patrimonial, em 31/12/X0. As despesas antecipadas dizem respeito ao aluguel de uma sala comercial durante o ano e abrangem o período de dozemeses. Os veículos têm vida útil estimada em 5 anos e valor residual zero. Em janeiro de X1, aconteceram os seguintes eventos:  Pagamento dos salários do período anterior;  Recebimento do saldo com clientes;  Venda de todo o estoque por R$50.000, sendo metade à vista e metade com recebimento em 60 dias. A inadimplência é estimada em 3%;  Reconhecimento de despesas gerais, no valor de R$5.000;  Reconhecimento da despesa de depreciação e do aluguel. Assinale a opção que indica o lucro antes do imposto sobre a renda e da contribuição social da sociedade empresária, em 31/01/X1.",
+    "alternativas": [
+      "R$12.167.",
+      "R$22.417.",
+      "R$22.750.",
+      "R$23.167.",
+      "R$23.500."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária que presta serviços de auditoria possui um terreno que é mantido para valorização de capital a longo prazo. Em relação à mensuração do terreno no balanço patrimonial da sociedade empresária, ela deve",
+    "alternativas": [
+      "usar o método do custo.",
+      "usar o método do valor justo.",
+      "usar o método do custo de reposição",
+      "escolher entre o método do valor justo e o método do custo.",
+      "escolher entre o método do valor justo e o método do valor presente."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária, que prestava serviços de consultoria, apresentava o seguinte balanço patrimonial, em 31/12/X0: Neste ano, o prejuízo fiscal foi de R$100.000. No ano de X1, aconteceram os seguintes fatos:  Reconhecimento de receitas: R$500.000;  Reconhecimento dos custos: R$200.000;  Reconhecimento de despesas gerais tributáveis: R$100.000;  Reconhecimento de provisão para contingências: R$50.000. Assinale a opção que indica o lucro líquido na Demonstração do Resultado do Exercício da sociedade empresária, em 31/12/X1, considerando alíquota de imposto sobre a renda e contribuição social de 34%.",
+    "alternativas": [
+      "R$59.400.",
+      "R$76.560.",
+      "R$85.536.",
+      "R$88.902.",
+      "R$99.000."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em 01/01/X0, uma sociedade empresária contrai um empréstimo bancário de longo prazo no valor de R$100.000. Pelo empréstimo, ela reconhece e paga juros trimestrais de R$10.000. Na elaboração de sua Demonstração dos Fluxos de Caixa, os contadores da sociedade empresária optam por não seguir o encorajamento do Pronunciamento Técnico CPC 03 (02) - Demonstração dos Fluxos de Caixa, evidenciando o fato em nota explicativa. Assinale a opção que indica o impacto gerado na Demonstração dos Fluxos de Caixa da sociedade empresária, em 31/12/X0.",
+    "alternativas": [
+      "Aumento de R$60.000 na atividade operacional.",
+      "Aumento de R$60.000 na atividade de investimento.",
+      "Aumento de R$60.000 na atividade de financiamento.",
+      "Aumento de R$100.000 na atividade de financiamento e diminuição de R$40.000 na atividade operacional.",
+      "Aumento de R$100.000 na atividade de investimento e diminuição de R$40.000 na atividade operacional. Ativo Circulante 102.000 Passivo Circulante 8.000 Caixa 50.000 Salários apagar 8.000 Estoques 20.000 Passivo não Circulante 30.000 Despesas antecipadas 12.000 Empréstimos 30.000 Clientes 20.000 Ativo não Circulante 42.000 Patrimônio Líquido 106.000 Realizável aLongo Prazo Capital Social 100.000 Despesas antecipadas 12.000 Reservade Lucros 6.000 Imobilizado Veículos 50.000 Depreciação Acumulada 20.000 - Ativo Total 144.000 Passivo +PL 144.000 Ativo Circulante 100.000 Caixa 100.000 Ativo não Circulante 34.000 Patrimônio Líquido 134.000 Realizável aLongo Prazo Capital Social 200.000 IRDiferido- Crédito Fiscal 34.000 Prejuízos Acumulados 66.000 - Ativo Total 134.000 Passivo +PL 134.000 SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 4"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária apresenta o seguinte balanço patrimonial, em 31/12/X0. O investimento rende juros de R$12.000 ao ano. No ano de X0 aconteceram os seguintes fatos:  Pagamento dos dividendos que estavam no passivo.  Venda de todo o estoque por R$160.000 à vista.  Reconhecimento e pagamento de despesa de salários no valor de R$54.000, sendo R$20.000 a empregados próprios e, R$34.000, para mão de obra terceirizada.  Reconhecimento e pagamento de despesas de aluguel de sala comercial utilizada no ano, no valor de R$36.000.  Reconhecimento da receita de juros do investimento.  Reconhecimento do imposto sobre a renda com base na alíquota de 24% do lucro antes do imposto sobre a renda.  Distribuição de 25% do lucro líquido a título de dividendos. Os contadores elaboraram a Demonstração do Valor Adicionado do seguinte modo: Com base nas informações acima, assinale a opção que indica o preenchimento correto da tabela de A a D, considerando que não há diferença entre o tratamento contábil e o tributável.",
+    "alternativas": [
+      "16,67%; 8,40%; 38,33%; 36,60%.",
+      "18,18%; 9,16%; 32,73%; 39,93%.",
+      "18,52%; 9,33%; 42,56%; 29,56%.",
+      "20,41%; 10,29%; 36,73%; 32,57%.",
+      "23,24%; 11,71%; 41,83%; 23,22%."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a modificação trazida pela Lei nº 11.941/2009 à Lei nº 6.404/1976, no balanço patrimonial, as aplicações em instrumentos financeiros e em direitos e títulos de crédito, classificados no ativo circulante ou no ativo realizável, a longo prazo, são avaliadas pelo seu valor justo no seguinte caso:",
+    "alternativas": [
+      "são aplicações destinadas à negociação ou disponíveis para venda.",
+      "são aplicações relevantes para a entidade.",
+      "dizem respeito a créditos com sociedades controladas.",
+      "representam investimentos em bancos de primeira linha.",
+      "dizem respeito a vendas a crédito com empresas no exterior."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Geral",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em 01/12/X0, uma sociedade empresária adquiriu ações de emissão própria para mantê-las em tesouraria por R$100.000. Na aquisição, incorreu em custos de transação de R$15.000. Assinale a opção que indica a contabilização da aquisição pela sociedade empresária.",
+    "alternativas": [
+      "D- Capital Social: R$115.000; C- Ações em tesouraria: R$115.000.",
+      "D- Ações em tesouraria: R$115.000; C- Caixa: R$115.000.",
+      "D- Despesas: R$115.000; C- Capital Social: R$115.000.",
+      "D- Ações em tesouraria: R$100.000; D- Despesas: R$15.000; C- Caixa: R$115.000.",
+      "D- Despesas: R$15.000; D- Capital Social: R$100.000; C- Caixa: R$15.000; C- Ações em tesouraria: R$100.000. Contabilidade Avançada"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária apresentava o seguinte balanço patrimonial em 31/12/X0: A sociedade empresária avaliava o estoque de acordo com o método PEPS (primeiro que entra, primeira que sai). No ano, os contadores constataram que a informação contábil seria mais relevante ao avaliar o estoque pelo método do custo médio ponderado móvel, procedendo com a modificação. Além disso, foi constatado que a conta Caixa não havia considerado a compra de estoques e foi realizado o reconhecimento contábil para ajustar o efeito no período em que a aplicação prática foi possível. Assinale a opção que indica a demonstração contábil em que deverão ser contabilizados, respectivamente, os efeitos decorrentes da mudança do método de avaliação do estoque e da diminuição na conta Caixa.",
+    "alternativas": [
+      "Demonstração do Resultado do Exercício e Demonstração do Resultado do Exercício.",
+      "Demonstração do Resultado do Exercício e Demonstração dos Resultados Abrangentes.",
+      "Demonstração do Resultado do Exercício e Demonstração das Mutações do Patrimônio Líquido.",
+      "Demonstração das Mutações do Patrimônio Líquido e Demonstração das Mutações do Patrimônio Líquido.",
+      "Demonstração das Mutações do Patrimônio Líquido e Demonstração do Resultado do Exercício. Ativo Circulante 130.000 Passivo Circulante 12.000 Caixa 90.000 Dividendos apagar 12.000 Estoques 40.000 Ativo não Circulante 50.000 Patrimônio Líquido 168.000 Ativo Realizável aLongo Prazo Capital Social 140.000 Investimentos- LP 50.000 Reservade Lucros 28.000 Ativo Total 180.000 Passivo +PL 180.000 Ativo Circulante 110.000 Caixa 80.000 Estoques 30.000 Ativo não Circulante 100.000 Patrimônio Líquido 210.000 Imobilizado Capital Social 200.000 Terrenos 100.000 Reservade Lucros 10.000 Ativo Total 210.000 Passivo +PL 210.000 SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 5"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em 31/12/X0, as Cias X e Y apresentavam os seguintes balanços patrimoniais: Em 10/01/X1, a Cia. Y vendeu todo o seu estoque para a Cia. X a prazo por R$20.000. Em 20/01/X1, a Cia. X vendeu 60% do estoque para terceiros por R$24.000, a prazo. Assinale a opção que indica, no balanço patrimonial da Cia. X, em 31/01/X1, o saldo da conta investimentos.",
+    "alternativas": [
+      "R$16.000.",
+      "R$19.200.",
+      "R$20.800.",
+      "R$22.400.",
+      "R$24.000."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "As Cias. X e Y apresentavam os seguintes balanços patrimoniais, em 31/12/X0. Em janeiro de X1, a Cia. X vendeu o terreno para a Cia. Y, por R$90.000 à vista. Assinale a opção que indica o resultado apurado com a venda do terreno na Demonstração do Resultado do Exercício da Cia Y.",
+    "alternativas": [
+      "Zero.",
+      "R$4.000.",
+      "R$10.000.",
+      "R$16.000.",
+      "R$20.000."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em 01/01/X0, a Cia. X adquiriu 100% de participação na Cia. Y, por R$350.000. O controle foi transferido em 10/01/X0. Neste dia, a Cia X, com o apoio de uma empresa de consultoria externa, estimou o valor justo dos ativos e dos passivos da Cia. Y, do seguinte modo: Além disso, o valor justo dos ativos intangíveis não reconhecidos contabilmente na Cia. Y correspondiam a R$15.000. Assinale a opção que indica o valor do goodwill contabilizado pela Cia. X no momento do reconhecimento contábil da operação.",
+    "alternativas": [
+      "R$45.000.",
+      "R$60.000.",
+      "R$115.000.",
+      "R$130.000.",
+      "R$170.000."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em relação à taxa aplicada para fins de desconto a valor presente de ativos e passivos, de acordo com o Pronunciamento Técnico CPC 12 - Ajuste a Valor Presente, assinale a afirmativa correta.",
+    "alternativas": [
+      "Deve ser líquida de efeitos fiscais.",
+      "É calculada antes dos tributos diretos.",
+      "É calculada antes dos tributos sobre os lucros.",
+      "É calculada com base na taxa dos empréstimos subsidiados.",
+      "Deve seguir a mesma diretriz da taxa de desconto do valor justo."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária comercial tem ativo total de R$400 milhões. No ano de X1, ela resolve começar a atuar no comércio eletrônico, efetuando o arrendamento de um galpão, que será usado entre os meses de junho a dezembro. O valor do arrendamento é de R$1 milhão e a taxa de desconto, utilizada no período, é de 5%. A sociedade empresária avalia o melhor modo de contabilização do galpão em suas demonstrações contábeis, seguindo as diretrizes do Pronunciamento Técnico CPC 06 (R2)- Arrendamentos, ponderadas com a restrição de custo prevista no Pronunciamento Técnico CPC 00 (R2)- Estrutura Conceitual para Relatório Financeiro. De acordo com o Pronunciamento Técnico CPC 06 (R2) – Arrendamentos, assinale a opção que indica a contabilização do galpão e sua respectiva justificativa.",
+    "alternativas": [
+      "Ativo, com base na continuidade.",
+      "Ativo, com base no prazo de duração do contrato.",
+      "Passivo, com base na continuidade.",
+      "Despesa, com base na atividade fim.",
+      "Despesa, com base no prazo de duração do contrato."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o Pronunciamento Técnico CPC 46 - Mensuração do Valor Justo, a mensuração do valor justo presume que a transação para a venda do ativo ocorre no mercado principal para o ativo ou, em sua ausência,",
+    "alternativas": [
+      "em fatos históricos mais recentes.",
+      "no mercado mais similar para o ativo.",
+      "no mercado mais vantajoso para o ativo.",
+      "com base nos preços cotados no mercado internacional.",
+      "no mercado em que a empresa comprou o bem no passado."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade Avançada",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o Pronunciamento Técnico CPC 07 (R1) Subvenção e Assistência Governamentais, a subvenção governamental relacionada a um ativo não monetário mensurado ao valor justo, deve ser apresentada no balanço patrimonial do seguinte modo:",
+    "alternativas": [
+      "redutor da conta do ativo relacionado, apenas.",
+      "receita diferida no passivo, apenas.",
+      "reserva de subvenção no patrimônio líquido, apenas.",
+      "redutor da conta do ativo relacionado ou da receita diferida no passivo.",
+      "receita diferida no passivo ou na reserva de subvenção no patrimônio líquido. CiaX CiaY Caixa 25.000 8.000 Estoques 12.000 Investimento (CiaY) 16.000 Total do Ativo 41.000 20.000 Capital Social 41.000 20.000 Total do Patrimônio Líquido 41.000 20.000 CiaX CiaY Caixa 50.000 100.000 Terrenos 80.000 Investimento (CiaY) 70.000 Total do Ativo 200.000 100.000 Capital Social 200.000 100.000 Total do Patrimônio Líquido 200.000 100.000 ValorContábil ValorJusto Ativo Total 250.000 290.000 Passivo Total 70.000 70.000 Patrimônio Líquido 180.000 220.000 SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 6 Contabilidade de Custos"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária produz e vende shampoos. Em janeiro de X0, ela reconheceu os seguintes gastos:  Matéria prima consumida: R$40.000.  Salários: R$130.000, sendo R$50.000 no pessoal da fábrica e R$80.000 do pessoal administrativo.  Depreciação: R$60.000, sendo R$35.000 das máquinas e R$25.000 dos móveis e equipamentos do escritório.  Custos e Despesas Gerais: R$60.000, sendo R$32.000 da fábrica e R$28.000 do escritório.  Despesas de venda dos shampoos: R$30.000, sendo R$20.000 de comissão dos vendedores e R$10.000 de gastos com a entrega. Assinale a opção que indica os custos contabilizados, em janeiro de X0.",
+    "alternativas": [
+      "R$85.000.",
+      "R$125.000.",
+      "R$135.000.",
+      "R$157.000.",
+      "R$187.000."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em consideração ao custo padrão corrente de um produto, assinale a afirmativa correta.",
+    "alternativas": [
+      "Deve partir da média do passado e introduzir algumas modificações esperadas para o período.",
+      "Representa uma situação almejada no longo prazo, com o uso de toda a capacidade da empresa.",
+      "Representa o valor conseguido com o uso dos melhores materiais e considerando a máxima eficiência.",
+      "Diz respeito ao custo observado no período anterior e é utilizado como exemplo para os períodos seguintes.",
+      "Diz respeito ao valor que a empresa fixa como meta para o próximo período, levando em consideração as deficiências existentes."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma fábrica produzia chapéus e bonés. Em janeiro de X0, a produção de chapéus e de bonés consumiu, respectivamente, R$30.000 e R$20.000 em matéria prima. Além disso, os gastos com mão de obra direta foram de R$45.000, sendo que R$18.000 diziam respeito à produção dos chapéus e, R$27.000, à produção dos bonés. Ainda, os gastos com depreciação da máquina e energia elétrica foram de R$60.000. Estes são alocados proporcionalmente entre os dois produtos, com base no consumo de mão de obra. Assinale a opção que indica o custo com a produção dos bonés em janeiro de X0.",
+    "alternativas": [
+      "R$47.000.",
+      "R$71.000.",
+      "R$76.684.",
+      "R$77.000.",
+      "R$83.000."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária produz e vende colares. Cada colar é vendido por R$300,00, sendo que os vendedores recebem uma comissão de 10% sobre o preço de venda. Além disso, os custos variáveis de cada colar são de R$50,00. O salário mensal dos empregados é de R$80.000 e as despesas gerais são de R$40.000 por mês. Ainda, no processo produtivo, é utilizada uma máquina que foi comprada por R$300.000 e tem vida útil estimada em cinco anos, sendo esta depreciada linearmente, sem o reconhecimento de valor residual. Assinale a opção que indica o ponto de equilíbrio financeiro no mês da fábrica, em unidades, considerando que todas as receitas, despesas e custos são realizados à vista.",
+    "alternativas": [
+      "480.",
+      "500.",
+      "546.",
+      "568.",
+      "818."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma sociedade empresária que fabricava e vendia bonecas apresenta em determinado ano alavancagem operacional de 5,00. Isso significa que",
+    "alternativas": [
+      "a receita aumenta em 5% a cada aumento de 1% nas vendas.",
+      "o lucro aumenta em 5% a cada aumento de 1% nas vendas.",
+      "a receita aumenta em 1% a cada aumento de 5% nas vendas.",
+      "o lucro aumenta em 1% a cada aumento de 5% nas vendas.",
+      "o caixa aumenta em 5% a cada aumento de 1% na receita."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Uma fábrica produz e vende bicicletas. Cada bicicleta é vendida por R$1.000 e incorre em custos de R$400. Ainda, a fábrica reconhece mensalmente custos e despesas fixas de, respectivamente, R$90.000 e R$30.000. Em dezembro de X0, a fábrica produziu e vendeu 240 bicicletas. Assinale a opção que indica a margem de segurança da fábrica neste mês.",
+    "alternativas": [
+      "16,67%.",
+      "20,00%.",
+      "25,00%.",
+      "37,50%.",
+      "40,00%."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Ao analisar uma situação, uma entidade usa, como base de comparação, os custos médios passados com melhorias introduzidas em função de determinadas expectativas em relação ao futuro. Estes são denominados custos",
+    "alternativas": [
+      "padrão.",
+      "estimados.",
+      "controláveis.",
+      "não controláveis.",
+      "por responsabilidade. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 7"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Assinale a opção que indica o critério de apropriação de custos que é utilizado, respectivamente, pela Contabilidade Financeira na elaboração de suas Demonstrações Contábeis e, pela Contabilidade Tributária, para o cálculo de impostos.",
+    "alternativas": [
+      "Custeio Variável e Custeio Padrão.",
+      "Custeio Padrão e Custeio Padrão.",
+      "Custeio Variável e Custeio Variável.",
+      "Custo por Absorção e Custeio Variável.",
+      "Custeio por Absorção e Custeio por Absorção. Análise de Dados"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Com relação às características de dados abertos, analise as afirmativas a seguir. I. Reuso e redistribuição: os dados precisam estar disponíveis integralmente, devendo estar em um formato conveniente e modificável e sob custo não maior que um custo razoável de reprodução. II. Disponibilidade e acesso: os dados precisam ser fornecidos em condições de reuso e redistribuição, podendo ser recombinados com outros dados. III. Participação universal: todos os usuários podem usar, reusar e redistribuir o dado sem restrições de áreas de atuação, pessoas ou grupos. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Power BI da Microsoft é uma coleção de serviços de software, aplicativos e conectores que trabalham em conjunto para transformar fontes de dados não relacionadas em informações coerentes, visualmente envolventes e mais interativas. O elemento do Power BI que cria relatórios paginados, é denominado",
+    "alternativas": [
+      "Power BI Service.",
+      "Power BI Desktop.",
+      "Power BI Report Maker.",
+      "Power BI Report Builder.",
+      "Power BI Reporting Manager."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A estrutura de dados usada em índices multiníveis dinâmicos em banco de dados relacionais, que garantem que tais estruturas sempre estejam balanceadas e que o espaço desperdiçado pela exclusão de itens de dados, se houver, nunca se torne excessivo, é denominada",
+    "alternativas": [
+      "fila.",
+      "hash.",
+      "bitmap.",
+      "árvore B.",
+      "árvore binária."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Os data warehouses existem para facilitar que analista e tomadores de decisão executem as consultas complexas e ocasionais, fazendo uso intensivo de dados por meio de processamento OLAP. A operação analítica que se caracteriza por analisar dados em níveis de agregação progressivamente mais detalhados e de menor granularidade, é denominada",
+    "alternativas": [
+      "pivot.",
+      "roll-up.",
+      "drill-down.",
+      "drill-across.",
+      "slice and disse."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Leia o fragmento a seguir. “CRISP-DM é um modelo de referência não proprietário, neutro, documentado e disponível na Internet, sendo amplamente utilizado para descrever o ciclo de vida de projetos de Ciência de Dados. O modelo é composto por seis fases: 1. entendimento do negócio; 2. _____; 3. _____; 4. Modelagem; 5. _____ ; e 6. implantação”. Assinale a opção cujos itens completam corretamente as lacunas do fragmento acima, na ordem apresentada.",
+    "alternativas": [
+      "modelagem do negócio – limpeza de dados – testagem.",
+      "modelagem de requisitos – raspagem de dados – execução.",
+      "modelagem do negócio – mineração de dados – reexecução.",
+      "compreensão dos dados – preparação dos dados – avaliação.",
+      "mapeamento de metadados – mineração de dados – testagem."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O tipo de aprendizado máquina, que consiste em treinar um sistema a partir de dados que não estão rotulados e/ou classificados e utilizar algoritmos que buscam descobrir padrões ocultos que agrupam as informações de acordo com semelhanças ou diferenças, é denominado",
+    "alternativas": [
+      "dinâmico.",
+      "sistêmico.",
+      "por reforço.",
+      "supervisionado.",
+      "não supervisionado."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Power BI da Microsoft oferece centenas de tipos de visualização de dados distintas. A visualização que utiliza mapas com sombreamento ou tonalidades ou padrões para exibir como um valor difere na proporção em uma localização geográfica ou região, exibe, rapidamente, essas diferenças relativas, com sombreamento que varia de claro (menos frequente/inferior) para escuro (mais frequente/mais). Esse mapa se denomina",
+    "alternativas": [
+      "arcGIS.",
+      "do azure.",
+      "de árvore.",
+      "coroplético.",
+      "georeferencial. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 8"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O módulo Scorecard and Strategy Management do Business Intelligence Enterprise Edition da Oracle permite que analistas desenvolvam Balanced Scorecards. O módulo fornece perspectivas padrão, em que o analista poderá definir estratégias e estruturas que assegurem estabilidade e sucesso em todas as perspectivas do negócio. As quatro perspectivas padrão são",
+    "alternativas": [
+      "econômica – financeira – custos – KPI.",
+      "econômica – cliente – materiais – desempenho.",
+      "econômica – cliente – fluxo de trabalho – crescimento.",
+      "financeira – cliente – parceiros – aprendizado e crescimento.",
+      "financeira – cliente – processo interno – aprendizado e crescimento."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Com relação ao algoritmo de K-Means, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Consiste em fixar k centroides de modo quadrático, sendo um para cada novo cluster. ( ) Associa cada indivíduo ao centroide do seu vizinho, obtido pelo cálculo da minimização da soma quadrática das distâncias entre os dados e os centroides mais próximos. ( ) Recalcula os centroides com base nos indivíduos classificados. As afirmativas são, na ordem apresentada, respectivamente,",
+    "alternativas": [
+      "V – F – F.",
+      "V – V – F.",
+      "V – F – V.",
+      "F – F – V.",
+      "F – V – F."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Contabilidade de Custos",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Leia o fragmento a seguir. “A tarefa de detecção de anomalias é um caso particular de problema de _____, onde a quantidade de objetos da classe alvo (anomalia) é muito inferior à quantidade de objetos da classe normal e, adicionalmente, o custo da não detecção de uma anomalia (_____) é normalmente muito maior do que identificar um objeto normal como uma anomalia (_____)” Assinale a opção cujos itens completam corretamente as lacunas do fragmento acima, na ordem apresentada.",
+    "alternativas": [
+      "aumento de dimensionalidade – redundância – conflito.",
+      "redução de dimensionalidade – ruído – desvio padrão.",
+      "análise associativa – discretização – inconsistência.",
+      "classificação binária – falso negativo – falso positivo.",
+      "análise probabilística – conflito – ruído. Auditoria Fiscal"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Com base na NBC TA 530 – Amostragem em Auditoria, assinale a afirmativa correta.",
+    "alternativas": [
+      "Na definição da amostra, o auditor deve determinar o tamanho suficiente para eliminar o risco de amostragem.",
+      "Ao definir uma amostra de auditoria, o auditor deve considerar a finalidade do procedimento de auditoria e o orçamento planejado.",
+      "A decisão quanto ao uso de abordagem de amostragem estatística ou não estatística é baseada no tamanho da amostra.",
+      "O auditor deve selecionar itens para a amostragem de forma que as unidades consideradas mais representativas tenham mais chance de serem selecionadas.",
+      "Quanto menor o risco de amostragem que o auditor está disposto a aceitar, maior deve ser o tamanho da amostra."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Os procedimentos da Auditoria Interna constituem exames e investigações, incluindo testes de observância e testes substantivos. Em relação aos testes de observância, analise os procedimentos a seguir. I. Inspeção: verificação de registros, documentos e ativos tangíveis. II. Observação: acompanhamento de processo ou procedimento quando de sua execução. III. Investigação e confirmação: obtenção de informações perante pessoas físicas ou jurídicas conhecedoras das transações e das operações, dentro ou fora da entidade. Na avaliação dos testes de observância, está correto o que se afirma em",
+    "alternativas": [
+      "I, somente.",
+      "I e II, somente.",
+      "I e III, somente.",
+      "II e III, somente.",
+      "I, II e III."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a NBC TI 01 – Da Auditoria Interna, os testes substantivos visam à obtenção de evidência quanto à suficiência, exatidão e validade dos dados produzidos pelos sistemas de informação da entidade. No processo de obtenção de informações sobre os assuntos relacionados aos objetivos e ao alcance da Auditoria Interna, devem ser observados os procedimentos a seguir, à exceção de um. Assinale-o.",
+    "alternativas": [
+      "A informação útil auxilia a entidade a atingir as suas metas.",
+      "A informação relevante dá suporte às conclusões e às recomendações da Auditoria Interna.",
+      "A informação tempestiva é conservadora e livre de erros.",
+      "A informação suficiente é factual e convincente, de tal forma que uma pessoa prudente e informada possa entendê-la da mesma forma que o auditor interno.",
+      "A informação adequada, sendo confiável, propicia a melhor evidência alcançável, por meio do uso apropriado das técnicas de Auditoria Interna. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 9"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a NBC TA 500 (R1) – Evidência de Auditoria, o auditor deve definir e executar procedimentos que sejam apropriados às circunstâncias, com o objetivo de obter evidência de auditoria",
+    "alternativas": [
+      "inédita e relevante.",
+      "tempestiva e relevante.",
+      "neutra e livre de erros.",
+      "apropriada e suficiente.",
+      "completa e verificável."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a NBC TA 500 (R1) – Evidência de Auditoria, a maior parte do trabalho do auditor para formar a sua opinião consiste na obtenção e avaliação da evidência de auditoria. Nesse sentido, em relação à indagação e suas respostas, assinale a afirmativa correta.",
+    "alternativas": [
+      "Devem ser formais e por escrito.",
+      "São utilizadas somente em pontos específicos da auditoria.",
+      "A avaliação das respostas às indagações é parte integral do processo de indagação.",
+      "As respostas às indagações devem fornecer informações convergentes com as obtidas pelo auditor.",
+      "Costumam fornecer, sozinhas, evidências de auditoria suficientes sobre a ausência de distorção relevante no nível da afirmação."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a NBC TA 520 – Procedimentos Analíticos, se os procedimentos analíticos executados identificam flutuações ou relações que são inconsistentes com outras informações relevantes ou que diferem dos valores esperados de maneira significativa, o auditor deve examinar essas diferenças por meio de",
+    "alternativas": [
+      "indagação à administração e da obtenção de evidência de auditoria apropriada e relevante para as respostas da administração.",
+      "avaliação das informações obtidas por meio de estudos das relações plausíveis entre os dados obtidos e os valores esperados.",
+      "verificação de procedimentos e controles que foram originalmente realizados como parte do controle interno da entidade.",
+      "revisão do trabalho executado, reaplicação dos procedimentos efetuados anteriormente e investigação das flutuações identificadas que se desviem significativamente dos valores previstos.",
+      "obtenção de confirmação externa, representada por evidência de auditoria obtida pelo auditor como resposta escrita de terceiro ao auditor, em forma escrita ou eletrônica."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Ao realizar a auditoria das demonstrações contábeis de uma sociedade empresária relativa ao exercício de 2020, o auditor independente constatou que em 2019, o contador havia avaliado todos os ativos imobilizados, que eram constituídos por móveis e utensílios, a valor de mercado, que eram maiores do que os valores contábeis. Em 2020, a sociedade empresária vendeu à vista todos os móveis que eram utilizados em seu escritório com lucro e que estes foram substituídos por móveis novos, adquiridos a prazo. O auditor pode concluir que nas demonstrações contábeis de 31/12/2020, o seguinte grupo estava subavaliado:",
+    "alternativas": [
+      "Patrimônio Líquido.",
+      "Ativo Circulante.",
+      "Passivo Circulante.",
+      "Ativo Imobilizado.",
+      "Passivo Não Circulante."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Um auditor realiza a auditoria do ativo imobilizado de uma sociedade empresária. Assinale a opção que indica o fator que deve receber maior atenção do auditor independente, pois influencia no cálculo do resultado.",
+    "alternativas": [
+      "Qual é a procedência do ativo.",
+      "Como é utilizado o caixa gerado com o seu uso.",
+      "Se os ativos foram comprados novos ou usados.",
+      "Como são estimados a vida útil e o valor residual.",
+      "Qual foi o modo de pagamento utilizado na compra do ativo."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "No relatório do auditor independente, uma demonstração contábil deve ser mencionada no parágrafo de Outros Assuntos. Assinale a opção que indica, de acordo com as normas de auditoria, a demonstração contábil e o motivo para a apresentação.",
+    "alternativas": [
+      "Demonstração do Valor Adicionado, por ter obrigatoriedade recente no Brasil.",
+      "Demonstração do Valor Adicionado, por não ser obrigatória de acordo com as normas internacionais.",
+      "Demonstração do Resultado Abrangente, por ter obrigatoriedade recente no Brasil.",
+      "Demonstração do Resultado Abrangente, por poder ser apresentada em conjunto com outras demonstrações contábeis.",
+      "Demonstração dos Fluxos de Caixa, por ter substituído a Demonstração de Origens e Aplicações de Recursos."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Auditoria Fiscal",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com a Lei Complementar nº 105/2001, que dispõe sobre o sigilo das operações de instituições financeiras, assinale a opção que não é considerada operação financeira.",
+    "alternativas": [
+      "As operações de arrendamento mercantil.",
+      "A aquisição por sociedade aberta de suas próprias ações.",
+      "As aquisições e vendas de títulos de renda fixa ou variável.",
+      "As transferências de moeda e outros valores para o exterior.",
+      "Os descontos de duplicatas, notas promissórias e outros títulos de crédito. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 10 Direito Tributário"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Em relação ao ICMS, os Estados e o Distrito Federal podem celebrar convênio sobre remissão de créditos tributários decorrentes das isenções, dos incentivos e dos benefícios fiscais ou financeiro-fiscais instituídos em desacordo com a Lei Complementar exigida pela Constituição Federal de 1988. Sobre o tema, assinale a afirmativa correta.",
+    "alternativas": [
+      "Só podem tratar de créditos tributários devidamente constituídos.",
+      "Necessitam ter a participação de metade das unidades federadas.",
+      "Tem que ser aprovados pelo CONFAZ no prazo de 120 dias.",
+      "Necessitam da participação de 1/3 das unidades federadas de cada uma das 5 regiões do país (SE, NE, N, S e CO).",
+      "Não precisam ser publicados em seus Diários Oficiais."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Imposto sobre a Renda é um tributo de arrecadação essencial para o Fisco, tanto pelo montante arrecadado como pela fiscalização decorrente dele. O produto da arrecadação do Imposto sobre a Renda será",
+    "alternativas": [
+      "repartido pela União com os Estados e Distrito Federal no percentual de 22% (vinte e dois por cento).",
+      "repartido pela União no percentual de 25,5% (vinte e cinco inteiros e cinco décimos por cento) com o Fundo de Participação dos Municípios.",
+      "repartido pela União no percentual de 50% (cinquenta por cento) apenas com os Estados, o Distrito Federal e os municípios por meio de seus Fundos de Participação.",
+      "repartido pela União com os Municípios no percentual de 50% (cinquenta por cento).",
+      "Exclusivamente da União."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A sociedade empresária Beta alterou sua sede para uma cidade extremamente distante a qual só é possível chegar de barco e gastando mais de um dia de viagem, mas deixou filiais na Capital do Estado. A sociedade empresária impugnou autuações recebidas nas filiais em que ocorreram os fatos que deram origem à obrigação, por não ser o seu domicilio tributário. Sobre a posição da sociedade empresária Beta, assinale a afirmativa correta.",
+    "alternativas": [
+      "Assiste razão à sociedade empresária, pois a Receita Estadual não pode discriminar a sede da empresa.",
+      "A Receita Estadual só pode mandar as autuações para outros endereços, após 3 tentativas de encontrar os responsáveis pela sociedade empresária.",
+      "A Receita Estadual está errada, não podendo atribuir à sociedade empresária, sua falta de estrutura.",
+      "Não assiste razão à sociedade empresária, pois a Receita Estadual pode, ao seu arbítrio, escolher qual o domicilio tributário da sociedade empresária.",
+      "Não assiste razão à sociedade empresária, pois a autoridade administrativa pode recusar o domicílio eleito, quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A pessoa jurídica Espectro, em processo de falência, foi alienada judicialmente para a sociedade empresária Ômega, que manteve o mesmo nome e as mesmas lojas daquela. Em relação aos tributos devidos, a empresa Ômega",
+    "alternativas": [
+      "responderá integralmente, por ter adquirido o fundo de comércio e os estabelecimentos.",
+      "Responderá subsidiariamente com o alienante.",
+      "Só responderá se o alienante não continuar no mesmo ramo de comércio.",
+      "Não responderá, por ter havido alienação judicial em processo de falência.",
+      "Não responderá, mesmo que um de seus sócios seja sócio da sociedade empresária Espectro."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Um importante tributo da competência dos Estados é o Imposto sobre Propriedade de Veículos Automotores (IPVA ). Sobre o IPVA, assinale a afirmativa correta.",
+    "alternativas": [
+      "A alíquota mínima será fixada pelo Senado Federal.",
+      "A alíquota máxima será fixada pelo Senado Federal e a mínima por cada Estado.",
+      "Não pode ter alíquota diferenciada, em razão do tipo e da utilização.",
+      "A diferença entre alíquota mínima e máxima não pode exceder 100% (cem por cento.",
+      "As alíquotas máximas e mínimas serão fixadas pelo próprio Estado."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Imposto sobre a Renda das Pessoas Jurídicas – IRPJ, e a Contribuição Social sobre o Lucro Líquido – CSLL, são tributos muito semelhantes, inclusive sendo tratados na mesma lei (Lei nº 9430/1996). Assinale a opção que apresenta uma diferença entre eles.",
+    "alternativas": [
+      "O IRPJ pode ser sobre o lucro real e o lucro presumido, já a CSLL só sobre o lucro real.",
+      "A destinação da CSLL é para a Seguridade Social, enquanto a do IRPJ pode ser utilizada para qualquer despesa do Fisco, após a repartição com Estados e Municípios.",
+      "A arrecadação do IRPJ é toda da União e a da CSLL é dividida com os Estados e os Municípios para estruturar a seguridade dos servidores destes entes.",
+      "A arrecadação do IRPJ é repartida entre os Estados e os Municípios e, a da CSLL, só com os Estados.",
+      "As sociedades empresárias que pagam um tributo não precisam pagar o outro, para evitar bis in idem."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Sobre a contribuição do trabalhador e dos demais segurados da Previdência Social, prevista no Artigo 195, inciso II, da Constituição Federal de 1988, assinale a afirmativa correta.",
+    "alternativas": [
+      "A contribuição previdenciária custeia unicamente a Previdência Social.",
+      "A contribuição previdenciária custeia apenas a Previdência e a Assistência Social.",
+      "A contribuição previdenciária é cobrada sobre aposentadorias e pensões.",
+      "A contribuição previdenciária custeia a Seguridade Social, que engloba Saúde, Previdência Social e Assistência Social.",
+      "A contribuição previdenciária, ao contrário da que é paga pelos servidores públicos, não tem alíquotas progressivas. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 11"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Determinado município aprovou uma lei para passar a cobrar um tributo dos moradores dos bairros próximos às novas estações de metrô, para custear as obras e considerando a valorização dos imóveis neles situados. Assinale a opção que o indica.",
+    "alternativas": [
+      "Contribuição Social.",
+      "CIDE – Contribuição de Intervenção no Domínio Econômico.",
+      "Imposto sobre Grandes Fortunas.",
+      "Empréstimo Compulsório.",
+      "Contribuição de Melhoria."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Aluísio Soares importou uma guitarra do exterior para sua coleção e se revoltou ao ter que pagar o ICMS. Ele alega que o instrumento não tem fins comerciais porque ele não toca em público e não aufere nenhuma renda com este hobby. Avalie se Aloísio terá direito a não pagar o tributo e assinale a afirmativa correta.",
+    "alternativas": [
+      "O imposto não pode ser cobrado, uma vez provada a falta de intuito comercial da mercadoria importada.",
+      "O imposto pode ser cobrado, porque a Receita Estadual não tem certeza de que ele nunca usará para fins comerciais.",
+      "O imposto não pode ser cobrado, já que não aufere renda ou presta serviços com tal instrumento.",
+      "O imposto pode ser cobrado, pois é contribuinte mesmo sem habitualidade ou intuito comercial, quem importa bens do exterior.",
+      "O imposto não pode ser cobrado, desde que ele se comprometa a permanecer com o instrumento por cinco anos."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Na ausência de disposição expressa, a autoridade competente, para aplicar a legislação tributária utilizará, segundo a ordem indicada, sucessivamente,",
+    "alternativas": [
+      "analogia, equidade, princípios gerais de Direito Público e princípios gerais de Direito Tributário.",
+      "princípios gerais de Direito Tributário, analogia, princípios gerais de Direito Público e equidade.",
+      "analogia, princípios gerais de Direito Público, princípios gerais de Direito Tributário e equidade.",
+      "equidade, analogia, princípios gerais de Direito Tributário e princípios gerais de Direito Público.",
+      "analogia, princípios gerais de Direito Tributário, princípios gerais de Direito Público e equidade."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "José Sena procura a Receita Estadual após um inventário realizado no Amazonas, para sanar dúvidas sobre o pagamento do Imposto de Transmissão Causa Mortis e Doação. Sobre tal tributo, é correto afirmar que",
+    "alternativas": [
+      "relativamente a bens imóveis e respectivos direitos, compete ao Estado da situação do bem ou ao Distrito Federal.",
+      "relativamente a bens móveis, títulos e créditos, compete ao Estado da situação do bem.",
+      "relativamente a bens imóveis e respectivos direitos, compete ao Estado do domicílio do doador.",
+      "relativamente a bens imóveis e respectivos direitos, compete ao Estado em que se processar o inventário ou arrolamento ou tiver domicílio o doador, ou ao Distrito Federal.",
+      "terá competência para sua instituição regulada por lei ordinária se o doador tiver domicilio ou residência no exterior."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Direito Tributário",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O ICMS é uma grande fonte de receita dos Estados da Federação, sendo normal que estes busquem sempre mais arrecadação para custear os serviços oferecidos à população. Sobre o ICMS, é correto afirmar que ele não incide sobre",
+    "alternativas": [
+      "as operações interestaduais relativas à energia elétrica e ao petróleo, inclusive lubrificantes e combustíveis líquidos e gasosos dele derivados, quando destinados à industrialização ou à comercialização.",
+      "as operações interestaduais relativas à energia elétrica e ao petróleo, inclusive lubrificantes e combustíveis líquidos e gasosos dele derivados, destinados a qualquer fim.",
+      "o fornecimento de mercadorias com prestação de serviços não compreendidos na competência tributária dos Municípios.",
+      "as operações relativas à circulação de mercadorias, inclusive o fornecimento de alimentação e bebidas em bares, restaurantes e estabelecimentos similares.",
+      "a entrada de mercadoria ou bens importados do exterior, por pessoa física ou jurídica, ainda que não seja contribuinte habitual do imposto, qualquer que seja a sua finalidade. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 12 Legislação Específica do Estado do Amazonas"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Eduardo Pereira, adquiriu um veículo e fez o licenciamento numa unidade da Federação diferente de Amazonas, embora sempre tenha residido em Manaus. Agora tomou conhecimento que as alíquotas do IPVA daquele Estado são mais altas do que as do Amazonas. Assinale a opção que indica, corretamente, onde deve recolher tal tributo.",
+    "alternativas": [
+      "Ele pode escolher o Estado da Federação onde recolher.",
+      "No Estado onde fez o licenciamento.",
+      "No Estado do Amazonas, por ser o local de sua residência.",
+      "Durante 5 anos tem que recolher no Estado do licenciamento e, depois, pode fazer a transferência.",
+      "Está isento de IPVA."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Os benefícios fiscais no Amazonas somente são concedidos aos produtos resultantes de atividades consideradas de fundamental interesse para o desenvolvimento do Estado e quando atender a determinadas condições, sendo imprescindível que",
+    "alternativas": [
+      "contribuam para o incremento do volume de produção industrial, agroindustrial e florestal do Estado e promovam investimento em pesquisa e desenvolvimento de tecnologia de processo e/ou produto.",
+      "promovam a interiorização de desenvolvimento econômico e social do Estado e contribuam para o aumento da exportação para os mercados nacional e internacional.",
+      "possuam capital social compatível com o seu volume de produção, faturamento bruto e ativo imobilizado constantes do projeto técnico-econômico.",
+      "contribuam para substituir importações nacionais e/ou estrangeiras e gerem empregos diretos e/ou indiretos no Estado.",
+      "promovam atividades ligadas à indústria do turismo e estimule a atividade de reciclagem de material e ou resíduo sólido a ser utilizado como matéria prima na atividade industrial."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Sobre o ICMS no Estado do Amazonas, é correto afirmar que não há fato gerador do tributo",
+    "alternativas": [
+      "na transmissão a terceiro de mercadoria depositada em armazém geral ou em depósito fechado, localizados no Estado.",
+      "nas operações com ouro, quando definido em lei como ativo financeiro ou instrumento cambial.",
+      "no ato final do transporte iniciado no exterior.",
+      "na transmissão de propriedade ou de título que a represente, quando a mercadoria não tiver transitado pelo estabelecimento transmitente.",
+      "no fornecimento de alimentação, bebidas e outras mercadorias por qualquer estabelecimento."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A Zona Franca de Manaus é uma área de livre comércio de importação e exportação e de incentivos fiscais especiais, estabelecida com a finalidade de criar no interior da Amazônia um centro industrial, comercial e agropecuário dotado de condições econômicas que permitam seu desenvolvimento. Assinale a opção que indica os produtos que estão isentos, quando provenientes do exterior.",
+    "alternativas": [
+      "Automóveis de passageiros.",
+      "De perfumaria.",
+      "De pesca.",
+      "Bebidas alcóolicas.",
+      "Armas e munição."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Estado do Amazonas tem incentivos fiscais e incentivos extrafiscais para as sociedades empresárias que cumprirem as condições propostas nas normas correspondentes. A sociedade empresária XYZ deseja incentivo extrafiscal e um destes é",
+    "alternativas": [
+      "o diferimento.",
+      "o crédito estímulo.",
+      "a isenção.",
+      "a concessão de financiamentos diferenciados.",
+      "o crédito fiscal presumido de regionalização e a redução de base de cálculo do ICMS."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O Estado do Amazonas limita a concessão de benefícios fiscais a algumas atividades. Assinale a opção que apresenta a atividade que poderá ter direito aos benefícios fiscais.",
+    "alternativas": [
+      "Fabricação de bebidas alcoólicas industrializadas no interior do Estado, em zonas definidas como prioritárias pelo Poder Executivo, desde que utilizem insumos produzidos no Estado.",
+      "Fabricação de fumo e seus derivados.",
+      "Fabricação de bens que, devido ao seu processo produtivo, causem, de forma mediata ou imediata, impactos nocivos ao meio ambiente.",
+      "Produção, geração e distribuição de energia elétrica.",
+      "Beneficiamento de sal."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "O governo federal resolve criar uma universidade federal no Amazonas, e o faz, tornando-a uma autarquia. Em relação ao IPVA, assinale a opção que indica a situação tributária dos veículos utilizados nas atividades essenciais desta universidade.",
+    "alternativas": [
+      "Pagam normalmente o IPVA.",
+      "Têm isenção de IPVA.",
+      "Se os veículos tiverem mais de 5 anos, estarão isentos.",
+      "Pagam, mas com um desconto de 50% (cinquenta por cento).",
+      "Não há incidência de IPVA. SECRETARIA DE ESTADO DE FAZENDA DO AMAZONAS - SEFAZ-AM FGV Auditor Fiscal de Tributos Estaduais (Tarde)  Tipo Branca – Página 13"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A empresa Alpha requereu na Receita Estadual a restituição de ICMS referente aos últimos 5 anos, valores que entende terem sido recolhidos além dos devidos, e este requerimento foi indeferido na seara administrativa. Assinale a opção que indica o prazo para a ação judicial que visa anular este indeferimento.",
+    "alternativas": [
+      "O prazo decadencial é de 5 anos, a partir do indeferimento administrativo.",
+      "O prazo é prescricional de 3 anos, admitindo uma interrupção.",
+      "O prazo é decadencial de 3 anos, não admitindo interrupção.",
+      "O prazo é prescricional de 5 anos, admitindo uma interrupção.",
+      "O prazo é prescricional e de 2 anos."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A sociedade empresária Forget All tem débito de ICMS apurado, resultante de operação não escriturada em livros fiscais. Por esse motivo, é multada pela Receita Estadual. Assinale a opção que apresenta o percentual dessa multa sobre o valor do imposto devido.",
+    "alternativas": [
+      "50% (cinquenta por cento).",
+      "75% (setenta e cinco por cento).",
+      "100% (cem por cento).",
+      "150% (cento e cinquenta por cento).",
+      "200% (duzentos por cento)."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Antônio Loureiro resolve investir parte de seu patrimônio na compra de 4 (quatro) taxis e obteve o licenciamento de todos. Sobre a possibilidade de Antônio Loureiro ter isenção de IPVA, assinale a afirmativa correta.",
+    "alternativas": [
+      "Terá isenção apenas em relação a um dos veículos licenciados.",
+      "Terá isenção em relação aos 4 taxis.",
+      "Não terá isenção, pois claramente cobrará diárias de pelo menos três taxis.",
+      "Não terá isenção, pois taxi não tem isenção de IPVA.",
+      "Terá isenção apenas em relação a dois taxis."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Determinada sociedade empresária resolve passar a produzir bens na Zona Franca de Manaus, que serão destinados a comercialização no território nacional e busca informações sobre as isenções a que terá direito. Assinale a opção que indica as isenções a que terá direito.",
+    "alternativas": [
+      "do IPI.",
+      "do IPI e do ICMS.",
+      "do IPI e do Imposto de Importação integral.",
+      "do Imposto de Exportação.",
+      "do Imposto de Importação e do ICMS."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "Mario Silveira requer a restituição de valores pagos acima do que era devido a título de ITBI à Receita Estadual, que defere seu pedido, porém, de ofício, desconta dos valores os 4 (quatro) anos que ele está devendo de IPVA do seu veículo. Sobre tal conduta, assinale a afirmativa correta.",
+    "alternativas": [
+      "Só é possível mediante acordo judicial.",
+      "Não é possível, sendo necessária a propositura de Execução Fiscal para a cobrança.",
+      "É possível, desde que o devedor tenha respondido administrativamente à cobrança do IPVA.",
+      "Não é possível, por não ser o mesmo tributo.",
+      "Sim, é possível tal compensação de ofício pela Receita Estadual."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Tributária Estadual",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEFAZ-AM 2022 (FGV) — Auditor Fiscal (Prova 2)",
+    "dificuldade": 3,
+    "enunciado": "A sociedade empresária Gama comparece à Receita Estadual discordando de que o cálculo do ICMS devido tenha sido feito por estimativa, alegando que o fundamento de ter recolhido valores menores que a média do setor em que atua, a título do referido tributo, não pode justificar tamanha violação. Sobre a legalidade da atitude do Fisco Estadual, assinale a afirmativa correta.",
+    "alternativas": [
+      "É ilegal, pois cabe à Receita fiscalizar qualquer omissão de recolhimento do ICMS e não presumir.",
+      "Não é ilegal, é possível esta estimativa por parte da Receita Estadual, sendo uma das hipóteses de desempenho de recolhimento do ICMS inferior à média do setor, só podendo ser discutido judicialmente tal postura.",
+      "É ilegal, pela vedação do confisco.",
+      "É ilegal, por não ser possível ICMS por estimativa.",
+      "Não é ilegal, mas o contribuinte pode impugnar seu enquadramento, inclusive com a obtenção de efeito suspensivo."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEFAZ-AM"
+    ]
   }
 ]
