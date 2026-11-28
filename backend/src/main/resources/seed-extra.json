@@ -52754,5 +52754,845 @@
     "concursos": [
       "ALE-AM"
     ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "“Dá-se o nome de artigo às palavras o (com as variações a, os, as) e um (com as variações uma, uns, umas), que se antepõem aos substantivos para indicar que se trata de um ser já conhecido do leitor ou que se trata de um simples representante de uma dada espécie.” CUNHA, Celso e CINTRA, Lindley. Nova Gramática do Português Contemporâneo. Editora: Lexikon; 7ª edição; p. 199. Essa definição da classe dos artigos se fundamenta nos seguintes critérios:",
+    "alternativas": [
+      "morfológico e sintático.",
+      "sintático e semântico.",
+      "morfológico e semântico.",
+      "morfológico, sintático e semântico.",
+      "morfológico, sintático, semântico e fonológico."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Nas opções a seguir há uma frase inicial com um adjetivo sublinhado, seguida de uma frase em que esse adjetivo foi substantivado. Assinale a opção em que essa modificação foi feita de forma adequada.",
+    "alternativas": [
+      "O bondoso homem socorreu o menino. / O homem bondoso socorreu o menino.",
+      "As nuvens cinzentas indicam chuva. / O cinzento das nuvens indica chuva.",
+      "As folhas do livro estavam amareladas. / Estavam amareladas as folhas do livro.",
+      "Oscabelos brancosmostravam a idade do juiz. / Oscabelosdo juiz, brancos, mostravam sua idade.",
+      "Os velhos livros enfeitavam a estante. / Os livros velhos enfeitavam a estante."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "“No trançado da história, o que interessa, afinal, é o resultado. O fim acaba sempre justificando os meios desde que não esteja demasiado longe – em sacrifícios e tempo – do início.” Millôr Fernandes. Sobre a estruturação desse pequeno texto, é correto afirmar que se trata de um texto",
+    "alternativas": [
+      "narrativo/descritivo, cujo objeto é a afirmação de que os fins justificam os meios.",
+      "argumentativo, em que a tese inicial está sujeita a uma condição.",
+      "injuntivo, em que o objetivo é aconselhar os leitores sobre como proceder.",
+      "informativo, cujo tema é uma discussão filosófica.",
+      "puramente narrativo, marcado pela presença de fatos históricos."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "“O consenso, na maior parte das atividades públicas, é fundamental à base de estrutura política. Sem qualidade de liderança não há objetivo, mas sem número de adeptos ponderável, não há o que objetivar. A fragmentação excessiva de uma filosofia básica faz com que muitos movimentos revolucionários acabem tendo mais profetas que seguidores.” Millôr Fernandes Nesse segmento há uma relação lógica entre profetas e seguidores, relação essa que se repete em",
+    "alternativas": [
+      "alunos / aprendizes.",
+      "policiais / bandidos.",
+      "candidatos / eleições.",
+      "mestres / ignorantes.",
+      "santos / devotos."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a opção que apresenta a frase que mostra uma troca indevida entre parônimos.",
+    "alternativas": [
+      "O vestuário dos funcionários de uma empresa é de vital importância para as vendas (vestiário / vestuário).",
+      "As fábricas de automóveis devem auferir lucros fantásticos este ano (auferir / aferir).",
+      "Nesses momentos delicados devemos sempre proceder com bastante descrição (descrição / discrição).",
+      "Em momentos de perigos iminentes, todos devemos ficar em estado de alerta (iminentes/eminentes).",
+      "O autor fez cessão dos direitos para uma instituição de caridade (cessão / seção)."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Verbosabundantessãoaquelesquepossuemduasoumaisformas equivalentes Assinale a opção que só apresenta verbos abundantes do particípio.",
+    "alternativas": [
+      "aceitar – entregar – matar.",
+      "entregar – trabalhar – enxugar.",
+      "expressar – falar – comprar.",
+      "alugar – premiar – soltar.",
+      "expulsar – isentar – saltar. Metodologia de Ensino e Legislação Educacional"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "As opções a seguir descrevem corretamente a avaliação de aprendizagem deacordocomaLeinº2.977/2015 –PlanoEstadual de Educação (PEE/TO), à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "A avaliação será realizada de forma contínua.",
+      "A avaliação será detalhada no projeto pedagógico.",
+      "A avaliação constará no planejamento didático-pedagógico.",
+      "A avaliação priorizará as notas graduadas e os aspectos quantitativos.",
+      "A avaliação levará em conta os objetivos da proposta pedagógica para a rede estadual de ensino. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 4"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Ao longo das últimas décadas, as Tecnologias Digitais da Informação e Comunicação, também conhecidas por TDICs, têm alterado as nossas formas de trabalhar, de nos comunicarmos, de nos relacionarmos e de aprendermos. Nesse sentido, a Base Nacional Comum Curricular contempla o desenvolvimento de competências e habilidades relacionadas às tecnologias digitais, como destaca na competência geral 5. Tecnologias Digitais da Informação e Comunicação no contexto escolar: possibilidades. Base Nacional Comum Curricular. MEC. Adaptado. Assinale a opção que indica corretamente a competência constante na BNCC em relação às TDICs.",
+    "alternativas": [
+      "Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.",
+      "Compreender a historicidade no tempo e no espaço, relacionando acontecimentos e processos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais, bem como problematizar os significados das lógicas de organização cronológica.",
+      "Compreender e utilizar a cultura digital de forma crítica, significativa, reflexiva e ética nas diversas práticas sócio escolares, para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.",
+      "Fazer observações sistemáticas de aspectos quantitativos e qualitativospresentesnaspráticassociaiseculturais, demodo a investigar, organizar, representar e comunicar informações relevantes,parainterpretá-laseavaliá-lascríticaeeticamente, produzindo argumentos convincentes.",
+      "Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seuprojeto devida, com liberdade, autonomia, consciência crítica e responsabilidade."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "As tendências pedagógicas que orientam o trabalho educativo se dividem em duas linhas de pensamento: Liberal e Progressista. Sobre a Tendência Progressista Crítico Social dos Conteúdos, assinale a afirmativa correta.",
+    "alternativas": [
+      "A escola tem o papel de preparar intelectualmente e moralmente os alunos.",
+      "Os conteúdos são ministrados em sala de aula, mas não são exigidos para fins pedagógicos.",
+      "A aprendizagem é baseada na motivação e na estimulação de resoluções dos problemas sociais.",
+      "O professor transmite as informações em sala de aula e os alunos devem fixá-las com exercícios.",
+      "O método parte da relação direta da experiência do aluno confrontada com o saber sistematizado."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A situação de vulnerabilidade em que se encontram crianças e adolescentes pobres, pretas(os), pardas(os) e indígenas, no Brasil, não é uma coincidência, não é resultado de um processo histórico que, talcomoa natureza, nãoé previsívelnem controlável, masda manutenção de escolhas que condenam grandes parcelas da população à invisibilidade, ao abandono e ao silenciamento. As desigualdades de acesso a bens sociais, culturais e econômicos entre as áreas urbanas e rurais são bastante conhecidas, e a escola, muitas vezes, é o único lugar de convívio e de socialização fora da família. A manutenção dessas desigualdades pode representar impactos importantes na vida de cada uma das crianças e das(os) adolescentes, de suas comunidades e de toda a sociedade. UNICEF. Cenário da Exclusão Escolar no Brasil, 2021, p. 8. Adaptado. Reconhecendo que a escola tem papel fundamental no enfrentamento das desigualdades, é importante que o professor, em sua prática pedagógica,",
+    "alternativas": [
+      "considere as diferenças dos indivíduos e de grupos sociais, seus saberes, identidades e culturas.",
+      "utilize metodologias de aprendizagem que sejam focadas na valorização do desempenho dos alunos.",
+      "distancie o mundo virtual e as tecnologias digitais das aulas para preservar os valores humanos.",
+      "organize as atividades em grupo de acordo com os níveis de saberes individuais de cada aluno.",
+      "direcione os alunos para que se adaptem às condições objetivas da realidade em que vivem."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "O plano de aula é um detalhamento do plano do ensino. As unidades (conteúdos) e subunidades (tópicos) que foram previstas em linhas gerais deverão ser especificadas e sistematizadas para uma situação didática real. A preparação de aulas é uma tarefa indispensável e, assim como o plano de ensino, deve resultar em um documento escrito que servirá para orientar as ações do professor e possibilitar constantes revisões e aprimoramentos do processo de ensino-aprendizado. LIBÂNEO, José Carlos. Didática. São Paulo: Cortez, 1994, p. 241. Adaptado. Deacordocomotexto,oprofessornaelaboraçãodoplanodeaula deve considerar que",
+    "alternativas": [
+      "o nível de preparação inicial dos alunos em relação ao conteúdo novo é irrelevante, uma vez que o papel da escola é ensinar.",
+      "as unidades ou os tópicos devem ser trabalhados em uma única aula, abarcando, de forma articulada, todas as fases do aprendizado.",
+      "cada tópico é autônomo e independe de uma sequencialidade lógica durante o processo de ensino-aprendizado.",
+      "o tipo de avaliação a ser utilizado deverá ser definido previamente e deve priorizar os aspectos quantitativos em relação aos qualitativos.",
+      "o tempo de duração dos momentos didáticos do desenvolvimento metodológico variam conforme o processo de ensino-aprendizado. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 5"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A adoção da expressão necessidades educacionais especiais assinalou uma mudança de paradigma. De fato, essa expressão não se refere mais às pessoas com deficiência, mas abarca todas as crianças ou jovens cujas necessidades educacionais especiais se originam em função de deficiências ou dificuldades de aprendizagem, incluindo as que possuem desvantagens sociais, sejam elas permanentesou temporárias, em algum ponto durante a sua escolarização. Assinale a opção que indica corretamente o documento que marcou essa mudança de paradigma.",
+    "alternativas": [
+      "Declaração de Salamanca.",
+      "Lei Brasileira de Inclusão da Pessoa com Deficiência.",
+      "Convenção Internacional sobre os Direitos das Pessoas com Deficiência.",
+      "Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva.",
+      "Lei de acessibilidade das pessoas com deficiência ou com mobilidade reduzida."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "O Projeto Político Pedagógico (PPP) serve como uma diretriz para a gestão. Pela sua importância, ele é caracterizado tanto no Regimento Escolar da Rede Estadual de Ensino do Tocantins como no Documento Curricular da Educação Infantil e do Ensino Fundamental para o Território do Tocantins. A respeito da caracterização do PPP nesses dois documentos normativos, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Para ambos, o PPP expressa a identidade da Unidade Educacional. ( ) Para ambos, o PPP indica os compromissos da Unidade Educacional com o aluno, com a comunidade, com a educação e com o meio ambiente. ( ) Para ambos, o PPP assinala os direitos e objetivos de aprendizagens que a Unidade Educacional julgue pertinentes. As afirmativas são, respectivamente,",
+    "alternativas": [
+      "F – V – V.",
+      "V – V – F.",
+      "F – V – F.",
+      "V – F – V.",
+      "V – V – V."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Legislação Educacional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A Base Nacional Comum Curricular (BNCC) e os currículos reconhecem que a educação tem um compromisso com a formaçãoeodesenvolvimentohumanoglobal,emsuasdimensões intelectual, física, afetiva, social, ética, moral e simbólica. A BNCC e os currículos têm papéis complementares para assegurar que as aprendizagens essenciais definidas para cada etapa da Educação Básica se materializem mediante o conjunto de decisões que caracterizam o currículo em ação e o adequem à realidade local, considerando a autonomia das redes de ensino, como também o contexto e as características dos alunos. MEC. Base Nacional Comum Curricular. p.16. Adaptado. Em relação à educação integral, as afirmativas a seguir descrevem ações pedagógicas que caracterizam um currículo em ação, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "Contextualizar os conteúdos dos componentes curriculares, identificando estratégias para apresentá-los, representá-los, exemplificá-los, conectá-los e torná-los significativos, com base na realidade do lugar e do tempo nos quais as aprendizagens estão situadas.",
+      "Decidir sobre formas de organização interdisciplinar dos componentes curriculares e fortalecer a competência pedagógica dasequipesescolaresparaadotarestratégiasmais dinâmicas, interativas e colaborativas em relação à gestão do ensino e da aprendizagem.",
+      "Construir e aplicar procedimentos de avaliação somativa, com base nos critérios estabelecidos pelo Projeto Político Pedagógico, tomando como referência para melhorar o desempenho da escola, dos professores e dos alunos, as notas atribuídas ao final do semestre.",
+      "Conceber e pôr em prática situações e procedimentos para motivar e engajar os alunos na aprendizagem, selecionar, produzir, aplicar e avaliar recursos didáticos e tecnológicos para apoiar o processo de ensinar e aprender.",
+      "Selecionar e aplicar estratégias didático-pedagógicas diversificadas, recorrendo a ritmos diferenciados e a conteúdos complementares, se necessário, para trabalhar as necessidades dos diferentes grupos de alunos, suas famílias e sua cultura de origem, suas comunidades, seus grupos de socialização. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 6 História e Geografia do Tocantins"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "História e Geografia do Tocantins",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "O norte do território de Tocantins tem sido impactado em termos sociais e ambientais pela expansão da agricultura empresarial. Esse processo de expansão da fronteira agrícola foi denunciado pela III Assembleia dos Povos Indígenas de Goiás e Tocantins (Palmas, 2016), que reuniu mais de seiscentos indígenas e teve como tema: “Na defesa dos Direitos Constitucionais dos Povos Indígenas, resistimos e denunciamos osimpactosdo Matopiba nos territórios tradicionais”. Com base no texto e na imagem, sobre os impactos socioambientais da expansão da fronteira agrícola no Tocantins, analise as afirmativas a seguir. I. A produção mecanizada nas áreas dos biomas Cerrado e Amazônia introduziu novas relações de trabalho e inseriu o campo tocantinense nas cadeias da produção agrícola globais. II. A consolidação das atividades agrícolas e agropecuárias empresariais nasáreas do Cerrado aumentoua produtividade, mas também ampliou os problemas sociais e ambientais. III. Os grupos tradicionais (povos indígenas, quilombolas e comunidadesribeirinhas),aoperderemsuasbasesdesustento devido ao avanço do agronegócio, migraram para as cidades, onde vivem em situação de vulnerabilidade social. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "História e Geografia do Tocantins",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A respeito do território do estado do Tocantins, assinale a afirmativa correta.",
+    "alternativas": [
+      "Está subdividido em três regiões administrativas: Palmas, Araguaína e Miracema do Tocantins.",
+      "Disputa judicialmente a área da Chapada das Mangabeiras com o Estado da Bahia e do Piauí.",
+      "Faz parte da Amazônia Legal e sua cobertura vegetal é, predominantemente, de floresta pluvial de transição.",
+      "Possui um importante patrimônio histórico e cultural, como o conjunto urbano do centro histórico de Porto Nacional.",
+      "Localiza-se na Região Norte e tem como limites: Goiás, ao sul; Maranhão, Pará e Piauí, ao norte; Maranhão e Bahia, a leste; Mato Grosso, a oeste."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "História e Geografia do Tocantins",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A ideia de criar um território ou estado do Tocantins remonta ao final do século XIX, mas foi concretizada apenas em 1988, pelo desmembramento do Estado de Goiás. Arespeito do processo decriação do Estado do Tocantins, assinale a afirmativa correta.",
+    "alternativas": [
+      "Na primeira metade do século XX, a Casa do Estudante do Norte-Goiano (CENOG) se opôs ao projeto emancipacionista e dificultou a adesão popular ao mesmo.",
+      "Nas décadas de 1970 e 1980, o político José Wilson Siqueira Campos apoiou o desmembramento, mas o projeto foi vetado pelo então Presidente da República, José Sarney.",
+      "Em 1988, Tocantins tornou-se uma unidade federativa, pelo empenho do Presidente do Senado, Ulisses Guimarães, que aprovou a Proposta de Emenda à Constituição relativa à criação do novo Estado.",
+      "A escolha dos primeiros representantes tocantinenses foi realizada em 1988, por eleição indireta, com os constituintes nomeando o governador, seu vice e os prefeitos.",
+      "A cidade de Miracema do Norte, localizada na região central do novo Estado, foi escolhida para sediar a capital do Estado, até que o plebiscito de 1989 a transferiu para Palmas. Matemática"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "do que havia na jarra às 14 horas. Seajarrafoirecolhidacom96mL,conclui-sequeovolumenajarra ao meio-dia estava entre",
+    "alternativas": [
+      "335mL e 345mL.",
+      "345mL e 355mL.",
+      "355mL e 365mL.",
+      "365mL e 375mL.",
+      "375mL e 385mL."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Em 2021, o preço da passagem dos ônibus urbanos de uma certa capitalbrasileirafoireajustado em 12,5%para baixo, ouseja,ficou mais barato, passando a custar R$ 3,50. Antes desse reajuste, o valor da passagem estava",
+    "alternativas": [
+      "acima de R$ 4,02.",
+      "entre R$ 3,98 e R$ 4,02.",
+      "entre R$ 3,94 e R$ 3,98.",
+      "entre R$ 3,90 e R$ 3,94.",
+      "abaixo de R$ 3,90. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 7"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A tabela a seguir apresenta a distribuição das notas obtidas por 25 estudantes de uma classe em uma avaliação com notas que podiam variar de 0 a 5: Nota 0 1 2 3 4 5 Quantidade 1 4 6 8 4 2 A média aritmética das notas obtidas pela classe nessa avaliação é",
+    "alternativas": [
+      "2,64.",
+      "2,70.",
+      "2,78.",
+      "2,84.",
+      "2,92. Conhecimentos Específicos"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Em 1991, a arte-educadora Ana Mae Barbosa lançou o livro A imagem no ensino da arte, divulgando a proposta de uma Abordagem Triangular, usada para valorizar o ensino de Artes nas escolas públicas. Para Ana Mae Barbosa, o ensino de Artes deve",
+    "alternativas": [
+      "estar baseado no princípio da livre expressão, valorizando a intuição em detrimento de conhecimentos teóricos.",
+      "constituir uma ferramenta para desenvolver habilidades artísticas inatas e revelar talentos criativos.",
+      "desenvolver uma cultura apreciativa, permitindo uma leitura crítica de imagens artísticas e do cotidiano.",
+      "zelarpela não interferência no processo criativo doaluno,cujo aprendizado ocorre espontaneamente.",
+      "promover a aquisição de habilidades técnicas próprias a uma atividade educativa utilitarista."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Na perspectiva da arte-educação, aprender por meio da arte faz parte de uma educação integral. A esse respeito, analise as afirmativas a seguir. I. O ensino de arte ajuda a desenvolver outras áreas do conhecimento, uma vez que os estudantes precisam mobilizar diversas habilidades, como a capacidade de interpretação, a criatividade e a imaginação. II. O ensino de arte envolve aspectos afetivos e emocionais e treina os estudantes para uma linguagem dos sentidos, o que complementa as linguagens discursiva e científica dos demais saberes escolares. III. O ensino de arte constitui uma ferramenta de aprendizagem para todas as disciplinas, de modo que se pode recorrer à música ou à pintura para aprender literatura ou matemática, por exemplo. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A pedagogia de John Dewey está fundamentada em uma “filosofia da experiência”: Há uma conexão orgânica entre educação e experiência pessoal. Mas tudo depende da qualidade da experiência por que se passa. A qualidade da experiência depende de sua influência sobre experiências posteriores. Assim, o desafio do educador é a de dispor as coisas para que as experiências enriqueçam o educando e o armem para novas experiências futuras. Adaptado de DEWEY, J. Experiência e Educação. São Paulo: Companhia Editora Nacional, 1979, p. 13-16. A partir do trecho, é correto afirmar que o ensino de arte proporciona experiências estéticas, que",
+    "alternativas": [
+      "capacitamoseducandosareconhecera expressãodogênio de um artista.",
+      "auxiliamacompreenderamanifestaçãodaformapuradaobra de arte.",
+      "permitem isolar objetos da vida cultural cotidiana de seu contexto de produção.",
+      "exercitam a sensibilidade, mobilizando criticamente as faculdades sensoriais, emotivas e intelectuais.",
+      "educam para a distinção e o refinamento da cultura geral dos estudantes."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A Proposta Triangular deriva de uma triangulação de natureza epistemológica, ao designar os componentes do ensino/aprendizagem por três ações mentalmente e sensorialmente básicas, quais sejam: criação (fazer artístico), leitura da obra de arte e contextualização. A segunda triangulação está na gênese da própria sistematização, originada de três outras abordagens epistemológicas: as Escuelas libres mexicanas, o Critical Studies inglês e o Movimento de Apreciação Estética aliado ao DBAE (Discipline-Basead Art Education) americano. BARBOSA, Ana M. Tópicos utópicos. Belo Horizonte: C/Arte, 1998, p. 33.( Adaptado) As afirmativas a seguir caracterizam corretamente aspectos da Proposta Triangular, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "Disciplinariza os componentes do aprendizado, separando-os em fazer artístico, crítica de arte e história da arte.",
+      "Indicacomocomponentescurricularesaçõesenãoconteúdos, como o fazer, a leitura e a contextualização.",
+      "Entende a arte como expressão e como cultura e, a contextualização, como o ato de estabelecer relações em diversos campos, além do histórico.",
+      "Utiliza um conceito de leitura como interpretação cultural, leitura de palavras, gestos, imagens, expectativas, enfim, leitura de nós mesmos e do mundo em que vivemos.",
+      "Defende que a construção do conhecimento em Artes acontece quando há a interligação entre a experimentação, a codificação e a informação. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 8"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Luís da Câmara Cascudo (1898-1986) foi um dos primeiros a registrar e estudar as manifestações da cultura popular, vinculando-a ao folclore. Todos os países do mundo, raças, grupos humanos, famílias, classes profissionais, possuem um patrimônio de tradições que se transmite oralmente e é defendido e conservado pelo costume. Esse patrimônio é milenar e contemporâneo. Cresce com os conhecimentos diários desde que se integrem nos hábitos grupais, domésticosounacionais.Essepatrimônioéofolclore.“Folk”,povo, nação, família, parentalha. “Lore”, instrução, conhecimento. “Contemporaneidade”, atualização imediatista do conhecimento. CASCUDO, Luís da Câmara. Folclore do Brasil. Rio de Janeiro: Fundo de Cultura, 1967, p.9. (Adaptado) Com base no trecho, assinale a opção que apresenta o entendimento de cultura popular de Câmara Cascudo.",
+    "alternativas": [
+      "Os hábitos preservados pelos segmentos sociais não afetados pelo cosmopolitismo das elites urbanas.",
+      "As expressões, tradições e memórias eruditas que forjam uma identidade nacional.",
+      "As produções da indústria cultural de rápida obsolescência, a favor do imediatismo.",
+      "As festas dos segmentos menos favorecidos, apartados do poder político e econômico.",
+      "As tradições populares, no tempo e no espaço, que são criativamente acomodadas ao tempo presente."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A Base Nacional Comum Curricular (BNCC, 2017) é o documento que serve de modelo para a produção dos currículos estaduais, como é o caso do Documento Curricular do Tocantins (DC-TO, 2019). A respeito do ensino de Arte nos dois documentos citados, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Tanto na BNCC como no DC-TO, a componente Arte é composta por quatro linguagens: artes visuais, dança, música e teatro. ( ) Na BNCC, diferentemente do DC-TO, as ações didático- pedagógicas devem desenvolver as seguintes dimensões do conhecimento: criação, autonomia, estesia, performance, fruição e reflexão. ( ) Tanto na BNCC como no DC-TO cada unidade temática constitui um quadro curricular composto por Objetos de Conhecimento, Conteúdos e Habilidades adaptados às particularidades locais. As afirmativas são, respectivamente,",
+    "alternativas": [
+      "V – V – F.",
+      "V – F – V.",
+      "F – V – F.",
+      "F – V – V.",
+      "V – F – F."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "O docente de Arte do 7º ano do Ensino Fundamental propõe a realizaçãodepesquisassobreasformasdeseexpressarpeladança em culturas e contextos diversos. Para tanto, os estudantes pesquisam por meio de registros visuais da dança em ambiente virtual, podendo enfocar experiências de dança regionais, brasileiras e também de outras culturas. Considerando o Documento Curricular do Tocantins do Ensino Fundamental –Linguagens/Arte(2019), essa atividadepedagógica tem como objeto de conhecimento",
+    "alternativas": [
+      "o patrimônio cultural, uma vez que propõe uma avaliação do valor histórico e cultural das tradições de dança.",
+      "os processos de criação, uma vez que prevê a capacidade de pesquisar e recriar diferentes formas expressivas.",
+      "os contextos e práticas, uma vez que solicita a contextualização da dança na cultura regional, no Brasil e no mundo.",
+      "os sistemas da linguagem, uma vez que embasa a classificação das diversas categorias formais do movimento corporal.",
+      "as matrizes estéticas e culturais, uma vez que incentiva a classificação hierárquica de diversas linguagens corporais."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Rudolf Laban, bailarino e coreógrafo húngaro, elaborou um sistema de notação de dança que associa o movimento ao espaço no qual ele se desdobra. Um docente de Arte dos anos finais do Ensino Fundamental propõe que seus alunos observem e explorem movimentos espontâneos em um espaço e tempo determinados. Ele espera com essa atividade desenvolver nos alunos a capacidade de criar movimentos expressivos, alterando o tempo e o espaço da gestualidade cotidiana. Considerando o Documento Curricular do Tocantins do Ensino Fundamental e com base na descrição da atividade relativa à unidade temática “dança” e ao objeto de conhecimento “elementos da linguagem”, assinale a opção que indica corretamente a habilidade que está sendo desenvolvida.",
+    "alternativas": [
+      "Analisar e experimentar diferentes elementos (figurino, iluminação,cenário,trilhasonoraetc.)paracomposiçãocênica e apresentação coreográfica.",
+      "Experimentar e analisar os fatores de movimento (tempo, peso, fluência e espaço) como elementos que, combinados, geram as ações corporais e o movimento dançado.",
+      "Explorar e analisar elementos constitutivos como altura, intensidade e ritmo, por meio de canções e práticas diversas de composição/criação, execução e apreciação.",
+      "Discutir, sem preconceito, as experiências pessoais e coletivas emdançavivenciadasna escola,comofonteparaaconstrução de vocabulários e repertórios próprios.",
+      "Explorar fontes sonoras diversas, como as do próprio corpo (palmas, voz, percussão corporal), da natureza e de objetos cotidianos, reconhecendo seus elementos constitutivos. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 9"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A principal característica dessa dança é a batida dos porretes uns contra os outros em determinados trechos da música, que é cantada e acompanhada pela batida do atabaque. No final de cada frase musical, dois dançarinos cruzam os porretes batendo-os dois a dois: eles simulam um combate no interior de umcírculo,emcujapartecentralestáochefe,oqual“ataca”todos os participantes, uma vez que passa por todos e escolhe um “lutador” experiente para travar um “duelo”. Nas apresentações, os dançarinos costumam usar saias feitas de sisal, além de pintura corporal. A imagem e a descrição se referem a uma dança popular tradicional, presente nas comunidades quilombolas do Tocantins, conhecida como",
+    "alternativas": [
+      "Congada.",
+      "Dança do lindô.",
+      "Samba do côco.",
+      "Dança do lenço.",
+      "Dança do Maculelê."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Leia o fragmento a seguir. É a capacidade de conceber o mundo não apenas a partir de esquemas referenciais, mas a partir da experiência e percepção do que existe, desenvolvendo a sensibilidade e a capacidade de entender sentimentos e sensações. Assinale a opção que indica a dimensão do conhecimento em Arte nele referida.",
+    "alternativas": [
+      "Estesia.",
+      "Criação.",
+      "Fruição.",
+      "Reflexão.",
+      "Expressão."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A unidade temática “Artes Integradas”, proposta no Documento Curricular do Tocantins para o Ensino Fundamental (Linguagens – Arte), entende integração como",
+    "alternativas": [
+      "inclusão e permanência de todos os alunos na escola, contribuindo para a diversificação das linguagens.",
+      "assimilação da capacidade de lógica e raciocínio, facilitando o processo de aprendizagem do aluno.",
+      "incorporação das novas mídias e da tecnologia à gestão curricular e à prática pedagógica docente.",
+      "articulação dos conhecimentos sobre corporalidades, visualidades, musicalidades, espacialidades e teatralidades.",
+      "integralização dos componentes curriculares e requisitos estabelecidos pelos Projeto Pedagógicos da escola."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Sobre a unidade temática “Música”, leia o trecho a seguir. Ao longo dos anos iniciais do Ensino Fundamental, estimular o estudante a identificar e manipular os elementos do som por meio do exercício da escuta. Para desenvolver essa habilidade é necessário que o educando possa inventar e reinventar sonoridades, por meio de práticas lúdicas, sem a exigência da reprodução de modelos musicais. Com base no Documento Curricular do Tocantins do Ensino Fundamental – Linguagens/Arte (2019), assinale a opção que identifica corretamente o objeto de conhecimento “Elementos da Linguagem” pertinente à sugestão pedagógica descrita no trecho.",
+    "alternativas": [
+      "Criação de performances artísticas a partir de elementos visuais,sonorosecênicosnocontextodaculturatocantinense.",
+      "Exploração de canções de ritmos diversos: cantigas de roda, canções folclóricas, parlendas, brincadeiras cantadas e rítmicas, entre outras.",
+      "Apreciação musical de compositores tocantinenses e identificação dos elementos construtivos da música nas obras apreciadas.",
+      "Identificação e experimentação corporal de gestos, sonoridades, ambientes, arquiteturas, espaços públicos que fazem parte vida cotidiana dos estudantes",
+      "Composição, individual ou em grupo, explorando a musicalidade brasileira contemporânea a partir de instrumentos musicais convencionais e não convencionais. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 10"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Acompreensãodamúsica,oumesmoasensibilidadeaela,tempor base um padrão culturalmente compartilhado para a organização dos sons numa linguagemartística, padrão este que é socialmente construído e aprendido – pela vivência, pelo contato cotidiano, pela familiarização – embora também possa ser aprendido na escola. PENNA, Maura. Música(s) e seu ensino. Porto Alegre: Sulina, 2012, p. 31. (Adaptado) Com base no trecho, a respeito da música e de seu ensino, analise as afirmativas a seguir. I. A música é uma linguagem artística, culturalmente construída, juntamente com seus princípios de organização, sendo um fenômeno histórico e sociocultural. II. A música é uma atividade universal, motivo pelo qual a sua linguagem é igualmente compreendida e compartilhada por todos os homens, os quais reconhecem o valor estético e atemporal das grandes composições. III. A educação musical pressupões um conceito plural de cultura, favorecendo as trocas e reelaborações de características musicais e experiências do cotidiano dos alunos, relativizando os pontos de vista e de escuta. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas",
+      "I, II e III."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Em 1913 o músico futurista Luigi Russolo publicou o manifesto A Arte dos Ruídos. Em sintonia com a era industrial das máquinas e da velocidade, Russolo criou novos instrumentos musicais para permitir que os compositores utilizassem os sons mais complexos da “era mecânica”: Todos sabemos que qualquer som musical transporta em si um desenvolvimento de sensações com as quais estamos familiarizados e das quais estamos exaustos, pois predispõem o ouvinte ao aborrecimento. Nós Futuristas, amamos profundamente e apreciamos as harmonias dos grandes mestres. Por muitos anos, Beethoven e Wagner chocaram os nossos nervos e corações. Agora encontramos mais divertimento na combinação de ruídos de carris, motores, carruagens e multidões. RUSSOLO, Luigi. L’arte dei rumori, in: https://archive.org/details/luigi-russolo-larte- dei-rumori-1916. (Adaptado) Com base nas palavras de Russolo, é correto afirmar que para o autor, o ruído é um",
+    "alternativas": [
+      "recurso musical.",
+      "barulho indesejável e involuntário.",
+      "rumor indistinto, gravado do mundo natural.",
+      "som que impede a mensagem de chegar ao seu receptor.",
+      "som eletrônico puro, produzido por frequência constante."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Um docente de Arte do 9º ano do Ensino Fundamental propôs aos estudantes a criação de um vídeo performance, a partir dos próprios smartphones. Essa atividade possuía dois objetivos: 1. desenvolver a habilidade de analisar a diversidade do patrimônio cultural brasileiro, material e imaterial, incluindo suas matrizes indígenas, africanas e europeias; e 2. favoreceraconstruçãodevocabulárioerepertóriorelativosàs diferentes linguagens artísticas. Considerando o Documento Curricular do Tocantins do Ensino Fundamental – Linguagens/Arte (2019), a proposta enquadra-se na unidade temática:",
+    "alternativas": [
+      "Patrimônio Cultural.",
+      "Arte e Tecnologia.",
+      "Sistemas de Linguagem.",
+      "Artes Integradas.",
+      "Processos de Criação."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "As manifestações listadas a seguir exemplificam corretamente influências da cultura africana na formação da música brasileira, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "Modinha.",
+      "Coco de roda.",
+      "Capoeira.",
+      "Lundu.",
+      "Samba."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Arte ou artefato? A maioria dos povos ameríndios não guarda aspeças, as máscaras ou os adornos confeccionados de palha ou de penas, depois de tê- las usado nos rituais pois, fora do contexto da encenação, elas perdem sua agência. LAGROU, Els. Arte Indígena no Brasil: agência, alteridade e relação. Belo Horizonte: C/ Arte, 2009, p. 65. (Adaptado) Com base no trecho, assinale a opção que, em seu contexto de produção e uso originais, descreve corretamente os sentidos atribuídos às peças indígenas.",
+    "alternativas": [
+      "As peças são feitas para a exposição e contemplação.",
+      "Os artefatos indígenas possuem eficácia e valor ritualísticos.",
+      "Os objetos visam expressar a individualidade de cada artesão.",
+      "As peças são símbolos de identidade étnica, peças de museus.",
+      "Os artefatos mais bem acabados são considerados arte. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 11"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Pintura facial Kayapó-gorotire (evento no Museu do Índio do Rio de janeiro, 2015). Ao estudar a arte indígena brasileira, os antropólogos chamam a atenção para a centralidade da corporalidade e da pessoa para as sociedades indígenas e apontam para a existência de uma complexa linguagem simbólica em torno da sua “fabricação”. Na arte indígena, o corpo é suporte material de intervenção estética e seria concebido como",
+    "alternativas": [
+      "uma tela em branco a ser decorada para embelezamento.",
+      "elemento material que expressa a subjetividade de cada indivíduo.",
+      "um artefato moldado e esculpido ao modo e no estilo da comunidade.",
+      "entidade biológica que assume características determinadas geneticamente.",
+      "elemento plástico a ser treinado para se tornar eficiente nas atividades da caça e da coleta."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "Leia o trecho a seguir. Esse conceito é empregado para designar o processo de produção de livros, cinema, teatro, música ou qualquer outra manifestação artística pela indústria de entretenimento, com a finalidade de satisfazer as demandas capitalistas por arte e cultura. Ele é usado para designar um processo de homogeneização de hábitos e gostos culturais articulados com a mercantilização no campo cultural. O trecho acima apresenta o conceito de",
+    "alternativas": [
+      "pluralidade cultural.",
+      "interculturalidade.",
+      "cultura de massa.",
+      "diversidade cultural.",
+      "multiculturalidade."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
+  },
+  {
+    "materia": "Matemática",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SEDUC-TO 2023 (FGV) — Professor (Conhecimentos Gerais)",
+    "dificuldade": 2,
+    "enunciado": "A arte gráfica dos Asurini do Xingu usa figuras abstratas geométricas que se repetem, gerando um padrão que cobre o objeto suporte. O padrão iconográfico mais importante entre os Asurini é o Tayngava,termoquesignifica“imagemdoserhumano”.Tayngava étambém umobjetoritualísticoutilizadopelosxamãsem diversos rituais, uma figura antropomórfica feita de taquaras e encapada com algodão. Tayugava: identificação do módulo (esquerda), e construção do significado (direita) Com base no relato e na imagem, analise as afirmativas a seguir sobre o grafismo dos Asurini e assinale (V) para a verdadeira e (F) para a falsa. ( ) Tayngava é a figura elementar da grega, cujo traço mínimo representa os braços e as pernas da figura humana em um padrão contínuo que exige o domínio da geometrização do espaço. ( ) Tayngava é um sinal que assume um significado e representa um objeto, por sua semelhança com ele e por um processo de simbolização derivado de uma síntese formal, sendo a “imagem do homem” elaborada pela cultura Asurini. ( ) Tayngava indica, entre os Asurini, um motivo geométrico com significado relacionado à cosmologia e ao xamanismo uma vez que o mesmo vocábulo é também usado para um artefato ritualístico. As afirmativas são, respectivamente,",
+    "alternativas": [
+      "V – F – V.",
+      "F – V – V.",
+      "V – V – F.",
+      "V – F – F.",
+      "V – V – V. 41 Por meio do Programa Nacional do Patrimônio Imaterial (PNPI), o governo do Tocantins desenvolveu (A) os inventários da suça e do capim dourado. (B) o tombamento do centro histórico de Natividade. (C) a patrimonialização da Igreja Nossa Senhora do Carmo de Monte do Carmo. (D) a restauração da comunidade quilombola do Cocalinho, em Santa Fé do Araguaia. (E) o registro do prédio que sediou o Poder Executivo em Palmas, o “Palacinho”. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 12 42 Em 2020, Daiara Tukano participou do Circuito Urbano de Cultura e Arte de Belo Horizonte (CURA) e realizou o maior mural urbano de uma artista indígena no mundo, com a imagem de uma mãe carregando o seu filho no colo. Daiara Tukano, Selva, mãe do rio Menino, Belo Horizonte/2020, 1000 m2 Em entrevista sobre sua obra, a artista afirmou: É uma pintura que eu pensei especificamente para esse momento: estamos passando por uma situação muito difícil enquanto povo indígena por causa da pandemia de Covid-19. Fico honrada de poder trazer um pouco desse sentimento para a arte urbana e principalmente para a paisagem de Minas Gerais, um lugar marcadopelacolonizaçãoepelamemóriadetodotipodeviolência sofrida por nossos parentes indígenas. Essa obra também representa a mãe natureza que carrega oseu filho, umrio menino, que só nasce onde tem mata, porque é ela que permite que a terra possarespirar,queaáguapossacircular,queoplanetapossaestar vivo. Adaptado de https://www.premiopipa.com. Considerando o depoimento, as afirmativas a seguir descrevem corretamente o sentido de arte pública para a artista, à exceção de uma. Assinale-a. (A) Um modo de dar visibilidade à cultura indígena e de tematizar esteticamente o direito à memória dos povos ancestrais. (B) Uma denúncia pública da poluição das terras do povo Tukano no Alto Rio Negro e a defesa de sua demarcação. (C) Um instrumento criativo de comunicação, militância e arte visual relacionado aos direitos humanos e à cosmovisão ancestral indígena. (D) Uma intervenção cultural em espaço coletivo que traz para o meio urbano o sentimento de soberania e de pertencimento à natureza. (E) Uma oportunidade de representara natureza etrazer à tona o problemadapreservaçãoambientalmedianteavisualidadeda cultura de seu povo. 43 Índia Karajá fazendo boneca. (Iphan). O modo de fazer Bonecas Karajá, exemplo de patrimônio cultural tocantinense, está registrado como (A) autenticidade e Identidade, pois preserva a concepção que os karajás têm de si mesmos, do seu pertencimento e sua afiliação ao grupo. (B) acervo arqueológico, pois valoriza o saber técnico necessário no ofício de representar formas estéticas humanas e arquitetônicas. (C) ofício e modos de fazer, pois a confecção dessas figuras de cerâmica representa uma referência cultural significativa para o povo Karajá. (D) patrimônio etnográfico, pois é uma tradição cultural que remete aos conhecimentos e ao modo de produzir do povo Karajá transmitido pela oralidade. (E) saberes e celebrações, pois a feitura das bonecas está relacionada aosrituais efestasquemarcam a vivência coletiva do trabalho e da religiosidade Karajá. 44 Essa linguagem artística opera com um modo coletivo de arte e estabelece uma experiência artística multissensorial, desenvolvendo no estudante a expressão do corpo, a oralidade e a interação. Além disso, possibilita a vivência de jogos e improvisações mediante as quais os estudantes trocam experiências, socializam e exercitam a capacidade de dialogar, e conviver com as diferenças. Documento Curricular do Tocantins do Ensino Fundamental – Linguagens – Arte (2019), p. 278. Adaptado. O trecho refere-se à seguinte linguagem artística: (A) Música. (B) Dança. (C) Teatro. (D) Artes Visuais. (E) Artes Integradas. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 13 45 Sallisa Rosa, Oca do Futuro, fotofilme documental, 8’45’’, 2018. Entre 2014 e 2017, Sallisa Rosa fotografou indígenas que vivem na cidade do Rio de Janeiro. A artista investigou os descendentes indígenas que, como ela, cotidianamente, integram suas dimensões culturais de origem em um espaço urbano e globalizado, exercitando suas identidades híbridas. O resultado desse projeto foi o fotofilme Oca do Futuro, que fala da trajetória de artistas indígenas, dando visibilidade às reflexões sobre cosmologia originária, integração nacional, povos indígenas urbanos, identidade e território. A respeito do trabalho artístico de Sallisa Rosa, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) A artista constrói seu lugar de fala pela criação estética com as tecnologias da imagem e seus modos operatórios no domínio fotográfico e videográfico. ( ) A artista denuncia a corrosão da ancestralidade e a contaminação do fazer artístico indígena pela vida em um meio globalizado e tecnológico. ( ) Otrabalhodaartistadávisibilidadeàcondiçãodoindígenaque vive em ambientes urbanos, tematizando poeticamente sua subjetividade mestiça. Assinale a opção que indica a sequência correta, na ordem apresentada. (A) V – V – F. (B) F – V – V. (C) V – F – V. (D) F – F – V. (E) V – V – V. 46 As mídias digitais são inovadoras pois traduzem todas as mídias existentes em dados numéricos acessíveis por computadores. Consequentemente, a lógica cultural tradicional é influenciada significativamente pela lógica do computador, uma vez que as novas mídias são criadas em computadores, distribuídas via computadores, armazenadas e arquivadas nos computadores. MANOVICH, Lev. The language of new media. MIT Press, 2002. Adaptado. A respeito das novas mídias, assinale a opção que descreve corretamente o seu impacto na arte. (A) As mídias digitais são fixas, existem como objetos físicos, e perdem a qualidade quando são copiadas, gerando obras únicas. (B) A tecnologia digital restringe as possibilidades de criação de uma linguagem visual, em função de seu caráter numérico baseado em códigos binários. (C) A arte digital redefine os papéis do autor e do fruidor, confirmando as teorias estéticas centradas na autoria e na unicidade do objeto de arte. (D) Asnovasmídiasmudamacriaçãoaudiovisual,permitemnovas formas de imaginários e discursos icônicos, ao mesmo tempo que recodificam as imagens de períodos anteriores. (E) Atecnologiafavoreceadifusãodaartemaisdoquesuacriação e seu conteúdo, uma vez que os artistas precisariam dominar engenharia de software. 47 As profundas transformações provocadas pelo desenvolvimento das novas tecnologias digitais nos meios de comunicação e na criação artística têm chamado a atenção de vários estudiosos que apontam para a necessidade de a arte digital levar em consideração os princípios que regem a linguagem própria das novas mídias, explorando suas vantagens e considerando suas limitações. A respeito da relação entre arte e tecnologia, relacione os princípios que regem a linguagem das novas mídias listados a seguir às suas respectivas descrições. 1. Transcodificação 2. Modularidade 3. Representação numérica ( ) Todos os objetos das novas mídias são compostos por um código digital. ( ) Um objeto da nova mídia mantém a mesma estrutura em diferentes escalas, como um fractal. ( ) Categorias e conceitos culturais são substituídos por outros derivados pelo computador. Assinale a opção que indica a relação correta, segundo a ordem apresentada. (A) 1 – 2 – 3. (B) 2 – 3 – 1. (C) 3 – 1 – 2. (D) 1 – 3 – 2. (E) 3 – 2 – 1. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 14 48 Analise o plano do Capitólio, praça romana projetada por Michelangelo no século XVI. Fonte: https://images.app.goo.gl/UFnmV7Xj39VdZe6P8 A respeito da composição espacial da praça executada por Michelangelo, assinale a opção que caracteriza corretamente aspectos da arte e da perspectiva renascentistas. (A) A praça separa os três edifícios que a margeiam e produz uma sensação de profundidade pelo uso da perspectiva área, característica da arquitetura e da pintura de Michelangelo. (B) Na praça, a relação renascentista entre razão, ciência e arte se materializa na perspectiva baseada em estudos de geometria e em um conceito de espacialidade que privilegia o ponto do vista humano. (C) A triangulação estabelecida entre as escadas do Palazzo Sanatórioeosmotivoscircularesdesenhadosnopavimentoda praça é uma característica da arte clássica que é retomada no Renascimento. (D) O ritmo vertical impresso pela sequência de colunas, janelas e portas dos edifícios laterais tem o propósito de enaltecer a grandiosidade divina e transmitir um sentimento de transcendência. (E) O arranjo espacial do Capitólio evitou produzir para o observador um ponto de fuga que gerasse uma sensação de profundidade, optando em adotar uma perspectiva ortogonal. 49 O movimento cultural e artístico, que se desenvolveu na Europa e nas Américas entre o final do século XVI e meados do século XVIII eémarcadoporumareaçãoàsnormasclássicasdoRenascimento, é denominado (A) Barroco. (B) Rococó. (C) Realismo. (D) Maneirismo. (E) Neoclassicismo. 50 Desde o Renascimento, o vocábulo perspectiva indica a representação gráfica que mostra os objetos como eles aparecem à nossa vista (com três dimensões), de modo a termos a sensação de profundidade e relevo. O tipo de perspectiva exemplificado a seguir é utilizado para representar um objeto evitando ao máximo sua deformação. Assinaleaopçãoqueidentificacorretamenteotipodeperspectiva usado para representar o cubo. (A) Perspectiva isométrica, que situa o observador no infinito. (B) Perspectiva exata, com dois pontos de fuga. (C) Perspectiva central, com um ponto de fuga. (D) Perspectiva cavaleira, com face frontal no plano. (E) Perspectiva vista de pássaro, com três pontos de fuga. 51 Observeo desenho do baldaquino doaltardeSão Pedro projetado por Gian Lorenzo Bernini (Cidade do Vaticano, Roma). Estaobraapresentaum aportepróprio do Barroco, explicitado em suas colunas denominadas (A) jônicas. (B) dóricas. (C) coríntias. (D) salomônicas. (E) tessalônicas. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 15 52 Relacioneosmovimentosartísticoslistadosa seguirà descrição de seus aspectos principais. 1. Impressionismo 2. Expressionismo Abstrato 3. Surrealismo ( ) Preferência pelo registro da experiência contemporânea e observação da natureza com base em impressões pessoais e sensações visuais imediatas. ( ) A obra de arte é fruto de uma relação corporal do artista com a pintura e nasce da liberdade de improvisação e do gesto espontâneo, como na “pintura de ação” (action painting). ( ) Diálogo com a psicanálise e valorização do irracional e do inconsciente, com o estímulo à investigação do imaginário e dos impulsos ocultos da mente nas artes. Assinale a opção que indica a relação correta, na ordem apresentada. (A) 1 – 2 – 3. (B) 3 – 2 – 1. (C) 3 – 1 – 2. (D) 2 – 3 – 1. (E) 2 – 1 – 3. 53 Observe a tela do artista brasileiro Ismael Nery, considerado o introdutor do surrealismo no Brasil. Ismael Nery, Composição Surrealista, 1929, óleo sobre tela. Com base no quadro de Ismael Nery, considerando os princípios do surrealismo, analise as afirmativas a seguir. I. O olhar do artista surrealista se detém na observação das formas sensíveis e fenomênicas da realidade cotidiana, como nocasodocorpofemininoedanaturezaretratadosnoquadro. II. Acolageméumrecursoexploradopelasvanguardasesetorna uma técnica recorrente na composição surrealista, como no caso do quadro, em que são reunidos elementos díspares do ponto de vista realista. III. O surrealismo é uma linguagem visual para o artista divulgar poeticamente seu modo de enxergar o mundo, libertando-se das exigências da lógica e da razão, como na paisagem metafísica criada pelo pintor no quadro. Está correto o que se afirma em (A) I, apenas. (B) I e II, apenas. (C) I e III, apenas. (D) II e III, apenas. (E) I, II e III. 54 A Semana de Arte Moderna de 1922 foi protagonizada pela elite artística e cultural paulista que visava criar uma cena em que pudesse expressar suas ideias e desenvolver o seu trabalho. O impacto da manifestação é potencializado pelo contexto em que ocorre. O nacionalismo emergente do pós-Primeira Guerra Mundial e a industrialização que se estabelece, especialmente em São Paulo, motivam intelectuais e jovens artistas para criar novos projetos culturais. As comemorações do Centenário da Independência do Brasil os incentivam a traçar um perfil estético mais livre, com a quebra de cânones que eram vistos como obstáculos à renovação da criatividade artística. AJZENBERG,Elza. A Semana de Arte Moderna de 1922. Revista de Cultura e Extensão. USP: 2012, p. 26. Adaptado. Com base no texto, assinale a opção que contextualiza corretamente o movimento da Semana de Arte Moderna de 1922. (A) O movimento foi influenciado pelas vanguardas europeias, de modo que os modernistas brasileiros buscavam estabelecer a filiação estética da brasilidade na matriz ocidental. (B) A Semana ocorreu em São Paulo que, no início do século XX, era a maior e mais importante cidade do país, exercendo a função de epicentro artístico e cultural do Brasil republicano. (C) O evento, apesar de protagonizado por uma elite branca, mostrava temas relacionados à cultura e à visualidade de matriz africana e afrodescendente, adotando um conceito plural de brasilidade. (D) A Semana de 1922 impulsionou o Modernismo brasileiro, caracterizado pela liberdade expressiva do parnasianismo e pelo caráter revolucionário da imaginação romântica na pintura e na poesia. (E) O ano de 1922 marcou o centenário da independência, tendo sido um momento importante na construção da identidade nacional e de uma arte que aspirava ser genuinamente brasileira. 55 No Brasil Colônia, o teatro se expande a partir de 1567, quando o padre José de Anchieta, por sugestão de Manuel de Nóbrega, faz representar em São Paulo de Piratininga uma peça intitulada Pregação Universal. Anchieta foi o maior representante jesuíta da produção teatral no Brasil no século XVI e um dos primeiros a elaborar peças na língua geral (tupi). A respeito do teatro jesuítico, é correto afirmar que (A) eraencenadocomumfimemsimesmo,estandoseparadodas festividades de caráter religioso por tematizar cenas pagãs da vida dos gentios. (B) apresentava exibições declamatórias ou cênicas sobre a cosmovisão indígena, para permitirqueoscolonizadores lusos compreendessem o universo tupi. (C) tinha como principal objetivo enfatizar os dogmas da igreja católica e na América adquiriu uma função evangelizadora em relação aos colonos e aos indígenas. (D) criou uma continuidade de palco, com escritores, atores, e público relativamente estáveis, articulados nos colégios, nos pátios das igrejas e nos aldeamentos da ordem. (E) adotava o gênero de autos de Gil Vicente, uma composição cômica popular, deconcepção simples edeação burlesca, que caricaturava o bem e o mal. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 16 56 Móbile é uma escultura que possui peças móveis, impulsionadas por motores ou pela força natural das correntes de ar. O nome móbile foi sugerido por Marcel Duchamp para a exposição das esculturas de Alexander Calder em Paris, em 1932. Com base na definição de móbile e na imagem da escultura de Alexander Calder, assinale a opção que identifica a manifestação artística a que este tipo de obra está associada. (A) Arte pop. (B) Arte cinética. (C) Cubismo. (D) Ready-made. (E) Futurismo. 57 No Rio de Janeiro, em 1961, foicriado o Centro Popular de Cultura (CPC),ligadoàUniãoNacionaldeEstudantes.OCPCreuniuartistas de teatro, música, cinema, literatura e artes plásticas, com o objetivo de criar e divulgar uma “arte popular revolucionária”. O seunúcleoformadorfoiconstituídoporOduvaldoVianaFilho,pelo cineasta Leon Hirszman e pelo sociólogo Carlos Estevam Martins. Para essa geração de artistas e intelectuais, fazer uma “arte popular revolucionária” significava (A) considerar a arte enquanto uma linguagem própria, desvinculada e independente dos processos materiais. (B) entender o artista como um militante engajado, para quem a arte popular seria necessariamente uma arte política. (C) vincular as produções artístico-culturais ao debate político, sobretudo ao tema da utopia desenvolvimentista. (D) privilegiar o teatro para as classes populares, com peças simples e de fácil compreensão sobre o folclore brasileiro. (E) defender o caráter didático e de entretenimento da comédia pastelão, que resgatava a tradição cênica popular. 58 Considerando o Documento Curricular do Tocantins, assinale a opção que identifica corretamente o significado do ensino da linguagem artística da dança em contexto escolar. (A) Desempenha um papel importante na educação dos corpos e no processo criativo associado às datas festivas do calendário escolar. (B) Fornece aos alunos subsídios para disciplinar o próprio corpo e compreender as manifestações adequadas ao convívio em sociedade. (C) Introduz saberes sistematizados do ensino escolar que substituem os saberes adquiridos espontaneamente pelos estudantes no cotidiano. (D) Preservaastradiçõesgenuinamentepopulareseregionaisque estão desaparecendo em função da globalização cultural que privilegia formatos híbridos. (E) Desenvolveumpensamentocinestésicotendocomoelemento central o movimento corporal, considerado como expressão de emoção e comunicação. 59 Com base no Documento Curricular do Tocantins do Ensino Fundamental – Linguagens/Arte (2019), assinale a opção que apresenta um exercício pertinente de notação musical. (A) Criar sonoridades a partir de instrumentos feitos com materiais reutilizáveis e elementos da natureza. (B) Experimentar improvisações, composições e sonorização de histórias a partir da percussão corporal. (C) Identificar e apreciar diversos gêneros de expressão musical, reconhecendo e analisando seus ritmos. (D) Registrar sons mediante escrita musical espontânea, partitura alternativa ou signos gráficos oriundos das artes visuais. (E) Explorar os elementos constitutivos da música: altura, intensidade, timbre, melodia e ritmo, anotando seus usos. 60 A função do ensino de Música na escola é justamente ampliar o universo musical do estudante, dando-lhe acesso à maior diversidade possível de manifestações musicais, pois a música, em suas mais variadas formas, é um patrimônio cultural capaz de enriquecer a vida de cada um, ampliando a sua experiência expressiva e significativa. PENNA, Maura. Música(s) e seu ensino.Porto Alegre: Sulina, 2012, p. 27. Adaptado. As afirmativas a seguir descrevem corretamente o sentido da educação musical na escola com base no trecho citado, à exceção de uma. Assinale-a. (A) Assume uma função crítica em relação à poluição sonora e educa para a ecologia acústica. (B) Considera o mundo contemporâneo em suas características e possibilidades culturais. (C) Parte do conhecimento e das experiências que os jovens trazem do seu cotidiano. (D) Propicia oaprendizado ea exploração dediferentesestruturas sonoras. (E) É pensada dentro de um projeto de democratização do acesso à arte e à cultura. SECRETARIA DA EDUCAÇÃO DO ESTADO DE TOCANTINS FGV Professor da Educação Básica - Professor Regente (Artes)  Tipo Branca – Página 17 Redação O Brasil ainda sofre com diversos problemas sociais, que se fazem presentes nos mais variados setores, abrangendo uma grande parcela da população e aumentando nossos índices negativos em mortalidade, desnutrição, analfabetismo, crimes, exclusão e tantos outros. Por isso, torna-se muito importante conhecer esses problemas, entender suas causas e identificar formas de combatê-los. Emumtextodissertativo-argumentativodeextensãoentre20a30linhas,redigidoemlinguagemculta,expressesuaopiniãosobreoseguinte tema: Qual o mais grave problema social do Brasil? Apresente suas causas e formas de combatê-lo."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SEDUC-TO"
+    ]
   }
 ]
