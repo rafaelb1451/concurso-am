@@ -45383,5 +45383,1454 @@
     "concursos": [
       "CBM-AM"
     ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Como se sabe, um dos elementos que caracterizam a argumentação é a presença de certas estratégias argumentativas, que têm por finalidade convencer, persuadir ou modificar ideias do receptor sobre uma tese. Abaixo estão nomeadas algumas dessas estratégias, acompanhadas de exemplos; a opção em que a estratégia citada está correta é:",
+    "alternativas": [
+      "“A crise econômica é um problema que preocupa a todos; a Europa tem países com uma alta taxa de inflação, assim como os Estados Unidos” / estratégia de analogia.",
+      "“Segundo o Greenpeace, a perfuração do Ártico ocasionará um prejuízo irreversível para o planeta” / estratégia de apelo a um testemunho de autoridade.",
+      "“A campanha eleitoral pode ser definida pela mídia social; 220 milhões de e-mails podem ser enviados em 24 horas” / estratégia de apelo ao absurdo.",
+      "“Grande parte das crianças não se alimentam de forma saudável, o que mostra o descuido dos pais em relação a esse aspecto da educação dos filhos” / estratégia de citação de estatísticas.",
+      "“A liberdade de expressão está sendo desrespeitada continuamente, mas esse é um direito dos mais importantes de nossa cultura legal” / estratégia de exemplificação."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Todas as frases abaixo estão construídas com comparações explícitas ou em linguagem figurada (metáfora). Assinale a opção em que o motivo da comparação está identificado de forma correta.",
+    "alternativas": [
+      "As grandes portas do refeitório se abriram e vomitaram três fiscais da saúde pública em roupas discretas / aparência suja dos fiscais.",
+      "A coluna de soldados nada mais era que um barco perdido, levado pelas forças da natureza e por seu destino / a distância em relação a um ponto seguro.",
+      "A história é uma galeria de quadros com poucos originais e muitas cópias / a beleza.",
+      "Ontem é um cheque cancelado, amanhã é uma nota promissória e hoje é o único dinheiro vivo que você tem / o fracasso em atividades.",
+      "Juventude é um presente da natureza, mas a idade é um trabalho de arte / estado de perfeição."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "As frases podem estar escritas em registros variados da língua; a frase abaixo, relacionada à gastronomia, que mostra marcas do registro popular é",
+    "alternativas": [
+      "“Não estou fazendo nenhuma dieta. Eu amo comer. Eu amo comida”.",
+      "“Cozinhar é como amar. Entregue-se ou caia fora”.",
+      "“Eu cozinho com vinho, às vezes até mesmo acrescento comida a ele”.",
+      "“A regra fundamental para um sommelier é fazer as pessoas felizes por meio do vinho”.",
+      "“Quanto mais difícil é ler um cardápio, mais altos são os preços”."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Os textos podem pertencer a diferentes tipos ou gêneros; a opção abaixo que mostra um texto predominantemente expositivo é",
+    "alternativas": [
+      "“Depois desses dias na juventude, meu amigo desapareceu de minha vida e eu só tornei a encontrá-lo na semana passada, em um restaurante”.",
+      "“Defendo a ideia de que as pessoas podem dizer tudo o que querem, e, quando isso trouxer qualquer prejuízo a alguém, que esse alguém as processe”.",
+      "“O barco atracou ontem no Rio de Janeiro, com muitas turistas a bordo, o que certamente vai trazer a alegria para muitos comerciantes”.",
+      "“O rio estava transbordando, em função das fortes chuvas, com as margens derrubadas pela força das águas e muitos detritos levados pela correnteza”.",
+      "“O deputado fez o seu discurso, foi ovacionado, agradeceu os aplausos e dirigiu-se a seu gabinete”."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Observe as quatro frases a seguir, todas elas redigidas por um mesmo indivíduo: 1. Não se pode esperar que esse filme venha a ter o sucesso que ele merece. 2. Nós apreciamos os esforços da prefeitura da cidade para aumentar os espaços verdes. 3. De acordo com os peritos, as causas do acidente seriam de origem criminosa. 4. Nós poderíamos imaginar que os progressos científicos garantiriam num futuro próximo a felicidade da humanidade? Todos esses textos manifestam opiniões; a afirmação correta sobre eles é:",
+    "alternativas": [
+      "as frases 2 e 3 manifestam opiniões pessoais.",
+      "a frase 2 mostra uma opinião pessoal, dando-lhe um aspecto geral.",
+      "todas as frases partem de opiniões alheias, retomadas como se fossem próprias.",
+      "as frases 3 e 4 apresentam uma opinião e, em seguida, a comentam.",
+      "a frase 1 confronta opiniões diversas. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 3"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Abaixo estão vários pequenos textos cujas ideias estão ligadas de forma explícita, por meio de expressões de causa; a frase em que a expressão sublinhada é adequada ao contexto, é",
+    "alternativas": [
+      "Graças à pandemia, as escolas foram fechadas.",
+      "Ele gosta de romances policiais com o pretexto de que o suspense é bastante intenso.",
+      "Sob o efeito de sua idade, ele não pôde testemunhar no processo.",
+      "Em função de algumas dificuldades, desistiu da viagem.",
+      "Carente de maldade, ele possuía muitos amigos."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Observe o seguinte parágrafo de um texto: “Há diversas maneiras de entender o vocábulo “geração”. Ele pode designar as pessoas que tiveram uma experiência histórica comum, particularmente impactante. Assim, falamos da geração da guerra de 14 ou da Resistência de maio de 1968, na França. Podemos também identificar uma geração a partir da idade: todas as pessoas de 20 anos dos anos 90. Podemos finalmente pensar numa experiência familiar: a geração dos filhos, em oposição à dos pais ou avós...” A partir da frase inicial, o desenvolvimento do parágrafo se faz por",
+    "alternativas": [
+      "argumentos seguidos de exemplos.",
+      "confrontação de argumentos apresentados.",
+      "argumentos de valor concessivo.",
+      "ideias apresentadas num processo indutivo.",
+      "argumentos relacionados por dedução."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Uma das marcas da boa estruturação textual é, em alguns casos, a existência de um paralelismo sintático entre seus termos; o pensamento abaixo em que o paralelismo foi respeitado é",
+    "alternativas": [
+      "O funcionário deseja um aumento de salário e o reconhecimento de seu esforço pela empresa.",
+      "Era necessário ter-se preparado, prestar atenção nas questões e as respostas dadas calmamente.",
+      "Abrir a porta, encaminhar-se à garagem, a ligação do carro e sair rapidamente eram fatos cotidianos.",
+      "Os rios nessa região são de grande volume de água, barrentos, de quantidade razoável de peixes e de beleza imensa.",
+      "Conhecia todos de vista: Pedro, Heitor, Guilherme, Roger e o primo de Fernando."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Um dos problemas sérios da língua escrita é a possível ambiguidade de termos; a frase abaixo que mostra ambiguidade é",
+    "alternativas": [
+      "Não sei o que fazer diante desse problema.",
+      "João, eu gostaria de conversar com sua mãe.",
+      "Pagar a conta de luz já custa menos.",
+      "No escritório, falta luz desde ontem.",
+      "Nunca mais quero ver você por aqui."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Língua Portuguesa",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "“A mãe de David fumava durante toda a gravidez, por isso seu filho nasceu fraco e com peso baixo”. O argumento lógico racional que foi empregado nesse pequeno texto pode ser caracterizado como",
+    "alternativas": [
+      "raciocínio por analogia.",
+      "apelo à generalização.",
+      "testemunho de autoridade.",
+      "relação causa/consequência.",
+      "estrutura lógica dedutiva. Raciocínio Lógico-Matemático"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em um saco há 180 bolinhas, umas brancas, outras pretas e não há bolinhas de outra cor. Das bolinhas do saco, 60% são pretas. São retiradas N bolinhas brancas do saco e, então a porcentagem de bolinhas pretas do saco passou a ser de 80%. O valor de N é",
+    "alternativas": [
+      "20.",
+      "25.",
+      "30.",
+      "40.",
+      "45."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Considere a sequência das letras do alfabeto formada por 1 letra A, 2 letras B, 3 letras C, e assim por diante até o final com 26 letras Z. A B B C C C D D D D E E E E E ... A 100ª letra dessa sequência é",
+    "alternativas": [
+      "M.",
+      "N.",
+      "O.",
+      "P.",
+      "Q."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Os algarismos 1, 2, 3, 4, 5, devem formar um número de cinco algarismos de forma que cada um desses algarismos apareça uma vez e que os algarismos pares não fiquem juntos. Por exemplo, o número 34152 é um desses números. A quantidade de números que cumprem essas condições é",
+    "alternativas": [
+      "12.",
+      "24.",
+      "36.",
+      "60.",
+      "72."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Considere as seguintes afirmativas a respeito de um objeto chamado biba:  Se biba é bala então não é bola.  Se biba não é bala então é babalu. É correto concluir que",
+    "alternativas": [
+      "se biba é bola então é babalu.",
+      "se biba é babalu então é bola.",
+      "se biba não é bola então é babalu.",
+      "se biba não é babalu então é bola.",
+      "se biba é bola então não é babalu. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 4"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em um saco há muitas bolinhas, todas do mesmo tamanho, algumas brancas, e as outras pretas. Dessas bolinhas, umas são mais leves e as outras, mais pesadas. Sabe-se que:  70% de todas as bolinhas são brancas.  25% das bolinhas leves são pretas.  60% das bolinhas pretas são pesadas. A porcentagem de bolinhas pesadas e brancas nesse saco é de",
+    "alternativas": [
+      "26%.",
+      "30%.",
+      "34%.",
+      "38%.",
+      "42%."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Considere a sentença: “Se Amazonino é amazonense e Reno não é alagoano, então Carlota não é carioca”. Uma sentença logicamente equivalente à sentença dada é",
+    "alternativas": [
+      "Se Carlota não é carioca, então Amazonino é amazonense e Reno não é alagoano.",
+      "Se Amazonino não é amazonense e Reno é alagoano, então Carlota é carioca.",
+      "Se Amazonino não é amazonense ou Reno é alagoano, então Carlota é carioca.",
+      "Se Carlota é carioca, então Amazonino não é amazonense ou Reno é alagoano.",
+      "Se Carlota é carioca, então Amazonino não é amazonense e Reno não é alagoano."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Sobre dois conjuntos A e B sabe-se que:  A união de A e B tem 130 elementos.  A diferença B – A tem 50 elementos.  A diferença A – B tem 60 elementos. Sendo x o número de elementos de A e y o número de elementos de B, o valor de x + y é igual a",
+    "alternativas": [
+      "110.",
+      "120.",
+      "130.",
+      "140.",
+      "150."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Duas urnas A e B têm, cada uma, 26 bolinhas. Em cada urna, cada bolinha tem uma letra do alfabeto, sem repetição. Retira-se aleatoriamente uma bolinha de cada urna. A probabilidade de a bolinha sorteada da urna A ter uma letra que, na ordem alfabética, é anterior à letra sorteada da urna B é",
+    "alternativas": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Considere o conjunto dos números 15, X, 2, 11, 6. Sabe-se que a mediana desse conjunto de números é 11 e que a média é a menor possível. A diferença entre a mediana e a média é",
+    "alternativas": [
+      "0.",
+      "1.",
+      "2.",
+      "3.",
+      "4."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Raciocínio Lógico-Matemático",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Uma pirâmide de base retangular tem volume igual a 36. As arestas da base da pirâmide são então duplicadas e a altura, triplicada. O volume da nova pirâmide é",
+    "alternativas": [
+      "108.",
+      "216.",
+      "324.",
+      "396.",
+      "432. Geografia do Amazonas"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "No século XVII, a principal estratégia adotada pela Coroa portuguesa para garantir a sujeição dos grupos indígenas e o controle territorial do vale amazônico consistiu",
+    "alternativas": [
+      "na demarcação de fronteiras nos divisores da bacia amazônica.",
+      "na integração do Estado do Maranhão e do Grão-Pará ao Estado do Brasil.",
+      "no envio de contingentes militares para a anexação de territórios indígenas.",
+      "na promoção das aldeias indígenas distantes da costa ao estatuto de vila.",
+      "no envio de ordens religiosas para a criação de estabelecimentos missionários."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A expressão “província estrutural” designa grandes áreas geológicas naturais que apresentam evolução estratigráfica, magmática, tectônica e metamórfica próprias e diferentes daquelas das províncias vizinhas. Leia o fragmento a seguir. A Província Estrutural Amazonas-Solimões representa a grande Província _____ que separa o _____ amazônico em dois grandes escudos: ao norte, o Escudo _____ e, ao sul, o Escudo do Brasil Central. Assinale a alternativa cujos itens completam corretamente as lacunas do fragmento acima.",
+    "alternativas": [
+      "Sedimentar – Cráton – das Guianas.",
+      "Vulcânica – Cráton – do Caribe.",
+      "Costeira – Cinturão – do Caribe.",
+      "Sedimentar – Cinturão – dos Andes.",
+      "Costeira – Cráton – dos Andes. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 5"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "As mudanças climáticas antropogênicas estão associadas às atividades humanas com o aumento da emissão de gases de efeito estufa, de queimadas, com o desmatamento, a formação de ilhas urbanas de calor, etc. Sobre as influências das mudanças climáticas na Amazônia, analise as afirmativas a seguir. I. A redução de precipitações induzidas pelas mudanças climáticas aumenta a suscetibilidade dos ecossistemas amazônicos ao fogo. II. O aumento de temperatura provoca uma diminuição da evapotranspiração das plantas, levando à desaceleração do ciclo hidrológico na Amazônia. III. Com o aumento de CO2 e a diminuição de aerossóis na atmosfera, eventos climáticos extremos podem se tornar mais frequentes. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Os Latossolos Amarelos ocupam extensas áreas ao longo do Rio Amazonas. Esses solos apresentam, em certos locais, horizonte A do tipo antrópico, no qual os teores de matéria orgânica e fósforo elevados são características distintivas. Solos com esse tipo de horizonte superficial eram cobiçados pelos primeiros colonizadores da Amazônia devido a sua maior fertilidade, em contraste com a pobreza em nutrientes dos solos amazônicos mais comuns. Solos com esse tipo de horizonte superficial receberam, por muito tempo, a denominação de",
+    "alternativas": [
+      "Terra de várzea.",
+      "Terra Preta de Índio.",
+      "Campo de Inundação.",
+      "Solo de Terra Firme.",
+      "Solo Amarelo de Igapó."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "As políticas de desenvolvimento regional para a Amazônia passaram a ocorrer, de forma mais coordenada, a partir da década de 1970. Em suas diferentes fases, essas políticas privilegiaram diferentes configurações espaciais. A partir da segunda metade da década de 1990, tiveram destaque nas políticas de desenvolvimento regional para a região amazônica",
+    "alternativas": [
+      "os corredores de exportação.",
+      "os polos de crescimento.",
+      "as faixas marginais às rodovias.",
+      "as zonas de assentamentos rurais.",
+      "as áreas dos programas de colonização."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Entre 1970 e 1990 ocorreu uma verdadeira corrida do ouro na Amazônia, com grandes impactos para as dinâmicas migratórias e para o crescimento populacional da região. Sobre os fatores que estimularam a difusão de frentes garimpeiras no território amazônico durante as duas décadas da corrida do ouro, assinale V para a afirmativa verdadeira e F para a falsa. ( ) A introdução da aviação e das vias de transporte terrestre no espaço amazônico facilitou a penetração em terras interiores e a descoberta de depósitos antes inacessíveis. ( ) O estímulo governamental à imigração para a fronteira amazônica e o posterior fechamento seletivo do estoque de terras para os novos migrantes pobres gerou um exército de mão de obra ociosa. ( ) o processo inflacionário, as condições de pauperismo social e de alto desemprego no país ampliaram a atração da atividade garimpeira para uma massa de trabalhadores pobres. As afirmativas são, respectivamente,",
+    "alternativas": [
+      "F – V – F.",
+      "V – V – V.",
+      "V – F – F.",
+      "V – V – F.",
+      "F – F – V."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em 2020, segundo dados da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), o estado do Amazonas atingiu uma produção média de 13,5 milhões de m3 /dia de gás natural. Sobre a produção de gás natural no estado do Amazonas, analise as afirmativas a seguir. I. O Amazonas é o estado que apresenta a maior produção de gás natural em terra do país. III. O gás natural no estado do Amazonas é explorado na Bacia Sedimentar do Solimões. III. As balsas são o principal meio de transporte do gás natural do polo de Urucu para Manaus. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 6"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "No estado do Amazonas, o extrativismo de produtos florestais não madeireiros apresenta-se como possibilidade de articular a presença de populações e a preservação ambiental. Sobre a produção extrativa vegetal no estado do Amazonas, assinale V para a afirmativa verdadeira e F para a falsa. ( ) Na última década, o fruto do açaí ampliou sua participação no valor da produção extrativa vegetal do estado. ( ) Em 2020, a macrorregião do Sul Amazonense foi a que apresentou a menor quantidade produzida na extração de castanha-do-pará do estado ( ) Em 2020, a macrorregião do Norte Amazonense foi a que apresentou o maior valor da produção na extração vegetal do fruto de açaí do estado As afirmativas são, respectivamente,",
+    "alternativas": [
+      "F – V – F.",
+      "F – V – V.",
+      "V – F – F.",
+      "V – V – F.",
+      "F – F – V."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "De acordo com o Instituto Socioambiental (ISA), a demarcação de uma Terra Indígena tem por objetivo garantir o direito indígena à terra. Ela deve estabelecer a real extensão da posse indígena, assegurando a proteção dos limites demarcados e impedindo a ocupação por terceiros. No Brasil, esse reconhecimento formal obedece a um procedimento administrativo que estipula as etapas do processo de demarcação, o qual é regulado por decreto do Poder Executivo. Entre as etapas que antecedem a homologação de uma Terra Indígena estão",
+    "alternativas": [
+      "a contestação e a concessão do uso.",
+      "a demarcação e o manejo sustentável.",
+      "a identificação e a declaração dos limites.",
+      "a licitação e a contestação administrativa.",
+      "a delimitação e a permissão de venda."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Geografia do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "De acordo com os dados do Instituto Nacional de Pesquisas Espaciais (INPE), no triênio de 2019 a 2021 foi observado um aumento do desmatamento no Amazonas, estado que concentra as maiores áreas de florestas protegidas do bioma amazônico. Um dos mais importantes vetores do desmatamento do estado do Amazonas na atualidade está relacionado à expansão da fronteira agrícola",
+    "alternativas": [
+      "na bacia do rio Juruá.",
+      "na região do alto rio Negro.",
+      "nas áreas de conservação da região do Javari.",
+      "na divisa com os estados do Acre e Rondônia.",
+      "na tríplice fronteira com o Peru e a Colômbia. História do Amazonas"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Leia um trecho da entrevista com o escritor manauense Marcio Souza a respeito da fundação de Belém e Manaus: “As duas maiores cidades da Amazônia surgiram como fortes portugueses. Entre 1600 e 1630 os colonizadores da pequena nação europeia consolidaram seu total domínio da boca do rio Amazonas. Em 1616, ergueram o Forte do Presépio de Santa Maria de Belém, um posto que desrespeitava propositalmente o Tratado de Tordesilhas, que dividia a América do Sul em metade espanhola e metade portuguesa. Em 1669, Portugal decidiu fortificar a boca do Rio Negro. Surgiu o Forte de São José da Barra do Rio Negro, que mais tarde se tornaria a cidade de Manaus.” (https://www.nexojornal.com.br/entrevista) Em relação ao tema, assinale a afirmativa correta.",
+    "alternativas": [
+      "O Tratado de Tordesilhas assegurava a posse espanhola da Amazônia, tornando-se objeto de conquista lusa no século XVII, com a instalação do Forte do Presépio na baía do Guajará.",
+      "A construção do Forte do Presépio e do núcleo de povoamento Feliz Lusitânia são um marco do esforço luso para conter as incursões holandesas, as terrestres vindas do Suriname e as marítimas vindas do Maranhão.",
+      "A construção dos fortes foi realizada com a ajuda dos tamoios, tradicionais aliados dos portugueses na luta contra ingleses, holandeses e franceses na Amazônia.",
+      "Desde a expedição de Pedro Teixeira, a foz do Amazonas passou a ter um valor estratégico, levando a Coroa Portuguesa a planejar a construção do Forte do Presépio.",
+      "As fortalezas do Presépio e de São João da Barra do Rio Negro foram construídas para conter o avanço dos franceses, que assolavam a Costa atlântica do Amapá e penetravam na região amazônica rumo à França Equinocial."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "No antigo Estado do Maranhão e Grão Pará, a mão de obra indígena representou a principal força de trabalho nos séculos XVII e XVIII. A respeito do recrutamento da força de trabalho indígena na Amazônia colonial, leia o trecho a seguir. “Constante e incentivada ao longo da colonização (desde o Regimento de Tomé de Sousa de 1547 até o Diretório Pombalino de 1757), essa forma de arregimentar mão de obra indígena era concebida como deslocamento de povos inteiros para novas aldeias próximas aos estabelecimentos portugueses. Deviam resultar da persuasão exercida por tropas lideradas ou acompanhadas por um missionário, sem qualquer tipo de violência. Tratava-se de convencer os índios do “sertão” de que era de seu interesse aldear-se junto aos portugueses, para sua própria proteção e bem-estar.” (Adaptado de CUNHA, Manuela Carneiro da (org.). História dos índios. São Paulo: Cia das Letras, 1992, p. 118.) O trecho descreve uma forma de arregimentar mão de obra indígena conhecida como",
+    "alternativas": [
+      "Repartição.",
+      "Descimento.",
+      "Resgate.",
+      "Guerra justa.",
+      "Aldeamento. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 7"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A respeito da política indigenista da Coroa portuguesa no período colonial, estabeleça a correspondência entre as normativas listadas a seguir e sua respectiva caracterização. 1. Regimento das Missões (1686) 2. Diretório dos Índios (1757) ( ) Proíbe a escravidão indígena e cria o ofício de Procurador dos Índios nas capitanias do Pará e Maranhão. ( ) Manifesta a convicção de que a convivência, o trabalho e a educação europeias poderiam civilizar os indígenas. ( ) Concede aos missionários portugueses o direito de tutela dos nativos capturados. ( ) Institui um diretor para o governo das aldeias, a ser nomeado pelo governador-geral. Assinale a opção que indica a sequência correta, de cima para baixo",
+    "alternativas": [
+      "1, 1, 2 e 1.",
+      "1, 2, 1 e 2.",
+      "2, 1, 1 e 2.",
+      "2, 1, 2 e 2.",
+      "2, 2, 1 e 2."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "“Quando Belém era metrópole, São Paulo era ainda sertão” Apesar do fenômeno urbano ter sido tardio na América Portuguesa, associado ao “ciclo do ouro” (sec. XVIII), Belém, Salvador, Rio de Janeiro e Recife já representavam a face urbana da colônia desde o início. A respeito da centralidade de Belém para a história da América Portuguesa, analise as afirmativas a seguir: I. Por sua importância estratégica e econômica, Belém se tornou a sede político-administrativa do Estado do Grão-Pará e Maranhão (1751), mantendo relações políticas diretas com Portugal. II. Com a independência, a elite local, estreitamente ligada à Corte Joanina, se viu finalmente integrada ao Império do Brasil, apoiando a emancipação de imediato. III. Durante o império, Belém se destacava por sua importância comercial: para o seu porto convergiam os artigos destinados à exportação, sobretudo goma elástica e drogas do sertão, assim como derivados da pecuária de Marajó. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Durante a “Guerra dos Cabanos” (1835-1840), os revoltosos se denominavam de “patriotas”, querendo forjar para si mesmos uma nova identidade. O vocábulo “patriota” usado pelos cabanos indicava",
+    "alternativas": [
+      "o sentimento nacionalista das camadas populares do Alto Amazonas, cujo movimento apoiava a integração de sua região à uma nação brasileira independente.",
+      "o projeto monarquista dos revoltosos, que se identificavam como “portugueses” em oposição aos “brasileiros” da Corte do Rio de Janeiro.",
+      "a influência do modelo norte-americano de revolução: lutar por um estado federalista e escravocrata, incentivando a expansão da produção para o mercado interno.",
+      "a emergência de uma identidade comum entre rebeldes de diversas etnias e culturas (indígenas, negros e mestiços), mas que percebiam problemas e luta em comum.",
+      "o desenvolvimento de uma imagem anti-imperialista entre os setores populares do Império, que se organizavam para lutar contra a exploração dos colonizadores."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Entre os produtos oriundos da selva, o que marcou profundamente a economia da região amazônica desde meados do século XIX foi a borracha. As afirmativas a seguir indicam corretamente as condições que propiciariam o desenvolvimento da atividade gomífera na região, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      "A implantação de um sistema de transporte a vapor para interligar o interior com Belém e com a Europa.",
+      "A instalação de casas aviadoras para fornecer o crédito necessário para abastecer os seringais.",
+      "A reforma das cidades portuárias de Belém e Manaus para melhorar o escoamento do produto.",
+      "A atuação de firmas importadoras-exportadoras para conectar a Amazônia ao comércio internacional.",
+      "A criação de uma ferrovia para facilitar o afluxo de mão de obra nordestina para os seringais."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Entre 1879 e 1912, durante o chamado ciclo da borracha, a cidade de Belém viveu seu primeiro grande surto de crescimento. As reformas",
+    "alternativas": [
+      "modernizaram o núcleo urbano, com construções como o Theatro da Paz e o Mercado Municipal Adolpho Lisboa, cuja estrutura em ferro fundido foi projetada por Gustave Eiffel.",
+      "planejaram a acolhida de levas de imigrantes vindos de diversos países, com a criação da Hospedaria do Imigrante e o financiamento de moradias populares no centro urbano.",
+      "incluíram a arborização da cidade e o serviço de viação urbana por bondes elétricos, além de alargamento das ruas, construção de longas avenidas e de praças suntuosas.",
+      "conferiram prestígio aos barões da borracha, os quais construíam suas residências inspirados no Art Nouveau, com base nos ideais e na gramática formal greco-romanos.",
+      "fizeram de Belém a “metrópole da Amazônia”, uma cidade europeizada construída ao redor do centro histórico, restaurado para lembrar o passado colonial e imperial. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 8"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Os limites do Brasil com a República Cooperativa da Guiana (antiga Guiana Inglesa) foram estabelecidos no início do século XX, mas a questão remontava a meados do Oitocentos. A esse respeito, analise as afirmativas a seguir. I. As reivindicações britânicas em relação às fronteiras com o Brasil se basearam nas linhas traçadas a sudoeste da Guiana pelas expedições do geografo Schomburgk no século XIX. II. No início do século XX, foi assinado o Tratado de Arbitramento, no qual, o Brasil e Inglaterra submetiam o litígio ao arbitramento do Rei da Itália, Vítor Emanuel III. III. O contencioso usou como critério fronteiriço a “partilha das águas”, o que favoreceu o Brasil, ao impedir o acesso à bacia Amazônica para a Guiana Inglesa. Está correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Zona Franca é um sistema que",
+    "alternativas": [
+      "não precisa estar integrado ao ordenamento jurídico do território nacional em que atua.",
+      "opera independentemente da realidade econômica circundante e sem a supervisão de entidades brasileiras.",
+      "garante a privacidade de seus atores econômicos, guardando o sigilo das informações sobre acionistas.",
+      "estabelece um regime de incentivos fiscais especiais dos quais as empresas gozam nos termos da lei.",
+      "desregulamenta as operações bancárias e exclui o controle cambial na transferência de fundos, dividendos e royalties."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "História do Amazonas",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em Manaus, em 1954, é criado o Clube da Madrugada que produziu iniciativas como a Poesia de Muro, cujo Poema-slogan, criado por Aluísio Sampaio, é lançado em 1966: FALA O HOMEM PARA O MURO FALA O MURO PARA O HOMEM (Poema-Slogan, in O Jornal, Suplemento Madrugada, 04.09.1966) A respeito do Clube da Madrugada e do seu projeto literário Poesia de Muro, assinale a afirmativa correta.",
+    "alternativas": [
+      "É um movimento político libertário, protagonizado por escritores populares sem formação acadêmica.",
+      "Parte da necessidade de conduzir a poesia às ruas, ao povo, como fazia-se com o teatro, as artes plásticas e a música.",
+      "Valoriza o folclore regional e a tradição muralista e ceramista indígena, como a produzida pela cultura marajoara.",
+      "Resulta dos desdobramentos modernistas em âmbito regional, superando o paradigma da poesia concreta.",
+      "Segue a estrutura em sonetos alexandrinos no plano formal, em consonância com as vanguardas do resto do país. Legislação Institucional"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Lei Delegada nº 79/2007 do Estado do Amazonas, que dispõe sobre a Secretaria de Estado de Segurança Pública, definindo suas finalidades, competências e estrutura organizacional, e dando outras providências, compete à mencionada Secretaria:",
+    "alternativas": [
+      "a concessão de autorização para funcionamento das empresas de vigilância e congêneres.",
+      "a aplicação de pena privativa de liberdade, após o devido processo legal, àqueles que cometerem crimes.",
+      "a elaboração lei estadual de combate à corrupção e ao crime organizado em nível estadual.",
+      "o processo e julgamento de ações penais em que sejam réus policiais civis, militares ou bombeiros militares estaduais.",
+      "a promoção do inquérito civil e da ação civil pública para a proteção da segurança pública da população, do patrimônio público e de outros interesses difusos e coletivos."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A unidade integrante da estrutura organizacional da Secretaria de Estado de Segurança Pública do Amazonas que tem competência para identificação e neutralização de ações adversas, realizadas por organismos ou por pessoas, produzindo conhecimento para proteger a atividade de inteligência e a instituição a que pertence, de modo a salvaguardar todos os conhecimentos sigilosos oriundos de estrutura da inteligência da Secretaria, de acordo com a Lei Delegada nº 79/2007, é",
+    "alternativas": [
+      "a Secretaria Executiva.",
+      "o Departamento de Contrainteligência.",
+      "o Departamento de Logística.",
+      "o Departamento de Tecnologia.",
+      "o Centro Integrado de Operações de Segurança."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Consoante dispõe a Lei Estadual nº 3.204/2007, com redação dada pela Lei Estadual nº 3.930/13, a Corregedoria-Geral do Sistema de Segurança Pública do Estado do Amazonas será dirigida por um Corregedor-Geral indicado pelo",
+    "alternativas": [
+      "Secretário de Segurança e por um Corregedor-Geral Adjunto, com auxílio de quatro Corregedores Auxiliares, indicados pelo Corregedor-Geral ao Secretário de Segurança, todos nomeados em comissão pelo Governador do Estado.",
+      "Secretário de Estado de Segurança Pública, e por três Corregedores-Gerais Adjuntos, indicados pelo Corregedor- Geral ao Secretário de Segurança, todos nomeados em comissão pelo Governador do Estado.",
+      "Secretário de Estado de Segurança Pública, que o nomeará após a validação conjunta dos Comandantes-Gerais da Polícia e do Bombeiro Militar, e do Delegado-Geral de Polícia Civil;",
+      "Chefe do Executivo Estadual, mediante lista tríplice elaborada pelo Comandante-Geral da Polícia Militar, e nomeado pelo Presidente da Assembleia Legislativa.",
+      "Chefe do Executivo Estadual, mediante lista tríplice elaborada pelo Comandante-Geral da Polícia Militar, e nomeado pelo Secretário de Estado de Segurança Pública. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 9"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Lei Estadual nº 3.204/2007 dispõe sobre a Corregedoria Geral do Sistema de Segurança Pública do Estado do Amazonas, estabelece normas para a sua organização e manutenção, define sua competência, atribuições e estrutura organizacional e dá outras providências. De acordo com o mencionado diploma legal, com alterações feitas pela Lei Estadual nº 3.930/13, tal Corregedoria tem por finalidade",
+    "alternativas": [
+      "a criação de cargos públicos efetivos nas estruturas das Polícias Civil e Militar, bem como do Corpo de Bombeiros Militar do Estado do Amazonas.",
+      "a realização, mediante prévia e imprescindível autorização judicial, de inspeções, vistorias, exames, investigações e auditorias nas unidades das Polícias Civil e Militar, bem como do Corpo de Bombeiros Militar do Estado do Amazonas.",
+      "a instauração de inquérito policial civil ou militar quando envolver, de qualquer forma, servidores estaduais policiais, podendo requerer medidas cautelares para instrução de seus procedimentos investigatórios criminais.",
+      "a instauração de processos administrativos disciplinares para apurar falta disciplinar praticada por servidores estaduais integrantes da estrutura da Segurança Pública estadual, podendo decretar cautelares, como interceptação telefônica, para sua instrução.",
+      "o exercício das funções de fiscalização, disciplina e orientação administrativa das atividades desenvolvidas pelas Polícias Civil e Militar, pelo Corpo de Bombeiros Militar e pelo Departamento Estadual de Trânsito do Amazonas, e demais Órgãos que compõem o Sistema Estadual de Segurança Pública."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Lei Estadual do Amazonas nº 3.281/2008 institui, no âmbito do Poder Executivo Estadual, o Fundo de Reserva para as Ações de Inteligência, com a finalidade de prestar auxílio financeiro na execução das atividades de inteligência de segurança pública no Estado, sobretudo nos procedimentos investigatórios e operacionais de qualquer ordem. De acordo com a mencionada lei",
+    "alternativas": [
+      "os recursos financeiros de tal fundo advêm do valor mensal mínimo de R$ 10.000.000,00 (dez milhões de reais) do orçamento estadual.",
+      "a liberação dos recursos provenientes de tal fundo será autorizada, conjuntamente, pelos Secretários de Estado da Fazenda e de Segurança Pública.",
+      "as agências de Inteligências dos outros poderes do Estado, do Ministério Público e das Prefeituras Municipais e da Iniciativa Privada não poderão compor o Sistema Integrado de Segurança Pública do Estado do Amazonas.",
+      "o servidor público estadual, titular do cargo de Secretário Executivo Adjunto de Inteligência, quando da sua exoneração, não poderá ficar em disponibilidade e será obrigado a cumprir quarentena de dois anos para ocupar novo cargo público.",
+      "os recursos financeiros de tal fundo têm origem no orçamento estadual, vedada a inclusão de recursos provenientes de convênios, acordos ou contratos celebrados com entidades, organismos ou empresas nacionais e internacionais."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Lei Estadual do Amazonas nº 3.719/2012 criou o Sistema Integrado das Ações de Segurança Pública do Programa Ronda no Bairro, estabeleceu normas para a sua organização e manutenção, e deu outras providências. Consoante dispõe a citada lei, o mencionado Sistema Integrado tem a finalidade precípua de",
+    "alternativas": [
+      "elaborar o plano estadual estratégico de segurança pública, ouvindo os órgãos públicos estaduais com pertinência temática e a sociedade civil, mediante a realização de audiências públicas nos bairros com piores índices criminais.",
+      "prestar serviço público de ronda e patrulhamento ostensivo, a fim de reprimir ilícitos penais, mediante colaboração da Polícia Militar e vedada a participação de outros órgãos de segurança pública estadual.",
+      "promover e manter a integração e o intercâmbio com outros órgãos e instituições, preservando sempre o grau de confiabilidade mútua, vedada a participação na execução das correlatas ações, planos, projetos.",
+      "estudar, diagnosticar, elaborar, executar e avaliar a política pública de segurança pública com capilaridade em todas as regiões, cidades e bairros do Estado, sob a coordenação do Ouvidor-Geral do Sistema de Segurança Pública do Estado do Amazonas.",
+      "planejar, coordenar, controlar e integrar as ações de segurança pública no Estado, para o alcance dos objetivos e metas propostos no referido programa, unificando as ações até então desenvolvidas pela Polícia Civil, pela Polícia Militar, Corpo de Bombeiros Militar e Departamento de Estadual de Trânsito do Estado do Amazonas."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em tema de atividades desenvolvidas pela Corregedoria-Geral do Sistema de Segurança Pública do Estado do Amazonas, consoante dispõe a Lei Estadual nº 3.204/2007, com redação dada pela Lei Estadual nº 3.930/13, é correto afirmar que",
+    "alternativas": [
+      "o sigilo sobre o teor das denúncias e reclamações recebidas, bem como sobre sua fonte, será mantido, de modo a preservar a segurança e a privacidade dos envolvidos.",
+      "a Corregedoria-Geral e seus órgãos funcionarão no mesmo conjunto arquitetônico de órgãos integrantes do Sistema de Segurança Pública do Estado do Amazonas.",
+      "a Corregedoria-Geral do Sistema de Segurança Pública do Estado do Amazonas está vinculada à Secretaria Estadual de Políticas Criminais e não terá autonomia orçamentária e financeira.",
+      "a fiscalização e o controle externo das atividades desenvolvidas pelos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas serão exercidos por membros da Defensoria Pública estadual, titular da ação penal.",
+      "a criação de estágio acadêmico pela Corregedoria-Geral para acadêmicos dos cursos de graduação em Direito e demais áreas das ciências humanas é vedada, diante do sigilo legal das informações sensíveis que constam nos processos a cargo da Corregedoria-Geral. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 10"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "O Corregedor-Geral do Sistema de Segurança Pública do Estado do Amazonas reorganizou toda a estrutura administrativa do órgão e, visando a conferir maior celeridade e eficiência às suas atividades, precisa incrementar seus recursos humanos. De acordo a Lei Estadual nº 3.204/2007, com redação dada pela Lei Estadual nº 3.930/13, o citado Corregedor",
+    "alternativas": [
+      "poderá requisitar servidores dos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas, mas suas atividades passarão a ter natureza administrativa, vedado o reconhecimento como atividade policial.",
+      "não poderá requisitar servidores dos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas, mas poderá nomear, sem prévio concurso público, pessoas em cargos em comissão, de livre nomeação e exoneração.",
+      "poderá requisitar servidores dos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas, que passarão a ter exercício na Corregedoria-Geral, sem que tal requisição importe em relotação ou redistribuição.",
+      "não poderá requisitar servidores dos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas, mas poderá, exclusivamente para funções de direção e assessoramento, nomear servidores em cargos em comissão, de livre nomeação e exoneração.",
+      "não poderá requisitar servidores dos órgãos que integram o Sistema de Segurança Pública do Estado do Amazonas, mas poderá solicitar policiais militares ao Comandante-geral, e as novas funções por eles exercidas não serão consideradas de natureza militar, e sim administrativas."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Lei Estadual nº 3.204/2007, com redação dada pela Lei Estadual nº 3.930/13, no âmbito da Corregedoria-Geral do Sistema de Segurança Pública do Estado do Amazonas, é correto afirmar que as Comissões, os Conselhos Permanentes e as Unidades de Apuração serão",
+    "alternativas": [
+      "instalados em número compatível com as necessidades do serviço, no máximo de três unidades para órgão, conforme critérios definidos em conjunto pelo Delegado-Geral de Polícia Civil e Comandante-Geral da Polícia Militar.",
+      "compostos por servidores do Departamento Estadual de Trânsito do Amazonas que façam parte do quadro do órgão há, pelo menos, 3 (três) anos e que tenham ingressado no serviço público mediante prévio concurso público.",
+      "integrados por servidores estáveis da ativa, vedada a designação de Policiais e Bombeiros Militares da Reserva, bem como Policiais Civis e demais funcionários aposentados integrantes do Sistema de Segurança Pública.",
+      "integrados por Delegados de Polícia, Peritos, Policiais Civis, Oficiais da Polícia Militar e do Corpo de Bombeiros Militar e por servidores do Departamento Estadual de Trânsito do Amazonas, bem como por funcionários integrantes do sistema.",
+      "compostos exclusivamente por servidores públicos estaduais estáveis de carreira, vedada sua nomeação para cargo de provimento em comissão, pois já recebem os vencimentos próprios de seus cargos efetivos e não deve haver incentivo remuneratório para os servidores responsáveis pela apuração e punição disciplinar."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Legislação Institucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em tema de Sistema Integrado das Ações de Segurança Pública do Programa Ronda no Bairro, de acordo com a Lei Estadual do Amazonas nº 3.719/2012, é correto afirmar que",
+    "alternativas": [
+      "ficam centralizados todos os procedimentos relacionados com ações, planos, programas e projetos, desde a sua fase inicial, na Polícia Militar do Estado do Amazonas.",
+      "compete ao Secretário Executivo Adjunto do Programa Ronda no Bairro promover e manter a integração e o intercâmbio com outros órgãos e instituições, preservando sempre o grau de confiabilidade mútua.",
+      "é atribuição do Departamento de Inteligência fiscalizar a utilização e emprego dos recursos pelos órgãos integrantes do Programa Ronda no Bairro, em conformidade com os planos de ação.",
+      "incumbe à Secretaria Executiva Adjunta de Operações acompanhar, sob a supervisão da Polícia Militar, o planejamento e execução das ações, programas, planos e projetos desenvolvidos pelos órgãos do mencionado sistema integrado.",
+      "cabe ao Centro Integrado de Operações de Segurança coordenar o programa e auxiliar diretamente o Secretário de Estado de Segurança Pública nos assuntos inerentes às ações de Segurança Pública do Programa Ronda no Bairro dos órgãos integrantes do Sistema Estadual de Segurança Pública. Direito Administrativo"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "O Secretário Estadual de Segurança Pública do Estado Alfa, no regular exercício de suas funções legais, removeu João, servidor ocupante do cargo efetivo de Técnico de Nível Superior, do departamento A para o B, em ato publicado no diário oficial do dia 10/01/22, com efeitos a contar do dia 1º/02/22. Ocorre que, diante da aposentadoria voluntária de três servidores lotados no departamento A na segunda quinzena de janeiro, o Secretário considerou que não era mais oportuna e conveniente a remoção de João para o departamento B, razão pela qual, no dia 30/01/22, praticou novo ato administrativo, revogando seu anterior ato de remoção e mantendo João lotado no departamento A. O ato de revogação praticado pelo Secretário está baseado diretamente no princípio da administração pública da",
+    "alternativas": [
+      "impessoalidade, pois levou em conta os atributos pessoais de João para mantê-lo no departamento A.",
+      "autotutela, pois pode revogar seu anterior ato, de forma discricionária, para atender ao interesse público.",
+      "publicidade, pois antes de surtirem os efeitos do ato de remoção publicado no diário oficial, o Secretário declarou sua invalidade, por vício sanável.",
+      "motivação, pois os motivos do ato anterior de remoção não são mais válidos, pela aplicação da teoria dos motivos determinantes;",
+      "eficiência, pois a Administração Pública deve procurar praticar os atos mais produtivos, prestigiando os órgãos com maior demanda e a revogação praticada constitui um ato vinculado. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 11"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a doutrina de Direito Administrativo, uma Autarquia estadual do Amazonas e uma Empresa Pública estadual do Amazonas se enquadram, respectivamente, na chamada Administração",
+    "alternativas": [
+      "Direta (com personalidade jurídica de direito público) e Indireta (com personalidade jurídica de direito público).",
+      "Indireta (com personalidade jurídica de direito público) e Indireta (com personalidade jurídica de direito privado).",
+      "Indireta (com personalidade jurídica de direito privado) e Indireta (com personalidade jurídica de direito privado).",
+      "Direta (com personalidade jurídica de direito público) e Indireta (com personalidade jurídica de direito privado).",
+      "Indireta (com personalidade jurídica de direito público) e Indireta (com personalidade jurídica de direito público)."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Maria é servidora pública ocupante do cargo efetivo de Técnico de Nível Superior da Secretaria de Segurança Pública do Estado Alfa e acaba de completar dois anos de efetivo exercício no cargo. De acordo com as disposições da Constituição da República sobre seu regime jurídico, é correto afirmar que Maria",
+    "alternativas": [
+      "adquiriu estabilidade, e só perderá o cargo em algumas hipóteses, como mediante processo administrativo em que lhe seja assegurada ampla defesa.",
+      "adquiriu estabilidade, e só perderá o cargo em algumas hipóteses, como em virtude de sentença judicial transitada em julgado.",
+      "não adquiriu ainda estabilidade, que será obtida após três anos de efetivo exercício, ocasião em que só poderá perder o cargo, em algumas hipóteses, como em virtude de sentença judicial recorrível.",
+      "não adquiriu ainda estabilidade, que será obtida após três anos de efetivo exercício, ocasião em que só poderá perder o cargo, em algumas hipóteses, como em virtude de sindicância sumária disciplinar, em que lhe seja assegurada ampla defesa.",
+      "não adquiriu ainda estabilidade, que será obtida após três anos de efetivo exercício, ocasião em que só poderá perder o cargo, em algumas hipóteses, como mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Secretaria de Segurança Pública do Estado Alfa deseja realizar campanha de caráter informativo e de orientação social relacionada à política pública de sua competência, mediante a instalação de outdoors pelo Estado. De acordo com a Constituição da República, em tese, a publicidade pretendida é",
+    "alternativas": [
+      "viável, mas dela não poderão constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.",
+      "inviável, porque tal publicidade caracteriza promoção pessoal, ainda que não haja referência a nomes, símbolos ou imagens de autoridades ou servidores públicos.",
+      "inviável, porque tal publicidade caracteriza promoção pessoal e consequentemente improbidade administrativa, independentemente do emprego de verba pública.",
+      "viável, e dela poderá constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos, desde que não haja verba pública envolvida.",
+      "viável, e dela poderá constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos, desde que haja prévia autorização do chefe do Poder Executivo."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Em matéria de classificação dos bens públicos quanto à sua destinação, é correto afirmar que o imóvel onde está sediada a Secretaria Estadual de Segurança Pública do Estado Gama é um bem",
+    "alternativas": [
+      "de uso comum do povo, pois todos os cidadãos podem ser usuários do serviço público prestado.",
+      "de uso especial, porque é usado para prestação de serviço público pela Administração com finalidade pública.",
+      "dominical, porque tem uma destinação pública específica dirigida a toda coletividade.",
+      "afetado, porque não tem uma destinação pública específica, ficando a cargo do Secretário estadual definir quais serviços serão prestados pelos agentes lotados no órgão.",
+      "desafetado, porque tem uma destinação pública específica, ficando a cargo do Secretário estadual lotar os servidores públicos em cada setor do órgão. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 12"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "O Estado Alfa pretende celebrar contrato administrativo que tem por objeto coleta, processamento e comercialização de resíduos sólidos urbanos recicláveis ou reutilizáveis, em áreas com sistema de coleta seletiva de lixo, realizados por associações ou cooperativas formadas exclusivamente de pessoas físicas de baixa renda reconhecidas pelo poder público como catadores de materiais recicláveis, com o uso de equipamentos compatíveis com as normas técnicas, ambientais e de saúde pública. No caso em tela, de acordo com a nova Lei de Licitações (Lei nº 14.133/21), a contratação",
+    "alternativas": [
+      "poderá ser feita mediante inexigibilidade de licitação, por expressa previsão legal.",
+      "deverá ser feita mediante prévia licitação, na modalidade pregão, pela natureza dos serviços a serem contratados.",
+      "poderá ser feita mediante dispensa de licitação, por expressa previsão legal.",
+      "deverá ser feita mediante prévia licitação, na modalidade diálogo competitivo, pela natureza dos serviços a serem contratados.",
+      "deverá ser feita mediante prévia licitação, na modalidade concorrência, pela natureza dos serviços a serem contratados."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Os policiais militares Antônio e João, do Estado Beta, no exercício da função e de forma dolosa, receberam vantagem econômica direta, consistente em propina no valor de trinta mil reais, para tolerar a prática de narcotráfico por determinada organização criminosa. No caso em tela, de acordo com a Lei nº 8.429/92 (com alterações da Lei nº 14.230/21), Antônio e João",
+    "alternativas": [
+      "não praticaram ato de improbidade administrativa, pois não houve efetivo prejuízo ao erário estadual, mas respondem nas esferas disciplinar e criminal.",
+      "não praticaram ato de improbidade administrativa, até que sobrevenha decisão judicial transitada em julgado em processo criminal reconhecendo a prática do delito.",
+      "praticaram ato de improbidade administrativa que viola princípios da administração pública e estão sujeitos, entre outras, à sanção de cassação dos direitos políticos.",
+      "praticaram ato de improbidade administrativa que importa enriquecimento ilícito e estão sujeitos, entre outras, à sanção de suspensão dos direitos políticos até 14 (catorze) anos.",
+      "praticaram ato de improbidade administrativa que causa prejuízo ao erário e estão sujeitos, entre outras, à sanção de pagamento de multa civil de até o dobro do valor da remuneração percebida pelos agentes."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "José é servidor público ocupante do cargo efetivo de Técnico de Nível Superior da Secretaria de Segurança Pública do Estado Alfa e, no exercício da função, praticou ato ilícito que, com nexo causal, causou danos materiais a Davi, usuário do serviço público, inexistindo qualquer causa de exclusão da responsabilidade. No caso em tela, eventual ação indenizatória deverá ser ajuizada por Davi em face",
+    "alternativas": [
+      "da Secretaria de Segurança Pública do Estado Alfa, com base em sua responsabilidade civil subjetiva, sendo necessário se comprovar o elemento subjetivo na conduta do agente, que deverá responder em ação regressiva, caso haja condenação da referida Secretaria e João tenha agido com culpa ou dolo.",
+      "da Secretaria de Segurança Pública do Estado Alfa, com base em sua responsabilidade civil objetiva, sendo desnecessário se comprovar o elemento subjetivo na conduta de João, que não está sujeito à ação regressiva, pela teoria do risco administrativo.",
+      "de João, diretamente, com base em sua responsabilidade civil subjetiva, sendo necessário se comprovar o elemento subjetivo em sua conduta, e o Estado Alfa está sujeito à ação regressiva, pela teoria do risco administrativo, caso João seja condenado.",
+      "do Estado Alfa, com base em sua responsabilidade civil subjetiva, sendo necessário se comprovar o elemento subjetivo na conduta de João, que não está sujeito à ação regressiva, pela teoria do risco administrativo.",
+      "do Estado Alfa, com base em sua responsabilidade civil objetiva, sendo desnecessário se comprovar o elemento subjetivo na conduta de João, que deverá responder em ação regressiva, caso haja condenação do referido Estado e o agente tenha agido com culpa ou dolo."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da Secretaria de Segurança Pública do Estado Alfa, quanto à legalidade, legitimidade, economicidade, aplicação das subvenções e renúncia de receitas, será exercida",
+    "alternativas": [
+      "pelo Ministério Público estadual, mediante controle externo, com auxílio da Controladoria-Geral do Estado.",
+      "pela Defensoria Pública estadual, mediante controle interno, com auxílio da Procuradoria-Geral do Estado.",
+      "pela Assembleia Legislativa, mediante controle externo, com auxílio do Tribunal de Contas estadual.",
+      "pela Procuradoria-Geral do Estado, mediante controle externo, com auxílio do Ministério Público estadual.",
+      "pelo Tribunal de Contas Estatual, mediante controle interno, com auxílio do Ministério Público estadual. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 13"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Administrativo",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Marta, pessoa com deficiência, é parte em processo administrativo que tramita junto à Secretaria de Segurança Pública do Estado Alfa. De acordo com o Estatuto da Pessoa com deficiência (Lei nº 13.146/2015), Marta",
+    "alternativas": [
+      "tem direito a receber atendimento prioritário, sobretudo com a finalidade de tramitação do referido processo administrativo, em todos os atos e diligências.",
+      "tem direito a receber atendimento prioritário, exclusivamente no momento de distribuição do referido processo administrativo.",
+      "não tem direito a receber atendimento prioritário na tramitação do referido processo administrativo, mas seu prazo recursal é contato em dobro.",
+      "não tem direito a receber atendimento prioritário na tramitação do referido processo administrativo, mas é isenta de custas processuais.",
+      "tem direito a receber atendimento prioritário, de maneira que o referido processo administrativo seja concluído no prazo máximo de 30 (trinta) dias, permitida uma única prorrogação. Direito Constitucional"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Maria compareceu a uma loja de departamentos e, ao solicitar a abertura de crediário, foi surpreendida com a notícia de que o seu nome estava “negativado” em um banco de dados de caráter público, o qual é mantido por uma instituição privada. Apesar de ter apresentado requerimento formal, visando ao conhecimento das informações relativas à sua pessoa, foi-lhe negado, pela instituição privada, de modo arbitrário e manifestamente ilegal, o acesso a esses dados. A ação constitucional cabível, para que Maria tenha conhecimento das referidas informações, é",
+    "alternativas": [
+      "o habeas data.",
+      "a ação popular.",
+      "o direito de petição.",
+      "o mandado de segurança.",
+      "a reclamação constitucional."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "João, nascido no território do País Alfa enquanto seu pai ali atuava como Embaixador da República Federativa do Brasil, jamais tinha ingressado no território brasileiro. No entanto, ao completar 20 (vinte) anos de idade, foi acusado e condenado pela prática, no território do País Alfa, do crime de homicídio doloso. Para evitar ser preso, fugiu para o território brasileiro. Caso seja formulado, pelo País Alfa, o pedido de extradição de João, a República Federativa do Brasil deve, estando presentes os demais requisitos exigidos",
+    "alternativas": [
+      "deferi-lo, pois João é nacional do País Alfa.",
+      "indeferi-lo, pois é vedada a extradição do brasileiro nato.",
+      "deferi-lo, em razão da gravidade do crime praticado, apesar de João ser brasileiro nato.",
+      "deferi-lo, desde que o País Alfa assegure a reciprocidade em favor da República Federativa do Brasil.",
+      "indeferi-lo, pois a extradição somente seria cabível em se tratando de tráfico ilícito de entorpecentes."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Joana pretendia concorrer ao cargo eletivo de deputada estadual. Ao reunir os documentos necessários, constatou que fora condenada, em sentença transitada em julgado, à sanção de suspensão dos direitos políticos por oito anos, pela prática de ato de improbidade administrativa. Na medida em que o referido período de 8 (oito) anos ainda estava em curso, é correto afirmar que Joana",
+    "alternativas": [
+      "pode concorrer ao cargo eletivo pretendido, desde que o faça em Estado diverso daquele em que foi proferida a sua condenação.",
+      "pode concorrer ao cargo eletivo pretendido, já que a suspensão dos direitos políticos não acarretou a sua inelegibilidade.",
+      "não pode concorrer ao cargo eletivo pretendido, já que os seus direitos políticos passivos foram suspensos, mas não há óbice a que vote nas eleições.",
+      "não pode concorrer ao cargo eletivo pretendido ou mesmo votar na eleição, já que sua condição de cidadã foi suspensa em razão da referida condenação.",
+      "pode concorrer ao cargo eletivo pretendido, salvo se a condenação expressamente a impediu de participar da representação popular, que é um direito fundamental."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "A Constituição do Estado Alfa, com o objetivo de uniformizar e aumentar a eficiência das estruturas orgânicas dos Municípios situados em seu território, estabeleceu regras, baseadas na densidade demográfica e na arrecadação, para a criação de secretarias municipais, sendo cogente a observância dos quantitativos máximos e mínimos ali fixados. Ao tomar conhecimento dessas regras, o Prefeito do Município Alfa consultou sua assessoria a respeito da compatibilidade com a Constituição da República. A assessoria respondeu corretamente que as referidas regras são",
+    "alternativas": [
+      "constitucionais, pois, na federação brasileira, as normas dos entes federados de ordem superior vinculam os de ordem inferior.",
+      "constitucionais, pois os Municípios estão vinculados às normas da Constituição Estadual por força do princípio da simetria.",
+      "constitucionais, pois o princípio da eficiência está previsto na Constituição da República, devendo ser observado por todos os entes federativos.",
+      "inconstitucionais, pois, ao disporem sobre a organização administrativa dos Municípios, afrontaram a autonomia política desses entes.",
+      "inconstitucionais, pois a Constituição Estadual não pode veicular nenhuma norma a ser aplicada pelos Municípios, entes autônomos em relação ao Estado. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 14"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Pedro, Deputado Estadual, consultou sua assessoria a respeito da constitucionalidade formal de um projeto de lei que pretendia apresentar. Após analisá-lo, a assessoria constatou que o projeto incursionava em matéria de competência legislativa privativa da União, concluindo corretamente que",
+    "alternativas": [
+      "é peremptoriamente vedado ao Estado legislar sobre a matéria, o que significa dizer que nem a União pode autorizá- lo.",
+      "o Estado somente pode legislar sobre a temática caso a lei ordinária da União, que a discipline, o autorize de maneira expressa.",
+      "é vedado ao Estado legislar sobre a matéria, mas a União pode autorizá-lo, por meio de lei complementar, em questões específicas.",
+      "o Estado pode apenas complementar as normas editadas pela União no exercício dessa competência, as quais sempre terão preeminência.",
+      "o Estado pode legislar sobre a matéria apenas naquilo que diga respeito a interesse unicamente local, contextualizado apenas em seu território."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "O Governador do Estado Alfa informou a sua assessoria que tencionava criar uma autarquia para a execução de atividades típicas de Administração Pública e desejava saber a forma a ser observada. A assessoria respondeu corretamente que o referido ente deve",
+    "alternativas": [
+      "ser criado por lei ordinária específica.",
+      "ser criado por lei complementar específica.",
+      "ser criado por ato do Poder Executivo, a partir de autorização concedida em lei ordinária.",
+      "ser criado por ato do Poder Executivo, a partir de autorização concedida em lei complementar.",
+      "ter sua atividade regulamentada em lei complementar e sua criação autorizada em lei ordinária e efetivada por decreto."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "O Presidente e o Vice-Presidente da República se encontravam em missão oficial no exterior, daí decorrendo a necessidade de que outra autoridade assumisse o exercício da Presidência. À luz da sistemática constitucional, a autoridade referida na narrativa será",
+    "alternativas": [
+      "aquela que venha a ser livremente escolhida pelo Presidente da República.",
+      "aquela escolhida pelo Presidente da República entre os Presidentes do Supremo Tribunal Federal, da Câmara dos Deputados e do Senado Federal.",
+      "o Presidente da Câmara dos Deputados, o do Senado Federal ou o do Supremo Tribunal Federal, nessa ordem, que serão chamados ao exercício da Presidência.",
+      "aquela que venha a ser livremente escolhida pelo Presidente da República, entre os Presidentes do Supremo Tribunal Federal, da Câmara dos Deputados e do Senado Federal.",
+      "o Presidente do Congresso Nacional, o da Câmara dos Deputados, o do Senado Federal ou o do Supremo Tribunal Federal, nessa ordem, que serão chamados ao exercício da Presidência."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Maria e Antônia, estudantes de direito, travaram intenso debate a respeito do alcance da garantia da vitaliciedade. Ao final, concluíram que essa garantia: 1. é adquirida após três anos de exercício; 2. permite que o agente ocupe o cargo até que decida dele se desligar ou venha a falecer; 3. exige sentença judicial transitada em julgado para que seja decretada a perda do cargo; e 4. assegura a permanência do agente no órgão que ocupa, salvo decisão do órgão colegiado competente do Ministério Público, por motivo de interesse público. À luz da sistemática constitucional, está correto apenas o que se conclui em",
+    "alternativas": [
+      "3.",
+      "1.",
+      "1 e 4.",
+      "1, 2 e 3.",
+      "2, 3 e 4."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
+  },
+  {
+    "materia": "Direito Constitucional",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial SSP-AM 2021 (FGV) — Técnico de Nível Superior",
+    "dificuldade": 2,
+    "enunciado": "Com o objetivo de combater o desenvolvimento de uma base de valores patriarcal, na qual a mulher ocupe uma posição de inferioridade, sofrendo constantes violências no ambiente familiar, um grupo de Deputados Federais apresentou projeto de lei ordinária dispondo que as decisões da mulher, na educação dos filhos, teriam preeminência, devendo ser sempre acatadas pelo homem. À luz da sistemática constitucional, é correto afirmar que o referido projeto é",
+    "alternativas": [
+      "constitucional, considerando que a própria Constituição da República autoriza o tratamento diferenciado, em prol da mulher, para se construir a igualdade material com o homem.",
+      "constitucional, considerando que a educação de crianças e adolescentes deve estar lastreada em uma base de valores humanitária, com preeminência da igualdade de gênero.",
+      "constitucional, considerando a preeminência da posição materna, no ambiente familiar, nas relações com crianças e adolescentes.",
+      "inconstitucional, pois a temática deve ser disciplinada exclusivamente em lei complementar, não em lei ordinária.",
+      "inconstitucional, pois os direitos e deveres afetos à sociedade conjugal devem ser exercidos igualmente pelo homem e pela mulher. SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO AMAZONAS - SSPAM FGV Técnico de Nível Superior  Tipo 1 – Branca – Página 15"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "SSP-AM"
+    ]
   }
 ]
