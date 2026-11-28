@@ -24,8 +24,8 @@ public final class Concursos {
     /** Certames oficialmente suportados hoje (rotulos conhecidos). A validacao aceita outros. */
     public static final List<String> CONHECIDOS = List.of(PM_AM, PC_AM, CREA_AM);
 
-    /** Codigo de certame: 2 a 10 caracteres alfanumericos, com um sufixo opcional. */
-    private static final Pattern CODIGO = Pattern.compile("^[A-Z0-9]{2,10}(-[A-Z0-9]{2,10})?$");
+    /** Codigo de certame: 2 a 10 caracteres alfanumericos, com um ou mais sufixos opcionais. */
+    private static final Pattern CODIGO = Pattern.compile("^[A-Z0-9]{2,10}(-[A-Z0-9]{2,10})*$");
 
     /** Tamanho maximo do codigo armazenado em {@code question_concursos.concurso}. */
     public static final int TAMANHO_MAXIMO = 20;
