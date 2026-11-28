@@ -7,20 +7,9 @@ concurso:
     # false = comportamento antigo (sem escopo: todo conteudo visivel), para
     #         desligar em emergencia via ACESSO_ESCOPO_POR_CERTAME=false.
     escopo-por-certame: ${ACESSO_ESCOPO_POR_CERTAME:true}
-  pagbank:
-    token: ${PAGBANK_TOKEN:}
-    base-url: ${PAGBANK_BASE_URL:https://api.pagseguro.com}
-    webhook-url: ${PAGBANK_WEBHOOK_URL:https://qbconcurso.com.br/api/webhooks/pagbank}
   # URL publica usada em canonical, sitemap e JSON-LD das paginas de SEO.
   seo:
     url: ${SEO_BASE_URL:https://qbconcurso.com.br}
-  mercadopago:
-    access-token: ${MP_ACCESS_TOKEN:}
-    webhook-token: ${MP_WEBHOOK_TOKEN:}
-    webhook-secret: ${MP_WEBHOOK_SECRET:}
-    base-url: ${MP_BASE_URL:https://api.mercadopago.com}
-    # URL publica que o MP chama apos o pagamento (com ?token=...)
-    notification-url: ${MP_NOTIFICATION_URL:}
   email:
     remetente: ${SMTP_FROM:}
   app:

@@ -5,6 +5,7 @@ import tools.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -34,6 +35,7 @@ import java.util.Map;
  * completos; a URL volta em {@code link}; e as URLs de callback precisam ser HTTPS público.</p>
  */
 @Component
+@Primary
 public class AsaasGateway implements PaymentGateway {
 
     private static final Logger log = LoggerFactory.getLogger(AsaasGateway.class);
@@ -99,7 +101,7 @@ public class AsaasGateway implements PaymentGateway {
         cliente.put("name", dados.cliente().nome());
         cliente.put("email", dados.cliente().email());
         cliente.put("cpfCnpj", apenasDigitos(dados.cliente().cpfCnpj()));
-        cliente.put("phone", apenasDigitos(dados.cliente().telefone()));
+        cliente.put("phoneNumber", apenasDigitos(dados.cliente().telefone()));
         cliente.put("postalCode", apenasDigitos(dados.cliente().cep()));
         cliente.put("address", dados.cliente().endereco());
         cliente.put("addressNumber", dados.cliente().numero());

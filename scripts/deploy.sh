@@ -39,8 +39,8 @@ for chave in "${obrigatorias[@]}"; do
     || falhar "$chave vazio no .env. O deploy abortou para não subir com pagamento/cadastro quebrados."
 done
 
-if [ -z "$(valor PAGBANK_TOKEN)" ] && [ -z "$(valor MP_ACCESS_TOKEN)" ]; then
-  echo "AVISO: sem PAGBANK_TOKEN nem MP_ACCESS_TOKEN — o checkout ficará indisponível."
+if [ -z "$(valor ASAAS_API_KEY)" ]; then
+  echo "AVISO: sem ASAAS_API_KEY — o checkout ficará indisponível."
 fi
 
 if [ -n "$(valor SMTP_USERNAME)" ] && [ -z "$(valor SMTP_PASSWORD)" ]; then

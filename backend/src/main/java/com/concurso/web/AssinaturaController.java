@@ -152,45 +152,4 @@ public class AssinaturaController {
         AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(token, corpo);
         return Map.of("ok", true, "resultado", resultado.name());
     }
-
-    /**
-     * Webhook do Mercado Pago. Autenticidade vem exclusivamente do HMAC oficial
-     * ({@code x-signature}); o token de URL foi removido (vazava em log de acesso).
-     */
-    @PostMapping("/webhooks/mercadopago")
-    public Map<String, Object> webhookMercadoPago(
-            @RequestHeader(value = "x-signature", required = false) String assinatura,
-            @RequestHeader(value = "x-request-id", required = false) String requisicaoId,
-            @RequestBody String corpo,
-            jakarta.servlet.http.HttpServletRequest requisicao) {
-        PaymentGateway.WebhookRequest pedido =
-                new PaymentGateway.WebhookRequest(null, assinatura, requisicaoId, corpo);
-        if (!assinaturas.webhookValido(pedido)) {
-            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
-                    "Assinatura de webhook invalida.");
-        }
-        limiter.exigir("webhook-mp:" + ClienteIp.de(requisicao), 600);
-        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(pedido);
-        return Map.of("ok", true, "resultado", resultado.name());
-    }
-
-    /**
-     * Webhook do PagBank. Autenticidade vem do header {@code x-authenticity-token}, que e'
-     * SHA-256(token + "-" + corpoBruto) — comparado em tempo constante.
-     */
-    @PostMapping("/webhooks/pagbank")
-    public Map<String, Object> webhookPagBank(
-            @RequestHeader(value = "x-authenticity-token", required = false) String assinatura,
-            @RequestBody String corpo,
-            jakarta.servlet.http.HttpServletRequest requisicao) {
-        PaymentGateway.WebhookRequest pedido =
-                new PaymentGateway.WebhookRequest(null, assinatura, null, corpo);
-        if (!assinaturas.webhookValido(pedido)) {
-            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
-                    "Assinatura de webhook invalida.");
-        }
-        limiter.exigir("webhook-pagbank:" + ClienteIp.de(requisicao), 600);
-        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(pedido);
-        return Map.of("ok", true, "resultado", resultado.name());
-    }
 }
