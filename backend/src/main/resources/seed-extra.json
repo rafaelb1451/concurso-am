@@ -68210,5 +68210,845 @@
     "concursos": [
       "TJ-AP"
     ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma empresa comercial recebeu uma comunicação judicial no valor de 100 mil reais advindo de um processo trabalhista. Além disso, a empresa estima que outros ex-funcionários acionarão a empresa na justiça por um valor de 150 mil reais. Os advogados da empresa estimam que, em ambos os casos, haverá saída de recursos, provavelmente, em até 12 meses. Considerando-se as informações apresentadas, o contador da empresa:",
+    "alternativas": [
+      "debitou uma provisão trabalhista de 250 mil reais no passivo circulante e creditou uma reserva de contingência;",
+      "debitou uma provisão trabalhista de 150 mil reais no passivo circulante e creditou uma despesa de provisão no resultado;",
+      "creditou uma provisão trabalhista de 100 mil reais no passivo circulante e debitou uma reserva de contingência;",
+      "creditou uma provisão trabalhista de 100 mil reais no passivo circulante e debitou uma despesa de provisão no resultado;",
+      "creditou uma provisão trabalhista de 250 mil reais no passivo circulante e debitou uma despesa de provisão no resultado."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma indústria S/A construiu uma plataforma de petróleo na costa norte e apresentou os seguintes gastos. Descrição Valor Preparação do local R$ 10 milhões Frete para recebimento das peças da instalação R$ 3 milhões Instalação e montagem da plataforma R$ 40 milhões Transferência das atividades para novo local (incluindo treinamento) R$ 2 milhões Testes para verificação do funcionamento da plataforma R$ 1 milhão Estimativa de desmontagem e remoção da plataforma R$ 8 milhões Considere o valor presente de R$ 4 milhões para a estimativa de desmontagem e remoção da plataforma. A partir das informações apresentadas, o custo do ativo imobilizado da plataforma será de:",
+    "alternativas": [
+      "R$ 55 milhões;",
+      "R$ 58 milhões;",
+      "R$ 64 milhões;",
+      "R$ 66 milhões;",
+      "R$ 70 milhões."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma empresa S/A, cujo objeto social é a administração, exploração e/ou controle da atividade de estacionamento de veículos, possui um terreno. Contudo, não definiu ainda se irá utilizá-lo como propriedade ocupada pelo proprietário ou para venda no curto prazo no curso ordinário do negócio. Com base nas informações apresentadas, o terreno deve ser considerado no ativo não circulante como:",
+    "alternativas": [
+      "intangível;",
+      "imobilizado;",
+      "investimento;",
+      "propriedade para investimento;",
+      "ativo não circulante mantido para venda."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma empresa comercial vendeu R$ 100.000,00 para diversos clientes, para serem recebidos em 12 meses. O componente financeiro embutido no valor dessas vendas é relevante, e essas operações de vendas a prazo prefixadas são trazidas ao seu valor presente na data das transações, em função de seus prazos, com base em taxa estimada do custo médio ponderado de capital da empresa de 10% ao ano. Assim, ao estimar as perdas com essas vendas, em função do não recebimento dos valores, a empresa estimou que 1% do total não seria recebido. Considerando-se as informações apresentadas, o contador:",
+    "alternativas": [
+      "creditou um valor de R$ 90.000,00 na conta de receita de vendas;",
+      "creditou um valor de R$ 100.000,00 na conta de receita de vendas;",
+      "debitou um valor de R$ 900,00 na conta de despesas de perdas estimadas com crédito de liquidação duvidosa;",
+      "debitou um valor de R$ 909,09 na conta de despesas de perdas estimadas com crédito de liquidação duvidosa;",
+      "debitou um valor de R$ 900,00 na conta de despesas de provisão com crédito de liquidação duvidosa de resultado."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "O conhecimento por parte de investidores do direito societário é fundamental para tomar decisões sobre aquisições, vendas, manutenção de ações e para entender os direitos dos acionistas, possibilitando a participação efetiva em assembleias e deliberações estratégicas das empresas. Nesse sentido, segundo preceitos da Lei nº 6.404/1976 e suas alterações:",
+    "alternativas": [
+      "a principal característica das ações ordinárias consiste em prioridade na distribuição de dividendos;",
+      "a deliberação sobre emissão de bônus de subscrição compete ao conselho de administração ou à diretoria;",
+      "o estatuto é impedido de deixar de atribuir às ações preferenciais o direito de voto;",
+      "o exercício do direito de voto é reservado aos titulares de ações que foram emitidas por preço inferior ao seu valor nominal;",
+      "o acionista responde pelos danos causados pelo exercício abusivo do direito de voto, ainda que seu voto não tenha prevalecido. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 12"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma empresa comercial apresentou os seguintes saldos. Descrição Saldos (em R$) Devedor Credor Caixa e equivalentes de caixa 2.000 Tributos a pagar (curto prazo) 15.000 Contas a receber (curto prazo) 10.000 Estoques 20.000 Reserva de lucros 30.000 Capital social 100.000 Tributos diferidos ativos 7.000 Ações em tesouraria 25.000 Outros resultados abrangentes 10.000 Imobilizado 80.000 Investimentos em controladas 51.000 Fornecedores (curto prazo) 5.000 Empréstimos e Financiamentos (longo prazo) 30.000 Tributos diferidos passivos 5.000 Considerando-se as informações apresentadas, o saldo do:",
+    "alternativas": [
+      "ativo circulante é de R$ 39.000;",
+      "passivo circulante é de R$ 25.000;",
+      "passivo não circulante é de R$ 30.000;",
+      "patrimônio líquido é de R$ 165.000;",
+      "ativo não circulante é de R$ 138.000."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Em uma empresa S/A, a diferença entre o valor dos ativos e o dos passivos representa o Patrimônio Líquido no Balanço Patrimonial, ou seja, pode-se dizer que é o valor contábil pertencente aos acionistas ou sócios. Nesse sentido, o Patrimônio Líquido (PL) é subdividido em diversas contas em que:",
+    "alternativas": [
+      "a conta de Ajuste de Avaliação Patrimonial é considerada uma Reserva de Lucros;",
+      "a reserva legal tem como finalidade garantir a integridade do capital social e é a única de constituição obrigatória;",
+      "a conta “ações em tesouraria” representa as ações da empresa adquiridas por ela mesma e que aumentam o PL;",
+      "a reserva de contingências tem como finalidade compensar, em exercício passado, a diminuição do lucro decorrente de perda julgada provável;",
+      "a constituição da reserva de lucros a realizar é obrigatória naquele exercício em que o montante do dividendo obrigatório ultrapassar a parcela realizada do lucro líquido."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "A governança corporativa é essencial para prevenir fraudes contábeis, promovendo transparência e responsabilidade. Os administradores, o conselho de administração e o conselho fiscal desempenham papéis fundamentais na supervisão e garantia de conformidade ética, contribuindo para a integridade corporativa. Dessa forma, segundo preceitos da Lei nº 6.404/1976 e suas alterações:",
+    "alternativas": [
+      "o conselho de administração será composto por, no mínimo, cinco membros, eleitos pela assembleia geral e por ela destituíveis, exclusivamente, ao fim do mandato de cinco anos;",
+      "o administrador de companhia aberta é obrigado a revelar à assembleia geral ordinária, a pedido de qualquer acionista, os benefícios indiretos que tenha recebido da companhia e de sociedades controladas e coligadas;",
+      "o administrador é pessoalmente responsável pelas obrigações que contrair em nome da sociedade e em virtude de ato regular de gestão;",
+      "a ação de responsabilidade civil contra o administrador, pelos prejuízos causados ao seu patrimônio, compete à companhia, mediante prévia deliberação do conselho fiscal;",
+      "o membro do conselho fiscal responde pelos danos resultantes de omissão no cumprimento de seus deveres e de atos praticados com culpa ou dolo, ou com violação da lei ou do estatuto."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma empresa S/A construiu uma nova arena para a realização de shows na região Norte do país. Em vista de regulamentações de segurança, a autorização de funcionamento definitiva somente é aprovada após eventos testes com capacidade reduzida. A capacidadetotal da arena é de 3 mil pessoas em pé e 500 sentadas. O evento testecontou com 200 pessoas sentadas e 800 em pé. Considerando-se as informações apresentadas, as eventuais receitas do evento, se relevantes, devem ser:",
+    "alternativas": [
+      "deduzidas do patrimônio líquido;",
+      "contabilizadas como receitas diferidas;",
+      "contabilizadas como receitas do período;",
+      "contabilizadas como receitas não operacionais;",
+      "deduzidas do valor total de construção da arena."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Um ordenador de despesa recebeu do setor de licitação e contratos os comandos para proceder com a emissão de notas de empenho relativas à construção de uma nova unidade escolar, a ser executada no prazo de doze meses, e a entrega, em lote único, do material didático a ser distribuído aos estudantes no início do ano letivo. Nesse momento, foi indicada também a necessidade de reforço do empenho emitido para o pagamento das contas de energia elétrica da unidade. Com base nessas informações, os empenhos deverão ser elaborados nas seguintes modalidades, respectivamente:",
+    "alternativas": [
+      "global, global e estimativo;",
+      "ordinário, estimativo e global;",
+      "estimativo, global e ordinário;",
+      "global, ordinário e estimativo;",
+      "estimativo, ordinário e global. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 13"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Após a elaboração de estimativas sobre a previsão das receitas orçamentárias a serem incluídas na Lei Orçamentária Anual (LOA), e sua respectiva aprovação pelo Poder Legislativo, um ente público municipal procedeu com os lançamentos dos créditos fiscais com base na verificação da ocorrência do fato gerador do direito ao recebimento do IPTU dos imóveis da região, ou seja, antes da sua efetiva arrecadação. Esse é um procedimento que afeta a(s) seguinte(s) natureza(s) de informação(ões) previstas no Plano de Contas Aplicado ao Setor Público (PCASP):",
+    "alternativas": [
+      "controle;",
+      "patrimonial;",
+      "orçamentário;",
+      "patrimonial e orçamentário;",
+      "patrimonial, orçamentário e controle."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Em 15/02/2023, um fornecedor contatou o ente público solicitando informações sobre o atraso no pagamento de serviços realizados em outubro e novembro do exercício anterior. Ao localizar as informações no sistema, o ordenador da despesa constatou que o empenho de outubro estava inscrito em restos a pagar não processados. No processo anexado, havia documentação comprobatória e atesto de satisfação sobre os serviços prestados. Já o empenho de novembro foi cancelado em 31/12/2022, com o processo que também acompanhava a documentação comprobatória e atesto de satisfação sobre os serviços do setor responsável. Considerando a situação exposta, o procedimento a ser adotado pelo ordenador da despesa para pagamento ao fornecedor é:",
+    "alternativas": [
+      "efetuar o pagamento do empenho de outubro e reemitir a nota de empenho de novembro com data retroativa ao mês de referência para pagamento;",
+      "efetuar o cancelamento das duas notas de empenho para reemiti-las em 15/02/2023 e, em seguida, efetuar sua liquidação e pagamento;",
+      "efetuar a liquidação e o pagamento do empenho de outubro e reemitir o empenho de novembro como restos a pagar processados para pagamento;",
+      "efetuar o pagamento do empenho de outubro e reemitir o empenho de novembro como despesas de exercícios anteriores para liquidação e pagamento;",
+      "efetuar a liquidação e o pagamento do empenho de outubro e reemitir o empenho de novembro como despesas de exercícios anteriores para posterior liquidação e pagamento."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Determinado ente público está desenvolvendo um projeto que visa ao reconhecimento e à evidenciação dos ativos ambientais no seu Balanço Patrimonial. Após atender a definição do elemento, foram observadas incertezas significativas nas premissas utilizadas sobre as expectativas de benefícios econômicos e serviços associados ao referido ativo, o que pode levar ao reconhecimento do fenômeno com erro material. À luz da NBC TSP Estrutura Conceitual, o reconhecimento dos referidos ativos ambientais, nessas condições, descumpre a seguinte característica qualitativa:",
+    "alternativas": [
+      "compreensibilidade;",
+      "relevância;",
+      "comparabilidade;",
+      "representação fidedigna;",
+      "tempestividade."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Uma entidade pública definiu como uma das prioridades de seu planejamento estratégico a organização do controle patrimonial, uma vez que diversos itens não estavam registrados e outros contavam com registros incompletos ou com valores não representativos. A ideia inicial era que todos os itens tivessem registros revisados ou regularizados, considerando bases de mensuração específicas para a entidade. Porém, em decorrência de falta de dados que atendessem a essas bases, alguns itens do ativo precisaram ser mensurados pelo:",
+    "alternativas": [
+      "preço líquido de venda;",
+      "custo de reposição;",
+      "preço presumido;",
+      "valor de mercado;",
+      "valor em uso."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Um ente público enviou sua prestação de contas anual para o tribunal de contas, incluindo as demonstrações contábeis previstas na Lei nº 4.320/1964, porém com estrutura atualizada pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP). Após análise prévia, o tribunal de contas notificou o ente que, em relação ao balanço orçamentário, foi enviado apenas o quadro principal, faltando incluir:",
+    "alternativas": [
+      "anexo de execução das despesas por função e subfunção;",
+      "anexo demonstrativo da apuração da receita corrente líquida do exercício.",
+      "quadros da execução dos restos a pagar processados e não processados;",
+      "quadro discriminativo da receita por fontes e respectiva legislação;",
+      "quadro demonstrativo do resultado (superávit/déficit) da execução orçamentária do exercício. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 14"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "De forma direta ou indireta, a arrecadação e a aplicação de recursos públicos têm desdobramentos em todas as demonstrações contábeis obrigatórias aos entes públicos, as quais são elaboradas segundo normas e princípios. Em decorrência disso, o Manual de Contabilidade Aplicada ao Setor Público (MCASP) orienta que algumas informações possuem caráter complementar junto às demonstrações contábeis, a exemplo do detalhamento das deduções da receita orçamentária por fonte/destinação de recursos que:",
+    "alternativas": [
+      "consta nos ingressos de natureza operacional na demonstração dos fluxos de caixa;",
+      "deve ser apresentado como nota explicativa ao balanço orçamentário;",
+      "deve ser conciliado com as variações patrimoniais aumentativas na apuração do resultado;",
+      "pode ser apresentado em quadros anexos ao balanço financeiro e em notas explicativas;",
+      "tem apresentação facultativa, se considerado relevante no contexto da entidade que reporta."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Em um dado exercício financeiro, um ente público adquiriu, por meio de transação sem contraprestação, uma propriedade que seria mantida para auferir receitas de aluguel, que registrou como ativo. No Balanço Patrimonial do referido exercício esse ativo deverá:",
+    "alternativas": [
+      "constar como informação adicional em notas explicativas;",
+      "contemplar apenas o efeito das receitas geradas;",
+      "ser evidenciado como propriedade para investimento no ativo imobilizado;",
+      "ser reconhecido como ativo realizável a longo prazo;",
+      "ser tratado como ajustes de avaliação patrimonial."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "No conjunto de demonstrações contábeis que as entidades públicas devem publicar periodicamente, despesas com juros incorridos, descontos concedidos, comissões, e correções monetárias devem ser evidenciadas na demonstração das variações patrimoniais:",
+    "alternativas": [
+      "como dedução das variações patrimoniais aumentativas financeiras;",
+      "como despesas incorridas em atividades de financiamento;",
+      "como variações patrimoniais diminutivas;",
+      "em notas explicativas, por não impactarem o resultado patrimonial;",
+      "quando tiverem transitado pelo caixa e equivalentes de caixa."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere as informações do quadro a seguir, apresentadas em milhares de reais e com origem nos registros contábeis de um ente público no último exercício financeiro encerrado: Descrição Valor Remuneração das disponibilidades R$132,00 Amortização da dívida R$134,00 Juros e encargos da dívida R$151,00 Concessão de empréstimos R$167,00 Receita Patrimonial R$238,00 Alienação de bens R$339,00 Operações de crédito R$576,00 Transferências correntes recebidas R$685,00 Receita Tributária R$794,00 Pessoal e demais despesas R$816,00 À luz das disposições do Manual de Contabilidade Aplicada ao Setor Público (MCASP) para elaboração da Demonstração dos Fluxos de Caixa (DFC), o fluxo de caixa da atividade operacional no referido exercício, em milhares de reais, foi de:",
+    "alternativas": [
+      "512,00;",
+      "644,00;",
+      "750,00;",
+      "882,00;",
+      "1.324,00."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Ao final de um dado exercício, um ente público apurou em seu Relatório de Gestão Fiscal (RGF) uma dívida consolidada equivalente a R$ 5.642.651.300,00 incluindo R$ 356.942.000,00 de precatórios vencidos e não pagos. Foram apurados, também, no mesmo anexo do RGF, os seguintes saldos ao final do mesmo exercício financeiro: Disponibilidade de Caixa Bruta R$ 6.504.302.000,00 Restos a Pagar Processados R$ 2.065.360.400,00 Depósitos Restituíveis e Valores Vinculados R$ 1.070.560.000,00 Aplicações financeiras R$ 80.901.000,00 Demais Haveres Financeiros R$ 2.146.100,00 Com base nos dados fornecidos, o valor da dívida consolidada líquida ao final do referido exercício, em reais, corresponde a:",
+    "alternativas": [
+      "1.834.280.600,00",
+      "2.191.222.600,00",
+      "2.272.123.600,00",
+      "2.423.683.800,00",
+      "4.132.102.200,00 Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 15"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Ao final de um determinado quadrimestre o Poder Executivo de um ente estadual apurou, em seu RGF, uma despesa total com pessoal equivalente a R$ 3,4 bilhões. No mesmo período de referência, a RCL apurada foi de R$ 7,5 bilhões. À luz da legislação aplicável, é correto afirmar que, no período de referência, o ente:",
+    "alternativas": [
+      "ultrapassou o limite máximo legalmente definido;",
+      "deve receber um alerta do tribunal de contas em decorrência do valor apurado;",
+      "está abaixo de todos os limites legalmente definidos para despesa com pessoal;",
+      "não poderá receber transferências voluntárias até o retorno ao limite;",
+      "atingiu o limite prudencial e não pode aumentar despesa com pessoal."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Um dos anexos do Relatório Resumido da Execução Orçamentária (RREO) refere-se ao Demonstrativo da Execução das Despesas por Função/Subfunção, o qual objetiva dar maior detalhamento das despesas governamentais com base em suas áreas de atuação. Ao analisar esse demonstrativo, deve-se considerar que:",
+    "alternativas": [
+      "restos a pagar não processados não devem ser considerados em sua estrutura;",
+      "cada função deve ser detalhada por subfunções, que podem ser típicas ou atípicas;",
+      "despesas orçamentárias e intraorçamentárias são evidenciadas conjuntamente;",
+      "órgãos dos Poderes Judiciário e Legislativo publicam apenas no encerramento do exercício;",
+      "valores relativos à reserva de contingência constituem uma subfunção de Encargos Especiais."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Um órgão da administração pública estadual detém aplicações financeiras de alta liquidez, as quais o Manual de Contabilidade Aplicada ao Setor Público (MCASP) considera como equivalente de caixa. Naapresentaçãodasdemonstraçõescontábeis,essasaplicaçõessão:",
+    "alternativas": [
+      "consideradas prefixadas e ajustadas a valor presente;",
+      "contabilizadas em contas de resultado, encerradas no final do exercício;",
+      "mensuradas a valor justo, atualizadas até a data das demonstrações contábeis;",
+      "ajustadas considerando-se todos os encargos incorridos até a data das demonstrações contábeis;",
+      "evidenciadas de acordo com as bases de mensuração definida pelo órgão (marcação a mercado ou na curva)."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Um órgão do Poder Judiciário contratou a elaboração, incluindo editoração e impressão, de uma cartilha em formato de quadrinhos para difundir os princípios contidos na Declaração Universal dos Direitos Humanos, que estava completando 75 anos. A cartilha seria distribuída gratuitamente para usuários dos serviços e estudantes que visitassem o órgão mediante agendamento das escolas. A tiragem total foi de 5.000 cartilhas, que foram devidamente registradas no estoque após seu recebimento. Dada a natureza do material, a base de mensuração para o registro contábil das cartilhas no estoque deve ser:",
+    "alternativas": [
+      "custo médio ou valor justo na data da aquisição;",
+      "valor realizável líquido ou valor de mercado;",
+      "valor justo ou preço presumido, dos dois o menor;",
+      "custo histórico ou valor em uso, dos dois o menor;",
+      "custo histórico ou corrente de reposição, dos dois o menor."
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "A capital de um estado brasileiro foi escolhida para sediar uma conferência mundial sobre meio ambiente e mudanças climáticas. O governo da referida capital desenvolveu marca e mascote para a conferência, com o intuito de ajudar na difusão do evento. Como a conferência estava programada para reunir chefes de Estado de diversos países, além de visitantes e estudiosos sobre meio ambiente e clima, o ente entendeu que a marca desenvolvida tinha potencial de gerar benefícios econômicos para a cidade e poderia ser registrada como um ativo intangível. Ao receber o memorando interno com a solicitação de registro, o departamento de contabilidade deve:",
+    "alternativas": [
+      "proceder à contabilização do ativo, considerando os custos incorridos;",
+      "evidenciar a marca desenvolvida como ativo contingente em notas explicativas;",
+      "registrar o custo incorrido no desenvolvimento da marca como ajustes de avaliação patrimonial;",
+      "constituir uma comissão para avaliar o potencial de benefícios econômicos da marca;",
+      "informar que gastos incorridos com marcas geradas internamente não são passíveis de registro como ativo."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Para cumprir uma recomendação expressa do tribunal de contas, um órgão do Poder Judiciário iniciou procedimentos para registrar a depreciação dos seus bens móveis. O órgão fez um planejamento e iniciou o processo pelos veículos de sua propriedade, que compunham uma frota adquirida no exercício em curso. A frota era composta de dez veículos, com custo de aquisição de R$ 70 mil cada. O órgão adotou como política a renovação da frota a cada cinco anos e estima um valor residual dos veículos de 10% do custo de aquisição. Foi definida a utilização do método da soma dos dígitos para a depreciação da frota de veículos. Com tais informações, ao final do segundo ano de operação, o valor contábil líquido da frota era de:",
+    "alternativas": [
+      "R$252.000,00;",
+      "R$280.000,00;",
+      "R$322.000,00;",
+      "R$420.000,00;",
+      "R$448.000,00. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 16"
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Ao acessar o Quadro de Detalhamento de Despesa (QDD) do governo do estado de onde reside, um cidadão observou a ausência de informações relativas à classificação institucional, de estrutura programática e funcional para parte das despesas a serem executadas durante o exercício. Ao solicitar ajuste da informação por meio de pedido de acesso à informação, o cidadão alegou que o QDD estava descumprindo o princípio orçamentário da:",
+    "alternativas": [
+      "publicidade;",
+      "não vinculação;",
+      "especificação;",
+      "exclusividade;",
+      "universalidade."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Na abertura de processo de licitação para a construção de cinco unidades de saúde em um município de médio porte, foi solicitado, como pré-requisito para participação do certame, o depósito em caução de 10% do valor total do contrato, visando a garantir que as empresas participantes possuíssem condições de conduzir as obras de forma satisfatória no prazo estipulado. O reconhecimento desses depósitos pelo município ocorrerá como receita:",
+    "alternativas": [
+      "derivada;",
+      "de capital;",
+      "orçamentária;",
+      "intraorçamentária;",
+      "extraorçamentária."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Ao final do exercício, o analista de orçamento de um pequeno município realizou o levantamento dos saldos dos créditos adicionais abertos durante o exercício, conforme relação identificada no quadro a seguir, com valores expressos em reais: nº Tipo Abertura Saldo Inicial Saldo Final I Suplementar 21/09 1.500.000 300.000 II Especial 17/05 3.000.000 700.000 III Especial 23/11 1.000.000 200.000 IV Suplementar 03/08 450.000 100.000 V Extraordinário 13/10 5.000.000 900.000 Nesse cenário, poderão ter seus saldos reabertos no exercício seguinte os créditos adicionais de nº(s):",
+    "alternativas": [
+      "I e IV;",
+      "II e III;",
+      "III e V;",
+      "I, III e V;",
+      "II, III e IV."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "O orçamento-programa pode ser considerado uma resultante dos sucessivos esforços de aperfeiçoamento do orçamento público com o objetivo de subsidiar os governos no controle e aplicação dos recursos públicos. Uma das características desse modelo orçamentário é que:",
+    "alternativas": [
+      "as motivações políticas não influenciam a alocação de recursos e os resultados das ações governamentais;",
+      "a estrutura do orçamento dá ênfase aos aspectos contábeis da gestão;",
+      "as decisões orçamentárias são tomadas com base em avaliações e análises técnicas das alternativas possíveis;",
+      "as necessidades de recursos são avaliadas em pacotes de decisão, sem considerar valores históricos;",
+      "o orçamento é executado como instrumento disciplinador das finanças públicas."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "A equipe de planejamento de ente público estadual concluiu a proposta de lei orçamentária anual e submeteu-a no prazo à Assembleia Legislativa. Na semana seguinte, houve um acidente que danificou parte de uma ponte de uma rodovia gerida pelo estado. O tráfego na ponte não foi totalmente interditado, mas seria necessário programar obras de reparo. O governo do estado solicitou que a equipe de planejamento incluísse essa despesa no orçamento do exercício seguinte, em tramitação no Poder Legislativo, bem como a previsão de uma operação de crédito para cobrir essa despesa. A solicitação do governo do estado:",
+    "alternativas": [
+      "está alinhada ao princípio da universalidade do orçamento;",
+      "é desnecessária, pois podem-se abrir créditos extraordinários;",
+      "deve ser atendida somente se não impactar os resultados nominal e primário;",
+      "deve ser cumprida no exercício em curso, com abertura de crédito adicional suplementar;",
+      "deve ser acatada somente no exercício seguinte, em referência ao princípio da anualidade."
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere o trecho a seguir, extraído de um documento disponível no site da Secretaria de Planejamento do Estado do Amapá: “007- AMAPÁ EMPREENDEDOR ✓ Aumentar em 25%, o valor dos financiamentos concedidos aos micros e pequenos empreendedores formais e informais, até o final de 2023”. Pela análise da natureza das informações do trecho destacado, o documento em referência deve:",
+    "alternativas": [
+      "ser aprovado pelo Poder Legislativo por dois terços dos seus membros;",
+      "detalhar os impactos fiscais das ações governamentais em cada período;",
+      "identificar os parâmetros de regionalização dos programas estabelecidos;",
+      "especificar os programas a serem custeados por recursos de emendas parlamentares impositivas;",
+      "conter a previsão de receitas a serem arrecadadas em cada exercício para custeio das ações do governo. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 17"
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere o trecho destacado a seguir, extraído de um documento disponível no site da Secretaria de Planejamento do Estado do Amapá: “Artigo 6º A receita do Orçamento de Investimento das Empresas é estimada em R$ 23.387.858,00 (vinte e três milhões, trezentos e oitenta e sete mil, oitocentos e cinquenta e oito reais), decorrerá da transferência de recursos do Tesouro do Estado e da geração de recursos próprios, conforme a seguinte classificação”: Especificação Total Geração própria/outros recursos de longo prazo R$ 14.647.299 Recursos para aumento do patrimônio líquido/Tesouro R$ 8.740.559 Receita total R$ 23.387.858 A análise do trecho possibilita afirmar que a sua fonte:",
+    "alternativas": [
+      "corresponde a um dos anexos da Lei de Diretrizes Orçamentárias;",
+      "estabelece a política de aplicação das agências financeiras oficiais de fomento;",
+      "se refere a um subsídio para acompanhamento da programação financeira anual do ente;",
+      "detalha as receitas e as despesas de dois outros orçamentos compreendidos na Lei Orçamentária Anual;",
+      "especifica também as metas da administração para as despesas de capital e outras delas decorrentes."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere os dados hipotéticos a seguir relativos à previsão e realização da Receita Corrente Líquida (RCL) da União em dois exercícios financeiros: Receita Corrente Líquida (RCL) Valor Prevista em 20x2 R$ 950,00 Realizada em 20x2 R$ 1.000,00 Prevista em 20x3 R$ 1.100,00 Realizada em 20x3 R$ 1.060,00 Tendo em vista o regramento vigente para aprovação e execução de emendas parlamentares individuais ao Projeto de Lei Orçamentária Anual (PLOA) da União, a partir da análise dos dados, é correto afirmar que o limite de aprovação dessas emendas tem base:",
+    "alternativas": [
+      "na RCL estimada para o exercício de referência;",
+      "na média da RCL realizada nos últimos três exercícios;",
+      "na RCL estimada para o exercício anterior ao de referência;",
+      "na RCL realizada no exercício do encaminhamento do projeto;",
+      "na RCL do exercício anterior ao do encaminhamento do projeto."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "A tabela a seguir consta do projeto de Lei de Diretrizes Orçamentárias (LDO) de um ente estadual relativo ao exercício de 2022, com valores correntes expressos em reais. Os valores correspondem às metas anuais definidas no Anexo de Metas Fiscais: Especificação 2022 2023 Receita total R$ 6.910.347.945,00 R$ 7.340.551.621,00 Receitas primárias (I) R$ 6.236.560.228,00 R$ 6.628.352.974,00 Despesa Total R$ 6.910.347.945,00 R$ 7.340.551.621,00 Despesas primárias (II) R$ 6.499.569.216,11 R$ 6.960.494.221,02 Resultado primário (III) = I-II -R$ 263.008.988,11 -R$ 332.141.247,02 Resultado nominal -R$ 673.184.219,99 -R$ 776.618.018,96 Dívida Pública Consolidada R$ 3.728.285.272,80 R$ 2.970.276.608,57 Dívida Consolidada Líquida -R$ 1.815.764.626,10 -R$ 2.573.773.290,00 Após receber oficialmente o projeto de LDO 2022, um assessor da comissão de orçamentos da Assembleia Legislativa notificou o Poder Executivo que havia inconsistências e dados faltantes no documento. A análise da tabela possibilita identificar, conforme Art. 4º § 1º da LRF, a ausência dos seguintes itens:",
+    "alternativas": [
+      "descrição das medidas a serem adotadas caso as metas não sejam cumpridas;",
+      "valores correntes e constantes relativos a 2024 e valores constantes de 2022 e 2023;",
+      "impactos das metas no patrimônio líquido do ente nos exercícios a que se referem;",
+      "valores dos passivos contingentes e outros riscos capazes de afetar as contas públicas;",
+      "demonstrativos de compatibilidade com a programação financeira do exercício de referência."
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Em seu primeiro mandato à frente do governo de um estado da federação, um governador se deparou com a complexidade técnica da linguagem orçamentária. Durante a campanha, ele havia se comprometido a promover uma transformação na qualidade do ensino no estado. Para compreender melhor os programas em curso nessa área, ele solicitou um diagnóstico elaborado em conjunto pelas secretarias de planejamento e educação. O governador pediu um relato claro e objetivo que pudesse responder às seguintes questões: - O que está sendo desenvolvido para alcançar os objetivos dos programas na área de educação no estado? - Como está sendo feito? - Quais os resultados (produtos) esperados? - Como os programas estão sendo mensurados ou avaliados? Essas perguntas do governador podem ser respondidas a partir de uma análise adequada das despesas da área de educação, considerando a seguinte categoria:",
+    "alternativas": [
+      "ação;",
+      "subfunção;",
+      "elemento de despesa;",
+      "natureza de despesa;",
+      "modalidade de aplicação. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 ̶ Branca – Página 18"
+    ],
+    "correta": 3,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere os saldos apresentados na tabela a seguir, com dados extraídos do Quadro demonstrativo da Receita de um ente público estadual ao final de um determinado exercício (com valores expressos em milhares de reais). Descrição Valor Receita de valores mobiliários R$ 90,00 Alienação de Títulos Mobiliários R$100,00 Receitas imobiliárias R$110,00 Amortização de Empréstimos R$130,00 Receita de concessões e permissões R$140,00 Receita de Serviços R$150,00 Receita de multas e juros de mora R$170,00 Alienação de Bens Imóveis R$250,00 Operações de Crédito internas R$280,00 Compensações Financeiras R$310,00 Contribuições sociais R$460,00 Transferências Correntes R$720,00 Impostos e taxas R$ 1.230,00 À luz da classificação das receitas por categoria econômica, o montante de receitas que impactaram o patrimônio do ente naquele ano, em milhares de reais, representa:",
+    "alternativas": [
+      "2.730,00",
+      "3.040,00",
+      "3.180,00",
+      "3.380,00",
+      "3.480,00"
+    ],
+    "correta": 4,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "Considere a situação hipotética de que, em decorrência de uma série de divergências políticas entre o governador e o Poder Legislativo, a Lei Orçamentária Anual de 20x3 não foi aprovada até o encerramento do exercício de 20x2. Após o recesso parlamentar, a discussão do PLOA foi retomada e a Lei orçamentária de 20x3 foi aprovada somente em 28/02/20x3, portanto dois meses após o início do exercício. À luz das normas aplicáveis ao ciclo orçamentário, é correto afirmar que:",
+    "alternativas": [
+      "as despesas dos dois primeiros meses do ano foram contingenciadas;",
+      "as metas fiscais definidas na LDO para o exercício de 20x3 deverão ser ajustadas;",
+      "o gestor pode solicitar créditos adicionais para os dois meses sem orçamento aprovado;",
+      "o orçamento aprovado deverá ser executado até o encerramento do exercício a que se refere;",
+      "o orçamento será executado até fevereiro do ano seguinte, para cumprir a regra da anualidade."
+    ],
+    "correta": 1,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "O processo de execução da despesa orçamentária tem início com a etapa do empenho, o qual consiste na reserva de dotação orçamentária para um fim específico. O empenho é formalizado com a emissão de uma nota de empenho, em que constem informações necessárias ao controle da execução orçamentária. Ao analisar uma nota de empenho, o único item NÃO EXIGIDO no documento refere-se a:",
+    "alternativas": [
+      "valor da despesa empenhada;",
+      "identificação do fornecedor/ credor;",
+      "especificação da despesa/ objeto do gasto;",
+      "prazo para fornecimento do bem ou serviço;",
+      "dedução do valor da despesa do saldo da dotação própria."
+    ],
+    "correta": 2,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
+  },
+  {
+    "materia": "Contabilidade (Conhecimentos Específicos)",
+    "assunto": "",
+    "origem": "PROVA",
+    "banca": "FGV",
+    "fundamento": "Prova oficial TJ-AP 2024 (FGV) — Analista Judiciário (Contador)",
+    "dificuldade": 2,
+    "enunciado": "A aprovação da Lei de Acesso à Informação (LAI) é considerada um marco relevante para ampliação da participação cidadã e fortalecimento dos instrumentos de controle da gestão pública. Além de incentivar a cultura da transparência na administração pública, a LAI impôs prazos para as respostas aos pedidos de informação. Entre os itens elencados a seguir o único que precisa seguir os prazos de resposta da LAI, por ser um efetivo pedido de acesso à informação, refere-se a:",
+    "alternativas": [
+      "denúncia de ato ilícito praticado por agente público lotado no órgão;",
+      "requerimento de consulta jurídica relativa ao entendimento da nova lei de licitações públicas;",
+      "reclamação relativa à baixa qualidade no atendimento ao público externo pelo órgão público;",
+      "solicitação da relação de contratos firmados pelo ente a partir de dispensa de licitação no último ano;",
+      "solicitação de providências administrativas de responsabilidade do órgão público. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Judiciário - Apoio Especializado - Contador  Tipo 1 Branca Realização"
+    ],
+    "correta": 0,
+    "explicacao": "",
+    "concursos": [
+      "TJ-AP"
+    ]
   }
 ]
