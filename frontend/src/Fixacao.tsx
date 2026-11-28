@@ -12,6 +12,9 @@ import Rascunho from './Rascunho'
 import { Card, ErrorBanner, PageHeader } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
+function certoErrado(alternativas: string[]): boolean {
+  return alternativas.length === 2 && alternativas[0] === 'Certo' && alternativas[1] === 'Errado'
+}
 const SUGESTOES = [
   'Por que a resposta certa é essa?',
   'Por que a minha alternativa está errada?',
@@ -256,7 +259,7 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
                   return (
                     <li key={i}>
                       <button type="button" disabled={Boolean(resposta)} onClick={() => void responder(i)} className={classe}>
-                        <span className="mt-0.5 font-bold">{LETRAS[i]})</span>
+                        {certoErrado(atual.alternativas) ? null : <span className="mt-0.5 font-bold">{LETRAS[i]})</span>}
                         <span className="min-w-0 break-words leading-relaxed">{texto}</span>
                       </button>
                     </li>

@@ -8,6 +8,11 @@ import { Card, PageHeader, ProgressBar } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
 
+/** Itens de julgamento (Cebraspe): duas alternativas "Certo"/"Errado" sem letra. */
+function certoErrado(alternativas: string[]): boolean {
+  return alternativas.length === 2 && alternativas[0] === 'Certo' && alternativas[1] === 'Errado'
+}
+
 /* =========================================================================
    Aba Questões: configuração da sessão, resolução e resultado.
    ========================================================================= */
@@ -366,6 +371,7 @@ export function EstudoQuestao(props: {
 
         <ul className="mt-5 space-y-2.5">
           {questao.alternativas.map((texto, i) => {
+            const ce = certoErrado(questao.alternativas)
             const cortada = cortadas.has(i)
             const correta = resposta && i === resposta.correta
             const errada = resposta && i === escolhida && !resposta.acertou
@@ -384,13 +390,16 @@ export function EstudoQuestao(props: {
                     cortada ? 'opacity-45' : ''
                   }`}
                 >
-                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-ink-100 text-[11px] font-bold text-ink-700">
-                    {LETRAS[i]}
-                  </span>
+                  {!ce ? (
+                    <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-ink-100 text-[11px] font-bold text-ink-700">
+                      {LETRAS[i]}
+                    </span>
+                  ) : null}
                   <span className={`min-w-0 break-words leading-relaxed ${cortada ? 'line-through' : ''}`}>
-                    {texto}
+                    {ce ? (i === 0 ? 'Certo' : 'Errado') : texto}
                   </span>
                 </button>
+                {!ce ? (
                 <button
                   type="button"
                   onClick={() => alternarCortar(i)}
@@ -406,6 +415,7 @@ export function EstudoQuestao(props: {
                 >
                   <Scissors className="h-4 w-4" aria-hidden="true" />
                 </button>
+                ) : null}
               </li>
             )
           })}

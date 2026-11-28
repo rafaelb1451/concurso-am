@@ -5,6 +5,9 @@ import type { PaginaPublica } from './SiteHeader'
 import { Card, EmptyState, ErrorBanner, LoadingState, PageHeader, ProgressBar } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
+function certoErrado(alternativas: string[]): boolean {
+  return alternativas.length === 2 && alternativas[0] === 'Certo' && alternativas[1] === 'Errado'
+}
 /** Mesmo teto do backend — a regra real é imposta lá. */
 const LIMITE = 10
 
@@ -281,7 +284,7 @@ export default function PraticaGratis({
                 ].join(' ')}
               >
                 <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-ink-300 text-[11px] font-bold text-ink-600">
-                  {LETRAS[i]}
+                  {certoErrado(atual.alternativas) ? (i === 0 ? 'Certo' : 'Errado') : LETRAS[i]}
                 </span>
                 <span className="min-w-0 whitespace-pre-line break-words leading-relaxed">{texto}</span>
               </button>

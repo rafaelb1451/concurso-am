@@ -11,6 +11,9 @@ import Rascunho from './Rascunho'
 import { Card, ErrorBanner, PageHeader, ProgressBar } from './ui'
 
 const LETRAS = ['A', 'B', 'C', 'D', 'E']
+function certoErrado(alternativas: string[]): boolean {
+  return alternativas.length === 2 && alternativas[0] === 'Certo' && alternativas[1] === 'Errado'
+}
 
 /** Estimativa de prova: ~3,5 min por questão, arredondada para 5 minutos. */
 function duracaoMinutos(quantidade: number): number {
@@ -373,7 +376,7 @@ export default function Simulado({
                   }
                 >
                   <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white/70 text-[11px] font-bold text-ink-700 ring-1 ring-inset ring-ink-200">
-                    {LETRAS[i]}
+                    {certoErrado(atual.alternativas) ? (i === 0 ? 'Certo' : 'Errado') : LETRAS[i]}
                   </span>
                   <span className="min-w-0 break-words leading-relaxed">{texto}</span>
                 </button>
