@@ -1,6 +1,10 @@
 # Login com Google (Google Identity Services). Sem o Client ID, /api/google responde 503
 # e o login por e-mail/senha continua funcionando normalmente.
 concurso:
+  pagbank:
+    token: ${PAGBANK_TOKEN:}
+    base-url: ${PAGBANK_BASE_URL:https://api.pagseguro.com}
+    webhook-url: ${PAGBANK_WEBHOOK_URL:https://qbconcurso.com.br/api/webhooks/pagbank}
   # URL publica usada em canonical, sitemap e JSON-LD das paginas de SEO.
   seo:
     url: ${SEO_BASE_URL:https://qbconcurso.com.br}

@@ -147,4 +147,24 @@ public class AssinaturaController {
         AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(pedido);
         return Map.of("ok", true, "resultado", resultado.name());
     }
+
+    /**
+     * Webhook do PagBank. Autenticidade vem do header {@code x-authenticity-token}, que e'
+     * SHA-256(token + "-" + corpoBruto) — comparado em tempo constante.
+     */
+    @PostMapping("/webhooks/pagbank")
+    public Map<String, Object> webhookPagBank(
+            @RequestHeader(value = "x-authenticity-token", required = false) String assinatura,
+            @RequestBody String corpo,
+            jakarta.servlet.http.HttpServletRequest requisicao) {
+        PaymentGateway.WebhookRequest pedido =
+                new PaymentGateway.WebhookRequest(null, assinatura, null, corpo);
+        if (!assinaturas.webhookValido(pedido)) {
+            throw new AuthException(org.springframework.http.HttpStatus.UNAUTHORIZED,
+                    "Assinatura de webhook invalida.");
+        }
+        limiter.exigir("webhook-pagbank:" + ClienteIp.de(requisicao), 600);
+        AssinaturaService.ResultadoWebhook resultado = assinaturas.processarWebhook(pedido);
+        return Map.of("ok", true, "resultado", resultado.name());
+    }
 }

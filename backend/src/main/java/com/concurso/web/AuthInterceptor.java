@@ -55,7 +55,8 @@ public class AuthInterceptor implements HandlerInterceptor {
         }
         // webhook do gateway: publico, protegido pelo token no header
         if ("POST".equalsIgnoreCase(metodo) && ("/api/webhooks/asaas".equals(caminho)
-                || "/api/webhooks/mercadopago".equals(caminho))) {
+                || "/api/webhooks/mercadopago".equals(caminho)
+                || "/api/webhooks/pagbank".equals(caminho))) {
             return true;
         }
         // catalogo de planos: publico para a pagina de precos

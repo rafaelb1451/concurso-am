@@ -33,14 +33,14 @@ valor() {
     | sed -e 's/^"//' -e 's/"$//' -e "s/^'//" -e "s/'$//"
 }
 
-obrigatorias=(DOMINIO POSTGRES_PASSWORD MP_ACCESS_TOKEN)
+obrigatorias=(DOMINIO POSTGRES_PASSWORD PAGBANK_TOKEN)
 for chave in "${obrigatorias[@]}"; do
   [ -n "$(valor "$chave")" ] \
     || falhar "$chave vazio no .env. O deploy abortou para não subir com pagamento/cadastro quebrados."
 done
 
 if [ -z "$(valor MP_WEBHOOK_SECRET)" ]; then
-  echo "AVISO: MP_WEBHOOK_SECRET vazio — o webhook do Mercado Pago será recusado e o PRO não será liberado."
+  echo "AVISO: MP_WEBHOOK_SECRET vazio — o webhook do Mercado Pago (legado) será recusado."
 fi
 
 if [ -n "$(valor SMTP_USERNAME)" ] && [ -z "$(valor SMTP_PASSWORD)" ]; then
