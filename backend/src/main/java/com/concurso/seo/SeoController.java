@@ -133,6 +133,7 @@ public class SeoController {
         }
         corpo.append("atualizado em ").append(data(m.getAtualizadoEm())).append("</p>");
         corpo.append("<div class=\"conteudo\">").append(texto(m.getConteudo())).append("</div>");
+        corpo.append(relacionados(m));
         corpo.append(caixaCta("Estude com questões comentadas",
                 "Este material faz parte do banco de questões do QB Concurso. "
                         + "Crie sua conta gratuita para praticar."));
@@ -146,10 +147,22 @@ public class SeoController {
                 "datePublished", m.getAtualizadoEm().toString(),
                 "dateModified", m.getAtualizadoEm().toString(),
                 "inLanguage", "pt-BR",
+                "about", m.getConcurso() == null ? "concursos públicos" : m.getConcurso(),
+                "keywords", m.getConcurso() == null ? "concursos públicos" : m.getConcurso(),
                 "mainEntityOfPage", baseUrl + caminho,
                 "author", mapa("@type", "Organization", "name", "QB Concurso"),
                 "publisher", mapa("@type", "Organization", "name", "QB Concurso",
-                        "url", baseUrl + "/")));
+                        "url", baseUrl + "/")))
+                + json(mapa(
+                "@context", "https://schema.org",
+                "@type", "BreadcrumbList",
+                "itemListElement", List.of(
+                        mapa("@type", "ListItem", "position", 1, "name", "Início",
+                                "item", baseUrl + "/"),
+                        mapa("@type", "ListItem", "position", 2, "name", "Materiais",
+                                "item", baseUrl + "/materiais"),
+                        mapa("@type", "ListItem", "position", 3, "name", m.getTitulo(),
+                                "item", baseUrl + caminho))));
 
         return html(titulo, descricao, caminho, jsonLd, corpo.toString());
     }
@@ -433,5 +446,44 @@ public class SeoController {
             xml.append("<lastmod>").append(lastmod).append("</lastmod>");
         }
         xml.append("</url>\n");
+    }
+
+    /** Links internos para materiais do mesmo certame (e, em falta, da mesma categoria). */
+    private String relacionados(MaterialEstudo atual) {
+        List<MaterialEstudo> todos = seo.materiais();
+        LinkedHashMap<String, MaterialEstudo> escolhidos = new LinkedHashMap<>();
+        for (MaterialEstudo m : todos) {
+            if (escolhidos.size() >= 4) {
+                break;
+            }
+            if (m.getSlug().equals(atual.getSlug())) {
+                continue;
+            }
+            if (atual.getConcurso() != null && atual.getConcurso().equals(m.getConcurso())) {
+                escolhidos.putIfAbsent(m.getSlug(), m);
+            }
+        }
+        for (MaterialEstudo m : todos) {
+            if (escolhidos.size() >= 4) {
+                break;
+            }
+            if (m.getSlug().equals(atual.getSlug()) || escolhidos.containsKey(m.getSlug())) {
+                continue;
+            }
+            if (atual.getCategoria() != null && atual.getCategoria().equals(m.getCategoria())) {
+                escolhidos.putIfAbsent(m.getSlug(), m);
+            }
+        }
+        if (escolhidos.isEmpty()) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append("<h2>Materiais relacionados</h2><ul class=\"relacionados\">");
+        for (MaterialEstudo r : escolhidos.values()) {
+            sb.append("<li><a href=\"/materiais/").append(h(r.getSlug())).append("\">")
+                    .append(h(r.getTitulo())).append("</a></li>");
+        }
+        sb.append("</ul>");
+        return sb.toString();
     }
 }
