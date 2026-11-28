@@ -858,5 +858,395 @@
     "resumo": "Criação do Estado, 15 municípios, BR-174, crase e concordância, porcentagem e negação da condicional.",
     "conteudo": "**Formação histórica.** Em 1943 criou-se o Território Federal do Rio Branco; em 1962 passou a Território Federal de Roraima; e pela CF/88 (art. 14 do ADCT) foi transformado em Estado de Roraima.\n\n**Municípios (15).** Boa Vista (capital), Alto Alegre, Amajari, Bonfim, Cantá, Caracaraí, Caroebe, Iracema, Mucajaí, Normandia, Pacaraima, Rorainópolis, São João da Baliza, São Luiz e Uiramutã.\n\n**Infraestrutura viária.** A BR-174 corta o Estado de sul a norte, da divisa com o Amazonas à fronteira com a Venezuela (Pacaraima). A BR-401 liga Boa Vista a Bonfim, na fronteira com a Guiana.\n\n**Crase.** Ocorre com a fusão de preposição 'a' + artigo 'a'. Não há crase antes de verbo, pronome indefinido, palavra masculina ou artigo indefinido.\n\n**Concordância.** 'Haver' no sentido de existir e 'fazer' indicando tempo são impessoais (fica no singular). 'Alerta' e 'menos' são invariáveis.\n\n**RLM.** Porcentagem: parte/valor total × 100. Negação da condicional (P → Q): 'P e não Q' (mantém a primeira E nega a segunda). Equivalência da condicional: contrapositiva (¬Q → ¬P) ou disjunção (¬P ou Q).",
     "ordem": 4
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-guia",
+    "titulo": "Guia de estudo — IPAM Porto Velho (banca IBADE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura do certame do IPAM Porto Velho, perfil do IBADE e ordem de estudo para a prova de Direito Previdenciário (RPPS), RLM e Português.",
+    "conteudo": "**O certame.** Instituto de Previdência e Assistência dos Servidores do Município de Porto Velho/RO (IPAM Porto Velho), banca IBADE. Provas objetivas de múltipla escolha (5 alternativas), com ênfase em Direito Previdenciário (RPPS), Raciocínio Lógico-Matemático, Língua Portuguesa/Redação Oficial e conhecimentos gerais e regionais. Cargos típicos: técnico e analista previdenciário.\n\n**Perfil da banca.** O IBADE usa enunciado padronizado (“Considerando o regime constitucional vigente e a doutrina especializada sobre…”), cobra literalidade da CF/88 e da EC nº 103/2019 e alternativas que invertem o sentido de detalhes (ex.: aposentadoria compulsória, acumulação de benefícios, contagem recíproca). Em RLM, valoriza lógica proposicional (equivalência e negação) e, em Português, redação oficial (MRPR) e pronomes de tratamento.\n\n**Estratégia.** 1) RPPS e EC nº 103/2019 (aposentadorias, pensão, acumulação); 2) RLM (proporção, porcentagem e lógica); 3) Constitucional aplicado (controle concentrado estadual, Defensoria Pública, repercussão geral); 4) Português e redação oficial. Leia a norma na sequência dos tópicos e finalize com as questões do banco do próprio certame.",
+    "ordem": 1
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-previdenciario",
+    "titulo": "Direito Previdenciário — RPPS e EC 103/2019 — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Regime Próprio, aposentadorias, pensão por morte, acumulação de benefícios e contagem recíproca, com as regras da EC 103/2019.",
+    "conteudo": "**RPPS (art. 40, CF).** Regime contributivo e solidário, exclusivo dos titulares de cargo efetivo. Ocupante exclusivo de cargo em comissão, de cargo temporário ou de emprego público vincula-se ao RGPS (§ 13). Vedada a contagem de tempo fictício (§ 10) e vedada mais de uma unidade gestora do RPPS em cada ente federativo (§ 20).\n\n**Aposentadorias (art. 40).** Por incapacidade permanente, com proventos proporcionais e avaliações periódicas para verificação da continuidade das condições; compulsória, aos 75 anos, com proventos proporcionais ao tempo de contribuição; e voluntária, mediante idade e tempo de contribuição conforme lei complementar do ente.\n\n**EC 103/2019.** Estabeleceu idades mínimas e tempo mínimo para a aposentadoria voluntária, regras de transição e cálculo dos proventos pela média aritmética de todas as remunerações de contribuição, vedado o descarte das menores (ressalvadas as regras de transição). O abono de permanência é devido ao servidor que preencheu os requisitos e optou por permanecer em atividade.\n\n**Pensão por morte (art. 23 da EC 103/2019).** Corresponde à cota familiar de 50% do valor da aposentadoria ou do que seria devido, acrescida de 10% por dependente, até 100%. A cota do dependente cessa com a perda da qualidade; a vitaliciedade depende da condição do beneficiário.\n\n**Acumulação de benefícios (art. 24 da EC 103/2019).** Vedada a acumulação de mais de uma pensão por morte no mesmo regime (ressalvadas as deixadas pelo mesmo instituidor no exercício de cargos acumuláveis). Acumulando pensão e aposentadoria, recebe-se 100% do benefício mais vantajoso mais uma parcela escalonada do outro: 100% até 1 salário mínimo; 60% entre 1 e 2 SM; 40% entre 2 e 3 SM; 20% entre 3 e 4 SM; 10% acima de 4 SM.\n\n**Contagem recíproca e compensação financeira (art. 201, § 9º, CF e Lei 9.796/99).** O tempo de contribuição no RGPS e no RPPS conta-se reciprocamente, vedada a contagem de tempo fictício, com compensação financeira entre os regimes, respeitados os critérios de cada um.",
+    "ordem": 2
+  },
+  {
+    "concurso": "IPAM-PORTO-VELHO",
+    "slug": "ipam-porto-velho-rlm",
+    "titulo": "Raciocínio Lógico-Matemático — proporção, porcentagem e lógica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Razão e proporção, regra de três, porcentagem e fundamentos de lógica proposicional (equivalência e negação).",
+    "conteudo": "**Razão e proporção.** Razão é a comparação a/b entre grandezas; proporção é a igualdade entre razões (a/b = c/d), valendo o produto cruzado (a·d = b·c). Grandezas diretamente proporcionais crescem/decrescem juntas; inversamente proporcionais variam em sentidos opostos.\n\n**Regra de três.** Simples (duas grandezas) ou composta (três ou mais). Monte a proporção identificando se as grandezas são direta ou inversamente proporcionais e isole a incógnita.\n\n**Porcentagem.** Fração de denominador 100: x% = x/100. Aumentos e descontos sucessivos não se somam: multiplique os fatores (aumento de 10% → fator 1,10; desconto de 20% → fator 0,80). Variação percentual = (final − inicial)/inicial × 100.\n\n**Lógica proposicional.** Proposição é toda frase declarativa que admite valor de verdade. Conectivos: negação (¬), conjunção (∧, “e”), disjunção (∨, “ou”), condicional (→, “se… então”) e bicondicional (↔). Use a tabela-verdade para avaliar tautologias, contradições e contingências.\n\n**Equivalências e negação da condicional.** A contrapositiva de P → Q é ¬Q → ¬P (equivalente). Também P → Q ≡ ¬P ∨ Q. A negação de P → Q é P ∧ ¬Q. Leis de De Morgan: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q e ¬(P ∨ Q) ≡ ¬P ∧ ¬Q.\n\n**Argumentos e diagramas.** Um argumento é válido quando a conclusão decorre logicamente das premissas (a forma é válida, independentemente da verdade material). Nos quantificadores “todo”, “algum” e “nenhum”, resolva com diagramas de conjuntos, testando sempre a conclusão contra as premissas.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-guia",
+    "titulo": "Guia de estudo — PC-AC (banca IDECAN)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Polícia Civil do Acre, perfil do IDECAN e ordem de estudo para Penal, Processo Penal, legislação especial e Português.",
+    "conteudo": "**O certame.** Polícia Civil do Estado do Acre (PC-AC), banca IDECAN. Prova objetiva de múltipla escolha (5 alternativas) para os cargos policiais, com Direito Penal, Direito Processual Penal, Legislação Penal Especial e Militar e Língua Portuguesa/Redação Oficial.\n\n**Perfil da banca.** O IDECAN contextualiza os enunciados (“No exercício das atividades de segurança pública e polícia judiciária na Região Norte…”) e cobra a literalidade das leis especiais (abuso de autoridade, Estatuto do Desarmamento, Lei Maria da Penha) e distinções doutrinárias clássicas: crime militar próprio versus impróprio e flagrante preparado versus esperado. Em Português, valoriza morfossintaxe e orações subordinadas adjetivas.\n\n**Estratégia.** 1) CP (teoria do crime e princípios); 2) CPP (inquérito, flagrante e competência); 3) legislação penal especial e militar; 4) Português. Comece pelos institutos que caem em prova (flagrante, competência do júri, crime militar) e revise as leis especiais na íntegra, pois o IDECAN explora detalhes.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-penal-processual",
+    "titulo": "Direito Penal e Processo Penal — CP, inquérito e legislação especial — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios penais, teoria do crime, inquérito, flagrante, competência e as leis especiais mais cobradas na PC-AC.",
+    "conteudo": "**Princípios penais.** Legalidade e reserva legal (art. 1º, CP), anterioridade e irretroatividade da lei penal, salvo para beneficiar o réu (art. 5º, XL, CF). A lei penal mais benigna retroage; a mais gravosa, nunca.\n\n**Teoria do crime.** Crime é fato típico (conduta, tipicidade, nexo causal e resultado), ilícito (não há crime quando presente legítima defesa, estado de necessidade, estrito cumprimento do dever legal ou exercício regular de direito) e culpável. Dolo é a vontade de realizar o tipo; culpa decorre de imprudência, negligência ou imperícia. Na tentativa (art. 14, II), a pena reduz-se de 1/3 a 2/3.\n\n**Inquérito policial.** Procedimento administrativo, inquisitivo, escrito e sigiloso, presidido pela autoridade policial, destinado a colher elementos para a propositura da ação penal. Não exige contraditório e ampla defesa plenos; o advogado tem acesso aos autos (Súmula Vinculante 14).\n\n**Flagrante (arts. 301 e 302, CPP).** Qualquer pessoa pode prender em flagrante; a autoridade policial e seus agentes devem. Espécies: próprio, impróprio (quase-flagrante) e presumido. Flagrante preparado (provocado/induzido) é nulo — configura crime impossível (Súmula 145 do STF); o flagrante esperado (mera vigilância) é válido.\n\n**Competência.** Regra: lugar da infração (art. 70, CPP). Crimes dolosos contra a vida de civil praticados por militar estadual competem ao Tribunal do Júri (Lei 13.491/2017); permanecem na Justiça Militar os crimes militares próprios e os dolosos contra a vida de militar em serviço.\n\n**Legislação especial (temas cobrados).** Abuso de autoridade (Lei 13.869/2019 — exige dolo específico/finalidade); Estatuto do Desarmamento (Lei 10.826/2003 — posse e porte de arma); Lei Maria da Penha (Lei 11.340/2006 — violência doméstica e familiar contra a mulher e medidas protetivas de urgência).",
+    "ordem": 2
+  },
+  {
+    "concurso": "PC-AC",
+    "slug": "pc-ac-portugues",
+    "titulo": "Língua Portuguesa — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Sintaxe das orações adjetivas, concordância, regência, crase, colocação pronominal e redação oficial (MRPR).",
+    "conteudo": "**Orações subordinadas adjetivas.** Restritiva: sem vírgula, restringe e particulariza o antecedente. Explicativa: entre vírgulas, generaliza e acrescenta informação acessória. Introduzidas por pronomes relativos (que, cujo, onde, o qual), que retomam o antecedente.\n\n**Concordância verbal.** Verbo concorda com o núcleo do sujeito; sujeito composto leva o verbo ao plural. O verbo “haver” no sentido de “existir” é impessoal e fica no singular; “existir” é pessoal e flexiona.\n\n**Concordância nominal e regência.** Adjetivos, artigos, pronomes e numerais concordam com o substantivo. Atenção à regência verbal e nominal (assistir a, obedecer a, visar a, implicar em/de) e ao emprego dos pronomes oblíquos como complemento.\n\n**Crase.** Ocorre na fusão da preposição “a” com o artigo “a(s)” ou com os pronomes demonstrativos “aquele(s)/aquela(s)/aquilo”. É facultativa antes de pronome possessivo feminino singular e antes de nome próprio feminino; proibida antes de palavra masculina, verbo e pronome pessoal.\n\n**Colocação pronominal.** Próclise obrigatória com palavras negativas, pronomes relativos, conjunções subordinativas, advérbios e pronomes indefinidos; ênclise em início de frase; mesóclise com verbo no futuro (sem palavra atrativa).\n\n**Redação oficial (MRPR).** Atributos: clareza, concisão, impessoalidade, formalidade e padronização. Pronomes de tratamento (Vossa Excelência/Senhor) e fechos (“Respeitosamente” para autoridades superiores e “Atenciosamente” para as demais) seguem o Manual de Redação da Presidência da República.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-guia",
+    "titulo": "Guia de estudo — PC-PA (banca CEBRASPE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Polícia Civil do Pará, perfil do Cebraspe (certo/errado) e ordem de estudo para Penal, Processo Penal e Perícia.",
+    "conteudo": "**O certame.** Polícia Civil do Estado do Pará (PC-PA), banca Cebraspe. Provas objetivas no formato certo/errado (itens de julgamento), com Direito Penal, Direito Processual Penal, Criminalística/Perícia e jurisprudência dos tribunais superiores. Cargos típicos: investigador, escrivão, perito e agente.\n\n**Perfil da banca.** No Cebraspe, uma questão errada anula uma certa, o que pune o chute. A banca cobra doutrina e jurisprudência com pegadinhas em detalhes e exceções, além de temas técnicos de perícia (balística forense, cadeia de custódia). Leia cada item até o fim e desconfie de absolutos (“sempre”, “nunca”).\n\n**Estratégia.** 1) CP (parte geral e crimes contra a administração pública); 2) CPP (inquérito, provas e prisões); 3) Cadeia de custódia (Lei 13.964/2019); 4) criminalística (balística). Não responda itens sobre os quais não tenha segurança, para preservar pontos.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-penal",
+    "titulo": "Direito Penal — parte geral e crimes — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, aplicação da lei penal, teoria do crime e crimes contra a administração pública e contra a pessoa/patrimônio.",
+    "conteudo": "**Princípios e aplicação da lei penal.** Legalidade e anterioridade; a lei posterior benéfica retroage. Tempo do crime: teoria da atividade (art. 4º). Lugar do crime: teoria da ubiquidade (art. 6º — lugar da ação ou da omissão e do resultado).\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade. Excludentes de ilicitude: legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito. Erro de tipo exclui o dolo; erro de proibição, se inevitável, isenta de pena.\n\n**Iter criminis.** Etapas: cogitação (impunível), preparação (em regra impunível), execução e consumação. Desistência voluntária e arrependimento eficaz (art. 15) afastam a punição pela tentativa; arrependimento posterior (art. 16) reduz a pena nos crimes sem violência ou grave ameaça.\n\n**Crimes contra a administração pública.** Peculato (art. 312 — apropriação, desvio ou subtração, por funcionário público, de bem de que tem a posse em razão do cargo). Peculato-furto (§ 1º — o funcionário, ainda que sem a posse, concorre para a subtração valendo-se da facilidade do cargo); peculato culposo (§ 2º). Concussão (art. 316), corrupção passiva e ativa (arts. 317 e 333), prevaricação (art. 319) e advocacia administrativa (art. 321).\n\n**Crimes contra a pessoa e o patrimônio.** Homicídio (art. 121), lesão corporal (art. 129), furto (art. 155), roubo (art. 157), latrocínio (roubo qualificado pelo resultado morte) e extorsão (art. 158).\n\n**Legislação penal especial.** Abuso de autoridade (Lei 13.869/2019), organização criminosa (Lei 12.850/2013), lavagem de dinheiro (Lei 9.613/98) e drogas (Lei 11.343/2006), frequentemente cobradas em certames de polícia judiciária.",
+    "ordem": 2
+  },
+  {
+    "concurso": "PC-PA",
+    "slug": "pc-pa-processual-custodia",
+    "titulo": "Processo Penal e Cadeia de Custódia — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios processuais, inquérito, provas (interceptação telefônica), prisões, cadeia de custódia e balística forense.",
+    "conteudo": "**Princípios processuais.** Devido processo legal, contraditório e ampla defesa, presunção de inocência, juiz natural e vedação das provas ilícitas (art. 5º, LVI, CF). A prova ilícita e a derivada (teoria dos frutos da árvore envenenada) são inadmissíveis.\n\n**Inquérito e ação penal.** O inquérito é inquisitivo, sigiloso e dispensável. A ação penal pública pode ser incondicionada ou condicionada à representação/requisição; a privada é do ofendido. A denúncia é do Ministério Público; a queixa-crime, do particular.\n\n**Provas e interceptação telefônica.** Interceptação telefônica (Lei 9.296/1996): exige autorização judicial, investigação de crime punido com reclusão, impossibilidade de outros meios e prazo de 15 dias, prorrogável. Busca e apreensão domiciliar exige ordem judicial ou flagrante delito (art. 5º, XI).\n\n**Prisões e cautelares.** Flagrante (art. 302, CPP); preventiva (art. 312 — garantia da ordem pública, conveniência da instrução, aplicação da lei penal); temporária (Lei 7.960/89 — 5 dias prorrogáveis por mais 5; 30 + 30 nos crimes hediondos). Medidas cautelares diversas da prisão (art. 319) e liberdade provisória.\n\n**Cadeia de custódia (arts. 158-A a 158-F, CPP, inseridos pela Lei 13.964/2019).** Conjunto de procedimentos que documentam a idoneidade e a rastreabilidade do vestígio. Etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte. Toda transferência deve ser registrada; a quebra da cadeia torna a prova inadmissível, salvo se justificada.\n\n**Perícia e balística forense.** O exame de corpo de delito é indispensável nas infrações que deixam vestígios, salvo exceção legal. Em tiros a curta distância, a zona de tatuagem (resíduos de pólvora impregnados na pele) e a zona de esfumaçamento (fuligem) indicam a proximidade do disparo e auxiliam na reconstrução do fato.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-guia",
+    "titulo": "Guia de estudo — PC-TO (banca CEBRASPE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Polícia Civil do Tocantins, perfil do Cebraspe e ordem de estudo para Administrativo, Constitucional, Penal e Português.",
+    "conteudo": "**O certame.** Polícia Civil do Estado do Tocantins (PC-TO), banca Cebraspe, com itens de julgamento certo/errado (e blocos de múltipla escolha em legislação específica). Matérias: Direito Administrativo, Direito Constitucional, Direito Penal/Processo Penal e Língua Portuguesa. Cargos típicos: investigador, escrivão, agente e papiloscopista.\n\n**Perfil da banca.** O Cebraspe cobra a teoria dos atos administrativos (elementos e atributos), improbidade e licitações (Lei 14.133/2021), remédios constitucionais, inquérito policial e gramática normativa (crase, concordância). Itens com detalhes que invertem o sentido; uma errada anula uma certa.\n\n**Estratégia.** 1) Direito Administrativo (atos e poderes); 2) Direito Constitucional (direitos fundamentais e remédios); 3) Penal/Processo Penal (inquérito); 4) Português (crase e concordância). Priorize os elementos do ato administrativo e os remédios constitucionais, temas de recorrência alta.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-administrativo",
+    "titulo": "Direito Administrativo — atos, poderes, improbidade e licitações — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Elementos e atributos do ato administrativo, poderes administrativos, improbidade (LIA) e licitações (Lei 14.133/2021).",
+    "conteudo": "**Atos administrativos — elementos.** Competência (vinculada), finalidade (vinculada), forma (vinculada, em regra), motivo (vinculado ou discricionário — corresponde à situação de fato e de direito que o fundamenta) e objeto (vinculado ou discricionário).\n\n**Atributos.** Presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade. Classificação: vinculados e discricionários; simples, complexos e compostos; gerais e individuais.\n\n**Extinção dos atos.** Anulação (ilegalidade, efeitos retroativos — ex tunc), revogação (conveniência e oportunidade, efeitos ex nunc, por mérito) e convalidação (correção de vícios sanáveis).\n\n**Poderes administrativos.** Vinculado, discricionário, hierárquico, disciplinar, regulamentar (normativo) e de polícia. O poder de polícia limita o exercício de direitos e atividades em favor do interesse público; admite autoexecutoriedade e coercibilidade.\n\n**Improbidade administrativa (Lei 8.429/92 — LIA).** Atos de enriquecimento ilícito (art. 9º), prejuízo ao erário (art. 10) e violação a princípios (art. 11). Exige-se dolo (elemento subjetivo); as sanções incluem suspensão dos direitos políticos, multa e perda da função pública. A LIA foi atualizada pela Lei 14.230/2021.\n\n**Licitações (Lei 14.133/2021).** Modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo (para contratações de objeto complexo/inovador). Princípios: legalidade, isonomia, publicidade, eficiência, julgamento objetivo. Contratação direta por dispensa ou inexigibilidade.",
+    "ordem": 2
+  },
+  {
+    "concurso": "PC-TO",
+    "slug": "pc-to-constitucional-penal",
+    "titulo": "Direito Constitucional — direitos fundamentais — e Penal/Processo Penal — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Direitos e garantias do art. 5º, remédios constitucionais, inquérito policial e segurança pública (art. 144).",
+    "conteudo": "**Direitos fundamentais (art. 5º).** Igualdade, legalidade, liberdade de expressão, inviolabilidade do domicílio e do sigilo das comunicações, direito de propriedade e garantias do devido processo legal. Direitos fundamentais não são absolutos.\n\n**Remédios constitucionais.** Habeas corpus protege a liberdade de locomoção; habeas data assegura o conhecimento/retificação de informações pessoais; mandado de segurança tutela direito líquido e certo não amparado por HC ou HD; mandado de injunção viabiliza direito inviabilizado por falta de norma regulamentadora; ação popular anula ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico/cultural.\n\n**Garantias penais e processuais (art. 5º).** Presunção de inocência, contraditório e ampla defesa, prisão apenas em flagrante ou por ordem judicial escrita, vedação de provas ilícitas, individualização da pena e respeito à integridade física e moral do preso.\n\n**Inquérito policial.** Sigiloso e inquisitivo, presidido pela autoridade policial. O advogado tem acesso aos autos (Súmula Vinculante 14); o sigilo visa à eficiência da investigação, sem prejuízo da ampla defesa na fase processual.\n\n**Segurança pública (art. 144, CF).** Dever do Estado, direito e responsabilidade de todos. Órgãos: Polícia Federal, Polícia Rodoviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares, Polícias Penais. À Polícia Civil cabe a polícia judiciária e a apuração de infrações penais, exceto as militares.\n\n**Organização do Estado e competências.** Repartição de competências (arts. 21 a 24): competências privativas da União, comuns e concorrentes. Na competência concorrente, a União edita normas gerais e os Estados/DF as suplementam.",
+    "ordem": 3
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-guia",
+    "titulo": "Guia de estudo — PM-AC (banca IDECAN)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Polícia Militar do Acre, perfil do IDECAN e ordem de estudo para Direito Penal Militar, Penal comum e Constitucional.",
+    "conteudo": "**O certame.** Polícia Militar do Estado do Acre (PM-AC), banca IDECAN, para os cargos de soldado e oficial. Prova objetiva (5 alternativas) com Direito Penal Militar (CPM/CPPM), Direito Penal comum, Legislação Penal Especial e Direito Constitucional (art. 144).\n\n**Perfil da banca.** O IDECAN cobra a literalidade do CPM e do CPPM, as distinções doutrinárias (crime militar próprio versus impróprio; flagrante preparado versus esperado) e leis especiais (Desarmamento, abuso de autoridade, Maria da Penha). As alternativas trocam detalhes de competência e de tipificação.\n\n**Estratégia.** 1) CPM/CPPM (crime militar, IPM, competência); 2) CP e legislação especial; 3) Constitucional (art. 144 e direitos fundamentais); 4) Português. Domine o art. 9º do CPM e a competência do júri (Lei 13.491/2017), pontos de alta recorrência.",
+    "ordem": 1
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-penal-militar",
+    "titulo": "Direito Penal Militar (CPM/CPPM) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Conceito de crime militar, competência, princípios, penas militares, inquérito policial militar e crimes militares em espécie.",
+    "conteudo": "**Crime militar (art. 9º, CPM).** Próprios: previstos apenas no CPM. Impróprios: previstos também na legislação comum, mas considerados militares pelas circunstâncias do inciso II (praticados por militar em serviço, em lugar sujeito à administração militar, etc.). Aplicam-se aos militares e, em hipóteses legais, a civis.\n\n**Competência.** A Justiça Militar Estadual (art. 125, §§ 4º e 5º, CF) julga militares estaduais por crimes militares definidos em lei. Os crimes dolosos contra a vida de civil praticados por militar competem ao Tribunal do Júri (Lei 13.491/2017).\n\n**Princípios.** Legalidade, anterioridade e retroatividade da lei penal mais benéfica. Tempo do crime: teoria da atividade; lugar do crime: teoria da ubiquidade. Aplicam-se subsidiariamente as regras gerais do Código Penal.\n\n**Penas militares.** Principais: morte (executada por fuzilamento, em tempo de guerra), reclusão, detenção, prisão, impedimento, suspensão do exercício do posto/graduação e reforma; e acessórias (perda do posto e da patente, exclusão das Forças Armadas, etc.).\n\n**Processo penal militar (CPPM).** O inquérito policial militar (IPM) é a apuração preliminar, presidido por autoridade militar, com prazo de 20 dias prorrogáveis. Prisão em flagrante, medidas cautelares e competência seguem o CPPM.\n\n**Crimes militares em espécie.** Deserção, abandono de posto, insubordinação, recusa de obediência, motim e revolta, estelionato militar e peculato militar. Foco nas elementares e nas diferenças entre condutas semelhantes (ex.: motim versus revolta).",
+    "ordem": 2
+  },
+  {
+    "concurso": "PM-AC",
+    "slug": "pm-ac-penal-constitucional",
+    "titulo": "Direito Penal comum (CP) e Constitucional (art. 144) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios do CP, teoria do crime, flagrante, legislação especial e segurança pública na Constituição.",
+    "conteudo": "**Princípios penais comuns.** Legalidade, anterioridade e irretroatividade (salvo lei benéfica). O Código Penal aplica-se subsidiariamente ao CPM quando este for omisso.\n\n**Teoria do crime.** Fato típico, ilicitude e culpabilidade. Excludentes de ilicitude: legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito — relevantes para a atuação policial.\n\n**Flagrante.** Próprio, impróprio (quase-flagrante) e presumido. O flagrante preparado (provocado) é nulo — Súmula 145 do STF; o esperado (vigilância sem indução) é válido. O flagrante forjado também é ilegal.\n\n**Legislação penal especial.** Estatuto do Desarmamento (Lei 10.826/2003 — posse, porte e registro de armas), abuso de autoridade (Lei 13.869/2019) e Lei Maria da Penha (Lei 11.340/2006 — medidas protetivas de urgência e atendimento à mulher em situação de violência).\n\n**Segurança pública (art. 144, CF).** Dever do Estado, direito e responsabilidade de todos. A Polícia Militar exerce a polícia ostensiva e a preservação da ordem pública; os Corpos de Bombeiros Militares, a prevenção e o combate a incêndios e a defesa civil; as Polícias Civis, a polícia judiciária e a apuração das infrações penais, exceto as militares.\n\n**Direitos e garantias relevantes à atuação policial.** Inviolabilidade de domicílio (entrada com consentimento, flagrante ou ordem judicial), presunção de inocência, devido processo legal e uso progressivo e proporcional da força, em conformidade com os direitos humanos.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-guia",
+    "titulo": "Guia de estudo — Saúde-AP (banca AOCP)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da rede estadual de saúde do Amapá, perfil do AOCP e ordem de estudo para SUS, Vigilância e Português.",
+    "conteudo": "**O certame.** Rede estadual de saúde do Amapá (Saúde-AP), banca AOCP, com cargos de nível médio e superior da área da saúde. Prova objetiva (5 alternativas) de Saúde Pública/SUS, Vigilância em Saúde, Epidemiologia e Língua Portuguesa/Redação Oficial.\n\n**Perfil da banca.** O AOCP contextualiza os enunciados (“Na gestão e assistência dos serviços estaduais de saúde pública da Região Norte…”) e cobra diretrizes do SUS (Leis 8.080/90 e 8.142/90), PNAB, vigilância das arboviroses, imunização, financiamento (LC 141/2012) e segurança do paciente. Em Português, valoriza redação oficial e paralelismo.\n\n**Estratégia.** 1) Lei 8.080/90 e Lei 8.142/90; 2) LC 141/2012 e financiamento; 3) Vigilância em Saúde e arboviroses; 4) Português/redação oficial. Monte tabelas comparativas de princípios e competências e revise as arboviroses com os respectivos vetores e sinais de alarme.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-sus",
+    "titulo": "SUS — Leis 8.080/1990 e 8.142/1990, financiamento e PNAB — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios do SUS, controle social, financiamento (LC 141/2012) e Política Nacional de Atenção Básica.",
+    "conteudo": "**Princípios doutrinários.** Universalidade (acesso de todos em todos os níveis), integralidade (ações preventivas e curativas articuladas) e equidade (mais atenção a quem mais necessita).\n\n**Princípios e diretrizes organizativas (art. 7º, Lei 8.080/90).** Descentralização político-administrativa com direção única em cada esfera, regionalização e hierarquização da rede, participação da comunidade, resolutividade e igualdade da assistência.\n\n**Campos de atuação (art. 6º, Lei 8.080/90).** Vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e assistência terapêutica integral, incluindo a farmacêutica.\n\n**Controle social (Lei 8.142/90).** Conferência de Saúde (a cada 4 anos, avalia e propõe diretrizes) e Conselho de Saúde (órgão colegiado permanente e deliberativo; composição paritária: 50% usuários, 25% trabalhadores, 25% gestores e prestadores). O repasse de recursos é condicionado à existência do Conselho.\n\n**Financiamento (LC 141/2012).** União: mínimo de 15% da receita corrente líquida; Estados e DF: 12%; Municípios: 15%. Os valores são depositados nos Fundos de Saúde e aplicados em ações e serviços públicos de saúde (ASPS).\n\n**PNAB (Portaria GM/MS nº 2.436/2017).** Define a atenção básica (primária) como conjunto de ações individuais, familiares e coletivas e porta de entrada preferencial do SUS, ordenadora da Rede de Atenção à Saúde, com a Estratégia Saúde da Família (ESF) como modelo prioritário.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SAUDE-AP",
+    "slug": "saude-ap-vigilancia",
+    "titulo": "Vigilância em Saúde e arboviroses — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Componentes da vigilância em saúde, notificação, arboviroses (dengue, zika, chikungunya e Oropouche) e controle vetorial.",
+    "conteudo": "**Vigilância em saúde.** Integra vigilância sanitária, epidemiológica, ambiental e em saúde do trabalhador, com ações articuladas de prevenção, promoção e controle de riscos e agravos.\n\n**Vigilância epidemiológica.** Conjunto de ações de coleta, análise e disseminação de dados, investigação de casos e surtos e recomendação de medidas de controle. Doenças e agravos de notificação compulsória devem ser informados aos sistemas de informação (SINAN).\n\n**Arboviroses.** Doenças transmitidas por artrópodes vetores. Dengue, zika e chikungunya são transmitidas pelo Aedes aegypti; a febre Oropouche tem como principal vetor o Culicoides paraense (maruim), endêmico na Amazônia.\n\n**Dengue.** Sinais de alarme: dor abdominal intensa e contínua, vômitos persistentes, sangramentos de mucosas, hipotensão e letargia. A dengue grave exige manejo hospitalar; a hidratação adequada é a base do tratamento.\n\n**Chikungunya, zika e Oropouche.** Chikungunya destaca-se por dor articular intensa e prolongada; zika por exantema, prurido e risco de microcefalia e síndrome de Guillain-Barré; Oropouche por febre, cefaleia e mialgia, com surtos recorrentes na Região Norte.\n\n**Prevenção e controle vetorial.** Eliminação de criadouros, manejo integrado de vetores, vigilância entomológica, educação em saúde e mobilização social, além da vacinação quando disponível (ex.: febre amarela na área endêmica amazônica).",
+    "ordem": 3
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-guia",
+    "titulo": "Guia de estudo — SEDUC-AM (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da SEDUC-AM, perfil da FGV e ordem de estudo para Conhecimentos Pedagógicos e Legislação Educacional.",
+    "conteudo": "**O certame.** Secretaria de Estado de Educação e Desporto do Amazonas (SEDUC-AM), banca FGV, para o cargo de professor da rede estadual. Prova objetiva com Conhecimentos Pedagógicos e Legislação Educacional (LDB, Novo Ensino Médio) e fundamentos da educação.\n\n**Perfil da banca.** A FGV cobra interpretação e aplicação, com enunciados que pedem a teoria aplicada ao planejamento pedagógico. Temas recorrentes: Vygotsky, Saviani (histórico-crítica), avaliação (Luckesi e Hoffmann), LDB e Novo Ensino Médio (Lei 14.945/2024) e educação escolar indígena/interculturalidade na Amazônia.\n\n**Estratégia.** 1) LDB e Novo Ensino Médio; 2) tendências pedagógicas e teorias (Vygotsky, Saviani); 3) avaliação da aprendizagem (Luckesi/Hoffmann); 4) temas amazônicos (educação indígena e interculturalidade). Relacione cada teoria a seu autor e método, marca clássica da FGV.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-ldb",
+    "titulo": "LDB (Lei 9.394/1996) e Novo Ensino Médio (Lei 14.945/2024) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios e fins da educação, estrutura da educação básica, incumbências dos entes, Novo Ensino Médio e profissionais da educação.",
+    "conteudo": "**Princípios e fins (arts. 2º e 3º, LDB).** A educação é dever da família e do Estado, inspirada na liberdade e nos ideais de solidariedade. Princípios: igualdade de condições, liberdade de aprender e ensinar, pluralismo de ideias, gratuidade do ensino público, valorização do profissional da educação e gestão democrática.\n\n**Estrutura da educação básica.** Compõe-se de educação infantil, ensino fundamental e ensino médio. Organização em ciclos, séries ou outras formas; carga horária mínima de 800 horas distribuídas em 200 dias letivos.\n\n**Incumbências (arts. 8º a 11).** União: coordena a política nacional, articula os sistemas e presta assistência técnica e financeira. Estados: asseguram o ensino fundamental e oferecem, com prioridade, o ensino médio. Municípios: oferecem a educação infantil e, com prioridade, o ensino fundamental.\n\n**Verificação do rendimento (art. 24).** Avaliação contínua e cumulativa, com prevalência dos aspectos qualitativos; frequência mínima de 75% da carga horária; possibilidade de aceleração e de recuperação (preferencialmente paralela).\n\n**Novo Ensino Médio (Lei 14.945/2024).** Reorganiza o ensino médio em formação geral básica (FGB) e itinerários formativos, com ênfase obrigatória de Língua Portuguesa e Matemática na FGB e ampliação gradual da carga horária mínima; regulamenta o ensino técnico e profissional articulado.\n\n**Profissionais da educação (Título VI) e financiamento.** A formação para a docência na educação básica exige nível superior em licenciatura plena. Valorização por piso salarial, plano de carreira e ingresso por concurso público. O financiamento observa a vinculação constitucional de recursos e o FUNDEB.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SEDUC-AM",
+    "slug": "seduc-am-pedagogicos",
+    "titulo": "Conhecimentos Pedagógicos — tendências, planejamento e avaliação — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Tendências pedagógicas, Saviani, Vygotsky, avaliação (Luckesi/Hoffmann), planejamento de ensino e educação indígena.",
+    "conteudo": "**Tendências pedagógicas.** Tradicional (centralidade no professor e na transmissão), renovada/escolanovista (centralidade no aluno), tecnicista (eficiência e objetivos mensuráveis), libertadora (Paulo Freire — diálogo e conscientização) e histórico-crítica (Saviani — mediação da prática social).\n\n**Pedagogia histórico-crítica (Saviani).** A educação é mediação da prática social. Método: prática social inicial → problematização → instrumentalização → catarse → prática social transformada. O conhecimento é produzido socialmente e transmitido de forma sistemática.\n\n**Teoria histórico-cultural (Vygotsky).** Aprendizagem é mediada por signos e instrumentos na interação social. Zona de Desenvolvimento Proximal (imediato): distância entre o que o aluno faz sozinho e o que faz com ajuda. A aprendizagem impulsiona o desenvolvimento.\n\n**Avaliação da aprendizagem.** Diagnóstica (inicial), formativa (contínua, orienta o processo) e somativa (classificatória). Luckesi defende a avaliação formativa como ato de investigar e qualificar a aprendizagem; Hoffmann propõe a avaliação mediadora, que acompanha, intervém e medeia, em vez de apenas classificar.\n\n**Planejamento de ensino.** Planos de curso, de unidade e de aula. Elementos: objetivos, conteúdos, metodologia, recursos e avaliação. O planejamento articula a prática docente ao projeto político-pedagógico da escola.\n\n**Educação escolar indígena e interculturalidade.** A CF (arts. 210 e 231) e a LDB (arts. 78 e 79) garantem educação escolar bilíngue e intercultural, com valorização das línguas maternas e dos processos próprios de aprendizagem dos povos indígenas — tema central na Amazônia.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-guia",
+    "titulo": "Guia de estudo — SEFAZ-AC (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da SEFAZ do Acre, perfil da FGV e ordem de estudo para Tributário, Constitucional, Administrativo e Português.",
+    "conteudo": "**O certame.** Secretaria de Estado da Fazenda do Acre (SEFAZ-AC), banca FGV, para os cargos de auditor/fiscal de tributos e técnico da área fazendária. Prova objetiva com Direito Tributário, Direito Constitucional, Direito Administrativo e Língua Portuguesa.\n\n**Perfil da banca.** A FGV cobra interpretação e aplicação em casos concretos, com Português de gramática fina (crase, colocação pronominal, conjunções), Tributário centrado no CTN e nas limitações constitucionais, Constitucional nos remédios (habeas data, ação popular, mandado de injunção) e Administrativo em licitações e improbidade.\n\n**Estratégia.** 1) CTN (tributos, competência, obrigação, lançamento e crédito); 2) limitações constitucionais ao poder de tributar; 3) Direito Administrativo; 4) Constitucional e Português. Dominar as limitações (legalidade, anterioridade, imunidades) é decisivo para o cargo fazendário.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-tributario",
+    "titulo": "Direito Tributário — CTN e limitações constitucionais — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Conceito de tributo, espécies, competência, obrigação, lançamento, crédito tributário e limitações ao poder de tributar.",
+    "conteudo": "**Tributo (art. 3º, CTN).** Prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante lançamento. Espécies: impostos, taxas, contribuições de melhoria, empréstimos compulsórios e contribuições.\n\n**Competência tributária (arts. 6º a 8º, CTN).** Indelegável; pode ser delegada apenas a capacidade tributária ativa (cobrança e fiscalização). A competência para instituir cada imposto é fixada pela CF; taxas exigem exercício regular do poder de polícia ou serviço público específico e divisível.\n\n**Obrigação tributária (art. 113).** Principal (pagar tributo) e acessória (fazer/não fazer no interesse da fiscalização). Fato gerador é a situação que dá nascimento à obrigação. Sujeito ativo é o ente competente; passivo é o contribuinte (ou responsável, por substituição, solidariedade ou transferência).\n\n**Lançamento (arts. 142 a 150).** De ofício, por declaração e por homologação (o contribuinte apura e antecipa, cabendo à autoridade homologar). Decadência (5 anos para lançar) e prescrição (5 anos para cobrar) extinguem o crédito.\n\n**Crédito tributário.** Suspensão (moratória, depósito integral, liminar em mandado de segurança, parcelamento); exclusão (isenção e anistia); extinção (pagamento, compensação, transação, remissão, prescrição e decadência).\n\n**Limitações constitucionais (arts. 150 a 152, CF).** Legalidade, isonomia, irretroatividade, anterioridade anual e nonagesimal (noventena — vedada a cobrança antes de 90 dias da publicação da lei que instituiu/aumentou), vedação ao confisco e imunidades (recíproca, templos, partidos e sindicatos, livros/jornais/revistas e papel, entidades de assistência social e educação sem fins lucrativos).",
+    "ordem": 2
+  },
+  {
+    "concurso": "SEFAZ-AC",
+    "slug": "sefax-ac-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos administrativos, poderes, organização da administração, licitações e responsabilidade do Estado.",
+    "conteudo": "**Princípios (art. 37, CF).** Legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE), além de razoabilidade, proporcionalidade, motivação, supremacia e indisponibilidade do interesse público.\n\n**Atos administrativos.** Elementos: competência, finalidade, forma, motivo e objeto. Atributos: presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade. Vinculados e discricionários; anulação (ilegalidade) e revogação (mérito).\n\n**Poderes administrativos.** Hierárquico, disciplinar, regulamentar (normativo), vinculado, discricionário e de polícia. O poder de polícia limita atividades e direitos em favor do interesse público, com autoexecutoriedade e coercibilidade.\n\n**Organização administrativa.** Administração direta (entes políticos) e indireta (autarquias, fundações públicas, empresas públicas e sociedades de economia mista). Agências reguladoras exercem regulação de serviços públicos.\n\n**Licitações e contratos (Lei 14.133/2021).** Modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. Fases do processo licitatório, critérios de julgamento, dispensa e inexigibilidade.\n\n**Improbidade e responsabilidade civil.** Lei de Improbidade Administrativa (8.429/92, alterada pela 14.230/2021) sanciona enriquecimento ilícito, prejuízo ao erário e violação a princípios. Responsabilidade civil do Estado (art. 37, § 6º): objetiva, pela teoria do risco administrativo, com direito de regresso contra o agente em caso de dolo ou culpa.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-guia",
+    "titulo": "Guia de estudo — SEFAZ-PA (banca CEBRASPE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da SEFAZ do Pará, perfil do Cebraspe e ordem de estudo para Tributário (ICMS, Reforma), Administrativo, Constitucional e Português.",
+    "conteudo": "**O certame.** Secretaria de Estado da Fazenda do Pará (SEFAZ-PA), banca Cebraspe, para o cargo de auditor fiscal de receitas estaduais. Provas no formato certo/errado com Direito Tributário, Direito Administrativo, Direito Constitucional e Língua Portuguesa.\n\n**Perfil da banca.** O Cebraspe cobra CTN, ICMS (LC 87/96) e Reforma Tributária (EC 132/2023 — IBS/CBS), além de Administrativo (atos, improbidade) e Português (crase, onde/aonde, concordância do verbo “haver”). Itens com pegadinhas em detalhes; uma errada anula uma certa.\n\n**Estratégia.** 1) CTN e ICMS; 2) Reforma Tributária (IBS/CBS e transição); 3) Direito Administrativo; 4) Constitucional e Português. Priorize a não cumulatividade do ICMS e o desenho do IVA dual da EC 132/2023, temas novos e de alta incidência.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-tributario",
+    "titulo": "Direito Tributário — CTN, ICMS e Reforma Tributária (EC 132/2023) — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Tributo e espécies, competência, ICMS, obrigação e crédito tributário, e a Reforma Tributária (IBS/CBS).",
+    "conteudo": "**Tributo e espécies (arts. 3º e 5º, CTN).** Prestação pecuniária compulsória, não sancionatória, instituída em lei. Impostos não são vinculados a uma atividade estatal específica; taxas decorrem do poder de polícia ou de serviço público específico e divisível; contribuições de melhoria, da valorização imobiliária decorrente de obra pública.\n\n**Competência e limitações.** Legalidade, isonomia, irretroatividade, anterioridade anual e nonagesimal, vedação ao confisco e imunidades constitucionais (art. 150). A noventena veda a cobrança antes de 90 dias da publicação da lei.\n\n**ICMS (art. 155, II, CF e LC 87/96).** Imposto estadual sobre operações relativas à circulação de mercadorias e serviços de transporte interestadual e intermunicipal e de comunicação. Princípios: não cumulatividade (compensa o devido nas operações anteriores) e seletividade (essencialidade). Alíquotas interestaduais fixadas por resolução do Senado.\n\n**Obrigação, lançamento e crédito (CTN).** Fato gerador, sujeito ativo e passivo, responsabilidade tributária. Lançamento de ofício, por declaração e por homologação; decadência e prescrição (5 anos). Suspensão, exclusão e extinção do crédito tributário.\n\n**Reforma Tributária (EC 132/2023).** Institui o IVA dual: o IBS (estadual e municipal), que substitui ICMS e ISS, e a CBS (federal), que substitui PIS e Cofins (e, gradualmente, o IPI). Princípios: não cumulatividade plena, cobrança no destino, transparência e isonomia.\n\n**Transição e mecanismos (EC 132/2023).** Período de transição para os novos tributos, alíquotas de referência definidas por lei, cesta básica nacional com desoneração, devolução personalizada (cashback) a famílias de baixa renda e fundos compensatórios para os entes federados.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SEFAZ-PA",
+    "slug": "sefax-pa-administrativo",
+    "titulo": "Direito Administrativo — resumo de revisão",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios, atos, poderes, organização administrativa, licitações e responsabilidade civil do Estado.",
+    "conteudo": "**Princípios (art. 37, CF).** Legalidade, impessoalidade, moralidade, publicidade e eficiência; acrescidos de razoabilidade, proporcionalidade, motivação e supremacia/indisponibilidade do interesse público.\n\n**Atos administrativos.** Requisitos: competência, finalidade, forma, motivo e objeto. Atributos: presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade. Anulação (ilegalidade, ex tunc), revogação (mérito, ex nunc) e convalidação.\n\n**Poderes administrativos.** Vinculado, discricionário, hierárquico, disciplinar, regulamentar e de polícia. O poder de polícia limita o exercício de direitos em favor do interesse público.\n\n**Organização da administração.** Direta e indireta: autarquias, fundações públicas, empresas públicas e sociedades de economia mista. Criação de autarquias e fundações por lei; das estatais, por lei autorizativa.\n\n**Licitações e contratos (Lei 14.133/2021).** Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo), fases, dispensa e inexigibilidade, e sanções administrativas por inadimplemento contratual.\n\n**Improbidade e responsabilidade civil.** LIA (8.429/92) reprime enriquecimento ilícito, dano ao erário e violação de princípios. Responsabilidade civil do Estado (art. 37, § 6º): objetiva (risco administrativo), assegurado o direito de regresso contra o agente nos casos de dolo ou culpa.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-guia",
+    "titulo": "Guia de estudo — SESACRE (banca CEBRASPE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Secretaria de Saúde do Acre, perfil do Cebraspe e ordem de estudo para SUS e Vigilância.",
+    "conteudo": "**O certame.** Secretaria de Estado de Saúde do Acre (SESACRE), banca Cebraspe, com cargos de nível médio e superior da área da saúde. Prova no formato certo/errado com Saúde Pública/SUS e Vigilância em Saúde.\n\n**Perfil da banca.** O Cebraspe cobra a literalidade da Lei 8.080/90 (princípios), da Lei 8.142/90 (controle social), do Decreto 7.508/2011 (portas de entrada), da LC 141/2012 (financiamento), além de vigilância epidemiológica das endemias amazônicas e biossegurança (NR-32). Uma errada anula uma certa.\n\n**Estratégia.** 1) Lei 8.080/90 e 8.142/90; 2) Decreto 7.508/2011 e financiamento (LC 141/2012); 3) vigilância epidemiológica e endemias amazônicas; 4) biossegurança (NR-32). Atenção aos percentuais de financiamento e à composição do Conselho de Saúde.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-sus",
+    "titulo": "SUS — princípios, organização e financiamento — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios do SUS, controle social, portas de entrada, região de saúde e financiamento (LC 141/2012).",
+    "conteudo": "**Princípios doutrinários.** Universalidade, integralidade e equidade. Igualdade da assistência à saúde, sem preconceitos ou privilégios (art. 7º, IV, Lei 8.080/90).\n\n**Diretrizes organizativas (art. 7º, Lei 8.080/90).** Descentralização político-administrativa com direção única em cada esfera, regionalização e hierarquização da rede, participação da comunidade e resolutividade.\n\n**Controle social (Lei 8.142/90).** Conferência de Saúde (a cada 4 anos, avalia e propõe diretrizes) e Conselho de Saúde (permanente e deliberativo; paridade — 50% usuários, 25% trabalhadores, 25% gestores/prestadores). O repasse de recursos depende da existência do Conselho.\n\n**Portas de entrada (art. 9º, Decreto 7.508/2011).** Serviços de atenção primária, de urgência e emergência, de atenção psicossocial e especiais de acesso aberto.\n\n**Região de Saúde e pactuação (Decreto 7.508/2011).** Região de Saúde reúne ações e serviços mínimos (atenção primária, urgência/emergência, psicossocial, ambulatorial especializada e hospitalar, e vigilância em saúde). Instâncias de pactuação: CIB, CIT e CIR; instrumentos: RENASES, RENAME, COAP e mapa da saúde.\n\n**Financiamento (art. 198, CF e LC 141/2012).** União: mínimo de 15% da receita corrente líquida; Estados e DF: 12%; Municípios: 15%. Recursos depositados no Fundo de Saúde e aplicados em ações e serviços públicos de saúde.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SESACRE",
+    "slug": "sesacre-vigilancia",
+    "titulo": "Saúde Pública e Vigilância — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Vigilância em saúde e epidemiológica, endemias amazônicas, biossegurança (NR-32), imunização e segurança do paciente.",
+    "conteudo": "**Vigilância em saúde.** Integra vigilância sanitária, epidemiológica, ambiental e em saúde do trabalhador, articulando prevenção, promoção e controle de riscos e agravos.\n\n**Vigilância epidemiológica.** Coleta, análise e disseminação de dados; investigação de casos e surtos; notificação compulsória e sistemas de informação (SINAN); medidas de controle e resposta.\n\n**Endemias amazônicas.** Malária (causada por Plasmodium, transmitida por mosquitos Anopheles; diagnóstico por gota espessa; tratamento conforme a espécie). Doença de Chagas aguda (Trypanosoma cruzi; transmissão vetorial e oral; notificação imediata). Ambas exigem vigilância ativa na Região Norte.\n\n**Biossegurança hospitalar (NR-32).** Estabelece medidas de proteção à saúde dos trabalhadores em serviços de saúde: uso de EPI, vacinação ocupacional, manejo seguro de resíduos e perfurocortantes (vedado o reencape de agulhas), com descarte em recipientes rígidos.\n\n**Imunização.** Programa Nacional de Imunizações (PNI) organiza o calendário vacinal nacional. Na Amazônia, destaca-se a vacina contra a febre amarela, indicada à população residente e viajantes para áreas de recomendação.\n\n**Segurança do paciente (Portaria MS 529/2013 e RDC 36/2013).** Metas internacionais e protocolos básicos: identificação do paciente, higienização das mãos, cirurgia segura, segurança na administração de medicamentos, prevenção de quedas e de lesão por pressão.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-guia",
+    "titulo": "Guia de estudo — SESPA-PA (banca CEBRASPE)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Secretaria de Saúde do Pará, perfil do Cebraspe e ordem de estudo para SUS e Vigilância Epidemiológica.",
+    "conteudo": "**O certame.** Secretaria de Estado de Saúde Pública do Pará (SESPA-PA), banca Cebraspe, com cargos de nível médio e superior da saúde. Prova no formato certo/errado com Saúde Pública/SUS e Vigilância Epidemiológica.\n\n**Perfil da banca.** O Cebraspe cobra a organização do SUS (Lei 8.080/90), o controle social (Lei 8.142/90), as portas de entrada (Decreto 7.508/2011), a vigilância epidemiológica das endemias amazônicas e a biossegurança (NR-32). Uma errada anula uma certa; evite o chute.\n\n**Estratégia.** 1) SUS — organização e controle social; 2) vigilância epidemiológica (notificação e indicadores); 3) biossegurança (NR-32); 4) endemias amazônicas (malária e Chagas). Memorize os percentuais do Conselho de Saúde e as portas de entrada.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-sus",
+    "titulo": "SUS — organização e controle social — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Organização do SUS, princípios, controle social, portas de entrada, financiamento e instâncias de pactuação.",
+    "conteudo": "**Organização do SUS (Lei 8.080/90).** Direção única em cada esfera de governo (federal, estadual e municipal), com descentralização das ações e serviços. A União coordena a política nacional; Estados e Municípios executam no âmbito local.\n\n**Princípios e diretrizes (art. 7º, Lei 8.080/90).** Universalidade, integralidade, preservação da autonomia, igualdade da assistência, descentralização, regionalização, hierarquização, participação da comunidade e resolutividade.\n\n**Controle social (Lei 8.142/90).** Conferência de Saúde (a cada 4 anos, avalia e propõe diretrizes) e Conselho de Saúde (órgão colegiado permanente e deliberativo). Composição paritária: 50% usuários, 25% trabalhadores, 25% gestores e prestadores de serviços.\n\n**Portas de entrada (art. 9º, Decreto 7.508/2011).** Serviços de atenção primária, de urgência e emergência, de atenção psicossocial e especiais de acesso aberto.\n\n**Financiamento (LC 141/2012).** União: mínimo de 15% da receita corrente líquida; Estados e DF: 12%; Municípios: 15%. Recursos depositados no Fundo de Saúde e transferidos fundo a fundo.\n\n**Participação e pactuação.** Comissões Intergestores (CIT — tripartite, CIB — bipartite, CIR — regional) pactuam a organização das redes. A participação da comunidade é diretriz constitucional do SUS.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SESPA-PA",
+    "slug": "sespa-pa-vigilancia",
+    "titulo": "Vigilância Epidemiológica — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Funções da vigilância epidemiológica, notificação, indicadores, endemias amazônicas, imunização e biossegurança.",
+    "conteudo": "**Conceito e funções.** Vigilância epidemiológica é o conjunto de ações de coleta, processamento, análise e disseminação de dados, investigação de casos e surtos e recomendação de medidas de prevenção e controle.\n\n**Notificação compulsória.** Doenças e agravos de notificação obrigatória são informados aos sistemas oficiais (SINAN); a periodicidade pode ser imediata ou semanal, conforme a gravidade e o potencial de disseminação.\n\n**Indicadores epidemiológicos.** Incidência (casos novos), prevalência (casos existentes), mortalidade e letalidade. Endemia: ocorrência habitual em uma área; epidemia: elevação inesperada; pandemia: epidemia de alcance mundial; surto: elevação localizada e restrita no tempo.\n\n**Arboviroses e endemias amazônicas.** Dengue, zika, chikungunya e Oropouche (arboviroses de notificação compulsória), além de malária e doença de Chagas aguda, com ciclos de transmissão vetorial que exigem vigilância ativa na Região Norte.\n\n**Imunização e controle.** O PNI define o calendário vacinal; a vacinação de bloqueio e o controle vetorial são medidas essenciais no enfrentamento de surtos e endemias.\n\n**Biossegurança (NR-32).** Uso de EPI, vacinação do trabalhador, manejo e descarte seguro de resíduos e perfurocortantes (proibido reencapar agulhas), reduzindo os riscos biológicos nos serviços de saúde.",
+    "ordem": 3
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-guia",
+    "titulo": "Guia de estudo — SUSAM-AM (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova da Secretaria de Saúde do Amazonas, perfil da FGV e ordem de estudo para SUS e Vigilância em Saúde.",
+    "conteudo": "**O certame.** Secretaria de Estado de Saúde do Amazonas (SUSAM-AM), banca FGV, com cargos de nível médio e superior da área da saúde. Prova objetiva (5 alternativas) com Saúde Pública/SUS e Vigilância em Saúde.\n\n**Perfil da banca.** A FGV cobra interpretação e aplicação, com enunciados que pedem a “afirmativa correta” sobre a Lei 8.080/90, a Lei 8.142/90, o Decreto 7.508/2011, a vigilância epidemiológica das endemias amazônicas e a biossegurança (NR-32). Alternativas com trocas sutis de conceito.\n\n**Estratégia.** 1) Lei 8.080/90 e regionalização (Decreto 7.508/2011); 2) controle social (Lei 8.142/90); 3) vigilância em saúde e endemias amazônicas; 4) biossegurança e segurança do paciente. Leia a lei seca e monte mapas mentais de princípios e competências.",
+    "ordem": 1
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-sus",
+    "titulo": "SUS — Lei 8.080/1990 e regionalização — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Princípios do SUS, diretrizes organizativas, campos de atuação, regionalização, competências, controle social e financiamento.",
+    "conteudo": "**Princípios doutrinários.** Universalidade (acesso de todos), integralidade (ações preventivas e curativas articuladas) e equidade (mais a quem mais necessita). Igualdade da assistência, sem preconceitos (art. 7º, IV, Lei 8.080/90).\n\n**Diretrizes organizativas (art. 7º, Lei 8.080/90).** Descentralização político-administrativa com direção única em cada esfera, regionalização e hierarquização da rede, e participação da comunidade.\n\n**Campos de atuação (art. 6º).** Vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e assistência terapêutica integral, incluindo a farmacêutica.\n\n**Regionalização (Decreto 7.508/2011).** Região de Saúde, redes de atenção à saúde (RAS), mapa da saúde e instrumentos de planejamento (RENASES e RENAME). A regionalização organiza serviços e ações em territórios definidos.\n\n**Competências (arts. 15 a 18, Lei 8.080/90).** União: formula a política nacional, avalia e financia. Estados: coordenam a rede regional e prestam referência. Municípios: executam, prioritariamente, a atenção básica e os serviços de saúde locais.\n\n**Controle social e financiamento.** Conselho e Conferência de Saúde (Lei 8.142/90) asseguram a participação da comunidade. Financiamento (LC 141/2012): União 15% da RCL, Estados 12%, Municípios 15%.",
+    "ordem": 2
+  },
+  {
+    "concurso": "SUSAM-AM",
+    "slug": "susam-am-vigilancia",
+    "titulo": "Vigilância em Saúde — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Componentes da vigilância, vigilância epidemiológica, arboviroses e endemias amazônicas, imunização, biossegurança e segurança do paciente.",
+    "conteudo": "**Conceito e componentes.** Vigilância em saúde integra vigilância sanitária, epidemiológica, ambiental e em saúde do trabalhador, com ações articuladas no território.\n\n**Vigilância epidemiológica.** Coleta e análise de dados, notificação compulsória, investigação de casos e surtos e recomendação de medidas de prevenção e controle, com registro no SINAN.\n\n**Arboviroses e endemias amazônicas.** Dengue, zika, chikungunya e febre Oropouche (transmitida pelo Culicoides paraense), além de malária (Anopheles) e doença de Chagas aguda (Trypanosoma cruzi), todas de notificação compulsória na Região Norte.\n\n**Imunização (PNI).** Calendário vacinal nacional, campanhas e vacinação em áreas endêmicas (ex.: febre amarela na Amazônia). A cobertura vacinal é indicador-chave da vigilância.\n\n**Biossegurança (NR-32).** Proteção dos trabalhadores de saúde: EPI, vacinação ocupacional, manejo de resíduos e perfurocortantes (proibido reencapar agulhas), prevenção de acidentes biológicos.\n\n**Segurança do paciente (Portaria MS 529/2013 e RDC 36/2013).** Protocolos básicos (identificação, higienização das mãos, cirurgia segura, medicamentos), metas internacionais e notificação de eventos adversos.",
+    "ordem": 3
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-guia",
+    "titulo": "Guia de estudo — TJ-AP (banca FGV)",
+    "categoria": "OUTRO",
+    "fonte": "Guia de estudo do QB Concurso",
+    "resumo": "Estrutura da prova do Tribunal de Justiça do Amapá, perfil da FGV e ordem de estudo para Constitucional e Previdenciário (RPPS).",
+    "conteudo": "**O certame.** Tribunal de Justiça do Estado do Amapá (TJ-AP), banca FGV, para os cargos de analista e técnico judiciário. Prova objetiva com Direito Constitucional e Direito Previdenciário (RPPS), com forte presença de temas de controle de constitucionalidade e organização do Judiciário.\n\n**Perfil da banca.** A FGV cobra interpretação e doutrina consolidada: controle concentrado estadual (art. 125, § 2º), repercussão geral (art. 102, § 3º), Defensoria Pública (EC 80/2014), RPPS (aposentadoria compulsória, acumulação, contagem recíproca) e jurisprudência do STF. Alternativas com pegadinhas em quóruns e requisitos.\n\n**Estratégia.** 1) Controle de constitucionalidade (difuso e concentrado); 2) RPPS e EC 103/2019; 3) organização do Judiciário (arts. 92 a 126); 4) funções essenciais à Justiça (MP e Defensoria). Domine os quóruns do STF e as regras da EC 103/2019.",
+    "ordem": 1
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-constitucional",
+    "titulo": "Direito Constitucional — controle de constitucionalidade e art. 125 — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Controle difuso e concentrado, controle estadual, repercussão geral, organização do Judiciário e funções essenciais à Justiça.",
+    "conteudo": "**Controle de constitucionalidade.** Difuso (concreto): qualquer juiz ou tribunal afasta a norma no caso, com efeito inter partes; concentrado (abstrato): controle da norma em tese, com efeito erga omnes e vinculante, pelas ações ADI, ADC, ADPF e ADO no STF.\n\n**Controle concentrado estadual (art. 125, § 2º, CF).** Os Estados podem instituir representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição Estadual, vedada a atribuição de legitimação para agir a um único órgão.\n\n**Repercussão geral (art. 102, § 3º, CF).** Requisito de admissibilidade do recurso extraordinário: o recorrente deve demonstrar a relevância econômica, política, social ou jurídica da questão. O reconhecimento exige dois terços dos membros do STF.\n\n**Organização do Poder Judiciário (arts. 92 a 126).** Órgãos: STF, CNJ, STJ, Tribunais Regionais Federais e Juízes Federais, Tribunais e Juízes do Trabalho, Eleitorais, Militares e dos Estados/DF. O art. 125 dispõe sobre a organização da Justiça Estadual.\n\n**Garantias e vedações da magistratura (art. 95).** Vitaliciedade, inamovibilidade e irredutibilidade de subsídio. Vedações: exercício de outro cargo ou função (salvo magistério), atividade político-partidária, etc.\n\n**Funções essenciais à Justiça.** Ministério Público (art. 127): defesa da ordem jurídica e dos interesses sociais e individuais indisponíveis. Defensoria Pública (art. 134; EC 80/2014): assistência jurídica aos necessitados, com autonomia funcional, administrativa e orçamentária, e princípios institucionais de unidade, indivisibilidade e independência funcional.",
+    "ordem": 2
+  },
+  {
+    "concurso": "TJ-AP",
+    "slug": "tj-ap-previdenciario",
+    "titulo": "Direito Previdenciário — RPPS — resumo",
+    "categoria": "OUTRO",
+    "fonte": "Resumo do QB Concurso (não é norma)",
+    "resumo": "Regime Próprio, aposentadorias, EC 103/2019, acumulação de benefícios, contagem recíproca e jurisprudência.",
+    "conteudo": "**RPPS (art. 40, CF).** Regime contributivo e solidário, exclusivo dos titulares de cargo efetivo. Comissionados, temporários e empregados públicos vinculam-se ao RGPS (§ 13). Vedadas a contagem de tempo fictício (§ 10) e mais de uma unidade gestora por ente (§ 20).\n\n**Aposentadorias (art. 40).** Por incapacidade permanente (proventos proporcionais e avaliações periódicas); compulsória aos 75 anos (proventos proporcionais ao tempo de contribuição); e voluntária (idade e tempo de contribuição, conforme lei complementar do ente).\n\n**EC 103/2019.** Idades mínimas e tempo mínimo para aposentadoria voluntária, regras de transição e cálculo pela média de todas as remunerações de contribuição. Pensão por morte (art. 23): cota familiar de 50% + 10% por dependente, até 100%.\n\n**Acumulação de benefícios (art. 24 da EC 103/2019).** Vedada mais de uma pensão por morte no mesmo regime (ressalvadas as do mesmo instituidor por cargos acumuláveis). Pensão + aposentadoria: 100% do benefício mais vantajoso + parcela escalonada do outro (100% até 1 SM; 60% de 1 a 2 SM; 40% de 2 a 3 SM; 20% de 3 a 4 SM; 10% acima de 4 SM).\n\n**Contagem recíproca e compensação financeira (art. 201, § 9º, CF; Lei 9.796/99).** O tempo de contribuição no RGPS e no RPPS conta-se reciprocamente, com compensação financeira entre os regimes, vedada a contagem de tempo fictício.\n\n**Jurisprudência.** SV 33: as regras do RGPS sobre aposentadoria especial aplicam-se ao servidor público até a edição de lei complementar específica. Contribuição previdenciária pode incidir sobre proventos que superem o teto do RGPS (art. 149, § 1º-A, CF; ADI 3.105/DF).",
+    "ordem": 3
   }
 ]
