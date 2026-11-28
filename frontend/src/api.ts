@@ -54,10 +54,10 @@ async function getBlob(url: string, fallback: string): Promise<Blob> {
   return response.blob()
 }
 
-async function post<T>(url: string, body: unknown): Promise<T> {
+async function enviar<T>(url: string, metodo: 'POST' | 'PUT', body: unknown): Promise<T> {
   const token = localStorage.getItem('qb_token')
   const response = await fetch(`${BASE}${url}`, {
-    method: 'POST',
+    method: metodo,
     headers: {
       'Content-Type': 'application/json',
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
@@ -66,9 +66,18 @@ async function post<T>(url: string, body: unknown): Promise<T> {
   })
   if (!response.ok) {
     const erro = (await response.json().catch(() => null)) as { message?: string } | null
-    throw new Error(erro?.message ?? 'Erro ao enviar a resposta')
+    // Mantém o status para a UI distinguir, por exemplo, 403 do tutor (upgrade) de falha de rede.
+    throw new ApiError(response.status, erro?.message ?? 'Erro ao enviar a resposta')
   }
   return response.json() as Promise<T>
+}
+
+function post<T>(url: string, body: unknown): Promise<T> {
+  return enviar<T>(url, 'POST', body)
+}
+
+function put<T>(url: string, body: unknown): Promise<T> {
+  return enviar<T>(url, 'PUT', body)
 }
 
 function qs(params: Record<string, string | number | undefined>): string {
@@ -203,24 +212,44 @@ export interface Evolucao {
 
 
 export interface Plano {
-  id: number
+  /** Ausente no contrato novo de `/planos`; mantido opcional para compatibilidade. */
+  id?: number
   codigo: string
   nome: string
   valorCentavos: number
   ciclo: string | null
+  /** FREE: limite diário; -1 = ilimitado nos planos pagos. */
   limiteDiarioQuestoes: number
-  ilimitado: boolean
-  pago: boolean
+  /** Campos do contrato de escopo por certame (backend pode ainda não expor). */
+  certamesMaximos?: number
+  tutorIa?: boolean
+  /** -1 = ilimitado. */
+  cotaTutorDiaria?: number
+  ilimitado?: boolean
+  pago?: boolean
+}
+
+export interface TutorUso {
+  usado: number
+  /** -1 = ilimitado. */
+  cota: number
 }
 
 export interface AssinaturaAtual {
   status: string
   plano: Plano
   periodoFim: string | null
-  cancelaNoFim: boolean
-  carenciaFim: string | null
-  liberaPro: boolean
-  pagamentoConfigurado: boolean
+  /** Campos legados — o contrato novo não os exige. */
+  cancelaNoFim?: boolean
+  carenciaFim?: string | null
+  liberaPro?: boolean
+  pagamentoConfigurado?: boolean
+  /** Certames contratados; vazio/ausente = sem escopo (FREE). */
+  certames?: string[]
+  /** Quando ausente, a UI deriva do plano para não bloquear um Plus legado. */
+  tutorIa?: boolean
+  tutorUso?: TutorUso
+  podeTrocarCertame?: boolean
 }
 
 export interface UsoPlano {
@@ -248,18 +277,6 @@ export interface AdminAssinatura {
   periodoFim: string | null
   liberaPro: boolean
 }
-
-export interface DadosCheckout {
-  plano: string
-  /** Opcionais: o Mercado Pago so' precisa do e-mail da conta. */
-  cpfCnpj?: string
-  telefone?: string
-  cep?: string
-  endereco?: string
-  numero?: string
-  bairro?: string
-}
-
 
 export interface MateriaResumo {
   materia: string
@@ -296,7 +313,12 @@ export const api = {
   planos: () => get<Plano[]>('/planos'),
   assinatura: () => get<AssinaturaAtual>('/assinatura'),
   usoPlano: () => get<UsoPlano>('/assinatura/uso'),
-  iniciarCheckout: (dados: DadosCheckout) => post<{ url: string }>('/assinatura/checkout', dados),
+  /** Checkout do plano com os certames escolhidos (Básico 1, Plus até 3). */
+  iniciarCheckout: (plano: string, certames: string[]) =>
+    post<{ url: string }>('/assinatura/checkout', { plano, certames }),
+  /** Troca os certames da assinatura; o backend limita a 1 troca por ciclo. */
+  trocarCertames: (certames: string[]) =>
+    put<{ ok: boolean }>('/assinatura/certames', { certames }),
 
   adminUsuarios: (busca?: string) =>
     get<AdminUsuario[]>(`/admin/usuarios${busca ? `?q=${encodeURIComponent(busca)}` : ''}`),
@@ -332,7 +354,9 @@ export const api = {
   usuario: () => get<Usuario>('/usuario'),
 
   bancas: () => get<Banca[]>('/bancas'),
-  concursos: () => get<Concurso[]>('/concursos'),
+  /** Sem argumento = escopado ao plano (filtros). `catalogo` = lista completa para o checkout. */
+  concursos: (catalogo = false) =>
+    get<Concurso[]>(`/concursos${catalogo ? '?catalogo=true' : ''}`),
   topicos: (banca?: string, concurso?: string) =>
     get<Topico[]>(`/topicos${qs({ banca, concurso })}`),
   questoes: (banca?: string, concurso?: string, materia?: string, assunto?: string, quantidade = 10) =>

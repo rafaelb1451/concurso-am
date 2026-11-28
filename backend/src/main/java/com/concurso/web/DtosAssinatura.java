@@ -15,6 +15,9 @@ public final class DtosAssinatura {
             String nome,
             int valorCentavos,
             String ciclo,
+            int certamesMaximos,
+            boolean tutorIa,
+            int cotaTutorDiaria,
             int limiteDiarioQuestoes,
             boolean ilimitado,
             boolean pago
@@ -24,6 +27,8 @@ public final class DtosAssinatura {
     public record CheckoutRequest(
             @jakarta.validation.constraints.NotBlank(message = "informe o plano")
             String plano,
+            @jakarta.validation.constraints.NotEmpty(message = "escolha ao menos 1 certame")
+            List<String> certames,
             // Opcionais: o Mercado Pago so' precisa do e-mail da conta. Mantidos para o
             // AsaasGateway (implementacao alternativa), que exige os dados do cliente.
             String cpfCnpj,
@@ -35,7 +40,16 @@ public final class DtosAssinatura {
     ) {
     }
 
+    public record CertamesRequest(
+            @jakarta.validation.constraints.NotEmpty(message = "escolha ao menos 1 certame")
+            List<String> certames
+    ) {
+    }
+
     public record CheckoutView(String url) {
+    }
+
+    public record TutorUsoView(int usado, int cota) {
     }
 
     public record AssinaturaView(
@@ -45,7 +59,11 @@ public final class DtosAssinatura {
             boolean cancelaNoFim,
             Instant carenciaFim,
             boolean liberaPro,
-            boolean pagamentoConfigurado
+            boolean pagamentoConfigurado,
+            List<String> certames,
+            boolean tutorIa,
+            TutorUsoView tutorUso,
+            boolean podeTrocarCertame
     ) {
     }
 
@@ -63,6 +81,12 @@ public final class DtosAssinatura {
 
     public static PlanoView view(com.concurso.domain.Plano p) {
         return new PlanoView(p.getId(), p.getCodigo(), p.getNome(), p.getValorCentavos(),
-                p.getCiclo(), p.getLimiteDiarioQuestoes(), p.ilimitado(), p.pago());
+                p.getCiclo(), p.getCertamesMaximos(), p.isTutorIa(), p.getCotaTutorDiaria(),
+                p.getLimiteDiarioQuestoes(), p.ilimitado(), p.pago());
+    }
+
+    public static TutorUsoView tutorUso(com.concurso.domain.Plano plano, int usado) {
+        int cota = plano.getCotaTutorDiaria();
+        return new TutorUsoView(usado, cota);
     }
 }

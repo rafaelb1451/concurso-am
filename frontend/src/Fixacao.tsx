@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { BookOpen, PencilLine, Send, Sparkles } from 'lucide-react'
+import { BookOpen, Lock, PencilLine, Send, Sparkles } from 'lucide-react'
 import {
   api,
   type Answer,
@@ -7,6 +7,7 @@ import {
   type ContextoQuestao,
   type Question,
   type Topico,
+  type TutorUso,
 } from './api'
 import Rascunho from './Rascunho'
 import { Card, ErrorBanner, PageHeader } from './ui'
@@ -25,7 +26,21 @@ const SUGESTOES = [
  * Aba de fixação: treino focado por matéria com o tutor ao lado.
  * O chat recebe o contexto da questão atual, então a resposta é sobre ELA — não genérica.
  */
-export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string; concurso: string }) {
+export default function Fixacao({
+  banca = 'TODAS',
+  concurso,
+  tutorIa,
+  tutorUso = null,
+  onConhecerPlus,
+}: {
+  banca?: string
+  concurso: string
+  /** `false` bloqueia o tutor; `undefined` mantém o comportamento legado (só checa a chave). */
+  tutorIa?: boolean
+  tutorUso?: TutorUso | null
+  onConhecerPlus?: () => void
+}) {
+  const tutorLiberado = tutorIa !== false
   const [topicos, setTopicos] = useState<Topico[]>([])
   const [materia, setMateria] = useState('')
   const [fila, setFila] = useState<Question[]>([])
@@ -46,8 +61,12 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
 
   useEffect(() => {
     api.topicos(banca, concurso).then(setTopicos).catch(() => setErro('Servidor indisponível. Recarregue e tente de novo.'))
+    if (!tutorLiberado) {
+      setConfigurado(false)
+      return
+    }
     api.configDeepseek().then((c) => setConfigurado(c.configurado)).catch(() => setConfigurado(false))
-  }, [banca, concurso])
+  }, [banca, concurso, tutorLiberado])
 
   useEffect(() => {
     if (mensagens.length === 0 && !pensando) return
@@ -125,6 +144,7 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
   }
 
   async function perguntar(texto?: string) {
+    if (!tutorLiberado) return
     const conteudo = (texto ?? pergunta).trim()
     if (!conteudo || pensando) return
     const novas: ChatMensagem[] = [...mensagens, { role: 'user', content: conteudo }]
@@ -161,10 +181,20 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
         title="Fixação"
         description="Resolva questões da matéria e peça ajuda ao tutor ao lado, a qualquer momento."
         actions={
-          <span className="qb-chip bg-accent-100 text-accent-800">
-            <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-            tutor de IA
-          </span>
+          tutorLiberado ? (
+            <span className="qb-chip bg-accent-100 text-accent-800">
+              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+              tutor de IA
+            </span>
+          ) : (
+            <span
+              className="qb-chip bg-ink-100 text-ink-600"
+              title="O Tutor de IA está disponível no plano Plus."
+            >
+              <Lock className="h-3.5 w-3.5" aria-hidden="true" />
+              tutor no Plus
+            </span>
+          )
         }
       />
 
@@ -317,13 +347,70 @@ export default function Fixacao({ banca = 'TODAS', concurso }: { banca?: string;
         <aside className="flex h-[520px] min-w-0 flex-col overflow-hidden rounded-[16px] border border-ink-200 bg-surface shadow-card lg:sticky lg:top-28 lg:h-[640px]">
           <div className="border-b border-ink-100 px-4 py-3">
             <div className="flex items-center gap-2">
-              <Sparkles className="h-4 w-4 text-accent-700" aria-hidden="true" />
+              {tutorLiberado ? (
+                <Sparkles className="h-4 w-4 text-accent-700" aria-hidden="true" />
+              ) : (
+                <Lock className="h-4 w-4 text-ink-400" aria-hidden="true" />
+              )}
               <h3 className="text-sm font-bold text-ink-900">Tutor</h3>
             </div>
-            <p className="mt-0.5 text-[11px] text-ink-500">Ele vê a questão que você está resolvendo.</p>
+            <p className="mt-0.5 text-[11px] text-ink-500">
+              {!tutorLiberado
+                ? 'Disponível no plano Plus.'
+                : tutorUso && tutorUso.cota > 0
+                  ? `Ele vê a questão que você está resolvendo · hoje: ${tutorUso.usado}/${tutorUso.cota}.`
+                  : 'Ele vê a questão que você está resolvendo.'}
+            </p>
           </div>
 
-          {configurado === false ? (
+          {!tutorLiberado ? (
+            <>
+              <div className="flex flex-1 flex-col justify-center gap-3 p-4">
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ink-100 text-ink-500">
+                  <Lock className="h-5 w-5" aria-hidden="true" />
+                </span>
+                <h4 className="text-sm font-bold text-ink-900">Tutor de IA exclusivo do Plus</h4>
+                <p className="text-sm leading-relaxed text-ink-600">
+                  No Básico você estuda as questões e os materiais do certame contratado. O tutor
+                  que explica cada resposta está disponível no Plus.
+                </p>
+                <button
+                  type="button"
+                  onClick={onConhecerPlus}
+                  disabled={!onConhecerPlus}
+                  className="qb-btn-accent w-full"
+                >
+                  <Sparkles className="h-4 w-4" aria-hidden="true" />
+                  Conheça o Plus
+                </button>
+              </div>
+              <div className="border-t border-ink-100 p-3">
+                <label htmlFor="tutor-pergunta-bloqueado" className="sr-only">
+                  Pergunta ao tutor (bloqueada no plano atual)
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    id="tutor-pergunta-bloqueado"
+                    disabled
+                    placeholder="Disponível no Plus"
+                    title="Assine o Plus para conversar com o Tutor de IA."
+                    className="qb-input min-w-0 flex-1"
+                  />
+                  <button
+                    type="button"
+                    disabled
+                    aria-label="Enviar pergunta"
+                    className="qb-btn min-h-11 w-11 shrink-0 px-0"
+                  >
+                    <Send className="h-4 w-4" aria-hidden="true" />
+                  </button>
+                </div>
+                <p className="mt-1 text-[11px] text-ink-500">
+                  O botão de enviar fica desabilitado enquanto o tutor não está no plano.
+                </p>
+              </div>
+            </>
+          ) : configurado === false ? (
             <div className="flex flex-1 flex-col justify-center gap-3 p-4">
               <p className="text-sm leading-relaxed text-ink-600">
                 Cole a sua chave da DeepSeek. Ela fica gravada no servidor e não vai para o

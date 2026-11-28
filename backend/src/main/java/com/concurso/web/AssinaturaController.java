@@ -2,6 +2,7 @@ package com.concurso.web;
 
 import com.concurso.domain.Assinatura;
 import com.concurso.domain.Plano;
+import com.concurso.domain.StatusAssinatura;
 import com.concurso.domain.Usuario;
 import com.concurso.integration.payment.PaymentGateway;
 import com.concurso.repo.PlanoRepository;
@@ -10,9 +11,11 @@ import com.concurso.service.AcessoService;
 import com.concurso.service.RateLimiter;
 import com.concurso.service.AssinaturaService;
 import com.concurso.service.AuthException;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -49,12 +52,16 @@ public class AssinaturaController {
         return DtosAssinatura.planos(planos.findByAtivoTrueOrderByValorCentavosAsc());
     }
 
-    /** Plano efetivo do aluno + uso do dia (alimenta a barra de limite do FREE). */
+    /** Plano efetivo do aluno + uso do dia (alimenta a barra de limite do FREE e o painel). */
     @GetMapping("/assinatura")
     public DtosAssinatura.AssinaturaView minha(
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
         Assinatura atual = assinaturas.assinaturaAtual(usuarioId).orElse(null);
         Plano plano = acesso.planoDe(usuarioId);
+        // Checkout PENDENTE ainda nao libera conteudo, mas a escolha ja pode ser exibida no painel.
+        List<String> certames = atual != null && atual.getStatus() == StatusAssinatura.PENDENTE
+                ? acesso.certamesDaAssinatura(atual.getId()).stream().sorted().toList()
+                : acesso.certamesDe(usuarioId).stream().sorted().toList();
         return new DtosAssinatura.AssinaturaView(
                 atual == null ? "SEM_ASSINATURA" : atual.getStatus().name(),
                 DtosAssinatura.view(plano),
@@ -62,7 +69,11 @@ public class AssinaturaController {
                 atual != null && atual.isCancelaNoFim(),
                 atual == null ? null : atual.getCarenciaFim(),
                 atual != null && atual.liberaPro(),
-                assinaturas.pagamentoConfigurado());
+                assinaturas.pagamentoConfigurado(),
+                certames,
+                plano.isTutorIa(),
+                DtosAssinatura.tutorUso(plano, acesso.usadoTutorHoje(usuarioId)),
+                acesso.podeTrocarCertame(usuarioId));
     }
 
     @GetMapping("/assinatura/uso")
@@ -87,7 +98,7 @@ public class AssinaturaController {
         Usuario usuario = usuarios.findById(usuarioId)
                 .orElseThrow(() -> new IllegalStateException("Usuario nao encontrado."));
 
-        String url = assinaturas.iniciarCheckout(usuarioId, plano.getId(),
+        String url = assinaturas.iniciarCheckout(usuarioId, plano.getId(), request.certames(),
                 new PaymentGateway.DadosCliente(
                         usuario.getNome(),
                         usuario.getEmail(),
@@ -98,6 +109,21 @@ public class AssinaturaController {
                         request.numero(),
                         request.bairro()));
         return new DtosAssinatura.CheckoutView(url);
+    }
+
+    /**
+     * Troca os certames contratados. Uma troca por ciclo (auditada); a regra de quantidade
+     * (exatamente 1 no Básico, 1..3 no Plus) é validada no servidor.
+     */
+    @PutMapping("/assinatura/certames")
+    public Map<String, Object> trocarCertames(
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId,
+            @Valid @RequestBody DtosAssinatura.CertamesRequest request,
+            HttpServletRequest requisicao) {
+        limiter.exigir("troca-certames:" + usuarioId, 5);
+        List<String> novos = acesso.trocarCertames(usuarioId, request.certames(),
+                ClienteIp.de(requisicao));
+        return Map.of("ok", true, "certames", novos);
     }
 
     /** Cancela a renovação; o acesso continua até o fim do período já pago. */

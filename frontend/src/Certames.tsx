@@ -7,6 +7,7 @@ import {
   FileText,
   LibraryBig,
   LoaderCircle,
+  Lock,
   Network,
   Trophy,
 } from 'lucide-react'
@@ -134,12 +135,17 @@ export default function Certames({
   concursos,
   carregandoConcursos = false,
   concursosIndisponiveis = false,
+  certamesContratados = [],
+  onConhecerPlus,
   onEstudar,
   onSimular,
 }: {
   concursos: Concurso[]
   carregandoConcursos?: boolean
   concursosIndisponiveis?: boolean
+  /** Vazio = FREE/sem escopo: mantém o comportamento anterior (todos visíveis). */
+  certamesContratados?: string[]
+  onConhecerPlus?: () => void
   onEstudar: (concurso: string, extra?: { materia?: string; assunto?: string }) => void
   onSimular?: (concurso: string) => void
 }) {
@@ -168,18 +174,28 @@ export default function Certames({
     () => concursos.filter((concurso) => concurso.id !== 'TODOS'),
     [concursos],
   )
+  const escopo = useMemo(() => new Set(certamesContratados), [certamesContratados])
+  const escopoAtivo = escopo.size > 0
+  const disponiveis = useMemo(
+    () => (escopoAtivo ? certames.filter((concurso) => escopo.has(concurso.id)) : certames),
+    [certames, escopo, escopoAtivo],
+  )
+  const bloqueados = useMemo(
+    () => (escopoAtivo ? certames.filter((concurso) => !escopo.has(concurso.id)) : []),
+    [certames, escopo, escopoAtivo],
+  )
 
   // Conta os materiais de cada certame em paralelo; 404 = "ainda sem materiais".
   useEffect(() => {
     let ativo = true
-    if (certames.length === 0) {
+    if (disponiveis.length === 0) {
       setContagens({})
       return () => {
         ativo = false
       }
     }
     void Promise.all(
-      certames.map(async (concurso) => {
+      disponiveis.map(async (concurso) => {
         try {
           const lista = await api.materiais(concurso.id)
           return [concurso.id, lista.length] as const
@@ -193,7 +209,7 @@ export default function Certames({
     return () => {
       ativo = false
     }
-  }, [certames])
+  }, [disponiveis])
 
   async function abrirCertame(id: string) {
     setSelecionado(id)
@@ -485,7 +501,7 @@ export default function Certames({
 
   // ----------------------------------------------------------- detalhe do certame
   if (selecionado) {
-    const dados = certames.find((concurso) => concurso.id === selecionado)
+    const dados = disponiveis.find((concurso) => concurso.id === selecionado)
     const quantidade = contagens[selecionado]
     return (
       <div className="space-y-4">
@@ -617,7 +633,7 @@ export default function Certames({
         actions={
           <span className="qb-chip bg-brand-50 text-brand-800 ring-1 ring-inset ring-brand-200">
             <Trophy className="h-3.5 w-3.5" aria-hidden="true" />
-            {certames.length} {certames.length === 1 ? 'certame' : 'certames'}
+            {disponiveis.length} {disponiveis.length === 1 ? 'certame' : 'certames'}
           </span>
         }
       />
@@ -632,16 +648,31 @@ export default function Certames({
         />
       ) : null}
 
-      {!carregandoConcursos && !concursosIndisponiveis && certames.length === 0 ? (
+      {!carregandoConcursos && !concursosIndisponiveis && disponiveis.length === 0 ? (
         <EmptyState
-          icon={LibraryBig}
-          title="Nenhum certame cadastrado ainda."
-          description="Assim que um novo concurso entrar no banco, ele aparece aqui automaticamente."
+          icon={escopoAtivo ? Lock : LibraryBig}
+          title={
+            escopoAtivo
+              ? 'Nenhum certame contratado aparece na lista.'
+              : 'Nenhum certame cadastrado ainda.'
+          }
+          description={
+            escopoAtivo
+              ? 'Os certames fora do seu plano ficam bloqueados. Conheça o Plus para ampliar o escopo.'
+              : 'Assim que um novo concurso entrar no banco, ele aparece aqui automaticamente.'
+          }
+          action={
+            escopoAtivo && onConhecerPlus ? (
+              <button type="button" onClick={onConhecerPlus} className="qb-btn">
+                Conheça o Plus
+              </button>
+            ) : undefined
+          }
         />
       ) : null}
 
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-        {certames.map((concurso) => {
+        {disponiveis.map((concurso) => {
           const quantidade = contagens[concurso.id]
           return (
             <button
@@ -686,6 +717,72 @@ export default function Certames({
           )
         })}
       </div>
+
+      {bloqueados.length > 0 ? (
+        <section aria-labelledby="certames-fora-do-plano" className="space-y-2 pt-2">
+          <div>
+            <h2
+              id="certames-fora-do-plano"
+              className="qb-section-title inline-flex items-center gap-2"
+            >
+              <Lock className="h-4 w-4 text-ink-500" aria-hidden="true" />
+              Fora do seu plano
+            </h2>
+            <p className="mt-1 max-w-2xl text-sm leading-relaxed text-ink-600">
+              Estes certames não entram no escopo contratado. Conheça o Plus para ampliar o acesso.
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+            {bloqueados.map((concurso) => (
+              <article
+                key={concurso.id}
+                aria-disabled="true"
+                title={`${concurso.id} está fora do seu plano. Conheça o Plus para liberar este certame.`}
+                className="qb-card flex flex-col border-dashed p-5 opacity-80"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-ink-500">
+                      Certame bloqueado
+                    </p>
+                    <h3 className="mt-1 break-words text-lg font-bold tracking-tight text-ink-700">
+                      {concurso.id}
+                    </h3>
+                  </div>
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ink-100 text-ink-500">
+                    <Lock className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                </div>
+
+                <div className="mt-4 flex items-end justify-between gap-3">
+                  <div>
+                    <p className="text-2xl font-bold leading-none text-ink-600">{concurso.total}</p>
+                    <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.08em] text-ink-500">
+                      questões
+                    </p>
+                  </div>
+                  <p className="text-[11px] font-semibold text-ink-500">fora do seu plano</p>
+                </div>
+
+                <p className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-ink-500">
+                  <Lock className="h-3.5 w-3.5" aria-hidden="true" />
+                  Bloqueado no seu plano
+                </p>
+                {onConhecerPlus ? (
+                  <button
+                    type="button"
+                    onClick={onConhecerPlus}
+                    className="qb-btn-ghost mt-3 w-full"
+                  >
+                    Conheça o Plus
+                  </button>
+                ) : null}
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
     </div>
   )
 }

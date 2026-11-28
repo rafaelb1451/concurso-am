@@ -12,7 +12,7 @@ export default function Admin() {
   const [planos, setPlanos] = useState<Plano[]>([])
   const [busca, setBusca] = useState('')
   const [email, setEmail] = useState('')
-  const [plano, setPlano] = useState('PRO_MENSAL')
+  const [plano, setPlano] = useState('')
   const [dias, setDias] = useState(30)
   const [carregando, setCarregando] = useState(true)
   const [enviando, setEnviando] = useState(false)
@@ -25,7 +25,11 @@ export default function Admin() {
     try {
       const [lista, catalogo] = await Promise.all([api.adminUsuarios(filtro), api.planos()])
       setUsuarios(lista)
-      setPlanos(catalogo.filter((p) => p.pago))
+      const pagos = catalogo.filter((p) => p.pago ?? p.codigo !== 'FREE')
+      setPlanos(pagos)
+      setPlano((atual) =>
+        pagos.some((p) => p.codigo === atual) ? atual : (pagos[0]?.codigo ?? ''),
+      )
     } catch (e) {
       setErro(e instanceof Error ? e.message : 'Não foi possível carregar o painel.')
     } finally {
@@ -143,7 +147,7 @@ export default function Admin() {
           <button
             type="button"
             onClick={() => void conceder()}
-            disabled={enviando || !email.trim()}
+            disabled={enviando || !email.trim() || !plano}
             className="qb-btn w-full disabled:opacity-50 lg:w-auto lg:px-6"
           >
             Conceder

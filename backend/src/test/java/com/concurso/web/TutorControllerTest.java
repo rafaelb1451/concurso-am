@@ -1,9 +1,16 @@
 package com.concurso.web;
 
-import com.concurso.service.DeepSeekService;
+import com.concurso.domain.Assinatura;
+import com.concurso.domain.AssinaturaCertame;
+import com.concurso.domain.Plano;
+import com.concurso.domain.StatusAssinatura;
 import com.concurso.domain.Usuario;
+import com.concurso.repo.AssinaturaCertameRepository;
+import com.concurso.repo.AssinaturaRepository;
+import com.concurso.repo.PlanoRepository;
 import com.concurso.repo.TutorCacheRepository;
 import com.concurso.repo.UsuarioRepository;
+import com.concurso.service.DeepSeekService;
 import com.concurso.service.SenhaHash;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -53,6 +60,15 @@ class TutorControllerTest {
     @Autowired
     private TutorCacheRepository caches;
 
+    @Autowired
+    private PlanoRepository planos;
+
+    @Autowired
+    private AssinaturaRepository assinaturas;
+
+    @Autowired
+    private AssinaturaCertameRepository certames;
+
     @MockitoBean
     private DeepSeekService tutor;
 
@@ -71,6 +87,7 @@ class TutorControllerTest {
         usuario.setSenhaHash(SenhaHash.gerar("Test123456"));
         usuario.setEmailVerificado(true);
         usuarios.save(usuario);
+        assinarPlus(usuario);
 
         HttpRequest request = HttpRequest.newBuilder(URI.create("http://localhost:" + porta + "/api/login"))
                 .header("Content-Type", "application/json")
@@ -164,6 +181,20 @@ class TutorControllerTest {
         assertEquals(502, resposta.statusCode());
         assertTrue(resposta.body().contains("tutor está indisponível"));
         assertTrue(!resposta.body().contains("provedor do tutor"));
+    }
+
+    /** O contrato do tutor agora exige PLUS ativo; os testes de conversa usam esse plano. */
+    private void assinarPlus(Usuario usuario) {
+        Plano plus = planos.findByCodigo(Plano.PLUS).orElseThrow();
+        Assinatura assinatura = new Assinatura();
+        assinatura.setUsuarioId(usuario.getId());
+        assinatura.setPlanoId(plus.getId());
+        assinatura.setGateway("manual");
+        assinatura.setStatus(StatusAssinatura.ATIVA);
+        assinatura.setPeriodoInicio(java.time.Instant.now());
+        assinatura.setPeriodoFim(java.time.Instant.now().plusSeconds(30L * 24 * 3600));
+        assinaturas.save(assinatura);
+        certames.save(new AssinaturaCertame(assinatura.getId(), "PM-AM"));
     }
 
     private static String chatValido() {

@@ -14,8 +14,9 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 import Logo from './Logo'
+import PlanoBadge from './PlanoBadge'
 import Sheet from './Sheet'
-import type { Desempenho, Usuario } from './api'
+import type { AssinaturaAtual, Desempenho, Usuario } from './api'
 
 export type Aba =
   | 'treino'
@@ -116,12 +117,14 @@ function iniciais(nome: string): string {
 export function AppHeader({
   usuario,
   desempenho,
+  assinatura = null,
   aba,
   onAba,
   onSair,
 }: {
   usuario: Usuario
   desempenho: Desempenho | null
+  assinatura?: AssinaturaAtual | null
   aba: Aba
   onAba: (aba: Aba) => void
   onSair: () => void
@@ -166,6 +169,8 @@ export function AppHeader({
               {desempenho.percentual}%
             </span>
           ) : null}
+
+          <PlanoBadge assinatura={assinatura} className="hidden sm:inline-flex" />
 
           <div className="hidden text-right sm:block">
             <p className="max-w-[13rem] truncate text-xs font-bold text-ink-800">{usuario.nome}</p>
@@ -289,6 +294,7 @@ export function MaisSheet({
   aberto,
   onClose,
   usuario,
+  assinatura = null,
   aba,
   onAba,
   onSair,
@@ -296,6 +302,7 @@ export function MaisSheet({
   aberto: boolean
   onClose: () => void
   usuario: Usuario
+  assinatura?: AssinaturaAtual | null
   aba: Aba
   onAba: (aba: Aba) => void
   onSair: () => void
@@ -329,6 +336,7 @@ export function MaisSheet({
       <div className="border-b border-ink-100 px-4 py-3">
         <p className="text-sm font-bold text-ink-900">{usuario.nome}</p>
         <p className="break-all text-xs text-ink-500">{usuario.email}</p>
+        <PlanoBadge assinatura={assinatura} className="mt-2" />
       </div>
 
       <ul className="space-y-1 p-3">

@@ -43,21 +43,29 @@ public class ApiController {
         this.acesso = acesso;
     }
 
+    /**
+     * Certames para os filtros do app (escopo do plano) ou o catálogo completo
+     * ({@code ?catalogo=true}) usado na seleção de certames do checkout/troca.
+     */
     @GetMapping("/concursos")
-    public List<Dtos.ConcursoView> concursos() {
-        return questoes.concursos();
+    public List<Dtos.ConcursoView> concursos(
+            @RequestParam(defaultValue = "false") boolean catalogo,
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.concursos(usuarioId, catalogo);
     }
 
     /** Bancas distintas do banco, com a contagem de questoes (eixo principal do estudo). */
     @GetMapping("/bancas")
-    public List<Dtos.BancaView> bancas() {
-        return questoes.bancas();
+    public List<Dtos.BancaView> bancas(
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.bancas(usuarioId);
     }
 
     @GetMapping("/topicos")
     public List<Dtos.TopicoView> topicos(@RequestParam(required = false) String concurso,
-                                         @RequestParam(required = false) String banca) {
-        return questoes.topicos(Parametros.concurso(concurso), Parametros.banca(banca));
+                                         @RequestParam(required = false) String banca,
+                                         @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.topicos(usuarioId, Parametros.concurso(concurso), Parametros.banca(banca));
     }
 
     @GetMapping("/questoes")
@@ -65,8 +73,9 @@ public class ApiController {
                                             @RequestParam(required = false) String materia,
                                             @RequestParam(required = false) String assunto,
                                             @RequestParam(required = false) String banca,
-                                            @RequestParam(defaultValue = "10") int quantidade) {
-        return questoes.listar(Parametros.concurso(concurso), Parametros.materia(materia),
+                                            @RequestParam(defaultValue = "10") int quantidade,
+                                            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return questoes.listar(usuarioId, Parametros.concurso(concurso), Parametros.materia(materia),
                 Parametros.assunto(assunto), Parametros.banca(banca), quantidade);
     }
 
@@ -128,10 +137,12 @@ public class ApiController {
 
     /** Monta um simulado com a distribuição de matérias do caderno da banca. */
     @GetMapping("/simulado")
-    public Dtos.SimuladoView simulado(@RequestParam(defaultValue = "PM-AM") String concurso,
+    public Dtos.SimuladoView simulado(@RequestParam(required = false) String concurso,
                                       @RequestParam(required = false) String banca,
-                                      @RequestParam(required = false) Integer quantidade) {
-        return simuladoService.montar(Parametros.concurso(concurso), Parametros.banca(banca), quantidade);
+                                      @RequestParam(required = false) Integer quantidade,
+                                      @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        return simuladoService.montar(usuarioId, Parametros.concurso(concurso),
+                Parametros.banca(banca), quantidade);
     }
 
     /** Corrige o simulado no fim: registra as tentativas e devolve gabaritos e desempenho. */

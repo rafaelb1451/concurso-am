@@ -46,9 +46,15 @@ export default function Inicio({
   }, [tentativaMaterias])
 
   const totalQuestoes = materias.reduce((soma, m) => soma + m.questoes, 0)
-  const pagos = planos.filter((p) => p.pago)
-  const mensal = pagos.find((p) => p.ciclo === 'MENSAL')
-  const anual = pagos.find((p) => p.ciclo === 'ANUAL')
+  const pagos = planos.filter((p) => p.pago ?? p.codigo !== 'FREE')
+  const basico =
+    planos.find((p) => p.codigo === 'BASICO') ??
+    planos.find((p) => p.codigo === 'PRO_MENSAL') ??
+    pagos[0]
+  const plus =
+    planos.find((p) => p.codigo === 'PLUS') ??
+    planos.find((p) => p.codigo === 'PRO_ANUAL') ??
+    pagos[1]
 
   return (
     <div>
@@ -180,7 +186,7 @@ export default function Inicio({
               numero="3"
               icone={<Sparkles className="h-4 w-4" aria-hidden="true" />}
               titulo="Feche a lacuna"
-              texto="Peça ao tutor uma explicação diferente da mesma questão, quantas vezes precisar."
+              texto="No Plus, peça ao tutor uma explicação diferente da mesma questão, quantas vezes precisar."
             />
           </div>
         </div>
@@ -202,7 +208,7 @@ export default function Inicio({
           />
           <Diferencial
             titulo="Tutor com IA focado na questão"
-            texto="O tutor responde sobre a questão da tela e é proibido de inventar artigo ou súmula."
+            texto="No plano Plus, o tutor responde sobre a questão da tela e é proibido de inventar artigo ou súmula."
           />
           <Diferencial
             titulo="Simulado e evolução"
@@ -269,44 +275,44 @@ export default function Inicio({
               </button>
             </div>
 
-            {mensal ? (
-              <div className="qb-card flex flex-col p-5 ring-2 ring-brand-600">
+            {basico ? (
+              <div className="qb-card flex flex-col p-5">
                 <div className="flex items-center justify-between gap-2">
-                  <h3 className="text-sm font-bold text-ink-900">{mensal.nome}</h3>
-                  <span className="qb-chip bg-brand-700 text-white">recomendado</span>
+                  <h3 className="text-sm font-bold text-ink-900">{basico.nome}</h3>
+                  <span className="qb-chip bg-ink-100 text-ink-600">1 certame</span>
                 </div>
                 <p className="mt-2 break-words text-2xl font-extrabold text-brand-800">
-                  R$ {(mensal.valorCentavos / 100).toFixed(2).replace('.', ',')}
+                  R$ {(basico.valorCentavos / 100).toFixed(2).replace('.', ',')}
                   <span className="text-sm font-semibold text-ink-500">/mês</span>
                 </p>
                 <ul className="mt-3 space-y-1.5 text-sm text-ink-600">
-                  <li>• questões ilimitadas</li>
-                  <li>• tutor com IA sem limite</li>
-                  <li>• simulados e evolução completa</li>
+                  <li>• 1 certame contratado</li>
+                  <li>• questões e materiais do certame</li>
+                  <li>• Tutor de IA no Plus</li>
                 </ul>
-                <button type="button" onClick={onCriarConta} className="qb-btn mt-4 w-full">
-                  Assinar
+                <button type="button" onClick={onCriarConta} className="qb-btn-ghost mt-4 w-full">
+                  Assinar o Básico
                 </button>
               </div>
             ) : null}
 
-            {anual ? (
-              <div className="qb-card flex flex-col p-5">
+            {plus ? (
+              <div className="qb-card flex flex-col p-5 ring-2 ring-brand-600">
                 <div className="flex items-center justify-between gap-2">
-                  <h3 className="text-sm font-bold text-ink-900">{anual.nome}</h3>
-                  <span className="qb-chip bg-accent-100 text-accent-800">economia</span>
+                  <h3 className="text-sm font-bold text-ink-900">{plus.nome}</h3>
+                  <span className="qb-chip bg-brand-700 text-white">recomendado</span>
                 </div>
                 <p className="mt-2 break-words text-2xl font-extrabold text-brand-800">
-                  R$ {(anual.valorCentavos / 100).toFixed(2).replace('.', ',')}
-                  <span className="text-sm font-semibold text-ink-500">/ano</span>
+                  R$ {(plus.valorCentavos / 100).toFixed(2).replace('.', ',')}
+                  <span className="text-sm font-semibold text-ink-500">/mês</span>
                 </p>
                 <ul className="mt-3 space-y-1.5 text-sm text-ink-600">
-                  <li>• tudo do mensal</li>
-                  <li>• {mensal ? economia(mensal, anual) : 'economia no ano'}</li>
-                  <li>• um pagamento só</li>
+                  <li>• até 3 certames no escopo</li>
+                  <li>• Tutor de IA com cota diária</li>
+                  <li>• questões e materiais dos certames</li>
                 </ul>
                 <button type="button" onClick={onCriarConta} className="qb-btn mt-4 w-full">
-                  Assinar
+                  Assinar o Plus
                 </button>
               </div>
             ) : null}
@@ -331,11 +337,11 @@ export default function Inicio({
             />
             <Pergunta
               pergunta="Tem tutor de IA?"
-              resposta="Sim: ele responde dúvidas sobre a questão em estudo, com foco na letra da lei."
+              resposta="Sim, no plano Plus: ele responde dúvidas sobre a questão em estudo, com foco na letra da lei."
             />
             <Pergunta
               pergunta="Como é o pagamento?"
-              resposta="Mercado Pago (Pix ou cartão); o acesso PRO é liberado automaticamente após a confirmação."
+              resposta="Mercado Pago (Pix ou cartão); o acesso ao plano é liberado automaticamente após a confirmação."
             />
           </div>
         </div>
@@ -431,13 +437,4 @@ function Pergunta({ pergunta, resposta }: { pergunta: string; resposta: string }
       <p className="mt-1 text-sm leading-relaxed text-ink-600">{resposta}</p>
     </div>
   )
-}
-
-/** "economize R$ X no ano" comparando 12 meses com o plano anual. */
-function economia(mensal: Plano, anual: Plano): string {
-  const diferenca = mensal.valorCentavos * 12 - anual.valorCentavos
-  if (diferenca <= 0) {
-    return 'melhor preço do ano'
-  }
-  return `economize R$ ${(diferenca / 100).toFixed(2).replace('.', ',')} no ano`
 }

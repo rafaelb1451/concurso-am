@@ -41,16 +41,18 @@ public class MaterialController {
 
     @GetMapping
     public List<Dtos.MaterialResumoView> listar(@RequestParam(required = false) String concurso,
+            @RequestAttribute(value = AuthInterceptor.ATTR_USUARIO_ID, required = false) Long usuarioId,
             jakarta.servlet.http.HttpServletRequest requisicao) {
         limiter.exigir("materiais:" + ClienteIp.de(requisicao), 120);
-        return materiais.listar(Parametros.concurso(concurso));
+        return materiais.listar(usuarioId, Parametros.concurso(concurso));
     }
 
     @GetMapping("/{slug}")
     public Dtos.MaterialView buscar(@PathVariable String slug,
+            @RequestAttribute(value = AuthInterceptor.ATTR_USUARIO_ID, required = false) Long usuarioId,
             jakarta.servlet.http.HttpServletRequest requisicao) {
         limiter.exigir("materiais:" + ClienteIp.de(requisicao), 120);
-        return materiais.buscar(Parametros.slug(slug));
+        return materiais.buscar(usuarioId, Parametros.slug(slug));
     }
 
     /**
@@ -61,7 +63,7 @@ public class MaterialController {
     public Dtos.MapaMentalView mapaMental(@PathVariable String slug,
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
         limiter.exigir("material-mapa:" + usuarioId, EXPORTACOES_POR_MINUTO);
-        MaterialEstudo material = materiais.entidade(Parametros.slug(slug));
+        MaterialEstudo material = materiais.entidade(Parametros.slug(slug), usuarioId);
         MaterialPdfService.MapaMental mapa = pdf.mapa(material);
         return new Dtos.MapaMentalView(
                 material.getTitulo(),
@@ -77,7 +79,7 @@ public class MaterialController {
             @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
         limiter.exigir("material-pdf:" + usuarioId, EXPORTACOES_POR_MINUTO);
         String slugLimpo = Parametros.slug(slug);
-        MaterialEstudo material = materiais.entidade(slugLimpo);
+        MaterialEstudo material = materiais.entidade(slugLimpo, usuarioId);
         byte[] conteudo = pdf.pdf(material, pdf.amostras(material));
         String arquivo = slugLimpo.replace("\"", "") + ".pdf";
         return ResponseEntity.ok()

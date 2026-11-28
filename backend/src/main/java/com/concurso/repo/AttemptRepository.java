@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.time.Instant;
+import java.util.Collection;
 import java.util.List;
 
 public interface AttemptRepository extends JpaRepository<Attempt, Long> {
@@ -36,6 +37,26 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
                                         @Param("concurso") String concurso,
                                         @Param("banca") String banca);
 
+    /** Desempenho somando todos os certames do escopo do plano. */
+    @Query(value = """
+            SELECT q.materia AS materia, COUNT(a.id) AS respondidas,
+                   SUM(CASE WHEN a.acertou = TRUE THEN 1 ELSE 0 END) AS acertos
+            FROM attempts a
+            JOIN questions q ON q.id = a.question_id
+            WHERE a.usuario_id = :usuarioId
+              AND EXISTS (
+                  SELECT 1
+                  FROM question_concursos qc
+                  WHERE qc.question_id = q.id AND qc.concurso IN (:escopos)
+              )
+              AND (:banca IS NULL OR :banca = '' OR UPPER(q.banca) = UPPER(:banca))
+            GROUP BY q.materia
+            ORDER BY COUNT(a.id) DESC
+            """, nativeQuery = true)
+    List<MateriaStats> findMateriaStatsPorEscopo(@Param("usuarioId") Long usuarioId,
+                                                 @Param("escopos") Collection<String> escopos,
+                                                 @Param("banca") String banca);
+
     /** Serie diaria de respostas do usuario (para o grafico de evolucao). */
     @Query(value = """
             SELECT CAST(a.criada_em AS DATE) AS dia, COUNT(a.id) AS respondidas,
@@ -60,6 +81,30 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
                                             @Param("materia") String materia,
                                             @Param("banca") String banca,
                                             @Param("inicio") Instant inicio);
+
+    /** Serie diaria restrita aos certames do plano. */
+    @Query(value = """
+            SELECT CAST(a.criada_em AS DATE) AS dia, COUNT(a.id) AS respondidas,
+                   SUM(CASE WHEN a.acertou = TRUE THEN 1 ELSE 0 END) AS acertos
+            FROM attempts a
+            JOIN questions q ON q.id = a.question_id
+            WHERE a.usuario_id = :usuarioId
+              AND a.criada_em >= :inicio
+              AND (:materia IS NULL OR :materia = '' OR q.materia = :materia)
+              AND EXISTS (
+                  SELECT 1
+                  FROM question_concursos qc
+                  WHERE qc.question_id = q.id AND qc.concurso IN (:escopos)
+              )
+              AND (:banca IS NULL OR :banca = '' OR UPPER(q.banca) = UPPER(:banca))
+            GROUP BY CAST(a.criada_em AS DATE)
+            ORDER BY CAST(a.criada_em AS DATE)
+            """, nativeQuery = true)
+    List<EvolucaoDiaria> findEvolucaoDiariaPorEscopo(@Param("usuarioId") Long usuarioId,
+                                                     @Param("escopos") Collection<String> escopos,
+                                                     @Param("materia") String materia,
+                                                     @Param("banca") String banca,
+                                                     @Param("inicio") Instant inicio);
 
     /** Atribui as respostas legadas (sem dono) ao usuario administrador. */
     @Modifying

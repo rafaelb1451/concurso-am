@@ -236,4 +236,30 @@ describe('Certames — mapa mental e PDF', () => {
       await within(dialogo).findByText('Os ramos deste mapa mental ainda não foram publicados.'),
     ).toBeInTheDocument()
   })
+
+  it('bloqueia certames fora do escopo do plano com tooltip e CTA do Plus', async () => {
+    const user = userEvent.setup()
+    const onConhecerPlus = vi.fn()
+    mockFetch((url) => {
+      if (url.startsWith('/api/materiais?')) return jsonResponse(materiais)
+      throw new Error(`rota não mockada: ${url}`)
+    })
+
+    render(
+      <Certames
+        concursos={concursos}
+        certamesContratados={['CREA-AM']}
+        onConhecerPlus={onConhecerPlus}
+        onEstudar={vi.fn()}
+      />,
+    )
+
+    expect(await screen.findByRole('button', { name: /CREA-AM/ })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /PM-AM/ })).not.toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Fora do seu plano' })).toBeInTheDocument()
+    expect(screen.getByTitle(/PM-AM está fora do seu plano/)).toBeInTheDocument()
+
+    await user.click(screen.getAllByRole('button', { name: 'Conheça o Plus' })[0])
+    expect(onConhecerPlus).toHaveBeenCalledTimes(1)
+  })
 })

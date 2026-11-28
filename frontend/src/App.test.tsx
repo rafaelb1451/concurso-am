@@ -2,6 +2,7 @@ import { fireEvent, render, screen, waitFor, within } from '@testing-library/rea
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
+import type { AssinaturaAtual } from './api'
 import {
   answer,
   bancas,
@@ -24,10 +25,18 @@ beforeEach(() => {
   localStorage.setItem('qb_token', 'token-teste')
 })
 
-function rotearApi(responder = () => answer()) {
+function rotearApi(
+  responder = () => answer(),
+  assinatura: AssinaturaAtual | null = null,
+) {
   return mockFetch((url, init) => {
     if (url === '/api/usuario') {
       return jsonResponse({ id: 1, nome: 'Aluno Teste', email: 'teste@qb.local', admin: false, emailVerificado: true })
+    }
+    if (url === '/api/assinatura') {
+      return assinatura
+        ? jsonResponse(assinatura)
+        : jsonResponse({ message: 'não encontrado' }, false, 404)
     }
     if (url === '/api/bancas') return jsonResponse(bancas)
     if (url === '/api/concursos') return jsonResponse(concursos)
@@ -256,6 +265,35 @@ describe('App', () => {
 
     fireEvent.keyDown(document, { key: 'Escape' })
     await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument())
+  })
+
+  it('mostra o badge do plano e esconde certames fora do escopo nos filtros', async () => {
+    const assinatura: AssinaturaAtual = {
+      status: 'ATIVA',
+      plano: {
+        codigo: 'BASICO',
+        nome: 'Básico',
+        valorCentavos: 2990,
+        ciclo: 'MENSAL',
+        limiteDiarioQuestoes: -1,
+        certamesMaximos: 1,
+        tutorIa: false,
+      },
+      periodoFim: null,
+      certames: ['PM-AM'],
+      tutorIa: false,
+      tutorUso: { usado: 0, cota: 0 },
+      podeTrocarCertame: true,
+    }
+    rotearApi(() => answer(), assinatura)
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Escolha a banca e o que estudar' })
+
+    expect(await screen.findByLabelText('Plano Básico: 1 certame ativo')).toBeInTheDocument()
+    await screen.findByRole('option', { name: /PM-AM/ })
+    expect(screen.queryByRole('option', { name: /PC-AM/ })).not.toBeInTheDocument()
+    expect(screen.queryByRole('option', { name: /CREA-AM/ })).not.toBeInTheDocument()
   })
 
   it('mostra mensagem amigável quando o servidor está fora', async () => {

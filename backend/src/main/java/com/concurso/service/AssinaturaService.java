@@ -1,10 +1,12 @@
 package com.concurso.service;
 
 import com.concurso.domain.Assinatura;
+import com.concurso.domain.AssinaturaCertame;
 import com.concurso.domain.EventoPagamento;
 import com.concurso.domain.Plano;
 import com.concurso.domain.StatusAssinatura;
 import com.concurso.integration.payment.PaymentGateway;
+import com.concurso.repo.AssinaturaCertameRepository;
 import com.concurso.repo.AssinaturaRepository;
 import com.concurso.repo.EventoPagamentoRepository;
 import com.concurso.repo.PlanoRepository;
@@ -41,15 +43,18 @@ public class AssinaturaService {
     private final PlanoRepository planos;
     private final AssinaturaRepository assinaturas;
     private final EventoPagamentoRepository eventos;
+    private final AssinaturaCertameRepository certames;
     private final String urlApp;
 
     public AssinaturaService(PaymentGateway gateway, PlanoRepository planos,
                             AssinaturaRepository assinaturas, EventoPagamentoRepository eventos,
+                            AssinaturaCertameRepository certames,
                             @Value("${concurso.app.url:http://localhost:5173}") String urlApp) {
         this.gateway = gateway;
         this.planos = planos;
         this.assinaturas = assinaturas;
         this.eventos = eventos;
+        this.certames = certames;
         this.urlApp = urlApp;
     }
 
@@ -107,10 +112,12 @@ public class AssinaturaService {
     /**
      * Cria o checkout hospedado para um plano pago e guarda a assinatura como PENDENTE.
      *
+     * @param certamesPedidos certames escolhidos no checkout; validados pelo limite do plano
      * @return URL da página de pagamento
      */
     @Transactional
-    public String iniciarCheckout(Long usuarioId, Long planoId, PaymentGateway.DadosCliente cliente) {
+    public String iniciarCheckout(Long usuarioId, Long planoId, java.util.List<String> certamesPedidos,
+                                  PaymentGateway.DadosCliente cliente) {
         if (!gateway.configurado()) {
             throw new AuthException(HttpStatus.SERVICE_UNAVAILABLE,
                     "Pagamento indisponivel no momento. Tente mais tarde.");
@@ -120,6 +127,8 @@ public class AssinaturaService {
         if (!plano.pago() || !plano.isAtivo()) {
             throw new IllegalArgumentException("Este plano nao pode ser assinado.");
         }
+        // Validacao server-side ANTES de criar a cobranca: quantidade e formato dos certames.
+        java.util.List<String> escolhidos = RegrasCertame.validar(plano, certamesPedidos);
 
         String referencia = "usuario:" + usuarioId + ":plano:" + plano.getCodigo();
         PaymentGateway.CheckoutCriado checkout = gateway.criarCheckout(new PaymentGateway.DadosCheckout(
@@ -141,6 +150,11 @@ public class AssinaturaService {
         assinatura.setGatewayCheckoutId(checkout.id());
         assinatura.setStatus(StatusAssinatura.PENDENTE);
         assinaturas.save(assinatura);
+
+        // A PENDENTE ja herda a escolha: quando o webhook ativar, o escopo ja esta definido.
+        for (String concurso : escolhidos) {
+            certames.save(new AssinaturaCertame(assinatura.getId(), concurso));
+        }
 
         return checkout.url();
     }

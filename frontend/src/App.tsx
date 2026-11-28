@@ -3,6 +3,7 @@ import {
   api,
   ApiError,
   type Answer,
+  type AssinaturaAtual,
   type Auth as AuthData,
   type Banca,
   type Concurso,
@@ -18,6 +19,7 @@ import ContaSeguranca from './ContaSeguranca'
 import SiteHeader, { SiteFooter, type PaginaPublica } from './SiteHeader'
 import Landing from './Inicio'
 import PraticaGratis from './PraticaGratis'
+import { certamesDaAssinatura, tutorIaDaAssinatura } from './plano'
 import { ErrorBanner, LoadingState } from './ui'
 
 // Abas pesadas só carregam quando o aluno abre a seção (code splitting).
@@ -35,6 +37,7 @@ const LETRAS = ['A', 'B', 'C', 'D', 'E']
 export default function App() {
   const [usuario, setUsuario] = useState<Usuario | null>(null)
   const [checandoSessao, setChecandoSessao] = useState(true)
+  const [assinatura, setAssinatura] = useState<AssinaturaAtual | null>(null)
   const [paginaPublica, setPaginaPublica] = useState<PaginaPublica>('inicio')
   const [mostrarAuth, setMostrarAuth] = useState(false)
   /** Se o login foi aberto pelo botão "Assinar", volta direto para Planos. */
@@ -80,6 +83,26 @@ export default function App() {
       })
       .finally(() => setChecandoSessao(false))
   }, [])
+
+  // Plano e escopo por certame alimentam badge, filtros e bloqueios. Se o endpoint
+  // ainda não existir (backend antigo), a UI segue sem escopo (FREE).
+  useEffect(() => {
+    if (!usuario) {
+      setAssinatura(null)
+      return
+    }
+    let ativo = true
+    api.assinatura()
+      .then((atual) => {
+        if (ativo) setAssinatura(atual)
+      })
+      .catch(() => {
+        if (ativo) setAssinatura(null)
+      })
+    return () => {
+      ativo = false
+    }
+  }, [usuario])
 
   // Abas e páginas públicas viram entradas no histórico: o "voltar" do navegador
   // percorre o que o usuário abriu e, na primeira entrada, volta à página inicial
@@ -142,6 +165,7 @@ export default function App() {
     } finally {
       localStorage.removeItem('qb_token')
       setUsuario(null)
+      setAssinatura(null)
       setDesempenho(null)
       setFase('inicio')
       setAba('treino')
@@ -250,6 +274,27 @@ export default function App() {
     resetSessao()
     trocarAba('treino')
   }
+
+  const certamesAtivos = useMemo(() => certamesDaAssinatura(assinatura), [assinatura])
+  const concursosVisiveis = useMemo(() => {
+    // Vazio = FREE/sem escopo: mantém o comportamento anterior.
+    if (certamesAtivos.length === 0) return concursos
+    return concursos.filter(
+      (concurso) => concurso.id === 'TODOS' || certamesAtivos.includes(concurso.id),
+    )
+  }, [concursos, certamesAtivos])
+  const tutorIa = assinatura ? tutorIaDaAssinatura(assinatura) : undefined
+
+  // Se a assinatura carregou depois do usuário já ter escolhido um filtro fora do
+  // escopo, volta para "Todos" em vez de deixar uma seleção que o backend recusaria.
+  useEffect(() => {
+    if (certamesAtivos.length === 0) return
+    if (concurso !== 'TODOS' && !certamesAtivos.includes(concurso)) {
+      setConcurso('TODOS')
+      setMateria('')
+      setAssunto('')
+    }
+  }, [certamesAtivos, concurso])
 
   const materias = useMemo(() => [...new Set(topico.map((t) => t.materia))].sort(), [topico])
   const assuntos = useMemo(
@@ -399,6 +444,7 @@ export default function App() {
       <AppHeader
         usuario={usuario}
         desempenho={desempenho}
+        assinatura={assinatura}
         aba={aba}
         onAba={trocarAba}
         onSair={() => void sair()}
@@ -416,14 +462,22 @@ export default function App() {
         {erro ? <ErrorBanner className="mb-4">{erro}</ErrorBanner> : null}
 
         <Suspense fallback={<LoadingState label="Abrindo seção…" />}>
-          {aba === 'fixacao' ? <Fixacao banca={banca} concurso={concurso} /> : null}
+          {aba === 'fixacao' ? (
+            <Fixacao
+              banca={banca}
+              concurso={concurso}
+              tutorIa={tutorIa}
+              tutorUso={assinatura?.tutorUso ?? null}
+              onConhecerPlus={() => trocarAba('planos')}
+            />
+          ) : null}
 
           {aba === 'simulado' ? (
             <Simulado
               bancaInicial={banca}
               concursoInicial={concurso}
               bancas={bancas}
-              concursos={concursos}
+              concursos={concursosVisiveis}
             />
           ) : null}
 
@@ -432,7 +486,7 @@ export default function App() {
               banca={banca}
               concurso={concurso}
               bancas={bancas}
-              concursos={concursos}
+              concursos={concursosVisiveis}
               topicos={topico}
               onBanca={trocarBanca}
               onConcurso={trocarConcurso}
@@ -444,6 +498,8 @@ export default function App() {
               concursos={concursos}
               carregandoConcursos={carregandoFiltros}
               concursosIndisponiveis={concursosIndisponiveis}
+              certamesContratados={certamesAtivos}
+              onConhecerPlus={() => trocarAba('planos')}
               onEstudar={estudarCertame}
               onSimular={simularCertame}
             />
@@ -456,6 +512,9 @@ export default function App() {
           {aba === 'conta' ? (
             <ContaSeguranca
               usuario={usuario}
+              assinatura={assinatura}
+              onAssinaturaAtualizada={setAssinatura}
+              onIrPlanos={() => trocarAba('planos')}
               onSair={() => {
                 localStorage.removeItem('qb_token')
                 setUsuario(null)
@@ -467,7 +526,7 @@ export default function App() {
           {aba === 'treino' && fase === 'inicio' ? (
             <TreinoInicio
               bancas={bancas}
-              concursos={concursos}
+              concursos={concursosVisiveis}
               banca={banca}
               concurso={concurso}
               carregandoFiltros={carregandoFiltros}
@@ -535,6 +594,7 @@ export default function App() {
         aberto={maisAberto}
         onClose={() => setMaisAberto(false)}
         usuario={usuario}
+        assinatura={assinatura}
         aba={aba}
         onAba={trocarAba}
         onSair={() => void sair()}

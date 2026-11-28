@@ -32,11 +32,19 @@ class SimuladoServiceTest {
     @Mock
     private AttemptRepository attempts;
 
+    @Mock
+    private AcessoService acesso;
+
     private SimuladoService service;
 
     @BeforeEach
     void setUp() {
-        service = new SimuladoService(questions, attempts);
+        org.mockito.Mockito.lenient().when(acesso.certamesDe(org.mockito.ArgumentMatchers.nullable(Long.class)))
+                .thenReturn(Set.of());
+        org.mockito.Mockito.lenient().when(acesso.questaoNoEscopo(
+                        org.mockito.ArgumentMatchers.nullable(Long.class), org.mockito.ArgumentMatchers.any()))
+                .thenReturn(true);
+        service = new SimuladoService(questions, attempts, acesso);
     }
 
     @Test

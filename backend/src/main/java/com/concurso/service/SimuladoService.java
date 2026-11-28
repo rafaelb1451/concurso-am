@@ -33,6 +33,7 @@ public class SimuladoService {
 
     private final QuestionRepository questions;
     private final com.concurso.repo.AttemptRepository attempts;
+    private final AcessoService acesso;
     private final Random random = new Random();
 
     /** Distribuição por matéria, na ordem do caderno. */
@@ -61,9 +62,11 @@ public class SimuladoService {
         GRADE.put("PC-AM", pc);
     }
 
-    public SimuladoService(QuestionRepository questions, com.concurso.repo.AttemptRepository attempts) {
+    public SimuladoService(QuestionRepository questions, com.concurso.repo.AttemptRepository attempts,
+                           AcessoService acesso) {
         this.questions = questions;
         this.attempts = attempts;
+        this.acesso = acesso;
     }
 
     /**
@@ -92,6 +95,15 @@ public class SimuladoService {
             Question q = porId.get(r.questaoId());
             if (q == null) {
                 continue;
+            }
+            // Nao adianta enviar id de questao de outro certame: o gabarito e a tentativa
+            // so' valem para o escopo contratado.
+            if (!acesso.questaoNoEscopo(usuarioId, q.getConcursos())) {
+                acesso.auditar(usuarioId, null, AcessoService.RECURSO_CERTAME,
+                        q.getConcursos().stream().findFirst().orElse(null), false,
+                        "correcao com questao fora do plano");
+                throw new AuthException(org.springframework.http.HttpStatus.FORBIDDEN,
+                        "O simulado contém questões de um certame fora do seu plano.");
             }
             boolean acertou = r.alternativa() != null && r.alternativa().equals(q.getCorreta());
             if (acertou) {
@@ -124,14 +136,36 @@ public class SimuladoService {
         return new Dtos.CorrecaoView(acertos, total, percentual, porMateria, itens);
     }
 
+    /** Compatibilidade para chamadas internas sem escopo (testes/legado). */
+    public Dtos.SimuladoView montar(String concurso, String banca, Integer quantidade) {
+        return montar(null, concurso, banca, quantidade);
+    }
+
     /**
      * Monta o simulado. {@code quantidade == null} preserva o caderno inteiro do certame
      * (60/80); com quantidade, o tamanho e' limitado a 1..50 e a grade e' redistribuida.
+     *
+     * <p>Com plano escopado, o certame pedido precisa estar contratado. Sem certame pedido, usa
+     * o único contratado ou {@code TODOS} limitado ao escopo.</p>
      */
     @Transactional(readOnly = true)
-    public Dtos.SimuladoView montar(String concurso, String banca, Integer quantidade) {
-        String alvo = concurso == null || concurso.isBlank()
-                ? "PM-AM" : concurso.trim().toUpperCase(java.util.Locale.ROOT);
+    public Dtos.SimuladoView montar(Long usuarioId, String concurso, String banca, Integer quantidade) {
+        java.util.Set<String> escopo = acesso.certamesDe(usuarioId);
+        String alvo;
+        if (concurso == null || concurso.isBlank()) {
+            if (escopo.size() == 1) {
+                alvo = escopo.iterator().next();
+            } else if (!escopo.isEmpty()) {
+                alvo = "TODOS";
+            } else {
+                alvo = "PM-AM";
+            }
+        } else {
+            alvo = concurso.trim().toUpperCase(java.util.Locale.ROOT);
+            if (!"TODOS".equals(alvo)) {
+                acesso.exigirEscopo(usuarioId, java.util.Set.of(alvo));
+            }
+        }
         String filtroBanca = normalizarBanca(banca);
         Map<String, Integer> grade = GRADE.get(alvo);
 
@@ -141,7 +175,11 @@ public class SimuladoService {
 
         List<Question> elegiveis = new ArrayList<>();
         for (Question q : questions.findAll()) {
-            boolean doConcurso = "TODOS".equals(alvo) || q.getConcursos().contains(alvo);
+            boolean doConcurso = "TODOS".equals(alvo)
+                    ? escopo.isEmpty() || q.getConcursos().stream()
+                            .map(Concursos::normalizar)
+                            .anyMatch(escopo::contains)
+                    : q.getConcursos().contains(alvo);
             if (doConcurso && atendeBanca(q, filtroBanca)) {
                 elegiveis.add(q);
             }

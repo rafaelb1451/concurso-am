@@ -32,6 +32,14 @@ public class AuthInterceptor implements HandlerInterceptor {
             return true;
         }
         if (publico(caminho, request.getMethod())) {
+            // Material publico continua anonimo; se houver token valido, aproveitamos para
+            // aplicar o escopo do plano na listagem/detalhe (sem exigir login).
+            if ("GET".equalsIgnoreCase(request.getMethod()) && materialPublico(caminho)) {
+                auth.autenticar(extrairToken(request)).ifPresent(usuario -> {
+                    request.setAttribute(ATTR_USUARIO_ID, usuario.getId());
+                    request.setAttribute(ATTR_ADMIN, usuario.isAdmin());
+                });
+            }
             return true;
         }
 

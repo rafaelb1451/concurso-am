@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface QuestionRepository extends JpaRepository<Question, Long> {
@@ -26,6 +27,27 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
             """, nativeQuery = true)
     long countByConcurso(@Param("concurso") String concurso);
 
+    /** Total de questoes distintas que pertencem a pelo menos um dos certames do escopo. */
+    @Query(value = """
+            SELECT COUNT(DISTINCT q.id)
+            FROM questions q
+            WHERE EXISTS (
+                SELECT 1
+                FROM question_concursos qc
+                WHERE qc.question_id = q.id AND qc.concurso IN (:escopos)
+            )
+            """, nativeQuery = true)
+    long countByConcursos(@Param("escopos") Collection<String> escopos);
+
+    /** Certames distintos existentes hoje (usado como fallback de assinaturas legadas). */
+    @Query(value = """
+            SELECT DISTINCT qc.concurso
+            FROM question_concursos qc
+            WHERE qc.concurso IS NOT NULL AND TRIM(qc.concurso) <> ''
+            ORDER BY qc.concurso
+            """, nativeQuery = true)
+    List<String> findConcursosDistintos();
+
     /**
      * Certames existentes no banco, com a quantidade de questoes de cada um. A lista deixou de ser
      * fixa no codigo: agrupa a tabela de vinculo, entao um concurso novo aparece sozinho.
@@ -38,6 +60,16 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
             """, nativeQuery = true)
     List<ConcursoCount> findConcursoCounts();
 
+    /** Como {@link #findConcursoCounts()}, mas restrito aos certames do plano. */
+    @Query(value = """
+            SELECT qc.concurso AS concurso, COUNT(DISTINCT qc.question_id) AS total
+            FROM question_concursos qc
+            WHERE qc.concurso IN (:escopos)
+            GROUP BY qc.concurso
+            ORDER BY COUNT(DISTINCT qc.question_id) DESC, qc.concurso
+            """, nativeQuery = true)
+    List<ConcursoCount> findConcursoCountsPorEscopo(@Param("escopos") Collection<String> escopos);
+
     /** Bancas distintas do banco, da mais cobrada para a menos cobrada. */
     @Query(value = """
             SELECT TRIM(q.banca) AS banca, COUNT(*) AS questoes
@@ -47,6 +79,21 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
             ORDER BY COUNT(*) DESC, TRIM(q.banca)
             """, nativeQuery = true)
     List<BancaCount> findBancaCounts();
+
+    /** Como {@link #findBancaCounts()}, mas restrito aos certames do plano. */
+    @Query(value = """
+            SELECT TRIM(q.banca) AS banca, COUNT(*) AS questoes
+            FROM questions q
+            WHERE q.banca IS NOT NULL AND TRIM(q.banca) <> ''
+              AND EXISTS (
+                  SELECT 1
+                  FROM question_concursos qc
+                  WHERE qc.question_id = q.id AND qc.concurso IN (:escopos)
+              )
+            GROUP BY TRIM(q.banca)
+            ORDER BY COUNT(*) DESC, TRIM(q.banca)
+            """, nativeQuery = true)
+    List<BancaCount> findBancaCountsPorEscopo(@Param("escopos") Collection<String> escopos);
 
     @Query(value = """
             SELECT q.materia AS materia, q.assunto AS assunto, COUNT(*) AS total
@@ -63,6 +110,22 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
             """, nativeQuery = true)
     List<TopicCount> findTopicCounts(@Param("concurso") String concurso,
                                      @Param("banca") String banca);
+
+    /** Topicos somando todos os certames contratados (quando o aluno nao escolhe um so). */
+    @Query(value = """
+            SELECT q.materia AS materia, q.assunto AS assunto, COUNT(*) AS total
+            FROM questions q
+            WHERE EXISTS (
+                SELECT 1
+                FROM question_concursos qc
+                WHERE qc.question_id = q.id AND qc.concurso IN (:escopos)
+            )
+              AND (:banca IS NULL OR :banca = '' OR UPPER(q.banca) = UPPER(:banca))
+            GROUP BY q.materia, q.assunto
+            ORDER BY q.materia, q.assunto
+            """, nativeQuery = true)
+    List<TopicCount> findTopicCountsPorEscopo(@Param("escopos") Collection<String> escopos,
+                                              @Param("banca") String banca);
 
     interface TopicCount {
         String getMateria();

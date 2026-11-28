@@ -18,7 +18,13 @@ import jakarta.persistence.Table;
 public class Plano {
 
     public static final String FREE = "FREE";
+    public static final String BASICO = "BASICO";
+    public static final String PLUS = "PLUS";
+
+    /** Codigos antigos, mantidos apenas para leitura de bases que ainda nao migraram. */
+    @Deprecated
     public static final String PRO_MENSAL = "PRO_MENSAL";
+    @Deprecated
     public static final String PRO_ANUAL = "PRO_ANUAL";
 
     @Id
@@ -42,6 +48,18 @@ public class Plano {
     /** -1 = ilimitado. */
     @Column(name = "limite_diario_questoes", nullable = false)
     private int limiteDiarioQuestoes;
+
+    /** Quantidade maxima de certames contratados; 0 = plano sem escopo (FREE). */
+    @Column(name = "certames_maximos", nullable = false)
+    private int certamesMaximos;
+
+    /** Tutor de IA liberado? Apenas o PLUS liga esta flag. */
+    @Column(name = "tutor_ia", nullable = false)
+    private boolean tutorIa;
+
+    /** Perguntas diarias ao tutor; -1 = ilimitado e 0 = sem tutor. */
+    @Column(name = "cota_tutor_diaria", nullable = false)
+    private int cotaTutorDiaria;
 
     @Column(nullable = false)
     private boolean ativo = true;
@@ -90,6 +108,30 @@ public class Plano {
         this.limiteDiarioQuestoes = limiteDiarioQuestoes;
     }
 
+    public int getCertamesMaximos() {
+        return certamesMaximos;
+    }
+
+    public void setCertamesMaximos(int certamesMaximos) {
+        this.certamesMaximos = certamesMaximos;
+    }
+
+    public boolean isTutorIa() {
+        return tutorIa;
+    }
+
+    public void setTutorIa(boolean tutorIa) {
+        this.tutorIa = tutorIa;
+    }
+
+    public int getCotaTutorDiaria() {
+        return cotaTutorDiaria;
+    }
+
+    public void setCotaTutorDiaria(int cotaTutorDiaria) {
+        this.cotaTutorDiaria = cotaTutorDiaria;
+    }
+
     public boolean isAtivo() {
         return ativo;
     }
@@ -100,6 +142,11 @@ public class Plano {
 
     public boolean ilimitado() {
         return limiteDiarioQuestoes < 0;
+    }
+
+    /** Plano com escopo por certame (todo plano pago). */
+    public boolean escopado() {
+        return pago() && certamesMaximos > 0;
     }
 
     public boolean pago() {

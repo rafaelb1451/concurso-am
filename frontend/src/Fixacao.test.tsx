@@ -38,4 +38,23 @@ describe('Fixacao', () => {
     expect(await screen.findByText(/Comece uma fixação/)).toBeInTheDocument()
     expect(screen.queryByPlaceholderText('sk-...')).not.toBeInTheDocument()
   })
+
+  it('bloqueia o tutor quando tutorIa=false e oferece o CTA do Plus', async () => {
+    const user = userEvent.setup()
+    const onConhecerPlus = vi.fn()
+    mockFetch((url) => {
+      if (url === '/api/topicos?concurso=PM-AM') return jsonResponse(topicos)
+      throw new Error(`rota não mockada: ${url}`)
+    })
+
+    render(<Fixacao concurso="PM-AM" tutorIa={false} onConhecerPlus={onConhecerPlus} />)
+
+    expect(await screen.findByText('Tutor de IA exclusivo do Plus')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Enviar pergunta' })).toBeDisabled()
+    expect(screen.getByPlaceholderText('Disponível no Plus')).toBeDisabled()
+    expect(screen.queryByPlaceholderText('sk-...')).not.toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: 'Conheça o Plus' }))
+    expect(onConhecerPlus).toHaveBeenCalledTimes(1)
+  })
 })

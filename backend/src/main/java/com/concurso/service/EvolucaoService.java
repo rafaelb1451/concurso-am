@@ -11,6 +11,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 /** Evolucao no tempo e tempo de estudo por materia, tudo por usuario. */
 @Service
@@ -20,10 +21,13 @@ public class EvolucaoService {
 
     private final AttemptRepository attempts;
     private final SessaoEstudoRepository estudos;
+    private final AcessoService acesso;
 
-    public EvolucaoService(AttemptRepository attempts, SessaoEstudoRepository estudos) {
+    public EvolucaoService(AttemptRepository attempts, SessaoEstudoRepository estudos,
+                           AcessoService acesso) {
         this.attempts = attempts;
         this.estudos = estudos;
+        this.acesso = acesso;
     }
 
     @Transactional(readOnly = true)
@@ -36,8 +40,18 @@ public class EvolucaoService {
         List<Dtos.EvolucaoPonto> pontos = new ArrayList<>();
         long respondidas = 0;
         long acertos = 0;
-        for (AttemptRepository.EvolucaoDiaria linha :
-                attempts.findEvolucaoDiaria(usuarioId, concurso, materia, filtroBanca, inicio)) {
+        Set<String> escopo = acesso.certamesDe(usuarioId);
+        boolean todos = concurso == null || concurso.isBlank() || "TODOS".equalsIgnoreCase(concurso);
+        List<AttemptRepository.EvolucaoDiaria> linhas;
+        if (!todos) {
+            acesso.exigirEscopo(usuarioId, Set.of(concurso));
+            linhas = attempts.findEvolucaoDiaria(usuarioId, concurso, materia, filtroBanca, inicio);
+        } else if (!escopo.isEmpty()) {
+            linhas = attempts.findEvolucaoDiariaPorEscopo(usuarioId, escopo, materia, filtroBanca, inicio);
+        } else {
+            linhas = attempts.findEvolucaoDiaria(usuarioId, concurso, materia, filtroBanca, inicio);
+        }
+        for (AttemptRepository.EvolucaoDiaria linha : linhas) {
             respondidas += linha.getRespondidas();
             acertos += linha.getAcertos();
             pontos.add(new Dtos.EvolucaoPonto(

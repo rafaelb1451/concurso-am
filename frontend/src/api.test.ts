@@ -48,13 +48,16 @@ describe('api', () => {
     const fetchMock = mockFetch((url) => {
       if (url === '/api/bancas') return jsonResponse(bancas)
       if (url === '/api/concursos') return jsonResponse(concursos)
+      if (url === '/api/concursos?catalogo=true') return jsonResponse(concursos)
       throw new Error(`rota não mockada: ${url}`)
     })
 
     expect(await api.bancas()).toEqual(bancas)
     expect(await api.concursos()).toEqual(concursos)
+    expect(await api.concursos(true)).toEqual(concursos)
     expect(fetchMock).toHaveBeenCalledWith('/api/bancas')
     expect(fetchMock).toHaveBeenCalledWith('/api/concursos')
+    expect(fetchMock).toHaveBeenCalledWith('/api/concursos?catalogo=true')
   })
 
   it('busca a lista e o conteúdo integral de materiais', async () => {
@@ -238,6 +241,36 @@ describe('api', () => {
           aceitouTermos: true,
           aceitouPrivacidade: true,
         }),
+      }),
+    )
+  })
+
+  it('envia plano e certames no checkout', async () => {
+    const fetchMock = mockFetch(() => jsonResponse({ url: 'https://mp.exemplo/checkout' }))
+
+    const resposta = await api.iniciarCheckout('PLUS', ['PM-AM', 'PC-AM'])
+
+    expect(resposta.url).toBe('https://mp.exemplo/checkout')
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/assinatura/checkout',
+      expect.objectContaining({
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ plano: 'PLUS', certames: ['PM-AM', 'PC-AM'] }),
+      }),
+    )
+  })
+
+  it('troca certames com PUT', async () => {
+    const fetchMock = mockFetch(() => jsonResponse({ ok: true }))
+
+    await api.trocarCertames(['CREA-AM'])
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      '/api/assinatura/certames',
+      expect.objectContaining({
+        method: 'PUT',
+        body: JSON.stringify({ certames: ['CREA-AM'] }),
       }),
     )
   })

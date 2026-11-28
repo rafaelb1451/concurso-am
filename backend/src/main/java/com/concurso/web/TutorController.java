@@ -1,11 +1,14 @@
 package com.concurso.web;
 
+import com.concurso.domain.Plano;
+import com.concurso.service.AcessoService;
+import com.concurso.service.AuthException;
 import com.concurso.service.DeepSeekService;
 import com.concurso.service.RateLimiter;
 import com.concurso.service.TutorCacheService;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
-import com.concurso.service.AuthException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -15,8 +18,6 @@ import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.http.HttpStatus;
-import com.concurso.service.AuthException;
 
 import java.util.Map;
 
@@ -32,11 +33,14 @@ public class TutorController {
     private final DeepSeekService tutor;
     private final TutorCacheService cache;
     private final RateLimiter limiter;
+    private final AcessoService acesso;
 
-    public TutorController(DeepSeekService tutor, TutorCacheService cache, RateLimiter limiter) {
+    public TutorController(DeepSeekService tutor, TutorCacheService cache, RateLimiter limiter,
+                           AcessoService acesso) {
         this.tutor = tutor;
         this.cache = cache;
         this.limiter = limiter;
+        this.acesso = acesso;
     }
 
     @GetMapping("/config/deepseek")
@@ -55,11 +59,29 @@ public class TutorController {
         return new Dtos.ConfigStatus(true, MODELO);
     }
 
+    /**
+     * Converte a pergunta do aluno. O gating do plano vem antes do cache/provedor: FREE e Básico
+     * recebem 403 com CTA, e o Plus respeita a cota diária. O contador só sobe após resposta útil.
+     */
     @PostMapping("/chat")
     public Dtos.ChatResposta conversar(@Valid @RequestBody Dtos.ChatRequest request,
-            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId,
+            HttpServletRequest requisicao) {
         limiter.exigir("chat:" + usuarioId, CHAT_POR_MINUTO);
-        return new Dtos.ChatResposta(cache.conversar(usuarioId, request.mensagens(), request.contexto()));
+        acesso.exigirTutor(usuarioId, ClienteIp.de(requisicao));
+        String resposta = cache.conversar(usuarioId, request.mensagens(), request.contexto());
+        if (resposta != null && !resposta.isBlank()) {
+            acesso.registrarUsoTutor(usuarioId);
+        }
+        return new Dtos.ChatResposta(resposta);
+    }
+
+    /** Uso do Tutor hoje e a cota do plano (alimenta o painel do aluno). */
+    @GetMapping("/uso-tutor")
+    public DtosAssinatura.TutorUsoView usoDoTutor(
+            @RequestAttribute(AuthInterceptor.ATTR_USUARIO_ID) Long usuarioId) {
+        Plano plano = acesso.planoDe(usuarioId);
+        return DtosAssinatura.tutorUso(plano, acesso.usadoTutorHoje(usuarioId));
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)

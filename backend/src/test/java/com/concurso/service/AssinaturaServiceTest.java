@@ -5,6 +5,7 @@ import com.concurso.domain.EventoPagamento;
 import com.concurso.domain.Plano;
 import com.concurso.domain.StatusAssinatura;
 import com.concurso.integration.payment.PaymentGateway;
+import com.concurso.repo.AssinaturaCertameRepository;
 import com.concurso.repo.AssinaturaRepository;
 import com.concurso.repo.EventoPagamentoRepository;
 import com.concurso.repo.PlanoRepository;
@@ -40,6 +41,7 @@ class AssinaturaServiceTest {
     @Mock private PlanoRepository planos;
     @Mock private AssinaturaRepository assinaturas;
     @Mock private EventoPagamentoRepository eventos;
+    @Mock private AssinaturaCertameRepository certames;
 
     private GatewayFake gateway;
     private AssinaturaService service;
@@ -47,13 +49,14 @@ class AssinaturaServiceTest {
     @BeforeEach
     void setUp() {
         gateway = new GatewayFake();
-        service = new AssinaturaService(gateway, planos, assinaturas, eventos, "https://qb.test");
+        service = new AssinaturaService(gateway, planos, assinaturas, eventos, certames, "https://qb.test");
         Plano mensal = new Plano();
-        mensal.setCodigo(Plano.PRO_MENSAL);
-        mensal.setNome("PRO mensal");
+        mensal.setCodigo(Plano.BASICO);
+        mensal.setNome("Básico");
         mensal.setCiclo("MENSAL");
         mensal.setLimiteDiarioQuestoes(-1);
         mensal.setValorCentavos(2990);
+        mensal.setCertamesMaximos(1);
         lenient().when(planos.findById(1L)).thenReturn(Optional.of(mensal));
     }
 
@@ -222,12 +225,17 @@ class AssinaturaServiceTest {
     void checkoutDevolveUrl() {
         gateway.url = "https://sandbox.asaas.com/checkout/abc";
 
-        String url = service.iniciarCheckout(7L, 1L, new PaymentGateway.DadosCliente(
+        when(assinaturas.save(any(Assinatura.class))).thenAnswer(inv -> inv.getArgument(0));
+        when(certames.save(any())).thenAnswer(inv -> inv.getArgument(0));
+
+        String url = service.iniciarCheckout(7L, 1L, java.util.List.of("PM-AM"),
+                new PaymentGateway.DadosCliente(
                 "Aluno", "aluno@teste.com", "24971563792", "11987654321",
                 "01001000", "Rua Teste", "100", "Centro"));
 
         assertThat(url).isEqualTo("https://sandbox.asaas.com/checkout/abc");
         verify(assinaturas).save(any(Assinatura.class));
+        verify(certames).save(any(com.concurso.domain.AssinaturaCertame.class));
     }
 
     /** Dublê do gateway: permite forçar respostas sem rede. */
